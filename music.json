@@ -58,14 +58,6 @@
       }
     } ]
   }, {
-    "id" : "harbor",
-    "name" : "Harbor & port",
-    "tracks" : [ ]
-  }, {
-    "id" : "bazaar",
-    "name" : "Desert bazaar",
-    "tracks" : [ ]
-  }, {
     "id" : "castle",
     "name" : "Castle & royal court",
     "tracks" : [ {
@@ -373,21 +365,6 @@
         "sourceUrl" : "https://freemusicarchive.org/music/Kevin_MacLeod/Thatched_Villagers/Living_Voyage/"
       }
     } ]
-  }, {
-    "id" : "ah-wonderland-arrival",
-    "name" : "Wonderland arrival",
-    "folder" : "Alice X Horror",
-    "tracks" : [ ]
-  }, {
-    "id" : "ah-mad-tea-party",
-    "name" : "Mad tea party",
-    "folder" : "Alice X Horror",
-    "tracks" : [ ]
-  }, {
-    "id" : "ah-wonderland-chase",
-    "name" : "Wonderland chase",
-    "folder" : "Alice X Horror",
-    "tracks" : [ ]
   } ],
   "sounds" : [ {
     "id" : "amb-rain",
@@ -698,20 +675,6 @@
       "sourceUrl" : "https://bigsoundbank.com/zombie-1-s2106.html"
     }
   }, {
-    "id" : "sfx-beast-roar",
-    "name" : "Beast roar",
-    "url" : "https://bigsoundbank.com/UPLOAD/mp3/1881.mp3",
-    "startSeconds" : 0,
-    "endSeconds" : 0,
-    "ambience" : false,
-    "attribution" : {
-      "title" : "Cat roar #1",
-      "author" : "Joseph SARDIN",
-      "license" : "CC0 1.0",
-      "licenseUrl" : "https://creativecommons.org/publicdomain/zero/1.0/",
-      "sourceUrl" : "https://bigsoundbank.com/cat-roar-1-s1881.html"
-    }
-  }, {
     "id" : "sfx-heartbeat",
     "name" : "Heartbeat",
     "url" : "https://bigsoundbank.com/UPLOAD/mp3/0243.mp3",
@@ -766,20 +729,6 @@
       "license" : "CC0 1.0",
       "licenseUrl" : "https://creativecommons.org/publicdomain/zero/1.0/",
       "sourceUrl" : "https://bigsoundbank.com/an-arrow-on-a-target-s0548.html"
-    }
-  }, {
-    "id" : "sfx-crow",
-    "name" : "Crow",
-    "url" : "https://bigsoundbank.com/UPLOAD/mp3/2764.mp3",
-    "startSeconds" : 0,
-    "endSeconds" : 0,
-    "ambience" : false,
-    "attribution" : {
-      "title" : "Crow #1",
-      "author" : "Joseph SARDIN",
-      "license" : "CC0 1.0",
-      "licenseUrl" : "https://creativecommons.org/publicdomain/zero/1.0/",
-      "sourceUrl" : "https://bigsoundbank.com/crow-1-s2764.html"
     }
   }, {
     "id" : "sfx-ghost-wail",
