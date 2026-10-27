@@ -162,6 +162,26 @@
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
     "cooldowns" : { },
+    "skills" : {
+      "acrobatics" : 2,
+      "animalHandling" : -1,
+      "arcana" : -1,
+      "athletics" : -1,
+      "deception" : 2,
+      "history" : -1,
+      "insight" : -1,
+      "intimidation" : 2,
+      "investigation" : -1,
+      "medicine" : -1,
+      "nature" : -1,
+      "perception" : -1,
+      "performance" : 2,
+      "persuasion" : 2,
+      "religion" : -1,
+      "sleightOfHand" : 2,
+      "stealth" : 2,
+      "survival" : -1
+    },
     "featureUses" : {
       "strength" : 0,
       "dexterity" : 0,
@@ -306,6 +326,26 @@
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
     "cooldowns" : { },
+    "skills" : {
+      "acrobatics" : 2,
+      "animalHandling" : 2,
+      "arcana" : -1,
+      "athletics" : -1,
+      "deception" : -1,
+      "history" : -1,
+      "insight" : 2,
+      "intimidation" : -1,
+      "investigation" : -1,
+      "medicine" : 2,
+      "nature" : -1,
+      "perception" : 2,
+      "performance" : -1,
+      "persuasion" : -1,
+      "religion" : -1,
+      "sleightOfHand" : 2,
+      "stealth" : 2,
+      "survival" : 2
+    },
     "featureUses" : {
       "strength" : 0,
       "dexterity" : 0,
@@ -427,6 +467,26 @@
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
     "cooldowns" : { },
+    "skills" : {
+      "acrobatics" : -1,
+      "animalHandling" : 2,
+      "arcana" : -1,
+      "athletics" : 2,
+      "deception" : -1,
+      "history" : -1,
+      "insight" : 2,
+      "intimidation" : -1,
+      "investigation" : -1,
+      "medicine" : 2,
+      "nature" : -1,
+      "perception" : 2,
+      "performance" : -1,
+      "persuasion" : -1,
+      "religion" : -1,
+      "sleightOfHand" : -1,
+      "stealth" : -1,
+      "survival" : 2
+    },
     "featureUses" : {
       "strength" : 0,
       "dexterity" : 0,
@@ -586,6 +646,26 @@
       "wisdom" : 0,
       "charisma" : 0,
       "anchor-round" : 100
+    },
+    "skills" : {
+      "acrobatics" : 2,
+      "animalHandling" : -1,
+      "arcana" : -1,
+      "athletics" : 2,
+      "deception" : -1,
+      "history" : -1,
+      "insight" : -1,
+      "intimidation" : -1,
+      "investigation" : -1,
+      "medicine" : -1,
+      "nature" : -1,
+      "perception" : -1,
+      "performance" : -1,
+      "persuasion" : -1,
+      "religion" : -1,
+      "sleightOfHand" : 2,
+      "stealth" : 2,
+      "survival" : -1
     },
     "featureUses" : {
       "strength" : 0,
@@ -822,97 +902,25 @@
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
     "cooldowns" : { },
-    "featureUses" : {
-      "strength" : 0,
-      "dexterity" : 0,
-      "constitution" : 0,
-      "intelligence" : 0,
-      "wisdom" : 0,
-      "charisma" : 0
-    }
-  }, {
-    "id" : "player-gorlok",
-    "name" : "Gorlok the Destroyer",
-    "classId" : "barbarian",
-    "raceId" : "goblin",
-    "level" : 5,
-    "xp" : 0,
-    "stats" : {
-      "strength" : 15,
-      "dexterity" : 15,
-      "constitution" : 15,
-      "intelligence" : 8,
-      "wisdom" : 8,
-      "charisma" : 8
-    },
-    "items" : [ {
-      "itemId" : "gorloks-giant-axe",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : true,
-      "quantity" : 1
-    }, {
-      "itemId" : "dwarven-heavy-plate",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : true,
-      "quantity" : 1
-    }, {
-      "itemId" : "handaxe",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "rations",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "torch",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "tinderbox",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    } ],
-    "spells" : [ ],
-    "passwordHash" : null,
-    "passwordSalt" : null,
-    "imagePath" : "images/players/player-gorlok.jpg",
-    "playerName" : "Unassigned",
-    "ownerUsername" : "",
-    "description" : "\nრასა: გობლინი\nსახელი: გორლოკ\nსიმაღლე: 1,52 \nაცვია: დვორფების მძიმე აბჯარი\nიარაღი: გიგანტური ცული \n",
-    "maxHitPoints" : 30,
-    "currentHitPoints" : 30,
-    "maxMana" : 0,
-    "currentMana" : 0,
-    "activeEffects" : [ ],
-    "subclass" : "",
-    "backstory" : "\nის დაიბადა გობლინების ტომში \nმისი ბავშვობა იყო რთული როგორც ყველა გობლინის\nის იყოპატარა მარა ძალიან ძლიერი და გასიებული \nის პატარა ტანკი იყო უშიშარი და ლამის უკვდავი\nწყალი მისთვის არაფერია \nცეცხლი სითბო \nხმლები ცულები და სხვა მჩხვლეტავი იარაღი მისთვის ზურგის საფხანია \nძალა კი თავზე საყრელად ქონდა რასაც გინდა ყველაფერს აწევს \nტიპი იმდენად ძლიერი აღმოჩნდა რომ დვირფს გაუჩეჩქვა თავი და აახია აბჯარი \nგიგანტებს კი მოპარა იმხელა ცული მასზე  3 ჯერ უფრო დიდი და მძიმე აღმოჩნდა \nმაგ ცულითვე დაუარა მაგ გიგანტებს \n\nტომში შეარქვეს გორლოკ გამანადგურებელი\n\nერთ დღეს ის დანჯენში წავიდა და დაასიფთავა იქაურობა, ყველაფერს დედა უტირა \nბოსის კართან რომ მივიდა და გააღო უცბათ სინათლემ დააბრმავა და მერე …\n",
-    "castingResource" : null,
-    "spellSlots" : [ ],
-    "knownBlueprints" : [ ],
-    "furnaceFuel" : 0,
-    "cooldowns" : {
-      "strength" : 0,
-      "dexterity" : 0,
-      "constitution" : 0,
-      "intelligence" : 0,
-      "wisdom" : 0,
-      "charisma" : 0
+    "skills" : {
+      "acrobatics" : 2,
+      "animalHandling" : -1,
+      "arcana" : -1,
+      "athletics" : 2,
+      "deception" : -1,
+      "history" : -1,
+      "insight" : -1,
+      "intimidation" : -1,
+      "investigation" : -1,
+      "medicine" : -1,
+      "nature" : -1,
+      "perception" : -1,
+      "performance" : -1,
+      "persuasion" : -1,
+      "religion" : -1,
+      "sleightOfHand" : 2,
+      "stealth" : 2,
+      "survival" : -1
     },
     "featureUses" : {
       "strength" : 0,
@@ -1105,6 +1113,26 @@
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
     "cooldowns" : { },
+    "skills" : {
+      "acrobatics" : -1,
+      "animalHandling" : 2,
+      "arcana" : -1,
+      "athletics" : -1,
+      "deception" : 2,
+      "history" : -1,
+      "insight" : 2,
+      "intimidation" : 2,
+      "investigation" : -1,
+      "medicine" : 2,
+      "nature" : -1,
+      "perception" : 2,
+      "performance" : 2,
+      "persuasion" : 2,
+      "religion" : -1,
+      "sleightOfHand" : -1,
+      "stealth" : -1,
+      "survival" : 2
+    },
     "featureUses" : {
       "strength" : 0,
       "dexterity" : 0,
@@ -1186,6 +1214,26 @@
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
     "cooldowns" : { },
+    "skills" : {
+      "acrobatics" : 2,
+      "animalHandling" : -1,
+      "arcana" : -1,
+      "athletics" : 2,
+      "deception" : -1,
+      "history" : -1,
+      "insight" : -1,
+      "intimidation" : -1,
+      "investigation" : -1,
+      "medicine" : -1,
+      "nature" : -1,
+      "perception" : -1,
+      "performance" : -1,
+      "persuasion" : -1,
+      "religion" : -1,
+      "sleightOfHand" : 2,
+      "stealth" : 2,
+      "survival" : -1
+    },
     "featureUses" : {
       "strength" : 0,
       "dexterity" : 0,
@@ -1554,6 +1602,26 @@
     "knownBlueprints" : [ "bp-smoke-canister", "bp-tripwire-alarm", "bp-grapnel-launcher", "bp-sticky-foam", "bp-messenger-beetle", "bp-thermal-smoke-grenade", "bp-scalding-bolts", "bp-flash-bomb", "bp-steam-jet-gauntlet", "bp-thermal-grenade", "bp-pressure-ram", "bp-steam-capsule", "bp-thermal-capsule" ],
     "furnaceFuel" : 0,
     "cooldowns" : { },
+    "skills" : {
+      "acrobatics" : 2,
+      "animalHandling" : -1,
+      "arcana" : 2,
+      "athletics" : -1,
+      "deception" : -1,
+      "history" : 2,
+      "insight" : -1,
+      "intimidation" : -1,
+      "investigation" : 2,
+      "medicine" : -1,
+      "nature" : 2,
+      "perception" : -1,
+      "performance" : -1,
+      "persuasion" : -1,
+      "religion" : 2,
+      "sleightOfHand" : 2,
+      "stealth" : 2,
+      "survival" : -1
+    },
     "featureUses" : {
       "strength" : 0,
       "dexterity" : 0,
@@ -1676,6 +1744,26 @@
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
     "cooldowns" : { },
+    "skills" : {
+      "acrobatics" : -1,
+      "animalHandling" : 2,
+      "arcana" : 2,
+      "athletics" : -1,
+      "deception" : -1,
+      "history" : 2,
+      "insight" : 2,
+      "intimidation" : -1,
+      "investigation" : 2,
+      "medicine" : 2,
+      "nature" : 2,
+      "perception" : 2,
+      "performance" : -1,
+      "persuasion" : -1,
+      "religion" : 2,
+      "sleightOfHand" : -1,
+      "stealth" : -1,
+      "survival" : 2
+    },
     "featureUses" : {
       "strength" : 0,
       "dexterity" : 0,
@@ -1912,6 +2000,26 @@
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
     "cooldowns" : { },
+    "skills" : {
+      "acrobatics" : 2,
+      "animalHandling" : 2,
+      "arcana" : 2,
+      "athletics" : -1,
+      "deception" : -1,
+      "history" : 2,
+      "insight" : 2,
+      "intimidation" : -1,
+      "investigation" : 2,
+      "medicine" : 2,
+      "nature" : 2,
+      "perception" : 2,
+      "performance" : -1,
+      "persuasion" : -1,
+      "religion" : 2,
+      "sleightOfHand" : 2,
+      "stealth" : 2,
+      "survival" : 2
+    },
     "featureUses" : {
       "strength" : 0,
       "dexterity" : 0,
