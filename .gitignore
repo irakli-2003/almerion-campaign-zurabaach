@@ -1,0 +1,5 @@
+# Written by Almerion: operating-system clutter that shouldn't be synced
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
