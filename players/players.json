@@ -304,8 +304,8 @@
       "active" : true
     }, {
       "spellId" : "primal roar",
-      "rank" : 0,
-      "active" : false
+      "rank" : 2,
+      "active" : true
     } ],
     "passwordHash" : null,
     "passwordSalt" : null,
@@ -345,12 +345,12 @@
       "animalHandling" : 5,
       "arcana" : -2,
       "athletics" : 2,
-      "deception" : 0,
+      "deception" : -1,
       "history" : -2,
       "insight" : 0,
       "intimidation" : -1,
       "investigation" : 2,
-      "medicine" : 2,
+      "medicine" : 1,
       "nature" : 5,
       "perception" : 3,
       "performance" : -1,
@@ -367,148 +367,6 @@
       "intelligence" : 0,
       "wisdom" : 0,
       "charisma" : 0
-    }
-  }, {
-    "id" : "player-vaerak",
-    "name" : "Vaerak",
-    "classId" : "barbarian",
-    "raceId" : "revenant",
-    "level" : 5,
-    "xp" : 95,
-    "stats" : {
-      "strength" : 15,
-      "dexterity" : 8,
-      "constitution" : 15,
-      "intelligence" : 8,
-      "wisdom" : 15,
-      "charisma" : 8
-    },
-    "items" : [ {
-      "itemId" : "rhaz-warhammer",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : true,
-      "quantity" : 1
-    }, {
-      "itemId" : "kaavor-whip",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : true,
-      "quantity" : 1
-    }, {
-      "itemId" : "hide-armor",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : true,
-      "quantity" : 1
-    }, {
-      "itemId" : "rations",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "waterskin",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "potion-of-greater-healing",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "coin",
-      "condition" : {
-        "durability" : 0
-      },
-      "equipped" : false,
-      "quantity" : 2
-    } ],
-    "spells" : [ {
-      "spellId" : "raaz-horn-strike",
-      "rank" : 0,
-      "active" : true
-    }, {
-      "spellId" : "raaz-uppercut",
-      "rank" : 0,
-      "active" : true
-    }, {
-      "spellId" : "kaavor-talon-lash",
-      "rank" : 0,
-      "active" : true
-    }, {
-      "spellId" : "summon-raaz",
-      "rank" : 0,
-      "active" : true
-    }, {
-      "spellId" : "summon-kaavor",
-      "rank" : 0,
-      "active" : true
-    } ],
-    "passwordHash" : null,
-    "passwordSalt" : null,
-    "imagePath" : "images/players/player-vaerak.jpg",
-    "playerName" : "Giorgi",
-    "ownerUsername" : "",
-    "description" : "3 მეტრის სიმაღლის რქიანი რევენანტი თეთრი თვალებითა და ტატუებით დაფარული სხეულით.\n\nCombat rules:\n• Full HP: 100. No mana / spell slots — every summon and spirit strike is paid with his own HP (castingResource = HIT_POINTS).\n• Raaz partial summon (Horn Strike / Uppercut): 10 HP per hit. Unavailable while Raaz is fully summoned.\n• Kaavor partial summon (Talon Lash): 5 HP per hit. Unavailable while Kaavor is fully summoned.\n• Summon Raaz: 60 HP + 5 HP every turn he keeps the body. Needs 300 L of water and 400 kg of living soil nearby.\n• Summon Kaavor: 30 HP + 3 HP every turn. Needs 4 L of water and 2 kg of soil.\n\nPassives:\n• Three souls (Vaerak, Vorash, Kael'mir) — DM may call for a Wisdom save when Vorash's rage or Kael'mir's fear takes over.\n• Déjà vu — he often knows the right path in places he does not remember visiting (DM may grant advantage on Survival to find a way).\n• Living runes — new tattoos appear when he feels strong emotions.",
-    "maxHitPoints" : 40,
-    "currentHitPoints" : 0,
-    "maxMana" : 0,
-    "currentMana" : 0,
-    "activeEffects" : [ {
-      "effectId" : "bardic-inspiration",
-      "name" : "Bardic Inspiration (d8)",
-      "description" : "Add a d8 to one ability check, attack roll or saving throw within the next 10 minutes.",
-      "remainingRounds" : 95,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Bardic Inspiration",
-      "expired" : false
-    } ],
-    "subclass" : "",
-    "backstory" : "ვაერაკი — Taur-keth (ბუნების სხეული)\n\nგარეგნობა: თეთრი თვალები, 3 მეტრი სიმაღლე, ტატუებით დაფარული სხეული, რქები.\n\n═══════════════════════════════════════\nწარსული\n═══════════════════════════════════════\n1) დაიბადა Taur-vael-ში, vey'kay-ს დასახლებაში, სადაც ბუნების მოყვარული ელფები ცხოვრობენ.\n2) მეტსახელად Taur-keth-ს (ბუნების სხეული) ეძახდნენ.\n3) პირველი მოგზაური ვაერაკის ბაბუა იყო. ვაერაკს უყვარდა, როცა მას კუდში დასდევდა და მისი მოგზაურობის ისტორიებს ისმენდა, რომლებიც ხშირად დაუჯერებელი ჩანდა. რაც უფრო იზრდებოდა, ვაერაკიც უფრო მეტად ემხრობოდა სხვებს, რომ მოხუცი ტყეში დაეხეტებოდა და ისტორიებს იგონებდა.\n4) მონადირე და გზამკვლევი იყო თავის ხალხში, მაგრამ ცხოველები უყვარდა და უმიზეზოდ არ კლავდა.\n5) ჰყავდა ცოლი Saelyra, უფროსი ვაჟი Aren და გოგონა Eira.\n6) ვაერაკს არ ახსოვს მისი სიკვდილამდელი ცხოვრება, მხოლოდ დროდადრო სიზმრებად ხედავს გავლილ წარსულს და მთელი ძალით ცდილობს ნელ-ნელა გაიხსენოს. გამუდმებით გრძნობს დეჟავიუს, როცა ნაცნობ ადგილებში მოხვდება; იცის სწორი გზები იქ, სადაც არ ახსოვს, როდისმე თუ ყოფილა. მან იცის, რომ როცა გამოეღვიძა, ქვეყანა დიდი ბრძოლის ველებით იყო დაფარული, მაგრამ არ ახსოვს ვინ და რატომ იბრძოდა.\n7) ვაერაკი სამი არმიის ბრძოლაში უცნობმა მეომარმა მოკლა, რომელმაც სიკვდილის წინ რაღაც ჩაჩურჩულა.\n8) სიკვდილის მერე მასში 2 სული შესახლდა:\n   • Vorash — აგრესიული და ველური სული\n   • Kael'mir — მფრთხალი, მაგრამ ძლიერი\n   ამის მერე ვაერაკი გაცოცხლდა, სხეულში სამი სულით.\n\n═══════════════════════════════════════\nრუნული ტატუები\n═══════════════════════════════════════\nროცა დაბინდდა, მის სხეულზე ტატუებმა დაიწყო გაჩენა. პირველები იყო:\n   • Shael — სული\n   • Veth — სისხლი\n   • Mora — სიკვდილი\n   • Eira — სიცოცხლე\nახალი რუნები ჩნდება ძლიერი ემოციების განცდისას. მან ყველა რუნის მნიშვნელობა არ იცის.\n\n═══════════════════════════════════════\nრააზი და კაავორი\n═══════════════════════════════════════\nვაერაკი ორ ცხოველს დაუმეგობრდა:\n   • Rhaz — რა'აზ — მარტორქა, რომელიც მომაკვდავი იპოვა, გადაარჩინა და დაიმეგობრა.\n   • Kaavor — კა'ვორ — შევარდენი, რომელიც ჯერ კიდევ ბარტყი იყო, როცა მიტოვებული იპოვა და გამოზარდა.\nცხოველების სიკვდილის მერე ვაერაკმა მათი სულები იარაღებში მოაქცია.\n\nვაერაკმა რააზის რქისგან საბრძოლო ურო გააკეთა, რომლის ერთი მხარე (რქის ძირი) ბლაგვია, მეორე მხარე კი (რქის წვერი) წაწვეტებული.\nკაავორის ბრჭყალებისგან მტკიცე მათრახი დაწნა და შიგ კაავორის ბრჭყალები ჩააყოლა.\n\nრააზმა და კაავორმა მის ხელებზე ტატუებადაც იჩინეს თავი: რააზმა ბინა მის მარჯვენა ხელის მტევანზე დაიდო, სადაც შეტევაზე გადასული მარტორქის ტატუ გაუჩნდა; მარცხენა ხელზე კაავორი დასახლდა, სადაც მსხვერპლისკენ დაშვებული შევარდენის გამოსახულება გაჩნდა.\n\nვაერაკს შეუძლია მათი სრული ან ნაწილობრივი მოხმობა (იხ. შელოცვები: Raaz Horn Strike, Raaz Uppercut, Kaavor Talon Lash, Summon Raaz, Summon Kaavor).",
-    "castingResource" : "HIT_POINTS",
-    "spellSlots" : [ ],
-    "knownBlueprints" : [ ],
-    "furnaceFuel" : 0,
-    "cooldowns" : { },
-    "skills" : {
-      "acrobatics" : -1,
-      "animalHandling" : 2,
-      "arcana" : -1,
-      "athletics" : 2,
-      "deception" : -1,
-      "history" : -1,
-      "insight" : 2,
-      "intimidation" : -1,
-      "investigation" : -1,
-      "medicine" : 2,
-      "nature" : -1,
-      "perception" : 2,
-      "performance" : -1,
-      "persuasion" : -1,
-      "religion" : -1,
-      "sleightOfHand" : -1,
-      "stealth" : -1,
-      "survival" : 2
-    },
-    "featureUses" : {
-      "strength" : 0,
-      "dexterity" : 0,
-      "constitution" : 0,
-      "intelligence" : 0,
-      "wisdom" : 0,
-      "charisma" : 0,
-      "undying" : 1
     }
   }, {
     "id" : "player-cucaratcha",
@@ -1126,7 +984,14 @@
     } ],
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
-    "cooldowns" : { },
+    "cooldowns" : {
+      "strength" : 0,
+      "dexterity" : 0,
+      "constitution" : 0,
+      "intelligence" : 0,
+      "wisdom" : 0,
+      "charisma" : 0
+    },
     "skills" : {
       "acrobatics" : -1,
       "animalHandling" : 2,
