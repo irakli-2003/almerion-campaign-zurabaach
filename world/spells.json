@@ -4090,5 +4090,43 @@
     "materialConsumed" : false,
     "cooldownRounds" : 2,
     "areaSpell" : false
+  }, {
+    "id" : "primal roar",
+    "name" : "primal roar",
+    "description" : "Make frightening beast sound that frightens enemies that save DC 13 WISDOM saving throw and makes them unable to get closer for next 2 turns.",
+    "level" : 2,
+    "school" : "illusion",
+    "manaCost" : 0,
+    "range" : 50,
+    "radius" : 30,
+    "castingMethod" : "speech",
+    "requiredConsumables" : [ ],
+    "requiredTools" : [ ],
+    "concentration" : {
+      "difficultyLevel" : null,
+      "preventsMovement" : false,
+      "requiredRoll" : 0
+    },
+    "effects" : [ {
+      "id" : "frighten",
+      "name" : "frighten",
+      "description" : "make enemies unable to get closer",
+      "damaging" : false,
+      "healing" : false,
+      "damageAmount" : 0,
+      "healingAmount" : 0,
+      "durationRounds" : 2,
+      "lasting" : true
+    } ],
+    "damage" : {
+      "dice" : [ ],
+      "typeId" : null
+    },
+    "components" : [ "V = roar" ],
+    "materialComponent" : "V = voice",
+    "materialCost" : 0,
+    "materialConsumed" : false,
+    "cooldownRounds" : 3,
+    "areaSpell" : true
   } ]
 }

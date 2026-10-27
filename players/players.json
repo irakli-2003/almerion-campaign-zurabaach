@@ -302,6 +302,10 @@
       "spellId" : "beast sense",
       "rank" : 1,
       "active" : true
+    }, {
+      "spellId" : "primal roar",
+      "rank" : 0,
+      "active" : false
     } ],
     "passwordHash" : null,
     "passwordSalt" : null,
