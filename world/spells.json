@@ -4052,5 +4052,43 @@
     "materialConsumed" : false,
     "cooldownRounds" : 2,
     "areaSpell" : true
+  }, {
+    "id" : "beast sense",
+    "name" : "Beast sense",
+    "description" : "character can see through animals eyes after rolling animal handling check",
+    "level" : 1,
+    "school" : "nature-based magic",
+    "manaCost" : 0,
+    "range" : 100,
+    "radius" : 0,
+    "castingMethod" : "thought",
+    "requiredConsumables" : [ ],
+    "requiredTools" : [ ],
+    "concentration" : {
+      "difficultyLevel" : "MEDIUM",
+      "preventsMovement" : true,
+      "requiredRoll" : 10
+    },
+    "effects" : [ {
+      "id" : "see through animal",
+      "name" : "see through animal",
+      "description" : "character is able to see, hear and sense everything the controlled animal senses",
+      "damaging" : false,
+      "healing" : false,
+      "damageAmount" : 0,
+      "healingAmount" : 0,
+      "durationRounds" : 0,
+      "lasting" : false
+    } ],
+    "damage" : {
+      "dice" : [ ],
+      "typeId" : null
+    },
+    "components" : [ ],
+    "materialComponent" : "living animal",
+    "materialCost" : 0,
+    "materialConsumed" : false,
+    "cooldownRounds" : 2,
+    "areaSpell" : false
   } ]
 }
