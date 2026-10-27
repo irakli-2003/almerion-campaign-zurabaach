@@ -4007,5 +4007,43 @@
     "materialConsumed" : true,
     "cooldownRounds" : 0,
     "areaSpell" : false
+  }, {
+    "id" : "animal distraction",
+    "name" : "Animal distraction",
+    "description" : "Send your animal companion to distract enemy",
+    "level" : 0,
+    "school" : "nature-based magic",
+    "manaCost" : 0,
+    "range" : 100,
+    "radius" : 10,
+    "castingMethod" : "speech",
+    "requiredConsumables" : [ ],
+    "requiredTools" : [ ],
+    "concentration" : {
+      "difficultyLevel" : "EASY",
+      "preventsMovement" : false,
+      "requiredRoll" : 5
+    },
+    "effects" : [ {
+      "id" : "disadvantage",
+      "name" : "disadvantage",
+      "description" : "-2 on next roll",
+      "damaging" : false,
+      "healing" : false,
+      "damageAmount" : 0,
+      "healingAmount" : 0,
+      "durationRounds" : 1,
+      "lasting" : true
+    } ],
+    "damage" : {
+      "dice" : [ ],
+      "typeId" : null
+    },
+    "components" : [ "V = ცხოველისთვის მიცემული ბრძანება S = ცხოველისთვის მიცემული ხელის ნიშანი" ],
+    "materialComponent" : "animal companion",
+    "materialCost" : 0,
+    "materialConsumed" : false,
+    "cooldownRounds" : 2,
+    "areaSpell" : true
   } ]
 }
