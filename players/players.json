@@ -291,7 +291,11 @@
       "rank" : 2,
       "active" : false
     }, {
-      "spellId" : null,
+      "spellId" : "leaf dart",
+      "rank" : 0,
+      "active" : false
+    }, {
+      "spellId" : "animal distraction",
       "rank" : 0,
       "active" : false
     } ],

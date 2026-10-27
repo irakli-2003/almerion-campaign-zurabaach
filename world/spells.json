@@ -515,7 +515,11 @@
     "castingMethod" : "speech",
     "requiredConsumables" : [ ],
     "requiredTools" : [ ],
-    "concentration" : null,
+    "concentration" : {
+      "difficultyLevel" : null,
+      "preventsMovement" : false,
+      "requiredRoll" : 0
+    },
     "effects" : [ {
       "id" : "invigorated",
       "name" : "Invigorated",
@@ -527,7 +531,10 @@
       "durationRounds" : 0,
       "lasting" : false
     } ],
-    "damage" : null,
+    "damage" : {
+      "dice" : [ ],
+      "typeId" : null
+    },
     "components" : [ "V", "S" ],
     "materialComponent" : "",
     "materialCost" : 0,
