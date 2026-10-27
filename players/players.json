@@ -289,15 +289,19 @@
     }, {
       "spellId" : "lesser-restoration",
       "rank" : 2,
-      "active" : false
+      "active" : true
     }, {
       "spellId" : "leaf dart",
       "rank" : 0,
-      "active" : false
+      "active" : true
     }, {
       "spellId" : "animal distraction",
       "rank" : 0,
-      "active" : false
+      "active" : true
+    }, {
+      "spellId" : "beast sense",
+      "rank" : 1,
+      "active" : true
     } ],
     "passwordHash" : null,
     "passwordSalt" : null,
