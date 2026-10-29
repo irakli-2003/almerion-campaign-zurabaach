@@ -1612,6 +1612,10 @@
       "spellId" : "teleport",
       "rank" : 2,
       "active" : true
+    }, {
+      "spellId" : "heat metal",
+      "rank" : 0,
+      "active" : false
     } ],
     "passwordHash" : null,
     "passwordSalt" : null,

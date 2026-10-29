@@ -13,29 +13,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "area_damage",
-      "name" : "Area Damage",
-      "description" : "Harm spread across the area.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 6,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "area_damage",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "area_damage",
+        "name" : "Area Damage",
+        "description" : "Harm spread across the area.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 6,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d6",
         "count" : 1
       } ],
-      "typeId" : "acid"
+      "typeId" : "acid",
+      "constant" : 0
     },
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : true
+    "areaSpell" : true,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "chill-touch",
     "name" : "Chill Touch",
@@ -50,29 +56,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "life_drain",
-      "name" : "Life Drain",
-      "description" : "Life is torn away and fed to the caster.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 5,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "life_drain",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "life_drain",
+        "name" : "Life Drain",
+        "description" : "Life is torn away and fed to the caster.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 5,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d8",
         "count" : 1
       } ],
-      "typeId" : "necrotic"
+      "typeId" : "necrotic",
+      "constant" : 0
     },
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "fire-bolt",
     "name" : "Fire Bolt",
@@ -87,29 +99,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "burn",
-      "name" : "Burning",
-      "description" : "Flames cling to the target.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 3,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "burn",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "burn",
+        "name" : "Burning",
+        "description" : "Flames cling to the target.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 3,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d10",
         "count" : 1
       } ],
-      "typeId" : "fire"
+      "typeId" : "fire",
+      "constant" : 0
     },
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "frost-bolt",
     "name" : "Frost Bolt",
@@ -124,29 +142,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "freeze",
-      "name" : "Freeze",
-      "description" : "Numbing cold slows the target.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "freeze",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "freeze",
+        "name" : "Freeze",
+        "description" : "Numbing cold slows the target.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d6",
         "count" : 1
       } ],
-      "typeId" : "cold"
+      "typeId" : "cold",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a sliver of river ice or a cold iron needle",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "light",
     "name" : "Light",
@@ -162,12 +186,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "V", "M" ],
     "materialComponent" : "a firefly or a smear of phosphorescent moss",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "mage-hand",
     "name" : "Mage Hand",
@@ -183,12 +207,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "minor-illusion",
     "name" : "Minor Illusion",
@@ -204,12 +228,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "a scrap of fleece",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "poison-spray",
     "name" : "Poison Spray",
@@ -224,29 +248,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "poisoned",
-      "name" : "Poisoned",
-      "description" : "The target is sickened.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 2,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "poisoned",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "poisoned",
+        "name" : "Poisoned",
+        "description" : "The target is sickened.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 2,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d12",
         "count" : 1
       } ],
-      "typeId" : "poison"
+      "typeId" : "poison",
+      "constant" : 0
     },
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "prestidigitation",
     "name" : "Prestidigitation",
@@ -262,12 +292,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "ray-of-frost",
     "name" : "Ray of Frost",
@@ -282,29 +312,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "slowed",
-      "name" : "Slowed",
-      "description" : "Every movement drags.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "slowed",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "slowed",
+        "name" : "Slowed",
+        "description" : "Every movement drags.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d8",
         "count" : 1
       } ],
-      "typeId" : "cold"
+      "typeId" : "cold",
+      "constant" : 0
     },
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "sacred-flame",
     "name" : "Sacred Flame",
@@ -324,14 +360,15 @@
         "diceId" : "d8",
         "count" : 1
       } ],
-      "typeId" : "radiant"
+      "typeId" : "radiant",
+      "constant" : 0
     },
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "shocking-grasp",
     "name" : "Shocking Grasp",
@@ -346,29 +383,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "shock",
-      "name" : "Shock",
-      "description" : "Muscles lock under electricity.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "shock",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "shock",
+        "name" : "Shock",
+        "description" : "Muscles lock under electricity.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d8",
         "count" : 1
       } ],
-      "typeId" : "lightning"
+      "typeId" : "lightning",
+      "constant" : 0
     },
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "thaumaturgy",
     "name" : "Thaumaturgy",
@@ -384,12 +427,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
-    "components" : [ "V" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "guidance",
     "name" : "Guidance",
@@ -408,23 +451,28 @@
       "requiredRoll" : 5
     },
     "effects" : [ {
-      "id" : "guided",
-      "name" : "Guided",
-      "description" : "Add 1d4 to one ability check of choice before the effect ends.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 10,
-      "lasting" : true
+      "effectId" : "guided",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "guided",
+        "name" : "Guided",
+        "description" : "Add 1d4 to one ability check of choice before the effect ends.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 10,
+        "lasting" : true
+      }
     } ],
     "damage" : null,
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "burning-hands",
     "name" : "Burning Hands",
@@ -439,39 +487,50 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "burn",
-      "name" : "Burning",
-      "description" : "Flames cling to the target.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 3,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "burn",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "burn",
+        "name" : "Burning",
+        "description" : "Flames cling to the target.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 3,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     }, {
-      "id" : "area_damage",
-      "name" : "Area Damage",
-      "description" : "Harm spread across the area.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 6,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "area_damage",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "area_damage",
+        "name" : "Area Damage",
+        "description" : "Harm spread across the area.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 6,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d6",
         "count" : 1
       } ],
-      "typeId" : "fire"
+      "typeId" : "fire",
+      "constant" : 0
     },
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : true
+    "areaSpell" : true,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "charm-person",
     "name" : "Charm Person",
@@ -486,23 +545,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "charmed",
-      "name" : "Charmed",
-      "description" : "The target regards the caster as a friend.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "charmed",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "charmed",
+        "name" : "Charmed",
+        "description" : "The target regards the caster as a friend.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "cure-wounds",
     "name" : "Cure Wounds",
@@ -521,26 +585,32 @@
       "requiredRoll" : 0
     },
     "effects" : [ {
-      "id" : "invigorated",
-      "name" : "Invigorated",
-      "description" : "Vitality floods back.",
-      "damaging" : false,
-      "healing" : true,
-      "damageAmount" : 0,
-      "healingAmount" : 9,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "invigorated",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "invigorated",
+        "name" : "Invigorated",
+        "description" : "Vitality floods back.",
+        "damaging" : false,
+        "healing" : true,
+        "damageAmount" : 0,
+        "healingAmount" : 9,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ ],
-      "typeId" : null
+      "typeId" : null,
+      "constant" : 0
     },
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "detect-magic",
     "name" : "Detect Magic",
@@ -560,12 +630,12 @@
     },
     "effects" : [ ],
     "damage" : null,
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : true
+    "areaSpell" : true,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "faerie-fire",
     "name" : "Faerie Fire",
@@ -585,12 +655,12 @@
     },
     "effects" : [ ],
     "damage" : null,
-    "components" : [ "V" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : true
+    "areaSpell" : true,
+    "materialCost" : 0,
+    "components" : [ "V" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "healing-word",
     "name" : "Healing Word",
@@ -605,23 +675,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "invigorated",
-      "name" : "Invigorated",
-      "description" : "A little vitality returns.",
-      "damaging" : false,
-      "healing" : true,
-      "damageAmount" : 0,
-      "healingAmount" : 7,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "invigorated",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "invigorated",
+        "name" : "Invigorated",
+        "description" : "A little vitality returns.",
+        "damaging" : false,
+        "healing" : true,
+        "damageAmount" : 0,
+        "healingAmount" : 7,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
-    "components" : [ "V" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "mage-armor",
     "name" : "Mage Armor",
@@ -636,23 +711,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "blessed",
-      "name" : "Blessed",
-      "description" : "A faint radiance steadies the target.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "blessed",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "blessed",
+        "name" : "Blessed",
+        "description" : "A faint radiance steadies the target.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a scrap of cured leather",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "magic-missile",
     "name" : "Magic Missile",
@@ -672,14 +752,15 @@
         "diceId" : "d4",
         "count" : 1
       } ],
-      "typeId" : "force"
+      "typeId" : "force",
+      "constant" : 0
     },
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "shield-spell",
     "name" : "Shield",
@@ -694,23 +775,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "blessed",
-      "name" : "Blessed",
-      "description" : "A faint radiance steadies the target.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "blessed",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "blessed",
+        "name" : "Blessed",
+        "description" : "A faint radiance steadies the target.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "sleep",
     "name" : "Sleep",
@@ -725,23 +811,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "unconscious",
-      "name" : "Unconscious",
-      "description" : "The target falls into magical sleep.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "unconscious",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "unconscious",
+        "name" : "Unconscious",
+        "description" : "The target falls into magical sleep.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a pinch of fine sand, rose petals or a cricket",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "thunderwave",
     "name" : "Thunderwave",
@@ -756,29 +847,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "knockback",
-      "name" : "Knockback",
-      "description" : "Targets are thrown back.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "knockback",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "knockback",
+        "name" : "Knockback",
+        "description" : "Targets are thrown back.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d8",
         "count" : 1
       } ],
-      "typeId" : "thunder"
+      "typeId" : "thunder",
+      "constant" : 0
     },
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : true
+    "areaSpell" : true,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "bless",
     "name" : "Bless",
@@ -797,23 +894,28 @@
       "requiredRoll" : 10
     },
     "effects" : [ {
-      "id" : "blessed",
-      "name" : "Blessed",
-      "description" : "Add 1d4 to attack rolls and saving throws.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 10,
-      "lasting" : true
+      "effectId" : "blessed",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "blessed",
+        "name" : "Blessed",
+        "description" : "Add 1d4 to attack rolls and saving throws.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 10,
+        "lasting" : true
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a sprinkle of holy water",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "entangle",
     "name" : "Entangle",
@@ -832,33 +934,43 @@
       "requiredRoll" : 10
     },
     "effects" : [ {
-      "id" : "entangled",
-      "name" : "Entangled",
-      "description" : "Vines hold the target fast.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "entangled",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "entangled",
+        "name" : "Entangled",
+        "description" : "Vines hold the target fast.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     }, {
-      "id" : "restrained",
-      "name" : "Restrained",
-      "description" : "The target is held fast.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "restrained",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "restrained",
+        "name" : "Restrained",
+        "description" : "The target is held fast.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : true
+    "areaSpell" : true,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "hunters-mark",
     "name" : "Hunter's Mark",
@@ -877,23 +989,28 @@
       "requiredRoll" : 5
     },
     "effects" : [ {
-      "id" : "advantage_on_attack",
-      "name" : "Marked",
-      "description" : "Attacks against the quarry bite deeper.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 3,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "advantage_on_attack",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "advantage_on_attack",
+        "name" : "Marked",
+        "description" : "Attacks against the quarry bite deeper.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 3,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
-    "components" : [ "V" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "blur",
     "name" : "Blur",
@@ -912,23 +1029,28 @@
       "requiredRoll" : 10
     },
     "effects" : [ {
-      "id" : "blessed",
-      "name" : "Blessed",
-      "description" : "A faint radiance steadies the target.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "blessed",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "blessed",
+        "name" : "Blessed",
+        "description" : "A faint radiance steadies the target.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
-    "components" : [ "V" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "darkness",
     "name" : "Darkness",
@@ -947,23 +1069,28 @@
       "requiredRoll" : 10
     },
     "effects" : [ {
-      "id" : "blinded",
-      "name" : "Blinded",
-      "description" : "The target cannot see.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "blinded",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "blinded",
+        "name" : "Blinded",
+        "description" : "The target cannot see.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "V", "M" ],
     "materialComponent" : "bat fur and a drop of pitch or a lump of coal",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "hold-person",
     "name" : "Hold Person",
@@ -982,23 +1109,28 @@
       "requiredRoll" : 10
     },
     "effects" : [ {
-      "id" : "paralyzed",
-      "name" : "Paralyzed",
-      "description" : "The target cannot move or act.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "paralyzed",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "paralyzed",
+        "name" : "Paralyzed",
+        "description" : "The target cannot move or act.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a small straight piece of iron",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "invisibility",
     "name" : "Invisibility",
@@ -1017,23 +1149,28 @@
       "requiredRoll" : 10
     },
     "effects" : [ {
-      "id" : "invisible",
-      "name" : "Invisible",
-      "description" : "The target cannot be seen.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "invisible",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "invisible",
+        "name" : "Invisible",
+        "description" : "The target cannot be seen.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "an eyelash sealed in gum arabic",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "misty-step",
     "name" : "Misty Step",
@@ -1049,12 +1186,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
-    "components" : [ "V" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "scorching-ray",
     "name" : "Scorching Ray",
@@ -1069,29 +1206,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "burn",
-      "name" : "Burning",
-      "description" : "Flames cling to the target.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 3,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "burn",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "burn",
+        "name" : "Burning",
+        "description" : "Flames cling to the target.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 3,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d6",
         "count" : 1
       } ],
-      "typeId" : "fire"
+      "typeId" : "fire",
+      "constant" : 0
     },
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "spiritual-weapon",
     "name" : "Spiritual Weapon",
@@ -1106,29 +1249,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "spiritual_strike",
-      "name" : "Spiritual Strike",
-      "description" : "+4 force damage.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 4,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "spiritual_strike",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "spiritual_strike",
+        "name" : "Spiritual Strike",
+        "description" : "+4 force damage.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 4,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d8",
         "count" : 1
       } ],
-      "typeId" : "force"
+      "typeId" : "force",
+      "constant" : 0
     },
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "web",
     "name" : "Web",
@@ -1147,23 +1296,28 @@
       "requiredRoll" : 10
     },
     "effects" : [ {
-      "id" : "restrained",
-      "name" : "Restrained",
-      "description" : "The target is held fast.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "restrained",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "restrained",
+        "name" : "Restrained",
+        "description" : "The target is held fast.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a bit of spiderweb",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "lesser-restoration",
     "name" : "Lesser Restoration",
@@ -1178,23 +1332,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "stabilized",
-      "name" : "Restored",
-      "description" : "One affliction ends.",
-      "damaging" : false,
-      "healing" : true,
-      "damageAmount" : 0,
-      "healingAmount" : 2,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "stabilized",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "stabilized",
+        "name" : "Restored",
+        "description" : "One affliction ends.",
+        "damaging" : false,
+        "healing" : true,
+        "damageAmount" : 0,
+        "healingAmount" : 2,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "moonbeam",
     "name" : "Moonbeam",
@@ -1213,29 +1372,35 @@
       "requiredRoll" : 15
     },
     "effects" : [ {
-      "id" : "area_damage",
-      "name" : "Area Damage",
-      "description" : "Harm spread across the area.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 6,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "area_damage",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "area_damage",
+        "name" : "Area Damage",
+        "description" : "Harm spread across the area.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 6,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d10",
         "count" : 1
       } ],
-      "typeId" : "radiant"
+      "typeId" : "radiant",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "seeds of a moonseed plant and a piece of opalescent feldspar",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "fireball",
     "name" : "Fireball",
@@ -1250,39 +1415,50 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "burn",
-      "name" : "Burning",
-      "description" : "Flames cling to the target.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 3,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "burn",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "burn",
+        "name" : "Burning",
+        "description" : "Flames cling to the target.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 3,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     }, {
-      "id" : "area_damage",
-      "name" : "Area Damage",
-      "description" : "Harm spread across the area.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 6,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "area_damage",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "area_damage",
+        "name" : "Area Damage",
+        "description" : "Harm spread across the area.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 6,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d6",
         "count" : 1
       } ],
-      "typeId" : "fire"
+      "typeId" : "fire",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a tiny ball of bat guano and sulfur",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "lightning-bolt",
     "name" : "Lightning Bolt",
@@ -1297,29 +1473,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "shock",
-      "name" : "Shock",
-      "description" : "Muscles lock under electricity.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "shock",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "shock",
+        "name" : "Shock",
+        "description" : "Muscles lock under electricity.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d6",
         "count" : 1
       } ],
-      "typeId" : "lightning"
+      "typeId" : "lightning",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a bit of fur and a rod of amber, crystal or glass",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "counterspell",
     "name" : "Counterspell",
@@ -1335,12 +1517,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
-    "components" : [ "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "dispel-magic",
     "name" : "Dispel Magic",
@@ -1356,12 +1538,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "fly",
     "name" : "Fly",
@@ -1380,23 +1562,28 @@
       "requiredRoll" : 10
     },
     "effects" : [ {
-      "id" : "hasted",
-      "name" : "Hasted",
-      "description" : "The target moves and acts far faster.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "hasted",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "hasted",
+        "name" : "Hasted",
+        "description" : "The target moves and acts far faster.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a wing feather from any bird",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "revivify",
     "name" : "Revivify",
@@ -1411,23 +1598,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "stabilized",
-      "name" : "Revived",
-      "description" : "Life returns, barely.",
-      "damaging" : false,
-      "healing" : true,
-      "damageAmount" : 0,
-      "healingAmount" : 1,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "stabilized",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "stabilized",
+        "name" : "Revived",
+        "description" : "Life returns, barely.",
+        "damaging" : false,
+        "healing" : true,
+        "damageAmount" : 0,
+        "healingAmount" : 1,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 300,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "diamonds worth 300 gp",
-    "materialCost" : 300,
-    "materialConsumed" : true,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : true
   }, {
     "id" : "haste",
     "name" : "Haste",
@@ -1446,23 +1638,28 @@
       "requiredRoll" : 15
     },
     "effects" : [ {
-      "id" : "hasted",
-      "name" : "Hasted",
-      "description" : "The target moves and acts far faster.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "hasted",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "hasted",
+        "name" : "Hasted",
+        "description" : "The target moves and acts far faster.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a shaving of licorice root",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "slow",
     "name" : "Slow",
@@ -1481,23 +1678,28 @@
       "requiredRoll" : 15
     },
     "effects" : [ {
-      "id" : "slowed",
-      "name" : "Slowed",
-      "description" : "Every movement drags.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "slowed",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "slowed",
+        "name" : "Slowed",
+        "description" : "Every movement drags.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a drop of molasses",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "animate-dead",
     "name" : "Animate Dead",
@@ -1513,12 +1715,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a drop of blood, a piece of flesh and a pinch of bone dust",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "vampiric-touch",
     "name" : "Vampiric Touch",
@@ -1537,29 +1739,35 @@
       "requiredRoll" : 10
     },
     "effects" : [ {
-      "id" : "life_drain",
-      "name" : "Life Drain",
-      "description" : "Life is torn away and fed to the caster.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 5,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "life_drain",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "life_drain",
+        "name" : "Life Drain",
+        "description" : "Life is torn away and fed to the caster.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 5,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d6",
         "count" : 1
       } ],
-      "typeId" : "necrotic"
+      "typeId" : "necrotic",
+      "constant" : 0
     },
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "greater-invisibility",
     "name" : "Greater Invisibility",
@@ -1578,23 +1786,28 @@
       "requiredRoll" : 15
     },
     "effects" : [ {
-      "id" : "invisible",
-      "name" : "Invisible",
-      "description" : "The target cannot be seen.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "invisible",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "invisible",
+        "name" : "Invisible",
+        "description" : "The target cannot be seen.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "ice-storm",
     "name" : "Ice Storm",
@@ -1609,39 +1822,50 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "freeze",
-      "name" : "Freeze",
-      "description" : "Numbing cold slows the target.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "freeze",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "freeze",
+        "name" : "Freeze",
+        "description" : "Numbing cold slows the target.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     }, {
-      "id" : "area_damage",
-      "name" : "Area Damage",
-      "description" : "Harm spread across the area.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 6,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "area_damage",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "area_damage",
+        "name" : "Area Damage",
+        "description" : "Harm spread across the area.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 6,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d8",
         "count" : 1
       } ],
-      "typeId" : "cold"
+      "typeId" : "cold",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a pinch of dust and a few drops of water",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "polymorph",
     "name" : "Polymorph",
@@ -1661,12 +1885,12 @@
     },
     "effects" : [ ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a caterpillar cocoon",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "wall-of-fire",
     "name" : "Wall of Fire",
@@ -1685,29 +1909,35 @@
       "requiredRoll" : 15
     },
     "effects" : [ {
-      "id" : "burn",
-      "name" : "Burning",
-      "description" : "Flames cling to the target.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 3,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "burn",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "burn",
+        "name" : "Burning",
+        "description" : "Flames cling to the target.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 3,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d8",
         "count" : 1
       } ],
-      "typeId" : "fire"
+      "typeId" : "fire",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a small piece of phosphorus",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "cone-of-cold",
     "name" : "Cone of Cold",
@@ -1722,39 +1952,50 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "freeze",
-      "name" : "Freeze",
-      "description" : "Numbing cold slows the target.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "freeze",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "freeze",
+        "name" : "Freeze",
+        "description" : "Numbing cold slows the target.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     }, {
-      "id" : "area_damage",
-      "name" : "Area Damage",
-      "description" : "Harm spread across the area.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 6,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "area_damage",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "area_damage",
+        "name" : "Area Damage",
+        "description" : "Harm spread across the area.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 6,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d8",
         "count" : 1
       } ],
-      "typeId" : "cold"
+      "typeId" : "cold",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a small crystal or glass cone",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "hold-monster",
     "name" : "Hold Monster",
@@ -1773,23 +2014,28 @@
       "requiredRoll" : 15
     },
     "effects" : [ {
-      "id" : "paralyzed",
-      "name" : "Paralyzed",
-      "description" : "The target cannot move or act.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "paralyzed",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "paralyzed",
+        "name" : "Paralyzed",
+        "description" : "The target cannot move or act.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a small straight piece of iron",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "raise-dead",
     "name" : "Raise Dead",
@@ -1804,23 +2050,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "stabilized",
-      "name" : "Raised",
-      "description" : "Life is restored.",
-      "damaging" : false,
-      "healing" : true,
-      "damageAmount" : 0,
-      "healingAmount" : 10,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "stabilized",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "stabilized",
+        "name" : "Raised",
+        "description" : "Life is restored.",
+        "damaging" : false,
+        "healing" : true,
+        "damageAmount" : 0,
+        "healingAmount" : 10,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 500,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a diamond worth at least 500 gp",
-    "materialCost" : 500,
-    "materialConsumed" : true,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : true
   }, {
     "id" : "wall-of-force",
     "name" : "Wall of Force",
@@ -1840,12 +2091,12 @@
     },
     "effects" : [ ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a pinch of powder from a crushed clear gemstone",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "chain-lightning",
     "name" : "Chain Lightning",
@@ -1860,39 +2111,50 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "shock",
-      "name" : "Shock",
-      "description" : "Muscles lock under electricity.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "shock",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "shock",
+        "name" : "Shock",
+        "description" : "Muscles lock under electricity.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     }, {
-      "id" : "area_damage",
-      "name" : "Area Damage",
-      "description" : "Harm spread across the area.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 6,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "area_damage",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "area_damage",
+        "name" : "Area Damage",
+        "description" : "Harm spread across the area.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 6,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d8",
         "count" : 1
       } ],
-      "typeId" : "lightning"
+      "typeId" : "lightning",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a bit of fur, a piece of amber, glass or crystal rod, and three silver pins",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "disintegrate",
     "name" : "Disintegrate",
@@ -1912,14 +2174,15 @@
         "diceId" : "d6",
         "count" : 1
       } ],
-      "typeId" : "force"
+      "typeId" : "force",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a lodestone and a pinch of dust",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "true-seeing",
     "name" : "True Seeing",
@@ -1935,12 +2198,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 25,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "an ointment of mushroom powder, saffron and fat worth 25 gp",
-    "materialCost" : 25,
-    "materialConsumed" : true,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : true
   }, {
     "id" : "finger-of-death",
     "name" : "Finger of Death",
@@ -1955,29 +2218,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "life_drain",
-      "name" : "Life Drain",
-      "description" : "Life is torn away and fed to the caster.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 5,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "life_drain",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "life_drain",
+        "name" : "Life Drain",
+        "description" : "Life is torn away and fed to the caster.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 5,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d8",
         "count" : 1
       } ],
-      "typeId" : "necrotic"
+      "typeId" : "necrotic",
+      "constant" : 0
     },
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "teleport",
     "name" : "Teleport",
@@ -1993,12 +2262,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
-    "components" : [ "V" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "dominate-monster",
     "name" : "Dominate Monster",
@@ -2017,23 +2286,28 @@
       "requiredRoll" : 15
     },
     "effects" : [ {
-      "id" : "charmed",
-      "name" : "Charmed",
-      "description" : "The target regards the caster as a friend.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "charmed",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "charmed",
+        "name" : "Charmed",
+        "description" : "The target regards the caster as a friend.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "sunburst",
     "name" : "Sunburst",
@@ -2048,39 +2322,50 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "blinded",
-      "name" : "Blinded",
-      "description" : "The target cannot see.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "blinded",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "blinded",
+        "name" : "Blinded",
+        "description" : "The target cannot see.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     }, {
-      "id" : "area_damage",
-      "name" : "Area Damage",
-      "description" : "Harm spread across the area.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 6,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "area_damage",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "area_damage",
+        "name" : "Area Damage",
+        "description" : "Harm spread across the area.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 6,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d6",
         "count" : 1
       } ],
-      "typeId" : "radiant"
+      "typeId" : "radiant",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "fire and a piece of sunstone",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "meteor-swarm",
     "name" : "Meteor Swarm",
@@ -2095,49 +2380,65 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "burn",
-      "name" : "Burning",
-      "description" : "Flames cling to the target.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 3,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "burn",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "burn",
+        "name" : "Burning",
+        "description" : "Flames cling to the target.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 3,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     }, {
-      "id" : "area_damage",
-      "name" : "Area Damage",
-      "description" : "Harm spread across the area.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 6,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "area_damage",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "area_damage",
+        "name" : "Area Damage",
+        "description" : "Harm spread across the area.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 6,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     }, {
-      "id" : "prone",
-      "name" : "Prone",
-      "description" : "The target is knocked flat.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "prone",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "prone",
+        "name" : "Prone",
+        "description" : "The target is knocked flat.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d6",
         "count" : 1
       } ],
-      "typeId" : "fire"
+      "typeId" : "fire",
+      "constant" : 0
     },
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : true
+    "areaSpell" : true,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "power-word-kill",
     "name" : "Power Word Kill",
@@ -2153,12 +2454,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
-    "components" : [ "V" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "time-stop",
     "name" : "Time Stop",
@@ -2174,12 +2475,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
-    "components" : [ "V" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "wish",
     "name" : "Wish",
@@ -2195,12 +2496,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
-    "components" : [ "V" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "iron fist",
     "name" : "iron wrapped fist",
@@ -2221,14 +2522,15 @@
     "effects" : [ ],
     "damage" : {
       "dice" : [ ],
-      "typeId" : "bludgeoning"
+      "typeId" : "bludgeoning",
+      "constant" : 0
     },
+    "cooldownRounds" : 2,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "iron wrappings bound around the fist",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 2,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "raaz-horn-strike",
     "name" : "Raaz – Horn Strike (partial summon)",
@@ -2243,29 +2545,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "knockback",
-      "name" : "Raaz's Charge",
-      "description" : "Hurled 10 m (30 ft) away from Vaerak by a spectral rhino's charge.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "knockback",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "knockback",
+        "name" : "Raaz's Charge",
+        "description" : "Hurled 10 m (30 ft) away from Vaerak by a spectral rhino's charge.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d10",
         "count" : 2
       } ],
-      "typeId" : "bludgeoning"
+      "typeId" : "bludgeoning",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "Rhaz, the Horn Hammer",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "raaz-uppercut",
     "name" : "Raaz – Uppercut (partial summon)",
@@ -2280,29 +2588,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "prone",
-      "name" : "Launched",
-      "description" : "Thrown into the air by the horn; lands prone.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 1,
-      "lasting" : true
+      "effectId" : "prone",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "prone",
+        "name" : "Launched",
+        "description" : "Thrown into the air by the horn; lands prone.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 1,
+        "lasting" : true
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d10",
         "count" : 4
       } ],
-      "typeId" : "bludgeoning"
+      "typeId" : "bludgeoning",
+      "constant" : 0
     },
+    "cooldownRounds" : 2,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "Rhaz, the Horn Hammer",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 2,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "kaavor-talon-lash",
     "name" : "Kaavor – Talon Lash (partial summon)",
@@ -2317,15 +2631,20 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "bleeding",
-      "name" : "Talon Bleeding",
-      "description" : "Deep talon gashes that keep bleeding.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 3,
-      "healingAmount" : 0,
-      "durationRounds" : 3,
-      "lasting" : true
+      "effectId" : "bleeding",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "bleeding",
+        "name" : "Talon Bleeding",
+        "description" : "Deep talon gashes that keep bleeding.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 3,
+        "healingAmount" : 0,
+        "durationRounds" : 3,
+        "lasting" : true
+      }
     } ],
     "damage" : {
       "dice" : [ {
@@ -2335,14 +2654,15 @@
         "diceId" : "d6",
         "count" : 2
       } ],
-      "typeId" : "slashing"
+      "typeId" : "slashing",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "Kaavor, the Sinew Lash",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "summon-raaz",
     "name" : "Summon Raaz (full summon)",
@@ -2357,23 +2677,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "spirit_upkeep",
-      "name" : "Raaz Upkeep",
-      "description" : "Raaz's body drains 5 HP from Vaerak every turn. Remove when Raaz is dismissed.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 5,
-      "healingAmount" : 0,
-      "durationRounds" : 10,
-      "lasting" : true
+      "effectId" : "spirit_upkeep",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "spirit_upkeep",
+        "name" : "Raaz Upkeep",
+        "description" : "Raaz's body drains 5 HP from Vaerak every turn. Remove when Raaz is dismissed.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 5,
+        "healingAmount" : 0,
+        "durationRounds" : 10,
+        "lasting" : true
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "Rhaz, the Horn Hammer, as the spirit's vessel",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "summon-kaavor",
     "name" : "Summon Kaavor (full summon)",
@@ -2388,23 +2713,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "spirit_upkeep",
-      "name" : "Kaavor Upkeep",
-      "description" : "Kaavor's body drains 3 HP from Vaerak every turn. Remove when Kaavor is dismissed.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 3,
-      "healingAmount" : 0,
-      "durationRounds" : 10,
-      "lasting" : true
+      "effectId" : "spirit_upkeep",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "spirit_upkeep",
+        "name" : "Kaavor Upkeep",
+        "description" : "Kaavor's body drains 3 HP from Vaerak every turn. Remove when Kaavor is dismissed.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 3,
+        "healingAmount" : 0,
+        "durationRounds" : 10,
+        "lasting" : true
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "Kaavor, the Sinew Lash, as the spirit's vessel",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "gravity-round",
     "name" : "Gravity Round",
@@ -2439,14 +2769,15 @@
         "diceId" : "d10",
         "count" : 1
       } ],
-      "typeId" : "force"
+      "typeId" : "force",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "the Sixfold Judgment revolver and a Sixfold Cartridge",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "crushing-shot",
     "name" : "Crushing Shot",
@@ -2476,29 +2807,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "prone",
-      "name" : "Crushed Prone",
-      "description" : "Slammed to the ground by a gravity burst.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 1,
-      "lasting" : true
+      "effectId" : "prone",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "prone",
+        "name" : "Crushed Prone",
+        "description" : "Slammed to the ground by a gravity burst.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 1,
+        "lasting" : true
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d10",
         "count" : 1
       } ],
-      "typeId" : "force"
+      "typeId" : "force",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "the Sixfold Judgment revolver and a Sixfold Cartridge",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "singularity-round",
     "name" : "Singularity Round",
@@ -2528,29 +2865,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "gravity_pull",
-      "name" : "Gravity Pull",
-      "description" : "Dragged up to 3 m (10 ft) toward the centre of a collapsing gravity well.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "gravity_pull",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "gravity_pull",
+        "name" : "Gravity Pull",
+        "description" : "Dragged up to 3 m (10 ft) toward the centre of a collapsing gravity well.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d10",
         "count" : 1
       } ],
-      "typeId" : "force"
+      "typeId" : "force",
+      "constant" : 0
     },
+    "cooldownRounds" : 100,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "the Sixfold Judgment revolver and a Sixfold Cartridge",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 100,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "anchor-round",
     "name" : "Anchor Round",
@@ -2580,29 +2923,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "anchored",
-      "name" : "Anchored",
-      "description" : "Its own weight multiplies: speed 0 until the start of the caster's next turn.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 1,
-      "lasting" : true
+      "effectId" : "anchored",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "anchored",
+        "name" : "Anchored",
+        "description" : "Its own weight multiplies: speed 0 until the start of the caster's next turn.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 1,
+        "lasting" : true
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d10",
         "count" : 1
       } ],
-      "typeId" : "force"
+      "typeId" : "force",
+      "constant" : 0
     },
+    "cooldownRounds" : 100,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "the Sixfold Judgment revolver and a Sixfold Cartridge",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 100,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "gravitic-shift",
     "name" : "Gravitic Shift",
@@ -2617,23 +2966,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "gravity_shift",
-      "name" : "Gravity Shift",
-      "description" : "Own gravity bent: either feather-light (jump twice as far, no falling damage, can run along walls) or anchored (cannot be shoved, pushed or knocked prone).",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 1,
-      "lasting" : true
+      "effectId" : "gravity_shift",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "gravity_shift",
+        "name" : "Gravity Shift",
+        "description" : "Own gravity bent: either feather-light (jump twice as far, no falling damage, can run along walls) or anchored (cannot be shoved, pushed or knocked prone).",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 1,
+        "lasting" : true
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 3,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "the Gravitic Anchor Node",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 3,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "dual-blade-strike",
     "name" : "Dual Blade Strike",
@@ -2656,14 +3010,15 @@
         "diceId" : "d6",
         "count" : 1
       } ],
-      "typeId" : "slashing"
+      "typeId" : "slashing",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "the Ladies' Blade and the Forgotten Blade",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "blade-oath",
     "name" : "Blade Oath",
@@ -2678,23 +3033,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "blade_oath",
-      "name" : "Blade Oath",
-      "description" : "Weapon hits deal +1 piercing damage.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 10,
-      "lasting" : true
+      "effectId" : "blade_oath",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "blade_oath",
+        "name" : "Blade Oath",
+        "description" : "Weapon hits deal +1 piercing damage.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 10,
+        "lasting" : true
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a drawn blade to swear upon",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "echo-of-the-duelist",
     "name" : "Echo of the Duelist",
@@ -2709,23 +3069,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "advantage_on_attack",
-      "name" : "Duelist's Echo",
-      "description" : "Advantage on the next attack.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 1,
-      "lasting" : true
+      "effectId" : "advantage_on_attack",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "advantage_on_attack",
+        "name" : "Duelist's Echo",
+        "description" : "Advantage on the next attack.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 1,
+        "lasting" : true
+      }
     } ],
     "damage" : null,
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 3,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "quick-strike",
     "name" : "Quick Strike",
@@ -2740,29 +3105,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "quick_strike_bonus",
-      "name" : "Quick Strike",
-      "description" : "+1 damage.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 1,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "quick_strike_bonus",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "quick_strike_bonus",
+        "name" : "Quick Strike",
+        "description" : "+1 damage.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 1,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d4",
         "count" : 1
       } ],
-      "typeId" : "piercing"
+      "typeId" : "piercing",
+      "constant" : 0
     },
-    "components" : [ "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "guard-shift",
     "name" : "Guard Shift",
@@ -2777,23 +3148,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "guard_stance",
-      "name" : "Guard Stance",
-      "description" : "+1 AC until the start of the next turn.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 1,
-      "lasting" : true
+      "effectId" : "guard_stance",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "guard_stance",
+        "name" : "Guard Stance",
+        "description" : "+1 AC until the start of the next turn.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 1,
+        "lasting" : true
+      }
     } ],
     "damage" : null,
-    "components" : [ "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "step-feint",
     "name" : "Step Feint",
@@ -2808,23 +3184,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "slowed",
-      "name" : "Feinted",
-      "description" : "Speed reduced by 30%.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 2,
-      "lasting" : true
+      "effectId" : "slowed",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "slowed",
+        "name" : "Feinted",
+        "description" : "Speed reduced by 30%.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 2,
+        "lasting" : true
+      }
     } ],
     "damage" : null,
-    "components" : [ "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 2,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "compelled-duel",
     "name" : "Compelled Duel",
@@ -2843,23 +3224,28 @@
       "requiredRoll" : 10
     },
     "effects" : [ {
-      "id" : "compelled_duel",
-      "name" : "Compelled Duel",
-      "description" : "Pulled toward the challenger and has disadvantage on attacks against anyone else.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 10,
-      "lasting" : true
+      "effectId" : "compelled_duel",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "compelled_duel",
+        "name" : "Compelled Duel",
+        "description" : "Pulled toward the challenger and has disadvantage on attacks against anyone else.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 10,
+        "lasting" : true
+      }
     } ],
     "damage" : null,
-    "components" : [ "V" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 5,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "wrathful-strike",
     "name" : "Wrathful Strike",
@@ -2874,29 +3260,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "concussed",
-      "name" : "Concussed",
-      "description" : "Head ringing: disadvantage on attacks and ability checks until the end of its next turn.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 1,
-      "lasting" : true
+      "effectId" : "concussed",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "concussed",
+        "name" : "Concussed",
+        "description" : "Head ringing: disadvantage on attacks and ability checks until the end of its next turn.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 1,
+        "lasting" : true
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d6",
         "count" : 1
       } ],
-      "typeId" : "psychic"
+      "typeId" : "psychic",
+      "constant" : 0
     },
-    "components" : [ "V" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 3,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "armor-thrust",
     "name" : "Armor Thrust",
@@ -2911,29 +3303,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "armor_broken",
-      "name" : "Armor Broken",
-      "description" : "Armour pierced or knocked askew: -2 AC.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 2,
-      "lasting" : true
+      "effectId" : "armor_broken",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "armor_broken",
+        "name" : "Armor Broken",
+        "description" : "Armour pierced or knocked askew: -2 AC.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 2,
+        "lasting" : true
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d6",
         "count" : 1
       } ],
-      "typeId" : "piercing"
+      "typeId" : "piercing",
+      "constant" : 0
     },
+    "cooldownRounds" : 3,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "the Ladies' Blade (rapier)",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 3,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "three-fast-stabs",
     "name" : "3 Fast Stabs",
@@ -2953,14 +3351,15 @@
         "diceId" : "d4",
         "count" : 3
       } ],
-      "typeId" : "piercing"
+      "typeId" : "piercing",
+      "constant" : 0
     },
-    "components" : [ "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 3,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "crushing-strike",
     "name" : "Crushing Strike",
@@ -2975,29 +3374,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "weakened",
-      "name" : "Weakened",
-      "description" : "Its blows land without strength: deals half damage.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 2,
-      "lasting" : true
+      "effectId" : "weakened",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "weakened",
+        "name" : "Weakened",
+        "description" : "Its blows land without strength: deals half damage.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 2,
+        "lasting" : true
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d8",
         "count" : 1
       } ],
-      "typeId" : "bludgeoning"
+      "typeId" : "bludgeoning",
+      "constant" : 0
     },
-    "components" : [ "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 4,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "blade-rush",
     "name" : "Charge / Blade Rush",
@@ -3017,14 +3422,15 @@
         "diceId" : "d8",
         "count" : 1
       } ],
-      "typeId" : "slashing"
+      "typeId" : "slashing",
+      "constant" : 0
     },
-    "components" : [ "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 3,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "second-wind",
     "name" : "Second Wind",
@@ -3039,23 +3445,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "second_wind",
-      "name" : "Second Wind",
-      "description" : "One debuff removed.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "second_wind",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "second_wind",
+        "name" : "Second Wind",
+        "description" : "One debuff removed.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
-    "components" : [ "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 100,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "commanding-point",
     "name" : "Commanding Point",
@@ -3071,12 +3482,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 5,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "combo-strike",
     "name" : "Combo Strike",
@@ -3092,12 +3503,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
-    "components" : [ "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 3,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "tlko-super-attack",
     "name" : "T.L.K.O. (super attack)",
@@ -3112,15 +3523,20 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "concussed",
-      "name" : "Concussed",
-      "description" : "Head ringing: disadvantage on attacks and ability checks until the end of its next turn.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 1,
-      "lasting" : true
+      "effectId" : "concussed",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "concussed",
+        "name" : "Concussed",
+        "description" : "Head ringing: disadvantage on attacks and ability checks until the end of its next turn.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 1,
+        "lasting" : true
+      }
     } ],
     "damage" : {
       "dice" : [ {
@@ -3130,14 +3546,15 @@
         "diceId" : "d6",
         "count" : 2
       } ],
-      "typeId" : "slashing"
+      "typeId" : "slashing",
+      "constant" : 0
     },
+    "cooldownRounds" : 100,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "the Ladies' Blade and the Forgotten Blade",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 100,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "shield-of-faith",
     "name" : "Shield of Faith",
@@ -3156,23 +3573,28 @@
       "requiredRoll" : 10
     },
     "effects" : [ {
-      "id" : "shield_of_faith",
-      "name" : "Shield of Faith",
-      "description" : "A shimmering field of faith: +2 AC.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 10,
-      "lasting" : true
+      "effectId" : "shield_of_faith",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "shield_of_faith",
+        "name" : "Shield of Faith",
+        "description" : "A shimmering field of faith: +2 AC.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 10,
+        "lasting" : true
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a small parchment with a bit of holy text written on it",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "spare-the-dying",
     "name" : "Spare the Dying",
@@ -3187,23 +3609,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "stabilized",
-      "name" : "Stabilized",
-      "description" : "Stable at 0 HP; no longer dying.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 10,
-      "lasting" : true
+      "effectId" : "stabilized",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "stabilized",
+        "name" : "Stabilized",
+        "description" : "Stable at 0 HP; no longer dying.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 10,
+        "lasting" : true
+      }
     } ],
     "damage" : null,
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "first-miracle",
     "name" : "First Miracle (homebrew)",
@@ -3218,23 +3645,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "invigorated",
-      "name" : "First Miracle",
-      "description" : "Brought back from the brink.",
-      "damaging" : false,
-      "healing" : true,
-      "damageAmount" : 0,
-      "healingAmount" : 7,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "invigorated",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "invigorated",
+        "name" : "First Miracle",
+        "description" : "Brought back from the brink.",
+        "damaging" : false,
+        "healing" : true,
+        "damageAmount" : 0,
+        "healingAmount" : 7,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a holy symbol and a drop of blessed wine",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "divine-embrace",
     "name" : "Divine Embrace (homebrew)",
@@ -3249,23 +3681,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "regeneration",
-      "name" : "Divine Embrace",
-      "description" : "Regenerating HP every round.",
-      "damaging" : false,
-      "healing" : true,
-      "damageAmount" : 0,
-      "healingAmount" : 4,
-      "durationRounds" : 3,
-      "lasting" : true
+      "effectId" : "regeneration",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "regeneration",
+        "name" : "Divine Embrace",
+        "description" : "Regenerating HP every round.",
+        "damaging" : false,
+        "healing" : true,
+        "damageAmount" : 0,
+        "healingAmount" : 4,
+        "durationRounds" : 3,
+        "lasting" : true
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 100,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a vial of holy water and a sprig of grapevine",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 100,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "hope-never-dies",
     "name" : "Hope Never Dies (homebrew)",
@@ -3280,23 +3717,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "invigorated",
-      "name" : "Hope Never Dies",
-      "description" : "Returns from 0 HP.",
-      "damaging" : false,
-      "healing" : true,
-      "damageAmount" : 0,
-      "healingAmount" : 12,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "invigorated",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "invigorated",
+        "name" : "Hope Never Dies",
+        "description" : "Returns from 0 HP.",
+        "damaging" : false,
+        "healing" : true,
+        "damageAmount" : 0,
+        "healingAmount" : 12,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a blessed beeswax candle, burned down by the casting",
-    "materialCost" : 0,
-    "materialConsumed" : true,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : true
   }, {
     "id" : "aid",
     "name" : "Aid",
@@ -3311,23 +3753,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "aided",
-      "name" : "Aided",
-      "description" : "Bolstered: maximum and current HP +3 for 8 hours.",
-      "damaging" : false,
-      "healing" : true,
-      "damageAmount" : 0,
-      "healingAmount" : 3,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "aided",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "aided",
+        "name" : "Aided",
+        "description" : "Bolstered: maximum and current HP +3 for 8 hours.",
+        "damaging" : false,
+        "healing" : true,
+        "damageAmount" : 0,
+        "healingAmount" : 3,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a tiny strip of white cloth",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "prayer-of-healing",
     "name" : "Prayer of Healing",
@@ -3342,23 +3789,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "invigorated",
-      "name" : "Prayer of Healing",
-      "description" : "Wounds close under a shared prayer.",
-      "damaging" : false,
-      "healing" : true,
-      "damageAmount" : 0,
-      "healingAmount" : 13,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "invigorated",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "invigorated",
+        "name" : "Prayer of Healing",
+        "description" : "Wounds close under a shared prayer.",
+        "damaging" : false,
+        "healing" : true,
+        "damageAmount" : 0,
+        "healingAmount" : 13,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
-    "components" : [ "V" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : true
+    "areaSpell" : true,
+    "materialCost" : 0,
+    "components" : [ "V" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "mending",
     "name" : "Mending",
@@ -3374,12 +3826,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "two lodestones",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "bolt-repeater-shot",
     "name" : "Bolt Repeater: Rivet Shot",
@@ -3394,29 +3846,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "knockback",
-      "name" : "Knockback",
-      "description" : "Force enough to hurl the target away from its attacker.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "knockback",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "knockback",
+        "name" : "Knockback",
+        "description" : "Force enough to hurl the target away from its attacker.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d6",
         "count" : 2
       } ],
-      "typeId" : "force"
+      "typeId" : "force",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "the deployed Bolt Repeater and its heavy rivets",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "smoke-canister-burst",
     "name" : "Smoke Canister",
@@ -3449,23 +3907,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "blinded",
-      "name" : "Blinded",
-      "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "blinded",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "blinded",
+        "name" : "Blinded",
+        "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "a Smoke Canister (thrown)",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "grapnel-shot",
     "name" : "Grapnel Shot",
@@ -3481,12 +3944,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "the Steam Grapnel Launcher",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "sticky-foam",
     "name" : "Sticky Foam",
@@ -3519,23 +3982,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "restrained",
-      "name" : "Restrained",
-      "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "restrained",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "restrained",
+        "name" : "Restrained",
+        "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "a Sticky Foam Flask (thrown)",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "messenger-beetle",
     "name" : "Messenger Beetle",
@@ -3551,12 +4019,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "a wind-up Messenger Beetle",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "scalding-bolt-shot",
     "name" : "Bolt Repeater: Scalding Bolt",
@@ -3589,15 +4057,20 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "burn",
-      "name" : "Burning",
-      "description" : "Flames cling to the target and keep searing it each round.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 3,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "burn",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "burn",
+        "name" : "Burning",
+        "description" : "Flames cling to the target and keep searing it each round.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 3,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
@@ -3607,14 +4080,15 @@
         "diceId" : "d4",
         "count" : 1
       } ],
-      "typeId" : "fire"
+      "typeId" : "fire",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "the Bolt Repeater loaded with a Scalding Bolt",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "flash-bomb-throw",
     "name" : "Flash Bomb",
@@ -3647,23 +4121,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "blinded",
-      "name" : "Blinded",
-      "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "blinded",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "blinded",
+        "name" : "Blinded",
+        "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "a Flash Bomb (thrown)",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "shock-dart-throw",
     "name" : "Shock Dart",
@@ -3696,29 +4175,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "shock",
-      "name" : "Shock",
-      "description" : "Muscles lock under a surge of electricity, costing the victim its reaction.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "shock",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "shock",
+        "name" : "Shock",
+        "description" : "Muscles lock under a surge of electricity, costing the victim its reaction.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d4",
         "count" : 2
       } ],
-      "typeId" : "lightning"
+      "typeId" : "lightning",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "a Shock Dart (thrown)",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "steam-jet-blast",
     "name" : "Steam-Jet Blast",
@@ -3733,23 +4218,28 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "knockback",
-      "name" : "Knockback",
-      "description" : "Force enough to hurl the target away from its attacker.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "knockback",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "knockback",
+        "name" : "Knockback",
+        "description" : "Force enough to hurl the target away from its attacker.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "the Steam-Jet Gauntlet",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "thermal-grenade-throw",
     "name" : "Thermal Grenade",
@@ -3787,14 +4277,15 @@
         "diceId" : "d6",
         "count" : 2
       } ],
-      "typeId" : "fire"
+      "typeId" : "fire",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "a Thermal Grenade (thrown)",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "pressure-ram-strike",
     "name" : "Pressure Ram",
@@ -3809,29 +4300,35 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "knockback",
-      "name" : "Knockback",
-      "description" : "Force enough to hurl the target away from its attacker.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "knockback",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "knockback",
+        "name" : "Knockback",
+        "description" : "Force enough to hurl the target away from its attacker.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d6",
         "count" : 3
       } ],
-      "typeId" : "force"
+      "typeId" : "force",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "the forearm Pressure Ram piston",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "concussion-bolt-shot",
     "name" : "Bolt Repeater: Concussion Bolt",
@@ -3864,15 +4361,20 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "knockback",
-      "name" : "Knockback",
-      "description" : "Force enough to hurl the target away from its attacker.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "knockback",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "knockback",
+        "name" : "Knockback",
+        "description" : "Force enough to hurl the target away from its attacker.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
@@ -3882,14 +4384,15 @@
         "diceId" : "d4",
         "count" : 1
       } ],
-      "typeId" : "force"
+      "typeId" : "force",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "the Bolt Repeater loaded with a Concussion Bolt",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "thermal-smoke-burst",
     "name" : "Thermal Smoke Grenade",
@@ -3904,39 +4407,50 @@
     "requiredTools" : [ ],
     "concentration" : null,
     "effects" : [ {
-      "id" : "blinded",
-      "name" : "Blinded",
-      "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "blinded",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "blinded",
+        "name" : "Blinded",
+        "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     }, {
-      "id" : "burn",
-      "name" : "Burning",
-      "description" : "Flames cling to the target and keep searing it each round.",
-      "damaging" : true,
-      "healing" : false,
-      "damageAmount" : 3,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "burn",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "burn",
+        "name" : "Burning",
+        "description" : "Flames cling to the target and keep searing it each round.",
+        "damaging" : true,
+        "healing" : false,
+        "damageAmount" : 3,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ {
         "diceId" : "d4",
         "count" : 1
       } ],
-      "typeId" : "fire"
+      "typeId" : "fire",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "S", "M" ],
     "materialComponent" : "a Thermal Smoke Grenade primed with a Thermal capsule (thrown)",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "disguise-self",
     "name" : "Disguise Self",
@@ -3952,12 +4466,12 @@
     "concentration" : null,
     "effects" : [ ],
     "damage" : null,
-    "components" : [ "V", "S" ],
-    "materialComponent" : "",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 0,
-    "areaSpell" : false
+    "areaSpell" : false,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : null,
+    "materialConsumed" : false
   }, {
     "id" : "silent-image",
     "name" : "Silent Image",
@@ -3977,12 +4491,12 @@
     },
     "effects" : [ ],
     "damage" : null,
+    "cooldownRounds" : 0,
+    "areaSpell" : true,
+    "materialCost" : 0,
     "components" : [ "V", "S", "M" ],
     "materialComponent" : "a bit of fleece",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 0,
-    "areaSpell" : true
+    "materialConsumed" : false
   }, {
     "id" : "leaf dart",
     "name" : "Leaf dart",
@@ -4006,14 +4520,15 @@
         "diceId" : "d4",
         "count" : 1
       } ],
-      "typeId" : "piercing"
+      "typeId" : "piercing",
+      "constant" : 0
     },
+    "cooldownRounds" : 0,
+    "areaSpell" : false,
+    "materialCost" : 1,
     "components" : [ "S" ],
     "materialComponent" : "leaf",
-    "materialCost" : 1,
-    "materialConsumed" : true,
-    "cooldownRounds" : 0,
-    "areaSpell" : false
+    "materialConsumed" : true
   }, {
     "id" : "animal distraction",
     "name" : "Animal distraction",
@@ -4032,26 +4547,32 @@
       "requiredRoll" : 5
     },
     "effects" : [ {
-      "id" : "disadvantage",
-      "name" : "disadvantage",
-      "description" : "-2 on next roll",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 1,
-      "lasting" : true
+      "effectId" : "disadvantage",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "disadvantage",
+        "name" : "disadvantage",
+        "description" : "-2 on next roll",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 1,
+        "lasting" : true
+      }
     } ],
     "damage" : {
       "dice" : [ ],
-      "typeId" : null
+      "typeId" : null,
+      "constant" : 0
     },
-    "components" : [ "V = ცხოველისთვის მიცემული ბრძანება S = ცხოველისთვის მიცემული ხელის ნიშანი" ],
-    "materialComponent" : "animal companion",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 2,
-    "areaSpell" : true
+    "areaSpell" : true,
+    "materialCost" : 0,
+    "components" : [ "V", "S" ],
+    "materialComponent" : "animal companion",
+    "materialConsumed" : false
   }, {
     "id" : "beast sense",
     "name" : "Beast sense",
@@ -4070,26 +4591,32 @@
       "requiredRoll" : 10
     },
     "effects" : [ {
-      "id" : "see through animal",
-      "name" : "see through animal",
-      "description" : "character is able to see, hear and sense everything the controlled animal senses",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 0,
-      "lasting" : false
+      "effectId" : "see through animal",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "see through animal",
+        "name" : "see through animal",
+        "description" : "character is able to see, hear and sense everything the controlled animal senses",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 0,
+        "lasting" : false
+      }
     } ],
     "damage" : {
       "dice" : [ ],
-      "typeId" : null
+      "typeId" : null,
+      "constant" : 0
     },
+    "cooldownRounds" : 2,
+    "areaSpell" : false,
+    "materialCost" : 0,
     "components" : [ ],
     "materialComponent" : "living animal",
-    "materialCost" : 0,
-    "materialConsumed" : false,
-    "cooldownRounds" : 2,
-    "areaSpell" : false
+    "materialConsumed" : false
   }, {
     "id" : "primal roar",
     "name" : "primal roar",
@@ -4108,25 +4635,67 @@
       "requiredRoll" : 0
     },
     "effects" : [ {
-      "id" : "frighten",
-      "name" : "frighten",
-      "description" : "make enemies unable to get closer",
-      "damaging" : false,
-      "healing" : false,
-      "damageAmount" : 0,
-      "healingAmount" : 0,
-      "durationRounds" : 2,
-      "lasting" : true
+      "effectId" : "frighten",
+      "constant" : 0,
+      "dice" : [ ],
+      "definition" : {
+        "id" : "frighten",
+        "name" : "frighten",
+        "description" : "make enemies unable to get closer",
+        "damaging" : false,
+        "healing" : false,
+        "damageAmount" : 0,
+        "healingAmount" : 0,
+        "durationRounds" : 2,
+        "lasting" : true
+      }
     } ],
     "damage" : {
       "dice" : [ ],
-      "typeId" : null
+      "typeId" : null,
+      "constant" : 0
     },
-    "components" : [ "V = roar" ],
-    "materialComponent" : "V = voice",
-    "materialCost" : 0,
-    "materialConsumed" : false,
     "cooldownRounds" : 3,
-    "areaSpell" : true
+    "areaSpell" : true,
+    "materialCost" : 0,
+    "components" : [ "V" ],
+    "materialComponent" : "V = voice",
+    "materialConsumed" : false
+  }, {
+    "id" : "heat metal",
+    "name" : "Heat metal",
+    "description" : "small or medium sized metal object in 30 meter range and within visible area gets heated until it glows red.",
+    "level" : 3,
+    "school" : "elemental magic",
+    "manaCost" : 40,
+    "range" : 30,
+    "radius" : 1,
+    "castingMethod" : "hand-movement",
+    "requiredConsumables" : [ ],
+    "requiredTools" : [ ],
+    "concentration" : {
+      "difficultyLevel" : null,
+      "preventsMovement" : false,
+      "requiredRoll" : 0
+    },
+    "effects" : [ {
+      "effectId" : "burn",
+      "constant" : 4,
+      "dice" : [ ]
+    } ],
+    "damage" : {
+      "dice" : [ {
+        "diceId" : "d6",
+        "count" : 3
+      } ],
+      "typeId" : "fire",
+      "constant" : 4
+    },
+    "cooldownRounds" : 3,
+    "areaSpell" : true,
+    "materialCost" : 0,
+    "components" : [ "V" ],
+    "materialComponent" : "Ang naur",
+    "materialConsumed" : false
   } ]
 }
