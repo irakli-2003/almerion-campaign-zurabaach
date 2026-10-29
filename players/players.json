@@ -5,7 +5,7 @@
     "classId" : "bard",
     "raceId" : "human",
     "level" : 5,
-    "xp" : 0,
+    "xp" : 101,
     "stats" : {
       "strength" : 8,
       "dexterity" : 15,
@@ -204,7 +204,7 @@
     "classId" : "ranger",
     "raceId" : "wood-elf",
     "level" : 5,
-    "xp" : 20,
+    "xp" : 121,
     "stats" : {
       "strength" : 8,
       "dexterity" : 15,
@@ -381,7 +381,7 @@
     "classId" : "rogue",
     "raceId" : "human",
     "level" : 5,
-    "xp" : 145,
+    "xp" : 246,
     "stats" : {
       "strength" : 15,
       "dexterity" : 15,
@@ -542,7 +542,7 @@
     "classId" : "fighter",
     "raceId" : "human",
     "level" : 5,
-    "xp" : 26,
+    "xp" : 127,
     "stats" : {
       "strength" : 15,
       "dexterity" : 15,
@@ -767,7 +767,7 @@
     "classId" : "cleric",
     "raceId" : "tiefling",
     "level" : 5,
-    "xp" : 65,
+    "xp" : 166,
     "stats" : {
       "strength" : 8,
       "dexterity" : 8,
@@ -985,7 +985,7 @@
     "classId" : "barbarian",
     "raceId" : "human",
     "level" : 5,
-    "xp" : 35,
+    "xp" : 136,
     "stats" : {
       "strength" : 15,
       "dexterity" : 15,
@@ -1087,7 +1087,7 @@
     "classId" : "artificer",
     "raceId" : "human",
     "level" : 5,
-    "xp" : 15,
+    "xp" : 116,
     "stats" : {
       "strength" : 8,
       "dexterity" : 15,
@@ -1482,7 +1482,7 @@
     "classId" : "wizard",
     "raceId" : "elf",
     "level" : 5,
-    "xp" : 20,
+    "xp" : 121,
     "stats" : {
       "strength" : 8,
       "dexterity" : 15,
@@ -1647,7 +1647,7 @@
     "classId" : "rogue",
     "raceId" : "lightfoot-halfling",
     "level" : 5,
-    "xp" : 0,
+    "xp" : 101,
     "stats" : {
       "strength" : 8,
       "dexterity" : 15,
