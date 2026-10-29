@@ -846,7 +846,7 @@
     }, {
       "itemId" : "coin",
       "condition" : {
-        "durability" : 15
+        "durability" : 100
       },
       "equipped" : false,
       "quantity" : 16
@@ -971,23 +971,23 @@
     },
     "skills" : {
       "acrobatics" : -1,
-      "animalHandling" : 2,
-      "arcana" : -1,
-      "athletics" : -1,
-      "deception" : 2,
-      "history" : -1,
-      "insight" : 2,
-      "intimidation" : 2,
-      "investigation" : -1,
-      "medicine" : 2,
-      "nature" : -1,
-      "perception" : 2,
-      "performance" : 2,
-      "persuasion" : 2,
-      "religion" : -1,
+      "animalHandling" : 1,
+      "arcana" : 2,
+      "athletics" : 0,
+      "deception" : -2,
+      "history" : 0,
+      "insight" : 1,
+      "intimidation" : -1,
+      "investigation" : 0,
+      "medicine" : 5,
+      "nature" : 0,
+      "perception" : 1,
+      "performance" : 1,
+      "persuasion" : 3,
+      "religion" : 5,
       "sleightOfHand" : -1,
       "stealth" : -1,
-      "survival" : 2
+      "survival" : 1
     },
     "featureUses" : {
       "strength" : 0,
