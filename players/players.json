@@ -1614,8 +1614,8 @@
       "active" : true
     }, {
       "spellId" : "heat metal",
-      "rank" : 0,
-      "active" : false
+      "rank" : 3,
+      "active" : true
     } ],
     "passwordHash" : null,
     "passwordSalt" : null,
