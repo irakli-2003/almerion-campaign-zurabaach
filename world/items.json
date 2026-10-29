@@ -3863,19 +3863,22 @@
     "producesChargeLevel" : 5
   }, {
     "id" : "arrows",
-    "name" : "Arrows (20)",
-    "type" : null,
+    "name" : "Arrow",
+    "type" : "",
     "description" : "A bundle of twenty arrows for a bow.",
     "valueGold" : 1,
     "weight" : 1.0,
-    "damage" : null,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
+    },
     "durability" : {
       "max" : 100,
       "current" : 100
     },
     "pickable" : true,
     "imagePath" : null,
-    "overview" : "A bundle of twenty arrows for a bow."
+    "overview" : "A normal arrow"
   }, {
     "id" : "quiver",
     "name" : "Quiver",
@@ -4086,7 +4089,7 @@
   }, {
     "id" : "item-126b25c9",
     "name" : "დოკუმენტების პორტფელი",
-    "type" : "gear",
+    "type" : null,
     "description" : "",
     "valueGold" : 0,
     "weight" : 0.0,
