@@ -574,7 +574,8 @@
                 "diceId" : "d6",
                 "count" : 1
               } ],
-              "typeId" : "fire"
+              "typeId" : "fire",
+              "constant" : 0
             }
           }, {
             "id" : "shatter",
@@ -591,7 +592,8 @@
                 "diceId" : "d6",
                 "count" : 1
               } ],
-              "typeId" : "slashing"
+              "typeId" : "slashing",
+              "constant" : 0
             }
           } ],
           "languages" : [ ],
@@ -696,7 +698,8 @@
                 "diceId" : "d6",
                 "count" : 1
               } ],
-              "typeId" : "fire"
+              "typeId" : "fire",
+              "constant" : 0
             }
           }, {
             "id" : "shatter",
@@ -713,7 +716,8 @@
                 "diceId" : "d6",
                 "count" : 1
               } ],
-              "typeId" : "slashing"
+              "typeId" : "slashing",
+              "constant" : 0
             }
           } ],
           "languages" : [ ],
@@ -905,7 +909,8 @@
             "manaCost" : 0,
             "damage" : {
               "dice" : [ ],
-              "typeId" : null
+              "typeId" : null,
+              "constant" : 0
             }
           }, {
             "id" : "hat_brim",
@@ -922,7 +927,8 @@
                 "diceId" : "d6",
                 "count" : 1
               } ],
-              "typeId" : "slashing"
+              "typeId" : "slashing",
+              "constant" : 0
             }
           }, {
             "id" : "sit_down",
@@ -936,7 +942,8 @@
             "manaCost" : 0,
             "damage" : {
               "dice" : [ ],
-              "typeId" : null
+              "typeId" : null,
+              "constant" : 0
             }
           }, {
             "id" : "teapot",
@@ -953,7 +960,8 @@
                 "diceId" : "d6",
                 "count" : 4
               } ],
-              "typeId" : "fire"
+              "typeId" : "fire",
+              "constant" : 0
             }
           }, {
             "id" : "pull_from_the_hat",
@@ -967,7 +975,8 @@
             "manaCost" : 0,
             "damage" : {
               "dice" : [ ],
-              "typeId" : null
+              "typeId" : null,
+              "constant" : 0
             }
           }, {
             "id" : "table_punishes",
@@ -984,7 +993,8 @@
                 "diceId" : "d8",
                 "count" : 2
               } ],
-              "typeId" : "psychic"
+              "typeId" : "psychic",
+              "constant" : 0
             }
           }, {
             "id" : "madness",
@@ -998,7 +1008,8 @@
             "manaCost" : 0,
             "damage" : {
               "dice" : [ ],
-              "typeId" : null
+              "typeId" : null,
+              "constant" : 0
             }
           } ],
           "languages" : [ "common" ],
@@ -1238,7 +1249,8 @@
                 "diceId" : "d6",
                 "count" : 1
               } ],
-              "typeId" : "fire"
+              "typeId" : "fire",
+              "constant" : 0
             }
           }, {
             "id" : "shatter",
@@ -1255,7 +1267,8 @@
                 "diceId" : "d6",
                 "count" : 1
               } ],
-              "typeId" : "slashing"
+              "typeId" : "slashing",
+              "constant" : 0
             }
           } ],
           "languages" : [ ],
@@ -2563,7 +2576,34 @@
           "y" : 6
         },
         "inventory" : [ ],
-        "combat" : null,
+        "combat" : {
+          "maxHitPoints" : 999,
+          "currentHitPoints" : 999,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "gold" : 0,
+          "initiative" : 0,
+          "deathSaveFailures" : 0,
+          "downed" : false,
+          "dead" : false,
+          "conditions" : [ ],
+          "notes" : null,
+          "inInitiative" : true,
+          "walkSpeed" : 30,
+          "climbSpeed" : 0,
+          "swimSpeed" : 0,
+          "speedSeeded" : true,
+          "movementUsed" : 0,
+          "activeEffects" : [ ],
+          "cooldowns" : { },
+          "featureUses" : { },
+          "resistances" : [ ],
+          "enduranceFeature" : null,
+          "featureSpeedBonus" : 0,
+          "castingResource" : null,
+          "spellSlots" : [ ],
+          "actingThisRound" : true
+        },
         "symbol" : "N"
       } ]
     }, {
@@ -4435,6 +4475,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : -1,
+            "animalHandling" : 2,
+            "arcana" : -1,
+            "athletics" : 2,
+            "deception" : -1,
+            "history" : -1,
+            "insight" : 2,
+            "intimidation" : -1,
+            "investigation" : -1,
+            "medicine" : 2,
+            "nature" : -1,
+            "perception" : 2,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : -1,
+            "sleightOfHand" : -1,
+            "stealth" : -1,
+            "survival" : 2
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -4723,6 +4783,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : 2,
+            "animalHandling" : 2,
+            "arcana" : -1,
+            "athletics" : -1,
+            "deception" : -1,
+            "history" : -1,
+            "insight" : 2,
+            "intimidation" : -1,
+            "investigation" : -1,
+            "medicine" : 2,
+            "nature" : -1,
+            "perception" : 2,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : -1,
+            "sleightOfHand" : 2,
+            "stealth" : 2,
+            "survival" : 2
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -4994,6 +5074,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : -1,
+            "animalHandling" : 2,
+            "arcana" : -1,
+            "athletics" : -1,
+            "deception" : 2,
+            "history" : -1,
+            "insight" : 2,
+            "intimidation" : 2,
+            "investigation" : -1,
+            "medicine" : 2,
+            "nature" : -1,
+            "perception" : 2,
+            "performance" : 2,
+            "persuasion" : 2,
+            "religion" : -1,
+            "sleightOfHand" : -1,
+            "stealth" : -1,
+            "survival" : 2
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -5862,6 +5962,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : 2,
+            "animalHandling" : -1,
+            "arcana" : -1,
+            "athletics" : 2,
+            "deception" : -1,
+            "history" : -1,
+            "insight" : -1,
+            "intimidation" : -1,
+            "investigation" : -1,
+            "medicine" : -1,
+            "nature" : -1,
+            "perception" : -1,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : -1,
+            "sleightOfHand" : 2,
+            "stealth" : 2,
+            "survival" : -1
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -6081,6 +6201,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : 2,
+            "animalHandling" : -1,
+            "arcana" : -1,
+            "athletics" : 2,
+            "deception" : -1,
+            "history" : -1,
+            "insight" : -1,
+            "intimidation" : -1,
+            "investigation" : -1,
+            "medicine" : -1,
+            "nature" : -1,
+            "perception" : -1,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : -1,
+            "sleightOfHand" : 2,
+            "stealth" : 2,
+            "survival" : -1
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -6181,6 +6321,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : 2,
+            "animalHandling" : -1,
+            "arcana" : -1,
+            "athletics" : 3,
+            "deception" : -1,
+            "history" : -1,
+            "insight" : -1,
+            "intimidation" : -1,
+            "investigation" : -1,
+            "medicine" : -1,
+            "nature" : -1,
+            "perception" : -1,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : -1,
+            "sleightOfHand" : 2,
+            "stealth" : 2,
+            "survival" : -1
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -7759,6 +7919,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : -1,
+            "animalHandling" : 2,
+            "arcana" : -1,
+            "athletics" : -1,
+            "deception" : 2,
+            "history" : -1,
+            "insight" : 2,
+            "intimidation" : 2,
+            "investigation" : -1,
+            "medicine" : 2,
+            "nature" : -1,
+            "perception" : 2,
+            "performance" : 2,
+            "persuasion" : 2,
+            "religion" : -1,
+            "sleightOfHand" : -1,
+            "stealth" : -1,
+            "survival" : 2
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -7944,6 +8124,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : -1,
+            "animalHandling" : 2,
+            "arcana" : -1,
+            "athletics" : 2,
+            "deception" : -1,
+            "history" : -1,
+            "insight" : 2,
+            "intimidation" : -1,
+            "investigation" : -1,
+            "medicine" : 2,
+            "nature" : -1,
+            "perception" : 2,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : -1,
+            "sleightOfHand" : -1,
+            "stealth" : -1,
+            "survival" : 2
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -8403,6 +8603,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : 2,
+            "animalHandling" : -1,
+            "arcana" : -1,
+            "athletics" : 2,
+            "deception" : -1,
+            "history" : -1,
+            "insight" : -1,
+            "intimidation" : -1,
+            "investigation" : -1,
+            "medicine" : -1,
+            "nature" : -1,
+            "perception" : -1,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : -1,
+            "sleightOfHand" : 2,
+            "stealth" : 2,
+            "survival" : -1
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -9405,7 +9625,8 @@
             "manaCost" : 0,
             "damage" : {
               "dice" : [ ],
-              "typeId" : null
+              "typeId" : null,
+              "constant" : 0
             }
           }, {
             "id" : "get_away_from_her",
@@ -9419,7 +9640,8 @@
             "manaCost" : 0,
             "damage" : {
               "dice" : [ ],
-              "typeId" : null
+              "typeId" : null,
+              "constant" : 0
             }
           }, {
             "id" : "forty_cards",
@@ -9433,7 +9655,8 @@
             "manaCost" : 0,
             "damage" : {
               "dice" : [ ],
-              "typeId" : null
+              "typeId" : null,
+              "constant" : 0
             }
           }, {
             "id" : "the_hollow",
@@ -9450,7 +9673,8 @@
                 "diceId" : "d10",
                 "count" : 6
               } ],
-              "typeId" : "psychic"
+              "typeId" : "psychic",
+              "constant" : 0
             }
           } ],
           "languages" : [ "common" ],
@@ -10673,6 +10897,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : -1,
+            "animalHandling" : 2,
+            "arcana" : -1,
+            "athletics" : -1,
+            "deception" : 2,
+            "history" : -1,
+            "insight" : 2,
+            "intimidation" : 2,
+            "investigation" : -1,
+            "medicine" : 2,
+            "nature" : -1,
+            "perception" : 2,
+            "performance" : 2,
+            "persuasion" : 2,
+            "religion" : -1,
+            "sleightOfHand" : -1,
+            "stealth" : -1,
+            "survival" : 2
+          },
           "featureUses" : {
             "strength" : 0,
             "dexterity" : 0,
@@ -11158,6 +11402,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : 2,
+            "animalHandling" : 2,
+            "arcana" : -1,
+            "athletics" : -1,
+            "deception" : -1,
+            "history" : -1,
+            "insight" : 2,
+            "intimidation" : -1,
+            "investigation" : -1,
+            "medicine" : 2,
+            "nature" : -1,
+            "perception" : 2,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : -1,
+            "sleightOfHand" : 2,
+            "stealth" : 2,
+            "survival" : 2
+          },
           "featureUses" : {
             "strength" : 0,
             "dexterity" : 0,
@@ -11460,6 +11724,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : 2,
+            "animalHandling" : 2,
+            "arcana" : 2,
+            "athletics" : -1,
+            "deception" : -1,
+            "history" : 2,
+            "insight" : 2,
+            "intimidation" : -1,
+            "investigation" : 2,
+            "medicine" : 2,
+            "nature" : 2,
+            "perception" : 2,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : 2,
+            "sleightOfHand" : 2,
+            "stealth" : 2,
+            "survival" : 2
+          },
           "featureUses" : {
             "strength" : 0,
             "dexterity" : 0,
@@ -11594,6 +11878,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : 2,
+            "animalHandling" : -1,
+            "arcana" : -1,
+            "athletics" : 2,
+            "deception" : -1,
+            "history" : -1,
+            "insight" : -1,
+            "intimidation" : -1,
+            "investigation" : -1,
+            "medicine" : -1,
+            "nature" : -1,
+            "perception" : -1,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : -1,
+            "sleightOfHand" : 2,
+            "stealth" : 2,
+            "survival" : -1
+          },
           "featureUses" : {
             "strength" : 0,
             "dexterity" : 0,
@@ -11841,6 +12145,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : 2,
+            "animalHandling" : -1,
+            "arcana" : -1,
+            "athletics" : -1,
+            "deception" : 2,
+            "history" : -1,
+            "insight" : -1,
+            "intimidation" : 2,
+            "investigation" : -1,
+            "medicine" : -1,
+            "nature" : -1,
+            "perception" : -1,
+            "performance" : 2,
+            "persuasion" : 2,
+            "religion" : -1,
+            "sleightOfHand" : 2,
+            "stealth" : 2,
+            "survival" : -1
+          },
           "featureUses" : {
             "strength" : 0,
             "dexterity" : 0,
@@ -12035,6 +12359,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : -1,
+            "animalHandling" : 2,
+            "arcana" : 2,
+            "athletics" : -1,
+            "deception" : -1,
+            "history" : 2,
+            "insight" : 2,
+            "intimidation" : -1,
+            "investigation" : 2,
+            "medicine" : 2,
+            "nature" : 2,
+            "perception" : 2,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : 2,
+            "sleightOfHand" : -1,
+            "stealth" : -1,
+            "survival" : 2
+          },
           "featureUses" : {
             "strength" : 0,
             "dexterity" : 0,
@@ -12464,6 +12808,26 @@
           "knownBlueprints" : [ "bp-smoke-canister", "bp-tripwire-alarm", "bp-grapnel-launcher", "bp-sticky-foam", "bp-messenger-beetle", "bp-thermal-smoke-grenade", "bp-scalding-bolts", "bp-flash-bomb", "bp-steam-jet-gauntlet", "bp-thermal-grenade", "bp-pressure-ram", "bp-steam-capsule", "bp-thermal-capsule" ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : 2,
+            "animalHandling" : -1,
+            "arcana" : 2,
+            "athletics" : -1,
+            "deception" : -1,
+            "history" : 2,
+            "insight" : -1,
+            "intimidation" : -1,
+            "investigation" : 2,
+            "medicine" : -1,
+            "nature" : 2,
+            "perception" : -1,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : 2,
+            "sleightOfHand" : 2,
+            "stealth" : 2,
+            "survival" : -1
+          },
           "featureUses" : {
             "strength" : 0,
             "dexterity" : 0,
@@ -12765,6 +13129,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : 2,
+            "animalHandling" : -1,
+            "arcana" : -1,
+            "athletics" : 2,
+            "deception" : -1,
+            "history" : -1,
+            "insight" : -1,
+            "intimidation" : -1,
+            "investigation" : -1,
+            "medicine" : -1,
+            "nature" : -1,
+            "perception" : -1,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : -1,
+            "sleightOfHand" : 2,
+            "stealth" : 2,
+            "survival" : -1
+          },
           "featureUses" : {
             "strength" : 0,
             "dexterity" : 0,
@@ -12981,6 +13365,26 @@
             "wisdom" : 0,
             "charisma" : 0,
             "anchor-round" : 100
+          },
+          "skills" : {
+            "acrobatics" : 2,
+            "animalHandling" : -1,
+            "arcana" : -1,
+            "athletics" : 2,
+            "deception" : -1,
+            "history" : -1,
+            "insight" : -1,
+            "intimidation" : -1,
+            "investigation" : -1,
+            "medicine" : -1,
+            "nature" : -1,
+            "perception" : -1,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : -1,
+            "sleightOfHand" : 2,
+            "stealth" : 2,
+            "survival" : -1
           },
           "featureUses" : {
             "strength" : 0,
@@ -14920,7 +15324,8 @@
                 "diceId" : "d4",
                 "count" : 1
               } ],
-              "typeId" : "piercing"
+              "typeId" : "piercing",
+              "constant" : 0
             }
           }, {
             "id" : "caretaker_shovel",
@@ -14937,7 +15342,8 @@
                 "diceId" : "d8",
                 "count" : 2
               } ],
-              "typeId" : "bludgeoning"
+              "typeId" : "bludgeoning",
+              "constant" : 0
             }
           }, {
             "id" : "shovel_slam",
@@ -14954,7 +15360,8 @@
                 "diceId" : "d10",
                 "count" : 4
               } ],
-              "typeId" : "bludgeoning"
+              "typeId" : "bludgeoning",
+              "constant" : 0
             }
           }, {
             "id" : "caretaker_rise",
@@ -14968,7 +15375,8 @@
             "manaCost" : 0,
             "damage" : {
               "dice" : [ ],
-              "typeId" : null
+              "typeId" : null,
+              "constant" : 0
             }
           }, {
             "id" : "caretaker_kneel",
@@ -14982,7 +15390,8 @@
             "manaCost" : 0,
             "damage" : {
               "dice" : [ ],
-              "typeId" : null
+              "typeId" : null,
+              "constant" : 0
             }
           }, {
             "id" : "rise_from_knees",
@@ -14999,7 +15408,8 @@
                 "diceId" : "d8",
                 "count" : 2
               } ],
-              "typeId" : "bludgeoning"
+              "typeId" : "bludgeoning",
+              "constant" : 0
             }
           } ],
           "languages" : [ "common" ],
@@ -15490,6 +15900,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : -1,
+            "animalHandling" : 2,
+            "arcana" : -1,
+            "athletics" : 2,
+            "deception" : -1,
+            "history" : -1,
+            "insight" : 2,
+            "intimidation" : -1,
+            "investigation" : -1,
+            "medicine" : 2,
+            "nature" : -1,
+            "perception" : 2,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : -1,
+            "sleightOfHand" : -1,
+            "stealth" : -1,
+            "survival" : 2
+          },
           "featureUses" : {
             "strength" : 0,
             "dexterity" : 0,
@@ -19022,7 +19452,8 @@
                 "diceId" : "d6",
                 "count" : 2
               } ],
-              "typeId" : "piercing"
+              "typeId" : "piercing",
+              "constant" : 0
             }
           }, {
             "id" : "nursery_house_rules",
@@ -19193,7 +19624,8 @@
                 "diceId" : "d8",
                 "count" : 1
               } ],
-              "typeId" : "bludgeoning"
+              "typeId" : "bludgeoning",
+              "constant" : 0
             }
           }, {
             "id" : "mimic_bite",
@@ -19210,7 +19642,8 @@
                 "diceId" : "d8",
                 "count" : 1
               } ],
-              "typeId" : "piercing"
+              "typeId" : "piercing",
+              "constant" : 0
             }
           }, {
             "id" : "nursery_house_rules",
@@ -19326,7 +19759,8 @@
                 "diceId" : "d8",
                 "count" : 1
               } ],
-              "typeId" : "bludgeoning"
+              "typeId" : "bludgeoning",
+              "constant" : 0
             }
           }, {
             "id" : "mimic_bite",
@@ -19343,7 +19777,8 @@
                 "diceId" : "d8",
                 "count" : 1
               } ],
-              "typeId" : "piercing"
+              "typeId" : "piercing",
+              "constant" : 0
             }
           }, {
             "id" : "nursery_house_rules",
@@ -20195,7 +20630,8 @@
                 "diceId" : "d8",
                 "count" : 1
               } ],
-              "typeId" : "bludgeoning"
+              "typeId" : "bludgeoning",
+              "constant" : 0
             }
           }, {
             "id" : "mimic_bite",
@@ -20212,7 +20648,8 @@
                 "diceId" : "d8",
                 "count" : 1
               } ],
-              "typeId" : "piercing"
+              "typeId" : "piercing",
+              "constant" : 0
             }
           }, {
             "id" : "nursery_house_rules",
@@ -20678,7 +21115,8 @@
                 "diceId" : "d6",
                 "count" : 2
               } ],
-              "typeId" : "bludgeoning"
+              "typeId" : "bludgeoning",
+              "constant" : 0
             }
           }, {
             "id" : "attention_counter",
@@ -21009,7 +21447,8 @@
                 "diceId" : "d8",
                 "count" : 1
               } ],
-              "typeId" : "bludgeoning"
+              "typeId" : "bludgeoning",
+              "constant" : 0
             }
           }, {
             "id" : "mimic_bite",
@@ -21026,7 +21465,8 @@
                 "diceId" : "d8",
                 "count" : 1
               } ],
-              "typeId" : "piercing"
+              "typeId" : "piercing",
+              "constant" : 0
             }
           }, {
             "id" : "nursery_house_rules",
@@ -21307,7 +21747,8 @@
                 "diceId" : "d8",
                 "count" : 1
               } ],
-              "typeId" : "bludgeoning"
+              "typeId" : "bludgeoning",
+              "constant" : 0
             }
           }, {
             "id" : "mimic_bite",
@@ -21324,7 +21765,8 @@
                 "diceId" : "d8",
                 "count" : 1
               } ],
-              "typeId" : "piercing"
+              "typeId" : "piercing",
+              "constant" : 0
             }
           }, {
             "id" : "nursery_house_rules",
@@ -21720,7 +22162,8 @@
                 "diceId" : "d8",
                 "count" : 1
               } ],
-              "typeId" : "bludgeoning"
+              "typeId" : "bludgeoning",
+              "constant" : 0
             }
           }, {
             "id" : "mimic_bite",
@@ -21737,7 +22180,8 @@
                 "diceId" : "d8",
                 "count" : 1
               } ],
-              "typeId" : "piercing"
+              "typeId" : "piercing",
+              "constant" : 0
             }
           }, {
             "id" : "nursery_house_rules",
@@ -21843,7 +22287,8 @@
                 "diceId" : "d8",
                 "count" : 1
               } ],
-              "typeId" : "bludgeoning"
+              "typeId" : "bludgeoning",
+              "constant" : 0
             }
           }, {
             "id" : "mimic_bite",
@@ -21860,7 +22305,8 @@
                 "diceId" : "d8",
                 "count" : 1
               } ],
-              "typeId" : "piercing"
+              "typeId" : "piercing",
+              "constant" : 0
             }
           }, {
             "id" : "nursery_house_rules",
@@ -22151,7 +22597,8 @@
                 "diceId" : "d8",
                 "count" : 1
               } ],
-              "typeId" : "bludgeoning"
+              "typeId" : "bludgeoning",
+              "constant" : 0
             }
           }, {
             "id" : "mimic_bite",
@@ -22168,7 +22615,8 @@
                 "diceId" : "d8",
                 "count" : 1
               } ],
-              "typeId" : "piercing"
+              "typeId" : "piercing",
+              "constant" : 0
             }
           }, {
             "id" : "nursery_house_rules",
@@ -27784,7 +28232,8 @@
                 "diceId" : "d6",
                 "count" : 1
               } ],
-              "typeId" : "piercing"
+              "typeId" : "piercing",
+              "constant" : 0
             }
           }, {
             "id" : "rabbit_delay",
@@ -28690,6 +29139,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : 2,
+            "animalHandling" : -1,
+            "arcana" : -1,
+            "athletics" : 3,
+            "deception" : -1,
+            "history" : -1,
+            "insight" : -1,
+            "intimidation" : -1,
+            "investigation" : -1,
+            "medicine" : -1,
+            "nature" : -1,
+            "perception" : -1,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : -1,
+            "sleightOfHand" : 2,
+            "stealth" : 2,
+            "survival" : -1
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -29241,6 +29710,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : -1,
+            "animalHandling" : 2,
+            "arcana" : -1,
+            "athletics" : -1,
+            "deception" : 2,
+            "history" : -1,
+            "insight" : 2,
+            "intimidation" : 2,
+            "investigation" : -1,
+            "medicine" : 2,
+            "nature" : -1,
+            "perception" : 2,
+            "performance" : 2,
+            "persuasion" : 2,
+            "religion" : -1,
+            "sleightOfHand" : -1,
+            "stealth" : -1,
+            "survival" : 2
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -29361,6 +29850,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : -1,
+            "animalHandling" : 2,
+            "arcana" : -1,
+            "athletics" : 2,
+            "deception" : -1,
+            "history" : -1,
+            "insight" : 2,
+            "intimidation" : -1,
+            "investigation" : -1,
+            "medicine" : 2,
+            "nature" : -1,
+            "perception" : 2,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : -1,
+            "sleightOfHand" : -1,
+            "stealth" : -1,
+            "survival" : 2
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -29584,6 +30093,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : 2,
+            "animalHandling" : 2,
+            "arcana" : -1,
+            "athletics" : -1,
+            "deception" : -1,
+            "history" : -1,
+            "insight" : 2,
+            "intimidation" : -1,
+            "investigation" : -1,
+            "medicine" : 2,
+            "nature" : -1,
+            "perception" : 2,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : -1,
+            "sleightOfHand" : 2,
+            "stealth" : 2,
+            "survival" : 2
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -29745,6 +30274,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : 2,
+            "animalHandling" : -1,
+            "arcana" : -1,
+            "athletics" : 2,
+            "deception" : -1,
+            "history" : -1,
+            "insight" : -1,
+            "intimidation" : -1,
+            "investigation" : -1,
+            "medicine" : -1,
+            "nature" : -1,
+            "perception" : -1,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : -1,
+            "sleightOfHand" : 2,
+            "stealth" : 2,
+            "survival" : -1
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -29976,6 +30525,26 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
+          "skills" : {
+            "acrobatics" : 2,
+            "animalHandling" : -1,
+            "arcana" : -1,
+            "athletics" : 2,
+            "deception" : -1,
+            "history" : -1,
+            "insight" : -1,
+            "intimidation" : -1,
+            "investigation" : -1,
+            "medicine" : -1,
+            "nature" : -1,
+            "perception" : -1,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : -1,
+            "sleightOfHand" : 2,
+            "stealth" : 2,
+            "survival" : -1
+          },
           "featureUses" : { }
         },
         "position" : {
