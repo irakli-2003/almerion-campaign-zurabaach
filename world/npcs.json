@@ -15,6 +15,10 @@
     },
     "traits" : [ "brave", "strategist", "fair" ],
     "languages" : [ "common", "dwarvish" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "brannock-the-keeper",
@@ -32,7 +36,11 @@
     },
     "traits" : [ "gossip", "generous", "observant" ],
     "languages" : [ "common", "halfling-tongue" ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/npcs/brannock-the-keeper.png"
   }, {
     "id" : "mira-swiftfoot",
     "name" : "Mira Swiftfoot",
@@ -49,6 +57,10 @@
     },
     "traits" : [ "quick", "curious", "discreet" ],
     "languages" : [ "common", "halfling-tongue", "thieves-cant" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "torvin-ironhand",
@@ -66,6 +78,10 @@
     },
     "traits" : [ "gruff", "honest", "skilled" ],
     "languages" : [ "common", "dwarvish" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "sister-anwen",
@@ -83,6 +99,10 @@
     },
     "traits" : [ "compassionate", "stubborn", "devout" ],
     "languages" : [ "common", "celestial" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "archivist-pell",
@@ -100,6 +120,10 @@
     },
     "traits" : [ "pedantic", "brilliant", "distracted" ],
     "languages" : [ "common", "gnomish", "draconic", "elvish" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "captain-hollis",
@@ -117,6 +141,10 @@
     },
     "traits" : [ "disciplined", "suspicious", "loyal" ],
     "languages" : [ "common" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "silas-crane",
@@ -134,6 +162,10 @@
     },
     "traits" : [ "shrewd", "charming", "well-travelled" ],
     "languages" : [ "common", "dwarvish", "gnomish" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "nessa-quickfingers",
@@ -151,6 +183,10 @@
     },
     "traits" : [ "sly", "practical", "well-connected" ],
     "languages" : [ "common", "thieves-cant", "undercommon" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "old-hask",
@@ -168,6 +204,10 @@
     },
     "traits" : [ "reclusive", "wise", "blunt" ],
     "languages" : [ "common", "orcish", "druidic" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "lady-veyra",
@@ -185,6 +225,10 @@
     },
     "traits" : [ "poised", "ambitious", "calculating" ],
     "languages" : [ "common", "elvish", "infernal" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "magister-orin",
@@ -202,6 +246,10 @@
     },
     "traits" : [ "arrogant", "precise", "helpful when paid" ],
     "languages" : [ "common", "draconic", "primordial" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "greta-thornby",
@@ -219,6 +267,10 @@
     },
     "traits" : [ "experimental", "fearless", "untidy" ],
     "languages" : [ "common", "gnomish" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "bram-the-ferryman",
@@ -236,6 +288,10 @@
     },
     "traits" : [ "taciturn", "reliable", "superstitious" ],
     "languages" : [ "common" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "sergeant-dol",
@@ -253,6 +309,10 @@
     },
     "traits" : [ "harsh", "fair", "experienced" ],
     "languages" : [ "common", "orcish" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "elowen-nightbreeze",
@@ -270,6 +330,10 @@
     },
     "traits" : [ "patient", "watchful", "private" ],
     "languages" : [ "common", "elvish", "sylvan" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "fenwick-mudd",
@@ -287,7 +351,11 @@
     },
     "traits" : [ "eager", "naive", "hardworking" ],
     "languages" : [ "common" ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/npcs/fenwick-mudd.jpg"
   }, {
     "id" : "mother-sable",
     "name" : "Mother Sable",
@@ -304,6 +372,10 @@
     },
     "traits" : [ "kind", "shrewd", "protective" ],
     "languages" : [ "common", "halfling-tongue", "thieves-cant" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "garrick-vane",
@@ -321,6 +393,10 @@
     },
     "traits" : [ "bitter", "honourable", "self-destructive" ],
     "languages" : [ "common" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "the-hooded-man",
@@ -338,6 +414,10 @@
     },
     "traits" : [ "secretive", "generous", "dangerous" ],
     "languages" : [ "common", "infernal", "undercommon" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "korga-splitshield",
@@ -355,6 +435,10 @@
     },
     "traits" : [ "direct", "professional", "expensive" ],
     "languages" : [ "common", "orcish", "giant" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "tam-the-miller",
@@ -372,7 +456,11 @@
     },
     "traits" : [ "practical", "grumbling", "kind" ],
     "languages" : [ "common" ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/npcs/tam-the-miller.jpg"
   }, {
     "id" : "garden gnome",
     "name" : "Garden Gnome",
@@ -389,6 +477,10 @@
     },
     "traits" : [ "random", "does not have a personality", "uses happy face and sad face for expressing emotions" ],
     "languages" : [ ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : "images/npcs/new_1788421566015.jpg"
   }, {
     "id" : "cheshire-cat",
@@ -410,7 +502,7 @@
     "armorClass" : 0,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/npcs/cheshire-cat.jpg"
   }, {
     "id" : "grandfather-t",
     "name" : "The Grandfather ('T.', the First Traveller)",

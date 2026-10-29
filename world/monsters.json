@@ -20,7 +20,10 @@
       "effects" : [ ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "scimitar_slash",
       "name" : "Scimitar Slash",
@@ -28,9 +31,16 @@
       "effects" : [ ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common", "goblin-tongue" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "goblin-boss",
@@ -53,7 +63,10 @@
       "effects" : [ ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "multiattack",
       "name" : "Multiattack",
@@ -61,9 +74,16 @@
       "effects" : [ ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common", "goblin-tongue" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "hobgoblin",
@@ -86,9 +106,16 @@
       "effects" : [ "advantage_on_attack" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common", "goblin-tongue" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "bugbear",
@@ -111,7 +138,13 @@
       "effects" : [ ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "brute",
       "name" : "Brute",
@@ -119,10 +152,20 @@
       "effects" : [ ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ "common", "goblin-tongue" ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/monsters/bugbear.png"
   }, {
     "id" : "kobold",
     "name" : "Kobold",
@@ -144,9 +187,16 @@
       "effects" : [ "advantage_on_attack" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common", "draconic" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "orc-warrior",
@@ -169,7 +219,10 @@
       "effects" : [ ],
       "range" : 30.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "greataxe_swing",
       "name" : "Greataxe Swing",
@@ -177,9 +230,16 @@
       "effects" : [ ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common", "orcish" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "orc-war-chief",
@@ -202,7 +262,10 @@
       "effects" : [ ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "battle_cry",
       "name" : "Battle Cry",
@@ -210,9 +273,16 @@
       "effects" : [ "advantage_on_attack" ],
       "range" : 60.0,
       "recharge" : 3,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common", "orcish" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "gnoll",
@@ -235,9 +305,16 @@
       "effects" : [ ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "bandit",
@@ -260,10 +337,20 @@
       "effects" : [ ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ "common" ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/monsters/bandit.png"
   }, {
     "id" : "bandit-captain",
     "name" : "Bandit Captain",
@@ -285,7 +372,13 @@
       "effects" : [ ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "multiattack",
       "name" : "Multiattack",
@@ -293,10 +386,20 @@
       "effects" : [ ],
       "range" : 20.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ "common", "thieves-cant" ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/monsters/bandit-captain.png"
   }, {
     "id" : "cultist",
     "name" : "Cultist",
@@ -318,10 +421,20 @@
       "effects" : [ ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ "common", "abyssal" ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/monsters/cultist.png"
   }, {
     "id" : "cult-fanatic",
     "name" : "Cult Fanatic",
@@ -343,7 +456,13 @@
       "effects" : [ ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "inflict_wounds",
       "name" : "Inflict Wounds",
@@ -351,10 +470,20 @@
       "effects" : [ "life_drain" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ "common", "abyssal" ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/monsters/cult-fanatic.png"
   }, {
     "id" : "guard",
     "name" : "Guard",
@@ -376,10 +505,20 @@
       "effects" : [ ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ "common" ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/monsters/guard.png"
   }, {
     "id" : "veteran",
     "name" : "Veteran",
@@ -401,9 +540,16 @@
       "effects" : [ ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "knight",
@@ -426,7 +572,10 @@
       "effects" : [ ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "leadership",
       "name" : "Leadership",
@@ -434,9 +583,16 @@
       "effects" : [ "blessed" ],
       "range" : 30.0,
       "recharge" : 5,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "mage",
@@ -459,7 +615,10 @@
       "effects" : [ "burn" ],
       "range" : 120.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "fireball_cast",
       "name" : "Fireball",
@@ -467,7 +626,10 @@
       "effects" : [ "area_damage", "burn" ],
       "range" : 150.0,
       "recharge" : 4,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "shield_cast",
       "name" : "Shield",
@@ -475,9 +637,16 @@
       "effects" : [ "blessed" ],
       "range" : 0.0,
       "recharge" : 2,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common", "draconic" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "priest",
@@ -500,7 +669,10 @@
       "effects" : [ ],
       "range" : 120.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "cure_wounds_cast",
       "name" : "Cure Wounds",
@@ -508,9 +680,16 @@
       "effects" : [ "invigorated" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common", "celestial" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "assassin",
@@ -533,7 +712,13 @@
       "effects" : [ ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "poison_blade",
       "name" : "Poison Blade",
@@ -541,10 +726,20 @@
       "effects" : [ "poisoned" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ "common", "thieves-cant" ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/monsters/assassin.jpg"
   }, {
     "id" : "berserker",
     "name" : "Berserker",
@@ -566,10 +761,20 @@
       "effects" : [ "advantage_on_attack" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ "common" ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/monsters/berserker.png"
   }, {
     "id" : "druid-npc",
     "name" : "Druid",
@@ -591,7 +796,10 @@
       "effects" : [ "entangled", "restrained" ],
       "range" : 90.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "wild_shape",
       "name" : "Wild Shape",
@@ -599,9 +807,16 @@
       "effects" : [ ],
       "range" : 0.0,
       "recharge" : 5,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common", "druidic", "sylvan" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "skeleton",
@@ -624,9 +839,16 @@
       "effects" : [ ],
       "range" : 80.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "zombie",
@@ -649,10 +871,20 @@
       "effects" : [ ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/monsters/zombie.jpg"
   }, {
     "id" : "ghoul",
     "name" : "Ghoul",
@@ -674,9 +906,16 @@
       "effects" : [ "paralyzed" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "wight",
@@ -699,9 +938,16 @@
       "effects" : [ "life_drain" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "wraith",
@@ -724,7 +970,10 @@
       "effects" : [ ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "life_drain_attack",
       "name" : "Life Drain",
@@ -732,9 +981,16 @@
       "effects" : [ "life_drain" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "specter",
@@ -757,9 +1013,16 @@
       "effects" : [ "life_drain" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "mummy",
@@ -782,7 +1045,10 @@
       "effects" : [ "frightened", "paralyzed" ],
       "range" : 60.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "rotting_fist",
       "name" : "Rotting Fist",
@@ -790,9 +1056,16 @@
       "effects" : [ "infection" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "vampire-spawn",
@@ -815,7 +1088,10 @@
       "effects" : [ "life_drain" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "regeneration_ability",
       "name" : "Regeneration",
@@ -823,9 +1099,16 @@
       "effects" : [ "regeneration" ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "lich",
@@ -848,7 +1131,10 @@
       "effects" : [ "paralyzed" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "finger_of_death_cast",
       "name" : "Finger of Death",
@@ -856,7 +1142,10 @@
       "effects" : [ "life_drain" ],
       "range" : 60.0,
       "recharge" : 5,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "frightening_gaze",
       "name" : "Frightening Gaze",
@@ -864,9 +1153,16 @@
       "effects" : [ "frightened" ],
       "range" : 60.0,
       "recharge" : 4,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common", "draconic", "abyssal", "infernal" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "ogre",
@@ -889,9 +1185,16 @@
       "effects" : [ "prone" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common", "giant" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "hill-giant",
@@ -914,7 +1217,10 @@
       "effects" : [ "knockback" ],
       "range" : 60.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "multiattack",
       "name" : "Multiattack",
@@ -922,9 +1228,16 @@
       "effects" : [ ],
       "range" : 10.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "giant" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "frost-giant",
@@ -947,7 +1260,10 @@
       "effects" : [ ],
       "range" : 10.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "icy_grip",
       "name" : "Icy Grip",
@@ -955,9 +1271,16 @@
       "effects" : [ "freeze" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "giant" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "troll",
@@ -980,7 +1303,10 @@
       "effects" : [ "regeneration" ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "rending_claws",
       "name" : "Rending Claws",
@@ -988,9 +1314,16 @@
       "effects" : [ "bleeding" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "giant" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "owlbear",
@@ -1013,7 +1346,10 @@
       "effects" : [ ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "beak_and_claw",
       "name" : "Beak and Claw",
@@ -1021,9 +1357,16 @@
       "effects" : [ "bleeding" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "harpy",
@@ -1046,9 +1389,16 @@
       "effects" : [ "charmed" ],
       "range" : 300.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "basilisk",
@@ -1071,10 +1421,20 @@
       "effects" : [ "petrified" ],
       "range" : 30.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/monsters/basilisk.png"
   }, {
     "id" : "mimic",
     "name" : "Mimic",
@@ -1099,7 +1459,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "false_appearance",
       "name" : "False Appearance",
@@ -1110,7 +1473,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "mimic_pseudopod",
       "name" : "Pseudopod",
@@ -1151,7 +1517,7 @@
     "armorClass" : 12,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/monsters/mimic.png"
   }, {
     "id" : "gelatinous-cube",
     "name" : "Gelatinous Cube",
@@ -1173,10 +1539,20 @@
       "effects" : [ "restrained", "burn" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/monsters/gelatinous-cube.jpg"
   }, {
     "id" : "rust-monster",
     "name" : "Rust Monster",
@@ -1198,9 +1574,16 @@
       "effects" : [ ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "animated-armor",
@@ -1223,10 +1606,20 @@
       "effects" : [ ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/monsters/animated-armor.png"
   }, {
     "id" : "flesh-golem",
     "name" : "Flesh Golem",
@@ -1248,7 +1641,13 @@
       "effects" : [ "regeneration" ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "berserk",
       "name" : "Berserk",
@@ -1256,10 +1655,20 @@
       "effects" : [ ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/monsters/flesh-golem.jpg"
   }, {
     "id" : "imp",
     "name" : "Imp",
@@ -1281,7 +1690,10 @@
       "effects" : [ "poisoned" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "shapechange",
       "name" : "Shapechange",
@@ -1289,9 +1701,16 @@
       "effects" : [ "invisible" ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "infernal", "common" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "succubus",
@@ -1314,7 +1733,10 @@
       "effects" : [ "charmed" ],
       "range" : 30.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "draining_kiss",
       "name" : "Draining Kiss",
@@ -1322,9 +1744,16 @@
       "effects" : [ "life_drain" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "abyssal", "infernal", "common" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "hell-hound",
@@ -1390,10 +1819,20 @@
       "effects" : [ "knockback", "prone" ],
       "range" : 10.0,
       "recharge" : 4,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ "primordial" ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/monsters/air-elemental.png"
   }, {
     "id" : "fire-elemental",
     "name" : "Fire Elemental",
@@ -1415,9 +1854,16 @@
       "effects" : [ "burn" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "primordial" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "earth-elemental",
@@ -1440,9 +1886,16 @@
       "effects" : [ ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "primordial" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "water-elemental",
@@ -1465,9 +1918,16 @@
       "effects" : [ "restrained", "grappled" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "primordial" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "dryad",
@@ -1490,7 +1950,10 @@
       "effects" : [ "charmed" ],
       "range" : 30.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "tree_stride",
       "name" : "Tree Stride",
@@ -1498,9 +1961,16 @@
       "effects" : [ ],
       "range" : 500.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "sylvan", "elvish" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "pixie",
@@ -1523,7 +1993,10 @@
       "effects" : [ "invisible" ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "sleep_dust",
       "name" : "Sleep Dust",
@@ -1531,14 +2004,21 @@
       "effects" : [ "unconscious" ],
       "range" : 30.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "sylvan" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
-    "id" : "mind-reaver",
-    "name" : "Mind Reaver",
-    "description" : "A mind reaver that regards your skull as a lunch container.",
+    "id" : "mind-flayer",
+    "name" : "Mind Flayer",
+    "description" : "An illithid that regards your skull as a lunch container.",
     "type" : "aberration",
     "challengeRating" : "7",
     "stats" : {
@@ -1556,7 +2036,10 @@
       "effects" : [ "stunned" ],
       "range" : 60.0,
       "recharge" : 5,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "extract_brain",
       "name" : "Extract Brain",
@@ -1564,13 +2047,20 @@
       "effects" : [ ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "deep-speech", "undercommon" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
-    "id" : "many-eyed-horror",
-    "name" : "Many-Eyed Horror",
+    "id" : "beholder",
+    "name" : "Beholder",
     "description" : "A floating sphere of eyes, paranoia, and ten separate ways to end you.",
     "type" : "aberration",
     "challengeRating" : "13",
@@ -1589,7 +2079,13 @@
       "effects" : [ ],
       "range" : 150.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "eye_rays",
       "name" : "Eye Rays",
@@ -1597,10 +2093,20 @@
       "effects" : [ "area_damage", "paralyzed", "slowed" ],
       "range" : 120.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ "deep-speech", "undercommon" ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/monsters/beholder.jpg"
   }, {
     "id" : "young-red-dragon",
     "name" : "Young Red Dragon",
@@ -1622,7 +2128,10 @@
       "effects" : [ "burn", "area_damage" ],
       "range" : 30.0,
       "recharge" : 5,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "frightful_presence",
       "name" : "Frightful Presence",
@@ -1630,7 +2139,10 @@
       "effects" : [ "frightened" ],
       "range" : 120.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "multiattack",
       "name" : "Multiattack",
@@ -1638,9 +2150,16 @@
       "effects" : [ "bleeding" ],
       "range" : 10.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common", "draconic" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "adult-white-dragon",
@@ -1663,7 +2182,13 @@
       "effects" : [ "freeze", "area_damage" ],
       "range" : 60.0,
       "recharge" : 5,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "frightful_presence",
       "name" : "Frightful Presence",
@@ -1671,10 +2196,20 @@
       "effects" : [ "frightened" ],
       "range" : 120.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ "common", "draconic" ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/monsters/adult-white-dragon.jpg"
   }, {
     "id" : "ember-wyrm",
     "name" : "Ember Wyrm",
@@ -1696,7 +2231,10 @@
       "effects" : [ "burn", "area_damage" ],
       "range" : 15.0,
       "recharge" : 3,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "wing_buffet",
       "name" : "Wing Buffet",
@@ -1704,9 +2242,16 @@
       "effects" : [ "knockback" ],
       "range" : 5.0,
       "recharge" : 1,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "common", "draconic" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "wyvern",
@@ -1729,9 +2274,16 @@
       "effects" : [ "poisoned" ],
       "range" : 10.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "treant",
@@ -1754,7 +2306,10 @@
       "effects" : [ ],
       "range" : 60.0,
       "recharge" : 5,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "rock_throw",
       "name" : "Rock Throw",
@@ -1762,9 +2317,16 @@
       "effects" : [ "knockback" ],
       "range" : 180.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ "sylvan", "druidic", "common" ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "shambling-mound",
@@ -1787,9 +2349,16 @@
       "effects" : [ "restrained", "grappled" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "stirge",
@@ -1812,9 +2381,16 @@
       "effects" : [ "life_drain", "bleeding" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
     "languages" : [ ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "The rabbit",
@@ -1837,10 +2413,20 @@
       "effects" : [ ],
       "range" : 4.0,
       "recharge" : 1,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ ],
-    "imagePath" : null
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
+    "imagePath" : "images/monsters/The rabbit.jpg"
   }, {
     "id" : "corpse dolly",
     "name" : "Corpse dolly",
@@ -1857,6 +2443,10 @@
     },
     "abilities" : [ ],
     "languages" : [ ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : "images/monsters/corpse dolly.jpg"
   }, {
     "id" : "card soldier",
@@ -1874,6 +2464,10 @@
     },
     "abilities" : [ ],
     "languages" : [ ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : "images/monsters/new_1788428492375.jpg"
   }, {
     "id" : "diamond-card-soldier",
@@ -1916,7 +2510,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "card_edgewise",
       "name" : "Edgewise",
@@ -1927,7 +2524,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "card_sniff",
       "name" : "Sniff",
@@ -1938,7 +2538,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "card_bribe",
       "name" : "Bribe",
@@ -1949,14 +2552,17 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ ],
     "maxHitPoints" : 22,
     "armorClass" : 13,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/monsters/diamond-card-soldier.jpg"
   }, {
     "id" : "black-card-soldier",
     "name" : "Clubs & Spades Card Soldier",
@@ -1998,7 +2604,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "card_edgewise",
       "name" : "Edgewise",
@@ -2009,7 +2618,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "forty_cards_screen",
       "name" : "Forty Cards",
@@ -2020,14 +2632,17 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ ],
     "maxHitPoints" : 22,
     "armorClass" : 13,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/monsters/black-card-soldier.png"
   }, {
     "id" : "the-caretaker",
     "name" : "The Caretaker",
@@ -2103,7 +2718,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "caretaker_kneel",
       "name" : "Kneel.",
@@ -2114,7 +2732,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "rise_from_knees",
       "name" : "Rising from Your Knees",
@@ -2138,7 +2759,7 @@
     "armorClass" : 16,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/monsters/the-caretaker.jpg"
   }, {
     "id" : "rose-bed-dead",
     "name" : "Rose-Bed Dead",
@@ -2180,14 +2801,17 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ ],
     "maxHitPoints" : 22,
     "armorClass" : 11,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/monsters/rose-bed-dead.jpg"
   }, {
     "id" : "mad-hatter",
     "name" : "The Mad Hatter (Cursed)",
@@ -2212,7 +2836,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "hat_brim",
       "name" : "Hat Brim (Multiattack x3)",
@@ -2240,7 +2867,10 @@
       "radius" : 30.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "teapot",
       "name" : "Tea / Teapot",
@@ -2268,7 +2898,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "table_punishes",
       "name" : "The Table Punishes",
@@ -2296,14 +2929,17 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ "common" ],
     "maxHitPoints" : 90,
     "armorClass" : 15,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/monsters/mad-hatter.jpg"
   }, {
     "id" : "animated-tea-service",
     "name" : "Animated Tea Service",
@@ -2358,7 +2994,7 @@
     "armorClass" : 13,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/monsters/animated-tea-service.jpg"
   }, {
     "id" : "dormouse-swarm",
     "name" : "Dormouse Pile (swarm)",
@@ -2400,14 +3036,17 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ ],
     "maxHitPoints" : 22,
     "armorClass" : 10,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/monsters/dormouse-swarm.jpg"
   }, {
     "id" : "bandersnatch-pup",
     "name" : "Bandersnatch Pup",
@@ -2445,7 +3084,7 @@
     "armorClass" : 13,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/monsters/bandersnatch-pup.jpg"
   }, {
     "id" : "jabberwock-hatchling",
     "name" : "Jabberwock Hatchling",
@@ -2500,7 +3139,7 @@
     "armorClass" : 14,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/monsters/jabberwock-hatchling.jpg"
   }, {
     "id" : "bread-and-butterfly-swarm",
     "name" : "Bread-and-Butterfly Swarm",
@@ -2538,7 +3177,7 @@
     "armorClass" : 12,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/monsters/bread-and-butterfly-swarm.png"
   }, {
     "id" : "rocking-horse-fly",
     "name" : "Rocking-Horse-Fly",
@@ -2576,7 +3215,7 @@
     "armorClass" : 13,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/monsters/rocking-horse-fly.jpg"
   }, {
     "id" : "march-hare",
     "name" : "The March Hare",
@@ -2618,7 +3257,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "hare_mad",
       "name" : "Mad",
@@ -2629,14 +3271,17 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ "common" ],
     "maxHitPoints" : 33,
     "armorClass" : 15,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/monsters/march-hare.jpg"
   }, {
     "id" : "clockwork-white-rabbit",
     "name" : "The White Rabbit (Clockwork)",
@@ -2661,7 +3306,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "between_seconds",
       "name" : "Between Seconds",
@@ -2672,7 +3320,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "pin_strike",
       "name" : "Pin Strike (Multiattack x2)",
@@ -2700,7 +3351,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "late_touch",
       "name" : "Late",
@@ -2711,7 +3365,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "tick_back",
       "name" : "Tick (Click)",
@@ -2722,7 +3379,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "pocket_watch_rewind",
       "name" : "Pocket Watch Rewind",
@@ -2733,7 +3393,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "time_seam",
       "name" : "Time Seam (Lair)",
@@ -2744,14 +3407,17 @@
       "radius" : 5.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ "common" ],
     "maxHitPoints" : 105,
     "armorClass" : 17,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/monsters/clockwork-white-rabbit.jpg"
   }, {
     "id" : "alice-twisted",
     "name" : "Alice (Twisted)",
@@ -2776,7 +3442,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "boring",
       "name" : "Boring",
@@ -2787,7 +3456,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "the_house",
       "name" : "The House",
@@ -2815,14 +3487,17 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ "common" ],
     "maxHitPoints" : 999,
     "armorClass" : 10,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/monsters/alice-twisted.jpg"
   }, {
     "id" : "queen-of-hearts",
     "name" : "The Queen of Hearts",
@@ -2847,7 +3522,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "get_away_from_her",
       "name" : "Take It From Her",
@@ -2858,7 +3536,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "forty_cards",
       "name" : "Forty Cards",
@@ -2869,7 +3550,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "the_hollow",
       "name" : "The Hollow",
@@ -2893,7 +3577,7 @@
     "armorClass" : 17,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/monsters/queen-of-hearts.jpg"
   }, {
     "id" : "doll-mimic",
     "name" : "Doll Mimic",
@@ -2918,7 +3602,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "false_appearance",
       "name" : "False Appearance",
@@ -2929,7 +3616,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "doll_ambush_bite",
       "name" : "Ambush Bite",
@@ -2960,13 +3650,16 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "languages" : [ ],
     "maxHitPoints" : 30,
     "armorClass" : 14,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/monsters/doll-mimic.jpg"
   } ]
 }

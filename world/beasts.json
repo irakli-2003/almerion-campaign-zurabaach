@@ -20,7 +20,10 @@
       "effects" : [ "advantage_on_attack" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "keen_smell",
       "name" : "Keen Smell",
@@ -28,8 +31,15 @@
       "effects" : [ ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : "images/beasts/wolf.jpg"
   }, {
     "id" : "dire-wolf",
@@ -105,7 +115,10 @@
       "effects" : [ ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "claw_swipe",
       "name" : "Claw Swipe",
@@ -113,8 +126,15 @@
       "effects" : [ "bleeding" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "cave-bear",
@@ -137,8 +157,15 @@
       "effects" : [ ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "boar",
@@ -161,8 +188,15 @@
       "effects" : [ "prone" ],
       "range" : 20.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "giant-boar",
@@ -185,8 +219,15 @@
       "effects" : [ "prone" ],
       "range" : 20.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "giant-spider",
@@ -209,7 +250,10 @@
       "effects" : [ "restrained", "entangled" ],
       "range" : 60.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "venomous_bite",
       "name" : "Venomous Bite",
@@ -217,8 +261,15 @@
       "effects" : [ "poisoned" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "giant-rat",
@@ -241,8 +292,15 @@
       "effects" : [ "advantage_on_attack" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "swarm-of-rats",
@@ -265,8 +323,15 @@
       "effects" : [ "bleeding" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "giant-bat",
@@ -289,8 +354,15 @@
       "effects" : [ ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "panther",
@@ -313,7 +385,10 @@
       "effects" : [ ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "pounce",
       "name" : "Pounce",
@@ -321,8 +396,15 @@
       "effects" : [ "prone" ],
       "range" : 15.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "lion",
@@ -345,7 +427,10 @@
       "effects" : [ "advantage_on_attack" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     }, {
       "id" : "pounce",
       "name" : "Pounce",
@@ -353,8 +438,15 @@
       "effects" : [ "prone" ],
       "range" : 15.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "giant-eagle",
@@ -377,8 +469,15 @@
       "effects" : [ ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "crocodile",
@@ -401,8 +500,15 @@
       "effects" : [ "grappled", "restrained" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "giant-crocodile",
@@ -425,8 +531,15 @@
       "effects" : [ "grappled", "restrained" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "giant-snake",
@@ -449,8 +562,15 @@
       "effects" : [ "grappled", "restrained" ],
       "range" : 10.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "giant-scorpion",
@@ -473,8 +593,15 @@
       "effects" : [ "poisoned" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "warhorse",
@@ -497,8 +624,15 @@
       "effects" : [ "prone" ],
       "range" : 20.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "riding-horse",
@@ -515,6 +649,10 @@
       "charisma" : 7
     },
     "abilities" : [ ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "mastiff",
@@ -537,8 +675,15 @@
       "effects" : [ ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "mule",
@@ -555,6 +700,10 @@
       "charisma" : 5
     },
     "abilities" : [ ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "polar-bear",
@@ -577,8 +726,15 @@
       "effects" : [ ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "giant-shark",
@@ -601,8 +757,15 @@
       "effects" : [ "advantage_on_attack" ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "octopus-giant",
@@ -625,8 +788,15 @@
       "effects" : [ "blinded" ],
       "range" : 15.0,
       "recharge" : 3,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "raven",
@@ -649,8 +819,15 @@
       "effects" : [ ],
       "range" : 0.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "giant-goat",
@@ -673,8 +850,15 @@
       "effects" : [ "knockback", "prone" ],
       "range" : 20.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "giant ant",
@@ -697,8 +881,15 @@
       "effects" : [ "bleeding" ],
       "range" : 5.0,
       "recharge" : 0,
-      "radius" : 0.0
+      "radius" : 0.0,
+      "hpCost" : 0,
+      "manaCost" : 0,
+      "damage" : null
     } ],
+    "maxHitPoints" : 0,
+    "armorClass" : 0,
+    "maxMana" : 0,
+    "spellSlots" : [ ],
     "imagePath" : null
   }, {
     "id" : "raaz",
@@ -753,7 +944,7 @@
     "armorClass" : 15,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/beasts/raaz.jpg"
   }, {
     "id" : "kaavor",
     "name" : "Kaavor (spirit falcon)",
@@ -795,7 +986,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "kaavor_talons",
       "name" : "Talons",
@@ -823,13 +1017,16 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "maxHitPoints" : 20,
     "armorClass" : 7,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/beasts/kaavor.jpg"
   }, {
     "id" : "giant-flamingo",
     "name" : "Giant Flamingo",
@@ -871,7 +1068,10 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     }, {
       "id" : "rhythm",
       "name" : "Rhythm",
@@ -882,12 +1082,15 @@
       "radius" : 0.0,
       "hpCost" : 0,
       "manaCost" : 0,
-      "damage" : null
+      "damage" : {
+        "dice" : [ ],
+        "typeId" : null
+      }
     } ],
     "maxHitPoints" : 45,
     "armorClass" : 12,
     "maxMana" : 0,
     "spellSlots" : [ ],
-    "imagePath" : null
+    "imagePath" : "images/beasts/giant-flamingo.jpg"
   } ]
 }
