@@ -1586,7 +1586,16 @@
     "currentHitPoints" : 21,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ ],
+    "activeEffects" : [ {
+      "effectId" : "prone",
+      "name" : "Prone",
+      "description" : "Knocked flat; movement costs double and melee attackers gain advantage.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "The Caretaker's Kneel.",
+      "expired" : false
+    } ],
     "subclass" : "School of Evocation",
     "backstory" : "Raised in a human village, he grew up surrounded by people who loved him, even if they occasionally wished he were a little less inventive. He was a kind boy, curious about everything, and somehow always in trouble.\n\n His magic first appeared without warning and rarely at a convenient moment. Once, he accidentally turned himself invisible, causing the entire village to search for him for two days. He spent much of that time trying to explain that he was right there, but frightened villagers hearing a voice from nowhere only made the situation worse.\n\n Other incidents followed. The final straw came when a neighbour’s cow began floating above its enclosure. After they managed to get it down, he admitted that perhaps he needed help. The village agreed with unusual enthusiasm. Everyone contributed what they could to send him to a magic school. The cow’s owner contributed first.\n\n At school, he learned to recognise and direct the magic that had always come naturally to him. He was an eager student, though his enthusiasm often outlasted his energy. He would practise late into the night, forget to sleep, and spend the next day exhausted, struggling with spells he could normally manage easily. Despite repeated warnings from his teachers, he still treats “just one more attempt” as a perfectly reasonable bedtime.\n\n As he gained control of his powers, another question began occupying his thoughts: where had he come from? He loved his village and considered its people his family, but he had never known another elf well. He wanted to find his own kin, learn about their lives, and perhaps discover something about his birth family.\n\n Now he has set out into the world, carrying his training, his curiosity, and a firm promise to write home. He is happy to travel with others and quick to offer help—occasionally before checking whether he actually knows how.",
     "castingResource" : null,
