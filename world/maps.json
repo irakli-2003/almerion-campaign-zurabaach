@@ -1862,6 +1862,8 @@
     "layers" : [ ],
     "drawings" : [ ],
     "groups" : [ ],
+    "mapLinks" : [ ],
+    "partyPosition" : null,
     "musicPlaylistId" : null
   }, {
     "id" : "gilded-stag-upper",
@@ -3330,6 +3332,8 @@
     "layers" : [ ],
     "drawings" : [ ],
     "groups" : [ ],
+    "mapLinks" : [ ],
+    "partyPosition" : null,
     "musicPlaylistId" : null
   }, {
     "id" : "greenhollow-square",
@@ -7522,6 +7526,8 @@
     } ],
     "drawings" : [ ],
     "groups" : [ ],
+    "mapLinks" : [ ],
+    "partyPosition" : null,
     "musicPlaylistId" : null
   }, {
     "id" : "ironhand-smithy-map",
@@ -9336,6 +9342,8 @@
     } ],
     "drawings" : [ ],
     "groups" : [ ],
+    "mapLinks" : [ ],
+    "partyPosition" : null,
     "musicPlaylistId" : null
   }, {
     "id" : "temple-dawnfather-map",
@@ -14304,6 +14312,8 @@
     } ],
     "drawings" : [ ],
     "groups" : [ ],
+    "mapLinks" : [ ],
+    "partyPosition" : null,
     "musicPlaylistId" : null
   }, {
     "id" : "stonekeep-ground-floor",
@@ -16721,6 +16731,8 @@
     } ],
     "drawings" : [ ],
     "groups" : [ ],
+    "mapLinks" : [ ],
+    "partyPosition" : null,
     "musicPlaylistId" : null
   }, {
     "id" : "forest-clearing-map",
@@ -19200,6 +19212,8 @@
     } ],
     "drawings" : [ ],
     "groups" : [ ],
+    "mapLinks" : [ ],
+    "partyPosition" : null,
     "musicPlaylistId" : null
   }, {
     "id" : "barrow-crypt-map",
@@ -23008,6 +23022,8 @@
     "layers" : [ ],
     "drawings" : [ ],
     "groups" : [ ],
+    "mapLinks" : [ ],
+    "partyPosition" : null,
     "musicPlaylistId" : null
   }, {
     "id" : "blackfen-cave-map",
@@ -25578,6 +25594,8 @@
       "zorder" : 8
     } ],
     "groups" : [ ],
+    "mapLinks" : [ ],
+    "partyPosition" : null,
     "musicPlaylistId" : null
   }, {
     "id" : "bandit-camp-map",
@@ -27748,6 +27766,8 @@
     "layers" : [ ],
     "drawings" : [ ],
     "groups" : [ ],
+    "mapLinks" : [ ],
+    "partyPosition" : null,
     "musicPlaylistId" : null
   }, {
     "id" : "orins-tower-map",
@@ -28864,6 +28884,8 @@
     "layers" : [ ],
     "drawings" : [ ],
     "groups" : [ ],
+    "mapLinks" : [ ],
+    "partyPosition" : null,
     "musicPlaylistId" : null
   }, {
     "id" : "open-field-map",
@@ -32092,6 +32114,8 @@
       "memberKeys" : [ "drawing:drawing_1788422858379_13", "drawing:drawing_1788422856019_12", "drawing:drawing_1788422854922_11", "drawing:drawing_1788422852783_10", "drawing:drawing_1788422849570_9", "drawing:drawing_1788422843918_8", "drawing:drawing_1788422842771_7", "drawing:drawing_1788422841460_6", "drawing:drawing_1788422838222_5", "drawing:drawing_1788422835981_4" ],
       "zorder" : 14
     } ],
+    "mapLinks" : [ ],
+    "partyPosition" : null,
     "musicPlaylistId" : null
   } ]
 }
