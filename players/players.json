@@ -1451,17 +1451,21 @@
       "spellId" : "iron fist",
       "rank" : 0,
       "active" : true
+    }, {
+      "spellId" : "combo-strike",
+      "rank" : 0,
+      "active" : true
     } ],
     "personalFeatures" : [ {
       "level" : 5,
       "name" : "Brawler's Throw",
       "description" : "Pit Guardian training. Nonmagical; replaces one attack, never grants an extra attack. Choose a creature Darius already grapples within 5 ft, no more than one size larger. Contest Athletics against its Athletics or Acrobatics. On success, release it, move it up to 5 ft into a clear supported space, and knock it prone. On failure it stays grappled. No damage, collision damage or forced ledge drop. The GM rolls the contest, moves the token and marks prone.",
-      "subclass" : null
+      "subclass" : ""
     }, {
       "level" : 5,
       "name" : "Pit Guardian",
       "description" : "Nonmagical reaction before an attack roll against another conscious ally within 5 ft: that ally gains +2 AC until the start of their next turn. Darius must be conscious. Once per short rest. No extra attack or damage. The GM confirms ally status and reaction availability; the app applies the AC effect and tracks the use.",
-      "subclass" : null
+      "subclass" : ""
     } ],
     "passwordHash" : "79b4ddcf603d87f296db4a71ba240e849b8f3300bc81d3407b71eb9462e681d2",
     "passwordSalt" : "3b799b40a9d1a7e0013eae9a88e8ef97",
@@ -1480,7 +1484,14 @@
     "spellSlots" : [ ],
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
-    "cooldowns" : { },
+    "cooldowns" : {
+      "strength" : 0,
+      "dexterity" : 0,
+      "constitution" : 0,
+      "intelligence" : 0,
+      "wisdom" : 0,
+      "charisma" : 0
+    },
     "skills" : {
       "custom" : { },
       "acrobatics" : 2,
@@ -1509,7 +1520,7 @@
       "proficiencyBonus" : null,
       "passivePerception" : null,
       "savingThrowProficiencies" : [ ],
-      "hitDice" : null,
+      "hitDice" : "",
       "temporaryHitPoints" : 0,
       "deathSaveSuccesses" : 0,
       "deathSaveFailures" : 0,
@@ -1523,9 +1534,9 @@
       "gold" : 0,
       "platinum" : 0,
       "extraAttacks" : [ ],
-      "proficienciesAndLanguages" : null,
-      "extraFeatures" : null,
-      "notes" : null
+      "proficienciesAndLanguages" : "",
+      "extraFeatures" : "",
+      "notes" : ""
     },
     "featureUses" : {
       "strength" : 0,
