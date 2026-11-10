@@ -543,7 +543,7 @@
     "activeEffects" : [ {
       "effectId" : "effect-nameless",
       "name" : "Nameless",
-      "description" : null,
+      "description" : "",
       "remainingRounds" : 988,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
@@ -587,7 +587,7 @@
       "proficiencyBonus" : null,
       "passivePerception" : null,
       "savingThrowProficiencies" : [ ],
-      "hitDice" : null,
+      "hitDice" : "",
       "temporaryHitPoints" : 0,
       "deathSaveSuccesses" : 0,
       "deathSaveFailures" : 0,
@@ -601,9 +601,9 @@
       "gold" : 0,
       "platinum" : 0,
       "extraAttacks" : [ ],
-      "proficienciesAndLanguages" : null,
-      "extraFeatures" : null,
-      "notes" : null
+      "proficienciesAndLanguages" : "",
+      "extraFeatures" : "",
+      "notes" : ""
     },
     "featureUses" : {
       "strength" : 0,
@@ -1748,7 +1748,7 @@
     "activeEffects" : [ {
       "effectId" : "effect-nameless",
       "name" : "Nameless",
-      "description" : null,
+      "description" : "",
       "remainingRounds" : 997,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
@@ -1773,13 +1773,20 @@
     } ],
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
-    "cooldowns" : { },
+    "cooldowns" : {
+      "strength" : 0,
+      "dexterity" : 0,
+      "constitution" : 0,
+      "intelligence" : 0,
+      "wisdom" : 0,
+      "charisma" : 0
+    },
     "skills" : {
       "custom" : { },
       "acrobatics" : 1,
       "animalHandling" : 0,
       "arcana" : 5,
-      "athletics" : -1,
+      "athletics" : 1,
       "deception" : -1,
       "history" : 3,
       "insight" : 2,
@@ -1788,7 +1795,7 @@
       "medicine" : 2,
       "nature" : 2,
       "perception" : 2,
-      "performance" : -1,
+      "performance" : 1,
       "persuasion" : -1,
       "religion" : 1,
       "sleightOfHand" : -1,
@@ -1802,7 +1809,7 @@
       "proficiencyBonus" : null,
       "passivePerception" : null,
       "savingThrowProficiencies" : [ ],
-      "hitDice" : null,
+      "hitDice" : "",
       "temporaryHitPoints" : 0,
       "deathSaveSuccesses" : 0,
       "deathSaveFailures" : 0,
@@ -1816,9 +1823,9 @@
       "gold" : null,
       "platinum" : 0,
       "extraAttacks" : [ ],
-      "proficienciesAndLanguages" : null,
-      "extraFeatures" : null,
-      "notes" : null
+      "proficienciesAndLanguages" : "",
+      "extraFeatures" : "",
+      "notes" : ""
     },
     "featureUses" : {
       "strength" : 0,
