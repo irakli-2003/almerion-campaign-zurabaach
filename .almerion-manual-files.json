@@ -1,0 +1,28 @@
+{
+  "version" : 1,
+  "files" : [ {
+    "path" : "music/DARK AMBIENT MUSIC Inside the Dragons Lair [youaretube.com].mp3",
+    "size" : 144053920,
+    "sha256" : "986026dbefe528030fe35361c220e82c66881b3d792a7f7bd7fe0c712ed57ad5"
+  }, {
+    "path" : "music/Fantasy DD RPG Event Music Sad Sombre 1 Hour Mourning the Fallen [youaretube.com].mp3",
+    "size" : 147232015,
+    "sha256" : "237dd2a26597b8d340b3237acd3d2e389c8b026cd114f2e07bdf50ce654001d9"
+  }, {
+    "path" : "music/Forest DDTTRPG Ambience 1 Hour [youaretube.com].mp3",
+    "size" : 157539861,
+    "sha256" : "b27f65d02fc9db0528ad616614b6888e034662d266333f68ac703d6949a39d0e"
+  }, {
+    "path" : "music/Unveiling Secrets DDTTRPG Mystery Music 1 Hour No AI [youaretube.com].mp3",
+    "size" : 158272559,
+    "sha256" : "118af15a577d761421e35551f77fbdd460223362e1749eb3f17a899d41b2bf30"
+  }, {
+    "path" : "music/Village DDTTRPG Ambience 1 Hour [youaretube.com].mp3",
+    "size" : 149299141,
+    "sha256" : "dcbf4708f2265d97fd92f600bd724e27d84a62ac2fee94f198dd57c0a7db5ad6"
+  }, {
+    "path" : "music/Wildlands Wanderings DDTTRPG Adventure Music 1 Hour [youaretube.com].mp3",
+    "size" : 170324982,
+    "sha256" : "b2228423c9632d930bf254ac9ade8b18b9316a33bf6cd252287479d61eb18c79"
+  } ]
+}
