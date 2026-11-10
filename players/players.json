@@ -1,16 +1,103 @@
 {
   "players" : [ {
     "id" : "player-balthazar",
-    "personalFeatures" : [ {
-      "level" : 5,
-      "name" : "Encore",
-      "description" : "Nonmagical reaction immediately after another conscious ally within 60 ft spends Balthazar's Bardic Inspiration die and succeeds on the roll. The ally regains HP equal to Balthazar's proficiency bonus (3 at level 5). Once per short rest. The ally must hear him. Remove his Inspiration marker when resolving this; the GM confirms the successful roll and reaction. Cannot revive a downed ally. No spell slots, extra actions or Inspiration uses are refunded."
-    } ],
     "name" : "Balthazar Boombard",
     "classId" : "bard",
     "raceId" : "human",
     "level" : 5,
     "xp" : 95,
+    "upgrades" : {
+      "earned" : 4,
+      "unlocks" : [ {
+        "classId" : "bard",
+        "nodeId" : "potency-1",
+        "branchName" : "Virtuoso",
+        "name" : "Virtuoso 1",
+        "description" : "A step along the Virtuoso path. The GM can replace these starter rewards.",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ]
+        }
+      }, {
+        "classId" : "bard",
+        "nodeId" : "@historical-level-3",
+        "branchName" : "Existing training",
+        "name" : "Bard College, Expertise",
+        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: charm-person, dispel-magic, faerie-fire, haste, healing-word, hold-person, invisibility, light, minor-illusion, prestidigitation, thunderwave",
+        "imagePath" : null,
+        "level" : 3,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ]
+        }
+      }, {
+        "classId" : "bard",
+        "nodeId" : "@historical-level-4",
+        "branchName" : "Existing training",
+        "name" : "Ability Score Improvement",
+        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: charm-person, dispel-magic, faerie-fire, haste, healing-word, hold-person, invisibility, light, minor-illusion, prestidigitation, thunderwave",
+        "imagePath" : null,
+        "level" : 4,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ]
+        }
+      }, {
+        "classId" : "bard",
+        "nodeId" : "@historical-level-5",
+        "branchName" : "Existing training",
+        "name" : "Bardic Inspiration (d8), Font of Inspiration, Encore",
+        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: charm-person, dispel-magic, faerie-fire, haste, healing-word, hold-person, invisibility, light, minor-illusion, prestidigitation, thunderwave",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ]
+        }
+      } ]
+    },
     "stats" : {
       "custom" : { },
       "strength" : 8,
@@ -129,6 +216,12 @@
       "rank" : 3,
       "active" : false
     } ],
+    "personalFeatures" : [ {
+      "level" : 5,
+      "name" : "Encore",
+      "description" : "Nonmagical reaction immediately after another conscious ally within 60 ft spends Balthazar's Bardic Inspiration die and succeeds on the roll. The ally regains HP equal to Balthazar's proficiency bonus (3 at level 5). Once per short rest. The ally must hear him. Remove his Inspiration marker when resolving this; the GM confirms the successful roll and reaction. Cannot revive a downed ally. No spell slots, extra actions or Inspiration uses are refunded.",
+      "subclass" : null
+    } ],
     "passwordHash" : "06777036393a849e931d9b6b9019376fff572f6573469cd76574577cd84d17ce",
     "passwordSalt" : "f80789435dd3c2bdbbc1932dd993d9d6",
     "imagePath" : "images/players/player-balthazar.png",
@@ -230,6 +323,7 @@
     "raceId" : "wood-elf",
     "level" : 5,
     "xp" : 160,
+    "upgrades" : null,
     "stats" : {
       "custom" : { },
       "strength" : 8,
@@ -348,6 +442,7 @@
       "rank" : 2,
       "active" : true
     } ],
+    "personalFeatures" : [ ],
     "passwordHash" : "d00b4c00c766b28f378c9279cde703687ec07e08d6e59c998590a7788c62bea7",
     "passwordSalt" : "209f23306e7107cc2289f8036a03b1a7",
     "imagePath" : "images/players/player-silvan.jpg",
@@ -442,6 +537,7 @@
     "raceId" : "human",
     "level" : 5,
     "xp" : 265,
+    "upgrades" : null,
     "stats" : {
       "custom" : { },
       "strength" : 15,
@@ -543,6 +639,7 @@
       "rank" : 0,
       "active" : true
     } ],
+    "personalFeatures" : [ ],
     "passwordHash" : "582a43d1cbf7869c8f1212daae37b62240094b852fba7a308b1ac70ac6b124b6",
     "passwordSalt" : "f9226bf80dfa0ef0e7764b8e7ccc8084",
     "imagePath" : "images/players/player-cucaratcha.jpg",
@@ -633,6 +730,98 @@
     "raceId" : "human",
     "level" : 5,
     "xp" : 145,
+    "upgrades" : {
+      "earned" : 4,
+      "unlocks" : [ {
+        "classId" : "fighter",
+        "nodeId" : "@historical-level-2",
+        "branchName" : "Existing training",
+        "name" : "Action Surge (one use)",
+        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: armor-thrust, blade-oath, blade-rush, combo-strike, commanding-point, compelled-duel, crushing-strike, dual-blade-strike, echo-of-the-duelist, guard-shift, quick-strike, second-wind, step-feint, three-fast-stabs, tlko-super-attack, wrathful-strike",
+        "imagePath" : null,
+        "level" : 2,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ]
+        }
+      }, {
+        "classId" : "fighter",
+        "nodeId" : "@historical-level-3",
+        "branchName" : "Existing training",
+        "name" : "Martial Archetype",
+        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: armor-thrust, blade-oath, blade-rush, combo-strike, commanding-point, compelled-duel, crushing-strike, dual-blade-strike, echo-of-the-duelist, guard-shift, quick-strike, second-wind, step-feint, three-fast-stabs, tlko-super-attack, wrathful-strike",
+        "imagePath" : null,
+        "level" : 3,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ]
+        }
+      }, {
+        "classId" : "fighter",
+        "nodeId" : "@historical-level-4",
+        "branchName" : "Existing training",
+        "name" : "Ability Score Improvement",
+        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: armor-thrust, blade-oath, blade-rush, combo-strike, commanding-point, compelled-duel, crushing-strike, dual-blade-strike, echo-of-the-duelist, guard-shift, quick-strike, second-wind, step-feint, three-fast-stabs, tlko-super-attack, wrathful-strike",
+        "imagePath" : null,
+        "level" : 4,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ]
+        }
+      }, {
+        "classId" : "fighter",
+        "nodeId" : "@historical-level-5",
+        "branchName" : "Existing training",
+        "name" : "Extra Attack",
+        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: armor-thrust, blade-oath, blade-rush, combo-strike, commanding-point, compelled-duel, crushing-strike, dual-blade-strike, echo-of-the-duelist, guard-shift, quick-strike, second-wind, step-feint, three-fast-stabs, tlko-super-attack, wrathful-strike",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ]
+        }
+      } ]
+    },
     "stats" : {
       "custom" : { },
       "strength" : 15,
@@ -799,6 +988,7 @@
       "rank" : 0,
       "active" : true
     } ],
+    "personalFeatures" : [ ],
     "passwordHash" : "7e3e7e085e7e0ae60376862703394884d667414f48642946fa3d49a8493f9beb",
     "passwordSalt" : "75836f61ea6233be9a824d7275b520d0",
     "imagePath" : "images/players/player-lavenos.jpg",
@@ -878,6 +1068,7 @@
     "raceId" : "tiefling",
     "level" : 5,
     "xp" : 225,
+    "upgrades" : null,
     "stats" : {
       "custom" : { },
       "strength" : 8,
@@ -1025,6 +1216,7 @@
       "rank" : 3,
       "active" : true
     } ],
+    "personalFeatures" : [ ],
     "passwordHash" : "8275bf27476f90e669476c921a36aad00a5402c558c40f2fddd9a986a486b565",
     "passwordSalt" : "56862be59290d5b14ebb5bc3afbdc5e0",
     "imagePath" : "images/players/player-tasha.jpg",
@@ -1120,20 +1312,12 @@
     }
   }, {
     "id" : "darius",
-    "personalFeatures" : [ {
-      "level" : 5,
-      "name" : "Brawler's Throw",
-      "description" : "Pit Guardian training. Nonmagical; replaces one attack, never grants an extra attack. Choose a creature Darius already grapples within 5 ft, no more than one size larger. Contest Athletics against its Athletics or Acrobatics. On success, release it, move it up to 5 ft into a clear supported space, and knock it prone. On failure it stays grappled. No damage, collision damage or forced ledge drop. The GM rolls the contest, moves the token and marks prone."
-    }, {
-      "level" : 5,
-      "name" : "Pit Guardian",
-      "description" : "Nonmagical reaction before an attack roll against another conscious ally within 5 ft: that ally gains +2 AC until the start of their next turn. Darius must be conscious. Once per short rest. No extra attack or damage. The GM confirms ally status and reaction availability; the app applies the AC effect and tracks the use."
-    } ],
     "name" : "Darius",
     "classId" : "barbarian",
     "raceId" : "human",
     "level" : 5,
     "xp" : 155,
+    "upgrades" : null,
     "stats" : {
       "custom" : { },
       "strength" : 15,
@@ -1176,6 +1360,17 @@
       "spellId" : "iron fist",
       "rank" : 0,
       "active" : true
+    } ],
+    "personalFeatures" : [ {
+      "level" : 5,
+      "name" : "Brawler's Throw",
+      "description" : "Pit Guardian training. Nonmagical; replaces one attack, never grants an extra attack. Choose a creature Darius already grapples within 5 ft, no more than one size larger. Contest Athletics against its Athletics or Acrobatics. On success, release it, move it up to 5 ft into a clear supported space, and knock it prone. On failure it stays grappled. No damage, collision damage or forced ledge drop. The GM rolls the contest, moves the token and marks prone.",
+      "subclass" : null
+    }, {
+      "level" : 5,
+      "name" : "Pit Guardian",
+      "description" : "Nonmagical reaction before an attack roll against another conscious ally within 5 ft: that ally gains +2 AC until the start of their next turn. Darius must be conscious. Once per short rest. No extra attack or damage. The GM confirms ally status and reaction availability; the app applies the AC effect and tracks the use.",
+      "subclass" : null
     } ],
     "passwordHash" : "79b4ddcf603d87f296db4a71ba240e849b8f3300bc81d3407b71eb9462e681d2",
     "passwordSalt" : "3b799b40a9d1a7e0013eae9a88e8ef97",
@@ -1256,6 +1451,7 @@
     "raceId" : "human",
     "level" : 5,
     "xp" : 135,
+    "upgrades" : null,
     "stats" : {
       "custom" : { },
       "strength" : 8,
@@ -1575,6 +1771,7 @@
       "rank" : 2,
       "active" : true
     } ],
+    "personalFeatures" : [ ],
     "passwordHash" : "2a322cc7dc808e2f41da138d7733681711f53d4d6e4cafc94e56a6249b1a2298",
     "passwordSalt" : "8d627c852991983ced09d03dc1f46605",
     "imagePath" : "images/players/player-toren.jpg",
@@ -1663,6 +1860,98 @@
     "raceId" : "elf",
     "level" : 5,
     "xp" : 120,
+    "upgrades" : {
+      "earned" : 4,
+      "unlocks" : [ {
+        "classId" : "wizard",
+        "nodeId" : "potency-1",
+        "branchName" : "Spellweaver",
+        "name" : "Spellweaver 1",
+        "description" : "A step along the Spellweaver path. The GM can replace these starter rewards.",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ]
+        }
+      }, {
+        "classId" : "wizard",
+        "nodeId" : "@historical-level-3",
+        "branchName" : "Existing training",
+        "name" : "Existing level 3 training",
+        "description" : "Already included in this character. No rewards are applied again.\nArcane Recovery, Spellcasting, Arcane Tradition, Evocation Savant, Sculpt Spells, Ability Score Improvement\nKnown abilities: burning-hands, counterspell, cure-wounds, detect-magic, disguise-self, fire-bolt, fireball, heat metal, invisibility, light, mage-armor, mage-hand, magic-missile, minor-illusion, misty-step, prestidigitation, ray-of-frost, scorching-ray, shield-spell, silent-image, sleep, teleport, web",
+        "imagePath" : null,
+        "level" : 3,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ]
+        }
+      }, {
+        "classId" : "wizard",
+        "nodeId" : "@historical-level-4",
+        "branchName" : "Existing training",
+        "name" : "Ability Score Improvement",
+        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: burning-hands, counterspell, cure-wounds, detect-magic, disguise-self, fire-bolt, fireball, heat metal, invisibility, light, mage-armor, mage-hand, magic-missile, minor-illusion, misty-step, prestidigitation, ray-of-frost, scorching-ray, shield-spell, silent-image, sleep, teleport, web",
+        "imagePath" : null,
+        "level" : 4,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ]
+        }
+      }, {
+        "classId" : "wizard",
+        "nodeId" : "@historical-level-5",
+        "branchName" : "Existing training",
+        "name" : "Existing level 5 training",
+        "description" : "Already included in this character. No rewards are applied again.\nArcane Recovery, Spellcasting, Arcane Tradition, Evocation Savant, Sculpt Spells, Ability Score Improvement\nKnown abilities: burning-hands, counterspell, cure-wounds, detect-magic, disguise-self, fire-bolt, fireball, heat metal, invisibility, light, mage-armor, mage-hand, magic-missile, minor-illusion, misty-step, prestidigitation, ray-of-frost, scorching-ray, shield-spell, silent-image, sleep, teleport, web",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ]
+        }
+      } ]
+    },
     "stats" : {
       "custom" : { },
       "strength" : 8,
@@ -1801,6 +2090,7 @@
       "rank" : 3,
       "active" : true
     } ],
+    "personalFeatures" : [ ],
     "passwordHash" : "241055cc2fb2ed0d8d7c823a1790c653a29305fa7f9acebed4bb98093354607e",
     "passwordSalt" : "81b7f6842468695bfc25a45b99d0f52e",
     "imagePath" : "images/players/player-elros.png",
@@ -1908,6 +2198,7 @@
     "raceId" : "lightfoot-halfling",
     "level" : 5,
     "xp" : 100,
+    "upgrades" : null,
     "stats" : {
       "custom" : { },
       "strength" : 8,
@@ -2108,6 +2399,7 @@
       "rank" : 1,
       "active" : true
     } ],
+    "personalFeatures" : [ ],
     "passwordHash" : "562179bcf2b8ca39f23c0da4ffd12ba61eccf10df04897df4ee0cd1dc4ebf980",
     "passwordSalt" : "3d6551c94bc4b98f8eb7a663952fc5bc",
     "imagePath" : "images/players/player-ratboy.jpg",
