@@ -1700,5 +1700,11 @@
   }, {
     "id" : "world-map",
     "file" : "world/maps.json"
+  }, {
+    "id" : "alice-s-dungeonland",
+    "file" : "world/maps.json"
+  }, {
+    "id" : "what",
+    "file" : "world/maps.json"
   } ]
 }
