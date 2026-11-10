@@ -7,6 +7,7 @@
     "level" : 5,
     "xp" : 95,
     "stats" : {
+      "custom" : { },
       "strength" : 8,
       "dexterity" : 15,
       "constitution" : 15,
@@ -163,6 +164,7 @@
     "furnaceFuel" : 0,
     "cooldowns" : { },
     "skills" : {
+      "custom" : { },
       "acrobatics" : 2,
       "animalHandling" : -1,
       "arcana" : -1,
@@ -224,6 +226,7 @@
     "level" : 5,
     "xp" : 160,
     "stats" : {
+      "custom" : { },
       "strength" : 8,
       "dexterity" : 15,
       "constitution" : 15,
@@ -366,6 +369,7 @@
       "charisma" : 0
     },
     "skills" : {
+      "custom" : { },
       "acrobatics" : 2,
       "animalHandling" : 5,
       "arcana" : -2,
@@ -426,6 +430,7 @@
     "level" : 5,
     "xp" : 265,
     "stats" : {
+      "custom" : { },
       "strength" : 15,
       "dexterity" : 15,
       "constitution" : 15,
@@ -555,6 +560,7 @@
       "anchor-round" : 89
     },
     "skills" : {
+      "custom" : { },
       "acrobatics" : 3,
       "animalHandling" : -2,
       "arcana" : 0,
@@ -615,6 +621,7 @@
     "level" : 5,
     "xp" : 145,
     "stats" : {
+      "custom" : { },
       "strength" : 15,
       "dexterity" : 15,
       "constitution" : 15,
@@ -798,6 +805,7 @@
     "furnaceFuel" : 0,
     "cooldowns" : { },
     "skills" : {
+      "custom" : { },
       "acrobatics" : 3,
       "animalHandling" : 1,
       "arcana" : 0,
@@ -858,6 +866,7 @@
     "level" : 5,
     "xp" : 225,
     "stats" : {
+      "custom" : { },
       "strength" : 8,
       "dexterity" : 8,
       "constitution" : 15,
@@ -1043,6 +1052,7 @@
     "furnaceFuel" : 0,
     "cooldowns" : { },
     "skills" : {
+      "custom" : { },
       "acrobatics" : -1,
       "animalHandling" : 1,
       "arcana" : 2,
@@ -1103,6 +1113,7 @@
     "level" : 5,
     "xp" : 155,
     "stats" : {
+      "custom" : { },
       "strength" : 15,
       "dexterity" : 15,
       "constitution" : 15,
@@ -1163,6 +1174,7 @@
     "furnaceFuel" : 0,
     "cooldowns" : { },
     "skills" : {
+      "custom" : { },
       "acrobatics" : 2,
       "animalHandling" : -1,
       "arcana" : -1,
@@ -1223,6 +1235,7 @@
     "level" : 5,
     "xp" : 135,
     "stats" : {
+      "custom" : { },
       "strength" : 8,
       "dexterity" : 15,
       "constitution" : 15,
@@ -1567,6 +1580,7 @@
     "furnaceFuel" : 0,
     "cooldowns" : { },
     "skills" : {
+      "custom" : { },
       "acrobatics" : 1,
       "animalHandling" : -1,
       "arcana" : 2,
@@ -1628,6 +1642,7 @@
     "level" : 5,
     "xp" : 120,
     "stats" : {
+      "custom" : { },
       "strength" : 8,
       "dexterity" : 15,
       "constitution" : 15,
@@ -1760,6 +1775,7 @@
     "furnaceFuel" : 0,
     "cooldowns" : { },
     "skills" : {
+      "custom" : { },
       "acrobatics" : 1,
       "animalHandling" : 0,
       "arcana" : 5,
@@ -1820,6 +1836,7 @@
     "level" : 5,
     "xp" : 100,
     "stats" : {
+      "custom" : { },
       "strength" : 8,
       "dexterity" : 15,
       "constitution" : 8,
@@ -2039,8 +2056,16 @@
     } ],
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
-    "cooldowns" : { },
+    "cooldowns" : {
+      "strength" : 0,
+      "dexterity" : 0,
+      "constitution" : 0,
+      "intelligence" : 0,
+      "wisdom" : 0,
+      "charisma" : 0
+    },
     "skills" : {
+      "custom" : { },
       "acrobatics" : 3,
       "animalHandling" : 0,
       "arcana" : 0,
@@ -2067,7 +2092,7 @@
       "proficiencyBonus" : null,
       "passivePerception" : null,
       "savingThrowProficiencies" : [ ],
-      "hitDice" : null,
+      "hitDice" : "",
       "temporaryHitPoints" : 0,
       "deathSaveSuccesses" : 0,
       "deathSaveFailures" : 0,
@@ -2081,9 +2106,9 @@
       "gold" : 0,
       "platinum" : 0,
       "extraAttacks" : [ ],
-      "proficienciesAndLanguages" : null,
-      "extraFeatures" : null,
-      "notes" : null
+      "proficienciesAndLanguages" : "",
+      "extraFeatures" : "",
+      "notes" : ""
     },
     "featureUses" : {
       "strength" : 0,
