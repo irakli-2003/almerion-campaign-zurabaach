@@ -1864,6 +1864,7 @@
     "groups" : [ ],
     "mapLinks" : [ ],
     "partyPosition" : null,
+    "worldMap" : false,
     "musicPlaylistId" : null
   }, {
     "id" : "gilded-stag-upper",
@@ -3334,6 +3335,7 @@
     "groups" : [ ],
     "mapLinks" : [ ],
     "partyPosition" : null,
+    "worldMap" : false,
     "musicPlaylistId" : null
   }, {
     "id" : "greenhollow-square",
@@ -4499,6 +4501,31 @@
             "stealth" : -1,
             "survival" : 2
           },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -4807,6 +4834,31 @@
             "stealth" : 2,
             "survival" : 2
           },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -5097,6 +5149,31 @@
             "sleightOfHand" : -1,
             "stealth" : -1,
             "survival" : 2
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
           },
           "featureUses" : { }
         },
@@ -5986,6 +6063,31 @@
             "stealth" : 2,
             "survival" : -1
           },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -6225,6 +6327,31 @@
             "stealth" : 2,
             "survival" : -1
           },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -6344,6 +6471,31 @@
             "sleightOfHand" : 2,
             "stealth" : 2,
             "survival" : -1
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
           },
           "featureUses" : { }
         },
@@ -7528,6 +7680,7 @@
     "groups" : [ ],
     "mapLinks" : [ ],
     "partyPosition" : null,
+    "worldMap" : false,
     "musicPlaylistId" : null
   }, {
     "id" : "ironhand-smithy-map",
@@ -7945,6 +8098,31 @@
             "stealth" : -1,
             "survival" : 2
           },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -8149,6 +8327,31 @@
             "sleightOfHand" : -1,
             "stealth" : -1,
             "survival" : 2
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
           },
           "featureUses" : { }
         },
@@ -8628,6 +8831,31 @@
             "sleightOfHand" : 2,
             "stealth" : 2,
             "survival" : -1
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
           },
           "featureUses" : { }
         },
@@ -9344,6 +9572,7 @@
     "groups" : [ ],
     "mapLinks" : [ ],
     "partyPosition" : null,
+    "worldMap" : false,
     "musicPlaylistId" : null
   }, {
     "id" : "temple-dawnfather-map",
@@ -10932,6 +11161,31 @@
             "stealth" : -1,
             "survival" : 1
           },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
+          },
           "featureUses" : {
             "strength" : 0,
             "dexterity" : 0,
@@ -11458,6 +11712,31 @@
             "stealth" : 3,
             "survival" : 3
           },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
+          },
           "featureUses" : {
             "strength" : 0,
             "dexterity" : 0,
@@ -11785,6 +12064,31 @@
             "stealth" : 5,
             "survival" : 0
           },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
+          },
           "featureUses" : {
             "strength" : 0,
             "dexterity" : 0,
@@ -11946,6 +12250,31 @@
             "sleightOfHand" : 0,
             "stealth" : -2,
             "survival" : 1
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
           },
           "featureUses" : {
             "strength" : 0,
@@ -12201,6 +12530,31 @@
             "stealth" : 0,
             "survival" : -1
           },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
+          },
           "featureUses" : {
             "strength" : 0,
             "dexterity" : 0,
@@ -12453,6 +12807,31 @@
             "sleightOfHand" : -1,
             "stealth" : -1,
             "survival" : 2
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
           },
           "featureUses" : {
             "strength" : 0,
@@ -12926,6 +13305,31 @@
             "stealth" : -1,
             "survival" : -1
           },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
+          },
           "featureUses" : {
             "strength" : 0,
             "dexterity" : 0,
@@ -13224,6 +13628,31 @@
             "stealth" : 1,
             "survival" : 2
           },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
+          },
           "featureUses" : {
             "strength" : 0,
             "dexterity" : 0,
@@ -13440,6 +13869,31 @@
             "sleightOfHand" : 5,
             "stealth" : 3,
             "survival" : -1
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
           },
           "featureUses" : {
             "strength" : 0,
@@ -14314,6 +14768,7 @@
     "groups" : [ ],
     "mapLinks" : [ ],
     "partyPosition" : null,
+    "worldMap" : false,
     "musicPlaylistId" : null
   }, {
     "id" : "stonekeep-ground-floor",
@@ -15959,6 +16414,31 @@
             "stealth" : -1,
             "survival" : 2
           },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
+          },
           "featureUses" : {
             "strength" : 0,
             "dexterity" : 0,
@@ -16733,6 +17213,7 @@
     "groups" : [ ],
     "mapLinks" : [ ],
     "partyPosition" : null,
+    "worldMap" : false,
     "musicPlaylistId" : null
   }, {
     "id" : "forest-clearing-map",
@@ -19214,6 +19695,7 @@
     "groups" : [ ],
     "mapLinks" : [ ],
     "partyPosition" : null,
+    "worldMap" : false,
     "musicPlaylistId" : null
   }, {
     "id" : "barrow-crypt-map",
@@ -23024,6 +23506,7 @@
     "groups" : [ ],
     "mapLinks" : [ ],
     "partyPosition" : null,
+    "worldMap" : false,
     "musicPlaylistId" : null
   }, {
     "id" : "blackfen-cave-map",
@@ -25596,6 +26079,7 @@
     "groups" : [ ],
     "mapLinks" : [ ],
     "partyPosition" : null,
+    "worldMap" : false,
     "musicPlaylistId" : null
   }, {
     "id" : "bandit-camp-map",
@@ -27768,6 +28252,7 @@
     "groups" : [ ],
     "mapLinks" : [ ],
     "partyPosition" : null,
+    "worldMap" : false,
     "musicPlaylistId" : null
   }, {
     "id" : "orins-tower-map",
@@ -28886,6 +29371,7 @@
     "groups" : [ ],
     "mapLinks" : [ ],
     "partyPosition" : null,
+    "worldMap" : false,
     "musicPlaylistId" : null
   }, {
     "id" : "open-field-map",
@@ -29209,6 +29695,31 @@
             "sleightOfHand" : 2,
             "stealth" : 2,
             "survival" : -1
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
           },
           "featureUses" : { }
         },
@@ -29781,6 +30292,31 @@
             "stealth" : -1,
             "survival" : 2
           },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -29920,6 +30456,31 @@
             "sleightOfHand" : -1,
             "stealth" : -1,
             "survival" : 2
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
           },
           "featureUses" : { }
         },
@@ -30164,6 +30725,31 @@
             "stealth" : 2,
             "survival" : 2
           },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
+          },
           "featureUses" : { }
         },
         "position" : {
@@ -30344,6 +30930,31 @@
             "sleightOfHand" : 2,
             "stealth" : 2,
             "survival" : -1
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
           },
           "featureUses" : { }
         },
@@ -30595,6 +31206,31 @@
             "sleightOfHand" : 2,
             "stealth" : 2,
             "survival" : -1
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : null,
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : null,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : null,
+            "extraFeatures" : null,
+            "notes" : null
           },
           "featureUses" : { }
         },
@@ -32116,6 +32752,6080 @@
     } ],
     "mapLinks" : [ ],
     "partyPosition" : null,
+    "worldMap" : false,
+    "musicPlaylistId" : null
+  }, {
+    "id" : "world-map",
+    "name" : "World Map",
+    "width" : 40,
+    "height" : 30,
+    "grid" : [ [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ] ],
+    "layers" : [ ],
+    "drawings" : [ ],
+    "groups" : [ ],
+    "mapLinks" : [ {
+      "mapId" : "blackfen-cave-map",
+      "name" : "Blackfen Cave",
+      "x" : 0,
+      "y" : 0
+    }, {
+      "mapId" : "greenhollow-square",
+      "name" : "Greenhollow - Village Square",
+      "x" : 1,
+      "y" : 0
+    }, {
+      "mapId" : "ironhand-smithy-map",
+      "name" : "Ironhand Smithy",
+      "x" : 2,
+      "y" : 0
+    }, {
+      "mapId" : "orins-tower-map",
+      "name" : "Magister Orin's Tower",
+      "x" : 3,
+      "y" : 0
+    }, {
+      "mapId" : "open-field-map",
+      "name" : "Open Ground (blank encounter map)",
+      "x" : 4,
+      "y" : 0
+    }, {
+      "mapId" : "stonekeep-ground-floor",
+      "name" : "Stonekeep - Ground Floor",
+      "x" : 5,
+      "y" : 0
+    }, {
+      "mapId" : "temple-dawnfather-map",
+      "name" : "Temple of the Dawnfather",
+      "x" : 6,
+      "y" : 0
+    }, {
+      "mapId" : "gilded-stag-ground",
+      "name" : "The Gilded Stag - Common Room",
+      "x" : 8,
+      "y" : 0
+    }, {
+      "mapId" : "gilded-stag-upper",
+      "name" : "The Gilded Stag - Guest Rooms",
+      "x" : 9,
+      "y" : 0
+    }, {
+      "mapId" : "forest-clearing-map",
+      "name" : "The Old Forest - Standing Stones",
+      "x" : 10,
+      "y" : 0
+    }, {
+      "mapId" : "bandit-camp-map",
+      "name" : "The Roadside Camp",
+      "x" : 11,
+      "y" : 0
+    }, {
+      "mapId" : "barrow-crypt-map",
+      "name" : "The Barrow Crypt",
+      "x" : 7,
+      "y" : 0
+    } ],
+    "partyPosition" : null,
+    "worldMap" : true,
     "musicPlaylistId" : null
   } ]
 }
