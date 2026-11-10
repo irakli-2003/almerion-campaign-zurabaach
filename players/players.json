@@ -1317,7 +1317,98 @@
     "raceId" : "human",
     "level" : 5,
     "xp" : 155,
-    "upgrades" : null,
+    "upgrades" : {
+      "earned" : 4,
+      "unlocks" : [ {
+        "classId" : "barbarian",
+        "nodeId" : "@historical-level-2",
+        "branchName" : "Existing training",
+        "name" : "Danger Sense, Reckless Attack",
+        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: iron fist",
+        "imagePath" : null,
+        "level" : 2,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ]
+        }
+      }, {
+        "classId" : "barbarian",
+        "nodeId" : "@historical-level-3",
+        "branchName" : "Existing training",
+        "name" : "Primal Path",
+        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: iron fist",
+        "imagePath" : null,
+        "level" : 3,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ]
+        }
+      }, {
+        "classId" : "barbarian",
+        "nodeId" : "@historical-level-4",
+        "branchName" : "Existing training",
+        "name" : "Ability Score Improvement",
+        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: iron fist",
+        "imagePath" : null,
+        "level" : 4,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ]
+        }
+      }, {
+        "classId" : "barbarian",
+        "nodeId" : "@historical-level-5",
+        "branchName" : "Existing training",
+        "name" : "Extra Attack, Fast Movement, Brawler's Throw, Pit Guardian",
+        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: iron fist",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ]
+        }
+      } ]
+    },
     "stats" : {
       "custom" : { },
       "strength" : 15,
