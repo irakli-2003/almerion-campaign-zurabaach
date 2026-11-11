@@ -28,7 +28,8 @@
           "basicAttackDamage" : 0,
           "rageDamage" : 0,
           "speed" : 0,
-          "spellIds" : [ ]
+          "spellIds" : [ ],
+          "features" : [ ]
         }
       }, {
         "classId" : "bard",
@@ -50,7 +51,8 @@
           "basicAttackDamage" : 0,
           "rageDamage" : 0,
           "speed" : 0,
-          "spellIds" : [ ]
+          "spellIds" : [ ],
+          "features" : [ ]
         }
       }, {
         "classId" : "bard",
@@ -72,7 +74,8 @@
           "basicAttackDamage" : 0,
           "rageDamage" : 0,
           "speed" : 0,
-          "spellIds" : [ ]
+          "spellIds" : [ ],
+          "features" : [ ]
         }
       }, {
         "classId" : "bard",
@@ -94,7 +97,8 @@
           "basicAttackDamage" : 0,
           "rageDamage" : 0,
           "speed" : 0,
-          "spellIds" : [ ]
+          "spellIds" : [ ],
+          "features" : [ ]
         }
       } ]
     },
@@ -220,7 +224,9 @@
       "level" : 5,
       "name" : "Encore",
       "description" : "Nonmagical reaction immediately after another conscious ally within 60 ft spends Balthazar's Bardic Inspiration die and succeeds on the roll. The ally regains HP equal to Balthazar's proficiency bonus (3 at level 5). Once per short rest. The ally must hear him. Remove his Inspiration marker when resolving this; the GM confirms the successful roll and reaction. Cannot revive a downed ally. No spell slots, extra actions or Inspiration uses are refunded.",
-      "subclass" : null
+      "subclass" : null,
+      "usesPerRest" : 0,
+      "shortRestRecharge" : false
     } ],
     "passwordHash" : "06777036393a849e931d9b6b9019376fff572f6573469cd76574577cd84d17ce",
     "passwordSalt" : "f80789435dd3c2bdbbc1932dd993d9d6",
@@ -752,7 +758,8 @@
           "basicAttackDamage" : 0,
           "rageDamage" : 0,
           "speed" : 0,
-          "spellIds" : [ ]
+          "spellIds" : [ ],
+          "features" : [ ]
         }
       }, {
         "classId" : "fighter",
@@ -774,7 +781,8 @@
           "basicAttackDamage" : 0,
           "rageDamage" : 0,
           "speed" : 0,
-          "spellIds" : [ ]
+          "spellIds" : [ ],
+          "features" : [ ]
         }
       }, {
         "classId" : "fighter",
@@ -796,7 +804,8 @@
           "basicAttackDamage" : 0,
           "rageDamage" : 0,
           "speed" : 0,
-          "spellIds" : [ ]
+          "spellIds" : [ ],
+          "features" : [ ]
         }
       }, {
         "classId" : "fighter",
@@ -818,7 +827,8 @@
           "basicAttackDamage" : 0,
           "rageDamage" : 0,
           "speed" : 0,
-          "spellIds" : [ ]
+          "spellIds" : [ ],
+          "features" : [ ]
         }
       } ]
     },
@@ -1339,7 +1349,8 @@
           "basicAttackDamage" : 0,
           "rageDamage" : 0,
           "speed" : 0,
-          "spellIds" : [ ]
+          "spellIds" : [ ],
+          "features" : [ ]
         }
       }, {
         "classId" : "barbarian",
@@ -1361,7 +1372,8 @@
           "basicAttackDamage" : 0,
           "rageDamage" : 0,
           "speed" : 0,
-          "spellIds" : [ ]
+          "spellIds" : [ ],
+          "features" : [ ]
         }
       }, {
         "classId" : "barbarian",
@@ -1383,7 +1395,8 @@
           "basicAttackDamage" : 0,
           "rageDamage" : 0,
           "speed" : 0,
-          "spellIds" : [ ]
+          "spellIds" : [ ],
+          "features" : [ ]
         }
       }, {
         "classId" : "barbarian",
@@ -1405,7 +1418,8 @@
           "basicAttackDamage" : 0,
           "rageDamage" : 0,
           "speed" : 0,
-          "spellIds" : [ ]
+          "spellIds" : [ ],
+          "features" : [ ]
         }
       } ]
     },
@@ -1460,12 +1474,16 @@
       "level" : 5,
       "name" : "Brawler's Throw",
       "description" : "Pit Guardian training. Nonmagical; replaces one attack, never grants an extra attack. Choose a creature Darius already grapples within 5 ft, no more than one size larger. Contest Athletics against its Athletics or Acrobatics. On success, release it, move it up to 5 ft into a clear supported space, and knock it prone. On failure it stays grappled. No damage, collision damage or forced ledge drop. The GM rolls the contest, moves the token and marks prone.",
-      "subclass" : ""
+      "subclass" : "",
+      "usesPerRest" : 0,
+      "shortRestRecharge" : false
     }, {
       "level" : 5,
       "name" : "Pit Guardian",
       "description" : "Nonmagical reaction before an attack roll against another conscious ally within 5 ft: that ally gains +2 AC until the start of their next turn. Darius must be conscious. Once per short rest. No extra attack or damage. The GM confirms ally status and reaction availability; the app applies the AC effect and tracks the use.",
-      "subclass" : ""
+      "subclass" : "",
+      "usesPerRest" : 0,
+      "shortRestRecharge" : false
     } ],
     "passwordHash" : "79b4ddcf603d87f296db4a71ba240e849b8f3300bc81d3407b71eb9462e681d2",
     "passwordSalt" : "3b799b40a9d1a7e0013eae9a88e8ef97",
@@ -1984,7 +2002,8 @@
           "basicAttackDamage" : 0,
           "rageDamage" : 0,
           "speed" : 0,
-          "spellIds" : [ ]
+          "spellIds" : [ ],
+          "features" : [ ]
         }
       }, {
         "classId" : "wizard",
@@ -2006,7 +2025,8 @@
           "basicAttackDamage" : 0,
           "rageDamage" : 0,
           "speed" : 0,
-          "spellIds" : [ ]
+          "spellIds" : [ ],
+          "features" : [ ]
         }
       }, {
         "classId" : "wizard",
@@ -2028,7 +2048,8 @@
           "basicAttackDamage" : 0,
           "rageDamage" : 0,
           "speed" : 0,
-          "spellIds" : [ ]
+          "spellIds" : [ ],
+          "features" : [ ]
         }
       }, {
         "classId" : "wizard",
@@ -2050,7 +2071,8 @@
           "basicAttackDamage" : 0,
           "rageDamage" : 0,
           "speed" : 0,
-          "spellIds" : [ ]
+          "spellIds" : [ ],
+          "features" : [ ]
         }
       } ]
     },
@@ -2300,7 +2322,102 @@
     "raceId" : "lightfoot-halfling",
     "level" : 5,
     "xp" : 100,
-    "upgrades" : null,
+    "upgrades" : {
+      "earned" : 4,
+      "unlocks" : [ {
+        "classId" : "rogue",
+        "nodeId" : "potency-1",
+        "branchName" : "Shadowblade",
+        "name" : "Cunning Action",
+        "description" : "Dash, Disengage or Hide as a bonus action.\nClass training. If already known, this feat is not granted a second time.",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "features" : [ ]
+        }
+      }, {
+        "classId" : "rogue",
+        "nodeId" : "potency-2",
+        "branchName" : "Shadowblade",
+        "name" : "Uncanny Dodge",
+        "description" : "Use your reaction to halve the damage of an attack from an attacker you can see.\nClass training. If already known, this feat is not granted a second time.",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "features" : [ ]
+        }
+      }, {
+        "classId" : "rogue",
+        "nodeId" : "resilience-1",
+        "branchName" : "Escape Artist",
+        "name" : "Roguish Archetype",
+        "description" : "Choose the archetype that defines your roguish expertise.\nClass training. If already known, this feat is not granted a second time.",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "features" : [ ]
+        }
+      }, {
+        "classId" : "rogue",
+        "nodeId" : "@historical-level-5",
+        "branchName" : "Existing training",
+        "name" : "Uncanny Dodge",
+        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: charm-person, disguise-self, mage-hand, minor-illusion, ray-of-frost, shield-spell, silent-image",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "features" : [ ]
+        }
+      } ]
+    },
     "stats" : {
       "custom" : { },
       "strength" : 8,
@@ -2505,7 +2622,7 @@
     "passwordHash" : "562179bcf2b8ca39f23c0da4ffd12ba61eccf10df04897df4ee0cd1dc4ebf980",
     "passwordSalt" : "3d6551c94bc4b98f8eb7a663952fc5bc",
     "imagePath" : "images/players/player-ratboy.jpg",
-    "playerName" : "",
+    "playerName" : "ana",
     "ownerUsername" : "",
     "description" : "Neri \"Ratboy\" Venn (R-17) - Lightfoot halfling (rat-like), Rogue 5 (Arcane Trickster)\n\n. Passive Perception 15.\nProficiencies: light armour; simple weapons, hand crossbows, longswords, rapiers, shortswords; thieves' tools, disguise kit, forgery kit. Languages: Common, Halfling, Thieves' Cant.\n\nAttacks: Dagger +5, 1d4+2 piercing (thrown 6/18 m). Shortbow +5, 1d6+2 piercing (24/96 m).\nSpellcasting (INT): save DC 13, spell attack +5, three 1st-level slots.\n- Cantrips: Mage Hand, Minor Illusion, Frost Card (Ray of Frost - he throws a frozen playing card: +5 to hit, 2d8 cold at level 5, 18 m, target -3 m speed).\n- 1st level: Shield, Disguise Self, Silent Image (concentration), Charm Person.\n\nFeatures:\n- Sneak Attack 3d6 - once per turn, finesse or ranged weapon, with advantage or an ally next to the target.\n- Cunning Action - Dash, Disengage or Hide as a bonus action.\n- Uncanny Dodge - reaction, halve the damage of one attack he can see.\n- Mage Hand Legerdemain - invisible Mage Hand; can plant, lift and pick locks with it; bonus action to control.\n- Lucky - reroll a natural 1 on an attack, check or save.\n- Brave - advantage on saves against being frightened.\n- Halfling Nimbleness - moves through the space of anything larger than him.\n- Naturally Stealthy - can hide behind a creature at least one size larger.\n- Second Breakfast - if he eats during a short rest, he regains an extra 1d4 + 5 HP.\n\n",
     "maxHitPoints" : 23,
