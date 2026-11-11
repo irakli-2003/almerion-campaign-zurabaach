@@ -29,6 +29,7 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       }, {
@@ -52,6 +53,7 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       }, {
@@ -75,6 +77,7 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       }, {
@@ -98,6 +101,7 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       } ]
@@ -759,6 +763,7 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       }, {
@@ -782,6 +787,7 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       }, {
@@ -805,6 +811,7 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       }, {
@@ -828,6 +835,7 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       } ]
@@ -1350,6 +1358,7 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       }, {
@@ -1373,6 +1382,7 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       }, {
@@ -1396,6 +1406,7 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       }, {
@@ -1419,6 +1430,7 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       } ]
@@ -2003,14 +2015,15 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       }, {
         "classId" : "wizard",
-        "nodeId" : "@historical-level-3",
-        "branchName" : "Existing training",
-        "name" : "Existing level 3 training",
-        "description" : "Already included in this character. No rewards are applied again.\nArcane Recovery, Spellcasting, Arcane Tradition, Evocation Savant, Sculpt Spells, Ability Score Improvement\nKnown abilities: burning-hands, counterspell, cure-wounds, detect-magic, disguise-self, fire-bolt, fireball, heat metal, invisibility, light, mage-armor, mage-hand, magic-missile, minor-illusion, misty-step, prestidigitation, ray-of-frost, scorching-ray, shield-spell, silent-image, sleep, teleport, web",
+        "nodeId" : "potency-2",
+        "branchName" : "Spellweaver",
+        "name" : "Spellweaver: Precision",
+        "description" : "Already included in this character. No rewards are applied again.\n\nAlready included in this character. No rewards are applied again.\nArcane Recovery, Spellcasting, Arcane Tradition, Evocation Savant, Sculpt Spells, Ability Score Improvement\nKnown abilities: burning-hands, counterspell, cure-wounds, detect-magic, disguise-self, fire-bolt, fireball, heat metal, invisibility, light, mage-armor, mage-hand, magic-missile, minor-illusion, misty-step, prestidigitation, ray-of-frost, scorching-ray, shield-spell, silent-image, sleep, teleport, web",
         "imagePath" : null,
         "level" : 3,
         "historical" : true,
@@ -2026,14 +2039,15 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       }, {
         "classId" : "wizard",
-        "nodeId" : "@historical-level-4",
-        "branchName" : "Existing training",
-        "name" : "Ability Score Improvement",
-        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: burning-hands, counterspell, cure-wounds, detect-magic, disguise-self, fire-bolt, fireball, heat metal, invisibility, light, mage-armor, mage-hand, magic-missile, minor-illusion, misty-step, prestidigitation, ray-of-frost, scorching-ray, shield-spell, silent-image, sleep, teleport, web",
+        "nodeId" : "potency-3",
+        "branchName" : "Spellweaver",
+        "name" : "Spellweaver: Momentum",
+        "description" : "Already included in this character. No rewards are applied again.\n\nAlready included in this character. No rewards are applied again.\nKnown abilities: burning-hands, counterspell, cure-wounds, detect-magic, disguise-self, fire-bolt, fireball, heat metal, invisibility, light, mage-armor, mage-hand, magic-missile, minor-illusion, misty-step, prestidigitation, ray-of-frost, scorching-ray, shield-spell, silent-image, sleep, teleport, web",
         "imagePath" : null,
         "level" : 4,
         "historical" : true,
@@ -2049,14 +2063,15 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       }, {
         "classId" : "wizard",
-        "nodeId" : "@historical-level-5",
-        "branchName" : "Existing training",
-        "name" : "Existing level 5 training",
-        "description" : "Already included in this character. No rewards are applied again.\nArcane Recovery, Spellcasting, Arcane Tradition, Evocation Savant, Sculpt Spells, Ability Score Improvement\nKnown abilities: burning-hands, counterspell, cure-wounds, detect-magic, disguise-self, fire-bolt, fireball, heat metal, invisibility, light, mage-armor, mage-hand, magic-missile, minor-illusion, misty-step, prestidigitation, ray-of-frost, scorching-ray, shield-spell, silent-image, sleep, teleport, web",
+        "nodeId" : "potency-5",
+        "branchName" : "Spellweaver",
+        "name" : "Spellweaver: Breakthrough",
+        "description" : "Already included in this character. No rewards are applied again.\n\nAlready included in this character. No rewards are applied again.\nArcane Recovery, Spellcasting, Arcane Tradition, Evocation Savant, Sculpt Spells, Ability Score Improvement\nKnown abilities: burning-hands, counterspell, cure-wounds, detect-magic, disguise-self, fire-bolt, fireball, heat metal, invisibility, light, mage-armor, mage-hand, magic-missile, minor-illusion, misty-step, prestidigitation, ray-of-frost, scorching-ray, shield-spell, silent-image, sleep, teleport, web",
         "imagePath" : null,
         "level" : 5,
         "historical" : true,
@@ -2072,6 +2087,7 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       } ]
@@ -2345,6 +2361,7 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       }, {
@@ -2368,6 +2385,7 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       }, {
@@ -2391,6 +2409,7 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       }, {
@@ -2414,6 +2433,7 @@
           "rageDamage" : 0,
           "speed" : 0,
           "spellIds" : [ ],
+          "spellAlternatives" : [ ],
           "features" : [ ]
         }
       } ]
