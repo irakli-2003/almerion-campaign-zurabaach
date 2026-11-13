@@ -1339,10 +1339,10 @@
       "earned" : 4,
       "unlocks" : [ {
         "classId" : "barbarian",
-        "nodeId" : "@historical-level-2",
-        "branchName" : "Existing training",
-        "name" : "Danger Sense, Reckless Attack",
-        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: iron fist",
+        "nodeId" : "potency-1",
+        "branchName" : "Berserker",
+        "name" : "Danger Sense",
+        "description" : "Already included in this character. No rewards are applied again.\nDanger Sense\nAlready included in this character. No rewards are applied again.\nKnown abilities: iron fist",
         "imagePath" : null,
         "level" : 2,
         "historical" : true,
@@ -1363,10 +1363,10 @@
         }
       }, {
         "classId" : "barbarian",
-        "nodeId" : "@historical-level-3",
-        "branchName" : "Existing training",
+        "nodeId" : "potency-2",
+        "branchName" : "Berserker",
         "name" : "Primal Path",
-        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: iron fist",
+        "description" : "Already included in this character. No rewards are applied again.\nPrimal Path\nAlready included in this character. No rewards are applied again.\nKnown abilities: iron fist",
         "imagePath" : null,
         "level" : 3,
         "historical" : true,
@@ -1387,10 +1387,10 @@
         }
       }, {
         "classId" : "barbarian",
-        "nodeId" : "@historical-level-4",
-        "branchName" : "Existing training",
-        "name" : "Ability Score Improvement",
-        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: iron fist",
+        "nodeId" : "resilience-1",
+        "branchName" : "Iron Fist",
+        "name" : "Reckless Attack",
+        "description" : "Already included in this character. No rewards are applied again.\nReckless Attack\nAlready included in this character. No rewards are applied again.\nKnown abilities: iron fist",
         "imagePath" : null,
         "level" : 4,
         "historical" : true,
@@ -1411,10 +1411,10 @@
         }
       }, {
         "classId" : "barbarian",
-        "nodeId" : "@historical-level-5",
-        "branchName" : "Existing training",
-        "name" : "Extra Attack, Fast Movement, Brawler's Throw, Pit Guardian",
-        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: iron fist",
+        "nodeId" : "resilience-2",
+        "branchName" : "Iron Fist",
+        "name" : "Extra Attack",
+        "description" : "Already included in this character. No rewards are applied again.\nExtra Attack\nAlready included in this character. No rewards are applied again.\nKnown abilities: iron fist",
         "imagePath" : null,
         "level" : 5,
         "historical" : true,
@@ -1475,10 +1475,6 @@
     } ],
     "spells" : [ {
       "spellId" : "iron fist",
-      "rank" : 0,
-      "active" : true
-    }, {
-      "spellId" : "combo-strike",
       "rank" : 0,
       "active" : true
     } ],
