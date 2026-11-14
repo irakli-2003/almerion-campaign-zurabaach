@@ -642,6 +642,7 @@
           "type" : "construct",
           "challengeRating" : "1/4",
           "stats" : {
+            "custom" : { },
             "strength" : 10,
             "dexterity" : 14,
             "constitution" : 10,
@@ -650,6 +651,13 @@
             "charisma" : 1
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "scalding_pour",
             "name" : "Scalding Pour",
             "description" : "Melee attack: +4 to hit, reach 1.5 m, 1d6+2 fire.",
@@ -668,6 +676,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "shatter",
             "name" : "Shatter",
             "description" : "When it drops to 0 HP it bursts into porcelain shards: every creature within 1.5 m makes a DEX save DC 12 or takes 1d6 slashing.",
@@ -716,6 +731,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -726,8 +742,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "55db783b-b2ac-499e-85af-caf257d13307"
+        "instanceId" : "55db783b-b2ac-499e-85af-caf257d13307",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -757,6 +773,7 @@
           "type" : "construct",
           "challengeRating" : "1/4",
           "stats" : {
+            "custom" : { },
             "strength" : 10,
             "dexterity" : 14,
             "constitution" : 10,
@@ -765,6 +782,13 @@
             "charisma" : 1
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "scalding_pour",
             "name" : "Scalding Pour",
             "description" : "Melee attack: +4 to hit, reach 1.5 m, 1d6+2 fire.",
@@ -783,6 +807,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "shatter",
             "name" : "Shatter",
             "description" : "When it drops to 0 HP it bursts into porcelain shards: every creature within 1.5 m makes a DEX save DC 12 or takes 1d6 slashing.",
@@ -831,6 +862,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 6,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -841,8 +873,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "9f8ff1ca-c487-488b-883b-ed10b19dc7c9"
+        "instanceId" : "9f8ff1ca-c487-488b-883b-ed10b19dc7c9",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -872,6 +904,7 @@
           "type" : "construct",
           "challengeRating" : "1/4",
           "stats" : {
+            "custom" : { },
             "strength" : 10,
             "dexterity" : 14,
             "constitution" : 10,
@@ -880,6 +913,13 @@
             "charisma" : 1
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "scalding_pour",
             "name" : "Scalding Pour",
             "description" : "Melee attack: +4 to hit, reach 1.5 m, 1d6+2 fire.",
@@ -898,6 +938,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "shatter",
             "name" : "Shatter",
             "description" : "When it drops to 0 HP it bursts into porcelain shards: every creature within 1.5 m makes a DEX save DC 12 or takes 1d6 slashing.",
@@ -946,6 +993,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
             "effectId" : "restrained",
             "name" : "Restrained",
@@ -965,8 +1013,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "fe963ce4-7420-4e57-8aba-e27afe6c382b"
+        "instanceId" : "fe963ce4-7420-4e57-8aba-e27afe6c382b",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -996,6 +1044,7 @@
           "type" : "humanoid",
           "challengeRating" : "5",
           "stats" : {
+            "custom" : { },
             "strength" : 14,
             "dexterity" : 16,
             "constitution" : 16,
@@ -1004,6 +1053,13 @@
             "charisma" : 18
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "a_dozen_hats",
             "name" : "A Dozen Hats / Law of the Table",
             "description" : "At the start of each of his turns roll d4 (the only mandatory roll each round). The hat changes what he is AND sets the law of the table until his next turn; he announces it an octave lower and everyone seated repeats it in unison. 1 top hat - 15 temp HP, mocks; LAW 'Only questions!' (any non-question speech, incl. verbal spell components, breaks it). 2 bonnet - one creature DC 15 WIS or charmed until end of his next turn and moves toward him; LAW 'Clean cup, move down!' (ending a turn where you started breaks it). 3 helmet - AC 18, cannot move; LAW 'No one taller than the host!' (ending a turn standing breaks it). 4 no hat - he is himself, does not attack, says something bitter and useful about Alice; the hat speaks in the Rabbit's voice: LAW 'No one looks at him.' (attacking him breaks it).",
@@ -1019,6 +1075,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "hat_brim",
             "name" : "Hat Brim (Multiattack x3)",
             "description" : "Three attacks with the brim of his hat: +6 to hit, reach 1.5 m, 1d6+3 slashing each.",
@@ -1037,6 +1100,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "sit_down",
             "name" : "Sit Down!",
             "description" : "Opening move. Every creature within 9 m: STR save DC 14 or it is dragged to a chair at the table and restrained until it uses an action to break free (DC 13 Athletics). A seated character has disadvantage on attacks against anyone not seated at the table.",
@@ -1052,6 +1122,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "teapot",
             "name" : "Tea / Teapot",
             "description" : "Recharge 5-6. Stat block: throws a cup - 6 m cone of boiling tea, DEX save DC 14, 4d6 fire; on a failure the target's mouth is burned and it cannot speak until the end of its next turn. (Encounter variant: 9 m line, 5d6 fire, DEX DC 14 half.) He apologises after every use: 'Sorry. Sorry. It's hot.'",
@@ -1070,6 +1147,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "pull_from_the_hat",
             "name" : "Pull from the Hat",
             "description" : "Action (instead of Hat Brim; roughly every other turn, or right after someone breaks a law). He reaches into the hat and rolls d12: 1-6 a beast jumps onto the table and attacks on its own initiative (1 dormouse pile, 2 bandersnatch pup, 3 jabberwock hatchling, 4 bread-and-butterfly swarm, 5 rocking-horse-fly, 6 March Hare); 7-12 a weapon he uses instead of his normal attack (7 vorpal butter knife, 8 boomerang tea tray, 9 old flamingo mallet, 10 clock stuck at six, 11 sugar tongs, 12 roll twice). If the hat is bloodied or damaged, roll with disadvantage (pick the less dangerous result).",
@@ -1085,6 +1169,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "table_punishes",
             "name" : "The Table Punishes",
             "description" : "Free, not an action. Whoever breaks the current law of the table takes 2d8 psychic (no save) and the chair drags them back to the table: restrained, as Sit Down!",
@@ -1103,6 +1194,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "madness",
             "name" : "Madness",
             "description" : "Reaction. The first time he drops to 0 HP he doesn't. He stands back up with 25 HP and a single hat left. He no longer laughs - the hat laughs for him, in his voice. Stop rolling the d4: the last law stays in force for the rest of the fight and the hat whispers it every turn.",
@@ -1148,6 +1246,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
             "effectId" : "a_dozen_hats",
             "name" : "A Dozen Hats / Law of the Table",
@@ -1176,8 +1275,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "d14b83dd-471e-436f-8294-ba81714efd72"
+        "instanceId" : "d14b83dd-471e-436f-8294-ba81714efd72",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -2612,6 +2711,7 @@
           "role" : "dead guide in the mirrors",
           "level" : 1,
           "stats" : {
+            "custom" : { },
             "strength" : 10,
             "dexterity" : 20,
             "constitution" : 10,
@@ -2650,6 +2750,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -2660,8 +2761,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "N",
-        "instanceId" : "1550de3c-a19f-477a-babb-66cbfb749cef"
+        "instanceId" : "1550de3c-a19f-477a-babb-66cbfb749cef",
+        "symbol" : "N"
       } ]
     }, {
       "passable" : false,
@@ -3704,6 +3805,7 @@
           "role" : "miller",
           "level" : 2,
           "stats" : {
+            "custom" : { },
             "strength" : 14,
             "dexterity" : 10,
             "constitution" : 13,
@@ -3742,6 +3844,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -3752,8 +3855,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "N",
-        "instanceId" : "5b019e3b-1fe0-4196-8851-0998a95c517f"
+        "instanceId" : "5b019e3b-1fe0-4196-8851-0998a95c517f",
+        "symbol" : "N"
       } ]
     }, {
       "passable" : true,
@@ -3823,6 +3926,7 @@
           "role" : "matron",
           "level" : 5,
           "stats" : {
+            "custom" : { },
             "strength" : 9,
             "dexterity" : 11,
             "constitution" : 12,
@@ -3861,6 +3965,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -3871,8 +3976,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "N",
-        "instanceId" : "1038958d-99d1-4d16-9913-e084a8c19690"
+        "instanceId" : "1038958d-99d1-4d16-9913-e084a8c19690",
+        "symbol" : "N"
       } ]
     }, {
       "passable" : true,
@@ -4467,7 +4572,9 @@
           "raceId" : "revenant",
           "level" : 5,
           "xp" : 50,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 8,
             "constitution" : 15,
@@ -4519,6 +4626,7 @@
             "quantity" : 1
           } ],
           "spells" : [ ],
+          "personalFeatures" : [ ],
           "passwordHash" : null,
           "passwordSalt" : null,
           "imagePath" : null,
@@ -4538,6 +4646,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : -1,
             "animalHandling" : 2,
             "arcana" : -1,
@@ -4607,6 +4716,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -4617,8 +4727,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "ae0e1859-b482-4086-a2b5-848cfc82310c"
+        "instanceId" : "ae0e1859-b482-4086-a2b5-848cfc82310c",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -4758,7 +4868,9 @@
           "raceId" : "wood-elf",
           "level" : 5,
           "xp" : 160,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 8,
             "dexterity" : 15,
             "constitution" : 15,
@@ -4867,6 +4979,7 @@
             "rank" : 2,
             "active" : true
           } ],
+          "personalFeatures" : [ ],
           "passwordHash" : null,
           "passwordSalt" : null,
           "imagePath" : "images/players/player-silvan.jpg",
@@ -4894,6 +5007,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : 2,
             "animalHandling" : 5,
             "arcana" : -2,
@@ -4970,6 +5084,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : {
@@ -4995,8 +5110,8 @@
           } ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "0355bb1a-b21a-49a1-aa8e-dc9342443823"
+        "instanceId" : "0355bb1a-b21a-49a1-aa8e-dc9342443823",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -5016,6 +5131,7 @@
           "role" : "immortal non-self-conscious sorcerer",
           "level" : 20,
           "stats" : {
+            "custom" : { },
             "strength" : 8,
             "dexterity" : 8,
             "constitution" : 8,
@@ -5054,6 +5170,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -5064,8 +5181,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "N",
-        "instanceId" : "b363e3f0-d567-489b-9f98-44e7ea47ff52"
+        "instanceId" : "b363e3f0-d567-489b-9f98-44e7ea47ff52",
+        "symbol" : "N"
       } ]
     }, {
       "passable" : true,
@@ -5095,7 +5212,9 @@
           "raceId" : "tiefling",
           "level" : 5,
           "xp" : 225,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 8,
             "dexterity" : 8,
             "constitution" : 15,
@@ -5241,6 +5360,7 @@
             "rank" : 3,
             "active" : true
           } ],
+          "personalFeatures" : [ ],
           "passwordHash" : null,
           "passwordSalt" : null,
           "imagePath" : "images/players/player-tasha.jpg",
@@ -5281,6 +5401,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : -1,
             "animalHandling" : 1,
             "arcana" : 2,
@@ -5357,6 +5478,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
             "effectId" : "effect-nameless",
             "name" : "Nameless",
@@ -5395,8 +5517,8 @@
           } ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "e35c797c-dd12-46f5-8559-23880e7c7119"
+        "instanceId" : "e35c797c-dd12-46f5-8559-23880e7c7119",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -5541,6 +5663,7 @@
           "type" : "undead",
           "challengeRating" : "2",
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 12,
             "constitution" : 16,
@@ -5579,6 +5702,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -5589,8 +5713,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "M",
-        "instanceId" : "1ab43b17-756a-4cc7-871b-bb955418a8ec"
+        "instanceId" : "1ab43b17-756a-4cc7-871b-bb955418a8ec",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -5725,6 +5849,7 @@
           "type" : "undead",
           "challengeRating" : "2",
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 12,
             "constitution" : 16,
@@ -5763,6 +5888,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -5773,8 +5899,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "M",
-        "instanceId" : "1ecd8562-c9c1-47a9-b651-522bd9b949c3"
+        "instanceId" : "1ecd8562-c9c1-47a9-b651-522bd9b949c3",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -5894,6 +6020,7 @@
           "type" : "undead",
           "challengeRating" : "2",
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 12,
             "constitution" : 16,
@@ -5932,6 +6059,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -5942,8 +6070,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "M",
-        "instanceId" : "9ccc1f2f-48c1-4e46-83f8-1e5c19899f39"
+        "instanceId" : "9ccc1f2f-48c1-4e46-83f8-1e5c19899f39",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -6073,6 +6201,7 @@
           "type" : "undead",
           "challengeRating" : "2",
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 12,
             "constitution" : 16,
@@ -6111,6 +6240,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -6121,8 +6251,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "M",
-        "instanceId" : "a6c3e973-6512-4458-8a92-937092d9d6a8"
+        "instanceId" : "a6c3e973-6512-4458-8a92-937092d9d6a8",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -6147,7 +6277,9 @@
           "raceId" : "human",
           "level" : 5,
           "xp" : 145,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 15,
             "constitution" : 15,
@@ -6312,6 +6444,7 @@
             "rank" : 0,
             "active" : true
           } ],
+          "personalFeatures" : [ ],
           "passwordHash" : null,
           "passwordSalt" : null,
           "imagePath" : "images/players/player-lavenos.jpg",
@@ -6331,6 +6464,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : 3,
             "animalHandling" : 1,
             "arcana" : 0,
@@ -6407,6 +6541,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 2,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : {
@@ -6424,8 +6559,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "3171f69f-31b2-4313-8a22-589549452c36"
+        "instanceId" : "3171f69f-31b2-4313-8a22-589549452c36",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -6460,6 +6595,7 @@
           "type" : "undead",
           "challengeRating" : "2",
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 12,
             "constitution" : 16,
@@ -6498,6 +6634,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 6,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -6508,8 +6645,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "M",
-        "instanceId" : "8a35bdc6-08ac-472e-8ea7-3843c8d37e83"
+        "instanceId" : "8a35bdc6-08ac-472e-8ea7-3843c8d37e83",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -6524,7 +6661,9 @@
           "raceId" : "human",
           "level" : 5,
           "xp" : 265,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 15,
             "constitution" : 15,
@@ -6624,6 +6763,7 @@
             "rank" : 0,
             "active" : true
           } ],
+          "personalFeatures" : [ ],
           "passwordHash" : null,
           "passwordSalt" : null,
           "imagePath" : "images/players/player-cucaratcha.jpg",
@@ -6654,6 +6794,7 @@
             "anchor-round" : 89
           },
           "skills" : {
+            "custom" : { },
             "acrobatics" : 3,
             "animalHandling" : -2,
             "arcana" : 0,
@@ -6730,6 +6871,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 2,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
             "effectId" : "effect-nameless",
             "name" : "Nameless",
@@ -6758,8 +6900,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "4e5dc134-b6c6-42dc-a947-5c3bafed8723"
+        "instanceId" : "4e5dc134-b6c6-42dc-a947-5c3bafed8723",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -6774,7 +6916,9 @@
           "raceId" : "human",
           "level" : 5,
           "xp" : 155,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 15,
             "constitution" : 15,
@@ -6816,6 +6960,7 @@
             "rank" : 0,
             "active" : true
           } ],
+          "personalFeatures" : [ ],
           "passwordHash" : null,
           "passwordSalt" : null,
           "imagePath" : "images/players/darius.jpeg",
@@ -6835,6 +6980,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : 2,
             "animalHandling" : -1,
             "arcana" : -1,
@@ -6911,6 +7057,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 4,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : {
@@ -6928,8 +7075,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "301b3d28-09ee-4a0f-8fb7-2e996f9d7dce"
+        "instanceId" : "301b3d28-09ee-4a0f-8fb7-2e996f9d7dce",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -6949,6 +7096,7 @@
           "type" : "undead",
           "challengeRating" : "2",
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 12,
             "constitution" : 16,
@@ -6987,6 +7135,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -6997,8 +7146,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "M",
-        "instanceId" : "217244b1-18f8-46c6-8199-1d2ff1ecb3cc"
+        "instanceId" : "217244b1-18f8-46c6-8199-1d2ff1ecb3cc",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -7188,6 +7337,7 @@
           "role" : "hermit",
           "level" : 6,
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 13,
             "constitution" : 16,
@@ -7226,6 +7376,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -7236,8 +7387,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "N",
-        "instanceId" : "cbde28b6-ea34-4590-a8fa-a0d1211f4091"
+        "instanceId" : "cbde28b6-ea34-4590-a8fa-a0d1211f4091",
+        "symbol" : "N"
       } ]
     }, {
       "passable" : true,
@@ -7347,6 +7498,7 @@
           "role" : "priest",
           "level" : 5,
           "stats" : {
+            "custom" : { },
             "strength" : 10,
             "dexterity" : 11,
             "constitution" : 12,
@@ -7385,6 +7537,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -7395,8 +7548,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "N",
-        "instanceId" : "7b8b630f-8086-4645-908b-1ea1d76a9f46"
+        "instanceId" : "7b8b630f-8086-4645-908b-1ea1d76a9f46",
+        "symbol" : "N"
       } ]
     }, {
       "passable" : true,
@@ -8340,7 +8493,9 @@
           "raceId" : "tiefling",
           "level" : 5,
           "xp" : 65,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 8,
             "dexterity" : 8,
             "constitution" : 15,
@@ -8451,6 +8606,7 @@
             "rank" : 3,
             "active" : false
           } ],
+          "personalFeatures" : [ ],
           "passwordHash" : null,
           "passwordSalt" : null,
           "imagePath" : null,
@@ -8479,6 +8635,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : -1,
             "animalHandling" : 2,
             "arcana" : -1,
@@ -8548,6 +8705,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -8558,8 +8716,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "e991d5f1-ce74-4b63-b543-13ac6efc9fee"
+        "instanceId" : "e991d5f1-ce74-4b63-b543-13ac6efc9fee",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -8639,7 +8797,9 @@
           "raceId" : "revenant",
           "level" : 5,
           "xp" : 95,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 8,
             "constitution" : 15,
@@ -8691,6 +8851,7 @@
             "quantity" : 1
           } ],
           "spells" : [ ],
+          "personalFeatures" : [ ],
           "passwordHash" : null,
           "passwordSalt" : null,
           "imagePath" : null,
@@ -8710,6 +8871,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : -1,
             "animalHandling" : 2,
             "arcana" : -1,
@@ -8779,6 +8941,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -8789,8 +8952,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "d3f7068f-4920-4518-970c-a97df1beb5f4"
+        "instanceId" : "d3f7068f-4920-4518-970c-a97df1beb5f4",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -8885,6 +9048,7 @@
           "role" : "immortal non-self-conscious sorcerer",
           "level" : 20,
           "stats" : {
+            "custom" : { },
             "strength" : 8,
             "dexterity" : 8,
             "constitution" : 8,
@@ -8923,6 +9087,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -8933,8 +9098,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "N",
-        "instanceId" : "7399c8e2-8f52-4d72-85b2-63ddaa688305"
+        "instanceId" : "7399c8e2-8f52-4d72-85b2-63ddaa688305",
+        "symbol" : "N"
       } ]
     }, {
       "passable" : true,
@@ -9129,7 +9294,9 @@
           "raceId" : "human",
           "level" : 5,
           "xp" : 45,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 15,
             "constitution" : 15,
@@ -9188,6 +9355,7 @@
             "quantity" : 1
           } ],
           "spells" : [ ],
+          "personalFeatures" : [ ],
           "passwordHash" : null,
           "passwordSalt" : null,
           "imagePath" : null,
@@ -9216,6 +9384,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : 2,
             "animalHandling" : -1,
             "arcana" : -1,
@@ -9285,6 +9454,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -9295,8 +9465,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "0f8c55ea-2200-4181-b01a-fbc44adeac0b"
+        "instanceId" : "0f8c55ea-2200-4181-b01a-fbc44adeac0b",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -9316,6 +9486,7 @@
           "habitat" : "forest",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 17,
             "dexterity" : 15,
             "constitution" : 15,
@@ -9324,6 +9495,13 @@
             "charisma" : 7
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "pack_tactics",
             "name" : "Pack Tactics",
             "description" : "Attacks with advantage while an ally is beside the same target.",
@@ -9335,6 +9513,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "keen_smell",
             "name" : "Keen Smell",
             "description" : "Tracks by scent with uncanny accuracy.",
@@ -9346,6 +9531,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "bite",
             "name" : "Bite",
             "description" : "A savage bite that can drag a target down.",
@@ -9386,6 +9578,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -9396,8 +9589,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "B",
-        "instanceId" : "e811941b-f603-48a2-a865-438022d16bed"
+        "instanceId" : "e811941b-f603-48a2-a865-438022d16bed",
+        "symbol" : "B"
       } ]
     }, {
       "passable" : true,
@@ -9412,6 +9605,7 @@
           "habitat" : "forest",
           "challengeRating" : "1/4",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 15,
             "constitution" : 12,
@@ -9420,6 +9614,13 @@
             "charisma" : 6
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "pack_tactics",
             "name" : "Pack Tactics",
             "description" : "Attacks with advantage while an ally is beside the same target.",
@@ -9431,6 +9632,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "keen_smell",
             "name" : "Keen Smell",
             "description" : "Tracks by scent with uncanny accuracy.",
@@ -9471,6 +9679,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -9481,8 +9690,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "B",
-        "instanceId" : "d43de70b-dad0-4b5b-baad-cda787c7e9aa"
+        "instanceId" : "d43de70b-dad0-4b5b-baad-cda787c7e9aa",
+        "symbol" : "B"
       } ]
     }, {
       "passable" : true,
@@ -9552,6 +9761,7 @@
           "habitat" : "forest",
           "challengeRating" : "1/4",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 15,
             "constitution" : 12,
@@ -9560,6 +9770,13 @@
             "charisma" : 6
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "pack_tactics",
             "name" : "Pack Tactics",
             "description" : "Attacks with advantage while an ally is beside the same target.",
@@ -9571,6 +9788,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "keen_smell",
             "name" : "Keen Smell",
             "description" : "Tracks by scent with uncanny accuracy.",
@@ -9611,6 +9835,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 3,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -9621,8 +9846,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "B",
-        "instanceId" : "fd9d99fa-5053-4fe9-b411-0c240ab95a34"
+        "instanceId" : "fd9d99fa-5053-4fe9-b411-0c240ab95a34",
+        "symbol" : "B"
       } ]
     }, {
       "passable" : true,
@@ -9702,6 +9927,7 @@
           "habitat" : "forest",
           "challengeRating" : "1/4",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 15,
             "constitution" : 12,
@@ -9710,6 +9936,13 @@
             "charisma" : 6
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "pack_tactics",
             "name" : "Pack Tactics",
             "description" : "Attacks with advantage while an ally is beside the same target.",
@@ -9721,6 +9954,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "keen_smell",
             "name" : "Keen Smell",
             "description" : "Tracks by scent with uncanny accuracy.",
@@ -9761,6 +10001,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 2,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -9771,8 +10012,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "B",
-        "instanceId" : "4cc44ea0-59e5-4bc9-9b7e-6832df541809"
+        "instanceId" : "4cc44ea0-59e5-4bc9-9b7e-6832df541809",
+        "symbol" : "B"
       } ]
     }, {
       "passable" : true,
@@ -9802,6 +10043,7 @@
           "habitat" : "forest",
           "challengeRating" : "1/4",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 15,
             "constitution" : 12,
@@ -9810,6 +10052,13 @@
             "charisma" : 6
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "pack_tactics",
             "name" : "Pack Tactics",
             "description" : "Attacks with advantage while an ally is beside the same target.",
@@ -9821,6 +10070,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "keen_smell",
             "name" : "Keen Smell",
             "description" : "Tracks by scent with uncanny accuracy.",
@@ -9861,6 +10117,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 2,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -9871,8 +10128,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "B",
-        "instanceId" : "6c91506d-5475-451b-96ae-88b90fe3604a"
+        "instanceId" : "6c91506d-5475-451b-96ae-88b90fe3604a",
+        "symbol" : "B"
       } ]
     }, {
       "passable" : true,
@@ -10116,6 +10373,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -10154,6 +10412,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -10164,8 +10423,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "4e9bef42-b49a-4fd6-a3e6-d7f6083ce8d8"
+        "instanceId" : "4e9bef42-b49a-4fd6-a3e6-d7f6083ce8d8",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -10185,6 +10444,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -10223,6 +10483,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -10233,8 +10494,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "748c619c-88f7-41bb-9233-1073a52d1274"
+        "instanceId" : "748c619c-88f7-41bb-9233-1073a52d1274",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -10254,6 +10515,7 @@
           "type" : "humanoid",
           "challengeRating" : "8",
           "stats" : {
+            "custom" : { },
             "strength" : 14,
             "dexterity" : 14,
             "constitution" : 18,
@@ -10262,6 +10524,13 @@
             "charisma" : 20
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "procedure",
             "name" : "Procedure",
             "description" : "Passive. She cannot be deceived, charmed or frightened - there are no emotions left to grab.",
@@ -10277,6 +10546,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "get_away_from_her",
             "name" : "Take It From Her",
             "description" : "Once per turn she names one creature she can see and one object it carries. The object is now hers, in her hand. No save - it is a rule, not a spell.",
@@ -10292,6 +10568,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "forty_cards",
             "name" : "Forty Cards",
             "description" : "Passive. Every card soldier in the room acts on her initiative and covers her; any attack on her from farther than 1.5 m hits a card instead.",
@@ -10307,6 +10590,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "the_hollow",
             "name" : "The Hollow",
             "description" : "A creature that touches the hollow in her chest takes 6d10 psychic damage and is paralysed for one minute, living through sixty years of a woman who cannot want anything.",
@@ -10355,6 +10645,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
             "effectId" : "charmed",
             "name" : "Charmed",
@@ -10374,8 +10665,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "2f552ba8-1bda-4104-97e4-80ce759cb766"
+        "instanceId" : "2f552ba8-1bda-4104-97e4-80ce759cb766",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -10395,6 +10686,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -10433,6 +10725,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -10443,8 +10736,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "990cc352-d49d-466c-aa6a-dc78d952afa7"
+        "instanceId" : "990cc352-d49d-466c-aa6a-dc78d952afa7",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -10464,6 +10757,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -10502,6 +10796,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -10512,8 +10807,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "f27150d1-7be8-40d1-917f-aef926f3ee99"
+        "instanceId" : "f27150d1-7be8-40d1-917f-aef926f3ee99",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -10673,6 +10968,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -10711,6 +11007,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -10721,8 +11018,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "e7775885-2dd4-405a-96f7-d5b8d8712466"
+        "instanceId" : "e7775885-2dd4-405a-96f7-d5b8d8712466",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -10752,6 +11049,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -10790,6 +11088,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -10800,8 +11099,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "4d2e918f-30ea-40a2-81f5-2669057654d0"
+        "instanceId" : "4d2e918f-30ea-40a2-81f5-2669057654d0",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -10851,6 +11150,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -10889,6 +11189,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -10899,8 +11200,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "794471e5-67f6-40b8-be04-527e2a5c4755"
+        "instanceId" : "794471e5-67f6-40b8-be04-527e2a5c4755",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -10985,6 +11286,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -11023,6 +11325,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -11033,8 +11336,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "4afd13a6-efe1-487a-9367-bc05439fedfa"
+        "instanceId" : "4afd13a6-efe1-487a-9367-bc05439fedfa",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : false,
@@ -11149,6 +11452,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -11187,6 +11491,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -11197,8 +11502,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "a3ac285b-f999-4d3a-bb18-c99ba2a2a88b"
+        "instanceId" : "a3ac285b-f999-4d3a-bb18-c99ba2a2a88b",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -11243,7 +11548,9 @@
           "raceId" : "lightfoot-halfling",
           "level" : 5,
           "xp" : 100,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 8,
             "dexterity" : 15,
             "constitution" : 8,
@@ -11442,6 +11749,7 @@
             "rank" : 1,
             "active" : true
           } ],
+          "personalFeatures" : [ ],
           "passwordHash" : "562179bcf2b8ca39f23c0da4ffd12ba61eccf10df04897df4ee0cd1dc4ebf980",
           "passwordSalt" : "3d6551c94bc4b98f8eb7a663952fc5bc",
           "imagePath" : "images/players/player-ratboy.jpg",
@@ -11465,6 +11773,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : 3,
             "animalHandling" : 0,
             "arcana" : 0,
@@ -11541,6 +11850,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 3,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : {
@@ -11562,8 +11872,8 @@
           } ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "6448ccfc-61cc-4ef2-894e-60c4bee4b062"
+        "instanceId" : "6448ccfc-61cc-4ef2-894e-60c4bee4b062",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -11613,6 +11923,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -11651,6 +11962,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -11661,8 +11973,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "b568ecda-6ed7-4b08-9fe5-24d2c214475d"
+        "instanceId" : "b568ecda-6ed7-4b08-9fe5-24d2c214475d",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : false,
@@ -11777,6 +12089,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -11815,6 +12128,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -11825,8 +12139,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "c52ea0d1-0df7-4344-a9bb-df8650ba53eb"
+        "instanceId" : "c52ea0d1-0df7-4344-a9bb-df8650ba53eb",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -11911,6 +12225,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -11949,6 +12264,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -11959,8 +12275,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "8a262800-b94e-4fb8-b62b-576d3260bf70"
+        "instanceId" : "8a262800-b94e-4fb8-b62b-576d3260bf70",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : false,
@@ -12075,6 +12391,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -12113,6 +12430,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -12123,8 +12441,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "8d48972c-3ea8-4408-901c-748e21a45689"
+        "instanceId" : "8d48972c-3ea8-4408-901c-748e21a45689",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -12209,6 +12527,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -12247,6 +12566,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -12257,8 +12577,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "4b396dd5-11fc-4c31-b577-b1ee1d9932ca"
+        "instanceId" : "4b396dd5-11fc-4c31-b577-b1ee1d9932ca",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : false,
@@ -12373,6 +12693,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -12411,6 +12732,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -12421,8 +12743,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "49168597-2bb9-4233-977d-62841caba298"
+        "instanceId" : "49168597-2bb9-4233-977d-62841caba298",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -12477,7 +12799,9 @@
           "raceId" : "tiefling",
           "level" : 5,
           "xp" : 225,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 8,
             "dexterity" : 8,
             "constitution" : 15,
@@ -12623,6 +12947,7 @@
             "rank" : 3,
             "active" : true
           } ],
+          "personalFeatures" : [ ],
           "passwordHash" : "8275bf27476f90e669476c921a36aad00a5402c558c40f2fddd9a986a486b565",
           "passwordSalt" : "56862be59290d5b14ebb5bc3afbdc5e0",
           "imagePath" : "images/players/player-tasha.jpg",
@@ -12663,6 +12988,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : -1,
             "animalHandling" : 1,
             "arcana" : 2,
@@ -12739,6 +13065,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 1,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
             "effectId" : "effect-nameless",
             "name" : "Nameless",
@@ -12777,8 +13104,8 @@
           } ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "63f55fcd-34aa-4e26-8cb4-c519c7c537eb"
+        "instanceId" : "63f55fcd-34aa-4e26-8cb4-c519c7c537eb",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -12818,6 +13145,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -12856,6 +13184,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -12866,8 +13195,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "bf8f50e8-19d8-4501-b117-c8aae95d09e0"
+        "instanceId" : "bf8f50e8-19d8-4501-b117-c8aae95d09e0",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : false,
@@ -12917,7 +13246,9 @@
           "raceId" : "human",
           "level" : 5,
           "xp" : 265,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 15,
             "constitution" : 15,
@@ -13017,6 +13348,7 @@
             "rank" : 0,
             "active" : true
           } ],
+          "personalFeatures" : [ ],
           "passwordHash" : "582a43d1cbf7869c8f1212daae37b62240094b852fba7a308b1ac70ac6b124b6",
           "passwordSalt" : "f9226bf80dfa0ef0e7764b8e7ccc8084",
           "imagePath" : "images/players/player-cucaratcha.jpg",
@@ -13047,6 +13379,7 @@
             "anchor-round" : 89
           },
           "skills" : {
+            "custom" : { },
             "acrobatics" : 3,
             "animalHandling" : -2,
             "arcana" : 0,
@@ -13123,6 +13456,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
             "effectId" : "effect-nameless",
             "name" : "Nameless",
@@ -13151,8 +13485,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "075472a1-64e2-494e-b1d6-5d3775bbef24"
+        "instanceId" : "075472a1-64e2-494e-b1d6-5d3775bbef24",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -13182,7 +13516,9 @@
           "raceId" : "wood-elf",
           "level" : 5,
           "xp" : 160,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 8,
             "dexterity" : 15,
             "constitution" : 15,
@@ -13291,6 +13627,7 @@
             "rank" : 2,
             "active" : true
           } ],
+          "personalFeatures" : [ ],
           "passwordHash" : "d00b4c00c766b28f378c9279cde703687ec07e08d6e59c998590a7788c62bea7",
           "passwordSalt" : "209f23306e7107cc2289f8036a03b1a7",
           "imagePath" : "images/players/player-silvan.jpg",
@@ -13318,6 +13655,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : 2,
             "animalHandling" : 5,
             "arcana" : -2,
@@ -13394,6 +13732,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : {
@@ -13419,8 +13758,8 @@
           } ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "9a31a88a-da51-4a42-a969-483f4ef37c3a"
+        "instanceId" : "9a31a88a-da51-4a42-a969-483f4ef37c3a",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -13505,7 +13844,9 @@
           "raceId" : "human",
           "level" : 5,
           "xp" : 155,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 15,
             "constitution" : 15,
@@ -13547,6 +13888,7 @@
             "rank" : 0,
             "active" : true
           } ],
+          "personalFeatures" : [ ],
           "passwordHash" : "79b4ddcf603d87f296db4a71ba240e849b8f3300bc81d3407b71eb9462e681d2",
           "passwordSalt" : "3b799b40a9d1a7e0013eae9a88e8ef97",
           "imagePath" : "images/players/darius.jpeg",
@@ -13566,6 +13908,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : 2,
             "animalHandling" : -1,
             "arcana" : -1,
@@ -13642,6 +13985,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : {
@@ -13659,8 +14003,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "fb68a60c-053a-43d7-b8bf-fc962f73d198"
+        "instanceId" : "fb68a60c-053a-43d7-b8bf-fc962f73d198",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -13685,7 +14029,9 @@
           "raceId" : "human",
           "level" : 5,
           "xp" : 135,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 8,
             "dexterity" : 15,
             "constitution" : 15,
@@ -14003,6 +14349,7 @@
             "rank" : 2,
             "active" : true
           } ],
+          "personalFeatures" : [ ],
           "passwordHash" : "2a322cc7dc808e2f41da138d7733681711f53d4d6e4cafc94e56a6249b1a2298",
           "passwordSalt" : "8d627c852991983ced09d03dc1f46605",
           "imagePath" : "images/players/player-toren.jpg",
@@ -14030,6 +14377,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : 1,
             "animalHandling" : -1,
             "arcana" : 2,
@@ -14107,6 +14455,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 6,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : {
@@ -14133,8 +14482,8 @@
           } ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "ff4f70d3-c5e4-4ade-8363-7d5539683cee"
+        "instanceId" : "ff4f70d3-c5e4-4ade-8363-7d5539683cee",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -14528,6 +14877,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -14566,6 +14916,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 1,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -14576,8 +14927,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "M",
-        "instanceId" : "3fa11bae-2134-411e-b6be-b8860f59b4fa"
+        "instanceId" : "3fa11bae-2134-411e-b6be-b8860f59b4fa",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -14697,6 +15048,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -14735,6 +15087,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 1,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -14745,8 +15098,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "M",
-        "instanceId" : "d57f9262-3660-4007-a58b-ad64a526077b"
+        "instanceId" : "d57f9262-3660-4007-a58b-ad64a526077b",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -14836,6 +15189,7 @@
           "type" : "undead",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 8,
             "constitution" : 13,
@@ -14844,6 +15198,13 @@
             "charisma" : 5
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "dead_clutch",
             "name" : "Clutch",
             "description" : "Melee weapon attack: +4 to hit, reach 1.5 m, 1d8+2 bludgeoning, and the target is grappled (escape DC 12). A creature held by the dead cannot stand up from prone, and the Caretaker's attacks against it have advantage.",
@@ -14862,6 +15223,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "dead_back_to_soil",
             "name" : "Back to the Soil",
             "description" : "When it drops to 0 HP on the rose-bed soil, roll d6: on a 6 it sinks back in and rises again at the start of the Caretaker's next turn with 5 HP. Fire or radiant damage stops this.",
@@ -14907,6 +15275,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -14917,8 +15286,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "bf3a1afa-948a-489b-a400-192a7bbe9a0b"
+        "instanceId" : "bf3a1afa-948a-489b-a400-192a7bbe9a0b",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -15023,6 +15392,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -15061,6 +15431,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 6,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -15071,8 +15442,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "9d788fc3-72bd-4415-ab56-382fd85c9d51"
+        "instanceId" : "9d788fc3-72bd-4415-ab56-382fd85c9d51",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -15087,6 +15458,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -15125,6 +15497,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -15135,8 +15508,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "07945f68-b8a2-413b-8481-1de764e7e292"
+        "instanceId" : "07945f68-b8a2-413b-8481-1de764e7e292",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -15151,6 +15524,7 @@
           "type" : "undead",
           "challengeRating" : "8",
           "stats" : {
+            "custom" : { },
             "strength" : 22,
             "dexterity" : 10,
             "constitution" : 20,
@@ -15159,6 +15533,13 @@
             "charisma" : 8
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "grave_soil",
             "name" : "Grave Soil",
             "description" : "Passive. He moves through the rose beds (difficult terrain) at normal speed; anyone else takes 1d4 piercing for every 1.5 m moved through them. His life drain only works while he stands on the rose-bed soil. Off the soil (on the paving, the gravel path, or a bed that has been burned) he cannot regain HP at all - put 'No Healing' on him until he steps back onto the soil.",
@@ -15177,6 +15558,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "caretaker_shovel",
             "name" : "Shovel (Multiattack x2)",
             "description" : "Two attacks. Melee weapon attack: +10 to hit, reach 3 m (10 ft), 2d8+6 bludgeoning plus 5 necrotic. He regains HP equal to all the damage dealt (life drain) - unless he is off the rose-bed soil. Against a kneeling or prone target it scores a critical hit on 18-20.",
@@ -15195,6 +15583,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "shovel_slam",
             "name" : "Shovel Slam",
             "description" : "Recharge 5-6. He drives the shovel into the ground. Every other creature within 4.5 m: CON save DC 16, 4d10 bludgeoning and knocked prone on a failure, half damage and standing on a success. The ground there cracks into difficult terrain, and the soil it throws up is rose-bed soil.",
@@ -15213,6 +15608,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "caretaker_rise",
             "name" : "Rise.",
             "description" : "Bonus action, Recharge 5-6. He taps the shovel twice on the soil. Two Rose-Bed Dead claw their way up anywhere on the beds within 9 m and act on his initiative. Never more than four at once. At the start of the fight two are already standing.",
@@ -15228,6 +15630,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "caretaker_kneel",
             "name" : "Kneel.",
             "description" : "Bonus action. One creature within 9 m that can hear him - though he has no mouth: WIS save DC 15 or prone, and it cannot stand up until the end of its next turn.",
@@ -15243,6 +15652,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "rise_from_knees",
             "name" : "Rising from Your Knees",
             "description" : "Reaction. When a prone or kneeling creature within 3 m stands up, he hits it with the shovel (as one Shovel attack, life drain included).",
@@ -15291,6 +15707,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -15301,8 +15718,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "eec5df4a-c457-4e2c-b000-41ad55115f64"
+        "instanceId" : "eec5df4a-c457-4e2c-b000-41ad55115f64",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -15317,6 +15734,7 @@
           "type" : "humanoid",
           "challengeRating" : "8",
           "stats" : {
+            "custom" : { },
             "strength" : 14,
             "dexterity" : 14,
             "constitution" : 18,
@@ -15325,6 +15743,13 @@
             "charisma" : 20
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "procedure",
             "name" : "Procedure",
             "description" : "Passive. She cannot be deceived, charmed or frightened - there are no emotions left to grab.",
@@ -15340,6 +15765,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "get_away_from_her",
             "name" : "Take It From Her",
             "description" : "Once per turn she names one creature she can see and one object it carries. The object is now hers, in her hand. No save - it is a rule, not a spell.",
@@ -15355,6 +15787,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "forty_cards",
             "name" : "Forty Cards",
             "description" : "Passive. Every card soldier in the room acts on her initiative and covers her; any attack on her from farther than 1.5 m hits a card instead.",
@@ -15370,6 +15809,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "the_hollow",
             "name" : "The Hollow",
             "description" : "A creature that touches the hollow in her chest takes 6d10 psychic damage and is paralysed for one minute, living through sixty years of a woman who cannot want anything.",
@@ -15418,6 +15864,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -15428,8 +15875,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "fb324a29-fcb0-47e7-bd80-9c7f82c5cf9b"
+        "instanceId" : "fb324a29-fcb0-47e7-bd80-9c7f82c5cf9b",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -15444,6 +15891,7 @@
           "type" : "undead",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 8,
             "constitution" : 13,
@@ -15452,6 +15900,13 @@
             "charisma" : 5
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "dead_clutch",
             "name" : "Clutch",
             "description" : "Melee weapon attack: +4 to hit, reach 1.5 m, 1d8+2 bludgeoning, and the target is grappled (escape DC 12). A creature held by the dead cannot stand up from prone, and the Caretaker's attacks against it have advantage.",
@@ -15470,6 +15925,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "dead_back_to_soil",
             "name" : "Back to the Soil",
             "description" : "When it drops to 0 HP on the rose-bed soil, roll d6: on a 6 it sinks back in and rises again at the start of the Caretaker's next turn with 5 HP. Fire or radiant damage stops this.",
@@ -15515,6 +15977,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -15525,8 +15988,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "b42a6f69-b30c-4d11-8f90-a94ef765bdd5"
+        "instanceId" : "b42a6f69-b30c-4d11-8f90-a94ef765bdd5",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -15611,6 +16074,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -15649,6 +16113,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 6,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
             "effectId" : "prone",
             "name" : "Prone",
@@ -15686,8 +16151,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "M",
-        "instanceId" : "5270b257-5899-4a14-aaed-9e7b1df9937c"
+        "instanceId" : "5270b257-5899-4a14-aaed-9e7b1df9937c",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -15707,6 +16172,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -15745,6 +16211,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 6,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -15755,8 +16222,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "99163343-5085-45d4-b4ba-442630b8d0e1"
+        "instanceId" : "99163343-5085-45d4-b4ba-442630b8d0e1",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -15776,6 +16243,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -15814,6 +16282,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 6,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -15824,8 +16293,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "d99c5abb-3b91-4228-9755-86b8555bfbf5"
+        "instanceId" : "d99c5abb-3b91-4228-9755-86b8555bfbf5",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -15850,6 +16319,7 @@
           "type" : "undead",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 8,
             "constitution" : 13,
@@ -15858,6 +16328,13 @@
             "charisma" : 5
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "dead_clutch",
             "name" : "Clutch",
             "description" : "Melee weapon attack: +4 to hit, reach 1.5 m, 1d8+2 bludgeoning, and the target is grappled (escape DC 12). A creature held by the dead cannot stand up from prone, and the Caretaker's attacks against it have advantage.",
@@ -15876,6 +16353,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "dead_back_to_soil",
             "name" : "Back to the Soil",
             "description" : "When it drops to 0 HP on the rose-bed soil, roll d6: on a 6 it sinks back in and rises again at the start of the Caretaker's next turn with 5 HP. Fire or radiant damage stops this.",
@@ -15921,6 +16405,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 5,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
             "effectId" : "blinded",
             "name" : "Blinded",
@@ -15949,8 +16434,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "M",
-        "instanceId" : "aac659cf-08e2-483a-8a52-a8028d3f75be"
+        "instanceId" : "aac659cf-08e2-483a-8a52-a8028d3f75be",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -16010,6 +16495,7 @@
           "role" : "immortal non-self-conscious sorcerer",
           "level" : 20,
           "stats" : {
+            "custom" : { },
             "strength" : 8,
             "dexterity" : 8,
             "constitution" : 8,
@@ -16048,6 +16534,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -16058,8 +16545,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "N",
-        "instanceId" : "210d4c31-1de5-4ba2-921f-8d86b9841e7a"
+        "instanceId" : "210d4c31-1de5-4ba2-921f-8d86b9841e7a",
+        "symbol" : "N"
       } ]
     }, {
       "passable" : true,
@@ -16104,6 +16591,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -16142,6 +16630,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 6,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
             "effectId" : "prone",
             "name" : "Prone",
@@ -16179,8 +16668,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "M",
-        "instanceId" : "cc879a5d-2526-4511-bcbd-e074276fe736"
+        "instanceId" : "cc879a5d-2526-4511-bcbd-e074276fe736",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -16510,6 +16999,7 @@
           "type" : "animated object",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 12,
             "dexterity" : 10,
             "constitution" : 12,
@@ -16548,6 +17038,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 1,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
             "effectId" : "prone",
             "name" : "Prone",
@@ -16576,8 +17067,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "M",
-        "instanceId" : "5963ff64-f995-4f6e-9e67-773b971a2cb2"
+        "instanceId" : "5963ff64-f995-4f6e-9e67-773b971a2cb2",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -16817,7 +17308,9 @@
           "raceId" : "revenant",
           "level" : 5,
           "xp" : 95,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 8,
             "constitution" : 15,
@@ -16896,6 +17389,7 @@
             "rank" : 0,
             "active" : true
           } ],
+          "personalFeatures" : [ ],
           "passwordHash" : null,
           "passwordSalt" : null,
           "imagePath" : "images/players/player-vaerak.jpg",
@@ -16924,6 +17418,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : -1,
             "animalHandling" : 2,
             "arcana" : -1,
@@ -17001,6 +17496,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
             "effectId" : "bardic-inspiration",
             "name" : "Bardic Inspiration (d8)",
@@ -17055,8 +17551,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "P",
-        "instanceId" : "2ce857ec-97d7-406f-bf7f-22619ac21c03"
+        "instanceId" : "2ce857ec-97d7-406f-bf7f-22619ac21c03",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -17276,6 +17772,7 @@
           "type" : "undead",
           "challengeRating" : "1",
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 8,
             "constitution" : 13,
@@ -17284,6 +17781,13 @@
             "charisma" : 5
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "dead_clutch",
             "name" : "Clutch",
             "description" : "Melee weapon attack: +4 to hit, reach 1.5 m, 1d8+2 bludgeoning, and the target is grappled (escape DC 12). A creature held by the dead cannot stand up from prone, and the Caretaker's attacks against it have advantage.",
@@ -17302,6 +17806,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "dead_back_to_soil",
             "name" : "Back to the Soil",
             "description" : "When it drops to 0 HP on the rose-bed soil, roll d6: on a 6 it sinks back in and rises again at the start of the Caretaker's next turn with 5 HP. Fire or radiant damage stops this.",
@@ -17347,6 +17858,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -17357,8 +17869,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "M",
-        "instanceId" : "5cbd4dda-718c-455f-ad82-84900654e2c0"
+        "instanceId" : "5cbd4dda-718c-455f-ad82-84900654e2c0",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -18897,6 +19409,7 @@
           "role" : "immortal non-self-conscious sorcerer",
           "level" : 20,
           "stats" : {
+            "custom" : { },
             "strength" : 8,
             "dexterity" : 8,
             "constitution" : 8,
@@ -18935,6 +19448,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -18945,8 +19459,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "N",
-        "instanceId" : "19378e54-1c15-4f70-8999-16ba743fbdb4"
+        "instanceId" : "19378e54-1c15-4f70-8999-16ba743fbdb4",
+        "symbol" : "N"
       } ]
     }, {
       "passable" : false,
@@ -20580,6 +21094,7 @@
           "type" : "monstrosity (shapechanger)",
           "challengeRating" : "2",
           "stats" : {
+            "custom" : { },
             "strength" : 17,
             "dexterity" : 12,
             "constitution" : 15,
@@ -20588,6 +21103,13 @@
             "charisma" : 8
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "adhesive",
             "name" : "Adhesive",
             "description" : "Anything that touches it is stuck fast.",
@@ -20599,6 +21121,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "false_appearance",
             "name" : "False Appearance",
             "description" : "Indistinguishable from an ordinary object while still.",
@@ -20610,6 +21139,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "doll_ambush_bite",
             "name" : "Ambush Bite",
             "description" : "Melee attack: +5 to hit, 1d8+3 piercing. Its first attack against a surprised target has advantage and deals an extra 2d6.",
@@ -20631,6 +21167,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "nursery_house_rules",
             "name" : "Nursery House Rules",
             "description" : "Silent: makes no sound ever, even when killed. Patient: does not pursue - a mimic that lets go turns back into furniture on the spot and waits. Counted: Alice knows how many there are; destroying one adds +1 attention at the end of the scene (don't tell them this rule until after). Every round of combat: +1 attention.",
@@ -20655,8 +21198,8 @@
         },
         "inventory" : [ ],
         "combat" : null,
-        "symbol" : "M",
-        "instanceId" : "62dbb2ba-5da7-4abf-91a8-338ee5bc7045"
+        "instanceId" : "62dbb2ba-5da7-4abf-91a8-338ee5bc7045",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -20756,6 +21299,7 @@
           "type" : "monstrosity",
           "challengeRating" : "2",
           "stats" : {
+            "custom" : { },
             "strength" : 17,
             "dexterity" : 12,
             "constitution" : 15,
@@ -20764,6 +21308,13 @@
             "charisma" : 8
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "adhesive",
             "name" : "Adhesive",
             "description" : "Anything that touches it is stuck fast.",
@@ -20775,6 +21326,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "false_appearance",
             "name" : "False Appearance",
             "description" : "Indistinguishable from an ordinary object while still.",
@@ -20786,6 +21344,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "mimic_pseudopod",
             "name" : "Pseudopod",
             "description" : "Melee attack: +5 to hit, reach 1.5 m, 1d8+3 bludgeoning. If the mimic is in object form the target is subjected to its Adhesive trait.",
@@ -20804,6 +21369,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "mimic_bite",
             "name" : "Bite",
             "description" : "Melee attack: +5 to hit, reach 1.5 m, 1d8+3 piercing plus 1d8 acid.",
@@ -20822,6 +21394,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "nursery_house_rules",
             "name" : "Nursery House Rules",
             "description" : "Silent: makes no sound ever, even when killed. Patient: does not pursue - a mimic that lets go turns back into furniture on the spot and waits. Counted: Alice knows how many there are; destroying one adds +1 attention at the end of the scene (don't tell them this rule until after). Every round of combat: +1 attention.",
@@ -20846,8 +21425,8 @@
         },
         "inventory" : [ ],
         "combat" : null,
-        "symbol" : "M",
-        "instanceId" : "61b572cd-9b63-4e96-afe4-88eee76c2023"
+        "instanceId" : "61b572cd-9b63-4e96-afe4-88eee76c2023",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -20892,6 +21471,7 @@
           "type" : "monstrosity",
           "challengeRating" : "2",
           "stats" : {
+            "custom" : { },
             "strength" : 17,
             "dexterity" : 12,
             "constitution" : 15,
@@ -20900,6 +21480,13 @@
             "charisma" : 8
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "adhesive",
             "name" : "Adhesive",
             "description" : "Anything that touches it is stuck fast.",
@@ -20911,6 +21498,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "false_appearance",
             "name" : "False Appearance",
             "description" : "Indistinguishable from an ordinary object while still.",
@@ -20922,6 +21516,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "mimic_pseudopod",
             "name" : "Pseudopod",
             "description" : "Melee attack: +5 to hit, reach 1.5 m, 1d8+3 bludgeoning. If the mimic is in object form the target is subjected to its Adhesive trait.",
@@ -20940,6 +21541,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "mimic_bite",
             "name" : "Bite",
             "description" : "Melee attack: +5 to hit, reach 1.5 m, 1d8+3 piercing plus 1d8 acid.",
@@ -20958,6 +21566,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "nursery_house_rules",
             "name" : "Nursery House Rules",
             "description" : "Silent: makes no sound ever, even when killed. Patient: does not pursue - a mimic that lets go turns back into furniture on the spot and waits. Counted: Alice knows how many there are; destroying one adds +1 attention at the end of the scene (don't tell them this rule until after). Every round of combat: +1 attention.",
@@ -20982,8 +21597,8 @@
         },
         "inventory" : [ ],
         "combat" : null,
-        "symbol" : "M",
-        "instanceId" : "899a36ce-3b0f-475e-b39b-c04883d86d39"
+        "instanceId" : "899a36ce-3b0f-475e-b39b-c04883d86d39",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -21058,6 +21673,7 @@
           "role" : "Alice's 'big doll' - Vaerak's grandfather",
           "level" : 1,
           "stats" : {
+            "custom" : { },
             "strength" : 18,
             "dexterity" : 8,
             "constitution" : 10,
@@ -21079,8 +21695,8 @@
         },
         "inventory" : [ ],
         "combat" : null,
-        "symbol" : "N",
-        "instanceId" : "4f01e230-6d79-43e6-a7a9-ceab4b6e6742"
+        "instanceId" : "4f01e230-6d79-43e6-a7a9-ceab4b6e6742",
+        "symbol" : "N"
       } ]
     }, {
       "passable" : true,
@@ -21765,6 +22381,7 @@
           "type" : "monstrosity",
           "challengeRating" : "2",
           "stats" : {
+            "custom" : { },
             "strength" : 17,
             "dexterity" : 12,
             "constitution" : 15,
@@ -21773,6 +22390,13 @@
             "charisma" : 8
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "adhesive",
             "name" : "Adhesive",
             "description" : "Anything that touches it is stuck fast.",
@@ -21784,6 +22408,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "false_appearance",
             "name" : "False Appearance",
             "description" : "Indistinguishable from an ordinary object while still.",
@@ -21795,6 +22426,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "mimic_pseudopod",
             "name" : "Pseudopod",
             "description" : "Melee attack: +5 to hit, reach 1.5 m, 1d8+3 bludgeoning. If the mimic is in object form the target is subjected to its Adhesive trait.",
@@ -21813,6 +22451,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "mimic_bite",
             "name" : "Bite",
             "description" : "Melee attack: +5 to hit, reach 1.5 m, 1d8+3 piercing plus 1d8 acid.",
@@ -21831,6 +22476,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "nursery_house_rules",
             "name" : "Nursery House Rules",
             "description" : "Silent: makes no sound ever, even when killed. Patient: does not pursue - a mimic that lets go turns back into furniture on the spot and waits. Counted: Alice knows how many there are; destroying one adds +1 attention at the end of the scene (don't tell them this rule until after). Every round of combat: +1 attention.",
@@ -21855,8 +22507,8 @@
         },
         "inventory" : [ ],
         "combat" : null,
-        "symbol" : "M",
-        "instanceId" : "04cfeb78-a652-49bd-93db-412ab9b6c08a"
+        "instanceId" : "04cfeb78-a652-49bd-93db-412ab9b6c08a",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -22251,6 +22903,7 @@
           "type" : "humanoid (child)",
           "challengeRating" : "0",
           "stats" : {
+            "custom" : { },
             "strength" : 6,
             "dexterity" : 12,
             "constitution" : 10,
@@ -22259,6 +22912,13 @@
             "charisma" : 22
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "she_interrupts",
             "name" : "She Interrupts",
             "description" : "On her turn one thing about the room, or one creature in it, becomes true because she said so. No attack roll, no save. Never more than one per turn, never something that kills outright. Options: 'You're a chair.' (a hero is a chair until the end of her next turn) / 'That's not yours.' (the Last Note is in her hand now) / 'Down.' (every hero within 9 m is prone and takes 3d6 bludgeoning) / 'Come, let's see' (takes the most interesting hero's hand - it drops to 0 HP unless someone is immediately more interesting).",
@@ -22270,6 +22930,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "boring",
             "name" : "Boring",
             "description" : "Passive. A creature that spends a whole turn doing nothing interesting cannot be targeted by her on her next turn - she forgot it was there.",
@@ -22281,6 +22948,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "the_house",
             "name" : "The House",
             "description" : "Passive. Within 18 m of her every piece of furniture is a mimic and acts on her initiative. Round 1 of 'Run': every hero ending its turn within 3 m of furniture makes a DEX save DC 14 or takes 2d6 and is grappled (escape DC 13).",
@@ -22299,6 +22973,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "attention_counter",
             "name" : "Attention Counter",
             "description" : "0-10, kept openly. Thresholds 3/5/7/9; at 10 she raises her head (go to 'The Gaze'). +1 noise, combat round, verbal spell within 18 m, waking a mimic, being interesting; +2 saying her name or falling from 6 m; +3 taking the note.",
@@ -22323,8 +23004,8 @@
         },
         "inventory" : [ ],
         "combat" : null,
-        "symbol" : "M",
-        "instanceId" : "ca46ee06-8d11-4d5d-8388-f92908e9f5bf"
+        "instanceId" : "ca46ee06-8d11-4d5d-8388-f92908e9f5bf",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -22584,6 +23265,7 @@
           "type" : "monstrosity",
           "challengeRating" : "2",
           "stats" : {
+            "custom" : { },
             "strength" : 17,
             "dexterity" : 12,
             "constitution" : 15,
@@ -22592,6 +23274,13 @@
             "charisma" : 8
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "adhesive",
             "name" : "Adhesive",
             "description" : "Anything that touches it is stuck fast.",
@@ -22603,6 +23292,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "false_appearance",
             "name" : "False Appearance",
             "description" : "Indistinguishable from an ordinary object while still.",
@@ -22614,6 +23310,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "mimic_pseudopod",
             "name" : "Pseudopod",
             "description" : "Melee attack: +5 to hit, reach 1.5 m, 1d8+3 bludgeoning. If the mimic is in object form the target is subjected to its Adhesive trait.",
@@ -22632,6 +23335,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "mimic_bite",
             "name" : "Bite",
             "description" : "Melee attack: +5 to hit, reach 1.5 m, 1d8+3 piercing plus 1d8 acid.",
@@ -22650,6 +23360,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "nursery_house_rules",
             "name" : "Nursery House Rules",
             "description" : "Silent: makes no sound ever, even when killed. Patient: does not pursue - a mimic that lets go turns back into furniture on the spot and waits. Counted: Alice knows how many there are; destroying one adds +1 attention at the end of the scene (don't tell them this rule until after). Every round of combat: +1 attention.",
@@ -22674,8 +23391,8 @@
         },
         "inventory" : [ ],
         "combat" : null,
-        "symbol" : "M",
-        "instanceId" : "87205c6d-5cc6-4e27-8820-6f5ea70c28d7"
+        "instanceId" : "87205c6d-5cc6-4e27-8820-6f5ea70c28d7",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -22885,6 +23602,7 @@
           "type" : "monstrosity",
           "challengeRating" : "2",
           "stats" : {
+            "custom" : { },
             "strength" : 17,
             "dexterity" : 12,
             "constitution" : 15,
@@ -22893,6 +23611,13 @@
             "charisma" : 8
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "adhesive",
             "name" : "Adhesive",
             "description" : "Anything that touches it is stuck fast.",
@@ -22904,6 +23629,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "false_appearance",
             "name" : "False Appearance",
             "description" : "Indistinguishable from an ordinary object while still.",
@@ -22915,6 +23647,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "mimic_pseudopod",
             "name" : "Pseudopod",
             "description" : "Melee attack: +5 to hit, reach 1.5 m, 1d8+3 bludgeoning. If the mimic is in object form the target is subjected to its Adhesive trait.",
@@ -22933,6 +23672,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "mimic_bite",
             "name" : "Bite",
             "description" : "Melee attack: +5 to hit, reach 1.5 m, 1d8+3 piercing plus 1d8 acid.",
@@ -22951,6 +23697,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "nursery_house_rules",
             "name" : "Nursery House Rules",
             "description" : "Silent: makes no sound ever, even when killed. Patient: does not pursue - a mimic that lets go turns back into furniture on the spot and waits. Counted: Alice knows how many there are; destroying one adds +1 attention at the end of the scene (don't tell them this rule until after). Every round of combat: +1 attention.",
@@ -22975,8 +23728,8 @@
         },
         "inventory" : [ ],
         "combat" : null,
-        "symbol" : "M",
-        "instanceId" : "4d390096-5f2c-474d-89b9-7ee8db96b718"
+        "instanceId" : "4d390096-5f2c-474d-89b9-7ee8db96b718",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -23301,6 +24054,7 @@
           "type" : "monstrosity",
           "challengeRating" : "2",
           "stats" : {
+            "custom" : { },
             "strength" : 17,
             "dexterity" : 12,
             "constitution" : 15,
@@ -23309,6 +24063,13 @@
             "charisma" : 8
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "adhesive",
             "name" : "Adhesive",
             "description" : "Anything that touches it is stuck fast.",
@@ -23320,6 +24081,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "false_appearance",
             "name" : "False Appearance",
             "description" : "Indistinguishable from an ordinary object while still.",
@@ -23331,6 +24099,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "mimic_pseudopod",
             "name" : "Pseudopod",
             "description" : "Melee attack: +5 to hit, reach 1.5 m, 1d8+3 bludgeoning. If the mimic is in object form the target is subjected to its Adhesive trait.",
@@ -23349,6 +24124,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "mimic_bite",
             "name" : "Bite",
             "description" : "Melee attack: +5 to hit, reach 1.5 m, 1d8+3 piercing plus 1d8 acid.",
@@ -23367,6 +24149,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "nursery_house_rules",
             "name" : "Nursery House Rules",
             "description" : "Silent: makes no sound ever, even when killed. Patient: does not pursue - a mimic that lets go turns back into furniture on the spot and waits. Counted: Alice knows how many there are; destroying one adds +1 attention at the end of the scene (don't tell them this rule until after). Every round of combat: +1 attention.",
@@ -23391,8 +24180,8 @@
         },
         "inventory" : [ ],
         "combat" : null,
-        "symbol" : "M",
-        "instanceId" : "2967ca82-d12b-47ab-8469-6cbcb2696c49"
+        "instanceId" : "2967ca82-d12b-47ab-8469-6cbcb2696c49",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : false,
@@ -23427,6 +24216,7 @@
           "type" : "monstrosity",
           "challengeRating" : "2",
           "stats" : {
+            "custom" : { },
             "strength" : 17,
             "dexterity" : 12,
             "constitution" : 15,
@@ -23435,6 +24225,13 @@
             "charisma" : 8
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "adhesive",
             "name" : "Adhesive",
             "description" : "Anything that touches it is stuck fast.",
@@ -23446,6 +24243,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "false_appearance",
             "name" : "False Appearance",
             "description" : "Indistinguishable from an ordinary object while still.",
@@ -23457,6 +24261,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "mimic_pseudopod",
             "name" : "Pseudopod",
             "description" : "Melee attack: +5 to hit, reach 1.5 m, 1d8+3 bludgeoning. If the mimic is in object form the target is subjected to its Adhesive trait.",
@@ -23475,6 +24286,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "mimic_bite",
             "name" : "Bite",
             "description" : "Melee attack: +5 to hit, reach 1.5 m, 1d8+3 piercing plus 1d8 acid.",
@@ -23493,6 +24311,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "nursery_house_rules",
             "name" : "Nursery House Rules",
             "description" : "Silent: makes no sound ever, even when killed. Patient: does not pursue - a mimic that lets go turns back into furniture on the spot and waits. Counted: Alice knows how many there are; destroying one adds +1 attention at the end of the scene (don't tell them this rule until after). Every round of combat: +1 attention.",
@@ -23517,8 +24342,8 @@
         },
         "inventory" : [ ],
         "combat" : null,
-        "symbol" : "M",
-        "instanceId" : "7fd9bd8f-ed4a-41c3-84b4-67ff5b6ec778"
+        "instanceId" : "7fd9bd8f-ed4a-41c3-84b4-67ff5b6ec778",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -23738,6 +24563,7 @@
           "type" : "monstrosity",
           "challengeRating" : "2",
           "stats" : {
+            "custom" : { },
             "strength" : 17,
             "dexterity" : 12,
             "constitution" : 15,
@@ -23746,6 +24572,13 @@
             "charisma" : 8
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "adhesive",
             "name" : "Adhesive",
             "description" : "Anything that touches it is stuck fast.",
@@ -23757,6 +24590,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "false_appearance",
             "name" : "False Appearance",
             "description" : "Indistinguishable from an ordinary object while still.",
@@ -23768,6 +24608,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "mimic_pseudopod",
             "name" : "Pseudopod",
             "description" : "Melee attack: +5 to hit, reach 1.5 m, 1d8+3 bludgeoning. If the mimic is in object form the target is subjected to its Adhesive trait.",
@@ -23786,6 +24633,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "mimic_bite",
             "name" : "Bite",
             "description" : "Melee attack: +5 to hit, reach 1.5 m, 1d8+3 piercing plus 1d8 acid.",
@@ -23804,6 +24658,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "nursery_house_rules",
             "name" : "Nursery House Rules",
             "description" : "Silent: makes no sound ever, even when killed. Patient: does not pursue - a mimic that lets go turns back into furniture on the spot and waits. Counted: Alice knows how many there are; destroying one adds +1 attention at the end of the scene (don't tell them this rule until after). Every round of combat: +1 attention.",
@@ -23828,8 +24689,8 @@
         },
         "inventory" : [ ],
         "combat" : null,
-        "symbol" : "M",
-        "instanceId" : "75492a27-7d6a-4d1b-9df0-4c38908cd0e6"
+        "instanceId" : "75492a27-7d6a-4d1b-9df0-4c38908cd0e6",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -25977,6 +26838,7 @@
           "type" : "",
           "challengeRating" : "3",
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 20,
             "constitution" : 14,
@@ -25985,6 +26847,13 @@
             "charisma" : 10
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "dash bite",
             "name" : "Dash bite",
             "description" : "caster dashes through target without giving reaction chance and deals basic bite damage",
@@ -26026,6 +26895,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -26036,8 +26906,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "97420c51-c99f-4878-83e6-8270a60d2fdf"
+        "instanceId" : "97420c51-c99f-4878-83e6-8270a60d2fdf",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -26177,6 +27047,7 @@
           "type" : "",
           "challengeRating" : "3",
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 20,
             "constitution" : 14,
@@ -26185,6 +27056,13 @@
             "charisma" : 10
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "dash bite",
             "name" : "Dash bite",
             "description" : "caster dashes through target without giving reaction chance and deals basic bite damage",
@@ -26226,6 +27104,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -26236,8 +27115,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "383573fc-3398-46b1-8146-3b3acfeb7553"
+        "instanceId" : "383573fc-3398-46b1-8146-3b3acfeb7553",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -26602,6 +27481,7 @@
           "type" : "monstrosity",
           "challengeRating" : "2",
           "stats" : {
+            "custom" : { },
             "strength" : 17,
             "dexterity" : 12,
             "constitution" : 15,
@@ -26610,6 +27490,13 @@
             "charisma" : 8
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "adhesive",
             "name" : "Adhesive",
             "description" : "Anything that touches it is stuck fast.",
@@ -26621,6 +27508,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "false_appearance",
             "name" : "False Appearance",
             "description" : "Indistinguishable from an ordinary object while still.",
@@ -26662,6 +27556,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -26672,8 +27567,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "M",
-        "instanceId" : "f3906aee-5e43-4356-838e-205aaa5f0d7b"
+        "instanceId" : "f3906aee-5e43-4356-838e-205aaa5f0d7b",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -27294,6 +28189,7 @@
           "type" : "beast (clockwork)",
           "challengeRating" : "6",
           "stats" : {
+            "custom" : { },
             "strength" : 8,
             "dexterity" : 20,
             "constitution" : 16,
@@ -27302,6 +28198,13 @@
             "charisma" : 10
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "out_of_order",
             "name" : "Out of Order",
             "description" : "Passive. He acts first every round, on initiative 30, no matter what anyone rolled.",
@@ -27313,6 +28216,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "between_seconds",
             "name" : "Between Seconds",
             "description" : "Passive. At the end of every other creature's turn he moves up to 6 m for free. He is never seen moving - only somewhere else.",
@@ -27324,6 +28234,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "pin_strike",
             "name" : "Pin Strike (Multiattack x2)",
             "description" : "Two pin strikes: +9 to hit, 1d6+5 piercing plus 2d6 psychic each, as one second of the target's life runs out early.",
@@ -27342,6 +28259,13 @@
               "constant" : 0
             }
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "rabbit_delay",
             "name" : "Delay",
             "description" : "Recharge 4-6. One creature: WIS save DC 16. On a failure it skips its next turn entirely - he simply wasn't there for it.",
@@ -27353,6 +28277,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "late_touch",
             "name" : "Late",
             "description" : "Bonus action. He touches a creature: its next turn happens at the very end of the round instead of where it should. No save.",
@@ -27364,6 +28295,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "tick_back",
             "name" : "Tick (Click)",
             "description" : "Reaction, 3 times per fight. When another creature ends its turn, he undoes that turn: the creature returns to where it started, and all damage and effects from that turn are undone - but spent resources and actions stay spent and it does not act again. The players remember. Read aloud: click. Fire returns to the palm. The arrow lies back on the string. The Rabbit hasn't moved. He smiles. 'Once more. Until you get it right.'",
@@ -27375,6 +28313,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "pocket_watch_rewind",
             "name" : "Pocket Watch Rewind",
             "description" : "Recharge 5-6, at most TWICE per fight. He winds the watch backwards: the fight returns to the start of the Rabbit's previous turn - all damage and effects since then (spent spells, conditions, movement, rolled dice) are undone. Use the battle map's ⟲ Rewind button; the app restores everything automatically. What does not rewind: the players' memories - they remember what happened and may act differently. The recharge itself stays spent. Read aloud: the ticking stops. Then - click - and everything goes backwards. His wounds zip shut in his fur. 'Again,' he says. 'Again. We will do this as many times as it takes.'",
@@ -27386,6 +28331,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "time_seam",
             "name" : "Time Seam (Lair)",
             "description" : "On initiative 20 a random 3 m square of the tower runs at a different speed: everything in it at the start of a turn makes a CON save DC 14 or loses its action. Clock-room variant: four flickering seams - roll d4 at the end of each round for which quarter is FAST (extra action) and which is SLOW (half speed, no reactions); tell the players before they act.",
@@ -27410,8 +28362,8 @@
         },
         "inventory" : [ ],
         "combat" : null,
-        "symbol" : "M",
-        "instanceId" : "1ae50f0b-805d-4983-ac25-fb3ca50253cf"
+        "instanceId" : "1ae50f0b-805d-4983-ac25-fb3ca50253cf",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
@@ -28199,7 +29151,9 @@
           "raceId" : "human",
           "level" : 5,
           "xp" : 155,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 15,
             "constitution" : 15,
@@ -28241,6 +29195,7 @@
             "rank" : 0,
             "active" : true
           } ],
+          "personalFeatures" : [ ],
           "passwordHash" : null,
           "passwordSalt" : null,
           "imagePath" : "images/players/darius.jpeg",
@@ -28260,6 +29215,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : 2,
             "animalHandling" : -1,
             "arcana" : -1,
@@ -28336,6 +29292,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : {
@@ -28353,8 +29310,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "7d5056a1-6ff2-4539-8129-e35e11f72a72"
+        "instanceId" : "7d5056a1-6ff2-4539-8129-e35e11f72a72",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -28644,6 +29601,7 @@
           "role" : "immortal non-self-conscious sorcerer",
           "level" : 20,
           "stats" : {
+            "custom" : { },
             "strength" : 8,
             "dexterity" : 8,
             "constitution" : 8,
@@ -28682,6 +29640,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -28692,8 +29651,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "N",
-        "instanceId" : "cdafb0ca-af9a-4fbc-9ff9-08af6bc14c9e"
+        "instanceId" : "cdafb0ca-af9a-4fbc-9ff9-08af6bc14c9e",
+        "symbol" : "N"
       } ]
     }, {
       "passable" : true,
@@ -28733,7 +29692,9 @@
           "raceId" : "tiefling",
           "level" : 5,
           "xp" : 225,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 8,
             "dexterity" : 8,
             "constitution" : 15,
@@ -28879,6 +29840,7 @@
             "rank" : 3,
             "active" : true
           } ],
+          "personalFeatures" : [ ],
           "passwordHash" : null,
           "passwordSalt" : null,
           "imagePath" : "images/players/player-tasha.jpg",
@@ -28919,6 +29881,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : -1,
             "animalHandling" : 1,
             "arcana" : 2,
@@ -28995,6 +29958,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 3,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
             "effectId" : "effect-nameless",
             "name" : "Nameless",
@@ -29033,8 +29997,8 @@
           } ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "0c842107-3066-47a0-8199-479ea39e4ab2"
+        "instanceId" : "0c842107-3066-47a0-8199-479ea39e4ab2",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -29049,7 +30013,9 @@
           "raceId" : "revenant",
           "level" : 5,
           "xp" : 65,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 8,
             "constitution" : 15,
@@ -29101,6 +30067,7 @@
             "quantity" : 1
           } ],
           "spells" : [ ],
+          "personalFeatures" : [ ],
           "passwordHash" : null,
           "passwordSalt" : null,
           "imagePath" : null,
@@ -29120,6 +30087,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : -1,
             "animalHandling" : 2,
             "arcana" : -1,
@@ -29189,6 +30157,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -29199,8 +30168,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "db8485ca-a4f4-45f1-bc7c-8bc5c005b22b"
+        "instanceId" : "db8485ca-a4f4-45f1-bc7c-8bc5c005b22b",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -29275,7 +30244,9 @@
           "raceId" : "wood-elf",
           "level" : 5,
           "xp" : 160,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 8,
             "dexterity" : 15,
             "constitution" : 15,
@@ -29384,6 +30355,7 @@
             "rank" : 2,
             "active" : true
           } ],
+          "personalFeatures" : [ ],
           "passwordHash" : null,
           "passwordSalt" : null,
           "imagePath" : "images/players/player-silvan.jpg",
@@ -29411,6 +30383,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : 2,
             "animalHandling" : 5,
             "arcana" : -2,
@@ -29487,6 +30460,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : {
@@ -29512,8 +30486,8 @@
           } ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "02997540-128b-4f07-a2cb-bb42d1b1c1f5"
+        "instanceId" : "02997540-128b-4f07-a2cb-bb42d1b1c1f5",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -29553,7 +30527,9 @@
           "raceId" : "human",
           "level" : 5,
           "xp" : 265,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 15,
             "constitution" : 15,
@@ -29653,6 +30629,7 @@
             "rank" : 0,
             "active" : true
           } ],
+          "personalFeatures" : [ ],
           "passwordHash" : null,
           "passwordSalt" : null,
           "imagePath" : "images/players/player-cucaratcha.jpg",
@@ -29683,6 +30660,7 @@
             "anchor-round" : 89
           },
           "skills" : {
+            "custom" : { },
             "acrobatics" : 3,
             "animalHandling" : -2,
             "arcana" : 0,
@@ -29759,6 +30737,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 5,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
             "effectId" : "effect-nameless",
             "name" : "Nameless",
@@ -29787,8 +30766,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "bf58ef2a-7704-4a1d-b726-eb7b4da7f242"
+        "instanceId" : "bf58ef2a-7704-4a1d-b726-eb7b4da7f242",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -29898,7 +30877,9 @@
           "raceId" : "human",
           "level" : 5,
           "xp" : 145,
+          "upgrades" : null,
           "stats" : {
+            "custom" : { },
             "strength" : 15,
             "dexterity" : 15,
             "constitution" : 15,
@@ -30063,6 +31044,7 @@
             "rank" : 0,
             "active" : true
           } ],
+          "personalFeatures" : [ ],
           "passwordHash" : null,
           "passwordSalt" : null,
           "imagePath" : "images/players/player-lavenos.jpg",
@@ -30082,6 +31064,7 @@
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
+            "custom" : { },
             "acrobatics" : 3,
             "animalHandling" : 1,
             "arcana" : 0,
@@ -30158,6 +31141,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 5,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : {
@@ -30175,8 +31159,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "symbol" : "P",
-        "instanceId" : "c580e697-9516-4727-a78b-c784b08d29e1"
+        "instanceId" : "c580e697-9516-4727-a78b-c784b08d29e1",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -30196,6 +31180,7 @@
           "type" : "construct",
           "challengeRating" : "5",
           "stats" : {
+            "custom" : { },
             "strength" : 19,
             "dexterity" : 9,
             "constitution" : 18,
@@ -30204,6 +31189,13 @@
             "charisma" : 5
           },
           "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "lightning_absorption",
             "name" : "Lightning Absorption",
             "description" : "Lightning heals it rather than harming it.",
@@ -30215,6 +31207,13 @@
             "manaCost" : 0,
             "damage" : null
           }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
             "id" : "berserk",
             "name" : "Berserk",
             "description" : "Attacks the nearest creature, friend or otherwise, when badly wounded.",
@@ -30256,6 +31255,7 @@
           "swimSpeed" : 0,
           "speedSeeded" : true,
           "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -30266,8 +31266,8 @@
           "spellSlots" : [ ],
           "actingThisRound" : false
         },
-        "symbol" : "M",
-        "instanceId" : "492bbaba-7fcd-4990-a551-1d99ead009a0"
+        "instanceId" : "492bbaba-7fcd-4990-a551-1d99ead009a0",
+        "symbol" : "M"
       } ]
     }, {
       "passable" : true,
