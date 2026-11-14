@@ -547,7 +547,106 @@
     "raceId" : "human",
     "level" : 5,
     "xp" : 265,
-    "upgrades" : null,
+    "upgrades" : {
+      "earned" : 4,
+      "unlocks" : [ {
+        "classId" : "rogue",
+        "nodeId" : "potency-1",
+        "branchName" : "Shadowblade",
+        "name" : "Cunning Action",
+        "description" : "Dash, Disengage or Hide as a bonus action.\nClass training. If already known, this feat is not granted a second time.",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ ]
+        }
+      }, {
+        "classId" : "rogue",
+        "nodeId" : "potency-2",
+        "branchName" : "Shadowblade",
+        "name" : "Uncanny Dodge",
+        "description" : "Use your reaction to halve the damage of an attack from an attacker you can see.\nClass training. If already known, this feat is not granted a second time.",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ ]
+        }
+      }, {
+        "classId" : "rogue",
+        "nodeId" : "resilience-1",
+        "branchName" : "Escape Artist",
+        "name" : "Roguish Archetype",
+        "description" : "Choose the archetype that defines your roguish expertise.\nClass training. If already known, this feat is not granted a second time.",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ ]
+        }
+      }, {
+        "classId" : "rogue",
+        "nodeId" : "@historical-level-5",
+        "branchName" : "Existing training",
+        "name" : "Uncanny Dodge",
+        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: anchor-round, crushing-shot, gravitic-shift, gravity-round, singularity-round",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ ]
+        }
+      } ]
+    },
     "stats" : {
       "custom" : { },
       "strength" : 15,
@@ -744,10 +843,10 @@
       "earned" : 4,
       "unlocks" : [ {
         "classId" : "fighter",
-        "nodeId" : "@historical-level-2",
-        "branchName" : "Existing training",
+        "nodeId" : "potency-1",
+        "branchName" : "Weapon Master",
         "name" : "Action Surge (one use)",
-        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: armor-thrust, blade-oath, blade-rush, combo-strike, commanding-point, compelled-duel, crushing-strike, dual-blade-strike, echo-of-the-duelist, guard-shift, quick-strike, second-wind, step-feint, three-fast-stabs, tlko-super-attack, wrathful-strike",
+        "description" : "Already included in this character. No rewards are applied again.\nAction Surge (one use)\nAlready included in this character. No rewards are applied again.\nKnown abilities: armor-thrust, blade-oath, blade-rush, combo-strike, commanding-point, compelled-duel, crushing-strike, dual-blade-strike, echo-of-the-duelist, guard-shift, quick-strike, second-wind, step-feint, three-fast-stabs, tlko-super-attack, wrathful-strike",
         "imagePath" : null,
         "level" : 2,
         "historical" : true,
@@ -768,10 +867,10 @@
         }
       }, {
         "classId" : "fighter",
-        "nodeId" : "@historical-level-3",
-        "branchName" : "Existing training",
-        "name" : "Martial Archetype",
-        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: armor-thrust, blade-oath, blade-rush, combo-strike, commanding-point, compelled-duel, crushing-strike, dual-blade-strike, echo-of-the-duelist, guard-shift, quick-strike, second-wind, step-feint, three-fast-stabs, tlko-super-attack, wrathful-strike",
+        "nodeId" : "potency-2",
+        "branchName" : "Weapon Master",
+        "name" : "Extra Attack",
+        "description" : "Already included in this character. No rewards are applied again.\nExtra Attack\nAlready included in this character. No rewards are applied again.\nKnown abilities: armor-thrust, blade-oath, blade-rush, combo-strike, commanding-point, compelled-duel, crushing-strike, dual-blade-strike, echo-of-the-duelist, guard-shift, quick-strike, second-wind, step-feint, three-fast-stabs, tlko-super-attack, wrathful-strike",
         "imagePath" : null,
         "level" : 3,
         "historical" : true,
@@ -792,10 +891,10 @@
         }
       }, {
         "classId" : "fighter",
-        "nodeId" : "@historical-level-4",
-        "branchName" : "Existing training",
-        "name" : "Ability Score Improvement",
-        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: armor-thrust, blade-oath, blade-rush, combo-strike, commanding-point, compelled-duel, crushing-strike, dual-blade-strike, echo-of-the-duelist, guard-shift, quick-strike, second-wind, step-feint, three-fast-stabs, tlko-super-attack, wrathful-strike",
+        "nodeId" : "resilience-1",
+        "branchName" : "Vanguard",
+        "name" : "Martial Archetype",
+        "description" : "Already included in this character. No rewards are applied again.\nMartial Archetype\nAlready included in this character. No rewards are applied again.\nKnown abilities: armor-thrust, blade-oath, blade-rush, combo-strike, commanding-point, compelled-duel, crushing-strike, dual-blade-strike, echo-of-the-duelist, guard-shift, quick-strike, second-wind, step-feint, three-fast-stabs, tlko-super-attack, wrathful-strike",
         "imagePath" : null,
         "level" : 4,
         "historical" : true,
@@ -1678,7 +1777,106 @@
     "raceId" : "human",
     "level" : 5,
     "xp" : 135,
-    "upgrades" : null,
+    "upgrades" : {
+      "earned" : 4,
+      "unlocks" : [ {
+        "classId" : "artificer",
+        "nodeId" : "potency-1",
+        "branchName" : "Inventor",
+        "name" : "Infuse Item",
+        "description" : "Infuse mundane gear with a lasting enhancement (e.g. +1 weapon, enhanced defense) for a long time.\nClass training. If already known, this feat is not granted a second time.",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ ]
+        }
+      }, {
+        "classId" : "artificer",
+        "nodeId" : "potency-2",
+        "branchName" : "Inventor",
+        "name" : "The Right Tool for the Job",
+        "description" : "With tinker's tools, spend an hour to make any set of artisan's tools.\nClass training. If already known, this feat is not granted a second time.",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ ]
+        }
+      }, {
+        "classId" : "artificer",
+        "nodeId" : "potency-3",
+        "branchName" : "Inventor",
+        "name" : "Inventor: Momentum",
+        "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ ]
+        }
+      }, {
+        "classId" : "artificer",
+        "nodeId" : "potency-5",
+        "branchName" : "Inventor",
+        "name" : "Inventor: Breakthrough",
+        "description" : "Once per short rest, replace one attack with a contested Athletics check against a creature within reach, at most one size larger. On success push it 5 ft to clear supported ground, never off a ledge. No damage. The GM resolves this feat; the app tracks its rest use.",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ ]
+        }
+      } ]
+    },
     "stats" : {
       "custom" : { },
       "strength" : 8,
@@ -3023,10 +3221,10 @@
     } ],
     "passwordHash" : null,
     "passwordSalt" : null,
-    "imagePath" : null,
-    "playerName" : null,
-    "ownerUsername" : null,
-    "description" : null,
+    "imagePath" : "images/players/player-sinne.png",
+    "playerName" : "",
+    "ownerUsername" : "",
+    "description" : "",
     "maxHitPoints" : 43,
     "currentHitPoints" : 43,
     "maxMana" : 0,
@@ -3042,7 +3240,14 @@
     } ],
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
-    "cooldowns" : { },
+    "cooldowns" : {
+      "strength" : 0,
+      "dexterity" : 0,
+      "constitution" : 0,
+      "intelligence" : 0,
+      "wisdom" : 0,
+      "charisma" : 0
+    },
     "skills" : {
       "custom" : { },
       "acrobatics" : 3,
@@ -3071,7 +3276,7 @@
       "proficiencyBonus" : null,
       "passivePerception" : null,
       "savingThrowProficiencies" : [ ],
-      "hitDice" : null,
+      "hitDice" : "",
       "temporaryHitPoints" : 0,
       "deathSaveSuccesses" : 0,
       "deathSaveFailures" : 0,
@@ -3085,11 +3290,18 @@
       "gold" : null,
       "platinum" : 0,
       "extraAttacks" : [ ],
-      "proficienciesAndLanguages" : null,
-      "extraFeatures" : null,
-      "notes" : null
+      "proficienciesAndLanguages" : "",
+      "extraFeatures" : "",
+      "notes" : ""
     },
-    "featureUses" : { }
+    "featureUses" : {
+      "strength" : 0,
+      "dexterity" : 0,
+      "constitution" : 0,
+      "intelligence" : 0,
+      "wisdom" : 0,
+      "charisma" : 0
+    }
   }, {
     "id" : "player-da",
     "name" : "Da",
@@ -3211,6 +3423,136 @@
       "proficienciesAndLanguages" : "Background: Hunter's Apprentice (სტანდარტული წესებით აწყობილი custom background). Skills: Nature, Survival. Tool: Woodcarver's Tools. დამატებითი ენა: Sylvan.\nRogue skills: Acrobatics, Intimidation, Persuasion, Stealth. Elf skill: Perception. Expertise: Acrobatics და Perception; ამ ორ უნარს proficiency bonus ორჯერ ემატება.\nSaving throws: Dexterity, Intelligence. Light armor; simple weapons, hand crossbows, longswords, rapiers, shortswords; Thieves' Tools (+7 Dexterity check-ზე), Woodcarver's Tools (+7 Dexterity ან +3 Intelligence check-ზე; შესაბამის უნარს DM ირჩევს).\nენები: Common, Elvish, Sylvan; Thieves' Cant ცალკე საიდუმლო ნიშნებისა და ჟარგონის სისტემაა.",
       "extraFeatures" : "თამაშის ბირთვი: მარტო მდგარ მოწინააღმდეგესთან მიახლოება, ხანჯლით შეტევა და პოზიციის შეცვლა. Fancy Footwork მხოლოდ შენს მიმდინარე სვლაზე და მხოლოდ იმ მიზნის opportunity attack-ს არიდებს, რომელსაც melee attack გაუკეთე; მოხვედრა აუცილებელი არ არის. სხვა მტრებთან Disengage ისევ შეიძლება დაგჭირდეს.\n\nSneak Attack: 3d6, ერთხელ თითოეულ სვლაზე და არა თითოეულ დარტყმაზე. ჩვეულებრივი პირობაა advantage, ან მიზანთან 5 ft-ში შენი მოკავშირე, რომელიც incapacitated არ არის; disadvantage არ უნდა გქონდეს. Rakish Audacity დამატებით პირობას იძლევა, თუ მიზნიდან 5 ft-ში ხარ, შენგან 5 ft-ში სხვა არსება არ არის მიზნის გარდა და disadvantage არ გაქვს. შორი მანძილიდან სროლაზე ეს დამატებითი პირობა ვერ შესრულდება.\n\nThreadcut ჯგუფისთვის გასასვლელს ქმნის: CON save-ის ჩავარდნის შემდეგ სხვა პერსონაჟსაც შეუძლია მოწინააღმდეგის გვერდით opportunity attack-ის გარეშე გაიაროს. ამის ფასი არის ერთი Sneak Attack die, სამი შეზღუდული გამოყენება და მოწინააღმდეგის სეივი - არა უფასო დამატებითი ზიანი.\n\nტყის ელფი: speed 35 ft; Darkvision 60 ft; Perception proficiency; Fey Ancestry (advantage charm-ის წინააღმდეგ და მაგიური ძილისგან დაცვა); Trance; Mask of the Wild (მსუბუქად დაფარვაც შეიძლება საკმარისი იყოს დასამალად, თუ ფოთლები, ძლიერი წვიმა, თოვლი, ნისლი ან სხვა ბუნებრივი მოვლენა გფარავს). ეს ავტომატურ invisibility-ს არ იძლევა.\n\nშიში და სხვა მდგომარეობები ჩვეულებრივ მოქმედებს. ემოციური დისტანცია არც frightened-ისგან დაცვაა, არც charm-ისგან სრული იმუნიტეტი და არც მუდმივი advantage.",
       "notes" : "BUILD / BALANCE\nLevel 5, Rogue / Swashbuckler, Wood Elf. 27-point buy: STR 8, DEX 15, CON 14, INT 10, WIS 12, CHA 13. Race: +2 DEX, +1 WIS. Level 4 ASI: +1 DEX, +1 CHA. საბოლოო ქულები: 8 / 18 / 14 / 10 / 13 / 14. სხვა უფასო feat ან დამატებითი ASI არ აქვს.\nHP 38 = 8 + ოთხჯერ 5 + ხუთჯერ CON modifier 2. AC 15 = leather 11 + DEX 4. Initiative +6 = DEX 4 + CHA 2. Speed 35 ft; proficiency +3; passive Perception 17; Hit Dice 5d8.\nიარაღები არამაგიურია: ხანჯალი +7 / 1d4+4 piercing; shortbow +7 / 1d6+4 piercing, range 80/320 ft; ნასროლი ხანჯალი +7 / 1d4+4, range 20/60 ft. დედის ხანჯლები quantity 2-ითაა ჩაწერილი; მამამ თავისი მშვილდი მისცა. 20 ცალკეული ისარი აქვს.\n\nTURN / MANUAL EFFECTS\nAttack action = ერთი შეტევა; Extra Attack არ აქვს. ერთ ხელში light melee weapon-ით Attack action-ის შემდეგ მეორე ხელში light melee weapon-ით შეტევა Bonus Action-ს მოითხოვს. Off-hand ზიანი 1d4-ია, არა 1d4+4; Two-Weapon Fighting style არ აქვს. Sneak Attack მხოლოდ ერთ დარტყმას მიეცემა თითოეულ სვლაზე, თუ პირობა სრულდება.\nერთ სვლაზე ერთი Bonus Action: მეორე ხანჯალი ან Cunning Action, არა ორივე. Uncanny Dodge-სა და opportunity attack-ს ერთი Reaction-ის რესურსი აქვთ. Uncanny Dodge მხოლოდ ხილული შემტევის attack-ის ზიანს ანახევრებს, არა ნებისმიერ damage-ს ან saving-throw ეფექტს.\nაპის ჩვეულებრივი weapon attack DEX-ს ზიანს უმატებს; off-hand შეტევა sheet-ის ხელით ჩაწერილი 1d4-ით გააკეთე. Rakish Audacity-ის დამატებითი Sneak Attack პირობა, Fancy Footwork და Threadcut-ის სეივი/ეფექტი ხელით წყდება. სტატების შეცვლისას Initiative override განაახლე DEX + CHA ფორმულით; Threadcut DC არის 8 + proficiency + DEX, ახლა 15.\n\nROLEPLAY\nხანჯლებს ყოველ დასვენებაზე ერთნაირი თანმიმდევრობით წმენდს; მამის ისრებს უსარგებლო სამიზნეს არ ახმარს. გაბრაზებისას ხმას არ სწევს - ზედმეტი სიტყვები ქრება. ფრაზები: \"ისარს მანამდე არ უშვებენ, სანამ იციან, რას მოკლავს.\" / \"დედა ამბობდა, წონასწორობა ხელში კი არა, სუნთქვაშიაო.\" / \"არა. ეს შიში არ არის. უბრალოდ გასასვლელს ვეძებ.\"\nმიზანი: რა-ს მკვლელსა და მის მფარველებს პასუხი მოსთხოვოს. რა-ს ხსოვნა არჩევანსაც ტოვებს; ყველა დიდგვაროვნის ან თანამგზავრის მოკვლა სავალდებულო არ არის. კონკრეტულ გადაწყვეტილებებს მოთამაშე იღებს."
+    }
+  }, {
+    "id" : "player-uriel",
+    "name" : "Uriel",
+    "classId" : "fighter",
+    "raceId" : "human",
+    "level" : 5,
+    "xp" : 0,
+    "upgrades" : {
+      "earned" : 0,
+      "unlocks" : [ ]
+    },
+    "stats" : {
+      "custom" : { },
+      "strength" : 15,
+      "dexterity" : 15,
+      "constitution" : 15,
+      "intelligence" : 8,
+      "wisdom" : 8,
+      "charisma" : 8
+    },
+    "items" : [ {
+      "itemId" : "longsword",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "chain-mail",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "shield",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "light-crossbow",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    } ],
+    "spells" : [ ],
+    "personalFeatures" : [ ],
+    "passwordHash" : null,
+    "passwordSalt" : null,
+    "imagePath" : null,
+    "playerName" : "საბა",
+    "ownerUsername" : "საბა",
+    "description" : "",
+    "maxHitPoints" : 30,
+    "currentHitPoints" : 13,
+    "maxMana" : 0,
+    "currentMana" : 0,
+    "activeEffects" : [ ],
+    "subclass" : "Champion",
+    "backstory" : "",
+    "castingResource" : null,
+    "spellSlots" : [ ],
+    "knownBlueprints" : [ ],
+    "furnaceFuel" : 0,
+    "cooldowns" : {
+      "strength" : 0,
+      "dexterity" : 0,
+      "constitution" : 0,
+      "intelligence" : 0,
+      "wisdom" : 0,
+      "charisma" : 0
+    },
+    "skills" : {
+      "custom" : { },
+      "acrobatics" : 3,
+      "animalHandling" : -1,
+      "arcana" : -1,
+      "athletics" : 3,
+      "deception" : -1,
+      "history" : -1,
+      "insight" : -1,
+      "intimidation" : -1,
+      "investigation" : -1,
+      "medicine" : -1,
+      "nature" : -1,
+      "perception" : -1,
+      "performance" : -1,
+      "persuasion" : -1,
+      "religion" : -1,
+      "sleightOfHand" : 3,
+      "stealth" : 3,
+      "survival" : -1
+    },
+    "sheet" : {
+      "armorClass" : null,
+      "initiative" : null,
+      "speed" : null,
+      "proficiencyBonus" : null,
+      "passivePerception" : null,
+      "savingThrowProficiencies" : [ ],
+      "hitDice" : "",
+      "temporaryHitPoints" : 0,
+      "deathSaveSuccesses" : 0,
+      "deathSaveFailures" : 0,
+      "inspiration" : false,
+      "spellcastingAbility" : null,
+      "spellSaveDc" : null,
+      "spellAttackBonus" : null,
+      "copper" : 0,
+      "silver" : 0,
+      "electrum" : 0,
+      "gold" : null,
+      "platinum" : 0,
+      "extraAttacks" : [ ],
+      "proficienciesAndLanguages" : "",
+      "extraFeatures" : "",
+      "notes" : ""
+    },
+    "featureUses" : {
+      "strength" : 0,
+      "dexterity" : 0,
+      "constitution" : 0,
+      "intelligence" : 0,
+      "wisdom" : 0,
+      "charisma" : 0
     }
   } ]
 }
