@@ -3042,5 +3042,121 @@
       "notes" : null
     },
     "featureUses" : { }
+  }, {
+    "id" : "player-uriel",
+    "name" : "Uriel",
+    "classId" : "fighter",
+    "raceId" : "human",
+    "level" : 1,
+    "xp" : 0,
+    "upgrades" : {
+      "earned" : 0,
+      "unlocks" : [ ]
+    },
+    "stats" : {
+      "custom" : { },
+      "strength" : 16,
+      "dexterity" : 16,
+      "constitution" : 16,
+      "intelligence" : 9,
+      "wisdom" : 9,
+      "charisma" : 9
+    },
+    "items" : [ {
+      "itemId" : "longsword",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "chain-mail",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "shield",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "light-crossbow",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    } ],
+    "spells" : [ ],
+    "personalFeatures" : [ ],
+    "passwordHash" : null,
+    "passwordSalt" : null,
+    "imagePath" : null,
+    "playerName" : "საბა",
+    "ownerUsername" : "საბა",
+    "description" : null,
+    "maxHitPoints" : 13,
+    "currentHitPoints" : 13,
+    "maxMana" : 0,
+    "currentMana" : 0,
+    "activeEffects" : [ ],
+    "subclass" : "Champion",
+    "backstory" : null,
+    "castingResource" : null,
+    "spellSlots" : [ ],
+    "knownBlueprints" : [ ],
+    "furnaceFuel" : 0,
+    "cooldowns" : { },
+    "skills" : {
+      "custom" : { },
+      "acrobatics" : 3,
+      "animalHandling" : -1,
+      "arcana" : -1,
+      "athletics" : 3,
+      "deception" : -1,
+      "history" : -1,
+      "insight" : -1,
+      "intimidation" : -1,
+      "investigation" : -1,
+      "medicine" : -1,
+      "nature" : -1,
+      "perception" : -1,
+      "performance" : -1,
+      "persuasion" : -1,
+      "religion" : -1,
+      "sleightOfHand" : 3,
+      "stealth" : 3,
+      "survival" : -1
+    },
+    "sheet" : {
+      "armorClass" : null,
+      "initiative" : null,
+      "speed" : null,
+      "proficiencyBonus" : null,
+      "passivePerception" : null,
+      "savingThrowProficiencies" : [ ],
+      "hitDice" : null,
+      "temporaryHitPoints" : 0,
+      "deathSaveSuccesses" : 0,
+      "deathSaveFailures" : 0,
+      "inspiration" : false,
+      "spellcastingAbility" : null,
+      "spellSaveDc" : null,
+      "spellAttackBonus" : null,
+      "copper" : 0,
+      "silver" : 0,
+      "electrum" : 0,
+      "gold" : null,
+      "platinum" : 0,
+      "extraAttacks" : [ ],
+      "proficienciesAndLanguages" : null,
+      "extraFeatures" : null,
+      "notes" : null
+    },
+    "featureUses" : { }
   } ]
 }
