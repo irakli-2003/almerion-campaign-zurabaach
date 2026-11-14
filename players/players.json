@@ -3314,8 +3314,153 @@
     "name" : "Da",
     "classId" : "rogue",
     "raceId" : "wood-elf",
+    "subclass" : "Swashbuckler",
     "level" : 5,
     "xp" : 6500,
+    "stats" : {
+      "custom" : { },
+      "strength" : 8,
+      "dexterity" : 18,
+      "constitution" : 14,
+      "intelligence" : 10,
+      "wisdom" : 13,
+      "charisma" : 14
+    },
+    "imagePath" : "images/players/player-da.png",
+    "description" : "მამრი ტყის ელფი; სიმაღლე 1.84 მ. მუქი, არეული თმა, დაკვირვებული მზერა და გაცვეთილი ტყავის აბჯარი. ხელში დედის ორი ხანჯალი, ზურგზე მამის მოკლე მშვილდი.\n\nჩუმი დუელისტი: ჯერ აკვირდება ნაბიჯს, სუნთქვასა და წონასწორობას, შემდეგ ახლო მანძილზე ჭრის და პოზიციას იცვლის. არ იყენებს მაგიას, ცეცხლსასროლ იარაღს ან ილუზიებს. მისი მაღალი Charisma მშვიდ თავდაჯერებასა და მკაფიო ნებას აღნიშნავს, არა მხიარულებას.\n\nიშვიათად გრძნობს იმას, რასაც სხვები; ეს პიროვნული თავისებურებაა და არა ემოციების სრული არქონა ან შიშისგან იმუნიტეტი.",
+    "backstory" : "იყო და და იყო რა\n\nმე ვერცხლისფერ ტყეებში დავიბადე, სადაც ქარი აქუმარქსის ხეებს შორის სიმღერებს ატარებდა. მამაჩემმა მასწავლა მონადირის მოთმინება: როგორ იდგა აზრი ყოველი ნაბიჯის უკან, როგორ ატარებდა ყოველი ისარი პასუხისმგებლობას და როგორ აფასებდა ყველაზე პატარა არსებაც კი საკუთარ სიცოცხლეს.\n\nდედაჩემმა მონეტის მეორე მხარე დამანახა. ის მთვარის შუქზე მდინარის წყალივით მოძრაობდა; ხელში ორი ხანჯლით ცეკვავდა, თითქოს თვით ბრძოლასაც კი შეეძლო ლამაზი ყოფილიყო. მისგან ვისწავლე სუნთქვა, წონასწორობა და ცოცხალ არსებებში დამალული მშვიდი სილამაზე.\n\nმიუხედავად იმისა, რომ ეს გაკვეთილები ვისწავლე, იშვიათად ვგრძნობდი იმას, რასაც სხვები. სიხარული, მწუხარება, შიში - ჩემი სხეული ამ ყველაფერს ისევე ისხლეტდა, როგორც ფოთოლი ცივი წვიმის წვეთებს. მხოლოდ რა აღწევდა ჩემამდე. ის ფერმერების ქალიშვილი იყო: ფრჩხილებს ქვეშ მიწა და ხმაში ხალისი. ბავშვობიდან ტყეებში ერთად დავხეტიალობდით და, როდესაც ის ლაპარაკობდა, სამყარო ნაკლებად შორეული მეჩვენებოდა. მაშინ სიყვარული არ მესმოდა; მხოლოდ ის დუმილი მეუცხოვა, რომელიც მისი წასვლის შემდეგ დარჩა.\n\nპირველად ემოცია ვიგრძენი მაშინ, როცა რა დავკარგე. აქუმარქსში სტუმრად მყოფი დიდგვაროვანი მოვიდა - მთვრალი კაცებითა და მშიერი თვალებით. ჩვენს სოფელს ისე ეპყრობოდა, თითქოს მის გასართობად აშენებული ცირკი ყოფილიყო. რა მის წინ დადგა, როდესაც მან ერთ-ერთ მოხუცს გაარტყა. უშიშარი იყო მოცინარი მცველებით გარშემორტყმულიც კი.\n\nხმა უფრო მახსოვს, ვიდრე თავად მომენტი: ფოლადის ჭრიალი, ჩიტების უეცარი სიჩუმე, მისი სხეული ჩემს ხელებში. ამ სიჩუმეში საკუთარ თავში რაღაც შევიცანი. არა სევდა. არც მწუხარება. რისხვა - მკვეთრი და ცხელი. იმდენად სასტიკი, რომ ჩემს გარშემო მთელ სამყაროს დაახრჩობდა.\n\nროდესაც მშობლებმა მიწაზე დაჩოქილი მიპოვეს, რა-ს სისხლით ხელებზე, არაფერი უთქვამთ. მამაჩემმა თვალებში შემომხედა და დაინახა, რომ ნადირობა უკვე დაწყებული იყო. მან თავისი მოკლე მშვილდი უსიტყვოდ მომცა ხელში. დედაჩემმა ჩემს წინ დაიჩოქა და თავისი ორი ხანჯალი რა-ს სხეულზე დადო, სანამ მე გადმომცემდა.\n\nარცერთს უცდია ჩემი შეჩერება. მათ ესმოდათ ის, რის აღსაწერადაც ჯერ სიტყვები არ მქონდა: ჩემი ნაწილი რა-სთან ერთად მოკვდა. რაც დარჩა, ერთ დღეს სიკვდილს მოუტანდა მათ, ვინც გვირგვინებსა და აბრეშუმს ატარებს.\n\nიყო და და აღარ იყო რა",
+    "items" : [ {
+      "itemId" : "da-dancers-dagger",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : true,
+      "quantity" : 2
+    }, {
+      "itemId" : "da-fathers-shortbow",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : true,
+      "quantity" : 1
+    }, {
+      "itemId" : "da-leather-armor",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : true,
+      "quantity" : 1
+    }, {
+      "itemId" : "arrows",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 20
+    }, {
+      "itemId" : "quiver",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "thieves-tools",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "woodcarvers-tools",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "explorers-pack",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    } ],
+    "spells" : [ ],
+    "spellSlots" : [ ],
+    "maxHitPoints" : 30,
+    "currentHitPoints" : 30,
+    "maxMana" : 0,
+    "currentMana" : 0,
+    "personalFeatures" : [ {
+      "level" : 3,
+      "name" : "Threadcut - ძაფის გაწყვეტა",
+      "description" : "Homebrew; 3 გამოყენება Long Rest-ზე. ერთხელ შენს სვლაზე, როდესაც melee weapon attack-ით ხვდები და ამ დარტყმას Sneak Attack ეძლევა, ზიანის გაგორებამდე შეგიძლია დახარჯო 1 გამოყენება და დათმო Sneak Attack-ის 1d6. მიზანი აკეთებს Constitution save-ს: DC = 8 + proficiency bonus + Dexterity modifier (ამჟამად 15). ჩავარდნისას შენი მომდევნო სვლის დაწყებამდე ვერ იყენებს რეაქციებს. წარმატებისას რეაქციებს ინარჩუნებს, თუმცა გამოყენება და დათმობილი 1d6 მაინც იხარჯება. მე-5 დონეზე დარჩენილი Sneak Attack არის 2d6; კრიტიკულ დარტყმაზე დარჩენილი ნაწილი ორმაგდება და არის 4d6. ტექნიკა დამატებით Action/Bonus Action/Reaction-ს არ მოითხოვს; არ მუშაობს მშვილდზე ან ნასროლ ხანჯალზე. არ აბრუნებს უკვე გამოყენებულ რეაქციას და არ აუქმებს უკვე გადაწყვეტილ Shield-ს ან სხვა რეაქციას. არ აჩერებს მიზნის მოძრაობას, არ აკარგვინებს იარაღს და არ იწვევს stun-ს. აპი ითვლის მხოლოდ გამოყენებებს; შემცირებულ Sneak Attack-ს, სეივსა და რეაქციის შეზღუდვის დასრულებას DM ხელით ასახავს.",
+      "usesPerRest" : 3,
+      "shortRestRecharge" : false
+    }, {
+      "level" : 3,
+      "name" : "Shadow Hem - ჩრდილის კალთა",
+      "description" : "Homebrew. Bonus Action; 2 გამოყენება Long Rest-ზე. ჯერ გადაადგილდი 10 ft-მდე და შემდეგ სცადე Hide. ეს 10 ft შენს დარჩენილ walking movement-ს არ ხარჯავს, მაგრამ speed 0-ისას არ მუშაობს; difficult terrain და სხვა შეზღუდვები მოქმედებს. დასამალად ჩვეულებრივი cover/obscurement აუცილებელია; მტრის თვალწინ გაშლილ სივრცეში ვერ გაქრები. გადაადგილება opportunity attack-ს ჩვეულებრივ იწვევს, თუ Fancy Footwork ან სხვა წესი არ გიცავს. ეს უკვე შენი ერთი Bonus Action-ია: იმავე სვლაზე off-hand attack ან მეორე Cunning Action არ შეგიძლია. არ იძლევა invisibility-ს ან შეტევის ავტომატურ advantage-ს. აპი მხოლოდ გამოყენებებს ითვლის; მოძრაობა და Stealth check ხელით წყდება.",
+      "usesPerRest" : 2,
+      "shortRestRecharge" : false
+    }, {
+      "level" : 3,
+      "name" : "Borrowed Beat - ნასესხები ტაქტი",
+      "description" : "Homebrew. Reaction; 2 გამოყენება Long Rest-ზე. როცა არსება, რომელსაც ხედავ 5 ft-ში, melee attack-ით აგაცილებს, შეგიძლია 5 ft-ით გადახვიდე ხილულ თავისუფალ უჯრაზე, თუ speed 0 არ გაქვს. ეს მოძრაობა მხოლოდ იმ შემტევის opportunity attack-ს არ იწვევს; სხვა მტრებისას ჩვეულებრივ იწვევს. კედელს, ხაფანგს ან სხვა არსებას ვერ გადაკვეთავ. უკვე დაწყებულ multiattack-ს არ აუქმებს: თუ შემდგომი შეტევის range-ში ისევ ხარ, მტერი აგრძელებს. დამატებით შეტევას, უფასო Hide-ს ან დამატებით Reaction-ს არ გაძლევს. Uncanny Dodge-ს იმავე Reaction-ს ეცილება; ერთსა და იმავე რაუნდში ორივეს ვერ გამოიყენებ, სანამ Reaction არ აღდგება. აპი მხოლოდ გამოყენებებს ითვლის.",
+      "usesPerRest" : 2,
+      "shortRestRecharge" : false
+    } ],
+    "skills" : {
+      "custom" : { },
+      "acrobatics" : 10,
+      "animalHandling" : 1,
+      "arcana" : 0,
+      "athletics" : -1,
+      "deception" : 2,
+      "history" : 0,
+      "insight" : 1,
+      "intimidation" : 5,
+      "investigation" : 0,
+      "medicine" : 1,
+      "nature" : 3,
+      "perception" : 7,
+      "performance" : 2,
+      "persuasion" : 5,
+      "religion" : 0,
+      "sleightOfHand" : 4,
+      "stealth" : 7,
+      "survival" : 4
+    },
+    "sheet" : {
+      "initiative" : 6,
+      "savingThrowProficiencies" : [ "dexterity", "intelligence" ],
+      "gold" : 10,
+      "extraAttacks" : [ {
+        "name" : "მეორე ხანჯალი (Bonus Action; ხელით)",
+        "attackBonus" : "+7",
+        "damage" : "1d4 piercing; DEX ზიანს არ ემატება"
+      } ],
+      "proficienciesAndLanguages" : "Background: Hunter's Apprentice (სტანდარტული წესებით აწყობილი custom background). Skills: Nature, Survival. Tool: Woodcarver's Tools. დამატებითი ენა: Sylvan.\nRogue skills: Acrobatics, Intimidation, Persuasion, Stealth. Elf skill: Perception. Expertise: Acrobatics და Perception; ამ ორ უნარს proficiency bonus ორჯერ ემატება.\nSaving throws: Dexterity, Intelligence. Light armor; simple weapons, hand crossbows, longswords, rapiers, shortswords; Thieves' Tools (+7 Dexterity check-ზე), Woodcarver's Tools (+7 Dexterity ან +3 Intelligence check-ზე; შესაბამის უნარს DM ირჩევს).\nენები: Common, Elvish, Sylvan; Thieves' Cant ცალკე საიდუმლო ნიშნებისა და ჟარგონის სისტემაა.",
+      "extraFeatures" : "თამაშის ბირთვი: მარტო მდგარ მოწინააღმდეგესთან მიახლოება, ხანჯლით შეტევა და პოზიციის შეცვლა. Fancy Footwork მხოლოდ შენს მიმდინარე სვლაზე და მხოლოდ იმ მიზნის opportunity attack-ს არიდებს, რომელსაც melee attack გაუკეთე; მოხვედრა აუცილებელი არ არის. სხვა მტრებთან Disengage ისევ შეიძლება დაგჭირდეს.\n\nSneak Attack: 3d6, ერთხელ თითოეულ სვლაზე და არა თითოეულ დარტყმაზე. ჩვეულებრივი პირობაა advantage, ან მიზანთან 5 ft-ში შენი მოკავშირე, რომელიც incapacitated არ არის; disadvantage არ უნდა გქონდეს. Rakish Audacity დამატებით პირობას იძლევა, თუ მიზნიდან 5 ft-ში ხარ, შენგან 5 ft-ში სხვა არსება არ არის მიზნის გარდა და disadvantage არ გაქვს. შორი მანძილიდან სროლაზე ეს დამატებითი პირობა ვერ შესრულდება.\n\nThreadcut ჯგუფისთვის გასასვლელს ქმნის: CON save-ის ჩავარდნის შემდეგ სხვა პერსონაჟსაც შეუძლია მოწინააღმდეგის გვერდით opportunity attack-ის გარეშე გაიაროს. ამის ფასი არის ერთი Sneak Attack die, სამი შეზღუდული გამოყენება და მოწინააღმდეგის სეივი - არა უფასო დამატებითი ზიანი.\n\nტყის ელფი: speed 35 ft; Darkvision 60 ft; Perception proficiency; Fey Ancestry (advantage charm-ის წინააღმდეგ და მაგიური ძილისგან დაცვა); Trance; Mask of the Wild (მსუბუქად დაფარვაც შეიძლება საკმარისი იყოს დასამალად, თუ ფოთლები, ძლიერი წვიმა, თოვლი, ნისლი ან სხვა ბუნებრივი მოვლენა გფარავს). ეს ავტომატურ invisibility-ს არ იძლევა.\n\nშიში და სხვა მდგომარეობები ჩვეულებრივ მოქმედებს. ემოციური დისტანცია არც frightened-ისგან დაცვაა, არც charm-ისგან სრული იმუნიტეტი და არც მუდმივი advantage.\n\nდამატებითი პირადი მოქმედებები: Shadow Hem — Bonus Action, 2/Long Rest, 10 ft-მდე დამატებითი მოძრაობა და კანონიერი Hide მცდელობა; Borrowed Beat — Reaction, 2/Long Rest, ხილული ახლომდებარე melee შემტევის აცდენისას 5 ft ნაბიჯი. სრული შეზღუდვები Personal Features-შია. Threadcut კვლავ 3/Long Rest-ია. ეს martial techniques-ია, არა spells; მრიცხველების გარდა ეფექტები ხელით წყდება.",
+      "notes" : "BUILD / BALANCE\nLevel 5, Rogue / Swashbuckler, Wood Elf. 27-point buy: STR 8, DEX 15, CON 14, INT 10, WIS 12, CHA 13. Race: +2 DEX, +1 WIS. Level 4 ASI: +1 DEX, +1 CHA. საბოლოო ქულები: 8 / 18 / 14 / 10 / 13 / 14. სხვა უფასო feat ან დამატებითი ASI არ აქვს.\nHP 38 = 8 + ოთხჯერ 5 + ხუთჯერ CON modifier 2. AC 15 = leather 11 + DEX 4. Initiative +6 = DEX 4 + CHA 2. Speed 35 ft; proficiency +3; passive Perception 17; Hit Dice 5d8.\nიარაღები არამაგიურია: ხანჯალი +7 / 1d4+4 piercing; shortbow +7 / 1d6+4 piercing, range 80/320 ft; ნასროლი ხანჯალი +7 / 1d4+4, range 20/60 ft. დედის ხანჯლები quantity 2-ითაა ჩაწერილი; მამამ თავისი მშვილდი მისცა. 20 ცალკეული ისარი აქვს.\n\nTURN / MANUAL EFFECTS\nAttack action = ერთი შეტევა; Extra Attack არ აქვს. ერთ ხელში light melee weapon-ით Attack action-ის შემდეგ მეორე ხელში light melee weapon-ით შეტევა Bonus Action-ს მოითხოვს. Off-hand ზიანი 1d4-ია, არა 1d4+4; Two-Weapon Fighting style არ აქვს. Sneak Attack მხოლოდ ერთ დარტყმას მიეცემა თითოეულ სვლაზე, თუ პირობა სრულდება.\nერთ სვლაზე ერთი Bonus Action: მეორე ხანჯალი ან Cunning Action, არა ორივე. Uncanny Dodge-სა და opportunity attack-ს ერთი Reaction-ის რესურსი აქვთ. Uncanny Dodge მხოლოდ ხილული შემტევის attack-ის ზიანს ანახევრებს, არა ნებისმიერ damage-ს ან saving-throw ეფექტს.\nაპის ჩვეულებრივი weapon attack DEX-ს ზიანს უმატებს; off-hand შეტევა sheet-ის ხელით ჩაწერილი 1d4-ით გააკეთე. Rakish Audacity-ის დამატებითი Sneak Attack პირობა, Fancy Footwork და Threadcut-ის სეივი/ეფექტი ხელით წყდება. სტატების შეცვლისას Initiative override განაახლე DEX + CHA ფორმულით; Threadcut DC არის 8 + proficiency + DEX, ახლა 15.\n\nROLEPLAY\nხანჯლებს ყოველ დასვენებაზე ერთნაირი თანმიმდევრობით წმენდს; მამის ისრებს უსარგებლო სამიზნეს არ ახმარს. გაბრაზებისას ხმას არ სწევს - ზედმეტი სიტყვები ქრება. ფრაზები: \"ისარს მანამდე არ უშვებენ, სანამ იციან, რას მოკლავს.\" / \"დედა ამბობდა, წონასწორობა ხელში კი არა, სუნთქვაშიაო.\" / \"არა. ეს შიში არ არის. უბრალოდ გასასვლელს ვეძებ.\"\nმიზანი: რა-ს მკვლელსა და მის მფარველებს პასუხი მოსთხოვოს. რა-ს ხსოვნა არჩევანსაც ტოვებს; ყველა დიდგვაროვნის ან თანამგზავრის მოკვლა სავალდებულო არ არის. კონკრეტულ გადაწყვეტილებებს მოთამაშე იღებს.",
+      "armorClass" : null,
+      "speed" : null,
+      "proficiencyBonus" : null,
+      "passivePerception" : null,
+      "hitDice" : "",
+      "temporaryHitPoints" : 0,
+      "deathSaveSuccesses" : 0,
+      "deathSaveFailures" : 0,
+      "inspiration" : false,
+      "spellcastingAbility" : null,
+      "spellSaveDc" : null,
+      "spellAttackBonus" : null,
+      "copper" : 0,
+      "silver" : 0,
+      "electrum" : 0,
+      "platinum" : 0
+    },
     "upgrades" : {
       "earned" : 4,
       "unlocks" : [ {
@@ -3416,108 +3561,12 @@
         }
       } ]
     },
-    "stats" : {
-      "custom" : { },
-      "strength" : 8,
-      "dexterity" : 18,
-      "constitution" : 14,
-      "intelligence" : 10,
-      "wisdom" : 13,
-      "charisma" : 14
-    },
-    "items" : [ {
-      "itemId" : "da-dancers-dagger",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : true,
-      "quantity" : 2
-    }, {
-      "itemId" : "da-fathers-shortbow",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : true,
-      "quantity" : 1
-    }, {
-      "itemId" : "da-leather-armor",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : true,
-      "quantity" : 1
-    }, {
-      "itemId" : "arrows",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 20
-    }, {
-      "itemId" : "quiver",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "thieves-tools",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "woodcarvers-tools",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "explorers-pack",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    } ],
-    "spells" : [ ],
-    "personalFeatures" : [ {
-      "level" : 3,
-      "name" : "Threadcut - ძაფის გაწყვეტა",
-      "description" : "Homebrew; 3 გამოყენება Long Rest-ზე. ერთხელ შენს სვლაზე, როდესაც melee weapon attack-ით ხვდები და ამ დარტყმას Sneak Attack ეძლევა, ზიანის გაგორებამდე შეგიძლია დახარჯო 1 გამოყენება და დათმო Sneak Attack-ის 1d6. მიზანი აკეთებს Constitution save-ს: DC = 8 + proficiency bonus + Dexterity modifier (ამჟამად 15). ჩავარდნისას შენი მომდევნო სვლის დაწყებამდე ვერ იყენებს რეაქციებს. წარმატებისას რეაქციებს ინარჩუნებს, თუმცა გამოყენება და დათმობილი 1d6 მაინც იხარჯება. მე-5 დონეზე დარჩენილი Sneak Attack არის 2d6; კრიტიკულ დარტყმაზე დარჩენილი ნაწილი ორმაგდება და არის 4d6. ტექნიკა დამატებით Action/Bonus Action/Reaction-ს არ მოითხოვს; არ მუშაობს მშვილდზე ან ნასროლ ხანჯალზე. არ აბრუნებს უკვე გამოყენებულ რეაქციას და არ აუქმებს უკვე გადაწყვეტილ Shield-ს ან სხვა რეაქციას. არ აჩერებს მიზნის მოძრაობას, არ აკარგვინებს იარაღს და არ იწვევს stun-ს. აპი ითვლის მხოლოდ გამოყენებებს; შემცირებულ Sneak Attack-ს, სეივსა და რეაქციის შეზღუდვის დასრულებას DM ხელით ასახავს.",
-      "subclass" : "",
-      "usesPerRest" : 3,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 3,
-      "name" : "Shadow Hem - ჩრდილის კალთა",
-      "description" : "Homebrew. Bonus Action; 2 გამოყენება Long Rest-ზე. ჯერ გადაადგილდი 10 ft-მდე და შემდეგ სცადე Hide. ეს 10 ft შენს დარჩენილ walking movement-ს არ ხარჯავს, მაგრამ speed 0-ისას არ მუშაობს; difficult terrain და სხვა შეზღუდვები მოქმედებს. დასამალად ჩვეულებრივი cover/obscurement აუცილებელია; მტრის თვალწინ გაშლილ სივრცეში ვერ გაქრები. გადაადგილება opportunity attack-ს ჩვეულებრივ იწვევს, თუ Fancy Footwork ან სხვა წესი არ გიცავს. ეს უკვე შენი ერთი Bonus Action-ია: იმავე სვლაზე off-hand attack ან მეორე Cunning Action არ შეგიძლია. არ იძლევა invisibility-ს ან შეტევის ავტომატურ advantage-ს. აპი მხოლოდ გამოყენებებს ითვლის; მოძრაობა და Stealth check ხელით წყდება.",
-      "usesPerRest" : 2,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 3,
-      "name" : "Borrowed Beat - ნასესხები ტაქტი",
-      "description" : "Homebrew. Reaction; 2 გამოყენება Long Rest-ზე. როცა არსება, რომელსაც ხედავ 5 ft-ში, melee attack-ით აგაცილებს, შეგიძლია 5 ft-ით გადახვიდე ხილულ თავისუფალ უჯრაზე, თუ speed 0 არ გაქვს. ეს მოძრაობა მხოლოდ იმ შემტევის opportunity attack-ს არ იწვევს; სხვა მტრებისას ჩვეულებრივ იწვევს. კედელს, ხაფანგს ან სხვა არსებას ვერ გადაკვეთავ. უკვე დაწყებულ multiattack-ს არ აუქმებს: თუ შემდგომი შეტევის range-ში ისევ ხარ, მტერი აგრძელებს. დამატებით შეტევას, უფასო Hide-ს ან დამატებით Reaction-ს არ გაძლევს. Uncanny Dodge-ს იმავე Reaction-ს ეცილება; ერთსა და იმავე რაუნდში ორივეს ვერ გამოიყენებ, სანამ Reaction არ აღდგება. აპი მხოლოდ გამოყენებებს ითვლის.",
-      "usesPerRest" : 2,
-      "shortRestRecharge" : false
-    } ],
     "passwordHash" : null,
     "passwordSalt" : null,
-    "imagePath" : "images/players/player-da.png",
     "playerName" : "",
     "ownerUsername" : "",
-    "description" : "მამრი ტყის ელფი; სიმაღლე 1.84 მ. მუქი, არეული თმა, დაკვირვებული მზერა და გაცვეთილი ტყავის აბჯარი. ხელში დედის ორი ხანჯალი, ზურგზე მამის მოკლე მშვილდი.\n\nჩუმი დუელისტი: ჯერ აკვირდება ნაბიჯს, სუნთქვასა და წონასწორობას, შემდეგ ახლო მანძილზე ჭრის და პოზიციას იცვლის. არ იყენებს მაგიას, ცეცხლსასროლ იარაღს ან ილუზიებს. მისი მაღალი Charisma მშვიდ თავდაჯერებასა და მკაფიო ნებას აღნიშნავს, არა მხიარულებას.\n\nიშვიათად გრძნობს იმას, რასაც სხვები; ეს პიროვნული თავისებურებაა და არა ემოციების სრული არქონა ან შიშისგან იმუნიტეტი.",
-    "maxHitPoints" : 30,
-    "currentHitPoints" : 30,
-    "maxMana" : 0,
-    "currentMana" : 0,
     "activeEffects" : [ ],
-    "subclass" : "Swashbuckler",
-    "backstory" : "იყო და და იყო რა\n\nმე ვერცხლისფერ ტყეებში დავიბადე, სადაც ქარი აქუმარქსის ხეებს შორის სიმღერებს ატარებდა. მამაჩემმა მასწავლა მონადირის მოთმინება: როგორ იდგა აზრი ყოველი ნაბიჯის უკან, როგორ ატარებდა ყოველი ისარი პასუხისმგებლობას და როგორ აფასებდა ყველაზე პატარა არსებაც კი საკუთარ სიცოცხლეს.\n\nდედაჩემმა მონეტის მეორე მხარე დამანახა. ის მთვარის შუქზე მდინარის წყალივით მოძრაობდა; ხელში ორი ხანჯლით ცეკვავდა, თითქოს თვით ბრძოლასაც კი შეეძლო ლამაზი ყოფილიყო. მისგან ვისწავლე სუნთქვა, წონასწორობა და ცოცხალ არსებებში დამალული მშვიდი სილამაზე.\n\nმიუხედავად იმისა, რომ ეს გაკვეთილები ვისწავლე, იშვიათად ვგრძნობდი იმას, რასაც სხვები. სიხარული, მწუხარება, შიში - ჩემი სხეული ამ ყველაფერს ისევე ისხლეტდა, როგორც ფოთოლი ცივი წვიმის წვეთებს. მხოლოდ რა აღწევდა ჩემამდე. ის ფერმერების ქალიშვილი იყო: ფრჩხილებს ქვეშ მიწა და ხმაში ხალისი. ბავშვობიდან ტყეებში ერთად დავხეტიალობდით და, როდესაც ის ლაპარაკობდა, სამყარო ნაკლებად შორეული მეჩვენებოდა. მაშინ სიყვარული არ მესმოდა; მხოლოდ ის დუმილი მეუცხოვა, რომელიც მისი წასვლის შემდეგ დარჩა.\n\nპირველად ემოცია ვიგრძენი მაშინ, როცა რა დავკარგე. აქუმარქსში სტუმრად მყოფი დიდგვაროვანი მოვიდა - მთვრალი კაცებითა და მშიერი თვალებით. ჩვენს სოფელს ისე ეპყრობოდა, თითქოს მის გასართობად აშენებული ცირკი ყოფილიყო. რა მის წინ დადგა, როდესაც მან ერთ-ერთ მოხუცს გაარტყა. უშიშარი იყო მოცინარი მცველებით გარშემორტყმულიც კი.\n\nხმა უფრო მახსოვს, ვიდრე თავად მომენტი: ფოლადის ჭრიალი, ჩიტების უეცარი სიჩუმე, მისი სხეული ჩემს ხელებში. ამ სიჩუმეში საკუთარ თავში რაღაც შევიცანი. არა სევდა. არც მწუხარება. რისხვა - მკვეთრი და ცხელი. იმდენად სასტიკი, რომ ჩემს გარშემო მთელ სამყაროს დაახრჩობდა.\n\nროდესაც მშობლებმა მიწაზე დაჩოქილი მიპოვეს, რა-ს სისხლით ხელებზე, არაფერი უთქვამთ. მამაჩემმა თვალებში შემომხედა და დაინახა, რომ ნადირობა უკვე დაწყებული იყო. მან თავისი მოკლე მშვილდი უსიტყვოდ მომცა ხელში. დედაჩემმა ჩემს წინ დაიჩოქა და თავისი ორი ხანჯალი რა-ს სხეულზე დადო, სანამ მე გადმომცემდა.\n\nარცერთს უცდია ჩემი შეჩერება. მათ ესმოდათ ის, რის აღსაწერადაც ჯერ სიტყვები არ მქონდა: ჩემი ნაწილი რა-სთან ერთად მოკვდა. რაც დარჩა, ერთ დღეს სიკვდილს მოუტანდა მათ, ვინც გვირგვინებსა და აბრეშუმს ატარებს.\n\nიყო და და აღარ იყო რა",
     "castingResource" : null,
-    "spellSlots" : [ ],
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
     "cooldowns" : {
@@ -3527,56 +3576,6 @@
       "intelligence" : 0,
       "wisdom" : 0,
       "charisma" : 0
-    },
-    "skills" : {
-      "custom" : { },
-      "acrobatics" : 10,
-      "animalHandling" : 1,
-      "arcana" : 0,
-      "athletics" : -1,
-      "deception" : 2,
-      "history" : 0,
-      "insight" : 1,
-      "intimidation" : 5,
-      "investigation" : 0,
-      "medicine" : 1,
-      "nature" : 3,
-      "perception" : 7,
-      "performance" : 2,
-      "persuasion" : 5,
-      "religion" : 0,
-      "sleightOfHand" : 4,
-      "stealth" : 7,
-      "survival" : 4
-    },
-    "sheet" : {
-      "armorClass" : null,
-      "initiative" : 6,
-      "speed" : null,
-      "proficiencyBonus" : null,
-      "passivePerception" : null,
-      "savingThrowProficiencies" : [ "dexterity", "intelligence" ],
-      "hitDice" : "",
-      "temporaryHitPoints" : 0,
-      "deathSaveSuccesses" : 0,
-      "deathSaveFailures" : 0,
-      "inspiration" : false,
-      "spellcastingAbility" : null,
-      "spellSaveDc" : null,
-      "spellAttackBonus" : null,
-      "copper" : 0,
-      "silver" : 0,
-      "electrum" : 0,
-      "gold" : 10,
-      "platinum" : 0,
-      "extraAttacks" : [ {
-        "name" : "მეორე ხანჯალი (Bonus Action; ხელით)",
-        "attackBonus" : "+7",
-        "damage" : "1d4 piercing; DEX ზიანს არ ემატება"
-      } ],
-      "proficienciesAndLanguages" : "Background: Hunter's Apprentice (სტანდარტული წესებით აწყობილი custom background). Skills: Nature, Survival. Tool: Woodcarver's Tools. დამატებითი ენა: Sylvan.\nRogue skills: Acrobatics, Intimidation, Persuasion, Stealth. Elf skill: Perception. Expertise: Acrobatics და Perception; ამ ორ უნარს proficiency bonus ორჯერ ემატება.\nSaving throws: Dexterity, Intelligence. Light armor; simple weapons, hand crossbows, longswords, rapiers, shortswords; Thieves' Tools (+7 Dexterity check-ზე), Woodcarver's Tools (+7 Dexterity ან +3 Intelligence check-ზე; შესაბამის უნარს DM ირჩევს).\nენები: Common, Elvish, Sylvan; Thieves' Cant ცალკე საიდუმლო ნიშნებისა და ჟარგონის სისტემაა.",
-      "extraFeatures" : "თამაშის ბირთვი: მარტო მდგარ მოწინააღმდეგესთან მიახლოება, ხანჯლით შეტევა და პოზიციის შეცვლა. Fancy Footwork მხოლოდ შენს მიმდინარე სვლაზე და მხოლოდ იმ მიზნის opportunity attack-ს არიდებს, რომელსაც melee attack გაუკეთე; მოხვედრა აუცილებელი არ არის. სხვა მტრებთან Disengage ისევ შეიძლება დაგჭირდეს.\n\nSneak Attack: 3d6, ერთხელ თითოეულ სვლაზე და არა თითოეულ დარტყმაზე. ჩვეულებრივი პირობაა advantage, ან მიზანთან 5 ft-ში შენი მოკავშირე, რომელიც incapacitated არ არის; disadvantage არ უნდა გქონდეს. Rakish Audacity დამატებით პირობას იძლევა, თუ მიზნიდან 5 ft-ში ხარ, შენგან 5 ft-ში სხვა არსება არ არის მიზნის გარდა და disadvantage არ გაქვს. შორი მანძილიდან სროლაზე ეს დამატებითი პირობა ვერ შესრულდება.\n\nThreadcut ჯგუფისთვის გასასვლელს ქმნის: CON save-ის ჩავარდნის შემდეგ სხვა პერსონაჟსაც შეუძლია მოწინააღმდეგის გვერდით opportunity attack-ის გარეშე გაიაროს. ამის ფასი არის ერთი Sneak Attack die, სამი შეზღუდული გამოყენება და მოწინააღმდეგის სეივი - არა უფასო დამატებითი ზიანი.\n\nტყის ელფი: speed 35 ft; Darkvision 60 ft; Perception proficiency; Fey Ancestry (advantage charm-ის წინააღმდეგ და მაგიური ძილისგან დაცვა); Trance; Mask of the Wild (მსუბუქად დაფარვაც შეიძლება საკმარისი იყოს დასამალად, თუ ფოთლები, ძლიერი წვიმა, თოვლი, ნისლი ან სხვა ბუნებრივი მოვლენა გფარავს). ეს ავტომატურ invisibility-ს არ იძლევა.\n\nშიში და სხვა მდგომარეობები ჩვეულებრივ მოქმედებს. ემოციური დისტანცია არც frightened-ისგან დაცვაა, არც charm-ისგან სრული იმუნიტეტი და არც მუდმივი advantage.\n\nდამატებითი პირადი მოქმედებები: Shadow Hem — Bonus Action, 2/Long Rest, 10 ft-მდე დამატებითი მოძრაობა და კანონიერი Hide მცდელობა; Borrowed Beat — Reaction, 2/Long Rest, ხილული ახლომდებარე melee შემტევის აცდენისას 5 ft ნაბიჯი. სრული შეზღუდვები Personal Features-შია. Threadcut კვლავ 3/Long Rest-ია. ეს martial techniques-ია, არა spells; მრიცხველების გარდა ეფექტები ხელით წყდება.",
-      "notes" : "BUILD / BALANCE\nLevel 5, Rogue / Swashbuckler, Wood Elf. 27-point buy: STR 8, DEX 15, CON 14, INT 10, WIS 12, CHA 13. Race: +2 DEX, +1 WIS. Level 4 ASI: +1 DEX, +1 CHA. საბოლოო ქულები: 8 / 18 / 14 / 10 / 13 / 14. სხვა უფასო feat ან დამატებითი ASI არ აქვს.\nHP 38 = 8 + ოთხჯერ 5 + ხუთჯერ CON modifier 2. AC 15 = leather 11 + DEX 4. Initiative +6 = DEX 4 + CHA 2. Speed 35 ft; proficiency +3; passive Perception 17; Hit Dice 5d8.\nიარაღები არამაგიურია: ხანჯალი +7 / 1d4+4 piercing; shortbow +7 / 1d6+4 piercing, range 80/320 ft; ნასროლი ხანჯალი +7 / 1d4+4, range 20/60 ft. დედის ხანჯლები quantity 2-ითაა ჩაწერილი; მამამ თავისი მშვილდი მისცა. 20 ცალკეული ისარი აქვს.\n\nTURN / MANUAL EFFECTS\nAttack action = ერთი შეტევა; Extra Attack არ აქვს. ერთ ხელში light melee weapon-ით Attack action-ის შემდეგ მეორე ხელში light melee weapon-ით შეტევა Bonus Action-ს მოითხოვს. Off-hand ზიანი 1d4-ია, არა 1d4+4; Two-Weapon Fighting style არ აქვს. Sneak Attack მხოლოდ ერთ დარტყმას მიეცემა თითოეულ სვლაზე, თუ პირობა სრულდება.\nერთ სვლაზე ერთი Bonus Action: მეორე ხანჯალი ან Cunning Action, არა ორივე. Uncanny Dodge-სა და opportunity attack-ს ერთი Reaction-ის რესურსი აქვთ. Uncanny Dodge მხოლოდ ხილული შემტევის attack-ის ზიანს ანახევრებს, არა ნებისმიერ damage-ს ან saving-throw ეფექტს.\nაპის ჩვეულებრივი weapon attack DEX-ს ზიანს უმატებს; off-hand შეტევა sheet-ის ხელით ჩაწერილი 1d4-ით გააკეთე. Rakish Audacity-ის დამატებითი Sneak Attack პირობა, Fancy Footwork და Threadcut-ის სეივი/ეფექტი ხელით წყდება. სტატების შეცვლისას Initiative override განაახლე DEX + CHA ფორმულით; Threadcut DC არის 8 + proficiency + DEX, ახლა 15.\n\nROLEPLAY\nხანჯლებს ყოველ დასვენებაზე ერთნაირი თანმიმდევრობით წმენდს; მამის ისრებს უსარგებლო სამიზნეს არ ახმარს. გაბრაზებისას ხმას არ სწევს - ზედმეტი სიტყვები ქრება. ფრაზები: \"ისარს მანამდე არ უშვებენ, სანამ იციან, რას მოკლავს.\" / \"დედა ამბობდა, წონასწორობა ხელში კი არა, სუნთქვაშიაო.\" / \"არა. ეს შიში არ არის. უბრალოდ გასასვლელს ვეძებ.\"\nმიზანი: რა-ს მკვლელსა და მის მფარველებს პასუხი მოსთხოვოს. რა-ს ხსოვნა არჩევანსაც ტოვებს; ყველა დიდგვაროვნის ან თანამგზავრის მოკვლა სავალდებულო არ არის. კონკრეტულ გადაწყვეტილებებს მოთამაშე იღებს."
     },
     "featureUses" : {
       "strength" : 0,
