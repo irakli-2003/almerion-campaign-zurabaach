@@ -5657,11 +5657,12 @@
       "charisma" : 0
     },
     "spellcasting" : "NONE",
-    "subclasses" : [ "Arcane Trickster", "Assassin", "Thief" ],
+    "subclasses" : [ "Arcane Trickster", "Assassin", "Thief", "Swashbuckler" ],
     "subclassDescriptions" : {
       "Arcane Trickster" : "A rogue who learns illusion and enchantment spells, with an invisible Mage Hand that can steal and pick locks from a distance. Later you can confuse enemies with your magic. Great for a clever, magical thief.",
       "Assassin" : "Masters of the first strike. You have advantage against creatures that haven't acted yet, and any hit on a surprised creature is a critical. You can also build perfect false identities. The best ambusher.",
-      "Thief" : "The burglar. You use objects, pick locks and steal as a bonus action, climb faster and jump further, and at high level you take two turns in the first round. Ideal for heists and using magic items."
+      "Thief" : "The burglar. You use objects, pick locks and steal as a bonus action, climb faster and jump further, and at high level you take two turns in the first round. Ideal for heists and using magic items.",
+      "Swashbuckler" : "არამაგიური, მოძრავი დუელისტი. Fancy Footwork melee შეტევის შემდეგ მიზნის opportunity attack-ს არიდებს; Rakish Audacity CHA-ს initiative-ს უმატებს და განცალკევებულ მოწინააღმდეგესთან ახლო დუელში Sneak Attack-ის დამატებით პირობას იძლევა. არ იძლევა Extra Attack-ს, უფასო off-hand damage modifier-ს ან fear immunity-ს. სახელის მიუხედავად, პერსონაჟი შეიძლება ჩუმი და მკაცრიც იყოს. სეივები, გადაადგილების პირობები და subclass-ის სპეციალური ეფექტები მაგიდასთან ხელით წყდება."
     },
     "defaultSpells" : [ ],
     "defaultItems" : [ "rapier", "shortbow", "leather-armor", "thieves-tools" ],
@@ -5903,6 +5904,33 @@
       "subclass" : null,
       "usesPerRest" : 0,
       "shortRestRecharge" : false
+    }, {
+      "level" : 3,
+      "name" : "Fancy Footwork",
+      "subclass" : "Swashbuckler",
+      "description" : "შენს სვლაზე თუ არსების წინააღმდეგ melee attack გააკეთე, ეს არსება სვლის დასრულებამდე შენს წინააღმდეგ opportunity attack-ს ვერ აკეთებს; მოხვედრა აუცილებელი არ არის. სხვა არსებების რეაქციებს არ ბლოკავს. Ranged attack ამ დაცვას არ იძლევა. ხელით გაითვალისწინე გადაადგილებისას."
+    }, {
+      "level" : 3,
+      "name" : "Rakish Audacity",
+      "subclass" : "Swashbuckler",
+      "description" : "Initiative-ს Dexterity modifier-ის გარდა Charisma modifier ემატება (Da-ს ახლა +6 აქვს sheet override-ში). Sneak Attack შეიძლება advantage-ისა და ახლომდებარე მოკავშირის გარეშეც, თუ მიზნიდან 5 ft-ში ხარ, შენგან 5 ft-ში სხვა არსება არ არის მიზნის გარდა და შეტევაზე disadvantage არ გაქვს. Sneak Attack-ის სხვა წესები უცვლელია: finesse ან ranged weapon, ერთხელ თითოეულ სვლაზე. დამატებითი პირობა დისტანციურ სროლას ვერ ეხმარება, რადგან მიზანი 5 ft-ში უნდა იყოს; ამ მანძილზე ranged attack-ს ჩვეულებრივ disadvantage აქვს. თუ disadvantage არ გაქვს და ყველა პირობა შესრულებულია, ranged attack-ზეც შეიძლება იმოქმედოს. პოზიცია და სპეციალური უფლება DM ხელით ამოწმებს."
+    }, {
+      "level" : 9,
+      "name" : "Panache",
+      "subclass" : "Swashbuckler",
+      "description" : "Action: Charisma (Persuasion) check მიზნის Wisdom (Insight)-ის წინააღმდეგ. მიზანს უნდა ესმოდეს შენი ხმა და საერთო ენა. წარმატება მტრულ მიზანზე: 1 წუთით სხვა არსების წინააღმდეგ attack roll-ებზე disadvantage აქვს და სხვა არსების წინააღმდეგ opportunity attack-ს ვერ აკეთებს. ეს ნაწილი წყდება, თუ შენი თანამგზავრი მას შეუტევს ან spell-ით იმოქმედებს მასზე, ან თქვენ შორის მანძილი 60 ft-ს გადააჭარბებს. არამტრული მიზანი წარმატებისას 1 წუთით charmed არის და მეგობრულ ნაცნობად მიგიჩნევს; შენი ან თანამგზავრის მიერ ზიანის მიყენება ამ charm-ს წყვეტს. Charm immunity არამტრული მიზნის charm-ს ბლოკავს. ეფექტი ხელით წყდება; ყველა სხვა რეაქციას არ უკრძალავს."
+    }, {
+      "level" : 13,
+      "name" : "Elegant Maneuver",
+      "subclass" : "Swashbuckler",
+      "description" : "Bonus Action: ამავე სვლაზე შენს შემდეგ Dexterity (Acrobatics) ან Strength (Athletics) check-ზე advantage გაქვს. Attack roll-ზე, saving throw-ზე ან შემდეგ სვლაზე არ ვრცელდება. მეორე ხანჯალსა და Cunning Action-ს იმავე Bonus Action-ს ეცილება."
+    }, {
+      "level" : 17,
+      "name" : "Master Duelist",
+      "subclass" : "Swashbuckler",
+      "description" : "თუ attack roll აცდა, შეგიძლია ხელახლა გააგორო advantage-ით. ერთი გამოყენება Short ან Long Rest-ზე. აპი მხოლოდ გამოყენებას ითვლის; კონკრეტული აცდენის ხელახალი გაგორება ხელით გააკეთე. დამატებით შეტევას არ იძლევა.",
+      "usesPerRest" : 1,
+      "shortRestRecharge" : true
     } ],
     "upgradeTree" : {
       "branches" : [ {

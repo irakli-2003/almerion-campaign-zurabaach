@@ -4104,5 +4104,50 @@
     "pickable" : false,
     "imagePath" : null,
     "overview" : ""
+  }, {
+    "id" : "da-dancers-dagger",
+    "name" : "Dancer's Dagger",
+    "type" : "weapon",
+    "description" : "დედის წყვილი ხანჯლებიდან ერთ-ერთი. ორიგინალში ეს არის ორი პირი, რომლებიც მან ჯერ რა-ს სხეულზე დადო და შემდეგ Da-ს გადასცა. წყვილში ორივე ჩვეულებრივი, არამაგიური dagger-ია: finesse, light, thrown (20/60 ft). განსაკუთრებული ღირებულება მოგონებაა და არა +1 enchantment. Quantity 2 ნიშნავს ორ ხანჯალს.",
+    "valueGold" : 2,
+    "weight" : 1.0,
+    "damage" : {
+      "dice" : "1d4",
+      "type" : "piercing"
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : true
+  }, {
+    "id" : "da-fathers-shortbow",
+    "name" : "Father's Shortbow",
+    "type" : "weapon",
+    "description" : "მამის მოკლე მშვილდი, რომელიც Da-მ რა-ს სიკვდილის შემდეგ მიიღო. ჩვეულებრივი, არამაგიური shortbow: ammunition, two-handed, range 80/320 ft. 1d6 piercing; Dexterity ემატება. Rakish Audacity დისტანციურ სროლაზე Sneak Attack-ის პირობას არ აუქმებს: მისი დამატებითი პირობა მიზნიდან 5 ft-ში ყოფნასა და disadvantage-ის არქონას მოითხოვს.",
+    "valueGold" : 25,
+    "weight" : 2.0,
+    "damage" : {
+      "dice" : "1d6",
+      "type" : "piercing"
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : true
+  }, {
+    "id" : "da-leather-armor",
+    "name" : "Da's Leather Armor",
+    "type" : "armor",
+    "description" : "მოქნილი, არამაგიური ტყავის აბჯარი. Light armor: AC 11 + Dexterity modifier; stealth disadvantage არ აქვს. აპის armorClassBonus 1 ნიშნავს საბაზისო 10-ზე +1-ს, არა AC 1-ს.",
+    "valueGold" : 10,
+    "weight" : 10.0,
+    "armorClassBonus" : 1,
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : true
   } ]
 }

@@ -321,6 +321,13 @@
         "charisma": -1
       },
       "speed": 30
+    },
+    {
+      "id": "sinne-shapeshifter",
+      "name": "Shapeshifter",
+      "description": "A shapeshifter with the Shapechanger ability. Sinne's existing ability scores remain unchanged.",
+      "abilityBonuses": {},
+      "speed": 30
     }
   ]
 }
