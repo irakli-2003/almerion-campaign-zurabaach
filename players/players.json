@@ -3581,26 +3581,38 @@
       "equipped" : false,
       "quantity" : 1
     } ],
-    "spells" : [ ],
+    "spells" : [ {
+      "spellId" : "chill-touch",
+      "rank" : 0,
+      "active" : false
+    }, {
+      "spellId" : "minor-illusion",
+      "rank" : 0,
+      "active" : false
+    }, {
+      "spellId" : "three-fast-stabs",
+      "rank" : 0,
+      "active" : false
+    } ],
     "personalFeatures" : [ {
       "level" : 3,
       "name" : "Threadcut - ძაფის გაწყვეტა",
       "description" : "Homebrew; 3 გამოყენება Long Rest-ზე. ერთხელ შენს სვლაზე, როდესაც melee weapon attack-ით ხვდები და ამ დარტყმას Sneak Attack ეძლევა, ზიანის გაგორებამდე შეგიძლია დახარჯო 1 გამოყენება და დათმო Sneak Attack-ის 1d6. მიზანი აკეთებს Constitution save-ს: DC = 8 + proficiency bonus + Dexterity modifier (ამჟამად 15). ჩავარდნისას შენი მომდევნო სვლის დაწყებამდე ვერ იყენებს რეაქციებს. წარმატებისას რეაქციებს ინარჩუნებს, თუმცა გამოყენება და დათმობილი 1d6 მაინც იხარჯება. მე-5 დონეზე დარჩენილი Sneak Attack არის 2d6; კრიტიკულ დარტყმაზე დარჩენილი ნაწილი ორმაგდება და არის 4d6. ტექნიკა დამატებით Action/Bonus Action/Reaction-ს არ მოითხოვს; არ მუშაობს მშვილდზე ან ნასროლ ხანჯალზე. არ აბრუნებს უკვე გამოყენებულ რეაქციას და არ აუქმებს უკვე გადაწყვეტილ Shield-ს ან სხვა რეაქციას. არ აჩერებს მიზნის მოძრაობას, არ აკარგვინებს იარაღს და არ იწვევს stun-ს. აპი ითვლის მხოლოდ გამოყენებებს; შემცირებულ Sneak Attack-ს, სეივსა და რეაქციის შეზღუდვის დასრულებას DM ხელით ასახავს.",
-      "subclass" : null,
+      "subclass" : "",
       "usesPerRest" : 3,
       "shortRestRecharge" : false
     }, {
       "level" : 3,
       "name" : "Shadow Hem - ჩრდილის კალთა",
       "description" : "Homebrew. Bonus Action; 2 გამოყენება Long Rest-ზე. ჯერ გადაადგილდი 10 ft-მდე და შემდეგ სცადე Hide. ეს 10 ft შენს დარჩენილ walking movement-ს არ ხარჯავს, მაგრამ speed 0-ისას არ მუშაობს; difficult terrain და სხვა შეზღუდვები მოქმედებს. დასამალად ჩვეულებრივი cover/obscurement აუცილებელია; მტრის თვალწინ გაშლილ სივრცეში ვერ გაქრები. გადაადგილება opportunity attack-ს ჩვეულებრივ იწვევს, თუ Fancy Footwork ან სხვა წესი არ გიცავს. ეს უკვე შენი ერთი Bonus Action-ია: იმავე სვლაზე off-hand attack ან მეორე Cunning Action არ შეგიძლია. არ იძლევა invisibility-ს ან შეტევის ავტომატურ advantage-ს. აპი მხოლოდ გამოყენებებს ითვლის; მოძრაობა და Stealth check ხელით წყდება.",
-      "subclass" : null,
+      "subclass" : "",
       "usesPerRest" : 2,
       "shortRestRecharge" : false
     }, {
       "level" : 3,
       "name" : "Borrowed Beat - ნასესხები ტაქტი",
       "description" : "Homebrew. Reaction; 2 გამოყენება Long Rest-ზე. როცა არსება, რომელსაც ხედავ 5 ft-ში, melee attack-ით აგაცილებს, შეგიძლია 5 ft-ით გადახვიდე ხილულ თავისუფალ უჯრაზე, თუ speed 0 არ გაქვს. ეს მოძრაობა მხოლოდ იმ შემტევის opportunity attack-ს არ იწვევს; სხვა მტრებისას ჩვეულებრივ იწვევს. კედელს, ხაფანგს ან სხვა არსებას ვერ გადაკვეთავ. უკვე დაწყებულ multiattack-ს არ აუქმებს: თუ შემდგომი შეტევის range-ში ისევ ხარ, მტერი აგრძელებს. დამატებით შეტევას, უფასო Hide-ს ან დამატებით Reaction-ს არ გაძლევს. Uncanny Dodge-ს იმავე Reaction-ს ეცილება; ერთსა და იმავე რაუნდში ორივეს ვერ გამოიყენებ, სანამ Reaction არ აღდგება. აპი მხოლოდ გამოყენებებს ითვლის.",
-      "subclass" : null,
+      "subclass" : "",
       "usesPerRest" : 2,
       "shortRestRecharge" : false
     } ],
