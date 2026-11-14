@@ -3287,7 +3287,7 @@
       "copper" : 0,
       "silver" : 0,
       "electrum" : 0,
-      "gold" : null,
+      "gold" : 0,
       "platinum" : 0,
       "extraAttacks" : [ ],
       "proficienciesAndLanguages" : "",
