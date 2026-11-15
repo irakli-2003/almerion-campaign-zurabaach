@@ -279,28 +279,10 @@
     "ownerUsername" : "",
     "description" : "",
     "maxHitPoints" : 48,
-    "currentHitPoints" : 42,
+    "currentHitPoints" : 39,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ {
-      "effectId" : "blessed",
-      "name" : "Blessed",
-      "description" : "A faint radiance steadies the target's aim and nerve.",
-      "remainingRounds" : 1,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Tasha's Bless",
-      "expired" : false
-    }, {
-      "effectId" : "burn",
-      "name" : "Burning",
-      "description" : "Flames cling to the target and keep searing it each round.",
-      "remainingRounds" : 1,
-      "damagePerRound" : 3,
-      "healingPerRound" : 0,
-      "source" : "GM",
-      "expired" : false
-    } ],
+    "activeEffects" : [ ],
     "subclass" : "",
     "backstory" : "ბალთაზარი ერთ დროს უბრალო ტავერნის მუსიკოსი იყო, სანამ შემთხვევით მისი ლუთნა ალქიმიკოსის ექსპერიმენტთან ერთად არ აფეთქდა. ადამიანების უმეტესობა ასეთ მოვლენას ტრაგედიად ჩათვლიდა. ბალთაზარმა კარიერად აქცია.\n\nმას შემდეგ ის ქალაქიდან ქალაქში მოგზაურობს, სადაც მისი წარმოდგენები თანაბრად ცნობილია როგორც საოცარი მუსიკით, ისე მცირე მასშტაბის კატასტროფებით. მისი ჯადოსნური ლუთნა, “Thunderkiss”, მელოდიებს აფეთქებად ენერგიად გარდაქმნის, ხოლო მისი ხიბლი იმდენად ძლიერია, რომ მტრები ხშირად ხვდებიან, რომ მოჯადოებულები არიან მხოლოდ მაშინ, როცა უკვე გვიანაა.\n\nხალხი მას სხვადასხვა სახელით იცნობს: ოქროსხმა, ფეიერვერკების მეფე, მუსიკალური უბედურება. თავად კი მხოლოდ ერთს ამბობს:\n\n“თუ კონცერტის შემდეგ არაფერი აფეთქდა, ესე იგი საკმარისად კარგად არ დამიკრავს.” \uD83C\uDFB5\uD83D\uDCA5",
     "castingResource" : null,
@@ -643,14 +625,32 @@
     "currentHitPoints" : 55,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ ],
+    "activeEffects" : [ {
+      "effectId" : "entangled",
+      "name" : "Entangled",
+      "description" : "Roots, webs, or vines hold the target fast.",
+      "remainingRounds" : 1,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Silvan's Entangle",
+      "expired" : false
+    }, {
+      "effectId" : "restrained",
+      "name" : "Restrained",
+      "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
+      "remainingRounds" : 1,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Silvan's Entangle",
+      "expired" : false
+    } ],
     "subclass" : "",
     "backstory" : "Silvan — Latin, meaning \"of the forest.\" \n ჩემი ტყის ასე ადრე დატოვება უცნაურია. \n Პპირდაპირ არავინ შემატყობინა ამ გადაწყვეტილების მიზეზი , მაგრამ უხუცესების \n გამომეტყველებაში ყველაფერი ცხადზე ცხადად ჩანდა.მე რაღაც საზღვარს \n გადავაბიჯე. \n მამაჩემს არ გაუპროტესტებია ეს გადაწყვეტილება \n ეს გასაკვირი არ იყო, მას თითქოს სიტყვების განსაზღვრული რაოდენობა ჰქონდა და \n მათ ზოგავდა. \n მან მასწავლა ტყეში უხმოდ სიარული, თვალთვალი, სცადა ესწავლებინა მოთმინების \n უნარი რომელიც ჩემთვის ასეთ უცხო კონცეფცია იყო. \n მაგრამ როდესაც ცვლილებები დაიწყო მან არ სცადა ჩემი გამოსწორება. \n ის უბრალოდ მაკვირდებოდა \n მე ვერ ვხვდებოდი, თუმცა ბუნებათან ჩემი კავშირი ბავშვობიდანვე უცნაური იყო. \n ცხოველები ჩემს მიმართ ინტერესს გამოხატავენ, თუმცა ეს არ გამოიხატებოდა \n მეგობრობით, ან მტრობით, არამედ თვალთვალით, თითქოს რაღაცას ელოდებოდნენ. \n Პანგრძლივად ტყეში სიარულისას ჩიტები ჩუმდებოდნენ, ცხოველები ჩერდებოდნენ \n და მაკვირდებოდნენ. Პვდაპირველად ასეთი დამოკიდებულება თავს \n განსაკუთრებულად მაგრძნობინებდა, ვფიქრობდი რომ ეს ჩემი განვითარების ნიშანი \n იყო, მაგრამ მალევე დავრწმუნდი, რომ ეს სიმართლეს არ შეესაბამებოდა. Silvan — \n Latin, meaning “of the forest.” \n ელფი რომელიც უხუცესებმა დროზე ადრე, ახსნა განმარტების გარეშე გამოუშვეს მის \n პირველ თავგადასავალზე. \n თავდაპირველად დედაჩემი ამაზე არ ნერვიულობდა, პირიქით როდესაც ჩემში \n იბადებოდა ეჭვები, იგი იყო მათი გაქარწყლების მიზეზი. Პისი დარიგება \n ყოველთვის მშვიდობის მომგვრელი და განმამტკიცებელი იყო. \n თუმცა, დროთა განმავლობაში ისიც დადუმდა \n ჩვენს ტყეში იყო, თითქოს განცალკევებული ხეთა ჯგუფი, რომელსაც თავს \n არიდებდნენ სხვა ელფები, და მასზე არ საუბრობდნენ ერთხელაც,ცნობისმოყვარეობამ მსძლია და სეირნობისას გადავწყვიტა ეს ადგილი \n მომენახულებინა. \n ადგილზე მისვლისას, ვიგრძენი სიმშვიდე და სიჩუმე, რომელიც ამ ადგილს \n დანარჩენი ტყისგან განაცალკევებდა. Პძიმე ჰაერი ,რომელიც თითქოს ჩემს მოსვლას \n აღნიშნავდა. Პოდესაც, უფრო ღრმად შევედი ტყის ამ ნაწილში რაღაც \n ამოუცნობელის მიერ ჩემი შემჩნევის შეგრძნება გამძაფრდა, გული დამიმძიმდა \n თითქოს რაღაც შიგნიდანაც და გარედანაც მაწვებოდა და ერთმანეთთან შეხვედრას \n ცდილობდა. \n ჩემდა საკვირველად არ გავქცეულვარ. \n წამების განმავლობაში პიროვნებასა და ტყეს შორის ბარიერი გაქრა. შევიგრძნობდი, \n ფესვების მოძრაობას, მიწისქვეშ მათ ხლართვას და ზრდისკენ მისწრაფებას. \n და უცებ ეს გაჩერდა \n ან მე მეგონა რომ გაჩერდა \n ამ დღის შემდეგ, უცნაურობისკენ დაიწყო ცვლა. \n თავიდან შევნიშნე პატარა ცვლილებები. Პიდი ხნით მარტო სეირნობისას ფოთლები \n იზრდებოდნენ მათთვის შეუსაბამო ადგილებში, სოკოები ნორმაზე სწრაფად \n ვრცელდებდნენ, ცხოველებმა კი ჩემი გზაკვალის არიდება დაიწყეს. მალევე შევნიშნე \n მამაჩემის ინტერესი იმავე გზაკვალის მიმართ. Პგი მათ იკვლევდა და ამჩნევდა იმას, \n რაც აქამდე მხოლოდ ჩემთვის იყო აშკარა. \n ის არაფერში მადანაშაულებდა \n მაგრამ მან იცოდა. \n ტყის განცალკევებულ ადგილს კიდევ ერთხელ ვესტუმრე. ის გაუარესებულიყო. \n ტოტები ერთმანეთში გადახლართულიყვნენ, ჰაერი კი ისე დამძიმებულიყო რომ \n სუნთქვა სჭირდა. მიწაზე ფეხის დადგმისას შევიგრძენი გულისცემა რომელიც \n მიწიდან მოდიოდა, თუმცა თითწოს მე მეკუთვნოდა. \n ამჯერად შემეშინდა და გავიქეცი. \n თუმცა მემგონი გაქცევა გვიანი იყო, რაღაც უცნობი ახლა მე დამყვებოდა.მხუცესებმა მალევე შენიშნეს ის რასაც მე და მამაჩემი თითქოს ერთმანეთის \n უთქმელად საიდუმლოდ ვინახავდით. მამაჩემი მათთან ერთად იდგა, როდესაც ეს \n გადაწყვეტილება გამაცნეს. დედაჩემი მოშორებიდან მიყურებდა. \n ყველამ ვიცოდით, რომ ადათ-წესების მიხედვით ჩემს პირველ თავგადასავლამდე \n დეკადები მაშორებდა. მაგრამ არავის უკამათია. \n მე ვიცნობდი მამაჩემის ბუნებას და ეს მოსალოდნელიც იყო, თუმცა იმაზე მეტად \n მატკინა მისმა მდუმარებამ ვიდრე წარმოვიდგენდი. წამოსვლამდე იგი დაშორდა \n უხუცესებს და ხელში სანადირო ხმალი გადმომცა. საშუალო ზომის, კარგად \n მოვლილი ხმალი, მუქი ხის სახელურით. მასზე ჩემთვის კარგად ნაცნობი, თუმცა \n სხვებისთვის შეუმჩნეველი ნიშნები იყო ამოფიტრული, რომლის საშუალებითაც \n მამაჩემი მის ხმარებას მასწავლიდა. \n “გადაადგილება გააგრძელე” - ბოლო სიტყვები რომელიც მამაჩემმა მითხრა \n დამშვიდობებისას რომელიც რჩევისა და გაფრთხილებასავით ჩამესმა. \n დედაჩემთან გამომშვიდობება უფრო ალერსიანი იყო. ეტყობოდა რომ არ უნდოდა \n ჩემი გაშვება, თუმცა ეს არ გაუხმოვანებია. ყელზე შემისწორა ბავშვობაში მისივე \n ხელით გაკეთებული ყელსაბამი. მარტივი ტყის ქვიგან გამოყვანილი ფოთლის \n ფორმის კულონი , რომელის დაწნულ ზაფზე ჩამოეკიდა დედაჩემს და ახლა \n გულმოდგინებით ასწორებდა. \n “ადრე თუ გვიან გაგიგებენ”- მითხრა დედაჩემმა და ამით გახდა ერთადერთი \n ადამიანი რომელმაც გაახმოვანა ჩემი ტყიდან გაგდების მიზეზი და ცოტა ხნით მაინც \n ჩემი უთავბოლო ფიქრები დაამშვიდა. \n არ ვიცოდი რა მეთქვა ამიტომ სიტყვისამოუღებლად წამოვედი. ჯერ კიდევ მქონდა \n იმედი რომ ტყე დაუბრუნდებოდა თავის პირვანდელ მდგომარეობას თუმცა, \n არა.ზოგჯერ როდესაც სადმე დიდ ხანს ვჩერდები გაუგებარი ძვრები იწყება. \n მცენარეები ძალიან სწრაფად იზრდებიან , და ცხოველები თითქოს რაღაცას \n ელოდებიან . \n Პვცდილობ, რომ ამაზე არ ვიფიქრო და მივყვები მამაჩემის ბოლო სიტყვებს \n ვაგრძელებ გადაადგილებას. \n",
     "castingResource" : "SPELL_SLOTS",
     "spellSlots" : [ {
       "level" : 1,
       "max" : 4,
-      "current" : 4
+      "current" : 3
     }, {
       "level" : 2,
       "max" : 2,
@@ -965,14 +965,14 @@
     "ownerUsername" : "",
     "description" : "Bounty hunter. Always finishes the hunt.\n\nResources:\n• Mana = revolver chambers. Max 6. Every Sixfold Judgment shot costs 1. The Gravitic Anchor Node refills all six chambers during a long rest — nobody can reload it by hand.\n• Singularity Round: 1 per short rest. Anchor Round: 1 per long rest. Their cooldowns are set to 100 rounds so they cannot be used again in the same fight.\n• Shot save DC (Crushing / Anchor): 13 (8 + proficiency 3 + DEX 2).\n\nPassives:\n• Sneak Attack (rogue, level 5): +3d6 once per turn on a hit with advantage, or when an ally stands next to the target.\n• Bound artifacts — the Sixfold Judgment only works while the Gravitic Anchor Node is attached to him.",
     "maxHitPoints" : 45,
-    "currentHitPoints" : 41,
+    "currentHitPoints" : 35,
     "maxMana" : 7,
     "currentMana" : 7,
     "activeEffects" : [ {
       "effectId" : "effect-greedy",
       "name" : "Greedy",
       "description" : null,
-      "remainingRounds" : 5,
+      "remainingRounds" : 4,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "GM",
@@ -981,10 +981,28 @@
       "effectId" : "blessed",
       "name" : "Blessed",
       "description" : "A faint radiance steadies the target's aim and nerve.",
-      "remainingRounds" : 2,
+      "remainingRounds" : 1,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "Tasha's Bless",
+      "expired" : false
+    }, {
+      "effectId" : "entangled",
+      "name" : "Entangled",
+      "description" : "Roots, webs, or vines hold the target fast.",
+      "remainingRounds" : 1,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Silvan's Entangle",
+      "expired" : false
+    }, {
+      "effectId" : "restrained",
+      "name" : "Restrained",
+      "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
+      "remainingRounds" : 1,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Silvan's Entangle",
       "expired" : false
     } ],
     "subclass" : "",
@@ -1386,6 +1404,24 @@
       "healingPerRound" : 0,
       "source" : "Tasha's Bless",
       "expired" : false
+    }, {
+      "effectId" : "entangled",
+      "name" : "Entangled",
+      "description" : "Roots, webs, or vines hold the target fast.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Silvan's Entangle",
+      "expired" : false
+    }, {
+      "effectId" : "restrained",
+      "name" : "Restrained",
+      "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Silvan's Entangle",
+      "expired" : false
     } ],
     "subclass" : "",
     "backstory" : "\n\nთვითმარქვია რაინდი\n\nჩემი ყველაზე ძველი მოგონება არც სახეა და არც ხმა.\n\nქვის სიცივეა.\n\nმახსოვს, როგორ გამეღვიძა ბაზრის ხის დახლების ქვეშ. წვიმის წვეთები დამპალი ფიცრებიდან მეცემოდა, ხოლო ხელში იმდენად მაგრად ვიყავი ჩაფრენილი გამხმარ პურის ნაჭერს, რომ თითებიდან სისხლი მდიოდა. არ მახსოვს, ვინ მომცა ის პური. არც ის მახსოვს, საერთოდ მყავდა თუ არა ვინმე.\n\n„ეს ქალაქი“ სამეფოს ერთ-ერთი უდიდესი და უძლიერესი ქალაქი იყო. მთელი სამეფოს მბრძანებელი მეფე გახლდათ, მაგრამ თავად „ამ ქალაქს“ გრაფი მართავდა. მის სიტყვას ამ ქალაქში მხოლოდ მეფის ნება აღემატებოდა.\n\nთუმცა „აქაურობა“ ერთი ქალაქი არ ყოფილა.\n\nის ორ სხვადასხვა სამყაროდ იყო გაყოფილი.\n\nგარე წრე ეკუთვნოდა უბრალო ხალხს — გლეხებს, ხელოსნებს, ვაჭრებს, მჭედლებს, მათხოვრებს, ქურდებსა და ჩვენნაირ მიტოვებულ ბავშვებს. აქ ცხოვრება ყოველდღიური ბრძოლა იყო. შიმშილი, სიცივე და ძალადობა ჩვეულებრივი ამბავი გახლდათ.\n\nმაღალი ქვის გალავნის მიღმა კი შიდა წრე იწყებოდა.\n\nიქ ცხოვრობდნენ დიდგვაროვნები, რაინდები, მხედართმთავრები, სწავლულები და ქალაქის ყველაზე მდიდარი ადამიანები.\n\nუბრალო ადამიანს იქ შესვლა ეკრძალებოდა.\n\nნებართვის გარეშე შესულს ზოგჯერ ხელს აჭრიდნენ.\n\nზოგჯერ ენას.\n\nხოლო ზოგჯერ... აღარავინ ხედავდა.\n\nჩვენთვის, ქუჩის ბავშვებისთვის, ის კედლები სხვა სამყაროს საზღვარს ჰგავდა.\n\nვიცოდით, რომელი მცველი აიღებდა ქრთამს და რომელი სიამოვნებით სცემდა ბავშვს მხოლოდ იმიტომ, რომ შეეძლო.\n\nარავინ ოცნებობდა.\n\nოცნება მათთვის იყო, ვისაც ხვალინდელი დღის იმედი ჰქონდა.\n\nჩვენ მხოლოდ კიდევ ერთი გათენების იმედით ვცხოვრობდით.\n\nშვიდი წლის ვიყავი, როცა ჩემი ცხოვრება სამუდამოდ შეიცვალა.\n\nპურის მოპარვის შემდეგ ქალაქის მცველები გამომეკიდნენ. ბევრი სირბილისა და ძრომიალის შემდეგ ძლივს თავი დავაღწიე მათ.\n\nშემთხვევით ნახევრად ღია კარში შევძვერი...\n\nდა როცა სირბილი შევწყვიტე, მივხვდი, სად აღმოვჩნდი.\n\nშიდა წრეში.\n\nყველაზე მაღალ ხეზე მოვკალათდი და მაშინ ფოლადის ხმაური გავიგონე.\n\nჩემ წინ უზარმაზარი საწვრთნელი ეზო გადაიშალა.\n\nათეულობით ხალხი მიდი-მოდიოდა — ოსტატები, რაინდები, ახალბედები თუ უკვე გამოცდილები. მათი წვრთნების ყურება ჩემთვის ხელოვნება იყო.\n\nიმ დღეს მზის ჩასვლამდე იქიდან ვერ მოვწყდი.\n\nიმ ღამით კი, ძილის ნაცვლად, მდინარის ნაპირზე სწორი ტოტი ვიპოვე.\n\nხელში ისე დავიჭირე, როგორც იმ რაინდებს ეჭირათ მახვილი.\n\nდა ვცადე მათი მოძრაობების გამეორება.\n\nმეორე დღეს კვლავ მივედი.\n\nმერეც.\n\nდა ამის შემდეგ თითქმის ყოველდღე.\n\nდილით გადარჩენისთვის ვიბრძოდი.\n\nსაღამოს კი საიდუმლო ადგილს ვპოულობდი, საიდანაც საწვრთნელ მოედანს ვხედავდი.\n\nღამით მარტო ვვარჯიშობდი.\n\nვაკვირდებოდი მათ და ცოდნას ვიპარავდი... თუკი ამას ქურდობა ერქვა.\n\nთვეები გადიოდა და ვერც კი მივხვდი, ისე დავიწყე მათთან ერთად სწავლა.\n\nარა მოედანზე...\n\nარამედ ჩრდილებიდან.\n\nერთ დილას კი... კარგად ვერ დავიმალე. მათი ცქერით აღფრთოვანებულს ტოტი ჩამომიტყდა და ხმაურიანად დავეცი მიწაზე.\n\nროცა გონს მოვედი, მბზინავ, მზისამრეკლავ აბჯრებში ჩაცმული ხალხი მიყურებდა.\n\nუცებ მცველები მოვარდნენ, ერთი-ორი ჭკუის სასწავლებელი მომდეს, ქეჩოში ხელი ჩამავლეს და მმართველთან მიმაბრძანეს.\n\nროცა „მმართველის“ დარბაზში შემაგდეს, სახეზე სისხლი ჩამომდიოდა.\n\nდარბაზი აღშფოთებით აივსო.\n\n„მმართველმა“ მკითხა, ვინ ვიყავი.\n\nმეც დაუმალავად ავუხსენი ყველაფერი. ისედაც ცხადი იყო, რომ გარე წრის მათხოვართან ჰქონდათ საქმე.\n\nპური რომ მექურდა, ხელს მომაჭრიდნენ, მაგრამ მე აქ მხოლოდ ცოდნას ვიძენდი.\n\nცოდნისა და ინფორმაციის ქურდობისთვის თავს მომაჭრიდნენ, ვიცოდი.\n\nდა როდესაც მმართველს ჩემი თავი ჯალათისთვის უნდა გადაეცა, მისი უფროსი ქალიშვილი წამოდგა დარბაზში.\n\nჩემს ირგვლივ ისე შემოიარა, თითქოს ცხენს ათვალიერებდა.\n\nმამამისს მიაპყრო თვალები და ბრძანებით უთხრა. პატარა საქალბატონე, რომელიც ალბათ თორმეტი წლის იქნებოდა, ამბობდა, რომ ჩემი სიკვდილი ფუჭი ხარჯი იქნებოდა. ყველა მისი თანატოლი მასზე ძლიერი იყო, ჩემთან, სუსტთან, ვარჯიში კი უფრო მეტ სიამოვნებას მოუტანდა.\n\nთავიდან მმართველმა იუარა, მაგრამ როდესაც პატარა საქალბატონემ დაჟინებით დაიწყო მოთხოვნა, სცენების დადგმა და ტირილი, რასაც მისი ათი წლის ძმაც აჰყვა, მათ სურვილს ვერც ერთი მაღალმთავარი ვერ შეეწინააღმდეგა.\n\nიმ დღიდან მმართველის ვაჟისა და ქალიშვილის პირად სავარჯიშო თოჯინად ვიქეცი. თან მათ იარაღებს ვწმენდდი, დარბაზსა და საბრძოლო მოედანს ვალაგებდი. ყველა ბინძურ საქმესაც მე მავალებდნენ.\n\nსიკვდილს გადავურჩი, მაგრამ მათი საკუთრება გავხდი და თავისუფლება დავკარგე.\n\n\nასე გადიოდა დრო.\n\nორ წელიწადში, როდესაც ათ წელს გადავაცილე, თავადიშვილმა გოგონამ მალევე დაკარგა საბრძოლო ხელოვნების მიმართ ინტერესი და ხშირად აღარ სტუმრობდა სავარჯიშო დარბაზებს. იზრდებოდა, მშვენდებოდა, უფრო ელეგანტური ხდებოდა და ნამდვილ დიდგვაროვან ქალბატონს ემსგავსებოდა.\n\nაი, მისი ძმა კი უბედურის ერთი იყო. სულ იმას მაძახებდა: „მე გიხსენი და ჩემი მონა ხარო.“ ასაკთან ერთად მწვრთნელებმა და დამკვირვებლებმა ჩემს გამეტებასაც უმატეს. ისე მიმეტებდნენ ვარჯიშის დროს, რომ ხანდახან სისხლიც მსდიოდა, მაგრამ მე, როგორც მონას, არ მქონდა უფლება დიდგვაროვანის მშვენიერი სახე შემეწითლა. მხოლოდ გაქცევის, აცილების, იარაღის დახვედრის ან არიდების უფლება მქონდა, ისიც იშვიათად.\n\nკიდევ ორ წელში, როცა მე თოთხმეტ წელს ვითვლიდი, თავადიშვილები კი უკვე თექვსმეტი-თვრამეტი წლისანი იყვნენ, მე უკვე ყველა ტაქტიკა, ყველა მოძრაობა, ყველა შეტევა, თავდასხმა თუ თავდაცვა შესწავლილი მქონდა. მაგრამ აბა ჩემს შესაძლებლობებს როგორ გავამხელდი იმ ხალხის წინაშე, ვისთვისაც არაფრის დაშავების უფლება არ მქონდა? ამიტომ, როცა დრო მქონდა, ყოველთვის მარტო ვვარჯიშობდი და დროს არ ვკარგავდი.\n\nკიდევ ორ წელიწადში უკვე ტკივილში, ფოლადსა და ოფლში გამოჭედილი ვაჟკაცი ვიყავი და არა ის ბავშვი, რომელიც პურს ქურდობდა ოდესღაც. მაგრამ მაინც, შიმშილით დაღლილს, თავისუფლად მერჩივნა ერთ დროს ხეტიალი, ვიდრე აქ მდიდრების შემხედვარე დამცირებების ატანა და გამოკეტილად ყოფნა.\n\nსახელი არ გამაჩნდა. ყველა იმას მეძახდა, რაც მოესურვებოდათ.\n\nერთხელ ახალგაზრდა ქალბატონმა მასთან ერთად ბიბლიოთეკაში მიმიწვია. ძველ ენებს სწავლობდა. ზუსტად იქ, ძველი ენის ერთ-ერთ წიგნში, ამოვიკითხე სიტყვა „ლავენოს“, რაც მოქნილებასა და თავისუფლებას ნიშნავდა და ამავდროულად განდიდებული, ჯადოქრული მიმართვით გამოირჩეოდა. არავინ იცის, ვის მიმართებაში იხმარებოდა ძველად ეს სიტყვა.\n\n„ახალგაზრდა ქალბატონმა“ ღიმილით შემომხედა და მითხრა, რომ დღეიდან ჩემი სახელი ეს სიტყვა იქნებოდა, რადგან გრძნობდა, რომ რეალურად თავისუფლება მწყუროდა.\n\nერთ დღეს, როდესაც მმართველის დარბაზები სტუმრებით აივსო და ცენტრში პატარა კოლიზეუმი მოაწყვეს მისი ქალიშვილის მეოცე დაბადების დღის აღსანიშნავად, მის უმცროს ვაჟს თავის გამოჩენა მოუნდა ყველას წინაშე. თან ახალგაზრდა ლორდი სასმელმა შეახოშიანა და მამას უთხრა, რომ სტუმრების საპატივსაცემოდ დუელი უნდა გაემართა.\n\nმეტოქედ კი მე ამომირჩია.\n\nბრძოლის დროს თავს ვიკავებდი, რომ არ მევნო მისთვის და თავი არ დამეღუპა, მაგრამ სტუმრები აშკარად უკმაყოფილოები იყვნენ.\n\nმმართველმა ბრძოლა შეგვაწყვეტინა და პირადად მომმართა, რომ მეც შესაბამისად მებრძოლა, რათა მის ვაჟს თავისი ვაჟკაცობა და ცოდნა სრულად გამოევლინა.\n\nმე იგი დავამარცხე.\n\nდა როდესაც დამარცხებულმა ჩემი თავი მოსთხოვა მამამისს ლანგარზე, მისმა უფროსმა ქალიშვილმა და ჩემმა მხსნელმა კიდევ ერთხელ გადამარჩინა. დაარწმუნა მამა, რომ მე მხოლოდ ბრძანებას ვასრულებდი და სიკვდილს არ ვიმსახურებდი.\n\nრაკი იმ დღეს მისი დაბადების დღე იყო, გამიმართლა.\n\nმაგრამ ვიცოდი, დიდი ხანი აღარ დამრჩენოდა სიცოცხლე.\n\nროცა ახალგაზრდა ლედიმ მეორედ მიხსნა სიკვდილს, სწორედ იმ დღიდან შევხედე მას სხვა თვალით. ის აღარ იყო უბრალოდ დიდგვაროვანი. ის ჩემთვის ბევრად მეტს ნიშნავდა.\n\nასე დავახლოვდით და ჩვენი უბიწო, პლატონური, წმინდა სიყვარული ძლიერდებოდა.\n\nიმ დღის შემდეგ იგი ხშირად მხვდებოდა მაშინ, როცა არავინ გვხედავდა. არასოდეს მიყურებდა, როგორც მსახურს.\n\nპირველად ცხოვრებაში ვიგრძენი, რომ ვიღაც ადამიანს მხედავდა...\n\nდა არა საკუთრებას.\n\nარასოდეს დამავიწყდება მისი სიტყვები:\n\n„შენ ხარ ჩემთვის ნამდვილი რაინდი და მებრძოლი. უბრალოდ ამ სამყაროს ამის დანახვა არ შეუძლია.“\n\nიმ დღის შემდეგ უფრო მეტხანს მეფიქრებოდა მასზე და მის სიტყვებზე.\n\nროდესაც ჩვიდმეტი წლის გავხდი, ახალგაზრდა გრაფთან შებრძოლებიდან ზუსტად ერთი წლის შემდეგ, ახალგაზრდა ლედი, რომელიც ახლახან ოცდაერთი წლის გამხდარიყო, ბოლოჯერ ვნახე, როდესაც ერთ-ერთ შუახნის თავადზე უნდა გაეთხოვებინათ, რაღა თქმა უნდა, პოლიტიკური და ქონებრივი მიზნებით.\n\nბოლოჯერ ვნახე იგი და ამ ამბით მან სიცოცხლე გამომასალმა... სიცოცხლეს, რომელიც უკვე ორჯერ შემინარჩუნა.\n\nჩვენი ბოლო შეხვედრის ღამე იყო.\n\nმან თავისი მახვილი იშიშვლა, მთვარის შუქზე მოელვარე, და ყველასგან უჩუმრად რაინდად მაკურთხა.\n\nარც დამსწრეები, არც მეფე, არც მატიანე, არც გრაფი, ლორდი თუ მსახური... ირგვლივ არავინ იყო. მხოლოდ ჩვენ და მთვარის შუქზე მოელვარე მისი მახვილი.\n\nცალ მუხლზე ჩაჩოქილს მახვილი ჯერ ერთ მხარზე შემახო, შემდეგ მეორეზე, და თან მისი ცრემლები ფოლადს ეხეთქებოდნენ.\n\nბევრი რამის ახსნა მინდოდა. მასთან ერთად გაქცევაც მინდოდა. უამრავი რამ მქონდა მისთვის ასახსნელი და გასამხელი — გრძნობები და ფიქრები.\n\nმაგრამ მან არ მომისმინა.\n\nროგორც კი რიტუალი დაასრულა, მაშინვე გაუჩინარდა.\n\n\nიმ დღის მერე ჩემს ქალბატონს უიშვიათესად ვნახულობდი. თუ გიგანტური ქალაქის ერთი ბოლოდან მეორეში თავისი გომბეშო მეუღლე მოაბრძანებდა ხოლმე მმართველთან შესახვედრად...\n\nდა ყოველ ჯერზე უფრო და უფრო სუსტი ჩანდა, უფრო და უფრო დაღლილი და განადგურებული. უემოციო, ნაცემიც კი... თვალებში სული აღარ ედგა და არც მესაუბრებოდა. თვალს ისე მარიდებდა, თითქოს არ ვარსებობდი.\n\nროდესაც თვრამეტი წლის შევიქენი, მმართველის პალატებში, როგორც იქნა, ათი წლის შრომისა და ტკივილის შემდეგ, ყველას თვალში შესაბამისი პატივისცემა მოვიპოვე და ახლა მწვრთნელად მაქციეს.\n\nმმართველს დიდად მოვწონდი, მის ვაჟს — არც ისე, მაგრამ ბავშვობის წყენები დავივიწყეთ და თითქოს ყველაფერი რიგზე იყო. გარდა იმისა, რომ ჩემს ქალბატონს ვერ ველეოდი.\n\nერთხელაც იგი აღარ დაბრუნდა. არც მამასთან, არც ძმასთან, არც ჩემთან...\n\nმხოლოდ ამბავი მოვიდა მასზე, რომ თურმე მოღალატე ცოლი გამომდგარა გომბეშო გრაფისთვის და იგი სიკვდილით დაუსჯია ქმარს.\n\nაქ კი მმართველი ვერაფერს გახდებოდა, რადგან ქალიშვილი უკვე მას აღარ ეკუთვნოდა და, თან, მოტანილი ამბების მიხედვით, ვის რაში სჭირდება მოღალატე, ანდა უნამუსო ცოლი თუ ქალიშვილი...\n\nახალგაზრდა ბატონმა თავისი დის გარდაცვალება ვერ გადაიტანა, რადგან იგი უზომოდ უყვარდა. არ სჯეროდა, რომ მისი და უბრალო მეძავად შერაცხეს და თავიდან მოიშორეს...\n\nთვითონ კი მამამისის სილაჩრე ამხეცრებდა, თან საკუთარი უსუსურობა თუ კანონით შებოჭილობა თრგუნავდა.\n\nიმ ღამეს ბედისწერა საკუთარ ხელში ავიღე.\n\nმე ხომ უბრალოდ მსახური ვარ... ლაქა, აჩრდილი, საკუთრება...\n\nმაგრამ დამატებული ამ ყველაფერს — მოულოდნელი საფრთხეც, რომელსაც ვერავინ ამოიცნობს.\n\nმივაშურე გომბეშო დიდგვაროვანის საბინადროებს ღამის ბნელში და მის პალატებს მივაგენი.\n\nარ მინდოდა მისი ძილში მოკვლა, ისე, როგორც გაიძვერებს სჩვევიათ.\n\nმინდოდა ეღიარებინა.\n\nმინდოდა ეთხოვა, რომ არ მომეკლა.\n\nიქნებ პატიებაც ეთხოვა...\n\nმაგრამ მე ჩემი გადაწყვეტილება უკვე მიღებული მქონდა.\n\nშეეღვიძა თუ არა, ყელთან ხანჯალი მივაბჯინე და საძინებლიდან მძევლად მოვიპარე.\n\nერთხანს ფხიზლად მჭირდებოდა, რომ მცველები არ გამომყოლოდნენ. შემდეგ კი კეფაში ჩარტყმით მოვთიშე და ცხენით მმართველის სასახლეში მივათრიე.\n\nშუა დარბაზში დავაგდე და მმართველს დავუძახე!\n\nმმართველი, მამა, ძმა და ყველა, ვინც ახლომახლო იმყოფებოდა, გამოცვივდნენ და გაოცებულები უყურებდნენ სეირს.\n\nლაჩარს ვაღიარებინე, რომ ცოლი ძალადობაში შემოაკვდა.\n\nგამწარებულს ისე მეჭირა ეს გაკოჭილი ნაბიჭვარი, რომ ვერც კი ინძრეოდა.\n\nვიცოდი, რომ მეფის კაცი იყო და ამ ქალაქის მმართველიც კი ვერ შემიწყალებდა ამ საქციელის შემდეგ.\n\nმაგრამ მე სიმართლე მაინტერესებდა.\n\nდა მხოლოდ სიმართლე.\n\nყელქვეშ ხანჯალი ისე ნელა გამოვუსვი, რომ ყველა ძარღვი სათითაოდ დახეთქილიყო და რაც შეიძლება ნელა მომკვდარიყო.\n\nმერე მისი ჯერ კიდევ მოფართხალე სხეული პირქვე დავანარცხე და ჩემს ბატონს მივუტრიალდი.\n\nახალგაზრდა ბატონი ჩემსკენ გამოექანა და ლახვარი მუცელში ჩამასო.\n\nიმ მომენტიდან აღარაფერი მახსოვს.\n\nროგორც გავიგე, ჩემი თავი გვამად გამოუცხადებიათ, ახალგაზრდა ბატონი კი გმირად შეურაცხავთ.\n\nმე მკვდრების ეტლით, სასახლის უკანა კარიდან, მთლიანად ქალაქის გარეთ გამომათრიეს...\n\nმან იცოდა, რომ ვსუნთქავდი, მაგრამ სიკვდილს არ მისცა ჩემი თავი.\n\nმამა-მთავარიც გააცურა, მეფეც და ყველა თავადიც.\n\nმას ძალიან უყვარდა საკუთარი და\n",
@@ -1741,35 +1777,35 @@
     "ownerUsername" : "",
     "description" : "Tiefling cleric. Casts with spell slots (level 5: 4 × 1st, 3 × 2nd, 2 × 3rd), recovered on a long rest.\n\nPassives:\n• Healing Bonus: +2 HP on every healing spell she casts (the DM adds it; the app's flat healing values already use her numbers without it).\n• Passive Perception: 14\n• Passive Insight: 16\n• Passive Investigation: 9\n\nOnce per long rest: Divine Embrace.",
     "maxHitPoints" : 45,
-    "currentHitPoints" : 39,
+    "currentHitPoints" : 31,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ {
       "effectId" : "effect-charity",
       "name" : "charity",
       "description" : null,
-      "remainingRounds" : 8,
+      "remainingRounds" : 7,
       "damagePerRound" : 0,
       "healingPerRound" : 1,
       "source" : "GM",
       "expired" : false
     }, {
-      "effectId" : "blessed",
-      "name" : "Blessed",
-      "description" : "A faint radiance steadies the target's aim and nerve.",
+      "effectId" : "entangled",
+      "name" : "Entangled",
+      "description" : "Roots, webs, or vines hold the target fast.",
       "remainingRounds" : 1,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
-      "source" : "Tasha's Bless",
+      "source" : "Silvan's Entangle",
       "expired" : false
     }, {
-      "effectId" : "burn",
-      "name" : "Burning",
-      "description" : "Flames cling to the target and keep searing it each round.",
+      "effectId" : "restrained",
+      "name" : "Restrained",
+      "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
       "remainingRounds" : 1,
-      "damagePerRound" : 3,
+      "damagePerRound" : 0,
       "healingPerRound" : 0,
-      "source" : "GM",
+      "source" : "Silvan's Entangle",
       "expired" : false
     } ],
     "subclass" : "",
@@ -1778,7 +1814,7 @@
     "spellSlots" : [ {
       "level" : 1,
       "max" : 4,
-      "current" : 3
+      "current" : 2
     }, {
       "level" : 2,
       "max" : 3,
@@ -2919,6 +2955,24 @@
       "healingPerRound" : 0,
       "source" : "Tasha's Bless",
       "expired" : false
+    }, {
+      "effectId" : "entangled",
+      "name" : "Entangled",
+      "description" : "Roots, webs, or vines hold the target fast.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Silvan's Entangle",
+      "expired" : false
+    }, {
+      "effectId" : "restrained",
+      "name" : "Restrained",
+      "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Silvan's Entangle",
+      "expired" : false
     } ],
     "subclass" : "School of Evocation",
     "backstory" : "Raised in a human village, he grew up surrounded by people who loved him, even if they occasionally wished he were a little less inventive. He was a kind boy, curious about everything, and somehow always in trouble.\n\n His magic first appeared without warning and rarely at a convenient moment. Once, he accidentally turned himself invisible, causing the entire village to search for him for two days. He spent much of that time trying to explain that he was right there, but frightened villagers hearing a voice from nowhere only made the situation worse.\n\n Other incidents followed. The final straw came when a neighbour’s cow began floating above its enclosure. After they managed to get it down, he admitted that perhaps he needed help. The village agreed with unusual enthusiasm. Everyone contributed what they could to send him to a magic school. The cow’s owner contributed first.\n\n At school, he learned to recognise and direct the magic that had always come naturally to him. He was an eager student, though his enthusiasm often outlasted his energy. He would practise late into the night, forget to sleep, and spend the next day exhausted, struggling with spells he could normally manage easily. Despite repeated warnings from his teachers, he still treats “just one more attempt” as a perfectly reasonable bedtime.\n\n As he gained control of his powers, another question began occupying his thoughts: where had he come from? He loved his village and considered its people his family, but he had never known another elf well. He wanted to find his own kin, learn about their lives, and perhaps discover something about his birth family.\n\n Now he has set out into the world, carrying his training, his curiosity, and a firm promise to write home. He is happy to travel with others and quick to offer help—occasionally before checking whether he actually knows how.",
@@ -3349,6 +3403,24 @@
       "healingPerRound" : 0,
       "source" : "Tasha's Bless",
       "expired" : false
+    }, {
+      "effectId" : "entangled",
+      "name" : "Entangled",
+      "description" : "Roots, webs, or vines hold the target fast.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Silvan's Entangle",
+      "expired" : false
+    }, {
+      "effectId" : "restrained",
+      "name" : "Restrained",
+      "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Silvan's Entangle",
+      "expired" : false
     } ],
     "subclass" : "Arcane Trickster",
     "backstory" : "Escaped Subject. Neri does not remember a time before the laboratory - only the number R-17, the sound of the cage latch, and the doctors writing down how he laughed when they hurt him. Somewhere in there the graft took: gray fur, big ears, a thin tail he still tries to hide in his coat.\n\nHe got out through a laundry chute with a blue bead in his cheek, half of a key and a page torn from his own file. He never found the door the key belongs to. He keeps it anyway.\n\nHe jokes when he is scared, which is most of the time. He is loyal to whoever does not put him in a box. He hides his pain well enough that people forget it is there.\n\nLatch - sometimes a second, flatter voice answers for him. Neri calls it Latch. It is roleplay only: no mechanics, just the part of him that still counts the bars.\n\nContact: Moss, a courier who smuggled him his first deck of cards and asks no questions.\nHook: a shipment stamped with the laboratory seal (a closed eye inside a flask) is on its way to a riverside hospice. Neri wants to know what - or who - is inside.\n\nKeepsakes: a blue glass bead, a broken key, the lab record.",
@@ -3678,6 +3750,24 @@
       "healingPerRound" : 0,
       "source" : "Tasha's Bless",
       "expired" : false
+    }, {
+      "effectId" : "entangled",
+      "name" : "Entangled",
+      "description" : "Roots, webs, or vines hold the target fast.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Silvan's Entangle",
+      "expired" : false
+    }, {
+      "effectId" : "restrained",
+      "name" : "Restrained",
+      "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Silvan's Entangle",
+      "expired" : false
     } ],
     "subclass" : "The Great Old One",
     "backstory" : "ამნეზია აქვს, თუმცა ეს დიდად არ აწუხებს, სხვებს დიდად არ ენდობა. \nchaotic neutral\nსისუსტე: Can I pet the dawg? - აქვს disadvantage on perception checks, she's oblivious to dangers\nძლიერი მხარე: კარგი მატყუარაა.\nმისია:  ცდილობს გაიგოს ვინაა, აღიდგნოს დაკარგული მოგონებები",
@@ -3991,7 +4081,25 @@
     "currentHitPoints" : 37,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ ],
+    "activeEffects" : [ {
+      "effectId" : "entangled",
+      "name" : "Entangled",
+      "description" : "Roots, webs, or vines hold the target fast.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Silvan's Entangle",
+      "expired" : false
+    }, {
+      "effectId" : "restrained",
+      "name" : "Restrained",
+      "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Silvan's Entangle",
+      "expired" : false
+    } ],
     "subclass" : "Swashbuckler",
     "backstory" : "იყო და და იყო რა\n\nმე ვერცხლისფერ ტყეებში დავიბადე, სადაც ქარი აქუმარქსის ხეებს შორის სიმღერებს ატარებდა. მამაჩემმა მასწავლა მონადირის მოთმინება: როგორ იდგა აზრი ყოველი ნაბიჯის უკან, როგორ ატარებდა ყოველი ისარი პასუხისმგებლობას და როგორ აფასებდა ყველაზე პატარა არსებაც კი საკუთარ სიცოცხლეს.\n\nდედაჩემმა მონეტის მეორე მხარე დამანახა. ის მთვარის შუქზე მდინარის წყალივით მოძრაობდა; ხელში ორი ხანჯლით ცეკვავდა, თითქოს თვით ბრძოლასაც კი შეეძლო ლამაზი ყოფილიყო. მისგან ვისწავლე სუნთქვა, წონასწორობა და ცოცხალ არსებებში დამალული მშვიდი სილამაზე.\n\nმიუხედავად იმისა, რომ ეს გაკვეთილები ვისწავლე, იშვიათად ვგრძნობდი იმას, რასაც სხვები. სიხარული, მწუხარება, შიში - ჩემი სხეული ამ ყველაფერს ისევე ისხლეტდა, როგორც ფოთოლი ცივი წვიმის წვეთებს. მხოლოდ რა აღწევდა ჩემამდე. ის ფერმერების ქალიშვილი იყო: ფრჩხილებს ქვეშ მიწა და ხმაში ხალისი. ბავშვობიდან ტყეებში ერთად დავხეტიალობდით და, როდესაც ის ლაპარაკობდა, სამყარო ნაკლებად შორეული მეჩვენებოდა. მაშინ სიყვარული არ მესმოდა; მხოლოდ ის დუმილი მეუცხოვა, რომელიც მისი წასვლის შემდეგ დარჩა.\n\nპირველად ემოცია ვიგრძენი მაშინ, როცა რა დავკარგე. აქუმარქსში სტუმრად მყოფი დიდგვაროვანი მოვიდა - მთვრალი კაცებითა და მშიერი თვალებით. ჩვენს სოფელს ისე ეპყრობოდა, თითქოს მის გასართობად აშენებული ცირკი ყოფილიყო. რა მის წინ დადგა, როდესაც მან ერთ-ერთ მოხუცს გაარტყა. უშიშარი იყო მოცინარი მცველებით გარშემორტყმულიც კი.\n\nხმა უფრო მახსოვს, ვიდრე თავად მომენტი: ფოლადის ჭრიალი, ჩიტების უეცარი სიჩუმე, მისი სხეული ჩემს ხელებში. ამ სიჩუმეში საკუთარ თავში რაღაც შევიცანი. არა სევდა. არც მწუხარება. რისხვა - მკვეთრი და ცხელი. იმდენად სასტიკი, რომ ჩემს გარშემო მთელ სამყაროს დაახრჩობდა.\n\nროდესაც მშობლებმა მიწაზე დაჩოქილი მიპოვეს, რა-ს სისხლით ხელებზე, არაფერი უთქვამთ. მამაჩემმა თვალებში შემომხედა და დაინახა, რომ ნადირობა უკვე დაწყებული იყო. მან თავისი მოკლე მშვილდი უსიტყვოდ მომცა ხელში. დედაჩემმა ჩემს წინ დაიჩოქა და თავისი ორი ხანჯალი რა-ს სხეულზე დადო, სანამ მე გადმომცემდა.\n\nარცერთს უცდია ჩემი შეჩერება. მათ ესმოდათ ის, რის აღსაწერადაც ჯერ სიტყვები არ მქონდა: ჩემი ნაწილი რა-სთან ერთად მოკვდა. რაც დარჩა, ერთ დღეს სიკვდილს მოუტანდა მათ, ვინც გვირგვინებსა და აბრეშუმს ატარებს.\n\nიყო და და აღარ იყო რა",
     "castingResource" : null,
