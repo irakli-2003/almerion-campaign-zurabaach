@@ -1276,6 +1276,20 @@
       },
       "equipped" : false,
       "quantity" : 1
+    }, {
+      "itemId" : "item-vaeraks-compass",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "item-moon-necklace",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
     } ],
     "spells" : [ {
       "spellId" : "blade-oath",

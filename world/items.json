@@ -4442,7 +4442,7 @@
   }, {
     "id" : "item-ancestral-sword",
     "name" : "ancestral sword",
-    "type" : "weapon",
+    "type" : null,
     "description" : "Uriels fathers sword",
     "valueGold" : 20,
     "weight" : 4.0,
@@ -4456,24 +4456,42 @@
     },
     "pickable" : true,
     "imagePath" : null,
-    "dualWield" : true,
-    "minRequiredCoreStats" : {
-      "custom" : { },
-      "strength" : 8,
-      "dexterity" : 8,
-      "constitution" : 8,
-      "intelligence" : 8,
-      "wisdom" : 8,
-      "charisma" : 8
+    "overview" : null
+  }, {
+    "id" : "item-vaeraks-compass",
+    "name" : "Vaeraks compass",
+    "type" : null,
+    "description" : "Directs to another similar compass that belonged to Vaeraks grandfather who is better known as \"The first traveller\"",
+    "valueGold" : 0,
+    "weight" : 0.0,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
     },
-    "effects" : [ ],
-    "weaponDamage" : {
-      "dice" : [ {
-        "diceId" : "d12",
-        "count" : 1
-      } ],
-      "typeId" : "slashing",
-      "constant" : 2
-    }
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : false,
+    "imagePath" : null,
+    "overview" : ""
+  }, {
+    "id" : "item-moon-necklace",
+    "name" : "moon necklace",
+    "type" : "gear",
+    "description" : "necklace gifted by luna",
+    "valueGold" : 0,
+    "weight" : 0.0,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : false,
+    "imagePath" : null,
+    "overview" : ""
   } ]
 }
