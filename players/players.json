@@ -1363,28 +1363,10 @@
       "effectId" : "effect-sharpened-scimitar",
       "name" : "sharpened scimitar",
       "description" : null,
-      "remainingRounds" : 5,
+      "remainingRounds" : 4,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "GM",
-      "expired" : false
-    }, {
-      "effectId" : "entangled",
-      "name" : "Entangled",
-      "description" : "Roots, webs, or vines hold the target fast.",
-      "remainingRounds" : 1,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Silvan's Entangle",
-      "expired" : false
-    }, {
-      "effectId" : "restrained",
-      "name" : "Restrained",
-      "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
-      "remainingRounds" : 1,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Silvan's Entangle",
       "expired" : false
     } ],
     "subclass" : "",
@@ -1394,8 +1376,8 @@
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
     "cooldowns" : {
-      "compelled-duel" : 4,
-      "blade-rush" : 3
+      "compelled-duel" : 3,
+      "blade-rush" : 2
     },
     "skills" : {
       "custom" : { },
@@ -2507,16 +2489,7 @@
     "currentHitPoints" : 45,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ {
-      "effectId" : "blinded",
-      "name" : "Blinded",
-      "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
-      "remainingRounds" : 1,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Toren Valebrick's Smoke Canister",
-      "expired" : false
-    } ],
+    "activeEffects" : [ ],
     "subclass" : "Artillerist",
     "backstory" : "Lore\nToren was born into House Valebrick, a wealthy human noble family whose influence came from engineering, foundries, workshops, bridges and machines rather than ancient magical blood. As a child he dismantled clocks, locks and mechanisms because he needed to know why they worked. His grandfather Aldren taught him one principle: \"Open it. Understand it.\"\n\nDuring the Ash Border War, Marianne Bell - the girl Toren loved - was killed in magical warfare in an industrial district. She was not the target. Since then Toren is cold toward magical power and wary of anyone who treats inherited supernatural gifts as proof of superiority. He is fiercely proud of humanity precisely because humans were not the most gifted: they built their advantages. \"Others inherited their advantages. We built ours.\"\n\nGrand Theory of Replication\nToren rejects the word \"magic\". He calls it Arcane Resonance - a natural field that can be measured, stored, transferred and stabilised. Every repeatable magical phenomenon can eventually be reproduced technologically. His key word is \"yet\". Failure response: \"Again.\"\n\nFamily\nEvelyne Valebrick (28), his elegant and politically skilled older sister. Toren understands machines; Evelyne understands people. They exchange notes through Argus, a mechanical messenger owl.\n\nSkills & tools\nSaves CON +6, INT +7. Investigation +5 (machines, traps, mechanisms only), History +3, Insight +1. Tools: Tinker's, Smith's, Thieves' (\"precision access instruments\"), Woodcarver's.\n\nEnergy charges\nInstead of spell slots Toren spends energy capsules: Steam-pressure (L1) and Thermal (L2) for now, Electric and beyond after upgrades. He refills them at the workshop's Resonance Core furnace, which burns any fuel - some more efficiently than others. Rests do not refill them.\n\nValebrick Portable Field Workshop\n~80 x 45 x 30 cm, 32-36 kg, reinforced harness. Drivers, hammers, files, calipers, clamps, resonance testers, wire, plates, ammunition parts, sealed blueprint tubes, a compact hardened-steel anvil and a small forge chamber. Full deployment into a workbench takes 30-60 seconds outside combat. Heavy and awkward in tight spaces or water.\n\nValebrick Resonance Core\nA refined arcane-reactive crystal in a brass stabilisation cage with rotating rings, conductors and regulators. Failure signs: vibration, unstable tone, heat, misaligned rings, blue arcing. A cracked or overcharged core can discharge violently.\n\nBolt Repeater\nStationary single-barrel turret (Eldritch Cannon - Force Ballista). Deploy: action. Fire: bonus action, d20 + ammunition bonus, 30 m, 2d6 force, push 5 ft. AC 8, HP 12, Mending restores 1d6. Takes different ammunition types.\n\nCombat Fabrication (DM-approved homebrew)\n3 per long rest from prepared parts: Emergency Patch, Quick Cover, Special Charge. No permanent weapons, armor or major machines during combat.\n\nDM additions\nIn the storage world he finds a metal bracer covering his left forearm that unfolds into a 25 cm-radius light round shield: it stops projectiles and light weapons but, being so light, does not absorb blunt attacks (Valebrick Folding Bracer).",
     "castingResource" : "ENERGY_CHARGES",
@@ -4027,28 +4000,10 @@
     "ownerUsername" : "",
     "description" : "მამრი ტყის ელფი; სიმაღლე 1.84 მ. მუქი, არეული თმა, დაკვირვებული მზერა და გაცვეთილი ტყავის აბჯარი. ხელში დედის ორი ხანჯალი, ზურგზე მამის მოკლე მშვილდი.\n\nჩუმი დუელისტი: ჯერ აკვირდება ნაბიჯს, სუნთქვასა და წონასწორობას, შემდეგ ახლო მანძილზე ჭრის და პოზიციას იცვლის. არ იყენებს მაგიას, ცეცხლსასროლ იარაღს ან ილუზიებს. მისი მაღალი Charisma მშვიდ თავდაჯერებასა და მკაფიო ნებას აღნიშნავს, არა მხიარულებას.\n\nიშვიათად გრძნობს იმას, რასაც სხვები; ეს პიროვნული თავისებურებაა და არა ემოციების სრული არქონა ან შიშისგან იმუნიტეტი.",
     "maxHitPoints" : 37,
-    "currentHitPoints" : 37,
+    "currentHitPoints" : 33,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ {
-      "effectId" : "entangled",
-      "name" : "Entangled",
-      "description" : "Roots, webs, or vines hold the target fast.",
-      "remainingRounds" : 1,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Silvan's Entangle",
-      "expired" : false
-    }, {
-      "effectId" : "restrained",
-      "name" : "Restrained",
-      "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
-      "remainingRounds" : 1,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Silvan's Entangle",
-      "expired" : false
-    } ],
+    "activeEffects" : [ ],
     "subclass" : "Swashbuckler",
     "backstory" : "იყო და და იყო რა\n\nმე ვერცხლისფერ ტყეებში დავიბადე, სადაც ქარი აქუმარქსის ხეებს შორის სიმღერებს ატარებდა. მამაჩემმა მასწავლა მონადირის მოთმინება: როგორ იდგა აზრი ყოველი ნაბიჯის უკან, როგორ ატარებდა ყოველი ისარი პასუხისმგებლობას და როგორ აფასებდა ყველაზე პატარა არსებაც კი საკუთარ სიცოცხლეს.\n\nდედაჩემმა მონეტის მეორე მხარე დამანახა. ის მთვარის შუქზე მდინარის წყალივით მოძრაობდა; ხელში ორი ხანჯლით ცეკვავდა, თითქოს თვით ბრძოლასაც კი შეეძლო ლამაზი ყოფილიყო. მისგან ვისწავლე სუნთქვა, წონასწორობა და ცოცხალ არსებებში დამალული მშვიდი სილამაზე.\n\nმიუხედავად იმისა, რომ ეს გაკვეთილები ვისწავლე, იშვიათად ვგრძნობდი იმას, რასაც სხვები. სიხარული, მწუხარება, შიში - ჩემი სხეული ამ ყველაფერს ისევე ისხლეტდა, როგორც ფოთოლი ცივი წვიმის წვეთებს. მხოლოდ რა აღწევდა ჩემამდე. ის ფერმერების ქალიშვილი იყო: ფრჩხილებს ქვეშ მიწა და ხმაში ხალისი. ბავშვობიდან ტყეებში ერთად დავხეტიალობდით და, როდესაც ის ლაპარაკობდა, სამყარო ნაკლებად შორეული მეჩვენებოდა. მაშინ სიყვარული არ მესმოდა; მხოლოდ ის დუმილი მეუცხოვა, რომელიც მისი წასვლის შემდეგ დარჩა.\n\nპირველად ემოცია ვიგრძენი მაშინ, როცა რა დავკარგე. აქუმარქსში სტუმრად მყოფი დიდგვაროვანი მოვიდა - მთვრალი კაცებითა და მშიერი თვალებით. ჩვენს სოფელს ისე ეპყრობოდა, თითქოს მის გასართობად აშენებული ცირკი ყოფილიყო. რა მის წინ დადგა, როდესაც მან ერთ-ერთ მოხუცს გაარტყა. უშიშარი იყო მოცინარი მცველებით გარშემორტყმულიც კი.\n\nხმა უფრო მახსოვს, ვიდრე თავად მომენტი: ფოლადის ჭრიალი, ჩიტების უეცარი სიჩუმე, მისი სხეული ჩემს ხელებში. ამ სიჩუმეში საკუთარ თავში რაღაც შევიცანი. არა სევდა. არც მწუხარება. რისხვა - მკვეთრი და ცხელი. იმდენად სასტიკი, რომ ჩემს გარშემო მთელ სამყაროს დაახრჩობდა.\n\nროდესაც მშობლებმა მიწაზე დაჩოქილი მიპოვეს, რა-ს სისხლით ხელებზე, არაფერი უთქვამთ. მამაჩემმა თვალებში შემომხედა და დაინახა, რომ ნადირობა უკვე დაწყებული იყო. მან თავისი მოკლე მშვილდი უსიტყვოდ მომცა ხელში. დედაჩემმა ჩემს წინ დაიჩოქა და თავისი ორი ხანჯალი რა-ს სხეულზე დადო, სანამ მე გადმომცემდა.\n\nარცერთს უცდია ჩემი შეჩერება. მათ ესმოდათ ის, რის აღსაწერადაც ჯერ სიტყვები არ მქონდა: ჩემი ნაწილი რა-სთან ერთად მოკვდა. რაც დარჩა, ერთ დღეს სიკვდილს მოუტანდა მათ, ვინც გვირგვინებსა და აბრეშუმს ატარებს.\n\nიყო და და აღარ იყო რა",
     "castingResource" : null,
