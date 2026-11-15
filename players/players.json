@@ -1620,6 +1620,13 @@
       },
       "equipped" : false,
       "quantity" : 1
+    }, {
+      "itemId" : "item-snake-morningstar-2",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
     } ],
     "spells" : [ {
       "spellId" : "sacred-flame",
