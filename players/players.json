@@ -940,6 +940,13 @@
       },
       "equipped" : false,
       "quantity" : 1
+    }, {
+      "itemId" : "item-umbrella",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
     } ],
     "spells" : [ {
       "spellId" : "gravity-round",

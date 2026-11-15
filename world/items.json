@@ -4478,8 +4478,26 @@
   }, {
     "id" : "item-moon-necklace",
     "name" : "moon necklace",
-    "type" : "gear",
+    "type" : null,
     "description" : "necklace gifted by luna",
+    "valueGold" : 0,
+    "weight" : 0.0,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : false,
+    "imagePath" : null,
+    "overview" : ""
+  }, {
+    "id" : "item-umbrella",
+    "name" : "umbrella",
+    "type" : "gear",
+    "description" : "nowmal wet umprella",
     "valueGold" : 0,
     "weight" : 0.0,
     "damage" : {
