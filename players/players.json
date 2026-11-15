@@ -439,6 +439,38 @@
           "spellAlternatives" : [ ],
           "features" : [ ]
         }
+      }, {
+        "classId" : "ranger",
+        "sourceRequestId" : null,
+        "nodeId" : "resilience-1",
+        "branchName" : "Forest Guardian",
+        "name" : "Spellcasting",
+        "description" : "Learn and cast ranger spells using Wisdom.\nClass training. If already known, this feat is not granted a second time.",
+        "imagePath" : null,
+        "level" : 6,
+        "historical" : false,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 3,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ "poison-spray" ],
+          "spellAlternatives" : [ ],
+          "features" : [ {
+            "level" : 2,
+            "name" : "Spellcasting",
+            "description" : "Learn and cast ranger spells using Wisdom.\nClass training. If already known, this feat is not granted a second time.",
+            "subclass" : null,
+            "usesPerRest" : 0,
+            "shortRestRecharge" : false
+          } ]
+        }
       } ]
     },
     "stats" : {
@@ -558,6 +590,10 @@
       "spellId" : "rootstride",
       "rank" : 2,
       "active" : true
+    }, {
+      "spellId" : "poison-spray",
+      "rank" : 0,
+      "active" : true
     } ],
     "personalFeatures" : [ ],
     "passwordHash" : "d00b4c00c766b28f378c9279cde703687ec07e08d6e59c998590a7788c62bea7",
@@ -566,8 +602,8 @@
     "playerName" : "Elene",
     "ownerUsername" : "",
     "description" : " გარეგნობა: \n სიმაღლე 1.83თმა მონაცრისფრო ქერა, რომელსაც თავისით იჭრის და არათანაბარია, ხშირად თმაში \n აქვს პატარა ფოთლები და ტოტები, თითქოს ტყისგან უნდა გარბოდეს მაგრამ ტყე არ \n შორდება. \n კანი- ღია, მზისგან ოდნავ ოქროსფრად შეფერილი \n ტანსაცმელი- პრაქტიკული თითქოს დიდად არ უფიქრია თავის გარეგნობაზე. \n გრძელი მუქი მწვანე, მოსაცმელი, რომლის ნაპირები ყავისფერში გადადის \n ხანგრძლივი ხმარებისგან, ჰუდი რომელიც თვალებსაც უფარავს თუ დასჭირდება. \n Პმაისური თხელი მოკრემისფერო,ღია ყავისფერი , ოდნავ დიდი ზომის, ზოგიერთ \n ადგილას ცუდად გაკეთებული ნაკერებით და რამდენიმე ლაქით. \n უფრო მეტად გადარჩენისთვის ვიდრე კომბატისთვის, მუქი ყავისფერი, ტყავის \n ვესტი \n პატარა ტყავისა სამაჯურები რომლებიც სხვადასხვა ზომისაა და მუდმივად ოდნავ \n ჭუჭყიან ნაფხაჭნებიან ორივე ხელზე აქვს გაკეთებული. \n მუქი ყავისფერი შარვალი რამდენიმე ნაკერით და მოუშორებელი ლაქებით \n საშუალო სიმაღლის ჩექმები, რომელიც ხშირად არათნაბრად აქვს შეკრული, თუმცა \n მოვლილია. \n ტყავის ქამარი, პატარა ჩანთებით და მამამისის სანადირო დანის ჩასადებით \n დედამისის ნაჩუქარი ყელსაბამი, რომელსაც ნერვიულობისას ეხება და აწვალებს. \n მთლიან ტანსაცმელზე ხავსი, ფოთლები ან მიწის ნაწილები აქვს მიკრული.თითქოს \n ტანსაცმელი ბუნების ნაწილია.",
-    "maxHitPoints" : 52,
-    "currentHitPoints" : 32,
+    "maxHitPoints" : 55,
+    "currentHitPoints" : 35,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ ],
@@ -755,6 +791,38 @@
           "spellIds" : [ ],
           "spellAlternatives" : [ ],
           "features" : [ ]
+        }
+      }, {
+        "classId" : "rogue",
+        "sourceRequestId" : null,
+        "nodeId" : "potency-3",
+        "branchName" : "Shadowblade",
+        "name" : "Shadowblade: Momentum",
+        "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
+        "imagePath" : null,
+        "level" : 6,
+        "historical" : false,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 1,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ {
+            "level" : 3,
+            "name" : "Shadowblade: Momentum",
+            "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
+            "subclass" : null,
+            "usesPerRest" : 1,
+            "shortRestRecharge" : true
+          } ]
         }
       } ]
     },
@@ -948,10 +1016,10 @@
     "name" : "Lavenos",
     "classId" : "fighter",
     "raceId" : "human",
-    "level" : 5,
-    "xp" : 145,
+    "level" : 6,
+    "xp" : 0,
     "upgrades" : {
-      "earned" : 4,
+      "earned" : 5,
       "unlocks" : [ {
         "classId" : "fighter",
         "sourceRequestId" : null,
@@ -1227,8 +1295,8 @@
     "playerName" : "Levani",
     "ownerUsername" : "",
     "description" : "Duelist.\n\nWeapons:\n• Ladies' Blade — no bonus to hit, 1d6 piercing. On a hit: even damage roll → damage doubled, odd → damage halved (rounded up).\n• Forgotten Blade — +3 to hit, 1d8 slashing.\n• Dual (both blades equipped) — +5 to hit, 1d8 + 1d6 (use the Dual Blade Strike action). The Ladies' Blade d6 still follows the even/odd rule.\n\nTreasure & inventory: Explorer's Pack, Simple Clothes, Visage (glasses), 40 BP, Philter of Love, Dust Powder, Advantage: Wisdom, Null Monet.\n\nPassives:\n• Break Enemy Defense — 20% chance on each hit (d100 ≤ 20) to reduce the target's AC by 1 until the end of the fight.\n• Battle Awareness — automatically enters battle stance when a fight starts; predicts the enemy's first strike and gets one free Dodge against it.\n• Combat Momentum — each successful hit adds +1 damage to his following hits, stacking until the end of the battle.\n• Parry & Counter — when attacked in melee roll d100: 1–25 parry and counterattack (counter lands on 50%), 26–45 parry only, 46–65 counterattack only, 66–100 nothing.\n\nSuper attack: T.L.K.O. (the move only Maghro knows) — see the T.L.K.O. action.",
-    "maxHitPoints" : 44,
-    "currentHitPoints" : 27,
+    "maxHitPoints" : 52,
+    "currentHitPoints" : 35,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ ],
