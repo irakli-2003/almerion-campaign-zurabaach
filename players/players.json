@@ -3444,10 +3444,10 @@
     "name" : "Sinne",
     "classId" : "warlock",
     "raceId" : "sinne-shapeshifter",
-    "level" : 5,
+    "level" : 6,
     "xp" : 0,
     "upgrades" : {
-      "earned" : 4,
+      "earned" : 5,
       "unlocks" : [ {
         "classId" : "warlock",
         "sourceRequestId" : null,
@@ -3548,6 +3548,38 @@
           "spellAlternatives" : [ ],
           "features" : [ ]
         }
+      }, {
+        "classId" : "warlock",
+        "sourceRequestId" : null,
+        "nodeId" : "potency-6",
+        "branchName" : "Pact Weaver",
+        "name" : "Pact Weaver: Counterplay",
+        "description" : "Once per short rest, use your reaction when a visible enemy begins casting within 60 ft to identify its visible target or area with an Arcana check set by the GM. This does not interrupt the spell. The GM resolves this feat; the app tracks its rest use.",
+        "imagePath" : null,
+        "level" : 6,
+        "historical" : false,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 5,
+          "spellIds" : [ "scorching-ray" ],
+          "spellAlternatives" : [ ],
+          "features" : [ {
+            "level" : 4,
+            "name" : "Pact Weaver: Counterplay",
+            "description" : "Once per short rest, use your reaction when a visible enemy begins casting within 60 ft to identify its visible target or area with an Arcana check set by the GM. This does not interrupt the spell. The GM resolves this feat; the app tracks its rest use.",
+            "subclass" : null,
+            "usesPerRest" : 1,
+            "shortRestRecharge" : true
+          } ]
+        }
       } ]
     },
     "stats" : {
@@ -3624,6 +3656,10 @@
       "spellId" : "counterspell",
       "rank" : 1,
       "active" : true
+    }, {
+      "spellId" : "scorching-ray",
+      "rank" : 2,
+      "active" : true
     } ],
     "personalFeatures" : [ {
       "level" : 1,
@@ -3660,8 +3696,8 @@
     "playerName" : "Mariami",
     "ownerUsername" : "Mariami",
     "description" : "",
-    "maxHitPoints" : 43,
-    "currentHitPoints" : 43,
+    "maxHitPoints" : 50,
+    "currentHitPoints" : 50,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ ],
@@ -4073,7 +4109,39 @@
     "xp" : 0,
     "upgrades" : {
       "earned" : 1,
-      "unlocks" : [ ]
+      "unlocks" : [ {
+        "classId" : "fighter",
+        "sourceRequestId" : null,
+        "nodeId" : "potency-1",
+        "branchName" : "Weapon Master",
+        "name" : "Action Surge (one use)",
+        "description" : "Take one additional action on your turn once per short rest.\nClass training. If already known, this feat is not granted a second time.",
+        "imagePath" : null,
+        "level" : 6,
+        "historical" : false,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 1,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ {
+            "level" : 2,
+            "name" : "Action Surge (one use)",
+            "description" : "Take one additional action on your turn once per short rest.\nClass training. If already known, this feat is not granted a second time.",
+            "subclass" : null,
+            "usesPerRest" : 0,
+            "shortRestRecharge" : false
+          } ]
+        }
+      } ]
     },
     "stats" : {
       "custom" : { },
