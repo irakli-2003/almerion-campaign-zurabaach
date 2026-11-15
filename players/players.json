@@ -3913,6 +3913,13 @@
       },
       "equipped" : false,
       "quantity" : 3
+    }, {
+      "itemId" : "item-absolute-black-coat",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
     } ],
     "spells" : [ {
       "spellId" : "chill-touch",

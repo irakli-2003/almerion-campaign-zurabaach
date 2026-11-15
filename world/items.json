@@ -4352,6 +4352,24 @@
   }, {
     "id" : "item-absolute-black-coat",
     "name" : "Absolute black coat",
+    "type" : null,
+    "description" : "coat that does not reflect any light, +2 on stealth check in daylight,  + 5 on stealth check in dark",
+    "valueGold" : 0,
+    "weight" : 0.0,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : false,
+    "imagePath" : null,
+    "overview" : ""
+  }, {
+    "id" : "item-absolute-black-coat-2",
+    "name" : "Absolute black coat",
     "type" : "gear",
     "description" : "coat that does not reflect any light, +2 on stealth check in daylight,  + 5 on stealth check in dark",
     "valueGold" : 0,
