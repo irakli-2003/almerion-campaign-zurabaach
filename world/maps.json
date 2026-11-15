@@ -193,68 +193,7 @@
       "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
-      "occupants" : [ {
-        "kind" : "monster",
-        "monster" : {
-          "id" : "card soldier",
-          "name" : "Card soldier",
-          "description" : "",
-          "type" : "animated object",
-          "challengeRating" : "1",
-          "stats" : {
-            "custom" : { },
-            "strength" : 12,
-            "dexterity" : 10,
-            "constitution" : 12,
-            "intelligence" : 12,
-            "wisdom" : 10,
-            "charisma" : 10
-          },
-          "abilities" : [ ],
-          "languages" : [ ],
-          "maxHitPoints" : 0,
-          "armorClass" : 0,
-          "maxMana" : 0,
-          "spellSlots" : [ ],
-          "imagePath" : "images/monsters/new_1788428492375.jpg"
-        },
-        "position" : {
-          "x" : 17,
-          "y" : 1
-        },
-        "inventory" : [ ],
-        "combat" : {
-          "maxHitPoints" : 28,
-          "currentHitPoints" : 28,
-          "maxMana" : 12,
-          "currentMana" : 12,
-          "gold" : 0,
-          "initiative" : 1,
-          "deathSaveFailures" : 0,
-          "downed" : false,
-          "dead" : false,
-          "conditions" : [ ],
-          "notes" : null,
-          "inInitiative" : true,
-          "walkSpeed" : 30,
-          "climbSpeed" : 0,
-          "swimSpeed" : 0,
-          "speedSeeded" : true,
-          "movementUsed" : 0,
-          "deathSaveSuccesses" : 0,
-          "activeEffects" : [ ],
-          "cooldowns" : { },
-          "featureUses" : { },
-          "resistances" : [ ],
-          "enduranceFeature" : null,
-          "featureSpeedBonus" : 0,
-          "castingResource" : null,
-          "spellSlots" : [ ],
-          "actingThisRound" : true
-        },
-        "instanceId" : "5dfc1eae-2d5c-485b-bc45-c490022c0313",
-        "symbol" : "M"
-      } ]
+      "occupants" : [ ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -329,68 +268,7 @@
       "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
-      "occupants" : [ {
-        "kind" : "monster",
-        "monster" : {
-          "id" : "card soldier",
-          "name" : "Card soldier",
-          "description" : "",
-          "type" : "animated object",
-          "challengeRating" : "1",
-          "stats" : {
-            "custom" : { },
-            "strength" : 12,
-            "dexterity" : 10,
-            "constitution" : 12,
-            "intelligence" : 12,
-            "wisdom" : 10,
-            "charisma" : 10
-          },
-          "abilities" : [ ],
-          "languages" : [ ],
-          "maxHitPoints" : 0,
-          "armorClass" : 0,
-          "maxMana" : 0,
-          "spellSlots" : [ ],
-          "imagePath" : "images/monsters/new_1788428492375.jpg"
-        },
-        "position" : {
-          "x" : 12,
-          "y" : 2
-        },
-        "inventory" : [ ],
-        "combat" : {
-          "maxHitPoints" : 28,
-          "currentHitPoints" : 28,
-          "maxMana" : 12,
-          "currentMana" : 12,
-          "gold" : 0,
-          "initiative" : 17,
-          "deathSaveFailures" : 0,
-          "downed" : false,
-          "dead" : false,
-          "conditions" : [ ],
-          "notes" : null,
-          "inInitiative" : true,
-          "walkSpeed" : 30,
-          "climbSpeed" : 0,
-          "swimSpeed" : 0,
-          "speedSeeded" : true,
-          "movementUsed" : 0,
-          "deathSaveSuccesses" : 0,
-          "activeEffects" : [ ],
-          "cooldowns" : { },
-          "featureUses" : { },
-          "resistances" : [ ],
-          "enduranceFeature" : null,
-          "featureSpeedBonus" : 0,
-          "castingResource" : null,
-          "spellSlots" : [ ],
-          "actingThisRound" : true
-        },
-        "instanceId" : "48ca1a9e-845c-4e27-9395-e4be34e98ea6",
-        "symbol" : "M"
-      } ]
+      "occupants" : [ ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -486,7 +364,7 @@
           "maxMana" : 12,
           "currentMana" : 12,
           "gold" : 0,
-          "initiative" : 20,
+          "initiative" : 8,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -552,7 +430,7 @@
           "maxMana" : 12,
           "currentMana" : 12,
           "gold" : 0,
-          "initiative" : 8,
+          "initiative" : 2,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -618,7 +496,7 @@
           "maxMana" : 12,
           "currentMana" : 12,
           "gold" : 0,
-          "initiative" : 12,
+          "initiative" : 3,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -1242,7 +1120,7 @@
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
-          "initiative" : 3,
+          "initiative" : 13,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -1614,7 +1492,7 @@
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
-          "initiative" : 19,
+          "initiative" : 4,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -2063,7 +1941,7 @@
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
-          "initiative" : 8,
+          "initiative" : 11,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -2098,6 +1976,11 @@
         "instanceId" : "9bd40593-306a-4835-a97b-30299f47d6d0",
         "symbol" : "P"
       } ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -2377,7 +2260,7 @@
           "featureUses" : { }
         },
         "position" : {
-          "x" : 11,
+          "x" : 12,
           "y" : 4
         },
         "inventory" : [ ],
@@ -2387,7 +2270,7 @@
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
-          "initiative" : 4,
+          "initiative" : 18,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -2398,7 +2281,7 @@
           "climbSpeed" : 0,
           "swimSpeed" : 0,
           "speedSeeded" : true,
-          "movementUsed" : 0,
+          "movementUsed" : 1,
           "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
@@ -2418,385 +2301,6 @@
       "terrain" : "NORMAL",
       "effect" : null,
       "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ {
-        "kind" : "player",
-        "character" : {
-          "id" : "player-cucaratcha",
-          "name" : "Zoinks - El Cucaratcha",
-          "classId" : "rogue",
-          "raceId" : "human",
-          "level" : 6,
-          "xp" : 0,
-          "upgrades" : {
-            "earned" : 5,
-            "unlocks" : [ {
-              "classId" : "rogue",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-1",
-              "branchName" : "Shadowblade",
-              "name" : "Cunning Action",
-              "description" : "Dash, Disengage or Hide as a bonus action.\nClass training. If already known, this feat is not granted a second time.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "rogue",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-2",
-              "branchName" : "Shadowblade",
-              "name" : "Uncanny Dodge",
-              "description" : "Use your reaction to halve the damage of an attack from an attacker you can see.\nClass training. If already known, this feat is not granted a second time.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "rogue",
-              "sourceRequestId" : null,
-              "nodeId" : "resilience-1",
-              "branchName" : "Escape Artist",
-              "name" : "Roguish Archetype",
-              "description" : "Choose the archetype that defines your roguish expertise.\nClass training. If already known, this feat is not granted a second time.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "rogue",
-              "sourceRequestId" : null,
-              "nodeId" : "@historical-level-5",
-              "branchName" : "Existing training",
-              "name" : "Uncanny Dodge",
-              "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: anchor-round, crushing-shot, gravitic-shift, gravity-round, singularity-round",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "rogue",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-3",
-              "branchName" : "Shadowblade",
-              "name" : "Shadowblade: Momentum",
-              "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
-              "imagePath" : null,
-              "level" : 6,
-              "historical" : false,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 1,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ {
-                  "level" : 3,
-                  "name" : "Shadowblade: Momentum",
-                  "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
-                  "subclass" : null,
-                  "usesPerRest" : 1,
-                  "shortRestRecharge" : true
-                } ]
-              }
-            } ]
-          },
-          "stats" : {
-            "custom" : { },
-            "strength" : 15,
-            "dexterity" : 15,
-            "constitution" : 15,
-            "intelligence" : 8,
-            "wisdom" : 8,
-            "charisma" : 8
-          },
-          "items" : [ {
-            "itemId" : "sixfold-judgment",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "monokatana",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "studded-leather",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "gravitic-anchor-node",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "thieves-tools",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "manacles",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "potion-of-healing",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "sixfold-cartridge",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 10
-          }, {
-            "itemId" : "coin",
-            "condition" : {
-              "durability" : 0
-            },
-            "equipped" : false,
-            "quantity" : 6
-          }, {
-            "itemId" : "item-7d80a155",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "item-bread-crumbs",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          } ],
-          "spells" : [ {
-            "spellId" : "gravity-round",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "crushing-shot",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "singularity-round",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "anchor-round",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "gravitic-shift",
-            "rank" : 0,
-            "active" : true
-          } ],
-          "personalFeatures" : [ ],
-          "passwordHash" : "582a43d1cbf7869c8f1212daae37b62240094b852fba7a308b1ac70ac6b124b6",
-          "passwordSalt" : "f9226bf80dfa0ef0e7764b8e7ccc8084",
-          "imagePath" : "images/players/player-cucaratcha.jpg",
-          "playerName" : "Zura",
-          "ownerUsername" : "",
-          "description" : "Bounty hunter. Always finishes the hunt.\n\nResources:\n• Mana = revolver chambers. Max 6. Every Sixfold Judgment shot costs 1. The Gravitic Anchor Node refills all six chambers during a long rest — nobody can reload it by hand.\n• Singularity Round: 1 per short rest. Anchor Round: 1 per long rest. Their cooldowns are set to 100 rounds so they cannot be used again in the same fight.\n• Shot save DC (Crushing / Anchor): 13 (8 + proficiency 3 + DEX 2).\n\nPassives:\n• Sneak Attack (rogue, level 5): +3d6 once per turn on a hit with advantage, or when an ally stands next to the target.\n• Bound artifacts — the Sixfold Judgment only works while the Gravitic Anchor Node is attached to him.",
-          "maxHitPoints" : 45,
-          "currentHitPoints" : 45,
-          "maxMana" : 7,
-          "currentMana" : 7,
-          "activeEffects" : [ {
-            "effectId" : "effect-greedy",
-            "name" : "Greedy",
-            "description" : null,
-            "remainingRounds" : 7,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "GM",
-            "expired" : false
-          } ],
-          "subclass" : "",
-          "backstory" : "A bounty hunter in a world ruled by corporations, cybernetics, and violence. He wasn't famous, nor was he trying to be. He took contracts, tracked his targets, collected his pay, and moved on to the next job. He had a reputation for always finishing the hunt, whether it took days or months.\n\nWhen he crossed into this world, his cybernetics transformed into magical relics. His combat implants became enchanted artifacts, his trusted revolver still carried only six bullets — though no one could explain how they replenished after periods of rest — and his monokatana stayed the same.\n\nThe implant along his spine changed the most. What had once been a military combat enhancement became a magical relic known as the Gravitic Anchor Node — a spine of arcane cores that lets him manipulate his own gravity. He doesn't understand how it works, only that it feels strangely familiar, as if technology and magic are simply different languages describing the same thing.\n\n\nThe Sixfold Judgment\n\nAn ancient-looking six-shot revolver forged from black steel and silver, covered in faint violet runes. It has no visible mechanism for loading ammunition.\n\nThe revolver is magically linked to the Gravitic Anchor Node implanted along Kael's spine. The Node condenses gravitational energy into six arcane rounds, one for each chamber.\n\nWhen fires, the Node expends part of its stored power to create devastating gravity-infused bullets.\n\nPossible Shot Effects (choose one when firing)\nGravity Round – A normal shot that deals force damage instead of piercing.\nCrushing Shot – The bullet erupts with gravitational force, forcing the target to make a Strength save or be knocked prone.\nSingularity Round (1/Short Rest) – On impact, a tiny gravity well forms, pulling creatures within 10 feet toward the target before collapsing.\nAnchor Round (1/Long Rest) – The target's gravity dramatically increases, reducing its movement speed to 0 until the start of your next turn if it fails a Strength save.\nReloading\n\nThe revolver can never hold more than six rounds. ",
-          "castingResource" : "MANA",
-          "spellSlots" : [ ],
-          "knownBlueprints" : [ ],
-          "furnaceFuel" : 0,
-          "cooldowns" : { },
-          "skills" : {
-            "custom" : { },
-            "acrobatics" : 3,
-            "animalHandling" : -2,
-            "arcana" : 0,
-            "athletics" : 2,
-            "deception" : 1,
-            "history" : -1,
-            "insight" : 1,
-            "intimidation" : 1,
-            "investigation" : 2,
-            "medicine" : -1,
-            "nature" : -3,
-            "perception" : 2,
-            "performance" : 0,
-            "persuasion" : 0,
-            "religion" : -2,
-            "sleightOfHand" : 5,
-            "stealth" : 3,
-            "survival" : -1
-          },
-          "sheet" : {
-            "armorClass" : null,
-            "initiative" : null,
-            "speed" : null,
-            "proficiencyBonus" : null,
-            "passivePerception" : null,
-            "savingThrowProficiencies" : [ ],
-            "hitDice" : "",
-            "temporaryHitPoints" : 0,
-            "deathSaveSuccesses" : 0,
-            "deathSaveFailures" : 0,
-            "inspiration" : false,
-            "spellcastingAbility" : null,
-            "spellSaveDc" : null,
-            "spellAttackBonus" : null,
-            "copper" : 0,
-            "silver" : 0,
-            "electrum" : 0,
-            "gold" : 0,
-            "platinum" : 0,
-            "extraAttacks" : [ ],
-            "proficienciesAndLanguages" : "",
-            "extraFeatures" : "",
-            "notes" : ""
-          },
-          "featureUses" : { }
-        },
-        "position" : {
-          "x" : 13,
-          "y" : 4
-        },
-        "inventory" : [ ],
-        "combat" : {
-          "maxHitPoints" : 45,
-          "currentHitPoints" : 45,
-          "maxMana" : 7,
-          "currentMana" : 7,
-          "gold" : 0,
-          "initiative" : 22,
-          "deathSaveFailures" : 0,
-          "downed" : false,
-          "dead" : false,
-          "conditions" : [ ],
-          "notes" : null,
-          "inInitiative" : true,
-          "walkSpeed" : 30,
-          "climbSpeed" : 0,
-          "swimSpeed" : 0,
-          "speedSeeded" : true,
-          "movementUsed" : 0,
-          "deathSaveSuccesses" : 0,
-          "activeEffects" : [ {
-            "effectId" : "effect-greedy",
-            "name" : "Greedy",
-            "description" : null,
-            "remainingRounds" : 7,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "GM",
-            "expired" : false
-          } ],
-          "cooldowns" : { },
-          "featureUses" : { },
-          "resistances" : [ ],
-          "enduranceFeature" : null,
-          "featureSpeedBonus" : 0,
-          "castingResource" : "MANA",
-          "spellSlots" : [ ],
-          "actingThisRound" : true
-        },
-        "instanceId" : "13d24ab2-ae24-43ba-a1e1-05a8247b76a5",
-        "symbol" : "P"
-      } ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -3159,7 +2663,7 @@
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
-          "initiative" : 20,
+          "initiative" : 21,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -3262,7 +2766,381 @@
       "passable" : true,
       "terrain" : "DIFFICULT",
       "effect" : null,
-      "occupants" : [ ]
+      "occupants" : [ {
+        "kind" : "player",
+        "character" : {
+          "id" : "player-cucaratcha",
+          "name" : "Zoinks - El Cucaratcha",
+          "classId" : "rogue",
+          "raceId" : "human",
+          "level" : 6,
+          "xp" : 0,
+          "upgrades" : {
+            "earned" : 5,
+            "unlocks" : [ {
+              "classId" : "rogue",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-1",
+              "branchName" : "Shadowblade",
+              "name" : "Cunning Action",
+              "description" : "Dash, Disengage or Hide as a bonus action.\nClass training. If already known, this feat is not granted a second time.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "rogue",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-2",
+              "branchName" : "Shadowblade",
+              "name" : "Uncanny Dodge",
+              "description" : "Use your reaction to halve the damage of an attack from an attacker you can see.\nClass training. If already known, this feat is not granted a second time.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "rogue",
+              "sourceRequestId" : null,
+              "nodeId" : "resilience-1",
+              "branchName" : "Escape Artist",
+              "name" : "Roguish Archetype",
+              "description" : "Choose the archetype that defines your roguish expertise.\nClass training. If already known, this feat is not granted a second time.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "rogue",
+              "sourceRequestId" : null,
+              "nodeId" : "@historical-level-5",
+              "branchName" : "Existing training",
+              "name" : "Uncanny Dodge",
+              "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: anchor-round, crushing-shot, gravitic-shift, gravity-round, singularity-round",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "rogue",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-3",
+              "branchName" : "Shadowblade",
+              "name" : "Shadowblade: Momentum",
+              "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
+              "imagePath" : null,
+              "level" : 6,
+              "historical" : false,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 1,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ {
+                  "level" : 3,
+                  "name" : "Shadowblade: Momentum",
+                  "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
+                  "subclass" : null,
+                  "usesPerRest" : 1,
+                  "shortRestRecharge" : true
+                } ]
+              }
+            } ]
+          },
+          "stats" : {
+            "custom" : { },
+            "strength" : 15,
+            "dexterity" : 15,
+            "constitution" : 15,
+            "intelligence" : 8,
+            "wisdom" : 8,
+            "charisma" : 8
+          },
+          "items" : [ {
+            "itemId" : "sixfold-judgment",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "monokatana",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "studded-leather",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "gravitic-anchor-node",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "thieves-tools",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "manacles",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "potion-of-healing",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "sixfold-cartridge",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 10
+          }, {
+            "itemId" : "coin",
+            "condition" : {
+              "durability" : 0
+            },
+            "equipped" : false,
+            "quantity" : 6
+          }, {
+            "itemId" : "item-7d80a155",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "item-bread-crumbs",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          } ],
+          "spells" : [ {
+            "spellId" : "gravity-round",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "crushing-shot",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "singularity-round",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "anchor-round",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "gravitic-shift",
+            "rank" : 0,
+            "active" : true
+          } ],
+          "personalFeatures" : [ ],
+          "passwordHash" : "582a43d1cbf7869c8f1212daae37b62240094b852fba7a308b1ac70ac6b124b6",
+          "passwordSalt" : "f9226bf80dfa0ef0e7764b8e7ccc8084",
+          "imagePath" : "images/players/player-cucaratcha.jpg",
+          "playerName" : "Zura",
+          "ownerUsername" : "",
+          "description" : "Bounty hunter. Always finishes the hunt.\n\nResources:\n• Mana = revolver chambers. Max 6. Every Sixfold Judgment shot costs 1. The Gravitic Anchor Node refills all six chambers during a long rest — nobody can reload it by hand.\n• Singularity Round: 1 per short rest. Anchor Round: 1 per long rest. Their cooldowns are set to 100 rounds so they cannot be used again in the same fight.\n• Shot save DC (Crushing / Anchor): 13 (8 + proficiency 3 + DEX 2).\n\nPassives:\n• Sneak Attack (rogue, level 5): +3d6 once per turn on a hit with advantage, or when an ally stands next to the target.\n• Bound artifacts — the Sixfold Judgment only works while the Gravitic Anchor Node is attached to him.",
+          "maxHitPoints" : 45,
+          "currentHitPoints" : 45,
+          "maxMana" : 7,
+          "currentMana" : 7,
+          "activeEffects" : [ {
+            "effectId" : "effect-greedy",
+            "name" : "Greedy",
+            "description" : null,
+            "remainingRounds" : 6,
+            "damagePerRound" : 0,
+            "healingPerRound" : 0,
+            "source" : "GM",
+            "expired" : false
+          } ],
+          "subclass" : "",
+          "backstory" : "A bounty hunter in a world ruled by corporations, cybernetics, and violence. He wasn't famous, nor was he trying to be. He took contracts, tracked his targets, collected his pay, and moved on to the next job. He had a reputation for always finishing the hunt, whether it took days or months.\n\nWhen he crossed into this world, his cybernetics transformed into magical relics. His combat implants became enchanted artifacts, his trusted revolver still carried only six bullets — though no one could explain how they replenished after periods of rest — and his monokatana stayed the same.\n\nThe implant along his spine changed the most. What had once been a military combat enhancement became a magical relic known as the Gravitic Anchor Node — a spine of arcane cores that lets him manipulate his own gravity. He doesn't understand how it works, only that it feels strangely familiar, as if technology and magic are simply different languages describing the same thing.\n\n\nThe Sixfold Judgment\n\nAn ancient-looking six-shot revolver forged from black steel and silver, covered in faint violet runes. It has no visible mechanism for loading ammunition.\n\nThe revolver is magically linked to the Gravitic Anchor Node implanted along Kael's spine. The Node condenses gravitational energy into six arcane rounds, one for each chamber.\n\nWhen fires, the Node expends part of its stored power to create devastating gravity-infused bullets.\n\nPossible Shot Effects (choose one when firing)\nGravity Round – A normal shot that deals force damage instead of piercing.\nCrushing Shot – The bullet erupts with gravitational force, forcing the target to make a Strength save or be knocked prone.\nSingularity Round (1/Short Rest) – On impact, a tiny gravity well forms, pulling creatures within 10 feet toward the target before collapsing.\nAnchor Round (1/Long Rest) – The target's gravity dramatically increases, reducing its movement speed to 0 until the start of your next turn if it fails a Strength save.\nReloading\n\nThe revolver can never hold more than six rounds. ",
+          "castingResource" : "MANA",
+          "spellSlots" : [ ],
+          "knownBlueprints" : [ ],
+          "furnaceFuel" : 0,
+          "cooldowns" : { },
+          "skills" : {
+            "custom" : { },
+            "acrobatics" : 3,
+            "animalHandling" : -2,
+            "arcana" : 0,
+            "athletics" : 2,
+            "deception" : 1,
+            "history" : -1,
+            "insight" : 1,
+            "intimidation" : 1,
+            "investigation" : 2,
+            "medicine" : -1,
+            "nature" : -3,
+            "perception" : 2,
+            "performance" : 0,
+            "persuasion" : 0,
+            "religion" : -2,
+            "sleightOfHand" : 5,
+            "stealth" : 3,
+            "survival" : -1
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : "",
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : 0,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : "",
+            "extraFeatures" : "",
+            "notes" : ""
+          },
+          "featureUses" : { }
+        },
+        "position" : {
+          "x" : 9,
+          "y" : 5
+        },
+        "inventory" : [ ],
+        "combat" : {
+          "maxHitPoints" : 45,
+          "currentHitPoints" : 45,
+          "maxMana" : 7,
+          "currentMana" : 7,
+          "gold" : 0,
+          "initiative" : 20,
+          "deathSaveFailures" : 0,
+          "downed" : false,
+          "dead" : false,
+          "conditions" : [ ],
+          "notes" : null,
+          "inInitiative" : true,
+          "walkSpeed" : 30,
+          "climbSpeed" : 0,
+          "swimSpeed" : 0,
+          "speedSeeded" : true,
+          "movementUsed" : 5,
+          "deathSaveSuccesses" : 0,
+          "activeEffects" : [ {
+            "effectId" : "effect-greedy",
+            "name" : "Greedy",
+            "description" : null,
+            "remainingRounds" : 6,
+            "damagePerRound" : 0,
+            "healingPerRound" : 0,
+            "source" : "GM",
+            "expired" : false
+          } ],
+          "cooldowns" : { },
+          "featureUses" : { },
+          "resistances" : [ ],
+          "enduranceFeature" : null,
+          "featureSpeedBonus" : 0,
+          "castingResource" : "MANA",
+          "spellSlots" : [ ],
+          "actingThisRound" : true
+        },
+        "instanceId" : "13d24ab2-ae24-43ba-a1e1-05a8247b76a5",
+        "symbol" : "P"
+      } ]
     }, {
       "passable" : true,
       "terrain" : "DIFFICULT",
@@ -3428,7 +3306,7 @@
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
-          "initiative" : 22,
+          "initiative" : 18,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -3467,282 +3345,6 @@
     }, {
       "passable" : true,
       "terrain" : "CLIMB",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "CLIMB",
-      "effect" : null,
-      "occupants" : [ {
-        "kind" : "monster",
-        "monster" : {
-          "id" : "animated-tea-service",
-          "name" : "Animated Tea Service",
-          "description" : "Small construct, CR 1/4. AC 13, HP 17 (5d6), speed 9 m (hops along the table). Blind beyond 9 m, immune to poison, psychic, charmed, frightened. Teapot, cups and saucers rattling across the long table on the Hatter's initiative. (The script gives no stat block - these are DM-improvised numbers; remove them if the party struggles.)",
-          "type" : "construct",
-          "challengeRating" : "1/4",
-          "stats" : {
-            "custom" : { },
-            "strength" : 10,
-            "dexterity" : 14,
-            "constitution" : 10,
-            "intelligence" : 3,
-            "wisdom" : 3,
-            "charisma" : 1
-          },
-          "abilities" : [ {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "scalding_pour",
-            "name" : "Scalding Pour",
-            "description" : "Melee attack: +4 to hit, reach 1.5 m, 1d6+2 fire.",
-            "effects" : [ ],
-            "range" : 5.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : {
-              "dice" : [ {
-                "diceId" : "d6",
-                "count" : 1
-              } ],
-              "typeId" : "fire",
-              "constant" : 0
-            }
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "shatter",
-            "name" : "Shatter",
-            "description" : "When it drops to 0 HP it bursts into porcelain shards: every creature within 1.5 m makes a DEX save DC 12 or takes 1d6 slashing.",
-            "effects" : [ ],
-            "range" : 0.0,
-            "recharge" : 0,
-            "radius" : 5.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : {
-              "dice" : [ {
-                "diceId" : "d6",
-                "count" : 1
-              } ],
-              "typeId" : "slashing",
-              "constant" : 0
-            }
-          } ],
-          "languages" : [ ],
-          "maxHitPoints" : 17,
-          "armorClass" : 13,
-          "maxMana" : 0,
-          "spellSlots" : [ ],
-          "imagePath" : "images/monsters/animated-tea-service.jpg"
-        },
-        "position" : {
-          "x" : 9,
-          "y" : 6
-        },
-        "inventory" : [ ],
-        "combat" : {
-          "maxHitPoints" : 17,
-          "currentHitPoints" : 17,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "gold" : 0,
-          "initiative" : 8,
-          "deathSaveFailures" : 0,
-          "downed" : false,
-          "dead" : false,
-          "conditions" : [ ],
-          "notes" : null,
-          "inInitiative" : true,
-          "walkSpeed" : 30,
-          "climbSpeed" : 0,
-          "swimSpeed" : 0,
-          "speedSeeded" : true,
-          "movementUsed" : 6,
-          "deathSaveSuccesses" : 0,
-          "activeEffects" : [ ],
-          "cooldowns" : { },
-          "featureUses" : { },
-          "resistances" : [ ],
-          "enduranceFeature" : null,
-          "featureSpeedBonus" : 0,
-          "castingResource" : null,
-          "spellSlots" : [ ],
-          "actingThisRound" : true
-        },
-        "instanceId" : "9f8ff1ca-c487-488b-883b-ed10b19dc7c9",
-        "symbol" : "M"
-      } ]
-    }, {
-      "passable" : true,
-      "terrain" : "CLIMB",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "CLIMB",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "CLIMB",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "CLIMB",
-      "effect" : null,
-      "occupants" : [ {
-        "kind" : "monster",
-        "monster" : {
-          "id" : "animated-tea-service",
-          "name" : "Animated Tea Service",
-          "description" : "Small construct, CR 1/4. AC 13, HP 17 (5d6), speed 9 m (hops along the table). Blind beyond 9 m, immune to poison, psychic, charmed, frightened. Teapot, cups and saucers rattling across the long table on the Hatter's initiative. (The script gives no stat block - these are DM-improvised numbers; remove them if the party struggles.)",
-          "type" : "construct",
-          "challengeRating" : "1/4",
-          "stats" : {
-            "custom" : { },
-            "strength" : 10,
-            "dexterity" : 14,
-            "constitution" : 10,
-            "intelligence" : 3,
-            "wisdom" : 3,
-            "charisma" : 1
-          },
-          "abilities" : [ {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "scalding_pour",
-            "name" : "Scalding Pour",
-            "description" : "Melee attack: +4 to hit, reach 1.5 m, 1d6+2 fire.",
-            "effects" : [ ],
-            "range" : 5.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : {
-              "dice" : [ {
-                "diceId" : "d6",
-                "count" : 1
-              } ],
-              "typeId" : "fire",
-              "constant" : 0
-            }
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "shatter",
-            "name" : "Shatter",
-            "description" : "When it drops to 0 HP it bursts into porcelain shards: every creature within 1.5 m makes a DEX save DC 12 or takes 1d6 slashing.",
-            "effects" : [ ],
-            "range" : 0.0,
-            "recharge" : 0,
-            "radius" : 5.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : {
-              "dice" : [ {
-                "diceId" : "d6",
-                "count" : 1
-              } ],
-              "typeId" : "slashing",
-              "constant" : 0
-            }
-          } ],
-          "languages" : [ ],
-          "maxHitPoints" : 17,
-          "armorClass" : 13,
-          "maxMana" : 0,
-          "spellSlots" : [ ],
-          "imagePath" : "images/monsters/animated-tea-service.jpg"
-        },
-        "position" : {
-          "x" : 13,
-          "y" : 6
-        },
-        "inventory" : [ ],
-        "combat" : {
-          "maxHitPoints" : 17,
-          "currentHitPoints" : 17,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "gold" : 0,
-          "initiative" : 9,
-          "deathSaveFailures" : 0,
-          "downed" : false,
-          "dead" : false,
-          "conditions" : [ ],
-          "notes" : null,
-          "inInitiative" : true,
-          "walkSpeed" : 30,
-          "climbSpeed" : 0,
-          "swimSpeed" : 0,
-          "speedSeeded" : true,
-          "movementUsed" : 0,
-          "deathSaveSuccesses" : 0,
-          "activeEffects" : [ {
-            "effectId" : "restrained",
-            "name" : "Restrained",
-            "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
-            "remainingRounds" : 2,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "The Mad Hatter (Cursed)'s Sit Down!",
-            "expired" : false
-          } ],
-          "cooldowns" : { },
-          "featureUses" : { },
-          "resistances" : [ ],
-          "enduranceFeature" : null,
-          "featureSpeedBonus" : 0,
-          "castingResource" : null,
-          "spellSlots" : [ ],
-          "actingThisRound" : true
-        },
-        "instanceId" : "fe963ce4-7420-4e57-8aba-e27afe6c382b",
-        "symbol" : "M"
-      } ]
-    }, {
-      "passable" : true,
-      "terrain" : "CLIMB",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "CLIMB",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "CLIMB",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
       "effect" : null,
       "occupants" : [ {
         "kind" : "monster",
@@ -3933,17 +3535,17 @@
           "imagePath" : "images/monsters/mad-hatter.jpg"
         },
         "position" : {
-          "x" : 17,
+          "x" : 8,
           "y" : 6
         },
         "inventory" : [ ],
         "combat" : {
           "maxHitPoints" : 90,
-          "currentHitPoints" : 90,
+          "currentHitPoints" : 80,
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
-          "initiative" : 14,
+          "initiative" : 10,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -3974,6 +3576,15 @@
             "healingPerRound" : 0,
             "source" : "The Mad Hatter (Cursed)",
             "expired" : false
+          }, {
+            "effectId" : "paralyzed",
+            "name" : "Paralyzed",
+            "description" : "Incapacitated and unable to move or speak; nearby attacks land as critical hits.",
+            "remainingRounds" : 2,
+            "damagePerRound" : 0,
+            "healingPerRound" : 0,
+            "source" : "Balthazar Boombard's Hold Person",
+            "expired" : false
           } ],
           "cooldowns" : { },
           "featureUses" : { },
@@ -3987,6 +3598,343 @@
         "instanceId" : "d14b83dd-471e-436f-8294-ba81714efd72",
         "symbol" : "M"
       } ]
+    }, {
+      "passable" : true,
+      "terrain" : "CLIMB",
+      "effect" : null,
+      "occupants" : [ {
+        "kind" : "monster",
+        "monster" : {
+          "id" : "animated-tea-service",
+          "name" : "Animated Tea Service",
+          "description" : "Small construct, CR 1/4. AC 13, HP 17 (5d6), speed 9 m (hops along the table). Blind beyond 9 m, immune to poison, psychic, charmed, frightened. Teapot, cups and saucers rattling across the long table on the Hatter's initiative. (The script gives no stat block - these are DM-improvised numbers; remove them if the party struggles.)",
+          "type" : "construct",
+          "challengeRating" : "1/4",
+          "stats" : {
+            "custom" : { },
+            "strength" : 10,
+            "dexterity" : 14,
+            "constitution" : 10,
+            "intelligence" : 3,
+            "wisdom" : 3,
+            "charisma" : 1
+          },
+          "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "scalding_pour",
+            "name" : "Scalding Pour",
+            "description" : "Melee attack: +4 to hit, reach 1.5 m, 1d6+2 fire.",
+            "effects" : [ ],
+            "range" : 5.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : {
+              "dice" : [ {
+                "diceId" : "d6",
+                "count" : 1
+              } ],
+              "typeId" : "fire",
+              "constant" : 0
+            }
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "shatter",
+            "name" : "Shatter",
+            "description" : "When it drops to 0 HP it bursts into porcelain shards: every creature within 1.5 m makes a DEX save DC 12 or takes 1d6 slashing.",
+            "effects" : [ ],
+            "range" : 0.0,
+            "recharge" : 0,
+            "radius" : 5.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : {
+              "dice" : [ {
+                "diceId" : "d6",
+                "count" : 1
+              } ],
+              "typeId" : "slashing",
+              "constant" : 0
+            }
+          } ],
+          "languages" : [ ],
+          "maxHitPoints" : 17,
+          "armorClass" : 13,
+          "maxMana" : 0,
+          "spellSlots" : [ ],
+          "imagePath" : "images/monsters/animated-tea-service.jpg"
+        },
+        "position" : {
+          "x" : 9,
+          "y" : 6
+        },
+        "inventory" : [ ],
+        "combat" : {
+          "maxHitPoints" : 17,
+          "currentHitPoints" : 17,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "gold" : 0,
+          "initiative" : 16,
+          "deathSaveFailures" : 0,
+          "downed" : false,
+          "dead" : false,
+          "conditions" : [ ],
+          "notes" : null,
+          "inInitiative" : true,
+          "walkSpeed" : 30,
+          "climbSpeed" : 0,
+          "swimSpeed" : 0,
+          "speedSeeded" : true,
+          "movementUsed" : 6,
+          "deathSaveSuccesses" : 0,
+          "activeEffects" : [ ],
+          "cooldowns" : { },
+          "featureUses" : { },
+          "resistances" : [ ],
+          "enduranceFeature" : null,
+          "featureSpeedBonus" : 0,
+          "castingResource" : null,
+          "spellSlots" : [ ],
+          "actingThisRound" : true
+        },
+        "instanceId" : "9f8ff1ca-c487-488b-883b-ed10b19dc7c9",
+        "symbol" : "M"
+      } ]
+    }, {
+      "passable" : true,
+      "terrain" : "CLIMB",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "CLIMB",
+      "effect" : null,
+      "occupants" : [ {
+        "kind" : "npc",
+        "npc" : {
+          "id" : "garden gnome",
+          "name" : "Garden Gnome",
+          "description" : "",
+          "role" : "immortal non-self-conscious sorcerer",
+          "level" : 20,
+          "stats" : {
+            "custom" : { },
+            "strength" : 8,
+            "dexterity" : 8,
+            "constitution" : 8,
+            "intelligence" : 8,
+            "wisdom" : 20,
+            "charisma" : 8
+          },
+          "traits" : [ "random", "does not have a personality", "uses happy face and sad face for expressing emotions" ],
+          "languages" : [ ],
+          "maxHitPoints" : 0,
+          "armorClass" : 0,
+          "maxMana" : 0,
+          "spellSlots" : [ ],
+          "imagePath" : "images/npcs/new_1788421566015.jpg"
+        },
+        "position" : {
+          "x" : 11,
+          "y" : 6
+        },
+        "inventory" : [ ],
+        "combat" : {
+          "maxHitPoints" : 100,
+          "currentHitPoints" : 100,
+          "maxMana" : 20,
+          "currentMana" : 20,
+          "gold" : 0,
+          "initiative" : 18,
+          "deathSaveFailures" : 0,
+          "downed" : false,
+          "dead" : false,
+          "conditions" : [ ],
+          "notes" : null,
+          "inInitiative" : true,
+          "walkSpeed" : 30,
+          "climbSpeed" : 0,
+          "swimSpeed" : 0,
+          "speedSeeded" : true,
+          "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
+          "activeEffects" : [ ],
+          "cooldowns" : { },
+          "featureUses" : { },
+          "resistances" : [ ],
+          "enduranceFeature" : null,
+          "featureSpeedBonus" : 0,
+          "castingResource" : null,
+          "spellSlots" : [ ],
+          "actingThisRound" : true
+        },
+        "instanceId" : "add54121-71cc-4d46-9ca1-41a3bd250cea",
+        "symbol" : "N"
+      } ]
+    }, {
+      "passable" : true,
+      "terrain" : "CLIMB",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "CLIMB",
+      "effect" : null,
+      "occupants" : [ {
+        "kind" : "monster",
+        "monster" : {
+          "id" : "animated-tea-service",
+          "name" : "Animated Tea Service",
+          "description" : "Small construct, CR 1/4. AC 13, HP 17 (5d6), speed 9 m (hops along the table). Blind beyond 9 m, immune to poison, psychic, charmed, frightened. Teapot, cups and saucers rattling across the long table on the Hatter's initiative. (The script gives no stat block - these are DM-improvised numbers; remove them if the party struggles.)",
+          "type" : "construct",
+          "challengeRating" : "1/4",
+          "stats" : {
+            "custom" : { },
+            "strength" : 10,
+            "dexterity" : 14,
+            "constitution" : 10,
+            "intelligence" : 3,
+            "wisdom" : 3,
+            "charisma" : 1
+          },
+          "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "scalding_pour",
+            "name" : "Scalding Pour",
+            "description" : "Melee attack: +4 to hit, reach 1.5 m, 1d6+2 fire.",
+            "effects" : [ ],
+            "range" : 5.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : {
+              "dice" : [ {
+                "diceId" : "d6",
+                "count" : 1
+              } ],
+              "typeId" : "fire",
+              "constant" : 0
+            }
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "shatter",
+            "name" : "Shatter",
+            "description" : "When it drops to 0 HP it bursts into porcelain shards: every creature within 1.5 m makes a DEX save DC 12 or takes 1d6 slashing.",
+            "effects" : [ ],
+            "range" : 0.0,
+            "recharge" : 0,
+            "radius" : 5.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : {
+              "dice" : [ {
+                "diceId" : "d6",
+                "count" : 1
+              } ],
+              "typeId" : "slashing",
+              "constant" : 0
+            }
+          } ],
+          "languages" : [ ],
+          "maxHitPoints" : 17,
+          "armorClass" : 13,
+          "maxMana" : 0,
+          "spellSlots" : [ ],
+          "imagePath" : "images/monsters/animated-tea-service.jpg"
+        },
+        "position" : {
+          "x" : 13,
+          "y" : 6
+        },
+        "inventory" : [ ],
+        "combat" : {
+          "maxHitPoints" : 17,
+          "currentHitPoints" : 17,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "gold" : 0,
+          "initiative" : 11,
+          "deathSaveFailures" : 0,
+          "downed" : false,
+          "dead" : false,
+          "conditions" : [ ],
+          "notes" : null,
+          "inInitiative" : true,
+          "walkSpeed" : 30,
+          "climbSpeed" : 0,
+          "swimSpeed" : 0,
+          "speedSeeded" : true,
+          "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
+          "activeEffects" : [ {
+            "effectId" : "restrained",
+            "name" : "Restrained",
+            "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
+            "remainingRounds" : 2,
+            "damagePerRound" : 0,
+            "healingPerRound" : 0,
+            "source" : "The Mad Hatter (Cursed)'s Sit Down!",
+            "expired" : false
+          } ],
+          "cooldowns" : { },
+          "featureUses" : { },
+          "resistances" : [ ],
+          "enduranceFeature" : null,
+          "featureSpeedBonus" : 0,
+          "castingResource" : null,
+          "spellSlots" : [ ],
+          "actingThisRound" : true
+        },
+        "instanceId" : "fe963ce4-7420-4e57-8aba-e27afe6c382b",
+        "symbol" : "M"
+      } ]
+    }, {
+      "passable" : true,
+      "terrain" : "CLIMB",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "CLIMB",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "CLIMB",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -4026,83 +3974,43 @@
       "passable" : true,
       "terrain" : "CLIMB",
       "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "CLIMB",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "CLIMB",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "CLIMB",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "CLIMB",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "CLIMB",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "CLIMB",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "CLIMB",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "CLIMB",
-      "effect" : null,
       "occupants" : [ {
-        "kind" : "monster",
-        "monster" : {
-          "id" : "card soldier",
-          "name" : "Card soldier",
+        "kind" : "npc",
+        "npc" : {
+          "id" : "garden gnome",
+          "name" : "Garden Gnome",
           "description" : "",
-          "type" : "animated object",
-          "challengeRating" : "1",
+          "role" : "immortal non-self-conscious sorcerer",
+          "level" : 20,
           "stats" : {
             "custom" : { },
-            "strength" : 12,
-            "dexterity" : 10,
-            "constitution" : 12,
-            "intelligence" : 12,
-            "wisdom" : 10,
-            "charisma" : 10
+            "strength" : 8,
+            "dexterity" : 8,
+            "constitution" : 8,
+            "intelligence" : 8,
+            "wisdom" : 20,
+            "charisma" : 8
           },
-          "abilities" : [ ],
+          "traits" : [ "random", "does not have a personality", "uses happy face and sad face for expressing emotions" ],
           "languages" : [ ],
           "maxHitPoints" : 0,
           "armorClass" : 0,
           "maxMana" : 0,
           "spellSlots" : [ ],
-          "imagePath" : "images/monsters/new_1788428492375.jpg"
+          "imagePath" : "images/npcs/new_1788421566015.jpg"
         },
         "position" : {
-          "x" : 13,
+          "x" : 5,
           "y" : 7
         },
         "inventory" : [ ],
         "combat" : {
-          "maxHitPoints" : 28,
-          "currentHitPoints" : 28,
-          "maxMana" : 12,
-          "currentMana" : 12,
+          "maxHitPoints" : 100,
+          "currentHitPoints" : 100,
+          "maxMana" : 20,
+          "currentMana" : 20,
           "gold" : 0,
-          "initiative" : 14,
+          "initiative" : 2,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -4125,9 +4033,49 @@
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "instanceId" : "b24c30fc-7bfd-4f7e-ae57-33b3d59d39c2",
-        "symbol" : "M"
+        "instanceId" : "0d976291-1521-4d7d-81ab-b2ef6f6d1db3",
+        "symbol" : "N"
       } ]
+    }, {
+      "passable" : true,
+      "terrain" : "CLIMB",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "CLIMB",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "CLIMB",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "CLIMB",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "CLIMB",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "CLIMB",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "CLIMB",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "CLIMB",
+      "effect" : null,
+      "occupants" : [ ]
     }, {
       "passable" : true,
       "terrain" : "CLIMB",
@@ -4569,7 +4517,7 @@
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
-          "initiative" : 4,
+          "initiative" : 10,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -4611,7 +4559,68 @@
       "passable" : true,
       "terrain" : "DIFFICULT",
       "effect" : null,
-      "occupants" : [ ]
+      "occupants" : [ {
+        "kind" : "npc",
+        "npc" : {
+          "id" : "garden gnome",
+          "name" : "Garden Gnome",
+          "description" : "",
+          "role" : "immortal non-self-conscious sorcerer",
+          "level" : 20,
+          "stats" : {
+            "custom" : { },
+            "strength" : 8,
+            "dexterity" : 8,
+            "constitution" : 8,
+            "intelligence" : 8,
+            "wisdom" : 20,
+            "charisma" : 8
+          },
+          "traits" : [ "random", "does not have a personality", "uses happy face and sad face for expressing emotions" ],
+          "languages" : [ ],
+          "maxHitPoints" : 0,
+          "armorClass" : 0,
+          "maxMana" : 0,
+          "spellSlots" : [ ],
+          "imagePath" : "images/npcs/new_1788421566015.jpg"
+        },
+        "position" : {
+          "x" : 7,
+          "y" : 8
+        },
+        "inventory" : [ ],
+        "combat" : {
+          "maxHitPoints" : 100,
+          "currentHitPoints" : 100,
+          "maxMana" : 20,
+          "currentMana" : 20,
+          "gold" : 0,
+          "initiative" : 5,
+          "deathSaveFailures" : 0,
+          "downed" : false,
+          "dead" : false,
+          "conditions" : [ ],
+          "notes" : null,
+          "inInitiative" : true,
+          "walkSpeed" : 30,
+          "climbSpeed" : 0,
+          "swimSpeed" : 0,
+          "speedSeeded" : true,
+          "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
+          "activeEffects" : [ ],
+          "cooldowns" : { },
+          "featureUses" : { },
+          "resistances" : [ ],
+          "enduranceFeature" : null,
+          "featureSpeedBonus" : 0,
+          "castingResource" : null,
+          "spellSlots" : [ ],
+          "actingThisRound" : true
+        },
+        "instanceId" : "f0d63e3d-d097-4025-8577-e165f4a01e7f",
+        "symbol" : "N"
+      } ]
     }, {
       "passable" : true,
       "terrain" : "DIFFICULT",
@@ -4969,10 +4978,19 @@
           "ownerUsername" : "",
           "description" : "Neri \"Ratboy\" Venn (R-17) - Lightfoot halfling (rat-like), Rogue 5 (Arcane Trickster)\n\n. Passive Perception 15.\nProficiencies: light armour; simple weapons, hand crossbows, longswords, rapiers, shortswords; thieves' tools, disguise kit, forgery kit. Languages: Common, Halfling, Thieves' Cant.\n\nAttacks: Dagger +5, 1d4+2 piercing (thrown 6/18 m). Shortbow +5, 1d6+2 piercing (24/96 m).\nSpellcasting (INT): save DC 13, spell attack +5, three 1st-level slots.\n- Cantrips: Mage Hand, Minor Illusion, Frost Card (Ray of Frost - he throws a frozen playing card: +5 to hit, 2d8 cold at level 5, 18 m, target -3 m speed).\n- 1st level: Shield, Disguise Self, Silent Image (concentration), Charm Person.\n\nFeatures:\n- Sneak Attack 3d6 - once per turn, finesse or ranged weapon, with advantage or an ally next to the target.\n- Cunning Action - Dash, Disengage or Hide as a bonus action.\n- Uncanny Dodge - reaction, halve the damage of one attack he can see.\n- Mage Hand Legerdemain - invisible Mage Hand; can plant, lift and pick locks with it; bonus action to control.\n- Lucky - reroll a natural 1 on an attack, check or save.\n- Brave - advantage on saves against being frightened.\n- Halfling Nimbleness - moves through the space of anything larger than him.\n- Naturally Stealthy - can hide behind a creature at least one size larger.\n- Second Breakfast - if he eats during a short rest, he regains an extra 1d4 + 5 HP.\n\n",
           "maxHitPoints" : 27,
-          "currentHitPoints" : 27,
+          "currentHitPoints" : 19,
           "maxMana" : 0,
           "currentMana" : 0,
-          "activeEffects" : [ ],
+          "activeEffects" : [ {
+            "effectId" : "burn",
+            "name" : "Burning",
+            "description" : "Flames cling to the target and keep searing it each round.",
+            "remainingRounds" : 1,
+            "damagePerRound" : 3,
+            "healingPerRound" : 0,
+            "source" : "GM",
+            "expired" : false
+          } ],
           "subclass" : "Arcane Trickster",
           "backstory" : "Escaped Subject. Neri does not remember a time before the laboratory - only the number R-17, the sound of the cage latch, and the doctors writing down how he laughed when they hurt him. Somewhere in there the graft took: gray fur, big ears, a thin tail he still tries to hide in his coat.\n\nHe got out through a laundry chute with a blue bead in his cheek, half of a key and a page torn from his own file. He never found the door the key belongs to. He keeps it anyway.\n\nHe jokes when he is scared, which is most of the time. He is loyal to whoever does not put him in a box. He hides his pain well enough that people forget it is there.\n\nLatch - sometimes a second, flatter voice answers for him. Neri calls it Latch. It is roleplay only: no mechanics, just the part of him that still counts the bars.\n\nContact: Moss, a courier who smuggled him his first deck of cards and asks no questions.\nHook: a shipment stamped with the laboratory seal (a closed eye inside a flask) is on its way to a riverside hospice. Neri wants to know what - or who - is inside.\n\nKeepsakes: a blue glass bead, a broken key, the lab record.",
           "castingResource" : null,
@@ -5039,11 +5057,11 @@
         "inventory" : [ ],
         "combat" : {
           "maxHitPoints" : 27,
-          "currentHitPoints" : 27,
+          "currentHitPoints" : 19,
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
-          "initiative" : 8,
+          "initiative" : 3,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -5056,7 +5074,16 @@
           "speedSeeded" : true,
           "movementUsed" : 0,
           "deathSaveSuccesses" : 0,
-          "activeEffects" : [ ],
+          "activeEffects" : [ {
+            "effectId" : "burn",
+            "name" : "Burning",
+            "description" : "Flames cling to the target and keep searing it each round.",
+            "remainingRounds" : 1,
+            "damagePerRound" : 3,
+            "healingPerRound" : 0,
+            "source" : "GM",
+            "expired" : false
+          } ],
           "cooldowns" : { },
           "featureUses" : { },
           "resistances" : [ ],
@@ -5394,7 +5421,7 @@
             "effectId" : "effect-charity",
             "name" : "charity",
             "description" : null,
-            "remainingRounds" : 10,
+            "remainingRounds" : 9,
             "damagePerRound" : 0,
             "healingPerRound" : 1,
             "source" : "GM",
@@ -5478,7 +5505,7 @@
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
-          "initiative" : 19,
+          "initiative" : 20,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -5495,7 +5522,7 @@
             "effectId" : "effect-charity",
             "name" : "charity",
             "description" : null,
-            "remainingRounds" : 10,
+            "remainingRounds" : 9,
             "damagePerRound" : 0,
             "healingPerRound" : 1,
             "source" : "GM",
@@ -5535,29 +5562,357 @@
       "terrain" : "DIFFICULT",
       "effect" : null,
       "occupants" : [ {
-        "kind" : "monster",
-        "monster" : {
-          "id" : "card soldier",
-          "name" : "Card soldier",
-          "description" : "",
-          "type" : "animated object",
-          "challengeRating" : "1",
+        "kind" : "player",
+        "character" : {
+          "id" : "player-balthazar",
+          "name" : "Balthazar Boombard",
+          "classId" : "bard",
+          "raceId" : "human",
+          "level" : 6,
+          "xp" : 0,
+          "upgrades" : {
+            "earned" : 5,
+            "unlocks" : [ {
+              "classId" : "bard",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-1",
+              "branchName" : "Virtuoso",
+              "name" : "Virtuoso 1",
+              "description" : "A step along the Virtuoso path. The GM can replace these starter rewards.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "bard",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-2",
+              "branchName" : "Virtuoso",
+              "name" : "Bard College",
+              "description" : "Already included in this character. No rewards are applied again.\nBard College\nAlready included in this character. No rewards are applied again.\nKnown abilities: charm-person, dispel-magic, faerie-fire, haste, healing-word, hold-person, invisibility, light, minor-illusion, prestidigitation, thunderwave",
+              "imagePath" : null,
+              "level" : 3,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "bard",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-3",
+              "branchName" : "Virtuoso",
+              "name" : "Virtuoso: Momentum",
+              "description" : "Already included in this character. No rewards are applied again.\n\nAlready included in this character. No rewards are applied again.\nKnown abilities: charm-person, dispel-magic, faerie-fire, haste, healing-word, hold-person, invisibility, light, minor-illusion, prestidigitation, thunderwave",
+              "imagePath" : null,
+              "level" : 4,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "bard",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-6",
+              "branchName" : "Virtuoso",
+              "name" : "Virtuoso: Counterplay",
+              "description" : "Already included in this character. No rewards are applied again.\n\nAlready included in this character. No rewards are applied again.\nKnown abilities: charm-person, dispel-magic, faerie-fire, haste, healing-word, hold-person, invisibility, light, minor-illusion, prestidigitation, thunderwave",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "bard",
+              "sourceRequestId" : null,
+              "nodeId" : "resilience-1",
+              "branchName" : "Inspiring Voice",
+              "name" : "Song of Rest (d6)",
+              "description" : "Allies who spend Hit Dice during a short rest while hearing you regain an extra d6 hit points.\nClass training. If already known, this feat is not granted a second time.",
+              "imagePath" : null,
+              "level" : 6,
+              "historical" : false,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 3,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ "mage-hand" ],
+                "spellAlternatives" : [ ],
+                "features" : [ {
+                  "level" : 2,
+                  "name" : "Song of Rest (d6)",
+                  "description" : "Allies who spend Hit Dice during a short rest while hearing you regain an extra d6 hit points.\nClass training. If already known, this feat is not granted a second time.",
+                  "subclass" : null,
+                  "usesPerRest" : 0,
+                  "shortRestRecharge" : false
+                } ]
+              }
+            } ]
+          },
           "stats" : {
             "custom" : { },
-            "strength" : 12,
-            "dexterity" : 10,
-            "constitution" : 12,
-            "intelligence" : 12,
-            "wisdom" : 10,
-            "charisma" : 10
+            "strength" : 8,
+            "dexterity" : 15,
+            "constitution" : 15,
+            "intelligence" : 8,
+            "wisdom" : 8,
+            "charisma" : 15
           },
-          "abilities" : [ ],
-          "languages" : [ ],
-          "maxHitPoints" : 0,
-          "armorClass" : 0,
+          "items" : [ {
+            "itemId" : "thunderkiss",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "rapier",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "leather-armor",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "dagger",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "component-pouch",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "potion-of-healing",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "waterskin",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "coin",
+            "condition" : {
+              "durability" : 0
+            },
+            "equipped" : false,
+            "quantity" : 9
+          }, {
+            "itemId" : "item-35669c0a",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          } ],
+          "spells" : [ {
+            "spellId" : "minor-illusion",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "prestidigitation",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "light",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "charm-person",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "healing-word",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "thunderwave",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "faerie-fire",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "invisibility",
+            "rank" : 2,
+            "active" : true
+          }, {
+            "spellId" : "hold-person",
+            "rank" : 2,
+            "active" : true
+          }, {
+            "spellId" : "haste",
+            "rank" : 3,
+            "active" : true
+          }, {
+            "spellId" : "dispel-magic",
+            "rank" : 3,
+            "active" : false
+          }, {
+            "spellId" : "mage-hand",
+            "rank" : 0,
+            "active" : true
+          } ],
+          "personalFeatures" : [ {
+            "level" : 5,
+            "name" : "Encore",
+            "description" : "Nonmagical reaction immediately after another conscious ally within 60 ft spends Balthazar's Bardic Inspiration die and succeeds on the roll. The ally regains HP equal to Balthazar's proficiency bonus (3 at level 5). Once per short rest. The ally must hear him. Remove his Inspiration marker when resolving this; the GM confirms the successful roll and reaction. Cannot revive a downed ally. No spell slots, extra actions or Inspiration uses are refunded.",
+            "subclass" : "",
+            "usesPerRest" : 0,
+            "shortRestRecharge" : false
+          } ],
+          "passwordHash" : "06777036393a849e931d9b6b9019376fff572f6573469cd76574577cd84d17ce",
+          "passwordSalt" : "f80789435dd3c2bdbbc1932dd993d9d6",
+          "imagePath" : "images/players/player-balthazar.png",
+          "playerName" : "Lado",
+          "ownerUsername" : "",
+          "description" : "",
+          "maxHitPoints" : 48,
+          "currentHitPoints" : 48,
           "maxMana" : 0,
-          "spellSlots" : [ ],
-          "imagePath" : "images/monsters/new_1788428492375.jpg"
+          "currentMana" : 0,
+          "activeEffects" : [ ],
+          "subclass" : "",
+          "backstory" : "ბალთაზარი ერთ დროს უბრალო ტავერნის მუსიკოსი იყო, სანამ შემთხვევით მისი ლუთნა ალქიმიკოსის ექსპერიმენტთან ერთად არ აფეთქდა. ადამიანების უმეტესობა ასეთ მოვლენას ტრაგედიად ჩათვლიდა. ბალთაზარმა კარიერად აქცია.\n\nმას შემდეგ ის ქალაქიდან ქალაქში მოგზაურობს, სადაც მისი წარმოდგენები თანაბრად ცნობილია როგორც საოცარი მუსიკით, ისე მცირე მასშტაბის კატასტროფებით. მისი ჯადოსნური ლუთნა, “Thunderkiss”, მელოდიებს აფეთქებად ენერგიად გარდაქმნის, ხოლო მისი ხიბლი იმდენად ძლიერია, რომ მტრები ხშირად ხვდებიან, რომ მოჯადოებულები არიან მხოლოდ მაშინ, როცა უკვე გვიანაა.\n\nხალხი მას სხვადასხვა სახელით იცნობს: ოქროსხმა, ფეიერვერკების მეფე, მუსიკალური უბედურება. თავად კი მხოლოდ ერთს ამბობს:\n\n“თუ კონცერტის შემდეგ არაფერი აფეთქდა, ესე იგი საკმარისად კარგად არ დამიკრავს.” \uD83C\uDFB5\uD83D\uDCA5",
+          "castingResource" : null,
+          "spellSlots" : [ {
+            "level" : 1,
+            "max" : 4,
+            "current" : 4
+          }, {
+            "level" : 2,
+            "max" : 3,
+            "current" : 2
+          }, {
+            "level" : 3,
+            "max" : 3,
+            "current" : 3
+          } ],
+          "knownBlueprints" : [ ],
+          "furnaceFuel" : 0,
+          "cooldowns" : { },
+          "skills" : {
+            "custom" : { },
+            "acrobatics" : 2,
+            "animalHandling" : -1,
+            "arcana" : -1,
+            "athletics" : -1,
+            "deception" : 3,
+            "history" : -1,
+            "insight" : -1,
+            "intimidation" : 1,
+            "investigation" : 1,
+            "medicine" : -1,
+            "nature" : -1,
+            "perception" : 2,
+            "performance" : 5,
+            "persuasion" : 5,
+            "religion" : -1,
+            "sleightOfHand" : 1,
+            "stealth" : 0,
+            "survival" : -1
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : "",
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : 0,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : "",
+            "extraFeatures" : "",
+            "notes" : ""
+          },
+          "featureUses" : { }
         },
         "position" : {
           "x" : 13,
@@ -5565,12 +5920,12 @@
         },
         "inventory" : [ ],
         "combat" : {
-          "maxHitPoints" : 28,
-          "currentHitPoints" : 28,
-          "maxMana" : 12,
-          "currentMana" : 12,
+          "maxHitPoints" : 48,
+          "currentHitPoints" : 48,
+          "maxMana" : 0,
+          "currentMana" : 0,
           "gold" : 0,
-          "initiative" : 7,
+          "initiative" : 19,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -5590,11 +5945,23 @@
           "enduranceFeature" : null,
           "featureSpeedBonus" : 0,
           "castingResource" : null,
-          "spellSlots" : [ ],
+          "spellSlots" : [ {
+            "level" : 1,
+            "max" : 4,
+            "current" : 4
+          }, {
+            "level" : 2,
+            "max" : 3,
+            "current" : 2
+          }, {
+            "level" : 3,
+            "max" : 3,
+            "current" : 3
+          } ],
           "actingThisRound" : true
         },
-        "instanceId" : "c85e5846-3375-44e1-b157-aa4947262a24",
-        "symbol" : "M"
+        "instanceId" : "1213a26d-a15a-4970-8fa7-015a77955ca1",
+        "symbol" : "P"
       } ]
     }, {
       "passable" : true,
@@ -5932,7 +6299,7 @@
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 10,
-          "initiative" : 15,
+          "initiative" : 16,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,

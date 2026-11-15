@@ -282,7 +282,16 @@
     "currentHitPoints" : 48,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ ],
+    "activeEffects" : [ {
+      "effectId" : "blessed",
+      "name" : "Blessed",
+      "description" : "A faint radiance steadies the target's aim and nerve.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Tasha's Bless",
+      "expired" : false
+    } ],
     "subclass" : "",
     "backstory" : "ბალთაზარი ერთ დროს უბრალო ტავერნის მუსიკოსი იყო, სანამ შემთხვევით მისი ლუთნა ალქიმიკოსის ექსპერიმენტთან ერთად არ აფეთქდა. ადამიანების უმეტესობა ასეთ მოვლენას ტრაგედიად ჩათვლიდა. ბალთაზარმა კარიერად აქცია.\n\nმას შემდეგ ის ქალაქიდან ქალაქში მოგზაურობს, სადაც მისი წარმოდგენები თანაბრად ცნობილია როგორც საოცარი მუსიკით, ისე მცირე მასშტაბის კატასტროფებით. მისი ჯადოსნური ლუთნა, “Thunderkiss”, მელოდიებს აფეთქებად ენერგიად გარდაქმნის, ხოლო მისი ხიბლი იმდენად ძლიერია, რომ მტრები ხშირად ხვდებიან, რომ მოჯადოებულები არიან მხოლოდ მაშინ, როცა უკვე გვიანაა.\n\nხალხი მას სხვადასხვა სახელით იცნობს: ოქროსხმა, ფეიერვერკების მეფე, მუსიკალური უბედურება. თავად კი მხოლოდ ერთს ამბობს:\n\n“თუ კონცერტის შემდეგ არაფერი აფეთქდა, ესე იგი საკმარისად კარგად არ დამიკრავს.” \uD83C\uDFB5\uD83D\uDCA5",
     "castingResource" : null,
@@ -293,7 +302,7 @@
     }, {
       "level" : 2,
       "max" : 3,
-      "current" : 3
+      "current" : 2
     }, {
       "level" : 3,
       "max" : 3,
@@ -341,7 +350,7 @@
       "copper" : 0,
       "silver" : 0,
       "electrum" : 0,
-      "gold" : null,
+      "gold" : 0,
       "platinum" : 0,
       "extraAttacks" : [ ],
       "proficienciesAndLanguages" : "",
@@ -954,10 +963,19 @@
       "effectId" : "effect-greedy",
       "name" : "Greedy",
       "description" : null,
-      "remainingRounds" : 7,
+      "remainingRounds" : 5,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "GM",
+      "expired" : false
+    }, {
+      "effectId" : "blessed",
+      "name" : "Blessed",
+      "description" : "A faint radiance steadies the target's aim and nerve.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Tasha's Bless",
       "expired" : false
     } ],
     "subclass" : "",
@@ -1350,6 +1368,15 @@
       "healingPerRound" : 0,
       "source" : "GM",
       "expired" : false
+    }, {
+      "effectId" : "blessed",
+      "name" : "Blessed",
+      "description" : "A faint radiance steadies the target's aim and nerve.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Tasha's Bless",
+      "expired" : false
     } ],
     "subclass" : "",
     "backstory" : "\n\nთვითმარქვია რაინდი\n\nჩემი ყველაზე ძველი მოგონება არც სახეა და არც ხმა.\n\nქვის სიცივეა.\n\nმახსოვს, როგორ გამეღვიძა ბაზრის ხის დახლების ქვეშ. წვიმის წვეთები დამპალი ფიცრებიდან მეცემოდა, ხოლო ხელში იმდენად მაგრად ვიყავი ჩაფრენილი გამხმარ პურის ნაჭერს, რომ თითებიდან სისხლი მდიოდა. არ მახსოვს, ვინ მომცა ის პური. არც ის მახსოვს, საერთოდ მყავდა თუ არა ვინმე.\n\n„ეს ქალაქი“ სამეფოს ერთ-ერთი უდიდესი და უძლიერესი ქალაქი იყო. მთელი სამეფოს მბრძანებელი მეფე გახლდათ, მაგრამ თავად „ამ ქალაქს“ გრაფი მართავდა. მის სიტყვას ამ ქალაქში მხოლოდ მეფის ნება აღემატებოდა.\n\nთუმცა „აქაურობა“ ერთი ქალაქი არ ყოფილა.\n\nის ორ სხვადასხვა სამყაროდ იყო გაყოფილი.\n\nგარე წრე ეკუთვნოდა უბრალო ხალხს — გლეხებს, ხელოსნებს, ვაჭრებს, მჭედლებს, მათხოვრებს, ქურდებსა და ჩვენნაირ მიტოვებულ ბავშვებს. აქ ცხოვრება ყოველდღიური ბრძოლა იყო. შიმშილი, სიცივე და ძალადობა ჩვეულებრივი ამბავი გახლდათ.\n\nმაღალი ქვის გალავნის მიღმა კი შიდა წრე იწყებოდა.\n\nიქ ცხოვრობდნენ დიდგვაროვნები, რაინდები, მხედართმთავრები, სწავლულები და ქალაქის ყველაზე მდიდარი ადამიანები.\n\nუბრალო ადამიანს იქ შესვლა ეკრძალებოდა.\n\nნებართვის გარეშე შესულს ზოგჯერ ხელს აჭრიდნენ.\n\nზოგჯერ ენას.\n\nხოლო ზოგჯერ... აღარავინ ხედავდა.\n\nჩვენთვის, ქუჩის ბავშვებისთვის, ის კედლები სხვა სამყაროს საზღვარს ჰგავდა.\n\nვიცოდით, რომელი მცველი აიღებდა ქრთამს და რომელი სიამოვნებით სცემდა ბავშვს მხოლოდ იმიტომ, რომ შეეძლო.\n\nარავინ ოცნებობდა.\n\nოცნება მათთვის იყო, ვისაც ხვალინდელი დღის იმედი ჰქონდა.\n\nჩვენ მხოლოდ კიდევ ერთი გათენების იმედით ვცხოვრობდით.\n\nშვიდი წლის ვიყავი, როცა ჩემი ცხოვრება სამუდამოდ შეიცვალა.\n\nპურის მოპარვის შემდეგ ქალაქის მცველები გამომეკიდნენ. ბევრი სირბილისა და ძრომიალის შემდეგ ძლივს თავი დავაღწიე მათ.\n\nშემთხვევით ნახევრად ღია კარში შევძვერი...\n\nდა როცა სირბილი შევწყვიტე, მივხვდი, სად აღმოვჩნდი.\n\nშიდა წრეში.\n\nყველაზე მაღალ ხეზე მოვკალათდი და მაშინ ფოლადის ხმაური გავიგონე.\n\nჩემ წინ უზარმაზარი საწვრთნელი ეზო გადაიშალა.\n\nათეულობით ხალხი მიდი-მოდიოდა — ოსტატები, რაინდები, ახალბედები თუ უკვე გამოცდილები. მათი წვრთნების ყურება ჩემთვის ხელოვნება იყო.\n\nიმ დღეს მზის ჩასვლამდე იქიდან ვერ მოვწყდი.\n\nიმ ღამით კი, ძილის ნაცვლად, მდინარის ნაპირზე სწორი ტოტი ვიპოვე.\n\nხელში ისე დავიჭირე, როგორც იმ რაინდებს ეჭირათ მახვილი.\n\nდა ვცადე მათი მოძრაობების გამეორება.\n\nმეორე დღეს კვლავ მივედი.\n\nმერეც.\n\nდა ამის შემდეგ თითქმის ყოველდღე.\n\nდილით გადარჩენისთვის ვიბრძოდი.\n\nსაღამოს კი საიდუმლო ადგილს ვპოულობდი, საიდანაც საწვრთნელ მოედანს ვხედავდი.\n\nღამით მარტო ვვარჯიშობდი.\n\nვაკვირდებოდი მათ და ცოდნას ვიპარავდი... თუკი ამას ქურდობა ერქვა.\n\nთვეები გადიოდა და ვერც კი მივხვდი, ისე დავიწყე მათთან ერთად სწავლა.\n\nარა მოედანზე...\n\nარამედ ჩრდილებიდან.\n\nერთ დილას კი... კარგად ვერ დავიმალე. მათი ცქერით აღფრთოვანებულს ტოტი ჩამომიტყდა და ხმაურიანად დავეცი მიწაზე.\n\nროცა გონს მოვედი, მბზინავ, მზისამრეკლავ აბჯრებში ჩაცმული ხალხი მიყურებდა.\n\nუცებ მცველები მოვარდნენ, ერთი-ორი ჭკუის სასწავლებელი მომდეს, ქეჩოში ხელი ჩამავლეს და მმართველთან მიმაბრძანეს.\n\nროცა „მმართველის“ დარბაზში შემაგდეს, სახეზე სისხლი ჩამომდიოდა.\n\nდარბაზი აღშფოთებით აივსო.\n\n„მმართველმა“ მკითხა, ვინ ვიყავი.\n\nმეც დაუმალავად ავუხსენი ყველაფერი. ისედაც ცხადი იყო, რომ გარე წრის მათხოვართან ჰქონდათ საქმე.\n\nპური რომ მექურდა, ხელს მომაჭრიდნენ, მაგრამ მე აქ მხოლოდ ცოდნას ვიძენდი.\n\nცოდნისა და ინფორმაციის ქურდობისთვის თავს მომაჭრიდნენ, ვიცოდი.\n\nდა როდესაც მმართველს ჩემი თავი ჯალათისთვის უნდა გადაეცა, მისი უფროსი ქალიშვილი წამოდგა დარბაზში.\n\nჩემს ირგვლივ ისე შემოიარა, თითქოს ცხენს ათვალიერებდა.\n\nმამამისს მიაპყრო თვალები და ბრძანებით უთხრა. პატარა საქალბატონე, რომელიც ალბათ თორმეტი წლის იქნებოდა, ამბობდა, რომ ჩემი სიკვდილი ფუჭი ხარჯი იქნებოდა. ყველა მისი თანატოლი მასზე ძლიერი იყო, ჩემთან, სუსტთან, ვარჯიში კი უფრო მეტ სიამოვნებას მოუტანდა.\n\nთავიდან მმართველმა იუარა, მაგრამ როდესაც პატარა საქალბატონემ დაჟინებით დაიწყო მოთხოვნა, სცენების დადგმა და ტირილი, რასაც მისი ათი წლის ძმაც აჰყვა, მათ სურვილს ვერც ერთი მაღალმთავარი ვერ შეეწინააღმდეგა.\n\nიმ დღიდან მმართველის ვაჟისა და ქალიშვილის პირად სავარჯიშო თოჯინად ვიქეცი. თან მათ იარაღებს ვწმენდდი, დარბაზსა და საბრძოლო მოედანს ვალაგებდი. ყველა ბინძურ საქმესაც მე მავალებდნენ.\n\nსიკვდილს გადავურჩი, მაგრამ მათი საკუთრება გავხდი და თავისუფლება დავკარგე.\n\n\nასე გადიოდა დრო.\n\nორ წელიწადში, როდესაც ათ წელს გადავაცილე, თავადიშვილმა გოგონამ მალევე დაკარგა საბრძოლო ხელოვნების მიმართ ინტერესი და ხშირად აღარ სტუმრობდა სავარჯიშო დარბაზებს. იზრდებოდა, მშვენდებოდა, უფრო ელეგანტური ხდებოდა და ნამდვილ დიდგვაროვან ქალბატონს ემსგავსებოდა.\n\nაი, მისი ძმა კი უბედურის ერთი იყო. სულ იმას მაძახებდა: „მე გიხსენი და ჩემი მონა ხარო.“ ასაკთან ერთად მწვრთნელებმა და დამკვირვებლებმა ჩემს გამეტებასაც უმატეს. ისე მიმეტებდნენ ვარჯიშის დროს, რომ ხანდახან სისხლიც მსდიოდა, მაგრამ მე, როგორც მონას, არ მქონდა უფლება დიდგვაროვანის მშვენიერი სახე შემეწითლა. მხოლოდ გაქცევის, აცილების, იარაღის დახვედრის ან არიდების უფლება მქონდა, ისიც იშვიათად.\n\nკიდევ ორ წელში, როცა მე თოთხმეტ წელს ვითვლიდი, თავადიშვილები კი უკვე თექვსმეტი-თვრამეტი წლისანი იყვნენ, მე უკვე ყველა ტაქტიკა, ყველა მოძრაობა, ყველა შეტევა, თავდასხმა თუ თავდაცვა შესწავლილი მქონდა. მაგრამ აბა ჩემს შესაძლებლობებს როგორ გავამხელდი იმ ხალხის წინაშე, ვისთვისაც არაფრის დაშავების უფლება არ მქონდა? ამიტომ, როცა დრო მქონდა, ყოველთვის მარტო ვვარჯიშობდი და დროს არ ვკარგავდი.\n\nკიდევ ორ წელიწადში უკვე ტკივილში, ფოლადსა და ოფლში გამოჭედილი ვაჟკაცი ვიყავი და არა ის ბავშვი, რომელიც პურს ქურდობდა ოდესღაც. მაგრამ მაინც, შიმშილით დაღლილს, თავისუფლად მერჩივნა ერთ დროს ხეტიალი, ვიდრე აქ მდიდრების შემხედვარე დამცირებების ატანა და გამოკეტილად ყოფნა.\n\nსახელი არ გამაჩნდა. ყველა იმას მეძახდა, რაც მოესურვებოდათ.\n\nერთხელ ახალგაზრდა ქალბატონმა მასთან ერთად ბიბლიოთეკაში მიმიწვია. ძველ ენებს სწავლობდა. ზუსტად იქ, ძველი ენის ერთ-ერთ წიგნში, ამოვიკითხე სიტყვა „ლავენოს“, რაც მოქნილებასა და თავისუფლებას ნიშნავდა და ამავდროულად განდიდებული, ჯადოქრული მიმართვით გამოირჩეოდა. არავინ იცის, ვის მიმართებაში იხმარებოდა ძველად ეს სიტყვა.\n\n„ახალგაზრდა ქალბატონმა“ ღიმილით შემომხედა და მითხრა, რომ დღეიდან ჩემი სახელი ეს სიტყვა იქნებოდა, რადგან გრძნობდა, რომ რეალურად თავისუფლება მწყუროდა.\n\nერთ დღეს, როდესაც მმართველის დარბაზები სტუმრებით აივსო და ცენტრში პატარა კოლიზეუმი მოაწყვეს მისი ქალიშვილის მეოცე დაბადების დღის აღსანიშნავად, მის უმცროს ვაჟს თავის გამოჩენა მოუნდა ყველას წინაშე. თან ახალგაზრდა ლორდი სასმელმა შეახოშიანა და მამას უთხრა, რომ სტუმრების საპატივსაცემოდ დუელი უნდა გაემართა.\n\nმეტოქედ კი მე ამომირჩია.\n\nბრძოლის დროს თავს ვიკავებდი, რომ არ მევნო მისთვის და თავი არ დამეღუპა, მაგრამ სტუმრები აშკარად უკმაყოფილოები იყვნენ.\n\nმმართველმა ბრძოლა შეგვაწყვეტინა და პირადად მომმართა, რომ მეც შესაბამისად მებრძოლა, რათა მის ვაჟს თავისი ვაჟკაცობა და ცოდნა სრულად გამოევლინა.\n\nმე იგი დავამარცხე.\n\nდა როდესაც დამარცხებულმა ჩემი თავი მოსთხოვა მამამისს ლანგარზე, მისმა უფროსმა ქალიშვილმა და ჩემმა მხსნელმა კიდევ ერთხელ გადამარჩინა. დაარწმუნა მამა, რომ მე მხოლოდ ბრძანებას ვასრულებდი და სიკვდილს არ ვიმსახურებდი.\n\nრაკი იმ დღეს მისი დაბადების დღე იყო, გამიმართლა.\n\nმაგრამ ვიცოდი, დიდი ხანი აღარ დამრჩენოდა სიცოცხლე.\n\nროცა ახალგაზრდა ლედიმ მეორედ მიხსნა სიკვდილს, სწორედ იმ დღიდან შევხედე მას სხვა თვალით. ის აღარ იყო უბრალოდ დიდგვაროვანი. ის ჩემთვის ბევრად მეტს ნიშნავდა.\n\nასე დავახლოვდით და ჩვენი უბიწო, პლატონური, წმინდა სიყვარული ძლიერდებოდა.\n\nიმ დღის შემდეგ იგი ხშირად მხვდებოდა მაშინ, როცა არავინ გვხედავდა. არასოდეს მიყურებდა, როგორც მსახურს.\n\nპირველად ცხოვრებაში ვიგრძენი, რომ ვიღაც ადამიანს მხედავდა...\n\nდა არა საკუთრებას.\n\nარასოდეს დამავიწყდება მისი სიტყვები:\n\n„შენ ხარ ჩემთვის ნამდვილი რაინდი და მებრძოლი. უბრალოდ ამ სამყაროს ამის დანახვა არ შეუძლია.“\n\nიმ დღის შემდეგ უფრო მეტხანს მეფიქრებოდა მასზე და მის სიტყვებზე.\n\nროდესაც ჩვიდმეტი წლის გავხდი, ახალგაზრდა გრაფთან შებრძოლებიდან ზუსტად ერთი წლის შემდეგ, ახალგაზრდა ლედი, რომელიც ახლახან ოცდაერთი წლის გამხდარიყო, ბოლოჯერ ვნახე, როდესაც ერთ-ერთ შუახნის თავადზე უნდა გაეთხოვებინათ, რაღა თქმა უნდა, პოლიტიკური და ქონებრივი მიზნებით.\n\nბოლოჯერ ვნახე იგი და ამ ამბით მან სიცოცხლე გამომასალმა... სიცოცხლეს, რომელიც უკვე ორჯერ შემინარჩუნა.\n\nჩვენი ბოლო შეხვედრის ღამე იყო.\n\nმან თავისი მახვილი იშიშვლა, მთვარის შუქზე მოელვარე, და ყველასგან უჩუმრად რაინდად მაკურთხა.\n\nარც დამსწრეები, არც მეფე, არც მატიანე, არც გრაფი, ლორდი თუ მსახური... ირგვლივ არავინ იყო. მხოლოდ ჩვენ და მთვარის შუქზე მოელვარე მისი მახვილი.\n\nცალ მუხლზე ჩაჩოქილს მახვილი ჯერ ერთ მხარზე შემახო, შემდეგ მეორეზე, და თან მისი ცრემლები ფოლადს ეხეთქებოდნენ.\n\nბევრი რამის ახსნა მინდოდა. მასთან ერთად გაქცევაც მინდოდა. უამრავი რამ მქონდა მისთვის ასახსნელი და გასამხელი — გრძნობები და ფიქრები.\n\nმაგრამ მან არ მომისმინა.\n\nროგორც კი რიტუალი დაასრულა, მაშინვე გაუჩინარდა.\n\n\nიმ დღის მერე ჩემს ქალბატონს უიშვიათესად ვნახულობდი. თუ გიგანტური ქალაქის ერთი ბოლოდან მეორეში თავისი გომბეშო მეუღლე მოაბრძანებდა ხოლმე მმართველთან შესახვედრად...\n\nდა ყოველ ჯერზე უფრო და უფრო სუსტი ჩანდა, უფრო და უფრო დაღლილი და განადგურებული. უემოციო, ნაცემიც კი... თვალებში სული აღარ ედგა და არც მესაუბრებოდა. თვალს ისე მარიდებდა, თითქოს არ ვარსებობდი.\n\nროდესაც თვრამეტი წლის შევიქენი, მმართველის პალატებში, როგორც იქნა, ათი წლის შრომისა და ტკივილის შემდეგ, ყველას თვალში შესაბამისი პატივისცემა მოვიპოვე და ახლა მწვრთნელად მაქციეს.\n\nმმართველს დიდად მოვწონდი, მის ვაჟს — არც ისე, მაგრამ ბავშვობის წყენები დავივიწყეთ და თითქოს ყველაფერი რიგზე იყო. გარდა იმისა, რომ ჩემს ქალბატონს ვერ ველეოდი.\n\nერთხელაც იგი აღარ დაბრუნდა. არც მამასთან, არც ძმასთან, არც ჩემთან...\n\nმხოლოდ ამბავი მოვიდა მასზე, რომ თურმე მოღალატე ცოლი გამომდგარა გომბეშო გრაფისთვის და იგი სიკვდილით დაუსჯია ქმარს.\n\nაქ კი მმართველი ვერაფერს გახდებოდა, რადგან ქალიშვილი უკვე მას აღარ ეკუთვნოდა და, თან, მოტანილი ამბების მიხედვით, ვის რაში სჭირდება მოღალატე, ანდა უნამუსო ცოლი თუ ქალიშვილი...\n\nახალგაზრდა ბატონმა თავისი დის გარდაცვალება ვერ გადაიტანა, რადგან იგი უზომოდ უყვარდა. არ სჯეროდა, რომ მისი და უბრალო მეძავად შერაცხეს და თავიდან მოიშორეს...\n\nთვითონ კი მამამისის სილაჩრე ამხეცრებდა, თან საკუთარი უსუსურობა თუ კანონით შებოჭილობა თრგუნავდა.\n\nიმ ღამეს ბედისწერა საკუთარ ხელში ავიღე.\n\nმე ხომ უბრალოდ მსახური ვარ... ლაქა, აჩრდილი, საკუთრება...\n\nმაგრამ დამატებული ამ ყველაფერს — მოულოდნელი საფრთხეც, რომელსაც ვერავინ ამოიცნობს.\n\nმივაშურე გომბეშო დიდგვაროვანის საბინადროებს ღამის ბნელში და მის პალატებს მივაგენი.\n\nარ მინდოდა მისი ძილში მოკვლა, ისე, როგორც გაიძვერებს სჩვევიათ.\n\nმინდოდა ეღიარებინა.\n\nმინდოდა ეთხოვა, რომ არ მომეკლა.\n\nიქნებ პატიებაც ეთხოვა...\n\nმაგრამ მე ჩემი გადაწყვეტილება უკვე მიღებული მქონდა.\n\nშეეღვიძა თუ არა, ყელთან ხანჯალი მივაბჯინე და საძინებლიდან მძევლად მოვიპარე.\n\nერთხანს ფხიზლად მჭირდებოდა, რომ მცველები არ გამომყოლოდნენ. შემდეგ კი კეფაში ჩარტყმით მოვთიშე და ცხენით მმართველის სასახლეში მივათრიე.\n\nშუა დარბაზში დავაგდე და მმართველს დავუძახე!\n\nმმართველი, მამა, ძმა და ყველა, ვინც ახლომახლო იმყოფებოდა, გამოცვივდნენ და გაოცებულები უყურებდნენ სეირს.\n\nლაჩარს ვაღიარებინე, რომ ცოლი ძალადობაში შემოაკვდა.\n\nგამწარებულს ისე მეჭირა ეს გაკოჭილი ნაბიჭვარი, რომ ვერც კი ინძრეოდა.\n\nვიცოდი, რომ მეფის კაცი იყო და ამ ქალაქის მმართველიც კი ვერ შემიწყალებდა ამ საქციელის შემდეგ.\n\nმაგრამ მე სიმართლე მაინტერესებდა.\n\nდა მხოლოდ სიმართლე.\n\nყელქვეშ ხანჯალი ისე ნელა გამოვუსვი, რომ ყველა ძარღვი სათითაოდ დახეთქილიყო და რაც შეიძლება ნელა მომკვდარიყო.\n\nმერე მისი ჯერ კიდევ მოფართხალე სხეული პირქვე დავანარცხე და ჩემს ბატონს მივუტრიალდი.\n\nახალგაზრდა ბატონი ჩემსკენ გამოექანა და ლახვარი მუცელში ჩამასო.\n\nიმ მომენტიდან აღარაფერი მახსოვს.\n\nროგორც გავიგე, ჩემი თავი გვამად გამოუცხადებიათ, ახალგაზრდა ბატონი კი გმირად შეურაცხავთ.\n\nმე მკვდრების ეტლით, სასახლის უკანა კარიდან, მთლიანად ქალაქის გარეთ გამომათრიეს...\n\nმან იცოდა, რომ ვსუნთქავდი, მაგრამ სიკვდილს არ მისცა ჩემი თავი.\n\nმამა-მთავარიც გააცურა, მეფეც და ყველა თავადიც.\n\nმას ძალიან უყვარდა საკუთარი და\n",
@@ -1710,10 +1737,19 @@
       "effectId" : "effect-charity",
       "name" : "charity",
       "description" : null,
-      "remainingRounds" : 10,
+      "remainingRounds" : 8,
       "damagePerRound" : 0,
       "healingPerRound" : 1,
       "source" : "GM",
+      "expired" : false
+    }, {
+      "effectId" : "blessed",
+      "name" : "Blessed",
+      "description" : "A faint radiance steadies the target's aim and nerve.",
+      "remainingRounds" : 1,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Tasha's Bless",
       "expired" : false
     } ],
     "subclass" : "",
@@ -1722,7 +1758,7 @@
     "spellSlots" : [ {
       "level" : 1,
       "max" : 4,
-      "current" : 4
+      "current" : 3
     }, {
       "level" : 2,
       "max" : 3,
@@ -1993,7 +2029,16 @@
     "currentHitPoints" : 59,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ ],
+    "activeEffects" : [ {
+      "effectId" : "blessed",
+      "name" : "Blessed",
+      "description" : "A faint radiance steadies the target's aim and nerve.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Tasha's Bless",
+      "expired" : false
+    } ],
     "subclass" : "",
     "backstory" : "",
     "castingResource" : null,
@@ -2475,7 +2520,16 @@
     "currentHitPoints" : 45,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ ],
+    "activeEffects" : [ {
+      "effectId" : "blessed",
+      "name" : "Blessed",
+      "description" : "A faint radiance steadies the target's aim and nerve.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Tasha's Bless",
+      "expired" : false
+    } ],
     "subclass" : "Artillerist",
     "backstory" : "Lore\nToren was born into House Valebrick, a wealthy human noble family whose influence came from engineering, foundries, workshops, bridges and machines rather than ancient magical blood. As a child he dismantled clocks, locks and mechanisms because he needed to know why they worked. His grandfather Aldren taught him one principle: \"Open it. Understand it.\"\n\nDuring the Ash Border War, Marianne Bell - the girl Toren loved - was killed in magical warfare in an industrial district. She was not the target. Since then Toren is cold toward magical power and wary of anyone who treats inherited supernatural gifts as proof of superiority. He is fiercely proud of humanity precisely because humans were not the most gifted: they built their advantages. \"Others inherited their advantages. We built ours.\"\n\nGrand Theory of Replication\nToren rejects the word \"magic\". He calls it Arcane Resonance - a natural field that can be measured, stored, transferred and stabilised. Every repeatable magical phenomenon can eventually be reproduced technologically. His key word is \"yet\". Failure response: \"Again.\"\n\nFamily\nEvelyne Valebrick (28), his elegant and politically skilled older sister. Toren understands machines; Evelyne understands people. They exchange notes through Argus, a mechanical messenger owl.\n\nSkills & tools\nSaves CON +6, INT +7. Investigation +5 (machines, traps, mechanisms only), History +3, Insight +1. Tools: Tinker's, Smith's, Thieves' (\"precision access instruments\"), Woodcarver's.\n\nEnergy charges\nInstead of spell slots Toren spends energy capsules: Steam-pressure (L1) and Thermal (L2) for now, Electric and beyond after upgrades. He refills them at the workshop's Resonance Core furnace, which burns any fuel - some more efficiently than others. Rests do not refill them.\n\nValebrick Portable Field Workshop\n~80 x 45 x 30 cm, 32-36 kg, reinforced harness. Drivers, hammers, files, calipers, clamps, resonance testers, wire, plates, ammunition parts, sealed blueprint tubes, a compact hardened-steel anvil and a small forge chamber. Full deployment into a workbench takes 30-60 seconds outside combat. Heavy and awkward in tight spaces or water.\n\nValebrick Resonance Core\nA refined arcane-reactive crystal in a brass stabilisation cage with rotating rings, conductors and regulators. Failure signs: vibration, unstable tone, heat, misaligned rings, blue arcing. A cracked or overcharged core can discharge violently.\n\nBolt Repeater\nStationary single-barrel turret (Eldritch Cannon - Force Ballista). Deploy: action. Fire: bonus action, d20 + ammunition bonus, 30 m, 2d6 force, push 5 ft. AC 8, HP 12, Mending restores 1d6. Takes different ammunition types.\n\nCombat Fabrication (DM-approved homebrew)\n3 per long rest from prepared parts: Emergency Patch, Quick Cover, Special Charge. No permanent weapons, armor or major machines during combat.\n\nDM additions\nIn the storage world he finds a metal bracer covering his left forearm that unfolds into a 25 cm-radius light round shield: it stops projectiles and light weapons but, being so light, does not absorb blunt attacks (Valebrick Folding Bracer).",
     "castingResource" : "ENERGY_CHARGES",
@@ -2834,7 +2888,16 @@
     "currentHitPoints" : 38,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ ],
+    "activeEffects" : [ {
+      "effectId" : "blessed",
+      "name" : "Blessed",
+      "description" : "A faint radiance steadies the target's aim and nerve.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Tasha's Bless",
+      "expired" : false
+    } ],
     "subclass" : "School of Evocation",
     "backstory" : "Raised in a human village, he grew up surrounded by people who loved him, even if they occasionally wished he were a little less inventive. He was a kind boy, curious about everything, and somehow always in trouble.\n\n His magic first appeared without warning and rarely at a convenient moment. Once, he accidentally turned himself invisible, causing the entire village to search for him for two days. He spent much of that time trying to explain that he was right there, but frightened villagers hearing a voice from nowhere only made the situation worse.\n\n Other incidents followed. The final straw came when a neighbour’s cow began floating above its enclosure. After they managed to get it down, he admitted that perhaps he needed help. The village agreed with unusual enthusiasm. Everyone contributed what they could to send him to a magic school. The cow’s owner contributed first.\n\n At school, he learned to recognise and direct the magic that had always come naturally to him. He was an eager student, though his enthusiasm often outlasted his energy. He would practise late into the night, forget to sleep, and spend the next day exhausted, struggling with spells he could normally manage easily. Despite repeated warnings from his teachers, he still treats “just one more attempt” as a perfectly reasonable bedtime.\n\n As he gained control of his powers, another question began occupying his thoughts: where had he come from? He loved his village and considered its people his family, but he had never known another elf well. He wanted to find his own kin, learn about their lives, and perhaps discover something about his birth family.\n\n Now he has set out into the world, carrying his training, his curiosity, and a firm promise to write home. He is happy to travel with others and quick to offer help—occasionally before checking whether he actually knows how.",
     "castingResource" : null,
@@ -3264,6 +3327,15 @@
       "healingPerRound" : 0,
       "source" : "GM",
       "expired" : false
+    }, {
+      "effectId" : "blessed",
+      "name" : "Blessed",
+      "description" : "A faint radiance steadies the target's aim and nerve.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Tasha's Bless",
+      "expired" : false
     } ],
     "subclass" : "Arcane Trickster",
     "backstory" : "Escaped Subject. Neri does not remember a time before the laboratory - only the number R-17, the sound of the cage latch, and the doctors writing down how he laughed when they hurt him. Somewhere in there the graft took: gray fur, big ears, a thin tail he still tries to hide in his coat.\n\nHe got out through a laundry chute with a blue bead in his cheek, half of a key and a page torn from his own file. He never found the door the key belongs to. He keeps it anyway.\n\nHe jokes when he is scared, which is most of the time. He is loyal to whoever does not put him in a box. He hides his pain well enough that people forget it is there.\n\nLatch - sometimes a second, flatter voice answers for him. Neri calls it Latch. It is roleplay only: no mechanics, just the part of him that still counts the bars.\n\nContact: Moss, a courier who smuggled him his first deck of cards and asks no questions.\nHook: a shipment stamped with the laboratory seal (a closed eye inside a flask) is on its way to a riverside hospice. Neri wants to know what - or who - is inside.\n\nKeepsakes: a blue glass bead, a broken key, the lab record.",
@@ -3584,7 +3656,16 @@
     "currentHitPoints" : 50,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ ],
+    "activeEffects" : [ {
+      "effectId" : "blessed",
+      "name" : "Blessed",
+      "description" : "A faint radiance steadies the target's aim and nerve.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Tasha's Bless",
+      "expired" : false
+    } ],
     "subclass" : "The Great Old One",
     "backstory" : "ამნეზია აქვს, თუმცა ეს დიდად არ აწუხებს, სხვებს დიდად არ ენდობა. \nchaotic neutral\nსისუსტე: Can I pet the dawg? - აქვს disadvantage on perception checks, she's oblivious to dangers\nძლიერი მხარე: კარგი მატყუარაა.\nმისია:  ცდილობს გაიგოს ვინაა, აღიდგნოს დაკარგული მოგონებები",
     "castingResource" : null,
