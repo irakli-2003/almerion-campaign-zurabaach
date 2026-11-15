@@ -4496,8 +4496,26 @@
   }, {
     "id" : "item-umbrella",
     "name" : "umbrella",
-    "type" : "gear",
+    "type" : null,
     "description" : "nowmal wet umprella",
+    "valueGold" : 0,
+    "weight" : 0.0,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : false,
+    "imagePath" : null,
+    "overview" : ""
+  }, {
+    "id" : "item-mirror-shard",
+    "name" : "mirror shard",
+    "type" : "gear",
+    "description" : "broken mirror shard",
     "valueGold" : 0,
     "weight" : 0.0,
     "damage" : {
