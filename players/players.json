@@ -972,7 +972,7 @@
       "effectId" : "effect-greedy",
       "name" : "Greedy",
       "description" : null,
-      "remainingRounds" : 2,
+      "remainingRounds" : 1,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "GM",
@@ -1356,14 +1356,14 @@
     "ownerUsername" : "",
     "description" : "Duelist.\n\nWeapons:\n• Ladies' Blade — no bonus to hit, 1d6 piercing. On a hit: even damage roll → damage doubled, odd → damage halved (rounded up).\n• Forgotten Blade — +3 to hit, 1d8 slashing.\n• Dual (both blades equipped) — +5 to hit, 1d8 + 1d6 (use the Dual Blade Strike action). The Ladies' Blade d6 still follows the even/odd rule.\n\nTreasure & inventory: Explorer's Pack, Simple Clothes, Visage (glasses), 40 BP, Philter of Love, Dust Powder, Advantage: Wisdom, Null Monet.\n\nPassives:\n• Break Enemy Defense — 20% chance on each hit (d100 ≤ 20) to reduce the target's AC by 1 until the end of the fight.\n• Battle Awareness — automatically enters battle stance when a fight starts; predicts the enemy's first strike and gets one free Dodge against it.\n• Combat Momentum — each successful hit adds +1 damage to his following hits, stacking until the end of the battle.\n• Parry & Counter — when attacked in melee roll d100: 1–25 parry and counterattack (counter lands on 50%), 26–45 parry only, 46–65 counterattack only, 66–100 nothing.\n\nSuper attack: T.L.K.O. (the move only Maghro knows) — see the T.L.K.O. action.",
     "maxHitPoints" : 52,
-    "currentHitPoints" : 42,
+    "currentHitPoints" : 41,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ {
       "effectId" : "effect-sharpened-scimitar",
       "name" : "sharpened scimitar",
       "description" : null,
-      "remainingRounds" : 4,
+      "remainingRounds" : 2,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "GM",
@@ -1376,8 +1376,7 @@
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
     "cooldowns" : {
-      "compelled-duel" : 3,
-      "blade-rush" : 2
+      "compelled-duel" : 1
     },
     "skills" : {
       "custom" : { },
@@ -1724,14 +1723,14 @@
     "ownerUsername" : "",
     "description" : "Tiefling cleric. Casts with spell slots (level 5: 4 × 1st, 3 × 2nd, 2 × 3rd), recovered on a long rest.\n\nPassives:\n• Healing Bonus: +2 HP on every healing spell she casts (the DM adds it; the app's flat healing values already use her numbers without it).\n• Passive Perception: 14\n• Passive Insight: 16\n• Passive Investigation: 9\n\nOnce per long rest: Divine Embrace.",
     "maxHitPoints" : 45,
-    "currentHitPoints" : 33,
+    "currentHitPoints" : 34,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ {
       "effectId" : "effect-charity",
       "name" : "charity",
       "description" : null,
-      "remainingRounds" : 5,
+      "remainingRounds" : 4,
       "damagePerRound" : 0,
       "healingPerRound" : 1,
       "source" : "GM",
@@ -2851,19 +2850,10 @@
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ {
-      "effectId" : "blessed",
-      "name" : "Blessed",
-      "description" : "A faint radiance steadies the target's aim and nerve.",
-      "remainingRounds" : 1,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Tasha's Bless",
-      "expired" : false
-    }, {
       "effectId" : "blinded",
       "name" : "Blinded",
       "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
-      "remainingRounds" : 2,
+      "remainingRounds" : 1,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "Toren Valebrick's Smoke Canister",
@@ -2872,7 +2862,7 @@
       "effectId" : "prone",
       "name" : "Prone",
       "description" : "Knocked flat; movement costs double and melee attackers gain advantage.",
-      "remainingRounds" : 2,
+      "remainingRounds" : 1,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "Bandersnatch Pup's Bite",
@@ -3991,7 +3981,7 @@
     "ownerUsername" : "",
     "description" : "მამრი ტყის ელფი; სიმაღლე 1.84 მ. მუქი, არეული თმა, დაკვირვებული მზერა და გაცვეთილი ტყავის აბჯარი. ხელში დედის ორი ხანჯალი, ზურგზე მამის მოკლე მშვილდი.\n\nჩუმი დუელისტი: ჯერ აკვირდება ნაბიჯს, სუნთქვასა და წონასწორობას, შემდეგ ახლო მანძილზე ჭრის და პოზიციას იცვლის. არ იყენებს მაგიას, ცეცხლსასროლ იარაღს ან ილუზიებს. მისი მაღალი Charisma მშვიდ თავდაჯერებასა და მკაფიო ნებას აღნიშნავს, არა მხიარულებას.\n\nიშვიათად გრძნობს იმას, რასაც სხვები; ეს პიროვნული თავისებურებაა და არა ემოციების სრული არქონა ან შიშისგან იმუნიტეტი.",
     "maxHitPoints" : 37,
-    "currentHitPoints" : 33,
+    "currentHitPoints" : 32,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ ],
@@ -4002,7 +3992,7 @@
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
     "cooldowns" : {
-      "three-fast-stabs" : 3
+      "three-fast-stabs" : 2
     },
     "skills" : {
       "custom" : { },

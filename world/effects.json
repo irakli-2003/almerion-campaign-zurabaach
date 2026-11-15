@@ -539,5 +539,15 @@
     "healingAmount" : 0,
     "durationRounds" : 7,
     "lasting" : true
+  }, {
+    "id" : "scoliosis",
+    "name" : "სქოლიოზი",
+    "description" : "",
+    "damaging" : true,
+    "healing" : false,
+    "damageAmount" : 1,
+    "healingAmount" : 0,
+    "durationRounds" : 1,
+    "lasting" : true
   } ]
 }
