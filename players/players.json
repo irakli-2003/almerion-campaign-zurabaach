@@ -947,15 +947,15 @@
     "ownerUsername" : "",
     "description" : "Bounty hunter. Always finishes the hunt.\n\nResources:\n• Mana = revolver chambers. Max 6. Every Sixfold Judgment shot costs 1. The Gravitic Anchor Node refills all six chambers during a long rest — nobody can reload it by hand.\n• Singularity Round: 1 per short rest. Anchor Round: 1 per long rest. Their cooldowns are set to 100 rounds so they cannot be used again in the same fight.\n• Shot save DC (Crushing / Anchor): 13 (8 + proficiency 3 + DEX 2).\n\nPassives:\n• Sneak Attack (rogue, level 5): +3d6 once per turn on a hit with advantage, or when an ally stands next to the target.\n• Bound artifacts — the Sixfold Judgment only works while the Gravitic Anchor Node is attached to him.",
     "maxHitPoints" : 45,
-    "currentHitPoints" : 35,
+    "currentHitPoints" : 31,
     "maxMana" : 7,
     "currentMana" : 6,
     "activeEffects" : [ {
-      "effectId" : "effect-greedy",
-      "name" : "Greedy",
-      "description" : null,
+      "effectId" : "bleeding",
+      "name" : "Bleeding",
+      "description" : "An open wound that keeps costing blood until it is bound.",
       "remainingRounds" : 1,
-      "damagePerRound" : 0,
+      "damagePerRound" : 2,
       "healingPerRound" : 0,
       "source" : "GM",
       "expired" : false
@@ -1705,14 +1705,14 @@
     "ownerUsername" : "",
     "description" : "Tiefling cleric. Casts with spell slots (level 5: 4 × 1st, 3 × 2nd, 2 × 3rd), recovered on a long rest.\n\nPassives:\n• Healing Bonus: +2 HP on every healing spell she casts (the DM adds it; the app's flat healing values already use her numbers without it).\n• Passive Perception: 14\n• Passive Insight: 16\n• Passive Investigation: 9\n\nOnce per long rest: Divine Embrace.",
     "maxHitPoints" : 45,
-    "currentHitPoints" : 34,
+    "currentHitPoints" : 35,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ {
       "effectId" : "effect-charity",
       "name" : "charity",
       "description" : null,
-      "remainingRounds" : 4,
+      "remainingRounds" : 3,
       "damagePerRound" : 0,
       "healingPerRound" : 1,
       "source" : "GM",
@@ -1724,7 +1724,7 @@
     "spellSlots" : [ {
       "level" : 1,
       "max" : 4,
-      "current" : 2
+      "current" : 1
     }, {
       "level" : 2,
       "max" : 3,
@@ -3267,7 +3267,7 @@
     "ownerUsername" : "",
     "description" : "Neri \"Ratboy\" Venn (R-17) - Lightfoot halfling (rat-like), Rogue 5 (Arcane Trickster)\n\n. Passive Perception 15.\nProficiencies: light armour; simple weapons, hand crossbows, longswords, rapiers, shortswords; thieves' tools, disguise kit, forgery kit. Languages: Common, Halfling, Thieves' Cant.\n\nAttacks: Dagger +5, 1d4+2 piercing (thrown 6/18 m). Shortbow +5, 1d6+2 piercing (24/96 m).\nSpellcasting (INT): save DC 13, spell attack +5, three 1st-level slots.\n- Cantrips: Mage Hand, Minor Illusion, Frost Card (Ray of Frost - he throws a frozen playing card: +5 to hit, 2d8 cold at level 5, 18 m, target -3 m speed).\n- 1st level: Shield, Disguise Self, Silent Image (concentration), Charm Person.\n\nFeatures:\n- Sneak Attack 3d6 - once per turn, finesse or ranged weapon, with advantage or an ally next to the target.\n- Cunning Action - Dash, Disengage or Hide as a bonus action.\n- Uncanny Dodge - reaction, halve the damage of one attack he can see.\n- Mage Hand Legerdemain - invisible Mage Hand; can plant, lift and pick locks with it; bonus action to control.\n- Lucky - reroll a natural 1 on an attack, check or save.\n- Brave - advantage on saves against being frightened.\n- Halfling Nimbleness - moves through the space of anything larger than him.\n- Naturally Stealthy - can hide behind a creature at least one size larger.\n- Second Breakfast - if he eats during a short rest, he regains an extra 1d4 + 5 HP.\n\n",
     "maxHitPoints" : 27,
-    "currentHitPoints" : 8,
+    "currentHitPoints" : 22,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ {
