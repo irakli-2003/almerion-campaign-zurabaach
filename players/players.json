@@ -3533,6 +3533,13 @@
       },
       "equipped" : true,
       "quantity" : 1
+    }, {
+      "itemId" : "item-diary-of-a-friend",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
     } ],
     "spells" : [ {
       "spellId" : "eldritch-blast",
