@@ -4121,10 +4121,7 @@
     },
     "pickable" : true,
     "imagePath" : null,
-    "dualWield" : false,
-    "minRequiredCoreStats" : null,
-    "effects" : null,
-    "weaponDamage" : null
+    "overview" : null
   }, {
     "id" : "da-fathers-shortbow",
     "name" : "Father's Shortbow",
@@ -4142,10 +4139,7 @@
     },
     "pickable" : true,
     "imagePath" : null,
-    "dualWield" : false,
-    "minRequiredCoreStats" : null,
-    "effects" : null,
-    "weaponDamage" : null
+    "overview" : null
   }, {
     "id" : "da-leather-armor",
     "name" : "Da's Leather Armor",
@@ -4160,8 +4154,7 @@
     },
     "pickable" : true,
     "imagePath" : null,
-    "material" : null,
-    "armorClassBonus" : 1
+    "overview" : null
   }, {
     "id" : "uriel-fathers-rapier",
     "name" : "Uriel's Father's Sword",
@@ -4179,10 +4172,7 @@
     },
     "pickable" : true,
     "imagePath" : null,
-    "dualWield" : false,
-    "minRequiredCoreStats" : null,
-    "effects" : null,
-    "weaponDamage" : null
+    "overview" : null
   }, {
     "id" : "uriel-studded-leather",
     "name" : "Uriel's Reinforced Leather",
@@ -4197,8 +4187,7 @@
     },
     "pickable" : true,
     "imagePath" : null,
-    "material" : null,
-    "armorClassBonus" : 2
+    "overview" : null
   }, {
     "id" : "sinne-seam-dagger",
     "name" : "Seam Dagger",
@@ -4216,10 +4205,7 @@
     },
     "pickable" : true,
     "imagePath" : null,
-    "dualWield" : false,
-    "minRequiredCoreStats" : null,
-    "effects" : null,
-    "weaponDamage" : null
+    "overview" : null
   }, {
     "id" : "item-bread-crumbs",
     "name" : "bread crumbs",
@@ -4237,5 +4223,23 @@
     },
     "pickable" : false,
     "imagePath" : null
+  }, {
+    "id" : "item-said-the-name",
+    "name" : "said the name",
+    "type" : "gear",
+    "description" : "",
+    "valueGold" : 0,
+    "weight" : 0.0,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : false,
+    "imagePath" : null,
+    "overview" : ""
   } ]
 }

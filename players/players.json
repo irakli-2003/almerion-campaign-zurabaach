@@ -3864,6 +3864,13 @@
       },
       "equipped" : false,
       "quantity" : 1
+    }, {
+      "itemId" : "item-said-the-name",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 3
     } ],
     "spells" : [ {
       "spellId" : "chill-touch",
