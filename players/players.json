@@ -652,10 +652,10 @@
     "name" : "Zoinks - El Cucaratcha",
     "classId" : "rogue",
     "raceId" : "human",
-    "level" : 5,
-    "xp" : 265,
+    "level" : 6,
+    "xp" : 0,
     "upgrades" : {
-      "earned" : 4,
+      "earned" : 5,
       "unlocks" : [ {
         "classId" : "rogue",
         "sourceRequestId" : null,
@@ -866,10 +866,10 @@
     "playerName" : "Zura",
     "ownerUsername" : "",
     "description" : "Bounty hunter. Always finishes the hunt.\n\nResources:\n• Mana = revolver chambers. Max 6. Every Sixfold Judgment shot costs 1. The Gravitic Anchor Node refills all six chambers during a long rest — nobody can reload it by hand.\n• Singularity Round: 1 per short rest. Anchor Round: 1 per long rest. Their cooldowns are set to 100 rounds so they cannot be used again in the same fight.\n• Shot save DC (Crushing / Anchor): 13 (8 + proficiency 3 + DEX 2).\n\nPassives:\n• Sneak Attack (rogue, level 5): +3d6 once per turn on a hit with advantage, or when an ally stands next to the target.\n• Bound artifacts — the Sixfold Judgment only works while the Gravitic Anchor Node is attached to him.",
-    "maxHitPoints" : 38,
-    "currentHitPoints" : 7,
-    "maxMana" : 6,
-    "currentMana" : 4,
+    "maxHitPoints" : 45,
+    "currentHitPoints" : 14,
+    "maxMana" : 7,
+    "currentMana" : 5,
     "activeEffects" : [ {
       "effectId" : "effect-nameless",
       "name" : "Nameless",
