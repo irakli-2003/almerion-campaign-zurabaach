@@ -4424,7 +4424,7 @@
   }, {
     "id" : "item-shield-bracelet",
     "name" : "shield bracelet",
-    "type" : "gear",
+    "type" : null,
     "description" : "foldable bracelet- shield",
     "valueGold" : 0,
     "weight" : 0.0,
@@ -4439,5 +4439,41 @@
     "pickable" : false,
     "imagePath" : null,
     "overview" : ""
+  }, {
+    "id" : "item-ancestral-sword",
+    "name" : "ancestral sword",
+    "type" : "weapon",
+    "description" : "Uriels fathers sword",
+    "valueGold" : 20,
+    "weight" : 4.0,
+    "damage" : {
+      "dice" : "1d12",
+      "type" : "slashing"
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : true,
+    "imagePath" : null,
+    "dualWield" : true,
+    "minRequiredCoreStats" : {
+      "custom" : { },
+      "strength" : 8,
+      "dexterity" : 8,
+      "constitution" : 8,
+      "intelligence" : 8,
+      "wisdom" : 8,
+      "charisma" : 8
+    },
+    "effects" : [ ],
+    "weaponDamage" : {
+      "dice" : [ {
+        "diceId" : "d12",
+        "count" : 1
+      } ],
+      "typeId" : "slashing",
+      "constant" : 2
+    }
   } ]
 }
