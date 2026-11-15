@@ -917,6 +917,13 @@
       },
       "equipped" : false,
       "quantity" : 1
+    }, {
+      "itemId" : "halberd",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
     } ],
     "spells" : [ {
       "spellId" : "gravity-round",
