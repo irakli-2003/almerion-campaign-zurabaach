@@ -3938,7 +3938,7 @@
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
     "cooldowns" : {
-      "three-fast-stabs" : 2
+      "three-fast-stabs" : 1
     },
     "skills" : {
       "custom" : { },
