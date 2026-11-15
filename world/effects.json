@@ -529,5 +529,15 @@
     "healingAmount" : 0,
     "durationRounds" : 7,
     "lasting" : true
+  }, {
+    "id" : "effect-greedy",
+    "name" : "Greedy",
+    "description" : "",
+    "damaging" : false,
+    "healing" : false,
+    "damageAmount" : 0,
+    "healingAmount" : 0,
+    "durationRounds" : 7,
+    "lasting" : true
   } ]
 }
