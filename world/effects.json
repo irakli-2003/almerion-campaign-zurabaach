@@ -509,5 +509,15 @@
     "healingAmount" : 0,
     "durationRounds" : 999,
     "lasting" : true
+  }, {
+    "id" : "effect-charity",
+    "name" : "charity",
+    "description" : "",
+    "damaging" : false,
+    "healing" : true,
+    "damageAmount" : 0,
+    "healingAmount" : 1,
+    "durationRounds" : 10,
+    "lasting" : true
   } ]
 }
