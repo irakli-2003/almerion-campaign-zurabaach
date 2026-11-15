@@ -1339,14 +1339,14 @@
           "ownerUsername" : "",
           "description" : "Duelist.\n\nWeapons:\n• Ladies' Blade — no bonus to hit, 1d6 piercing. On a hit: even damage roll → damage doubled, odd → damage halved (rounded up).\n• Forgotten Blade — +3 to hit, 1d8 slashing.\n• Dual (both blades equipped) — +5 to hit, 1d8 + 1d6 (use the Dual Blade Strike action). The Ladies' Blade d6 still follows the even/odd rule.\n\nTreasure & inventory: Explorer's Pack, Simple Clothes, Visage (glasses), 40 BP, Philter of Love, Dust Powder, Advantage: Wisdom, Null Monet.\n\nPassives:\n• Break Enemy Defense — 20% chance on each hit (d100 ≤ 20) to reduce the target's AC by 1 until the end of the fight.\n• Battle Awareness — automatically enters battle stance when a fight starts; predicts the enemy's first strike and gets one free Dodge against it.\n• Combat Momentum — each successful hit adds +1 damage to his following hits, stacking until the end of the battle.\n• Parry & Counter — when attacked in melee roll d100: 1–25 parry and counterattack (counter lands on 50%), 26–45 parry only, 46–65 counterattack only, 66–100 nothing.\n\nSuper attack: T.L.K.O. (the move only Maghro knows) — see the T.L.K.O. action.",
           "maxHitPoints" : 52,
-          "currentHitPoints" : 42,
+          "currentHitPoints" : 41,
           "maxMana" : 0,
           "currentMana" : 0,
           "activeEffects" : [ {
             "effectId" : "effect-sharpened-scimitar",
             "name" : "sharpened scimitar",
             "description" : null,
-            "remainingRounds" : 3,
+            "remainingRounds" : 2,
             "damagePerRound" : 0,
             "healingPerRound" : 0,
             "source" : "GM",
@@ -1359,8 +1359,7 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : {
-            "compelled-duel" : 2,
-            "blade-rush" : 1
+            "compelled-duel" : 1
           },
           "skills" : {
             "custom" : { },
@@ -1417,7 +1416,7 @@
         "inventory" : [ ],
         "combat" : {
           "maxHitPoints" : 52,
-          "currentHitPoints" : 42,
+          "currentHitPoints" : 41,
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
@@ -1432,21 +1431,20 @@
           "climbSpeed" : 0,
           "swimSpeed" : 0,
           "speedSeeded" : true,
-          "movementUsed" : 6,
+          "movementUsed" : 0,
           "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
             "effectId" : "effect-sharpened-scimitar",
             "name" : "sharpened scimitar",
             "description" : null,
-            "remainingRounds" : 3,
+            "remainingRounds" : 2,
             "damagePerRound" : 0,
             "healingPerRound" : 0,
             "source" : "GM",
             "expired" : false
           } ],
           "cooldowns" : {
-            "compelled-duel" : 2,
-            "blade-rush" : 1
+            "compelled-duel" : 1
           },
           "featureUses" : { },
           "resistances" : [ ],
@@ -1663,18 +1661,9 @@
           "climbSpeed" : 0,
           "swimSpeed" : 0,
           "speedSeeded" : true,
-          "movementUsed" : 3,
+          "movementUsed" : 0,
           "deathSaveSuccesses" : 0,
-          "activeEffects" : [ {
-            "effectId" : "blessed",
-            "name" : "Blessed",
-            "description" : "A faint radiance steadies the target's aim and nerve.",
-            "remainingRounds" : 1,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "Tasha's Bless",
-            "expired" : false
-          } ],
+          "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
           "resistances" : [ ],
@@ -2006,14 +1995,14 @@
           "ownerUsername" : "",
           "description" : "Tiefling cleric. Casts with spell slots (level 5: 4 × 1st, 3 × 2nd, 2 × 3rd), recovered on a long rest.\n\nPassives:\n• Healing Bonus: +2 HP on every healing spell she casts (the DM adds it; the app's flat healing values already use her numbers without it).\n• Passive Perception: 14\n• Passive Insight: 16\n• Passive Investigation: 9\n\nOnce per long rest: Divine Embrace.",
           "maxHitPoints" : 45,
-          "currentHitPoints" : 33,
+          "currentHitPoints" : 34,
           "maxMana" : 0,
           "currentMana" : 0,
           "activeEffects" : [ {
             "effectId" : "effect-charity",
             "name" : "charity",
             "description" : null,
-            "remainingRounds" : 5,
+            "remainingRounds" : 4,
             "damagePerRound" : 0,
             "healingPerRound" : 1,
             "source" : "GM",
@@ -2093,7 +2082,7 @@
         "inventory" : [ ],
         "combat" : {
           "maxHitPoints" : 45,
-          "currentHitPoints" : 33,
+          "currentHitPoints" : 34,
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
@@ -2114,7 +2103,7 @@
             "effectId" : "effect-charity",
             "name" : "charity",
             "description" : null,
-            "remainingRounds" : 5,
+            "remainingRounds" : 4,
             "damagePerRound" : 0,
             "healingPerRound" : 1,
             "source" : "GM",
@@ -2514,7 +2503,7 @@
             "effectId" : "effect-greedy",
             "name" : "Greedy",
             "description" : null,
-            "remainingRounds" : 2,
+            "remainingRounds" : 1,
             "damagePerRound" : 0,
             "healingPerRound" : 0,
             "source" : "GM",
@@ -2597,13 +2586,13 @@
           "climbSpeed" : 0,
           "swimSpeed" : 0,
           "speedSeeded" : true,
-          "movementUsed" : 6,
+          "movementUsed" : 0,
           "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
             "effectId" : "effect-greedy",
             "name" : "Greedy",
             "description" : null,
-            "remainingRounds" : 2,
+            "remainingRounds" : 1,
             "damagePerRound" : 0,
             "healingPerRound" : 0,
             "source" : "GM",
@@ -2988,7 +2977,7 @@
           "ownerUsername" : "",
           "description" : "მამრი ტყის ელფი; სიმაღლე 1.84 მ. მუქი, არეული თმა, დაკვირვებული მზერა და გაცვეთილი ტყავის აბჯარი. ხელში დედის ორი ხანჯალი, ზურგზე მამის მოკლე მშვილდი.\n\nჩუმი დუელისტი: ჯერ აკვირდება ნაბიჯს, სუნთქვასა და წონასწორობას, შემდეგ ახლო მანძილზე ჭრის და პოზიციას იცვლის. არ იყენებს მაგიას, ცეცხლსასროლ იარაღს ან ილუზიებს. მისი მაღალი Charisma მშვიდ თავდაჯერებასა და მკაფიო ნებას აღნიშნავს, არა მხიარულებას.\n\nიშვიათად გრძნობს იმას, რასაც სხვები; ეს პიროვნული თავისებურებაა და არა ემოციების სრული არქონა ან შიშისგან იმუნიტეტი.",
           "maxHitPoints" : 37,
-          "currentHitPoints" : 33,
+          "currentHitPoints" : 32,
           "maxMana" : 0,
           "currentMana" : 0,
           "activeEffects" : [ ],
@@ -2999,7 +2988,7 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : {
-            "three-fast-stabs" : 3
+            "three-fast-stabs" : 2
           },
           "skills" : {
             "custom" : { },
@@ -3060,7 +3049,7 @@
         "inventory" : [ ],
         "combat" : {
           "maxHitPoints" : 37,
-          "currentHitPoints" : 33,
+          "currentHitPoints" : 32,
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 10,
@@ -3075,11 +3064,11 @@
           "climbSpeed" : 0,
           "swimSpeed" : 0,
           "speedSeeded" : true,
-          "movementUsed" : 2,
+          "movementUsed" : 0,
           "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : {
-            "three-fast-stabs" : 3
+            "three-fast-stabs" : 2
           },
           "featureUses" : { },
           "resistances" : [ ],
@@ -3096,7 +3085,104 @@
       "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
-      "occupants" : [ ]
+      "occupants" : [ {
+        "kind" : "monster",
+        "monster" : {
+          "id" : "owlbear",
+          "name" : "Owlbear",
+          "description" : "A territorial nightmare with the beak of an owl and the temper of a bear.",
+          "type" : "monstrosity",
+          "challengeRating" : "3",
+          "stats" : {
+            "custom" : { },
+            "strength" : 20,
+            "dexterity" : 12,
+            "constitution" : 17,
+            "intelligence" : 3,
+            "wisdom" : 12,
+            "charisma" : 7
+          },
+          "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "keen_smell",
+            "name" : "Keen Smell",
+            "description" : "Tracks by scent with uncanny accuracy.",
+            "effects" : [ ],
+            "range" : 0.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "beak_and_claw",
+            "name" : "Beak and Claw",
+            "description" : "A beak strike and a raking claw.",
+            "effects" : [ "bleeding" ],
+            "range" : 5.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          } ],
+          "languages" : [ ],
+          "maxHitPoints" : 0,
+          "armorClass" : 0,
+          "maxMana" : 0,
+          "spellSlots" : [ ],
+          "imagePath" : null
+        },
+        "position" : {
+          "x" : 17,
+          "y" : 5
+        },
+        "inventory" : [ ],
+        "combat" : {
+          "maxHitPoints" : 54,
+          "currentHitPoints" : 54,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "gold" : 0,
+          "initiative" : 7,
+          "deathSaveFailures" : 0,
+          "downed" : false,
+          "dead" : false,
+          "conditions" : [ ],
+          "notes" : null,
+          "inInitiative" : true,
+          "walkSpeed" : 30,
+          "climbSpeed" : 0,
+          "swimSpeed" : 0,
+          "speedSeeded" : true,
+          "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
+          "activeEffects" : [ ],
+          "cooldowns" : { },
+          "featureUses" : { },
+          "resistances" : [ ],
+          "enduranceFeature" : null,
+          "featureSpeedBonus" : 0,
+          "castingResource" : null,
+          "spellSlots" : [ ],
+          "actingThisRound" : true
+        },
+        "instanceId" : "fd7aaa3f-c912-4334-bce2-216385e701d6",
+        "symbol" : "M"
+      } ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -3598,34 +3684,7 @@
           "speedSeeded" : true,
           "movementUsed" : 0,
           "deathSaveSuccesses" : 0,
-          "activeEffects" : [ {
-            "effectId" : "blinded",
-            "name" : "Blinded",
-            "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
-            "remainingRounds" : 1,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "Toren Valebrick's Smoke Canister",
-            "expired" : false
-          }, {
-            "effectId" : "advantage_on_attack",
-            "name" : "Advantage on Attack",
-            "description" : "Roll the attack twice and keep the better result.",
-            "remainingRounds" : 1,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "Silvan's Hunter's Mark",
-            "expired" : false
-          }, {
-            "effectId" : "prone",
-            "name" : "Prone",
-            "description" : "Knocked flat; movement costs double and melee attackers gain advantage.",
-            "remainingRounds" : 1,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "Zoinks - El Cucaratcha's Crushing Shot",
-            "expired" : false
-          } ],
+          "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
           "resistances" : [ ],
@@ -4066,19 +4125,10 @@
           "maxMana" : 0,
           "currentMana" : 0,
           "activeEffects" : [ {
-            "effectId" : "blessed",
-            "name" : "Blessed",
-            "description" : "A faint radiance steadies the target's aim and nerve.",
-            "remainingRounds" : 1,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "Tasha's Bless",
-            "expired" : false
-          }, {
             "effectId" : "blinded",
             "name" : "Blinded",
             "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
-            "remainingRounds" : 2,
+            "remainingRounds" : 1,
             "damagePerRound" : 0,
             "healingPerRound" : 0,
             "source" : "Toren Valebrick's Smoke Canister",
@@ -4087,7 +4137,7 @@
             "effectId" : "prone",
             "name" : "Prone",
             "description" : "Knocked flat; movement costs double and melee attackers gain advantage.",
-            "remainingRounds" : 2,
+            "remainingRounds" : 1,
             "damagePerRound" : 0,
             "healingPerRound" : 0,
             "source" : "Bandersnatch Pup's Bite",
@@ -4185,19 +4235,10 @@
           "movementUsed" : 0,
           "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
-            "effectId" : "blessed",
-            "name" : "Blessed",
-            "description" : "A faint radiance steadies the target's aim and nerve.",
-            "remainingRounds" : 1,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "Tasha's Bless",
-            "expired" : false
-          }, {
             "effectId" : "blinded",
             "name" : "Blinded",
             "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
-            "remainingRounds" : 2,
+            "remainingRounds" : 1,
             "damagePerRound" : 0,
             "healingPerRound" : 0,
             "source" : "Toren Valebrick's Smoke Canister",
@@ -4206,7 +4247,7 @@
             "effectId" : "prone",
             "name" : "Prone",
             "description" : "Knocked flat; movement costs double and melee attackers gain advantage.",
-            "remainingRounds" : 2,
+            "remainingRounds" : 1,
             "damagePerRound" : 0,
             "healingPerRound" : 0,
             "source" : "Bandersnatch Pup's Bite",
@@ -5602,7 +5643,7 @@
           "climbSpeed" : 0,
           "swimSpeed" : 0,
           "speedSeeded" : true,
-          "movementUsed" : 1,
+          "movementUsed" : 0,
           "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },

@@ -625,25 +625,7 @@
     "currentHitPoints" : 45,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ {
-      "effectId" : "entangled",
-      "name" : "Entangled",
-      "description" : "Roots, webs, or vines hold the target fast.",
-      "remainingRounds" : 1,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Silvan's Entangle",
-      "expired" : false
-    }, {
-      "effectId" : "restrained",
-      "name" : "Restrained",
-      "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
-      "remainingRounds" : 1,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Silvan's Entangle",
-      "expired" : false
-    } ],
+    "activeEffects" : [ ],
     "subclass" : "",
     "backstory" : "Silvan — Latin, meaning \"of the forest.\" \n ჩემი ტყის ასე ადრე დატოვება უცნაურია. \n Პპირდაპირ არავინ შემატყობინა ამ გადაწყვეტილების მიზეზი , მაგრამ უხუცესების \n გამომეტყველებაში ყველაფერი ცხადზე ცხადად ჩანდა.მე რაღაც საზღვარს \n გადავაბიჯე. \n მამაჩემს არ გაუპროტესტებია ეს გადაწყვეტილება \n ეს გასაკვირი არ იყო, მას თითქოს სიტყვების განსაზღვრული რაოდენობა ჰქონდა და \n მათ ზოგავდა. \n მან მასწავლა ტყეში უხმოდ სიარული, თვალთვალი, სცადა ესწავლებინა მოთმინების \n უნარი რომელიც ჩემთვის ასეთ უცხო კონცეფცია იყო. \n მაგრამ როდესაც ცვლილებები დაიწყო მან არ სცადა ჩემი გამოსწორება. \n ის უბრალოდ მაკვირდებოდა \n მე ვერ ვხვდებოდი, თუმცა ბუნებათან ჩემი კავშირი ბავშვობიდანვე უცნაური იყო. \n ცხოველები ჩემს მიმართ ინტერესს გამოხატავენ, თუმცა ეს არ გამოიხატებოდა \n მეგობრობით, ან მტრობით, არამედ თვალთვალით, თითქოს რაღაცას ელოდებოდნენ. \n Პანგრძლივად ტყეში სიარულისას ჩიტები ჩუმდებოდნენ, ცხოველები ჩერდებოდნენ \n და მაკვირდებოდნენ. Პვდაპირველად ასეთი დამოკიდებულება თავს \n განსაკუთრებულად მაგრძნობინებდა, ვფიქრობდი რომ ეს ჩემი განვითარების ნიშანი \n იყო, მაგრამ მალევე დავრწმუნდი, რომ ეს სიმართლეს არ შეესაბამებოდა. Silvan — \n Latin, meaning “of the forest.” \n ელფი რომელიც უხუცესებმა დროზე ადრე, ახსნა განმარტების გარეშე გამოუშვეს მის \n პირველ თავგადასავალზე. \n თავდაპირველად დედაჩემი ამაზე არ ნერვიულობდა, პირიქით როდესაც ჩემში \n იბადებოდა ეჭვები, იგი იყო მათი გაქარწყლების მიზეზი. Პისი დარიგება \n ყოველთვის მშვიდობის მომგვრელი და განმამტკიცებელი იყო. \n თუმცა, დროთა განმავლობაში ისიც დადუმდა \n ჩვენს ტყეში იყო, თითქოს განცალკევებული ხეთა ჯგუფი, რომელსაც თავს \n არიდებდნენ სხვა ელფები, და მასზე არ საუბრობდნენ ერთხელაც,ცნობისმოყვარეობამ მსძლია და სეირნობისას გადავწყვიტა ეს ადგილი \n მომენახულებინა. \n ადგილზე მისვლისას, ვიგრძენი სიმშვიდე და სიჩუმე, რომელიც ამ ადგილს \n დანარჩენი ტყისგან განაცალკევებდა. Პძიმე ჰაერი ,რომელიც თითქოს ჩემს მოსვლას \n აღნიშნავდა. Პოდესაც, უფრო ღრმად შევედი ტყის ამ ნაწილში რაღაც \n ამოუცნობელის მიერ ჩემი შემჩნევის შეგრძნება გამძაფრდა, გული დამიმძიმდა \n თითქოს რაღაც შიგნიდანაც და გარედანაც მაწვებოდა და ერთმანეთთან შეხვედრას \n ცდილობდა. \n ჩემდა საკვირველად არ გავქცეულვარ. \n წამების განმავლობაში პიროვნებასა და ტყეს შორის ბარიერი გაქრა. შევიგრძნობდი, \n ფესვების მოძრაობას, მიწისქვეშ მათ ხლართვას და ზრდისკენ მისწრაფებას. \n და უცებ ეს გაჩერდა \n ან მე მეგონა რომ გაჩერდა \n ამ დღის შემდეგ, უცნაურობისკენ დაიწყო ცვლა. \n თავიდან შევნიშნე პატარა ცვლილებები. Პიდი ხნით მარტო სეირნობისას ფოთლები \n იზრდებოდნენ მათთვის შეუსაბამო ადგილებში, სოკოები ნორმაზე სწრაფად \n ვრცელდებდნენ, ცხოველებმა კი ჩემი გზაკვალის არიდება დაიწყეს. მალევე შევნიშნე \n მამაჩემის ინტერესი იმავე გზაკვალის მიმართ. Პგი მათ იკვლევდა და ამჩნევდა იმას, \n რაც აქამდე მხოლოდ ჩემთვის იყო აშკარა. \n ის არაფერში მადანაშაულებდა \n მაგრამ მან იცოდა. \n ტყის განცალკევებულ ადგილს კიდევ ერთხელ ვესტუმრე. ის გაუარესებულიყო. \n ტოტები ერთმანეთში გადახლართულიყვნენ, ჰაერი კი ისე დამძიმებულიყო რომ \n სუნთქვა სჭირდა. მიწაზე ფეხის დადგმისას შევიგრძენი გულისცემა რომელიც \n მიწიდან მოდიოდა, თუმცა თითწოს მე მეკუთვნოდა. \n ამჯერად შემეშინდა და გავიქეცი. \n თუმცა მემგონი გაქცევა გვიანი იყო, რაღაც უცნობი ახლა მე დამყვებოდა.მხუცესებმა მალევე შენიშნეს ის რასაც მე და მამაჩემი თითქოს ერთმანეთის \n უთქმელად საიდუმლოდ ვინახავდით. მამაჩემი მათთან ერთად იდგა, როდესაც ეს \n გადაწყვეტილება გამაცნეს. დედაჩემი მოშორებიდან მიყურებდა. \n ყველამ ვიცოდით, რომ ადათ-წესების მიხედვით ჩემს პირველ თავგადასავლამდე \n დეკადები მაშორებდა. მაგრამ არავის უკამათია. \n მე ვიცნობდი მამაჩემის ბუნებას და ეს მოსალოდნელიც იყო, თუმცა იმაზე მეტად \n მატკინა მისმა მდუმარებამ ვიდრე წარმოვიდგენდი. წამოსვლამდე იგი დაშორდა \n უხუცესებს და ხელში სანადირო ხმალი გადმომცა. საშუალო ზომის, კარგად \n მოვლილი ხმალი, მუქი ხის სახელურით. მასზე ჩემთვის კარგად ნაცნობი, თუმცა \n სხვებისთვის შეუმჩნეველი ნიშნები იყო ამოფიტრული, რომლის საშუალებითაც \n მამაჩემი მის ხმარებას მასწავლიდა. \n “გადაადგილება გააგრძელე” - ბოლო სიტყვები რომელიც მამაჩემმა მითხრა \n დამშვიდობებისას რომელიც რჩევისა და გაფრთხილებასავით ჩამესმა. \n დედაჩემთან გამომშვიდობება უფრო ალერსიანი იყო. ეტყობოდა რომ არ უნდოდა \n ჩემი გაშვება, თუმცა ეს არ გაუხმოვანებია. ყელზე შემისწორა ბავშვობაში მისივე \n ხელით გაკეთებული ყელსაბამი. მარტივი ტყის ქვიგან გამოყვანილი ფოთლის \n ფორმის კულონი , რომელის დაწნულ ზაფზე ჩამოეკიდა დედაჩემს და ახლა \n გულმოდგინებით ასწორებდა. \n “ადრე თუ გვიან გაგიგებენ”- მითხრა დედაჩემმა და ამით გახდა ერთადერთი \n ადამიანი რომელმაც გაახმოვანა ჩემი ტყიდან გაგდების მიზეზი და ცოტა ხნით მაინც \n ჩემი უთავბოლო ფიქრები დაამშვიდა. \n არ ვიცოდი რა მეთქვა ამიტომ სიტყვისამოუღებლად წამოვედი. ჯერ კიდევ მქონდა \n იმედი რომ ტყე დაუბრუნდებოდა თავის პირვანდელ მდგომარეობას თუმცა, \n არა.ზოგჯერ როდესაც სადმე დიდ ხანს ვჩერდები გაუგებარი ძვრები იწყება. \n მცენარეები ძალიან სწრაფად იზრდებიან , და ცხოველები თითქოს რაღაცას \n ელოდებიან . \n Პვცდილობ, რომ ამაზე არ ვიფიქრო და მივყვები მამაჩემის ბოლო სიტყვებს \n ვაგრძელებ გადაადგილებას. \n",
     "castingResource" : "SPELL_SLOTS",
@@ -3285,41 +3267,14 @@
     "ownerUsername" : "",
     "description" : "Neri \"Ratboy\" Venn (R-17) - Lightfoot halfling (rat-like), Rogue 5 (Arcane Trickster)\n\n. Passive Perception 15.\nProficiencies: light armour; simple weapons, hand crossbows, longswords, rapiers, shortswords; thieves' tools, disguise kit, forgery kit. Languages: Common, Halfling, Thieves' Cant.\n\nAttacks: Dagger +5, 1d4+2 piercing (thrown 6/18 m). Shortbow +5, 1d6+2 piercing (24/96 m).\nSpellcasting (INT): save DC 13, spell attack +5, three 1st-level slots.\n- Cantrips: Mage Hand, Minor Illusion, Frost Card (Ray of Frost - he throws a frozen playing card: +5 to hit, 2d8 cold at level 5, 18 m, target -3 m speed).\n- 1st level: Shield, Disguise Self, Silent Image (concentration), Charm Person.\n\nFeatures:\n- Sneak Attack 3d6 - once per turn, finesse or ranged weapon, with advantage or an ally next to the target.\n- Cunning Action - Dash, Disengage or Hide as a bonus action.\n- Uncanny Dodge - reaction, halve the damage of one attack he can see.\n- Mage Hand Legerdemain - invisible Mage Hand; can plant, lift and pick locks with it; bonus action to control.\n- Lucky - reroll a natural 1 on an attack, check or save.\n- Brave - advantage on saves against being frightened.\n- Halfling Nimbleness - moves through the space of anything larger than him.\n- Naturally Stealthy - can hide behind a creature at least one size larger.\n- Second Breakfast - if he eats during a short rest, he regains an extra 1d4 + 5 HP.\n\n",
     "maxHitPoints" : 27,
-    "currentHitPoints" : 16,
+    "currentHitPoints" : 8,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ {
-      "effectId" : "blessed",
-      "name" : "Blessed",
-      "description" : "A faint radiance steadies the target's aim and nerve.",
-      "remainingRounds" : 1,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Tasha's Bless",
-      "expired" : false
-    }, {
-      "effectId" : "entangled",
-      "name" : "Entangled",
-      "description" : "Roots, webs, or vines hold the target fast.",
-      "remainingRounds" : 2,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Silvan's Entangle",
-      "expired" : false
-    }, {
-      "effectId" : "restrained",
-      "name" : "Restrained",
-      "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
-      "remainingRounds" : 2,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Silvan's Entangle",
-      "expired" : false
-    }, {
       "effectId" : "blinded",
       "name" : "Blinded",
       "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
-      "remainingRounds" : 2,
+      "remainingRounds" : 1,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "Toren Valebrick's Smoke Canister",
@@ -3645,19 +3600,10 @@
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ {
-      "effectId" : "blessed",
-      "name" : "Blessed",
-      "description" : "A faint radiance steadies the target's aim and nerve.",
-      "remainingRounds" : 1,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Tasha's Bless",
-      "expired" : false
-    }, {
       "effectId" : "entangled",
       "name" : "Entangled",
       "description" : "Roots, webs, or vines hold the target fast.",
-      "remainingRounds" : 2,
+      "remainingRounds" : 1,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "Silvan's Entangle",
@@ -3666,7 +3612,7 @@
       "effectId" : "restrained",
       "name" : "Restrained",
       "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
-      "remainingRounds" : 2,
+      "remainingRounds" : 1,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "Silvan's Entangle",
@@ -3678,7 +3624,7 @@
     "spellSlots" : [ {
       "level" : 3,
       "max" : 2,
-      "current" : 1
+      "current" : 0
     } ],
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
