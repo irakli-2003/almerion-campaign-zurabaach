@@ -113,541 +113,7 @@
       "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
-      "occupants" : [ {
-        "kind" : "player",
-        "character" : {
-          "id" : "player-toren",
-          "name" : "Toren Valebrick",
-          "classId" : "artificer",
-          "raceId" : "human",
-          "level" : 6,
-          "xp" : 0,
-          "upgrades" : {
-            "earned" : 5,
-            "unlocks" : [ {
-              "classId" : "artificer",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-1",
-              "branchName" : "Inventor",
-              "name" : "Infuse Item",
-              "description" : "Infuse mundane gear with a lasting enhancement (e.g. +1 weapon, enhanced defense) for a long time.\nClass training. If already known, this feat is not granted a second time.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "artificer",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-2",
-              "branchName" : "Inventor",
-              "name" : "The Right Tool for the Job",
-              "description" : "With tinker's tools, spend an hour to make any set of artisan's tools.\nClass training. If already known, this feat is not granted a second time.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "artificer",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-3",
-              "branchName" : "Inventor",
-              "name" : "Inventor: Momentum",
-              "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "artificer",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-5",
-              "branchName" : "Inventor",
-              "name" : "Inventor: Breakthrough",
-              "description" : "Once per short rest, replace one attack with a contested Athletics check against a creature within reach, at most one size larger. On success push it 5 ft to clear supported ground, never off a ledge. No damage. The GM resolves this feat; the app tracks its rest use.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            } ]
-          },
-          "stats" : {
-            "custom" : { },
-            "strength" : 8,
-            "dexterity" : 15,
-            "constitution" : 15,
-            "intelligence" : 15,
-            "wisdom" : 8,
-            "charisma" : 8
-          },
-          "items" : [ {
-            "itemId" : "valebrick-field-workshop",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "valebrick-bolt-repeater",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "tinkers-tools",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "smiths-tools",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "thieves-tools",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "woodcarvers-tools",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "lamp-oil",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "brass-scrap",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 4
-          }, {
-            "itemId" : "steel-stock",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 3
-          }, {
-            "itemId" : "copper-wire",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 2
-          }, {
-            "itemId" : "clockwork-springs",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 2
-          }, {
-            "itemId" : "alchemical-salts",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 2
-          }, {
-            "itemId" : "glass-lens",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "leather-strap",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "black-powder",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "scalding-bolt",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 3
-          }, {
-            "itemId" : "simple-clothes",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "thermal-smoke-grenade",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "heavy-bolt",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 6
-          }, {
-            "itemId" : "smoke-compound",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 2
-          }, {
-            "itemId" : "vented-shell",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 2
-          }, {
-            "itemId" : "timed-valve",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "timed-trigger",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "heat-jacket",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "ceramic-seal",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "ceramic-shell",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "heat-vents",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "impact-trigger",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "fine-wire",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "spring-trigger",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "alarm-bell",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "clamp-set",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "pressure-chamber",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "treated-steam-medium",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "spring-valve",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "heat-seal",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "coin",
-            "condition" : {
-              "durability" : 0
-            },
-            "equipped" : false,
-            "quantity" : 15
-          } ],
-          "spells" : [ {
-            "spellId" : "mending",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "guidance",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "cure-wounds",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "faerie-fire",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "shield-spell",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "scorching-ray",
-            "rank" : 2,
-            "active" : true
-          }, {
-            "spellId" : "web",
-            "rank" : 2,
-            "active" : true
-          } ],
-          "personalFeatures" : [ ],
-          "passwordHash" : "2a322cc7dc808e2f41da138d7733681711f53d4d6e4cafc94e56a6249b1a2298",
-          "passwordSalt" : "8d627c852991983ced09d03dc1f46605",
-          "imagePath" : "images/players/player-toren.jpg",
-          "playerName" : "Giorgi",
-          "ownerUsername" : "Giorgi",
-          "description" : "22 years, 185 cm. Young human noble engineer of House Valebrick - curious, suspicious, heavily sarcastic, composed and educated. Carries a 32-36 kg portable field workshop on his back with a Resonance Core and a removable stationary Bolt Repeater. \"Don't ask what humans were given. Ask what we built.\"",
-          "maxHitPoints" : 45,
-          "currentHitPoints" : 45,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "activeEffects" : [ ],
-          "subclass" : "Artillerist",
-          "backstory" : "Lore\nToren was born into House Valebrick, a wealthy human noble family whose influence came from engineering, foundries, workshops, bridges and machines rather than ancient magical blood. As a child he dismantled clocks, locks and mechanisms because he needed to know why they worked. His grandfather Aldren taught him one principle: \"Open it. Understand it.\"\n\nDuring the Ash Border War, Marianne Bell - the girl Toren loved - was killed in magical warfare in an industrial district. She was not the target. Since then Toren is cold toward magical power and wary of anyone who treats inherited supernatural gifts as proof of superiority. He is fiercely proud of humanity precisely because humans were not the most gifted: they built their advantages. \"Others inherited their advantages. We built ours.\"\n\nGrand Theory of Replication\nToren rejects the word \"magic\". He calls it Arcane Resonance - a natural field that can be measured, stored, transferred and stabilised. Every repeatable magical phenomenon can eventually be reproduced technologically. His key word is \"yet\". Failure response: \"Again.\"\n\nFamily\nEvelyne Valebrick (28), his elegant and politically skilled older sister. Toren understands machines; Evelyne understands people. They exchange notes through Argus, a mechanical messenger owl.\n\nSkills & tools\nSaves CON +6, INT +7. Investigation +5 (machines, traps, mechanisms only), History +3, Insight +1. Tools: Tinker's, Smith's, Thieves' (\"precision access instruments\"), Woodcarver's.\n\nEnergy charges\nInstead of spell slots Toren spends energy capsules: Steam-pressure (L1) and Thermal (L2) for now, Electric and beyond after upgrades. He refills them at the workshop's Resonance Core furnace, which burns any fuel - some more efficiently than others. Rests do not refill them.\n\nValebrick Portable Field Workshop\n~80 x 45 x 30 cm, 32-36 kg, reinforced harness. Drivers, hammers, files, calipers, clamps, resonance testers, wire, plates, ammunition parts, sealed blueprint tubes, a compact hardened-steel anvil and a small forge chamber. Full deployment into a workbench takes 30-60 seconds outside combat. Heavy and awkward in tight spaces or water.\n\nValebrick Resonance Core\nA refined arcane-reactive crystal in a brass stabilisation cage with rotating rings, conductors and regulators. Failure signs: vibration, unstable tone, heat, misaligned rings, blue arcing. A cracked or overcharged core can discharge violently.\n\nBolt Repeater\nStationary single-barrel turret (Eldritch Cannon - Force Ballista). Deploy: action. Fire: bonus action, d20 + ammunition bonus, 30 m, 2d6 force, push 5 ft. AC 8, HP 12, Mending restores 1d6. Takes different ammunition types.\n\nCombat Fabrication (DM-approved homebrew)\n3 per long rest from prepared parts: Emergency Patch, Quick Cover, Special Charge. No permanent weapons, armor or major machines during combat.\n\nDM additions\nIn the storage world he finds a metal bracer covering his left forearm that unfolds into a 25 cm-radius light round shield: it stops projectiles and light weapons but, being so light, does not absorb blunt attacks (Valebrick Folding Bracer).",
-          "castingResource" : "ENERGY_CHARGES",
-          "spellSlots" : [ {
-            "level" : 1,
-            "max" : 4,
-            "current" : 4
-          }, {
-            "level" : 2,
-            "max" : 2,
-            "current" : 2
-          } ],
-          "knownBlueprints" : [ "bp-smoke-canister", "bp-tripwire-alarm", "bp-grapnel-launcher", "bp-sticky-foam", "bp-messenger-beetle", "bp-thermal-smoke-grenade", "bp-scalding-bolts", "bp-flash-bomb", "bp-steam-jet-gauntlet", "bp-thermal-grenade", "bp-pressure-ram", "bp-steam-capsule", "bp-thermal-capsule" ],
-          "furnaceFuel" : 2,
-          "cooldowns" : { },
-          "skills" : {
-            "custom" : { },
-            "acrobatics" : 1,
-            "animalHandling" : -1,
-            "arcana" : 2,
-            "athletics" : -1,
-            "deception" : -1,
-            "history" : 2,
-            "insight" : 2,
-            "intimidation" : -1,
-            "investigation" : 2,
-            "medicine" : 1,
-            "nature" : 1,
-            "perception" : 3,
-            "performance" : -1,
-            "persuasion" : -1,
-            "religion" : 0,
-            "sleightOfHand" : 0,
-            "stealth" : -1,
-            "survival" : -1
-          },
-          "sheet" : {
-            "armorClass" : null,
-            "initiative" : null,
-            "speed" : null,
-            "proficiencyBonus" : null,
-            "passivePerception" : null,
-            "savingThrowProficiencies" : [ ],
-            "hitDice" : null,
-            "temporaryHitPoints" : 0,
-            "deathSaveSuccesses" : 0,
-            "deathSaveFailures" : 0,
-            "inspiration" : false,
-            "spellcastingAbility" : null,
-            "spellSaveDc" : null,
-            "spellAttackBonus" : null,
-            "copper" : 0,
-            "silver" : 0,
-            "electrum" : 0,
-            "gold" : 0,
-            "platinum" : 0,
-            "extraAttacks" : [ ],
-            "proficienciesAndLanguages" : null,
-            "extraFeatures" : null,
-            "notes" : null
-          },
-          "featureUses" : {
-            "bolt-repeater" : 1
-          }
-        },
-        "position" : {
-          "x" : 1,
-          "y" : 1
-        },
-        "inventory" : [ ],
-        "combat" : {
-          "maxHitPoints" : 45,
-          "currentHitPoints" : 45,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "gold" : 0,
-          "initiative" : 13,
-          "deathSaveFailures" : 0,
-          "downed" : false,
-          "dead" : false,
-          "conditions" : [ ],
-          "notes" : null,
-          "inInitiative" : true,
-          "walkSpeed" : 30,
-          "climbSpeed" : 0,
-          "swimSpeed" : 0,
-          "speedSeeded" : true,
-          "movementUsed" : 0,
-          "deathSaveSuccesses" : 0,
-          "activeEffects" : [ ],
-          "cooldowns" : { },
-          "featureUses" : {
-            "bolt-repeater" : 1
-          },
-          "resistances" : [ ],
-          "enduranceFeature" : null,
-          "featureSpeedBonus" : 0,
-          "castingResource" : "ENERGY_CHARGES",
-          "spellSlots" : [ {
-            "level" : 1,
-            "max" : 4,
-            "current" : 4
-          }, {
-            "level" : 2,
-            "max" : 2,
-            "current" : 2
-          } ],
-          "actingThisRound" : true
-        },
-        "instanceId" : "8ab0ee4e-643a-47ec-82a2-795fc03a70e2",
-        "symbol" : "P"
-      } ]
+      "occupants" : [ ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -918,7 +384,240 @@
       "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
-      "occupants" : [ ]
+      "occupants" : [ {
+        "kind" : "monster",
+        "monster" : {
+          "id" : "mad-hatter",
+          "name" : "The Mad Hatter (Cursed)",
+          "description" : "Medium humanoid, CR 5 (1800 XP) - VETERAN chassis. AC 15, HP 90 (12d8+36), speed 9 m. Saves DEX +6, CHA +7; Deception +7, Sleight of Hand +6, Perception +3; passive Perception 13. Polite, apologetic, occasionally drops an octave mid-sentence. He knows he is cursed and fights it the whole battle, and loses. Tactics: never leaves the long table - if the party refuses to come, the table stretches toward them 3 m per round. THE HAT is a valid target: AC 12, 25 HP, moves; damaging it does nothing to him but makes something inside scream - anyone hearing it makes a DC 12 WIS save or spends its reaction staring (it is the Rabbit). At half HP he stops laughing mid-laugh (read the box). If the party drank the right cup he starts at half HP with the teapot already spent. LAW OF THE TABLE: each hat (d4, the only mandatory roll per round) also sets a law until his next turn; everyone seated repeats it aloud; breakers are punished by the table. Death: he does not fall, the laughter stops, every hat of the fight drops onto every chair at once, he gives his last law in his own voice ('Everyone drink'), all seated toast empty cups, the hat rolls to rest mouth-up and ticks, he becomes a Joker card again - and beside each player's plate lies a place card with their name in his handwriting.",
+          "type" : "humanoid",
+          "challengeRating" : "5",
+          "stats" : {
+            "custom" : { },
+            "strength" : 14,
+            "dexterity" : 16,
+            "constitution" : 16,
+            "intelligence" : 14,
+            "wisdom" : 10,
+            "charisma" : 18
+          },
+          "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "a_dozen_hats",
+            "name" : "A Dozen Hats / Law of the Table",
+            "description" : "At the start of each of his turns roll d4 (the only mandatory roll each round). The hat changes what he is AND sets the law of the table until his next turn; he announces it an octave lower and everyone seated repeats it in unison. 1 top hat - 15 temp HP, mocks; LAW 'Only questions!' (any non-question speech, incl. verbal spell components, breaks it). 2 bonnet - one creature DC 15 WIS or charmed until end of his next turn and moves toward him; LAW 'Clean cup, move down!' (ending a turn where you started breaks it). 3 helmet - AC 18, cannot move; LAW 'No one taller than the host!' (ending a turn standing breaks it). 4 no hat - he is himself, does not attack, says something bitter and useful about Alice; the hat speaks in the Rabbit's voice: LAW 'No one looks at him.' (attacking him breaks it).",
+            "effects" : [ ],
+            "range" : 0.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : {
+              "dice" : [ ],
+              "typeId" : null,
+              "constant" : 0
+            }
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "hat_brim",
+            "name" : "Hat Brim (Multiattack x3)",
+            "description" : "Three attacks with the brim of his hat: +6 to hit, reach 1.5 m, 1d6+3 slashing each.",
+            "effects" : [ ],
+            "range" : 5.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : {
+              "dice" : [ {
+                "diceId" : "d6",
+                "count" : 1
+              } ],
+              "typeId" : "slashing",
+              "constant" : 0
+            }
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "sit_down",
+            "name" : "Sit Down!",
+            "description" : "Opening move. Every creature within 9 m: STR save DC 14 or it is dragged to a chair at the table and restrained until it uses an action to break free (DC 13 Athletics). A seated character has disadvantage on attacks against anyone not seated at the table.",
+            "effects" : [ "restrained" ],
+            "range" : 0.0,
+            "recharge" : 0,
+            "radius" : 30.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : {
+              "dice" : [ ],
+              "typeId" : null,
+              "constant" : 0
+            }
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "teapot",
+            "name" : "Tea / Teapot",
+            "description" : "Recharge 5-6. Stat block: throws a cup - 6 m cone of boiling tea, DEX save DC 14, 4d6 fire; on a failure the target's mouth is burned and it cannot speak until the end of its next turn. (Encounter variant: 9 m line, 5d6 fire, DEX DC 14 half.) He apologises after every use: 'Sorry. Sorry. It's hot.'",
+            "effects" : [ "silenced" ],
+            "range" : 20.0,
+            "recharge" : 3,
+            "radius" : 10.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : {
+              "dice" : [ {
+                "diceId" : "d6",
+                "count" : 4
+              } ],
+              "typeId" : "fire",
+              "constant" : 0
+            }
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "pull_from_the_hat",
+            "name" : "Pull from the Hat",
+            "description" : "Action (instead of Hat Brim; roughly every other turn, or right after someone breaks a law). He reaches into the hat and rolls d12: 1-6 a beast jumps onto the table and attacks on its own initiative (1 dormouse pile, 2 bandersnatch pup, 3 jabberwock hatchling, 4 bread-and-butterfly swarm, 5 rocking-horse-fly, 6 March Hare); 7-12 a weapon he uses instead of his normal attack (7 vorpal butter knife, 8 boomerang tea tray, 9 old flamingo mallet, 10 clock stuck at six, 11 sugar tongs, 12 roll twice). If the hat is bloodied or damaged, roll with disadvantage (pick the less dangerous result).",
+            "effects" : [ ],
+            "range" : 0.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : {
+              "dice" : [ ],
+              "typeId" : null,
+              "constant" : 0
+            }
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "table_punishes",
+            "name" : "The Table Punishes",
+            "description" : "Free, not an action. Whoever breaks the current law of the table takes 2d8 psychic (no save) and the chair drags them back to the table: restrained, as Sit Down!",
+            "effects" : [ "restrained" ],
+            "range" : 30.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : {
+              "dice" : [ {
+                "diceId" : "d8",
+                "count" : 2
+              } ],
+              "typeId" : "psychic",
+              "constant" : 0
+            }
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "madness",
+            "name" : "Madness",
+            "description" : "Reaction. The first time he drops to 0 HP he doesn't. He stands back up with 25 HP and a single hat left. He no longer laughs - the hat laughs for him, in his voice. Stop rolling the d4: the last law stays in force for the rest of the fight and the hat whispers it every turn.",
+            "effects" : [ ],
+            "range" : 0.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : {
+              "dice" : [ ],
+              "typeId" : null,
+              "constant" : 0
+            }
+          } ],
+          "languages" : [ "common" ],
+          "maxHitPoints" : 90,
+          "armorClass" : 15,
+          "maxMana" : 0,
+          "spellSlots" : [ ],
+          "imagePath" : "images/monsters/mad-hatter.jpg"
+        },
+        "position" : {
+          "x" : 13,
+          "y" : 2
+        },
+        "inventory" : [ ],
+        "combat" : {
+          "maxHitPoints" : 90,
+          "currentHitPoints" : 0,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "gold" : 0,
+          "initiative" : 10,
+          "deathSaveFailures" : 3,
+          "downed" : false,
+          "dead" : true,
+          "conditions" : [ ],
+          "notes" : null,
+          "inInitiative" : true,
+          "walkSpeed" : 30,
+          "climbSpeed" : 0,
+          "swimSpeed" : 0,
+          "speedSeeded" : true,
+          "movementUsed" : 1,
+          "deathSaveSuccesses" : 0,
+          "activeEffects" : [ {
+            "effectId" : "compelled_duel",
+            "name" : "Compelled Duel",
+            "description" : "Pulled toward the challenger and has disadvantage on attacks against anyone else.",
+            "remainingRounds" : 9,
+            "damagePerRound" : 0,
+            "healingPerRound" : 0,
+            "source" : "Lavenos's Compelled Duel",
+            "expired" : false
+          } ],
+          "cooldowns" : { },
+          "featureUses" : { },
+          "resistances" : [ ],
+          "enduranceFeature" : null,
+          "featureSpeedBonus" : 0,
+          "castingResource" : null,
+          "spellSlots" : [ ],
+          "actingThisRound" : false
+        },
+        "instanceId" : "d14b83dd-471e-436f-8294-ba81714efd72",
+        "symbol" : "M"
+      } ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -1271,9 +970,7 @@
           "spellSlots" : [ ],
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
-          "cooldowns" : {
-            "three-fast-stabs" : 1
-          },
+          "cooldowns" : { },
           "skills" : {
             "custom" : { },
             "acrobatics" : 10,
@@ -1348,12 +1045,10 @@
           "climbSpeed" : 0,
           "swimSpeed" : 0,
           "speedSeeded" : true,
-          "movementUsed" : 7,
+          "movementUsed" : 0,
           "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
-          "cooldowns" : {
-            "three-fast-stabs" : 1
-          },
+          "cooldowns" : { },
           "featureUses" : { },
           "resistances" : [ ],
           "enduranceFeature" : null,
@@ -1369,231 +1064,7 @@
       "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
-      "occupants" : [ {
-        "kind" : "monster",
-        "monster" : {
-          "id" : "mad-hatter",
-          "name" : "The Mad Hatter (Cursed)",
-          "description" : "Medium humanoid, CR 5 (1800 XP) - VETERAN chassis. AC 15, HP 90 (12d8+36), speed 9 m. Saves DEX +6, CHA +7; Deception +7, Sleight of Hand +6, Perception +3; passive Perception 13. Polite, apologetic, occasionally drops an octave mid-sentence. He knows he is cursed and fights it the whole battle, and loses. Tactics: never leaves the long table - if the party refuses to come, the table stretches toward them 3 m per round. THE HAT is a valid target: AC 12, 25 HP, moves; damaging it does nothing to him but makes something inside scream - anyone hearing it makes a DC 12 WIS save or spends its reaction staring (it is the Rabbit). At half HP he stops laughing mid-laugh (read the box). If the party drank the right cup he starts at half HP with the teapot already spent. LAW OF THE TABLE: each hat (d4, the only mandatory roll per round) also sets a law until his next turn; everyone seated repeats it aloud; breakers are punished by the table. Death: he does not fall, the laughter stops, every hat of the fight drops onto every chair at once, he gives his last law in his own voice ('Everyone drink'), all seated toast empty cups, the hat rolls to rest mouth-up and ticks, he becomes a Joker card again - and beside each player's plate lies a place card with their name in his handwriting.",
-          "type" : "humanoid",
-          "challengeRating" : "5",
-          "stats" : {
-            "custom" : { },
-            "strength" : 14,
-            "dexterity" : 16,
-            "constitution" : 16,
-            "intelligence" : 14,
-            "wisdom" : 10,
-            "charisma" : 18
-          },
-          "abilities" : [ {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "a_dozen_hats",
-            "name" : "A Dozen Hats / Law of the Table",
-            "description" : "At the start of each of his turns roll d4 (the only mandatory roll each round). The hat changes what he is AND sets the law of the table until his next turn; he announces it an octave lower and everyone seated repeats it in unison. 1 top hat - 15 temp HP, mocks; LAW 'Only questions!' (any non-question speech, incl. verbal spell components, breaks it). 2 bonnet - one creature DC 15 WIS or charmed until end of his next turn and moves toward him; LAW 'Clean cup, move down!' (ending a turn where you started breaks it). 3 helmet - AC 18, cannot move; LAW 'No one taller than the host!' (ending a turn standing breaks it). 4 no hat - he is himself, does not attack, says something bitter and useful about Alice; the hat speaks in the Rabbit's voice: LAW 'No one looks at him.' (attacking him breaks it).",
-            "effects" : [ ],
-            "range" : 0.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : {
-              "dice" : [ ],
-              "typeId" : null,
-              "constant" : 0
-            }
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "hat_brim",
-            "name" : "Hat Brim (Multiattack x3)",
-            "description" : "Three attacks with the brim of his hat: +6 to hit, reach 1.5 m, 1d6+3 slashing each.",
-            "effects" : [ ],
-            "range" : 5.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : {
-              "dice" : [ {
-                "diceId" : "d6",
-                "count" : 1
-              } ],
-              "typeId" : "slashing",
-              "constant" : 0
-            }
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "sit_down",
-            "name" : "Sit Down!",
-            "description" : "Opening move. Every creature within 9 m: STR save DC 14 or it is dragged to a chair at the table and restrained until it uses an action to break free (DC 13 Athletics). A seated character has disadvantage on attacks against anyone not seated at the table.",
-            "effects" : [ "restrained" ],
-            "range" : 0.0,
-            "recharge" : 0,
-            "radius" : 30.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : {
-              "dice" : [ ],
-              "typeId" : null,
-              "constant" : 0
-            }
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "teapot",
-            "name" : "Tea / Teapot",
-            "description" : "Recharge 5-6. Stat block: throws a cup - 6 m cone of boiling tea, DEX save DC 14, 4d6 fire; on a failure the target's mouth is burned and it cannot speak until the end of its next turn. (Encounter variant: 9 m line, 5d6 fire, DEX DC 14 half.) He apologises after every use: 'Sorry. Sorry. It's hot.'",
-            "effects" : [ "silenced" ],
-            "range" : 20.0,
-            "recharge" : 3,
-            "radius" : 10.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : {
-              "dice" : [ {
-                "diceId" : "d6",
-                "count" : 4
-              } ],
-              "typeId" : "fire",
-              "constant" : 0
-            }
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "pull_from_the_hat",
-            "name" : "Pull from the Hat",
-            "description" : "Action (instead of Hat Brim; roughly every other turn, or right after someone breaks a law). He reaches into the hat and rolls d12: 1-6 a beast jumps onto the table and attacks on its own initiative (1 dormouse pile, 2 bandersnatch pup, 3 jabberwock hatchling, 4 bread-and-butterfly swarm, 5 rocking-horse-fly, 6 March Hare); 7-12 a weapon he uses instead of his normal attack (7 vorpal butter knife, 8 boomerang tea tray, 9 old flamingo mallet, 10 clock stuck at six, 11 sugar tongs, 12 roll twice). If the hat is bloodied or damaged, roll with disadvantage (pick the less dangerous result).",
-            "effects" : [ ],
-            "range" : 0.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : {
-              "dice" : [ ],
-              "typeId" : null,
-              "constant" : 0
-            }
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "table_punishes",
-            "name" : "The Table Punishes",
-            "description" : "Free, not an action. Whoever breaks the current law of the table takes 2d8 psychic (no save) and the chair drags them back to the table: restrained, as Sit Down!",
-            "effects" : [ "restrained" ],
-            "range" : 30.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : {
-              "dice" : [ {
-                "diceId" : "d8",
-                "count" : 2
-              } ],
-              "typeId" : "psychic",
-              "constant" : 0
-            }
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "madness",
-            "name" : "Madness",
-            "description" : "Reaction. The first time he drops to 0 HP he doesn't. He stands back up with 25 HP and a single hat left. He no longer laughs - the hat laughs for him, in his voice. Stop rolling the d4: the last law stays in force for the rest of the fight and the hat whispers it every turn.",
-            "effects" : [ ],
-            "range" : 0.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : {
-              "dice" : [ ],
-              "typeId" : null,
-              "constant" : 0
-            }
-          } ],
-          "languages" : [ "common" ],
-          "maxHitPoints" : 90,
-          "armorClass" : 15,
-          "maxMana" : 0,
-          "spellSlots" : [ ],
-          "imagePath" : "images/monsters/mad-hatter.jpg"
-        },
-        "position" : {
-          "x" : 12,
-          "y" : 3
-        },
-        "inventory" : [ ],
-        "combat" : {
-          "maxHitPoints" : 90,
-          "currentHitPoints" : 16,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "gold" : 0,
-          "initiative" : 10,
-          "deathSaveFailures" : 0,
-          "downed" : false,
-          "dead" : false,
-          "conditions" : [ ],
-          "notes" : null,
-          "inInitiative" : true,
-          "walkSpeed" : 30,
-          "climbSpeed" : 0,
-          "swimSpeed" : 0,
-          "speedSeeded" : true,
-          "movementUsed" : 1,
-          "deathSaveSuccesses" : 0,
-          "activeEffects" : [ ],
-          "cooldowns" : { },
-          "featureUses" : { },
-          "resistances" : [ ],
-          "enduranceFeature" : null,
-          "featureSpeedBonus" : 0,
-          "castingResource" : null,
-          "spellSlots" : [ ],
-          "actingThisRound" : true
-        },
-        "instanceId" : "d14b83dd-471e-436f-8294-ba81714efd72",
-        "symbol" : "M"
-      } ]
+      "occupants" : [ ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -1983,14 +1454,14 @@
           "ownerUsername" : "",
           "description" : "Tiefling cleric. Casts with spell slots (level 5: 4 × 1st, 3 × 2nd, 2 × 3rd), recovered on a long rest.\n\nPassives:\n• Healing Bonus: +2 HP on every healing spell she casts (the DM adds it; the app's flat healing values already use her numbers without it).\n• Passive Perception: 14\n• Passive Insight: 16\n• Passive Investigation: 9\n\nOnce per long rest: Divine Embrace.",
           "maxHitPoints" : 45,
-          "currentHitPoints" : 35,
+          "currentHitPoints" : 36,
           "maxMana" : 0,
           "currentMana" : 0,
           "activeEffects" : [ {
             "effectId" : "effect-charity",
             "name" : "charity",
             "description" : null,
-            "remainingRounds" : 3,
+            "remainingRounds" : 2,
             "damagePerRound" : 0,
             "healingPerRound" : 1,
             "source" : "GM",
@@ -2070,7 +1541,7 @@
         "inventory" : [ ],
         "combat" : {
           "maxHitPoints" : 45,
-          "currentHitPoints" : 35,
+          "currentHitPoints" : 36,
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
@@ -2091,7 +1562,7 @@
             "effectId" : "effect-charity",
             "name" : "charity",
             "description" : null,
-            "remainingRounds" : 3,
+            "remainingRounds" : 2,
             "damagePerRound" : 0,
             "healingPerRound" : 1,
             "source" : "GM",
@@ -2213,101 +1684,6 @@
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    } ], [ {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
       "effect" : null,
       "occupants" : [ {
         "kind" : "player",
@@ -2635,14 +2011,14 @@
           "ownerUsername" : "",
           "description" : "Duelist.\n\nWeapons:\n• Ladies' Blade — no bonus to hit, 1d6 piercing. On a hit: even damage roll → damage doubled, odd → damage halved (rounded up).\n• Forgotten Blade — +3 to hit, 1d8 slashing.\n• Dual (both blades equipped) — +5 to hit, 1d8 + 1d6 (use the Dual Blade Strike action). The Ladies' Blade d6 still follows the even/odd rule.\n\nTreasure & inventory: Explorer's Pack, Simple Clothes, Visage (glasses), 40 BP, Philter of Love, Dust Powder, Advantage: Wisdom, Null Monet.\n\nPassives:\n• Break Enemy Defense — 20% chance on each hit (d100 ≤ 20) to reduce the target's AC by 1 until the end of the fight.\n• Battle Awareness — automatically enters battle stance when a fight starts; predicts the enemy's first strike and gets one free Dodge against it.\n• Combat Momentum — each successful hit adds +1 damage to his following hits, stacking until the end of the battle.\n• Parry & Counter — when attacked in melee roll d100: 1–25 parry and counterattack (counter lands on 50%), 26–45 parry only, 46–65 counterattack only, 66–100 nothing.\n\nSuper attack: T.L.K.O. (the move only Maghro knows) — see the T.L.K.O. action.",
           "maxHitPoints" : 52,
-          "currentHitPoints" : 41,
+          "currentHitPoints" : 37,
           "maxMana" : 0,
           "currentMana" : 0,
           "activeEffects" : [ {
             "effectId" : "effect-sharpened-scimitar",
             "name" : "sharpened scimitar",
             "description" : null,
-            "remainingRounds" : 2,
+            "remainingRounds" : 1,
             "damagePerRound" : 0,
             "healingPerRound" : 0,
             "source" : "GM",
@@ -2655,7 +2031,7 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : {
-            "compelled-duel" : 1
+            "compelled-duel" : 5
           },
           "skills" : {
             "custom" : { },
@@ -2706,13 +2082,13 @@
           "featureUses" : { }
         },
         "position" : {
-          "x" : 12,
-          "y" : 5
+          "x" : 13,
+          "y" : 4
         },
         "inventory" : [ ],
         "combat" : {
           "maxHitPoints" : 52,
-          "currentHitPoints" : 41,
+          "currentHitPoints" : 37,
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
@@ -2727,20 +2103,20 @@
           "climbSpeed" : 0,
           "swimSpeed" : 0,
           "speedSeeded" : true,
-          "movementUsed" : 3,
+          "movementUsed" : 0,
           "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
             "effectId" : "effect-sharpened-scimitar",
             "name" : "sharpened scimitar",
             "description" : null,
-            "remainingRounds" : 2,
+            "remainingRounds" : 1,
             "damagePerRound" : 0,
             "healingPerRound" : 0,
             "source" : "GM",
             "expired" : false
           } ],
           "cooldowns" : {
-            "compelled-duel" : 1
+            "compelled-duel" : 5
           },
           "featureUses" : { },
           "resistances" : [ ],
@@ -2753,6 +2129,101 @@
         "instanceId" : "9bd40593-306a-4835-a97b-30299f47d6d0",
         "symbol" : "P"
       } ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
     }, {
       "passable" : true,
       "terrain" : "DIFFICULT",
@@ -3018,19 +2489,10 @@
           "ownerUsername" : "",
           "description" : "Bounty hunter. Always finishes the hunt.\n\nResources:\n• Mana = revolver chambers. Max 6. Every Sixfold Judgment shot costs 1. The Gravitic Anchor Node refills all six chambers during a long rest — nobody can reload it by hand.\n• Singularity Round: 1 per short rest. Anchor Round: 1 per long rest. Their cooldowns are set to 100 rounds so they cannot be used again in the same fight.\n• Shot save DC (Crushing / Anchor): 13 (8 + proficiency 3 + DEX 2).\n\nPassives:\n• Sneak Attack (rogue, level 5): +3d6 once per turn on a hit with advantage, or when an ally stands next to the target.\n• Bound artifacts — the Sixfold Judgment only works while the Gravitic Anchor Node is attached to him.",
           "maxHitPoints" : 45,
-          "currentHitPoints" : 31,
+          "currentHitPoints" : 29,
           "maxMana" : 7,
           "currentMana" : 6,
-          "activeEffects" : [ {
-            "effectId" : "bleeding",
-            "name" : "Bleeding",
-            "description" : "An open wound that keeps costing blood until it is bound.",
-            "remainingRounds" : 1,
-            "damagePerRound" : 2,
-            "healingPerRound" : 0,
-            "source" : "GM",
-            "expired" : false
-          } ],
+          "activeEffects" : [ ],
           "subclass" : "",
           "backstory" : "A bounty hunter in a world ruled by corporations, cybernetics, and violence. He wasn't famous, nor was he trying to be. He took contracts, tracked his targets, collected his pay, and moved on to the next job. He had a reputation for always finishing the hunt, whether it took days or months.\n\nWhen he crossed into this world, his cybernetics transformed into magical relics. His combat implants became enchanted artifacts, his trusted revolver still carried only six bullets — though no one could explain how they replenished after periods of rest — and his monokatana stayed the same.\n\nThe implant along his spine changed the most. What had once been a military combat enhancement became a magical relic known as the Gravitic Anchor Node — a spine of arcane cores that lets him manipulate his own gravity. He doesn't understand how it works, only that it feels strangely familiar, as if technology and magic are simply different languages describing the same thing.\n\n\nThe Sixfold Judgment\n\nAn ancient-looking six-shot revolver forged from black steel and silver, covered in faint violet runes. It has no visible mechanism for loading ammunition.\n\nThe revolver is magically linked to the Gravitic Anchor Node implanted along Kael's spine. The Node condenses gravitational energy into six arcane rounds, one for each chamber.\n\nWhen fires, the Node expends part of its stored power to create devastating gravity-infused bullets.\n\nPossible Shot Effects (choose one when firing)\nGravity Round – A normal shot that deals force damage instead of piercing.\nCrushing Shot – The bullet erupts with gravitational force, forcing the target to make a Strength save or be knocked prone.\nSingularity Round (1/Short Rest) – On impact, a tiny gravity well forms, pulling creatures within 10 feet toward the target before collapsing.\nAnchor Round (1/Long Rest) – The target's gravity dramatically increases, reducing its movement speed to 0 until the start of your next turn if it fails a Strength save.\nReloading\n\nThe revolver can never hold more than six rounds. ",
           "castingResource" : "MANA",
@@ -3093,7 +2555,7 @@
         "inventory" : [ ],
         "combat" : {
           "maxHitPoints" : 45,
-          "currentHitPoints" : 31,
+          "currentHitPoints" : 29,
           "maxMana" : 7,
           "currentMana" : 6,
           "gold" : 0,
@@ -3108,18 +2570,9 @@
           "climbSpeed" : 0,
           "swimSpeed" : 0,
           "speedSeeded" : true,
-          "movementUsed" : 2,
+          "movementUsed" : 0,
           "deathSaveSuccesses" : 0,
-          "activeEffects" : [ {
-            "effectId" : "bleeding",
-            "name" : "Bleeding",
-            "description" : "An open wound that keeps costing blood until it is bound.",
-            "remainingRounds" : 1,
-            "damagePerRound" : 2,
-            "healingPerRound" : 0,
-            "source" : "GM",
-            "expired" : false
-          } ],
+          "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
           "resistances" : [ ],
@@ -3727,7 +3180,7 @@
           "climbSpeed" : 0,
           "swimSpeed" : 0,
           "speedSeeded" : true,
-          "movementUsed" : 8,
+          "movementUsed" : 0,
           "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
@@ -4921,93 +4374,7 @@
       "passable" : true,
       "terrain" : "DIFFICULT",
       "effect" : null,
-      "occupants" : [ {
-        "kind" : "monster",
-        "monster" : {
-          "id" : "bandersnatch-pup",
-          "name" : "Bandersnatch Pup",
-          "description" : "Pulled from the Mad Hatter's hat (d12 = 2). Fur, teeth, far too many teeth. AC 13, HP 30, speed 12 m.",
-          "type" : "monstrosity",
-          "challengeRating" : "1",
-          "stats" : {
-            "custom" : { },
-            "strength" : 16,
-            "dexterity" : 14,
-            "constitution" : 14,
-            "intelligence" : 3,
-            "wisdom" : 12,
-            "charisma" : 5
-          },
-          "abilities" : [ {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "bandersnatch_bite",
-            "name" : "Bite",
-            "description" : "Melee attack: +5 to hit, 2d6+3 piercing. On a hit: STR save DC 13 or knocked prone.",
-            "effects" : [ "prone" ],
-            "range" : 5.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : {
-              "dice" : [ {
-                "diceId" : "d6",
-                "count" : 2
-              } ],
-              "typeId" : "piercing",
-              "constant" : 0
-            }
-          } ],
-          "languages" : [ ],
-          "maxHitPoints" : 30,
-          "armorClass" : 13,
-          "maxMana" : 0,
-          "spellSlots" : [ ],
-          "imagePath" : "images/monsters/bandersnatch-pup.jpg"
-        },
-        "position" : {
-          "x" : 12,
-          "y" : 8
-        },
-        "inventory" : [ ],
-        "combat" : {
-          "maxHitPoints" : 30,
-          "currentHitPoints" : 30,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "gold" : 0,
-          "initiative" : 20,
-          "deathSaveFailures" : 0,
-          "downed" : false,
-          "dead" : false,
-          "conditions" : [ ],
-          "notes" : null,
-          "inInitiative" : true,
-          "walkSpeed" : 30,
-          "climbSpeed" : 0,
-          "swimSpeed" : 0,
-          "speedSeeded" : true,
-          "movementUsed" : 6,
-          "deathSaveSuccesses" : 0,
-          "activeEffects" : [ ],
-          "cooldowns" : { },
-          "featureUses" : { },
-          "resistances" : [ ],
-          "enduranceFeature" : null,
-          "featureSpeedBonus" : 0,
-          "castingResource" : null,
-          "spellSlots" : [ ],
-          "actingThisRound" : true
-        },
-        "instanceId" : "4a1a80e2-fe07-4ba8-8501-44d6f82c1336",
-        "symbol" : "M"
-      } ]
+      "occupants" : [ ]
     }, {
       "passable" : true,
       "terrain" : "DIFFICULT",
@@ -5905,7 +5272,7 @@
           "classId" : "wizard",
           "raceId" : "elf",
           "level" : 6,
-          "xp" : 0,
+          "xp" : 100,
           "upgrades" : {
             "earned" : 5,
             "unlocks" : [ {
@@ -6195,25 +5562,7 @@
           "currentHitPoints" : 32,
           "maxMana" : 0,
           "currentMana" : 0,
-          "activeEffects" : [ {
-            "effectId" : "blinded",
-            "name" : "Blinded",
-            "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
-            "remainingRounds" : 1,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "Toren Valebrick's Smoke Canister",
-            "expired" : false
-          }, {
-            "effectId" : "prone",
-            "name" : "Prone",
-            "description" : "Knocked flat; movement costs double and melee attackers gain advantage.",
-            "remainingRounds" : 1,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "Bandersnatch Pup's Bite",
-            "expired" : false
-          } ],
+          "activeEffects" : [ ],
           "subclass" : "School of Evocation",
           "backstory" : "Raised in a human village, he grew up surrounded by people who loved him, even if they occasionally wished he were a little less inventive. He was a kind boy, curious about everything, and somehow always in trouble.\n\n His magic first appeared without warning and rarely at a convenient moment. Once, he accidentally turned himself invisible, causing the entire village to search for him for two days. He spent much of that time trying to explain that he was right there, but frightened villagers hearing a voice from nowhere only made the situation worse.\n\n Other incidents followed. The final straw came when a neighbour’s cow began floating above its enclosure. After they managed to get it down, he admitted that perhaps he needed help. The village agreed with unusual enthusiasm. Everyone contributed what they could to send him to a magic school. The cow’s owner contributed first.\n\n At school, he learned to recognise and direct the magic that had always come naturally to him. He was an eager student, though his enthusiasm often outlasted his energy. He would practise late into the night, forget to sleep, and spend the next day exhausted, struggling with spells he could normally manage easily. Despite repeated warnings from his teachers, he still treats “just one more attempt” as a perfectly reasonable bedtime.\n\n As he gained control of his powers, another question began occupying his thoughts: where had he come from? He loved his village and considered its people his family, but he had never known another elf well. He wanted to find his own kin, learn about their lives, and perhaps discover something about his birth family.\n\n Now he has set out into the world, carrying his training, his curiosity, and a firm promise to write home. He is happy to travel with others and quick to offer help—occasionally before checking whether he actually knows how.",
           "castingResource" : null,
@@ -6303,27 +5652,9 @@
           "climbSpeed" : 0,
           "swimSpeed" : 0,
           "speedSeeded" : true,
-          "movementUsed" : 7,
+          "movementUsed" : 0,
           "deathSaveSuccesses" : 0,
-          "activeEffects" : [ {
-            "effectId" : "blinded",
-            "name" : "Blinded",
-            "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
-            "remainingRounds" : 1,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "Toren Valebrick's Smoke Canister",
-            "expired" : false
-          }, {
-            "effectId" : "prone",
-            "name" : "Prone",
-            "description" : "Knocked flat; movement costs double and melee attackers gain advantage.",
-            "remainingRounds" : 1,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "Bandersnatch Pup's Bite",
-            "expired" : false
-          } ],
+          "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
           "resistances" : [ ],
