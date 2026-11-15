@@ -1613,6 +1613,13 @@
       },
       "equipped" : false,
       "quantity" : 11
+    }, {
+      "itemId" : "item-snake-ring",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
     } ],
     "spells" : [ {
       "spellId" : "sacred-flame",

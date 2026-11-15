@@ -4226,7 +4226,7 @@
   }, {
     "id" : "item-said-the-name",
     "name" : "said the name",
-    "type" : "gear",
+    "type" : null,
     "description" : "",
     "valueGold" : 0,
     "weight" : 0.0,
@@ -4239,6 +4239,42 @@
       "current" : 100
     },
     "pickable" : false,
+    "imagePath" : null,
+    "overview" : ""
+  }, {
+    "id" : "item-snake-morningstar",
+    "name" : "snake morningstar",
+    "type" : null,
+    "description" : "",
+    "valueGold" : 0,
+    "weight" : 2.0,
+    "damage" : {
+      "dice" : "1d10",
+      "type" : "bludgeoing"
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : true,
+    "imagePath" : null,
+    "overview" : ""
+  }, {
+    "id" : "item-snake-ring",
+    "name" : "snake ring",
+    "type" : "gear",
+    "description" : "",
+    "valueGold" : 10,
+    "weight" : 1.0,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : true,
     "imagePath" : null,
     "overview" : ""
   } ]
