@@ -902,9 +902,16 @@
         "durability" : 0
       },
       "equipped" : false,
-      "quantity" : 1
+      "quantity" : 6
     }, {
       "itemId" : "item-7d80a155",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "item-bread-crumbs",
       "condition" : {
         "durability" : 100
       },
