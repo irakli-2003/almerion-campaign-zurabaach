@@ -279,17 +279,26 @@
     "ownerUsername" : "",
     "description" : "",
     "maxHitPoints" : 48,
-    "currentHitPoints" : 48,
+    "currentHitPoints" : 42,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ {
       "effectId" : "blessed",
       "name" : "Blessed",
       "description" : "A faint radiance steadies the target's aim and nerve.",
-      "remainingRounds" : 2,
+      "remainingRounds" : 1,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "Tasha's Bless",
+      "expired" : false
+    }, {
+      "effectId" : "burn",
+      "name" : "Burning",
+      "description" : "Flames cling to the target and keep searing it each round.",
+      "remainingRounds" : 1,
+      "damagePerRound" : 3,
+      "healingPerRound" : 0,
+      "source" : "GM",
       "expired" : false
     } ],
     "subclass" : "",
@@ -956,7 +965,7 @@
     "ownerUsername" : "",
     "description" : "Bounty hunter. Always finishes the hunt.\n\nResources:\n• Mana = revolver chambers. Max 6. Every Sixfold Judgment shot costs 1. The Gravitic Anchor Node refills all six chambers during a long rest — nobody can reload it by hand.\n• Singularity Round: 1 per short rest. Anchor Round: 1 per long rest. Their cooldowns are set to 100 rounds so they cannot be used again in the same fight.\n• Shot save DC (Crushing / Anchor): 13 (8 + proficiency 3 + DEX 2).\n\nPassives:\n• Sneak Attack (rogue, level 5): +3d6 once per turn on a hit with advantage, or when an ally stands next to the target.\n• Bound artifacts — the Sixfold Judgment only works while the Gravitic Anchor Node is attached to him.",
     "maxHitPoints" : 45,
-    "currentHitPoints" : 45,
+    "currentHitPoints" : 41,
     "maxMana" : 7,
     "currentMana" : 7,
     "activeEffects" : [ {
@@ -1363,7 +1372,7 @@
       "effectId" : "effect-sharpened-scimitar",
       "name" : "sharpened scimitar",
       "description" : null,
-      "remainingRounds" : 7,
+      "remainingRounds" : 6,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "GM",
@@ -1372,7 +1381,7 @@
       "effectId" : "blessed",
       "name" : "Blessed",
       "description" : "A faint radiance steadies the target's aim and nerve.",
-      "remainingRounds" : 2,
+      "remainingRounds" : 1,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "Tasha's Bless",
@@ -1384,7 +1393,9 @@
     "spellSlots" : [ ],
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
-    "cooldowns" : { },
+    "cooldowns" : {
+      "compelled-duel" : 5
+    },
     "skills" : {
       "custom" : { },
       "acrobatics" : 3,
@@ -2033,7 +2044,7 @@
       "effectId" : "blessed",
       "name" : "Blessed",
       "description" : "A faint radiance steadies the target's aim and nerve.",
-      "remainingRounds" : 2,
+      "remainingRounds" : 1,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "Tasha's Bless",
@@ -2524,7 +2535,7 @@
       "effectId" : "blessed",
       "name" : "Blessed",
       "description" : "A faint radiance steadies the target's aim and nerve.",
-      "remainingRounds" : 2,
+      "remainingRounds" : 1,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "Tasha's Bless",
@@ -2591,7 +2602,9 @@
       "extraFeatures" : null,
       "notes" : null
     },
-    "featureUses" : { }
+    "featureUses" : {
+      "bolt-repeater" : 1
+    }
   }, {
     "id" : "player-elros",
     "name" : "Elros",
