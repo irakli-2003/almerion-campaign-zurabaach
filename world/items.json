@@ -4280,7 +4280,7 @@
   }, {
     "id" : "item-snake-morningstar-2",
     "name" : "snake morningstar",
-    "type" : "weapon",
+    "type" : null,
     "description" : "morningstar with silver snake on handle\t",
     "valueGold" : 10,
     "weight" : 5.0,
@@ -4323,5 +4323,23 @@
       "typeId" : "bludgeoning",
       "constant" : 2
     }
+  }, {
+    "id" : "item-rune-bracelet",
+    "name" : "Rune bracelet",
+    "type" : "gear",
+    "description" : "bronze heavy bracelet with chain on it",
+    "valueGold" : 0,
+    "weight" : 0.0,
+    "damage" : {
+      "dice" : "1d10",
+      "type" : "bludgoing"
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : true,
+    "imagePath" : null,
+    "overview" : ""
   } ]
 }
