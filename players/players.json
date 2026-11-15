@@ -36,10 +36,10 @@
       }, {
         "classId" : "bard",
         "sourceRequestId" : null,
-        "nodeId" : "@historical-level-3",
-        "branchName" : "Existing training",
-        "name" : "Bard College, Expertise",
-        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: charm-person, dispel-magic, faerie-fire, haste, healing-word, hold-person, invisibility, light, minor-illusion, prestidigitation, thunderwave",
+        "nodeId" : "potency-2",
+        "branchName" : "Virtuoso",
+        "name" : "Bard College",
+        "description" : "Already included in this character. No rewards are applied again.\nBard College\nAlready included in this character. No rewards are applied again.\nKnown abilities: charm-person, dispel-magic, faerie-fire, haste, healing-word, hold-person, invisibility, light, minor-illusion, prestidigitation, thunderwave",
         "imagePath" : null,
         "level" : 3,
         "historical" : true,
@@ -61,10 +61,10 @@
       }, {
         "classId" : "bard",
         "sourceRequestId" : null,
-        "nodeId" : "@historical-level-4",
-        "branchName" : "Existing training",
-        "name" : "Ability Score Improvement",
-        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: charm-person, dispel-magic, faerie-fire, haste, healing-word, hold-person, invisibility, light, minor-illusion, prestidigitation, thunderwave",
+        "nodeId" : "potency-3",
+        "branchName" : "Virtuoso",
+        "name" : "Virtuoso: Momentum",
+        "description" : "Already included in this character. No rewards are applied again.\n\nAlready included in this character. No rewards are applied again.\nKnown abilities: charm-person, dispel-magic, faerie-fire, haste, healing-word, hold-person, invisibility, light, minor-illusion, prestidigitation, thunderwave",
         "imagePath" : null,
         "level" : 4,
         "historical" : true,
@@ -86,10 +86,10 @@
       }, {
         "classId" : "bard",
         "sourceRequestId" : null,
-        "nodeId" : "@historical-level-5",
-        "branchName" : "Existing training",
-        "name" : "Bardic Inspiration (d8), Font of Inspiration, Encore",
-        "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: charm-person, dispel-magic, faerie-fire, haste, healing-word, hold-person, invisibility, light, minor-illusion, prestidigitation, thunderwave",
+        "nodeId" : "potency-6",
+        "branchName" : "Virtuoso",
+        "name" : "Virtuoso: Counterplay",
+        "description" : "Already included in this character. No rewards are applied again.\n\nAlready included in this character. No rewards are applied again.\nKnown abilities: charm-person, dispel-magic, faerie-fire, haste, healing-word, hold-person, invisibility, light, minor-illusion, prestidigitation, thunderwave",
         "imagePath" : null,
         "level" : 5,
         "historical" : true,
@@ -1120,6 +1120,38 @@
           "spellAlternatives" : [ ],
           "features" : [ ]
         }
+      }, {
+        "classId" : "fighter",
+        "sourceRequestId" : null,
+        "nodeId" : "resilience-3",
+        "branchName" : "Vanguard",
+        "name" : "Vanguard: Footwork",
+        "description" : "Once per short rest, spend a bonus action to ignore nonmagical difficult terrain for your next 10 ft of movement this turn. Does not add movement or permit unsafe ground. The GM resolves this feat; the app tracks its rest use.",
+        "imagePath" : null,
+        "level" : 6,
+        "historical" : false,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 1,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ {
+            "level" : 3,
+            "name" : "Vanguard: Footwork",
+            "description" : "Once per short rest, spend a bonus action to ignore nonmagical difficult terrain for your next 10 ft of movement this turn. Does not add movement or permit unsafe ground. The GM resolves this feat; the app tracks its rest use.",
+            "subclass" : null,
+            "usesPerRest" : 1,
+            "shortRestRecharge" : true
+          } ]
+        }
       } ]
     },
     "stats" : {
@@ -1306,7 +1338,14 @@
     "spellSlots" : [ ],
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
-    "cooldowns" : { },
+    "cooldowns" : {
+      "strength" : 0,
+      "dexterity" : 0,
+      "constitution" : 0,
+      "intelligence" : 0,
+      "wisdom" : 0,
+      "charisma" : 0
+    },
     "skills" : {
       "custom" : { },
       "acrobatics" : 3,
@@ -1335,7 +1374,7 @@
       "proficiencyBonus" : null,
       "passivePerception" : null,
       "savingThrowProficiencies" : [ ],
-      "hitDice" : null,
+      "hitDice" : "",
       "temporaryHitPoints" : 0,
       "deathSaveSuccesses" : 0,
       "deathSaveFailures" : 0,
@@ -1349,9 +1388,9 @@
       "gold" : 0,
       "platinum" : 0,
       "extraAttacks" : [ ],
-      "proficienciesAndLanguages" : null,
-      "extraFeatures" : null,
-      "notes" : null
+      "proficienciesAndLanguages" : "",
+      "extraFeatures" : "",
+      "notes" : ""
     },
     "featureUses" : {
       "strength" : 0,
@@ -1366,10 +1405,10 @@
     "name" : "Tasha",
     "classId" : "cleric",
     "raceId" : "tiefling",
-    "level" : 5,
-    "xp" : 225,
+    "level" : 6,
+    "xp" : 0,
     "upgrades" : {
-      "earned" : 4,
+      "earned" : 5,
       "unlocks" : [ {
         "classId" : "cleric",
         "sourceRequestId" : null,
@@ -1626,8 +1665,8 @@
     "playerName" : "Tatuli",
     "ownerUsername" : "",
     "description" : "Tiefling cleric. Casts with spell slots (level 5: 4 × 1st, 3 × 2nd, 2 × 3rd), recovered on a long rest.\n\nPassives:\n• Healing Bonus: +2 HP on every healing spell she casts (the DM adds it; the app's flat healing values already use her numbers without it).\n• Passive Perception: 14\n• Passive Insight: 16\n• Passive Investigation: 9\n\nOnce per long rest: Divine Embrace.",
-    "maxHitPoints" : 38,
-    "currentHitPoints" : 5,
+    "maxHitPoints" : 45,
+    "currentHitPoints" : 12,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ {
@@ -1653,8 +1692,8 @@
       "current" : 1
     }, {
       "level" : 3,
-      "max" : 2,
-      "current" : 2
+      "max" : 3,
+      "current" : 3
     } ],
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
