@@ -3365,8 +3365,8 @@
       "usesPerRest" : 1,
       "shortRestRecharge" : false
     } ],
-    "passwordHash" : null,
-    "passwordSalt" : null,
+    "passwordHash" : "5f8bdfac52b1fee28e295d50a0443476e9774dbeb0bc055fa8d3318dd2ad0432",
+    "passwordSalt" : "a52f86319a7b86f45d27e429a7c11bfe",
     "imagePath" : "images/players/player-sinne.png",
     "playerName" : "",
     "ownerUsername" : "",
@@ -3660,8 +3660,8 @@
       "usesPerRest" : 2,
       "shortRestRecharge" : false
     } ],
-    "passwordHash" : null,
-    "passwordSalt" : null,
+    "passwordHash" : "a346f9a2bca639148434cb728e052c0f569ae1998aa10e2bbb0fb46e36731503",
+    "passwordSalt" : "c41f9dc6ced896bd774df5112dc86237",
     "imagePath" : "images/players/player-da.png",
     "playerName" : "",
     "ownerUsername" : "",
@@ -3836,8 +3836,8 @@
       "usesPerRest" : 0,
       "shortRestRecharge" : false
     } ],
-    "passwordHash" : null,
-    "passwordSalt" : null,
+    "passwordHash" : "8575396f125287abcb585255d1769c6988571b19be04d018c397d7b136eb3b26",
+    "passwordSalt" : "c55bfa70db72f28f617d2b5e5ec38d61",
     "imagePath" : "images/players/player-uriel.png",
     "playerName" : "საბა",
     "ownerUsername" : "საბა",
