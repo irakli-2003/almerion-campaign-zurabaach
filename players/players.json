@@ -5,7 +5,7 @@
     "classId" : "bard",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 0,
+    "xp" : 30,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -355,7 +355,7 @@
     "classId" : "ranger",
     "raceId" : "wood-elf",
     "level" : 6,
-    "xp" : 0,
+    "xp" : 30,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -1011,7 +1011,7 @@
     "classId" : "fighter",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 0,
+    "xp" : 30,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -1404,7 +1404,7 @@
     "classId" : "cleric",
     "raceId" : "tiefling",
     "level" : 6,
-    "xp" : 0,
+    "xp" : 30,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -1781,7 +1781,7 @@
     "classId" : "barbarian",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 20,
+    "xp" : 50,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -2047,7 +2047,7 @@
     "classId" : "artificer",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 0,
+    "xp" : 30,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -2532,7 +2532,7 @@
     "classId" : "wizard",
     "raceId" : "elf",
     "level" : 6,
-    "xp" : 100,
+    "xp" : 130,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -2895,7 +2895,7 @@
     "classId" : "rogue",
     "raceId" : "lightfoot-halfling",
     "level" : 6,
-    "xp" : 0,
+    "xp" : 30,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -3317,7 +3317,7 @@
     "classId" : "warlock",
     "raceId" : "sinne-shapeshifter",
     "level" : 6,
-    "xp" : 20,
+    "xp" : 50,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -3655,7 +3655,7 @@
     "classId" : "rogue",
     "raceId" : "wood-elf",
     "level" : 6,
-    "xp" : 0,
+    "xp" : 30,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -3968,7 +3968,7 @@
     "classId" : "fighter",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 0,
+    "xp" : 30,
     "upgrades" : {
       "earned" : 1,
       "unlocks" : [ {
@@ -4094,7 +4094,7 @@
     "ownerUsername" : "საბა",
     "description" : "ურიელი — ადამიანთა მოხეტიალე მებრძოლი, Champion. მუქი, კეფაზე დაგრძელებული თმა; სახეზე ძველი ნაიარევები; შავი, ვერცხლისფერი სამაგრებით გამაგრებული ტყავი და გაცვეთილი წითელი მოსასხამი. სურათი გარეგნობის მითითებაა: მძიმე ფირფიტოვანი აბჯრის ბონუსს არ იძლევა. ატარებს მამის წვრილ ხმალს. დგას ისე, რომ ყოველთვის რჩებოდეს ერთი თავისუფალი ნაბიჯი.\n\nბრძოლის სტილი: სწრაფი ფეხები, ზუსტი წვერი და მოკლე კომბინაციები. ლავენოსისგან განსხვავებით, არ მართავს superiority dice-სა და მანევრების სიას. მისი განსაკუთრებული ღირებულება არის გადაადგილება, უსაფრთხო პოზიციის შენარჩუნება და გარემოს გამოყენება.",
     "maxHitPoints" : 52,
-    "currentHitPoints" : 52,
+    "currentHitPoints" : 0,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ ],
