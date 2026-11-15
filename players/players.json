@@ -1262,6 +1262,13 @@
       },
       "equipped" : false,
       "quantity" : 1
+    }, {
+      "itemId" : "forgotten-blade",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
     } ],
     "spells" : [ {
       "spellId" : "blade-oath",
