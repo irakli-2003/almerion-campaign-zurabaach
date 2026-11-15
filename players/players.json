@@ -972,7 +972,7 @@
       "effectId" : "effect-greedy",
       "name" : "Greedy",
       "description" : null,
-      "remainingRounds" : 3,
+      "remainingRounds" : 2,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "GM",
