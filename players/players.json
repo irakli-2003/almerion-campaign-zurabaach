@@ -1880,7 +1880,7 @@
     "classId" : "barbarian",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 0,
+    "xp" : 20,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -2085,16 +2085,7 @@
     "currentHitPoints" : 59,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ {
-      "effectId" : "blessed",
-      "name" : "Blessed",
-      "description" : "A faint radiance steadies the target's aim and nerve.",
-      "remainingRounds" : 1,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Tasha's Bless",
-      "expired" : false
-    } ],
+    "activeEffects" : [ ],
     "subclass" : "",
     "backstory" : "",
     "castingResource" : null,
@@ -2382,13 +2373,6 @@
       "equipped" : false,
       "quantity" : 3
     }, {
-      "itemId" : "smoke-canister",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
       "itemId" : "simple-clothes",
       "condition" : {
         "durability" : 100
@@ -2577,13 +2561,13 @@
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ {
-      "effectId" : "blessed",
-      "name" : "Blessed",
-      "description" : "A faint radiance steadies the target's aim and nerve.",
+      "effectId" : "blinded",
+      "name" : "Blinded",
+      "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
       "remainingRounds" : 1,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
-      "source" : "Tasha's Bless",
+      "source" : "Toren Valebrick's Smoke Canister",
       "expired" : false
     } ],
     "subclass" : "Artillerist",
@@ -2972,6 +2956,15 @@
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "Silvan's Entangle",
+      "expired" : false
+    }, {
+      "effectId" : "blinded",
+      "name" : "Blinded",
+      "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Toren Valebrick's Smoke Canister",
       "expired" : false
     } ],
     "subclass" : "School of Evocation",
@@ -3420,6 +3413,15 @@
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "Silvan's Entangle",
+      "expired" : false
+    }, {
+      "effectId" : "blinded",
+      "name" : "Blinded",
+      "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
+      "remainingRounds" : 2,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Toren Valebrick's Smoke Canister",
       "expired" : false
     } ],
     "subclass" : "Arcane Trickster",
@@ -4085,7 +4087,7 @@
       "effectId" : "entangled",
       "name" : "Entangled",
       "description" : "Roots, webs, or vines hold the target fast.",
-      "remainingRounds" : 2,
+      "remainingRounds" : 1,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "Silvan's Entangle",
@@ -4094,7 +4096,7 @@
       "effectId" : "restrained",
       "name" : "Restrained",
       "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
-      "remainingRounds" : 2,
+      "remainingRounds" : 1,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
       "source" : "Silvan's Entangle",
