@@ -2462,6 +2462,13 @@
       },
       "equipped" : false,
       "quantity" : 15
+    }, {
+      "itemId" : "item-shield-bracelet",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
     } ],
     "spells" : [ {
       "spellId" : "mending",
@@ -3251,6 +3258,13 @@
       },
       "equipped" : false,
       "quantity" : 2
+    }, {
+      "itemId" : "item-deck-of-cards",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
     } ],
     "spells" : [ {
       "spellId" : "mage-hand",

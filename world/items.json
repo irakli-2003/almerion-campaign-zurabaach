@@ -4388,8 +4388,44 @@
   }, {
     "id" : "item-nauglamir",
     "name" : "Nauglamir",
-    "type" : "gear",
+    "type" : null,
     "description" : "beautiful golden-green necklace that is missing big jewel in center.  +1 highest possible spell slot. ",
+    "valueGold" : 0,
+    "weight" : 0.0,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : false,
+    "imagePath" : null,
+    "overview" : ""
+  }, {
+    "id" : "item-deck-of-cards",
+    "name" : "deck of cards",
+    "type" : null,
+    "description" : "ratboys favorite deck, he can do any trick with it.",
+    "valueGold" : 0,
+    "weight" : 0.0,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : false,
+    "imagePath" : null,
+    "overview" : ""
+  }, {
+    "id" : "item-shield-bracelet",
+    "name" : "shield bracelet",
+    "type" : "gear",
+    "description" : "foldable bracelet- shield",
     "valueGold" : 0,
     "weight" : 0.0,
     "damage" : {
