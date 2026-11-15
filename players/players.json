@@ -4,10 +4,10 @@
     "name" : "Balthazar Boombard",
     "classId" : "bard",
     "raceId" : "human",
-    "level" : 5,
-    "xp" : 95,
+    "level" : 6,
+    "xp" : 0,
     "upgrades" : {
-      "earned" : 4,
+      "earned" : 5,
       "unlocks" : [ {
         "classId" : "bard",
         "sourceRequestId" : null,
@@ -107,6 +107,38 @@
           "spellIds" : [ ],
           "spellAlternatives" : [ ],
           "features" : [ ]
+        }
+      }, {
+        "classId" : "bard",
+        "sourceRequestId" : null,
+        "nodeId" : "resilience-1",
+        "branchName" : "Inspiring Voice",
+        "name" : "Song of Rest (d6)",
+        "description" : "Allies who spend Hit Dice during a short rest while hearing you regain an extra d6 hit points.\nClass training. If already known, this feat is not granted a second time.",
+        "imagePath" : null,
+        "level" : 6,
+        "historical" : false,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 3,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ "mage-hand" ],
+          "spellAlternatives" : [ ],
+          "features" : [ {
+            "level" : 2,
+            "name" : "Song of Rest (d6)",
+            "description" : "Allies who spend Hit Dice during a short rest while hearing you regain an extra d6 hit points.\nClass training. If already known, this feat is not granted a second time.",
+            "subclass" : null,
+            "usesPerRest" : 0,
+            "shortRestRecharge" : false
+          } ]
         }
       } ]
     },
@@ -227,12 +259,16 @@
       "spellId" : "dispel-magic",
       "rank" : 3,
       "active" : false
+    }, {
+      "spellId" : "mage-hand",
+      "rank" : 0,
+      "active" : true
     } ],
     "personalFeatures" : [ {
       "level" : 5,
       "name" : "Encore",
       "description" : "Nonmagical reaction immediately after another conscious ally within 60 ft spends Balthazar's Bardic Inspiration die and succeeds on the roll. The ally regains HP equal to Balthazar's proficiency bonus (3 at level 5). Once per short rest. The ally must hear him. Remove his Inspiration marker when resolving this; the GM confirms the successful roll and reaction. Cannot revive a downed ally. No spell slots, extra actions or Inspiration uses are refunded.",
-      "subclass" : null,
+      "subclass" : "",
       "usesPerRest" : 0,
       "shortRestRecharge" : false
     } ],
@@ -242,14 +278,14 @@
     "playerName" : "Lado",
     "ownerUsername" : "",
     "description" : "",
-    "maxHitPoints" : 38,
-    "currentHitPoints" : 1,
+    "maxHitPoints" : 48,
+    "currentHitPoints" : 11,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ {
       "effectId" : "effect-nameless",
       "name" : "Nameless",
-      "description" : null,
+      "description" : "",
       "remainingRounds" : 997,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
@@ -269,12 +305,19 @@
       "current" : 3
     }, {
       "level" : 3,
-      "max" : 2,
-      "current" : 2
+      "max" : 3,
+      "current" : 3
     } ],
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
-    "cooldowns" : { },
+    "cooldowns" : {
+      "strength" : 0,
+      "dexterity" : 0,
+      "constitution" : 0,
+      "intelligence" : 0,
+      "wisdom" : 0,
+      "charisma" : 0
+    },
     "skills" : {
       "custom" : { },
       "acrobatics" : 2,
@@ -303,7 +346,7 @@
       "proficiencyBonus" : null,
       "passivePerception" : null,
       "savingThrowProficiencies" : [ ],
-      "hitDice" : null,
+      "hitDice" : "",
       "temporaryHitPoints" : 0,
       "deathSaveSuccesses" : 0,
       "deathSaveFailures" : 0,
@@ -317,9 +360,9 @@
       "gold" : null,
       "platinum" : 0,
       "extraAttacks" : [ ],
-      "proficienciesAndLanguages" : null,
-      "extraFeatures" : null,
-      "notes" : null
+      "proficienciesAndLanguages" : "",
+      "extraFeatures" : "",
+      "notes" : ""
     },
     "featureUses" : {
       "strength" : 0,
@@ -1796,10 +1839,10 @@
     "name" : "Darius",
     "classId" : "barbarian",
     "raceId" : "human",
-    "level" : 5,
-    "xp" : 155,
+    "level" : 6,
+    "xp" : 0,
     "upgrades" : {
-      "earned" : 4,
+      "earned" : 5,
       "unlocks" : [ {
         "classId" : "barbarian",
         "sourceRequestId" : null,
@@ -1900,6 +1943,38 @@
           "spellAlternatives" : [ ],
           "features" : [ ]
         }
+      }, {
+        "classId" : "barbarian",
+        "sourceRequestId" : null,
+        "nodeId" : "resilience-5",
+        "branchName" : "Iron Fist",
+        "name" : "Iron Fist: Last Stand",
+        "description" : "Once per long rest, use your reaction when you fail a save against being knocked prone to reroll it. You must keep the new result. The GM resolves this feat; the app tracks its rest use.",
+        "imagePath" : null,
+        "level" : 6,
+        "historical" : false,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 5,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ {
+            "level" : 4,
+            "name" : "Iron Fist: Last Stand",
+            "description" : "Once per long rest, use your reaction when you fail a save against being knocked prone to reroll it. You must keep the new result. The GM resolves this feat; the app tracks its rest use.",
+            "subclass" : null,
+            "usesPerRest" : 1,
+            "shortRestRecharge" : false
+          } ]
+        }
       } ]
     },
     "stats" : {
@@ -1966,8 +2041,8 @@
     "playerName" : "nika",
     "ownerUsername" : "Darius",
     "description" : "მაღალი, დაკუნთული ბარბაროსი მეომარი რომელიც არ ატარებს აბჯარს.\n\nRage (გაცოფება) არის ბარბარიანის მთავარი უნარი. ის იძლევა ძალას და გამძლეობას ბრძოლაში.\n\nროგორ ჩაირთვება\n\nჩართავ bonus action-ით, ანუ დარტყმასაც მოასწრებ იმავე სვლაში.\nგრძელდება 1 წუთი (10 რაუნდი).\nდარიუსს 5 დონეზე აქვს 3 გამოყენება, რომლებიც long rest-ზე ბრუნდება.\n\nრას იძლევა\n\nAdvantage Strength-ის შემოწმებებსა და Strength save-ებზე.\n+2 damage ყოველ ახლო ბრძოლის დარტყმაზე Strength-ით. მუშტის დარტყმაზეც მუშაობს.\nწინააღმდეგობა (resistance) bludgeoning, piercing და slashing damage-ის მიმართ. ეს ნიშნავს, რომ ამ ტიპის დაზიანებას ნახევარს იღებს.\n\nრა არ შეუძლია გაცოფებისას\n\nსპელების ჩამოგდება და კონცენტრაცია.\nმძიმე აბჯარში ვერ ჩაირთვება. დარიუსს აბჯარი არ აქვს, ამიტომ პრობლემა არ არის.\n\nროდის წყდება\n\n1 წუთის შემდეგ.\nთუ გონებას დაკარგავ.\nთუ შენი სვლის ბოლოს არავისთვის გიტევია და თავად არ დაგიზიანებიათ ბოლო სვლის შემდეგ. ამიტომ ბრძოლაში მაინც უნდა იყო აქტიური.\nშეგიძლია bonus action-ით თავადაც გამორთო.\n\nშეუიარაღებელი ხელით შეტევა მასზე ყოველთვის მოქმედებს როგორც 1d4\n\nშეუძლია მოქმედების გამოყენების გარეშე, ბონუს მოქმედებით გააკავოს მოწინააღმდეგე.",
-    "maxHitPoints" : 50,
-    "currentHitPoints" : 12,
+    "maxHitPoints" : 59,
+    "currentHitPoints" : 21,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ ],
@@ -3046,6 +3121,38 @@
           "spellAlternatives" : [ ],
           "features" : [ ]
         }
+      }, {
+        "classId" : "rogue",
+        "sourceRequestId" : null,
+        "nodeId" : "potency-5",
+        "branchName" : "Shadowblade",
+        "name" : "Shadowblade: Breakthrough",
+        "description" : "Once per short rest, replace one attack with a contested Athletics check against a creature within reach, at most one size larger. On success push it 5 ft to clear supported ground, never off a ledge. No damage. The GM resolves this feat; the app tracks its rest use.",
+        "imagePath" : null,
+        "level" : 6,
+        "historical" : false,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 5,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ {
+            "level" : 4,
+            "name" : "Shadowblade: Breakthrough",
+            "description" : "Once per short rest, replace one attack with a contested Athletics check against a creature within reach, at most one size larger. On success push it 5 ft to clear supported ground, never off a ledge. No damage. The GM resolves this feat; the app tracks its rest use.",
+            "subclass" : null,
+            "usesPerRest" : 1,
+            "shortRestRecharge" : true
+          } ]
+        }
       } ]
     },
     "stats" : {
@@ -3635,10 +3742,10 @@
     "name" : "Da",
     "classId" : "rogue",
     "raceId" : "wood-elf",
-    "level" : 5,
-    "xp" : 6500,
+    "level" : 6,
+    "xp" : 0,
     "upgrades" : {
-      "earned" : 4,
+      "earned" : 5,
       "unlocks" : [ {
         "classId" : "rogue",
         "sourceRequestId" : null,
@@ -3738,6 +3845,38 @@
           "spellIds" : [ ],
           "spellAlternatives" : [ ],
           "features" : [ ]
+        }
+      }, {
+        "classId" : "rogue",
+        "sourceRequestId" : null,
+        "nodeId" : "potency-3",
+        "branchName" : "Shadowblade",
+        "name" : "Shadowblade: Momentum",
+        "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
+        "imagePath" : null,
+        "level" : 6,
+        "historical" : false,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 1,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ {
+            "level" : 3,
+            "name" : "Shadowblade: Momentum",
+            "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
+            "subclass" : null,
+            "usesPerRest" : 1,
+            "shortRestRecharge" : true
+          } ]
         }
       } ]
     },
@@ -3848,8 +3987,8 @@
     "playerName" : "",
     "ownerUsername" : "",
     "description" : "მამრი ტყის ელფი; სიმაღლე 1.84 მ. მუქი, არეული თმა, დაკვირვებული მზერა და გაცვეთილი ტყავის აბჯარი. ხელში დედის ორი ხანჯალი, ზურგზე მამის მოკლე მშვილდი.\n\nჩუმი დუელისტი: ჯერ აკვირდება ნაბიჯს, სუნთქვასა და წონასწორობას, შემდეგ ახლო მანძილზე ჭრის და პოზიციას იცვლის. არ იყენებს მაგიას, ცეცხლსასროლ იარაღს ან ილუზიებს. მისი მაღალი Charisma მშვიდ თავდაჯერებასა და მკაფიო ნებას აღნიშნავს, არა მხიარულებას.\n\nიშვიათად გრძნობს იმას, რასაც სხვები; ეს პიროვნული თავისებურებაა და არა ემოციების სრული არქონა ან შიშისგან იმუნიტეტი.",
-    "maxHitPoints" : 30,
-    "currentHitPoints" : 30,
+    "maxHitPoints" : 37,
+    "currentHitPoints" : 37,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ ],
@@ -3930,10 +4069,10 @@
     "name" : "Uriel",
     "classId" : "fighter",
     "raceId" : "human",
-    "level" : 5,
+    "level" : 6,
     "xp" : 0,
     "upgrades" : {
-      "earned" : 0,
+      "earned" : 1,
       "unlocks" : [ ]
     },
     "stats" : {
@@ -4024,8 +4163,8 @@
     "playerName" : "საბა",
     "ownerUsername" : "საბა",
     "description" : "ურიელი — ადამიანთა მოხეტიალე მებრძოლი, Champion. მუქი, კეფაზე დაგრძელებული თმა; სახეზე ძველი ნაიარევები; შავი, ვერცხლისფერი სამაგრებით გამაგრებული ტყავი და გაცვეთილი წითელი მოსასხამი. სურათი გარეგნობის მითითებაა: მძიმე ფირფიტოვანი აბჯრის ბონუსს არ იძლევა. ატარებს მამის წვრილ ხმალს. დგას ისე, რომ ყოველთვის რჩებოდეს ერთი თავისუფალი ნაბიჯი.\n\nბრძოლის სტილი: სწრაფი ფეხები, ზუსტი წვერი და მოკლე კომბინაციები. ლავენოსისგან განსხვავებით, არ მართავს superiority dice-სა და მანევრების სიას. მისი განსაკუთრებული ღირებულება არის გადაადგილება, უსაფრთხო პოზიციის შენარჩუნება და გარემოს გამოყენება.",
-    "maxHitPoints" : 44,
-    "currentHitPoints" : 13,
+    "maxHitPoints" : 52,
+    "currentHitPoints" : 21,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ ],
