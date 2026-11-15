@@ -1,0 +1,17 @@
+[ {
+  "id" : "df14b345-a331-44d6-9b10-719759babbd6",
+  "character" : "player-elros",
+  "name" : "Elros",
+  "status" : "pending",
+  "created" : 1794736359919,
+  "submitted" : {
+    "revision" : "7a0b648d00dc26d54625f1d73dd965241ce2cd3ae87a73567ae475f566c5ea69",
+    "points" : { },
+    "node" : "resilience-1",
+    "spells" : {
+      "minor-illusion" : "chill-touch"
+    }
+  },
+  "decision" : null,
+  "details" : "Level 5 -> 6\nHP +6; mana +0; proficiency +3\nAbility points: 0 (standard ASI levels; maximum score 20).\nSpell slot maxima: [4, 3, 3, 0, 0, 0, 0, 0, 0]\nPotent Cantrip: Creatures that succeed on saves against your cantrips still take half damage.\nXP resets to 0 only after GM approval. Current injuries are not fully healed.\n\nAbility choices:\n\nArcane Warden / Arcane Warden: Vigil\nOnce per short rest, spend your action watching a passage for one minute. The GM grants advantage on your next Perception check to notice a creature crossing it, not to detect hidden magic. The GM resolves this feat; the app tracks its rest use.\nHP +3\nUses: 1 per short or long rest.\nMinor Illusion: Cantrip (illusion) · range 30 ft · 5 ft area\nCreates a small sound or image indistinguishable from the real thing.\n\nComponents: S, M (a scrap of fleece)\nCasting: hand movement\nSpell choice: Chill Touch\nCantrip (necromancy) · range 120 ft\nA spectral hand grips the target and prevents it from healing.\n\nComponents: V, S\nCasting: hand movement\nDamage: 1d8\nEffects: Life Drain"
+} ]
