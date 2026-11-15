@@ -559,5 +559,25 @@
     "healingAmount" : 0,
     "durationRounds" : 999,
     "lasting" : true
+  }, {
+    "id" : "effect-missing-left-shoe",
+    "name" : "missing left shoe",
+    "description" : "",
+    "damaging" : false,
+    "healing" : false,
+    "damageAmount" : 0,
+    "healingAmount" : 0,
+    "durationRounds" : 999,
+    "lasting" : true
+  }, {
+    "id" : "effect-missing-shoes",
+    "name" : "missing shoes",
+    "description" : "",
+    "damaging" : false,
+    "healing" : false,
+    "damageAmount" : 0,
+    "healingAmount" : 0,
+    "durationRounds" : 999,
+    "lasting" : true
   } ]
 }
