@@ -549,5 +549,15 @@
     "healingAmount" : 0,
     "durationRounds" : 1,
     "lasting" : true
+  }, {
+    "id" : "effect-missing-right-shoe",
+    "name" : "missing right shoe",
+    "description" : "",
+    "damaging" : false,
+    "healing" : false,
+    "damageAmount" : 0,
+    "healingAmount" : 0,
+    "durationRounds" : 999,
+    "lasting" : true
   } ]
 }
