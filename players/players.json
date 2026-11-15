@@ -214,6 +214,13 @@
       },
       "equipped" : false,
       "quantity" : 1
+    }, {
+      "itemId" : "item-zauberflute",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
     } ],
     "spells" : [ {
       "spellId" : "minor-illusion",

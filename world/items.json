@@ -4294,39 +4294,11 @@
     },
     "pickable" : true,
     "imagePath" : null,
-    "dualWield" : false,
-    "minRequiredCoreStats" : {
-      "custom" : { },
-      "strength" : 8,
-      "dexterity" : 8,
-      "constitution" : 8,
-      "intelligence" : 8,
-      "wisdom" : 8,
-      "charisma" : 8
-    },
-    "effects" : [ {
-      "id" : "lifesteal",
-      "name" : "lifesteal",
-      "description" : "heal snake ring bearer for half damage dealt",
-      "damaging" : false,
-      "healing" : true,
-      "damageAmount" : 0,
-      "healingAmount" : 3,
-      "durationRounds" : 0,
-      "lasting" : false
-    } ],
-    "weaponDamage" : {
-      "dice" : [ {
-        "diceId" : "d10",
-        "count" : 1
-      } ],
-      "typeId" : "bludgeoning",
-      "constant" : 2
-    }
+    "overview" : null
   }, {
     "id" : "item-rune-bracelet",
     "name" : "Rune bracelet",
-    "type" : "gear",
+    "type" : null,
     "description" : "bronze heavy bracelet with chain on it",
     "valueGold" : 0,
     "weight" : 0.0,
@@ -4339,6 +4311,24 @@
       "current" : 100
     },
     "pickable" : true,
+    "imagePath" : null,
+    "overview" : ""
+  }, {
+    "id" : "item-zauberflute",
+    "name" : "zauberflute",
+    "type" : "gear",
+    "description" : "flute that makes enemy dance after performance check",
+    "valueGold" : 0,
+    "weight" : 0.0,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : false,
     "imagePath" : null,
     "overview" : ""
   } ]
