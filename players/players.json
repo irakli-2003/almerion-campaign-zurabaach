@@ -2755,6 +2755,13 @@
       },
       "equipped" : false,
       "quantity" : 12
+    }, {
+      "itemId" : "item-nauglamir",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
     } ],
     "spells" : [ {
       "spellId" : "fire-bolt",
@@ -3877,7 +3884,7 @@
         "durability" : 100
       },
       "equipped" : false,
-      "quantity" : 20
+      "quantity" : 18
     }, {
       "itemId" : "quiver",
       "condition" : {
