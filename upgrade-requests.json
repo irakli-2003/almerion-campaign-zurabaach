@@ -2,7 +2,7 @@
   "id" : "df14b345-a331-44d6-9b10-719759babbd6",
   "character" : "player-elros",
   "name" : "Elros",
-  "status" : "pending",
+  "status" : "declined",
   "created" : 1794736359919,
   "submitted" : {
     "revision" : "7a0b648d00dc26d54625f1d73dd965241ce2cd3ae87a73567ae475f566c5ea69",
@@ -18,7 +18,7 @@
   "id" : "603502f2-aca5-4741-8561-9f5d9c9a273c",
   "character" : "player-silvan",
   "name" : "Silvan",
-  "status" : "pending",
+  "status" : "declined",
   "created" : 1794736443664,
   "submitted" : {
     "revision" : "d8a76e4f52ec05d517ed2525378173dab9ac616b9fbd504bb14c0761c5d0cd74",
