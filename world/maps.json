@@ -6397,7 +6397,7 @@
     "mapLinks" : [ ],
     "partyPosition" : null,
     "worldMap" : false,
-    "musicPlaylistId" : null
+    "musicPlaylistId" : "mystery"
   }, {
     "id" : "gilded-stag-upper",
     "name" : "კატის ბუნაგი",

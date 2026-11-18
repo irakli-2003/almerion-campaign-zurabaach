@@ -501,7 +501,7 @@
       "sourceUrl" : "https://bigsoundbank.com/delirious-laughter-3-s2093.html"
     }
   } ],
-  "combatPlaylistId" : null,
+  "combatPlaylistId" : "combat",
   "volume" : 55,
   "effectsVolume" : 80,
   "shuffle" : false,
