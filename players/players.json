@@ -4671,8 +4671,8 @@
       "usesPerRest" : 0,
       "shortRestRecharge" : false
     } ],
-    "passwordHash" : null,
-    "passwordSalt" : null,
+    "passwordHash" : "c8f97cbd72d0ceb2461eb450f389b80ac0be3ea79a3641c52d4d967313903fd0",
+    "passwordSalt" : "048fb23b5147b96e5642b592338a69a0",
     "imagePath" : "images/players/player-galevani.png",
     "playerName" : "",
     "ownerUsername" : "",
