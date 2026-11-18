@@ -9846,5 +9846,200 @@
         }
       } ]
     }
-  } ]
+  },
+    {
+      "id": "shieldwright",
+      "name": "Shieldwright / ფარმჭედელი",
+      "description": "უიარაღო დამცველი, რომელიც თავდაცვას, მოძრაობას და მოკავშირეების დაფარვას ხელნაკეთი ფარებით უთავსებს.",
+      "hitDie": {
+        "id": "d10",
+        "name": "d10",
+        "sides": 10
+      },
+      "primaryAbilities": [
+        "strength",
+        "constitution"
+      ],
+      "savingThrowBonuses": {
+        "strength": 2,
+        "constitution": 2
+      },
+      "spellcasting": "NONE",
+      "subclasses": [],
+      "subclassDescriptions": {},
+      "defaultSpells": [],
+      "defaultItems": [
+        "harness-core",
+        "harness-knees",
+        "harness-shield-right",
+        "harness-shield-left",
+        "harness-wraps",
+        "workshop-axe-hammer",
+        "smiths-tools",
+        "simple-clothes"
+      ],
+      "features": [],
+      "upgradeTree": {
+        "branches": [
+          {
+            "id": "bastion",
+            "name": "Bastion / ბასტიონი"
+          },
+          {
+            "id": "impact",
+            "name": "Momentum / ინერცია"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "catch-training",
+            "branchId": "bastion",
+            "name": "Reinforced Catch / გამაგრებული საყრდენი",
+            "description": "ფარით გადაფარვისას ზიანი დამატებით 2-ით შეამცირე, თუ ორივე ხელის ფარი დამაგრებულია.",
+            "minimumLevel": 7,
+            "parentId": "class-foundation",
+            "children": [
+              "brace-training"
+            ],
+            "prerequisites": [],
+            "exclusiveWith": [],
+            "existingTraining": [],
+            "reward": {
+              "features": [
+                {
+                  "level": 7,
+                  "name": "Reinforced Catch / გამაგრებული საყრდენი",
+                  "description": "ფარით გადაფარვისას ზიანი დამატებით 2-ით შეამცირე, თუ ორივე ხელის ფარი დამაგრებულია.",
+                  "subclass": null,
+                  "usesPerRest": 0,
+                  "shortRestRecharge": false
+                }
+              ]
+            }
+          },
+          {
+            "id": "march-training",
+            "branchId": "bastion",
+            "name": "Clear Beat / მკაფიო ტაქტი",
+            "description": "საერთო რიტმის მანძილი 15-ის ნაცვლად 20 ფუტია, ხოლო დროებითი HP 4-ის ნაცვლად 5.",
+            "minimumLevel": 8,
+            "parentId": "class-foundation",
+            "children": [],
+            "prerequisites": [],
+            "exclusiveWith": [],
+            "existingTraining": [],
+            "reward": {
+              "features": [
+                {
+                  "level": 8,
+                  "name": "Clear Beat / მკაფიო ტაქტი",
+                  "description": "საერთო რიტმის მანძილი 15-ის ნაცვლად 20 ფუტია, ხოლო დროებითი HP 4-ის ნაცვლად 5.",
+                  "subclass": null,
+                  "usesPerRest": 0,
+                  "shortRestRecharge": false
+                }
+              ]
+            }
+          },
+          {
+            "id": "brace-training",
+            "branchId": "bastion",
+            "name": "Sheltered Step / ფარის ქვეშ",
+            "description": "როდესაც ძმაო, შეხტი! ილეთს იყენებ, ერთი თანახმა მოკავშირე 5 ფუტში იღებს +2 AC-ს შენი მომდევნო სვლის დასაწყისამდე, მხოლოდ სანამ შენგან 5 ფუტში რჩება.",
+            "minimumLevel": 10,
+            "parentId": "catch-training",
+            "children": [],
+            "prerequisites": [],
+            "exclusiveWith": [],
+            "existingTraining": [],
+            "reward": {
+              "features": [
+                {
+                  "level": 10,
+                  "name": "Sheltered Step / ფარის ქვეშ",
+                  "description": "როდესაც ძმაო, შეხტი! ილეთს იყენებ, ერთი თანახმა მოკავშირე 5 ფუტში იღებს +2 AC-ს შენი მომდევნო სვლის დასაწყისამდე, მხოლოდ სანამ შენგან 5 ფუტში რჩება.",
+                  "subclass": null,
+                  "usesPerRest": 0,
+                  "shortRestRecharge": false
+                }
+              ]
+            }
+          },
+          {
+            "id": "cast-training",
+            "branchId": "impact",
+            "name": "Long Cast / შორი ტყორცნა",
+            "description": "ფარის ტყორცნის მანძილი 20-ის ნაცვლად 30 ფუტია; რიკოშეტის მეორე სამიზნის 10 ფუტი უცვლელია.",
+            "minimumLevel": 7,
+            "parentId": "class-foundation",
+            "children": [
+              "recovery-training"
+            ],
+            "prerequisites": [],
+            "exclusiveWith": [],
+            "existingTraining": [],
+            "reward": {
+              "features": [
+                {
+                  "level": 7,
+                  "name": "Long Cast / შორი ტყორცნა",
+                  "description": "ფარის ტყორცნის მანძილი 20-ის ნაცვლად 30 ფუტია; რიკოშეტის მეორე სამიზნის 10 ფუტი უცვლელია.",
+                  "subclass": null,
+                  "usesPerRest": 0,
+                  "shortRestRecharge": false
+                }
+              ]
+            }
+          },
+          {
+            "id": "slide-training",
+            "branchId": "impact",
+            "name": "Sure Footing / მტკიცე ნაბიჯი",
+            "description": "დაბალი გასრიალებისთვის უნდა გაიარო 5 ფუტი, 10 ფუტის ნაცვლად. სხვა პირობები უცვლელია.",
+            "minimumLevel": 8,
+            "parentId": "class-foundation",
+            "children": [],
+            "prerequisites": [],
+            "exclusiveWith": [],
+            "existingTraining": [],
+            "reward": {
+              "features": [
+                {
+                  "level": 8,
+                  "name": "Sure Footing / მტკიცე ნაბიჯი",
+                  "description": "დაბალი გასრიალებისთვის უნდა გაიარო 5 ფუტი, 10 ფუტის ნაცვლად. სხვა პირობები უცვლელია.",
+                  "subclass": null,
+                  "usesPerRest": 0,
+                  "shortRestRecharge": false
+                }
+              ]
+            }
+          },
+          {
+            "id": "recovery-training",
+            "branchId": "impact",
+            "name": "Rolling Recovery / მოძრავი აღდგენა",
+            "description": "თუ უკანასკნელი ფარის ალტერნატივით დაგდებულ ფარს იბრუნებ, მოძრაობას აღარ კარგავ; ისევ იხარჯება მოძრაობა, რომელიც მართლაც გაიარე.",
+            "minimumLevel": 10,
+            "parentId": "cast-training",
+            "children": [],
+            "prerequisites": [],
+            "exclusiveWith": [],
+            "existingTraining": [],
+            "reward": {
+              "features": [
+                {
+                  "level": 10,
+                  "name": "Rolling Recovery / მოძრავი აღდგენა",
+                  "description": "თუ უკანასკნელი ფარის ალტერნატივით დაგდებულ ფარს იბრუნებ, მოძრაობას აღარ კარგავ; ისევ იხარჯება მოძრაობა, რომელიც მართლაც გაიარე.",
+                  "subclass": null,
+                  "usesPerRest": 0,
+                  "shortRestRecharge": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    } ]
 }

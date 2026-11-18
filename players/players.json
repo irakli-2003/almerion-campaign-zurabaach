@@ -308,7 +308,14 @@
     } ],
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
-    "cooldowns" : { },
+    "cooldowns" : {
+      "strength" : 0,
+      "dexterity" : 0,
+      "constitution" : 0,
+      "intelligence" : 0,
+      "wisdom" : 0,
+      "charisma" : 0
+    },
     "skills" : {
       "custom" : { },
       "acrobatics" : 2,
@@ -355,7 +362,14 @@
       "extraFeatures" : "",
       "notes" : ""
     },
-    "featureUses" : { }
+    "featureUses" : {
+      "strength" : 0,
+      "dexterity" : 0,
+      "constitution" : 0,
+      "intelligence" : 0,
+      "wisdom" : 0,
+      "charisma" : 0
+    }
   }, {
     "id" : "player-silvan",
     "name" : "Silvan",
@@ -3947,11 +3961,11 @@
     "stats" : {
       "custom" : { },
       "strength" : 8,
-      "dexterity" : 18,
-      "constitution" : 14,
-      "intelligence" : 10,
-      "wisdom" : 13,
-      "charisma" : 14
+      "dexterity" : 15,
+      "constitution" : 15,
+      "intelligence" : 8,
+      "wisdom" : 8,
+      "charisma" : 15
     },
     "items" : [ {
       "itemId" : "da-dancers-dagger",
@@ -4076,27 +4090,34 @@
     "spellSlots" : [ ],
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
-    "cooldowns" : { },
+    "cooldowns" : {
+      "strength" : 0,
+      "dexterity" : 0,
+      "constitution" : 0,
+      "intelligence" : 0,
+      "wisdom" : 0,
+      "charisma" : 0
+    },
     "skills" : {
       "custom" : { },
-      "acrobatics" : 10,
-      "animalHandling" : 1,
-      "arcana" : 0,
+      "acrobatics" : 5,
+      "animalHandling" : -1,
+      "arcana" : -1,
       "athletics" : -1,
       "deception" : 2,
-      "history" : 0,
-      "insight" : 1,
-      "intimidation" : 5,
-      "investigation" : 0,
-      "medicine" : 1,
-      "nature" : 3,
-      "perception" : 7,
-      "performance" : 2,
-      "persuasion" : 5,
-      "religion" : 0,
-      "sleightOfHand" : 4,
-      "stealth" : 7,
-      "survival" : 4
+      "history" : -1,
+      "insight" : -1,
+      "intimidation" : -1,
+      "investigation" : -1,
+      "medicine" : -1,
+      "nature" : -1,
+      "perception" : 3,
+      "performance" : -1,
+      "persuasion" : -1,
+      "religion" : -1,
+      "sleightOfHand" : 5,
+      "stealth" : 5,
+      "survival" : -2
     },
     "sheet" : {
       "armorClass" : null,
@@ -4127,7 +4148,14 @@
       "extraFeatures" : "თამაშის ბირთვი: მარტო მდგარ მოწინააღმდეგესთან მიახლოება, ხანჯლით შეტევა და პოზიციის შეცვლა. Fancy Footwork მხოლოდ შენს მიმდინარე სვლაზე და მხოლოდ იმ მიზნის opportunity attack-ს არიდებს, რომელსაც melee attack გაუკეთე; მოხვედრა აუცილებელი არ არის. სხვა მტრებთან Disengage ისევ შეიძლება დაგჭირდეს.\n\nSneak Attack: 3d6, ერთხელ თითოეულ სვლაზე და არა თითოეულ დარტყმაზე. ჩვეულებრივი პირობაა advantage, ან მიზანთან 5 ft-ში შენი მოკავშირე, რომელიც incapacitated არ არის; disadvantage არ უნდა გქონდეს. Rakish Audacity დამატებით პირობას იძლევა, თუ მიზნიდან 5 ft-ში ხარ, შენგან 5 ft-ში სხვა არსება არ არის მიზნის გარდა და disadvantage არ გაქვს. შორი მანძილიდან სროლაზე ეს დამატებითი პირობა ვერ შესრულდება.\n\nThreadcut ჯგუფისთვის გასასვლელს ქმნის: CON save-ის ჩავარდნის შემდეგ სხვა პერსონაჟსაც შეუძლია მოწინააღმდეგის გვერდით opportunity attack-ის გარეშე გაიაროს. ამის ფასი არის ერთი Sneak Attack die, სამი შეზღუდული გამოყენება და მოწინააღმდეგის სეივი - არა უფასო დამატებითი ზიანი.\n\nტყის ელფი: speed 35 ft; Darkvision 60 ft; Perception proficiency; Fey Ancestry (advantage charm-ის წინააღმდეგ და მაგიური ძილისგან დაცვა); Trance; Mask of the Wild (მსუბუქად დაფარვაც შეიძლება საკმარისი იყოს დასამალად, თუ ფოთლები, ძლიერი წვიმა, თოვლი, ნისლი ან სხვა ბუნებრივი მოვლენა გფარავს). ეს ავტომატურ invisibility-ს არ იძლევა.\n\nშიში და სხვა მდგომარეობები ჩვეულებრივ მოქმედებს. ემოციური დისტანცია არც frightened-ისგან დაცვაა, არც charm-ისგან სრული იმუნიტეტი და არც მუდმივი advantage.\n\nდამატებითი პირადი მოქმედებები: Shadow Hem — Bonus Action, 2/Long Rest, 10 ft-მდე დამატებითი მოძრაობა და კანონიერი Hide მცდელობა; Borrowed Beat — Reaction, 2/Long Rest, ხილული ახლომდებარე melee შემტევის აცდენისას 5 ft ნაბიჯი. სრული შეზღუდვები Personal Features-შია. Threadcut კვლავ 3/Long Rest-ია. ეს martial techniques-ია, არა spells; მრიცხველების გარდა ეფექტები ხელით წყდება.",
       "notes" : "BUILD / BALANCE\nLevel 5, Rogue / Swashbuckler, Wood Elf. 27-point buy: STR 8, DEX 15, CON 14, INT 10, WIS 12, CHA 13. Race: +2 DEX, +1 WIS. Level 4 ASI: +1 DEX, +1 CHA. საბოლოო ქულები: 8 / 18 / 14 / 10 / 13 / 14. სხვა უფასო feat ან დამატებითი ASI არ აქვს.\nHP 38 = 8 + ოთხჯერ 5 + ხუთჯერ CON modifier 2. AC 15 = leather 11 + DEX 4. Initiative +6 = DEX 4 + CHA 2. Speed 35 ft; proficiency +3; passive Perception 17; Hit Dice 5d8.\nიარაღები არამაგიურია: ხანჯალი +7 / 1d4+4 piercing; shortbow +7 / 1d6+4 piercing, range 80/320 ft; ნასროლი ხანჯალი +7 / 1d4+4, range 20/60 ft. დედის ხანჯლები quantity 2-ითაა ჩაწერილი; მამამ თავისი მშვილდი მისცა. 20 ცალკეული ისარი აქვს.\n\nTURN / MANUAL EFFECTS\nAttack action = ერთი შეტევა; Extra Attack არ აქვს. ერთ ხელში light melee weapon-ით Attack action-ის შემდეგ მეორე ხელში light melee weapon-ით შეტევა Bonus Action-ს მოითხოვს. Off-hand ზიანი 1d4-ია, არა 1d4+4; Two-Weapon Fighting style არ აქვს. Sneak Attack მხოლოდ ერთ დარტყმას მიეცემა თითოეულ სვლაზე, თუ პირობა სრულდება.\nერთ სვლაზე ერთი Bonus Action: მეორე ხანჯალი ან Cunning Action, არა ორივე. Uncanny Dodge-სა და opportunity attack-ს ერთი Reaction-ის რესურსი აქვთ. Uncanny Dodge მხოლოდ ხილული შემტევის attack-ის ზიანს ანახევრებს, არა ნებისმიერ damage-ს ან saving-throw ეფექტს.\nაპის ჩვეულებრივი weapon attack DEX-ს ზიანს უმატებს; off-hand შეტევა sheet-ის ხელით ჩაწერილი 1d4-ით გააკეთე. Rakish Audacity-ის დამატებითი Sneak Attack პირობა, Fancy Footwork და Threadcut-ის სეივი/ეფექტი ხელით წყდება. სტატების შეცვლისას Initiative override განაახლე DEX + CHA ფორმულით; Threadcut DC არის 8 + proficiency + DEX, ახლა 15.\n\nROLEPLAY\nხანჯლებს ყოველ დასვენებაზე ერთნაირი თანმიმდევრობით წმენდს; მამის ისრებს უსარგებლო სამიზნეს არ ახმარს. გაბრაზებისას ხმას არ სწევს - ზედმეტი სიტყვები ქრება. ფრაზები: \"ისარს მანამდე არ უშვებენ, სანამ იციან, რას მოკლავს.\" / \"დედა ამბობდა, წონასწორობა ხელში კი არა, სუნთქვაშიაო.\" / \"არა. ეს შიში არ არის. უბრალოდ გასასვლელს ვეძებ.\"\nმიზანი: რა-ს მკვლელსა და მის მფარველებს პასუხი მოსთხოვოს. რა-ს ხსოვნა არჩევანსაც ტოვებს; ყველა დიდგვაროვნის ან თანამგზავრის მოკვლა სავალდებულო არ არის. კონკრეტულ გადაწყვეტილებებს მოთამაშე იღებს."
     },
-    "featureUses" : { }
+    "featureUses" : {
+      "strength" : 0,
+      "dexterity" : 0,
+      "constitution" : 0,
+      "intelligence" : 0,
+      "wisdom" : 0,
+      "charisma" : 0
+    }
   }, {
     "id" : "player-uriel",
     "name" : "Uriel",
@@ -4334,5 +4362,401 @@
       "notes" : "ინვენტარის სამყაროში მამის ხმლის დასაბრუნებლად ჩავარდი; ხმალი დაიბრუნე, გასასვლელი ჯერ ვერა. ჯგუფს კოშკის ძირამდე გზას აჩვენებ, შიდა თავსატეხები შენც ჯერ არ იცი.\n\nშენი ცოდნა: მარცხენა ფეხსაცმლებს მარჯვენა წყვილი აწყნარებს; გახსნილი ქოლგის ქვეშ წვიმს; საკიდისთვის ნებით მიცემული მოსასხამი აქ რჩება; საწყობში ზარი დარეკე, თითო ადამიანს ერთი ნივთი; ჰაერის მოციმციმე საზღვარი დროის ნაკერია, ერთად გადაკვეთეთ; მხოლოდ ჩვეულებრივი ნივთი 1 წუთში მოიძებნება. გზა: ფეხსაცმლები → ქოლგები/სარკე → საკიდი → კარი → საწყობი → გასაღებები → საათების წრე → კოშკის ძირი.\n\nახალი მოთამაშისთვის: თქვი რისი გაკეთება გინდა, DM გეტყვის რომელ d20-ს რა ემატება. Attack +7 ნიშნავს d20+7. Advantage = ორი d20-დან მაღალი; disadvantage = დაბალი. სვლაზე ერთი Action, მაქსიმუმ ერთი Bonus Action და movement გაქვს. Reaction ცალკე მომენტში გამოიყენება, შემდეგი საკუთარი სვლის დაწყებამდე ერთხელ. მტერს melee reach-იდან თუ შორდები, შეიძლება opportunity attack გააკეთოს; Action-ით Disengage ამას ამ სვლაზე აგარიდებს, მაგრამ მაშინ Attack არ გამოგდის.\n\nBUILD: Standard Human; 27-point buy 8/15/13/10/14/12, +1 ყველა ქულას, level 4 +2 DEX => 9/18/14/11/15/13. HP 44 = 10 + ოთხჯერ 6 + ხუთჯერ CON modifier 2 (level 5 Fighter). AC16 = studded leather 12 + DEX4; speed30; rapier +7, damage1d8+6 Dueling-ით. ძველი longsword, shield და chain mail შენახულია unequipped; ისინი ერთდროულად დამატებით AC-ს არ გაძლევს."
     },
     "featureUses" : { }
+  }, {
+    "id" : "player-galevani",
+    "name" : "Galevani",
+    "classId" : "shieldwright",
+    "raceId" : "human",
+    "level" : 6,
+    "xp" : 0,
+    "upgrades" : {
+      "earned" : 5,
+      "unlocks" : [ {
+        "classId" : "shieldwright",
+        "sourceRequestId" : null,
+        "nodeId" : "@historical-level-2",
+        "branchName" : "Existing training",
+        "name" : "ფარის ილეთები / Shield Techniques, Rolling Stone / აგორებული ქვა, Dust & Glint / მტვერი და ელვარება",
+        "description" : "Already included in this character. No rewards are applied again.",
+        "imagePath" : null,
+        "level" : 2,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ ]
+        }
+      }, {
+        "classId" : "shieldwright",
+        "sourceRequestId" : null,
+        "nodeId" : "@historical-level-3",
+        "branchName" : "Existing training",
+        "name" : "Hell's Bells / ჯოჯოხეთის ზარები, Hold the Line / ძმაო, შეხტი!, Marching Beat / საერთო რიტმი, Low Slide / დაბალი გასრიალება",
+        "description" : "Already included in this character. No rewards are applied again.",
+        "imagePath" : null,
+        "level" : 3,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ ]
+        }
+      }, {
+        "classId" : "shieldwright",
+        "sourceRequestId" : null,
+        "nodeId" : "@historical-level-4",
+        "branchName" : "Existing training",
+        "name" : "Shield Cast / ფარის ტყორცნა, Barefoot Feint / რატომ მიბრაზდები?",
+        "description" : "Already included in this character. No rewards are applied again.",
+        "imagePath" : null,
+        "level" : 4,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ ]
+        }
+      }, {
+        "classId" : "shieldwright",
+        "sourceRequestId" : null,
+        "nodeId" : "@historical-level-5",
+        "branchName" : "Existing training",
+        "name" : "Rock Bottom / ქვისძირი, One Shield Left / უკანასკნელი ფარი, Twin Bash / ორმაგი დარტყმა",
+        "description" : "Already included in this character. No rewards are applied again.",
+        "imagePath" : null,
+        "level" : 5,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ ]
+        }
+      }, {
+        "classId" : "shieldwright",
+        "sourceRequestId" : null,
+        "nodeId" : "@historical-level-6",
+        "branchName" : "Existing training",
+        "name" : "Catch the Blow / ფარით გადაფარვა",
+        "description" : "Already included in this character. No rewards are applied again.",
+        "imagePath" : null,
+        "level" : 6,
+        "historical" : true,
+        "exclusiveWith" : [ ],
+        "reward" : {
+          "hitPoints" : 0,
+          "mana" : 0,
+          "abilityId" : null,
+          "abilityIncrease" : 0,
+          "armorClass" : 0,
+          "attackBonus" : 0,
+          "basicAttackDamage" : 0,
+          "rageDamage" : 0,
+          "speed" : 0,
+          "spellIds" : [ ],
+          "spellAlternatives" : [ ],
+          "features" : [ ]
+        }
+      } ]
+    },
+    "stats" : {
+      "custom" : { },
+      "strength" : 15,
+      "dexterity" : 15,
+      "constitution" : 15,
+      "intelligence" : 8,
+      "wisdom" : 8,
+      "charisma" : 8
+    },
+    "items" : [ {
+      "itemId" : "harness-core",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : true,
+      "quantity" : 1
+    }, {
+      "itemId" : "harness-knees",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : true,
+      "quantity" : 1
+    }, {
+      "itemId" : "harness-shield-right",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : true,
+      "quantity" : 1
+    }, {
+      "itemId" : "harness-shield-left",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : true,
+      "quantity" : 1
+    }, {
+      "itemId" : "harness-wraps",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : true,
+      "quantity" : 1
+    }, {
+      "itemId" : "workshop-axe-hammer",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "smiths-tools",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "simple-clothes",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    } ],
+    "spells" : [ ],
+    "personalFeatures" : [ {
+      "level" : 1,
+      "name" : "ჯავშანფარი / Shield Harness",
+      "description" : "შვიდი ფარი ოთხ ჯგუფად ითვლება: კორპუსი (თავი, ზურგი, მკერდი), სამუხლე წყვილი, მარჯვენა და მარცხენა ხელის ფარები. სრული აღჭურვილობა: 25 ფუტი; ნაწილობრივი: 30 ფუტი; ფარების გარეშე: 35 ფუტი. ეს სიჩქარეები GM-ს ხელით შეაქვს. კორპუსი იძლევა +4 AC-ს, ხელის ერთი ან ორივე ფარი ერთად +2 AC-ს; სამუხლე წყვილი AC-ს არ ცვლის. ბონუს მოქმედებად მოხსენი ნებისმიერი რაოდენობის ჯგუფი და დადე შენს უჯრაზე, ან აიღე თავისუფლად მისაწვდომი ერთი ჯგუფი შენი უჯრიდან და დაიმაგრე. აქ სხვა აბჯართან ან ჩვეულებრივ ფართან დაცვის ბონუსები არ გროვდება. ხელზე მიმაგრებული ფარი იმ ხელს იკავებს. ფარები დარტყმისგან ავტომატურად არ ცვივა. მჭედლის ხელსაწყოებითა და ფიცრით, ლითონითა და სამაგრებით შეკეთებას ან ჩანაცვლებას დრო და GM-ის თანხმობა სჭირდება.",
+      "subclass" : "",
+      "usesPerRest" : 0,
+      "shortRestRecharge" : false
+    }, {
+      "level" : 1,
+      "name" : "ფარის დარტყმა / Shield Bash",
+      "description" : "შეტევის მოქმედება. მინიმუმ ერთი ხელის ფარით: 5 ფუტი, შეტევა +6, მოხვედრისას 1d6+3 დამაბლაგვებელი ზიანი. ძალაზე დაფუძნებული ჩვეულებრივი დარტყმაა; მზადების ხარჯი არ აქვს. შეტევის ბონუსი = ძალის მოდიფიკატორი + გაწვრთნილობის ბონუსი. ხელცარიელს შეუძლია ჩვეულებრივი უიარაღო დარტყმა.",
+      "subclass" : "",
+      "usesPerRest" : 0,
+      "shortRestRecharge" : false
+    }, {
+      "level" : 2,
+      "name" : "ფარის ილეთები / Shield Techniques",
+      "description" : "სამი საერთო გამოყენება მოკლე ან ხანგრძლივ დასვენებამდე; ყველა ქვემოთ აღწერილი ილეთი ხარჯავს თითო გამოყენებას და ერთ სვლაზე მხოლოდ ერთი ილეთი შეიძლება. წარუმატებელი შეტევაც ხარჯავს გამოყენებას. DC = 8 + გაწვრთნილობის ბონუსი + ძალის მოდიფიკატორი (ახლა 14). ცალკე მითითების გარეშე ილეთი მთელ მოქმედებას იყენებს და არ ერთვის დამატებით შეტევას. მონიშნე გამოყენება ამ ერთ მთვლელზე. აღჭურვილობას, მოძრაობას, სამიზნეებს და შედეგებს GM მართავს.",
+      "subclass" : "",
+      "usesPerRest" : 3,
+      "shortRestRecharge" : true
+    }, {
+      "level" : 2,
+      "name" : "Rolling Stone / აგორებული ქვა",
+      "description" : "ილეთი · მოქმედება · ყველა ჯგუფი დამაგრებულია. გამოიყენე შენი დარჩენილი სიჩქარის მინიმუმ 15 ფუტი პირდაპირ, დაუბრკოლებლად და შეჩერდი სამიზნიდან 5 ფუტში. ერთი ფარის დარტყმა; მოხვედრისას დამატებით 1d6 დამაბლაგვებელი ზიანი. დიდი ან უფრო პატარა სამიზნე ძალის DC 14 ხსნის ჩავარდნისას ეცემა. გზაზე გამვლელ სხვა არსებებს არ ეჯახები და ჩვეულებრივ პროვოცირებ საპასუხო შეტევებს.",
+      "subclass" : "",
+      "usesPerRest" : 0,
+      "shortRestRecharge" : false
+    }, {
+      "level" : 2,
+      "name" : "Dust & Glint / მტვერი და ელვარება",
+      "description" : "ილეთი · მოქმედება · ერთი არსება 10 ფუტში. მარჯვენა ფარით საჭიროა ფხვიერი მტვერი, ქვიშა ან ფერფლი; მარცხენა ფარით – ფარზე მოხვედრილი მზის ან სხვა კაშკაშა პირდაპირი შუქი. აირჩიე ერთი ხელმისაწვდომი ვარიანტი. სამიზნე რომელიც ხედავს, კონსტიტუციის DC 14 ხსნის ჩავარდნისას ბრმავდება თავისი მომდევნო სვლის ბოლომდე. ზიანი არ არის.",
+      "subclass" : "",
+      "usesPerRest" : 0,
+      "shortRestRecharge" : false
+    }, {
+      "level" : 3,
+      "name" : "Hell's Bells / ჯოჯოხეთის ზარები",
+      "description" : "ილეთი · მოქმედება · ორივე ხელის ფარი. ერთი ფარის დარტყმა 5 ფუტში; მოხვედრისას ჩვეულებრივი ზიანი. მოხვდა თუ არა, სამიზნე და მისგან 5 ფუტში მყოფი სხვა არსებები (შენ გარდა, მოკავშირეების ჩათვლით) კონსტიტუციის DC 14 ხსნის ჩავარდნისას ყრუვდებიან შენი მომდევნო სვლის დასაწყისამდე. მხოლოდ ძირითად სამიზნეს ადგება ზიანი; კრიტზე მოქმედებს ჩვეულებრივი წესი, სხვა დამატებითი ეფექტის გარეშე.",
+      "subclass" : "",
+      "usesPerRest" : 0,
+      "shortRestRecharge" : false
+    }, {
+      "level" : 3,
+      "name" : "Hold the Line / ძმაო, შეხტი!",
+      "description" : "ილეთი · მოქმედება · ყველა ჯგუფი დამაგრებულია. აირჩიე ერთი მტერი 15 ფუტში, რომელსაც შენი დანახვა ან გაგონება შეუძლია. სიბრძნის DC 14 ხსნის ჩავარდნისას შენ გარდა სხვა არსების წინააღმდეგ მის შეტევებს აქვს მინუსი შენი მომდევნო სვლის დასაწყისამდე; ილეთი შეტევას არ აიძულებს. იმავე დრომდე შენი სიჩქარე 0-ია და +2 AC გაქვს. ერთი თანახმა მოკავშირე 5 ფუტში თავისი სვლისას 5 ფუტის მოძრაობით შეიძლება ფარებს დაეყრდნოს: იგი იღებს +2-ს მხოლოდ ერთ დისტანციურ შეტევაზე, რომელიც სამიზნის ნაწილობრივ საფარს ზემოდან უვლის, და შემდეგ მაშინვე საწყის უჯრაზე ჩამოდის. ეს არც გაქვავებაა და არც დამატებითი შეტევა. მიწაზე დაცემისას საყრდენი და დაცვითი ბონუსი მთავრდება.",
+      "subclass" : "",
+      "usesPerRest" : 0,
+      "shortRestRecharge" : false
+    }, {
+      "level" : 3,
+      "name" : "Marching Beat / საერთო რიტმი",
+      "description" : "ილეთი · ბონუს მოქმედება · მუშაობს ფარებით ან მათ გარეშე. აირჩიე მაქსიმუმ ორი სხვა მოკავშირე 15 ფუტში, რომელსაც შენი ესმის. თითოეული იღებს 4 დროებით HP-ს თავისი მომდევნო სვლის ბოლომდე. დროებითი HP არ ჯამდება და ეს მკურნალობა არაა.",
+      "subclass" : "",
+      "usesPerRest" : 0,
+      "shortRestRecharge" : false
+    }, {
+      "level" : 3,
+      "name" : "Low Slide / დაბალი გასრიალება",
+      "description" : "ილეთი · მოქმედება · ორივე სამუხლე ფარი დამაგრებულია და ერთი ხელი თავისუფალია. შენი სიჩქარიდან მინიმუმ 10 ფუტი გაიარე პირდაპირ სამიზნისკენ, 5 ფუტში გაჩერდი. დიდი ან უფრო პატარა სამიზნე ძალის DC 14 ხსნის ჩავარდნისას ჭიდებაშია: სიჩქარე 0, მაგრამ შებოჭილი (Restrained) არაა. წყდება თუ სამიზნე მოქმედებით გააღწევს (ათლეტიკა ან აკრობატიკა DC 14), თუ სამიზნეს გაუშვებ, ან თუ დაშორდებით. ზიანი არ არის.",
+      "subclass" : "",
+      "usesPerRest" : 0,
+      "shortRestRecharge" : false
+    }, {
+      "level" : 4,
+      "name" : "Shield Cast / ფარის ტყორცნა",
+      "description" : "ილეთი · მოქმედება · ერთი ხელის ფარი. აირჩიე სახეობა და ერთი სამიზნე 20 ფუტში; ძალაზე დაფუძნებული დისტანციური შეტევა +6, მოხვედრისას 1d6+3 დამაბლაგვებელი ზიანი. მარჯვენა, ბუმერანგი: მოხვდება თუ ვერა, საწყის პოზიციას უბრუნდება, თუ დაბრუნების გზა თავისუფალია; სხვა შემთხვევაში ეცემა დაბრკოლებასთან. მარჯვენა, რიკოშეტი: თუ პირველი აცდა, მყარი ზედაპირის არსებობისას სცადე ერთი დამატებითი შეტევა სხვა ხილულ სამიზნეზე, პირველიდან 10 ფუტში. მხოლოდ ერთხელ შეიძლება ზიანი; ფარი ბოლო სამიზნესთან ეცემა. მარცხენა, ბადრი: მოარტყამ თუ არა, ფარი სამიზნის უჯრაზე ეცემა; მოხვედრისას დიდ ან უფრო პატარა არსებას 5 ფუტით აშორებ შენგან, თუ მის უკან თავისუფალი უჯრაა.",
+      "subclass" : "",
+      "usesPerRest" : 0,
+      "shortRestRecharge" : false
+    }, {
+      "level" : 4,
+      "name" : "Barefoot Feint / რატომ მიბრაზდები?",
+      "description" : "ილეთი · ბონუს მოქმედება · არცერთი ფარი არ გაქვს დამაგრებული. აირჩიე ერთი მტერი 15 ფუტში, რომელსაც ესმის შენი. სიბრძნის DC 14 ხსნის ჩავარდნისას შენ გარდა სხვა სამიზნეზე მის პირველ შეტევას აქვს მინუსი, შენი მომდევნო სვლის დასაწყისამდე. ამ სვლაზე პირველი 10 ფუტი, რომლითაც ამ მტერს შორდები, მისგან საპასუხო შეტევას არ იწვევს; სხვებისგან ჩვეულებრივ იწვევს. მტერი მოძრაობას ან შეტევას არ არის ვალდებული.",
+      "subclass" : "",
+      "usesPerRest" : 0,
+      "shortRestRecharge" : false
+    }, {
+      "level" : 5,
+      "name" : "Rock Bottom / ქვისძირი",
+      "description" : "ილეთი · მოქმედება · ყველა ჯგუფი დამაგრებულია. შენს ხელმისაწვდომ სიჩქარეში გადმოხტი მინიმუმ 5 ფუტის სიმაღლიდან სამიზნის გვერდით მდებარე თავისუფალ უჯრაზე. თუ დაეშვი, შეასრულე ერთი ფარის დარტყმა: მოხვედრისას დამატებით 1d6 დამაბლაგვებელი ზიანი, ან 2d6 დამატებითი 10 ფუტიდან ან უფრო მაღლიდან. შენ მაინც იღებ ჩვეულებრივ დაცემის ზიანს. თუ მიწაზე დაეცი, დარტყმას მინუსით აკეთებ. სიმაღლე 10 ფუტის ზემოთ დამატებით ზიანს აღარ ზრდის.",
+      "subclass" : "",
+      "usesPerRest" : 0,
+      "shortRestRecharge" : false
+    }, {
+      "level" : 5,
+      "name" : "One Shield Left / უკანასკნელი ფარი",
+      "description" : "ილეთი · მოქმედება · მხოლოდ ერთი ხელის ფარი და სხვა არცერთი ჯგუფი არ გაქვს დამაგრებული. დარჩენილი მოძრაობიდან მაქსიმუმ 10 ფუტით მიუახლოვდი ერთ მტერს და შეასრულე ერთი ფარის დარტყმა. მოხვედრისას დამატებით 1d6 დამაბლაგვებელი ზიანი; უკვე მიწაზე მყოფ სამიზნეზე მოქმედებს ჩვეულებრივი უპირატესობა. ავტომატური მოკვლა არ არსებობს. ალტერნატივა: თუ არცერთი ჯგუფი არაა დამაგრებული, იმავე მოძრაობით მიაღწიე შენს დაგდებულ, თავისუფლად მისაწვდომ ხელის ფარს, დაიმაგრე და თუ მტერი 5 ფუტშია, ერთი ჩვეულებრივი ფარის დარტყმა შეასრულე. ამ სვლის ბოლომდე დარჩენილ მოძრაობას კარგავ.",
+      "subclass" : "",
+      "usesPerRest" : 0,
+      "shortRestRecharge" : false
+    }, {
+      "level" : 5,
+      "name" : "Twin Bash / ორმაგი დარტყმა",
+      "description" : "მე-5 დონიდან შეტევის მოქმედებით ორი ჩვეულებრივი ფარის დარტყმა შეგიძლია, ნაცვლად ერთისა. ეს არც ილეთებს ამეორებს და არც სახელოსნოს ცულ-ჩაქუჩს ეხება.",
+      "subclass" : "",
+      "usesPerRest" : 0,
+      "shortRestRecharge" : false
+    }, {
+      "level" : 6,
+      "name" : "Catch the Blow / ფარით გადაფარვა",
+      "description" : "ილეთი · რეაქცია · მინიმუმ ერთი ხელის ფარი. როდესაც ხილული შეტევა მოგხვდება შენ ან 5 ფუტში მყოფ მოკავშირეს, შეამცირე ამ შეტევის ზიანი 1d6 + ძალის მოდიფიკატორით (ახლა +3), მინიმუმ ნულამდე. ეს არ აუქმებს მოხვედრის სხვა ეფექტებს. მოქმედებს მხოლოდ ერთ მოხვედრაზე.",
+      "subclass" : "",
+      "usesPerRest" : 0,
+      "shortRestRecharge" : false
+    } ],
+    "passwordHash" : null,
+    "passwordSalt" : null,
+    "imagePath" : "images/players/player-galevani.png",
+    "playerName" : "",
+    "ownerUsername" : "",
+    "description" : "გარე წრის მჭედლის შეგირდი. მახვილის ნაცვლად შვიდი ხელნაკეთი ფარით იბრძვის.",
+    "maxHitPoints" : 52,
+    "currentHitPoints" : 52,
+    "maxMana" : 0,
+    "currentMana" : 0,
+    "activeEffects" : [ ],
+    "subclass" : "",
+    "backstory" : "გარე წრეში გავიზარდე. როცა სახელს მკითხავდნენ, პასუხად მაღალ გალავანს ვუყურებდი. იქ მხოლოდ ერთი შესასვლელი ჩანდა და ჩემნაირს იქ არავინ შეუშვებდა. ჩემი სახელი კედლის სახელიდან მოვიგონე. უბანში ხანდახან უბრალოდ ბჭეს მეძახდნენ.\n\nერთმა მჭედელმა საქმეზე დამიტოვა. ჯერ ნახშირს ვეზიდებოდი, მერე ხეს ვთლიდი და სახელურებს ვამაგრებდი. ხმლით ბრძოლა არ მისწავლია. სამაგიეროდ, კარგად ვიცი, როგორ უნდა მოიქცეს ხე, რომ დარტყმისას არ გასკდეს. პირველი ფარი არც ბრძოლისთვის გამიკეთებია: სახელოსნოს კარს ვაფარებდი, როცა ზამთარში ქარი ღრიჭოებიდან შემოდიოდა. დანარჩენი მერე მივაბი.\n\nზოგჯერ იმავე ქალაქს მეორე მხრიდან ვიხსენებ. ვიცი, როგორ ჟღერდა ჩექმები სასახლის ეზოში და სად უჭერდა ქარქაში კაცს, რომელსაც ჩემი სახე ჰქონდა. ახლა კი მახვილს რომ მაწვდიან, ჩემი ხელები სახელურს ისე ეჭიდება, როგორც გაუთლელ ფიცარს. ლავენოსის მოგონებების ნაწილები მაქვს. თუ ის ნამდვილად ცხოვრობდა, სად ვიყავი მე? და თუ მე ვარ მისი შეცდომა, რატომ მახსოვს სახელოსნოს კარი ასე კარგად?",
+    "castingResource" : "NONE",
+    "spellSlots" : [ ],
+    "knownBlueprints" : [ ],
+    "furnaceFuel" : 0,
+    "cooldowns" : {
+      "strength" : 0,
+      "dexterity" : 0,
+      "constitution" : 0,
+      "intelligence" : 0,
+      "wisdom" : 0,
+      "charisma" : 0
+    },
+    "skills" : {
+      "custom" : { },
+      "acrobatics" : 5,
+      "animalHandling" : 2,
+      "arcana" : 1,
+      "athletics" : 5,
+      "deception" : 0,
+      "history" : 1,
+      "insight" : 2,
+      "intimidation" : 0,
+      "investigation" : 1,
+      "medicine" : 2,
+      "nature" : 1,
+      "perception" : 5,
+      "performance" : 0,
+      "persuasion" : 0,
+      "religion" : 1,
+      "sleightOfHand" : 2,
+      "stealth" : 2,
+      "survival" : 5
+    },
+    "sheet" : {
+      "armorClass" : null,
+      "initiative" : null,
+      "speed" : 25,
+      "proficiencyBonus" : 3,
+      "passivePerception" : 15,
+      "savingThrowProficiencies" : [ "strength", "constitution" ],
+      "hitDice" : "6d10",
+      "temporaryHitPoints" : 0,
+      "deathSaveSuccesses" : 0,
+      "deathSaveFailures" : 0,
+      "inspiration" : false,
+      "spellcastingAbility" : null,
+      "spellSaveDc" : null,
+      "spellAttackBonus" : null,
+      "copper" : 0,
+      "silver" : 0,
+      "electrum" : 0,
+      "gold" : null,
+      "platinum" : 0,
+      "extraAttacks" : [ {
+        "name" : "ფარის დარტყმა (5 ft)",
+        "attackBonus" : "+6",
+        "damage" : "1d6+3 bludgeoning"
+      }, {
+        "name" : "ცულ-ჩაქუჩი (იმპროვიზებული, 5 ft)",
+        "attackBonus" : "+3",
+        "damage" : "1d4+3 bludgeoning"
+      } ],
+      "proficienciesAndLanguages" : "ფარის ილეთები და ჯავშანფარი\nმჭედლისა და ხის დამუშავების ხელსაწყოები\nსაერთო ენა",
+      "extraFeatures" : "",
+      "notes" : "სრული / ნაწილობრივი / უფარო სიჩქარე: 25 / 30 / 35 ფუტი. საწყისი ფარები აღჭურვილობის ნაგულისხმევი მდგომარეობაა; შემოსვლის სცენაში GM განსაზღვრავს, როდის იპოვი მათ. AC ითვლის მონიშნულ აღჭურვილობას; სახვევები დატოვე აღჭურვილად."
+    },
+    "featureUses" : {
+      "strength" : 0,
+      "dexterity" : 0,
+      "constitution" : 0,
+      "intelligence" : 0,
+      "wisdom" : 0,
+      "charisma" : 0
+    }
   } ]
 }
