@@ -1,9 +1,14 @@
-
-============================================================
-== მოქმედება 3.5 — გაქცევა სასახლიდან
-============================================================
-დედოფლის სასახლე:
-[map:temple-dawnfather-map|Queens throne room]
-ეზო და caretaker:
-[map:stonekeep-ground-floor|დედოფლის სასახლის ეზო]
-
+ALMERION-PRIVATE-SESSION/1
+{
+  "header" : {
+    "fileId" : "db088ac8-5342-476f-8afe-e6e00614de35",
+    "ownerUid" : "0iWvwjnfCHQ774tYe0YrFDT5Dqk1",
+    "grants" : {
+      "0iWvwjnfCHQ774tYe0YrFDT5Dqk1" : "TnLE1huYyZoe5Kfn6AJvxzyveHJfNyj7kbQSM9KOHzbf1iAveNJNIKnfNFHXxZfZsLLrCRctoXrTi18PXYt1lGKA7+CjFmQkVxEynyfXiwtpB5rDF6Us6vcFlT63NVugNlqLDK3XVdqITqonbUPonoLK9SUnYA4RJYrgFbFHOar3AFeXuwFoV8xgpuu+19Pkz4NFiSMj7C0aJJBQ0pkgE4ivA779yu+Md9Bg5I98zbOjALPxfw+VZ0qNgeeezPYlAGjTZ1xHfUamp1Ku32NR4KHOWKmolPB9vrMWI1AaneQWafH8K0SIDWgpfBN/xG8l2r38Uwg+5PV3XtK+0NPUBv2OuL2IHmMSHopdL6FFGFQfl0N1z3pfq4fFJRsv24H6ECCPtxY6VR8P7/ZXMcdEMY49mTRwWPtuKRoWIvrW66XfoHQfeNzAR/zCuILFOXiYEParVS0kzxk/7L6voo5MmTNDE7Orn2OiCmSl0vjQca0bRWVrTqTeKQUZ+Wo/KrFE"
+    }
+  },
+  "ownerSignature" : "ASTFOa6ARR4YRukIMCaVP30ew/pzOpvlZqPj7OfVSHfor3pd7aMlhg4FGOzeyzpnccGjdMAz8qfzd1APiaQewBHn/UOQvOz7SRs7cwcZ7sqQzcmEroAfmYmePCVfqlgIIKaQCbdJnMBDGeeASnLrBXIcOmibg3wH/hrtRUk7JvCqCbVkRjo840KEIG4Ddvb8K1C4eFNg7+YFjXLvilDujD08bNhyUjdryRUKB00kfkVVRQ2FriFKMG8DfVj7JBAnYQP1lTLWr03eoff9jtWpOoZfN8BYb2KAvyL67ubYgeYZCi0XX3s9SjEGc7+ao9bL9t5Ft39ZOMqlTPGY6fzHX4/Wwcb2Sz/aqsAiXKHUMzqv9mm1M+qRh1n+7wUYbMnEKpaCRrWfvWEZjEM0prB9FQWs2owMxEnb7wnjQoIwTNlMzfDg+I7MjEA3lZ4MHCCDnjweamClLY9OSx1oPiZtYgeVRMwfZTrBrRE6b1DdL1GX/XExApZBTmV01S22BfYL",
+  "writerUid" : "0iWvwjnfCHQ774tYe0YrFDT5Dqk1",
+  "ciphertext" : "CyOp+IOtYF5ku1gaBXpBd8U0zYcNPEh7YWkVO/+jh9fRB5JBG5+rVog1AwFdsS23Q/Zp/s7PpUpAgCztG5/UxBSaSgWkHCvXJ+fo4JpX2ak3PXhVrCAx9QmJA0cqL55fIl/O2mGwFNN0oGInjllP/jyqXAfuhaLYRIkHozIS58rc8mQWK6oHvRqBfkv8Wc8IVhNdX8YpsBbvOKLUInbCBSeMgeyGSiGx2VaQI6Fhz1lSDtpCPKJzYT9iXbdFYjqom2/d8R3Eoozb5sRIGVDMApmnkJUOtluky2tfDBoTwO+mt7FvsaMc3VXlSVr1gqh/qZ3PSFQQbzbj30nPing/OnoqX+sn4pDeu26BPFn8tOWFMs25WOwMSB1TuSwtgzTPaY60wpddPfqbuO3OtCAZF5U5ZpMJaKYSZ3mJRq/+b+rkWvT6zzEFD1qdO4F7CevrEgPPdP/Sna1lxj4iFvS/JmKrEypAGBpCG7vU6LkiGe2CZ1RoOZ1VT/b2L8f0WFTj8M4Zxz7mgwdi101ad2Q22X8G/1Jx7yM7pNeXW/bjTaBypyhkhNJQ813seiDzgRIgSXO8s0jgpXsGKDoJahskWQfPOg+8YftQvO9tQekW+Bz8oU5vp/dpCNVN32g9tUkxjhwv6LqPgFd2dXOpAL2hLC3RBfLeliE=",
+  "signature" : "GwK6T7nvyoJ+N6ocAPwsKaxzOo+4D0XSdiaOADtIXhmAGBKGU+FGGkwpz6/WAJAEP3vY/RkLo6/VSkdGUbZgxCMyewy27rR6rO4689KYgnqiwcdabtGNkOO2pmKPvdfM97HYKhBjcwksJTSn7f2Sk7vk34eeCISebk/M5MIvuGwVc7508MGY75LAnQCKKl4kH3lchm5hYsZPb3TDblpfRKrIdGnHTg9MXXhcCYkGIcpcCm/Txujg0FeZNCm9DJj1ymh6Qs9R8qtORNk/uhWXhEmFbKfgnI6wIhkiR9mFPzzDyZ0P7Wz63Nzgqs6IUgVUB1ruF2pJ1y6YAEbIwXWVUIyr80mkxAje/OUFw6oTbi3lf/ND1t2twNQkxlvddxewDEKjLO/p/H/T9SM/fo8VaKpr1e1qnm80U9UqFlZ72B5y5Ida6UwjcZrzKFMsalZ93rtaZqZjzxvbfodtTBcNdEGoWq5KI+6lDY0y3BoRgctjW1/nGdhaAs7MawL7BvAy"
+}
