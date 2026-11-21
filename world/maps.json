@@ -33282,703 +33282,6 @@
       "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    } ], [ {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    } ], [ {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ {
-        "kind" : "monster",
-        "monster" : {
-          "id" : "clockwork-white-rabbit",
-          "name" : "The White Rabbit (Clockwork)",
-          "description" : "Small beast (clockwork), CR 6 (2300 XP). AC 17, HP 105 (14d8+42), speed 24 m, doesn't provoke opportunity attacks. Saves DEX +9, WIS +8; Perception +8, Acrobatics +9. Truesight 9 m, passive Perception 18. 1.2 m tall, a once-beautiful waistcoat, fur that was once white - torn away in patches over wet, tiny gears turning in time with his breathing - holding the pocket watch in both hands like a bird. He does not want to kill them; he wants them to be late. Talk first - fight, persuade (DC 20) or steal (DC 20 Sleight of Hand) are all valid. He never attacks a downed character: he kneels, ear to its chest, and counts its remaining seconds aloud - always a little fewer than the player expected. At 0 HP he does not die: he sits down heavily and his hands open.",
-          "type" : "beast (clockwork)",
-          "challengeRating" : "6",
-          "stats" : {
-            "custom" : { },
-            "strength" : 8,
-            "dexterity" : 20,
-            "constitution" : 16,
-            "intelligence" : 16,
-            "wisdom" : 18,
-            "charisma" : 10
-          },
-          "abilities" : [ {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "out_of_order",
-            "name" : "Out of Order",
-            "description" : "Passive. He acts first every round, on initiative 30, no matter what anyone rolled.",
-            "effects" : [ ],
-            "range" : 0.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "between_seconds",
-            "name" : "Between Seconds",
-            "description" : "Passive. At the end of every other creature's turn he moves up to 6 m for free. He is never seen moving - only somewhere else.",
-            "effects" : [ ],
-            "range" : 0.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "pin_strike",
-            "name" : "Pin Strike (Multiattack x2)",
-            "description" : "Two pin strikes: +9 to hit, 1d6+5 piercing plus 2d6 psychic each, as one second of the target's life runs out early.",
-            "effects" : [ ],
-            "range" : 5.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : {
-              "dice" : [ {
-                "diceId" : "d6",
-                "count" : 1
-              } ],
-              "typeId" : "piercing",
-              "constant" : 0
-            }
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "rabbit_delay",
-            "name" : "Delay",
-            "description" : "Recharge 4-6. One creature: WIS save DC 16. On a failure it skips its next turn entirely - he simply wasn't there for it.",
-            "effects" : [ "incapacitated" ],
-            "range" : 60.0,
-            "recharge" : 2,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "late_touch",
-            "name" : "Late",
-            "description" : "Bonus action. He touches a creature: its next turn happens at the very end of the round instead of where it should. No save.",
-            "effects" : [ ],
-            "range" : 5.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "tick_back",
-            "name" : "Tick (Click)",
-            "description" : "Reaction, 3 times per fight. When another creature ends its turn, he undoes that turn: the creature returns to where it started, and all damage and effects from that turn are undone - but spent resources and actions stay spent and it does not act again. The players remember. Read aloud: click. Fire returns to the palm. The arrow lies back on the string. The Rabbit hasn't moved. He smiles. 'Once more. Until you get it right.'",
-            "effects" : [ ],
-            "range" : 0.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "pocket_watch_rewind",
-            "name" : "Pocket Watch Rewind",
-            "description" : "Recharge 5-6, at most TWICE per fight. He winds the watch backwards: the fight returns to the start of the Rabbit's previous turn - all damage and effects since then (spent spells, conditions, movement, rolled dice) are undone. Use the battle map's ⟲ Rewind button; the app restores everything automatically. What does not rewind: the players' memories - they remember what happened and may act differently. The recharge itself stays spent. Read aloud: the ticking stops. Then - click - and everything goes backwards. His wounds zip shut in his fur. 'Again,' he says. 'Again. We will do this as many times as it takes.'",
-            "effects" : [ ],
-            "range" : 0.0,
-            "recharge" : 3,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "time_seam",
-            "name" : "Time Seam (Lair)",
-            "description" : "On initiative 20 a random 3 m square of the tower runs at a different speed: everything in it at the start of a turn makes a CON save DC 14 or loses its action. Clock-room variant: four flickering seams - roll d4 at the end of each round for which quarter is FAST (extra action) and which is SLOW (half speed, no reactions); tell the players before they act.",
-            "effects" : [ "slowed" ],
-            "range" : 60.0,
-            "recharge" : 0,
-            "radius" : 5.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          } ],
-          "languages" : [ "common" ],
-          "maxHitPoints" : 105,
-          "armorClass" : 17,
-          "maxMana" : 0,
-          "spellSlots" : [ ],
-          "imagePath" : "images/monsters/clockwork-white-rabbit.jpg"
-        },
-        "position" : {
-          "x" : 6,
-          "y" : 6
-        },
-        "inventory" : [ ],
-        "combat" : {
-          "maxHitPoints" : 105,
-          "currentHitPoints" : 105,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "gold" : 0,
-          "initiative" : 0,
-          "deathSaveFailures" : 0,
-          "downed" : false,
-          "dead" : false,
-          "xpRewardId" : null,
-          "killXp" : 0,
-          "sharedXp" : 0,
-          "downedByPlayerId" : null,
-          "xpRewardResolved" : false,
-          "conditions" : [ ],
-          "notes" : null,
-          "inInitiative" : true,
-          "walkSpeed" : 30,
-          "climbSpeed" : 0,
-          "swimSpeed" : 0,
-          "speedSeeded" : true,
-          "movementUsed" : 0,
-          "deathSaveSuccesses" : 0,
-          "activeEffects" : [ ],
-          "cooldowns" : { },
-          "featureUses" : { },
-          "resistances" : [ ],
-          "enduranceFeature" : null,
-          "featureSpeedBonus" : 0,
-          "castingResource" : null,
-          "spellSlots" : [ ],
-          "actingThisRound" : true
-        },
-        "instanceId" : "1ae50f0b-805d-4983-ac25-fb3ca50253cf",
-        "symbol" : "M"
-      } ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    } ], [ {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    } ], [ {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    } ], [ {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    } ], [ {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    } ], [ {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
       "occupants" : [ {
         "kind" : "player",
         "character" : {
@@ -34412,17 +33715,17 @@
           "ownerUsername" : "",
           "description" : "22 years, 185 cm. Young human noble engineer of House Valebrick - curious, suspicious, heavily sarcastic, composed and educated. Carries a 32-36 kg portable field workshop on his back with a Resonance Core and a removable stationary Bolt Repeater. \"Don't ask what humans were given. Ask what we built.\"",
           "maxHitPoints" : 45,
-          "currentHitPoints" : 45,
+          "currentHitPoints" : 39,
           "maxMana" : 0,
           "currentMana" : 0,
           "activeEffects" : [ {
-            "effectId" : "effect-missing-right-shoe",
-            "name" : "missing right shoe",
-            "description" : "",
-            "remainingRounds" : 999,
+            "effectId" : "paralyzed",
+            "name" : "Paralyzed",
+            "description" : "Incapacitated and unable to move or speak; nearby attacks land as critical hits.",
+            "remainingRounds" : 1,
             "damagePerRound" : 0,
             "healingPerRound" : 0,
-            "source" : "GM",
+            "source" : "Tasha's Hold Person",
             "expired" : false
           } ],
           "subclass" : "Artillerist",
@@ -34491,17 +33794,17 @@
           }
         },
         "position" : {
-          "x" : 3,
-          "y" : 11
+          "x" : 5,
+          "y" : 4
         },
         "inventory" : [ ],
         "combat" : {
           "maxHitPoints" : 45,
-          "currentHitPoints" : 45,
+          "currentHitPoints" : 39,
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
-          "initiative" : 3,
+          "initiative" : 17,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -34520,13 +33823,13 @@
           "movementUsed" : 0,
           "deathSaveSuccesses" : 0,
           "activeEffects" : [ {
-            "effectId" : "effect-missing-right-shoe",
-            "name" : "missing right shoe",
-            "description" : "",
-            "remainingRounds" : 999,
+            "effectId" : "paralyzed",
+            "name" : "Paralyzed",
+            "description" : "Incapacitated and unable to move or speak; nearby attacks land as critical hits.",
+            "remainingRounds" : 1,
             "damagePerRound" : 0,
             "healingPerRound" : 0,
-            "source" : "GM",
+            "source" : "Tasha's Hold Person",
             "expired" : false
           } ],
           "cooldowns" : { },
@@ -34553,29 +33856,668 @@
       } ]
     }, {
       "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ {
+        "kind" : "player",
+        "character" : {
+          "id" : "player-balthazar",
+          "name" : "Balthazar Boombard",
+          "classId" : "bard",
+          "raceId" : "human",
+          "level" : 6,
+          "xp" : 90,
+          "upgrades" : {
+            "earned" : 5,
+            "unlocks" : [ {
+              "classId" : "bard",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-1",
+              "branchName" : "Virtuoso",
+              "name" : "Virtuoso 1",
+              "description" : "A step along the Virtuoso path. The GM can replace these starter rewards.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "bard",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-2",
+              "branchName" : "Virtuoso",
+              "name" : "Bard College",
+              "description" : "Already included in this character. No rewards are applied again.\nBard College\nAlready included in this character. No rewards are applied again.\nKnown abilities: charm-person, dispel-magic, faerie-fire, haste, healing-word, hold-person, invisibility, light, minor-illusion, prestidigitation, thunderwave",
+              "imagePath" : null,
+              "level" : 3,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "bard",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-3",
+              "branchName" : "Virtuoso",
+              "name" : "Virtuoso: Momentum",
+              "description" : "Already included in this character. No rewards are applied again.\n\nAlready included in this character. No rewards are applied again.\nKnown abilities: charm-person, dispel-magic, faerie-fire, haste, healing-word, hold-person, invisibility, light, minor-illusion, prestidigitation, thunderwave",
+              "imagePath" : null,
+              "level" : 4,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "bard",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-6",
+              "branchName" : "Virtuoso",
+              "name" : "Virtuoso: Counterplay",
+              "description" : "Already included in this character. No rewards are applied again.\n\nAlready included in this character. No rewards are applied again.\nKnown abilities: charm-person, dispel-magic, faerie-fire, haste, healing-word, hold-person, invisibility, light, minor-illusion, prestidigitation, thunderwave",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "bard",
+              "sourceRequestId" : null,
+              "nodeId" : "resilience-1",
+              "branchName" : "Inspiring Voice",
+              "name" : "Song of Rest (d6)",
+              "description" : "Allies who spend Hit Dice during a short rest while hearing you regain an extra d6 hit points.\nClass training. If already known, this feat is not granted a second time.",
+              "imagePath" : null,
+              "level" : 6,
+              "historical" : false,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 3,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ "mage-hand" ],
+                "spellAlternatives" : [ ],
+                "features" : [ {
+                  "level" : 2,
+                  "name" : "Song of Rest (d6)",
+                  "description" : "Allies who spend Hit Dice during a short rest while hearing you regain an extra d6 hit points.\nClass training. If already known, this feat is not granted a second time.",
+                  "subclass" : null,
+                  "usesPerRest" : 0,
+                  "shortRestRecharge" : false
+                } ]
+              }
+            } ]
+          },
+          "stats" : {
+            "custom" : { },
+            "strength" : 8,
+            "dexterity" : 15,
+            "constitution" : 15,
+            "intelligence" : 8,
+            "wisdom" : 8,
+            "charisma" : 15
+          },
+          "items" : [ {
+            "itemId" : "thunderkiss",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "rapier",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "leather-armor",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "dagger",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "component-pouch",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "potion-of-healing",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "waterskin",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "coin",
+            "condition" : {
+              "durability" : 0
+            },
+            "equipped" : false,
+            "quantity" : 9
+          }, {
+            "itemId" : "item-35669c0a",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "item-zauberflute",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          } ],
+          "spells" : [ {
+            "spellId" : "minor-illusion",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "prestidigitation",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "light",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "charm-person",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "healing-word",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "thunderwave",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "faerie-fire",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "invisibility",
+            "rank" : 2,
+            "active" : true
+          }, {
+            "spellId" : "hold-person",
+            "rank" : 2,
+            "active" : true
+          }, {
+            "spellId" : "haste",
+            "rank" : 3,
+            "active" : true
+          }, {
+            "spellId" : "dispel-magic",
+            "rank" : 3,
+            "active" : false
+          }, {
+            "spellId" : "mage-hand",
+            "rank" : 0,
+            "active" : true
+          } ],
+          "personalFeatures" : [ {
+            "level" : 5,
+            "name" : "Encore",
+            "description" : "Nonmagical reaction immediately after another conscious ally within 60 ft spends Balthazar's Bardic Inspiration die and succeeds on the roll. The ally regains HP equal to Balthazar's proficiency bonus (3 at level 5). Once per short rest. The ally must hear him. Remove his Inspiration marker when resolving this; the GM confirms the successful roll and reaction. Cannot revive a downed ally. No spell slots, extra actions or Inspiration uses are refunded.",
+            "subclass" : "",
+            "usesPerRest" : 0,
+            "shortRestRecharge" : false
+          } ],
+          "passwordHash" : "06777036393a849e931d9b6b9019376fff572f6573469cd76574577cd84d17ce",
+          "passwordSalt" : "f80789435dd3c2bdbbc1932dd993d9d6",
+          "imagePath" : "images/players/player-balthazar.png",
+          "playerName" : "Lado",
+          "ownerUsername" : "Ladorman",
+          "description" : "",
+          "maxHitPoints" : 48,
+          "currentHitPoints" : 33,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "activeEffects" : [ ],
+          "subclass" : "",
+          "backstory" : "ბალთაზარი ერთ დროს უბრალო ტავერნის მუსიკოსი იყო, სანამ შემთხვევით მისი ლუთნა ალქიმიკოსის ექსპერიმენტთან ერთად არ აფეთქდა. ადამიანების უმეტესობა ასეთ მოვლენას ტრაგედიად ჩათვლიდა. ბალთაზარმა კარიერად აქცია.\n\nმას შემდეგ ის ქალაქიდან ქალაქში მოგზაურობს, სადაც მისი წარმოდგენები თანაბრად ცნობილია როგორც საოცარი მუსიკით, ისე მცირე მასშტაბის კატასტროფებით. მისი ჯადოსნური ლუთნა, “Thunderkiss”, მელოდიებს აფეთქებად ენერგიად გარდაქმნის, ხოლო მისი ხიბლი იმდენად ძლიერია, რომ მტრები ხშირად ხვდებიან, რომ მოჯადოებულები არიან მხოლოდ მაშინ, როცა უკვე გვიანაა.\n\nხალხი მას სხვადასხვა სახელით იცნობს: ოქროსხმა, ფეიერვერკების მეფე, მუსიკალური უბედურება. თავად კი მხოლოდ ერთს ამბობს:\n\n“თუ კონცერტის შემდეგ არაფერი აფეთქდა, ესე იგი საკმარისად კარგად არ დამიკრავს.” \uD83C\uDFB5\uD83D\uDCA5",
+          "castingResource" : null,
+          "spellSlots" : [ {
+            "level" : 1,
+            "max" : 4,
+            "current" : 4
+          }, {
+            "level" : 2,
+            "max" : 3,
+            "current" : 2
+          }, {
+            "level" : 3,
+            "max" : 3,
+            "current" : 3
+          } ],
+          "knownBlueprints" : [ ],
+          "furnaceFuel" : 0,
+          "cooldowns" : { },
+          "skills" : {
+            "custom" : { },
+            "acrobatics" : 2,
+            "animalHandling" : -1,
+            "arcana" : -1,
+            "athletics" : -1,
+            "deception" : 3,
+            "history" : -1,
+            "insight" : -1,
+            "intimidation" : 1,
+            "investigation" : 1,
+            "medicine" : -1,
+            "nature" : -1,
+            "perception" : 2,
+            "performance" : 5,
+            "persuasion" : 5,
+            "religion" : -1,
+            "sleightOfHand" : 1,
+            "stealth" : 0,
+            "survival" : -1
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : "",
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : 0,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : "",
+            "extraFeatures" : "",
+            "notes" : ""
+          },
+          "featureUses" : {
+            "strength" : 0,
+            "dexterity" : 0,
+            "constitution" : 0,
+            "intelligence" : 0,
+            "wisdom" : 0,
+            "charisma" : 0
+          }
+        },
+        "position" : {
+          "x" : 6,
+          "y" : 4
+        },
+        "inventory" : [ ],
+        "combat" : {
+          "maxHitPoints" : 48,
+          "currentHitPoints" : 33,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "gold" : 0,
+          "initiative" : 3,
+          "deathSaveFailures" : 0,
+          "downed" : false,
+          "dead" : false,
+          "xpRewardId" : null,
+          "killXp" : 0,
+          "sharedXp" : 0,
+          "downedByPlayerId" : null,
+          "xpRewardResolved" : false,
+          "conditions" : [ ],
+          "notes" : null,
+          "inInitiative" : true,
+          "walkSpeed" : 30,
+          "climbSpeed" : 0,
+          "swimSpeed" : 0,
+          "speedSeeded" : true,
+          "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
+          "activeEffects" : [ ],
+          "cooldowns" : { },
+          "featureUses" : {
+            "strength" : 0,
+            "dexterity" : 0,
+            "constitution" : 0,
+            "intelligence" : 0,
+            "wisdom" : 0,
+            "charisma" : 0
+          },
+          "resistances" : [ ],
+          "enduranceFeature" : null,
+          "featureSpeedBonus" : 0,
+          "castingResource" : null,
+          "spellSlots" : [ {
+            "level" : 1,
+            "max" : 4,
+            "current" : 4
+          }, {
+            "level" : 2,
+            "max" : 3,
+            "current" : 2
+          }, {
+            "level" : 3,
+            "max" : 3,
+            "current" : 3
+          } ],
+          "actingThisRound" : true
+        },
+        "instanceId" : "78adb7c8-aa2c-44fb-9c47-28bd7cce2491",
+        "symbol" : "P"
+      } ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
       "terrain" : "DIFFICULT",
       "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
+      "occupants" : [ {
+        "kind" : "monster",
+        "monster" : {
+          "id" : "clockwork-white-rabbit",
+          "name" : "The White Rabbit (Clockwork)",
+          "description" : "Small beast (clockwork), CR 6 (2300 XP). AC 17, HP 105 (14d8+42), speed 24 m, doesn't provoke opportunity attacks. Saves DEX +9, WIS +8; Perception +8, Acrobatics +9. Truesight 9 m, passive Perception 18. 1.2 m tall, a once-beautiful waistcoat, fur that was once white - torn away in patches over wet, tiny gears turning in time with his breathing - holding the pocket watch in both hands like a bird. He does not want to kill them; he wants them to be late. Talk first - fight, persuade (DC 20) or steal (DC 20 Sleight of Hand) are all valid. He never attacks a downed character: he kneels, ear to its chest, and counts its remaining seconds aloud - always a little fewer than the player expected. At 0 HP he does not die: he sits down heavily and his hands open.",
+          "type" : "beast (clockwork)",
+          "challengeRating" : "6",
+          "stats" : {
+            "custom" : { },
+            "strength" : 8,
+            "dexterity" : 20,
+            "constitution" : 16,
+            "intelligence" : 16,
+            "wisdom" : 18,
+            "charisma" : 10
+          },
+          "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "out_of_order",
+            "name" : "Out of Order",
+            "description" : "Passive. He acts first every round, on initiative 30, no matter what anyone rolled.",
+            "effects" : [ ],
+            "range" : 0.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "between_seconds",
+            "name" : "Between Seconds",
+            "description" : "Passive. At the end of every other creature's turn he moves up to 6 m for free. He is never seen moving - only somewhere else.",
+            "effects" : [ ],
+            "range" : 0.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "pin_strike",
+            "name" : "Pin Strike (Multiattack x2)",
+            "description" : "Two pin strikes: +9 to hit, 1d6+5 piercing plus 2d6 psychic each, as one second of the target's life runs out early.",
+            "effects" : [ ],
+            "range" : 5.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : {
+              "dice" : [ {
+                "diceId" : "d6",
+                "count" : 1
+              } ],
+              "typeId" : "piercing",
+              "constant" : 0
+            }
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "rabbit_delay",
+            "name" : "Delay",
+            "description" : "Recharge 4-6. One creature: WIS save DC 16. On a failure it skips its next turn entirely - he simply wasn't there for it.",
+            "effects" : [ "incapacitated" ],
+            "range" : 60.0,
+            "recharge" : 2,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "late_touch",
+            "name" : "Late",
+            "description" : "Bonus action. He touches a creature: its next turn happens at the very end of the round instead of where it should. No save.",
+            "effects" : [ ],
+            "range" : 5.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "tick_back",
+            "name" : "Tick (Click)",
+            "description" : "Reaction, 3 times per fight. When another creature ends its turn, he undoes that turn: the creature returns to where it started, and all damage and effects from that turn are undone - but spent resources and actions stay spent and it does not act again. The players remember. Read aloud: click. Fire returns to the palm. The arrow lies back on the string. The Rabbit hasn't moved. He smiles. 'Once more. Until you get it right.'",
+            "effects" : [ ],
+            "range" : 0.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "pocket_watch_rewind",
+            "name" : "Pocket Watch Rewind",
+            "description" : "Recharge 5-6, at most TWICE per fight. He winds the watch backwards: the fight returns to the start of the Rabbit's previous turn - all damage and effects since then (spent spells, conditions, movement, rolled dice) are undone. Use the battle map's ⟲ Rewind button; the app restores everything automatically. What does not rewind: the players' memories - they remember what happened and may act differently. The recharge itself stays spent. Read aloud: the ticking stops. Then - click - and everything goes backwards. His wounds zip shut in his fur. 'Again,' he says. 'Again. We will do this as many times as it takes.'",
+            "effects" : [ ],
+            "range" : 0.0,
+            "recharge" : 3,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "time_seam",
+            "name" : "Time Seam (Lair)",
+            "description" : "On initiative 20 a random 3 m square of the tower runs at a different speed: everything in it at the start of a turn makes a CON save DC 14 or loses its action. Clock-room variant: four flickering seams - roll d4 at the end of each round for which quarter is FAST (extra action) and which is SLOW (half speed, no reactions); tell the players before they act.",
+            "effects" : [ "slowed" ],
+            "range" : 60.0,
+            "recharge" : 0,
+            "radius" : 5.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          } ],
+          "languages" : [ "common" ],
+          "maxHitPoints" : 105,
+          "armorClass" : 17,
+          "maxMana" : 0,
+          "spellSlots" : [ ],
+          "imagePath" : "images/monsters/clockwork-white-rabbit.jpg"
+        },
+        "position" : {
+          "x" : 9,
+          "y" : 4
+        },
+        "inventory" : [ ],
+        "combat" : {
+          "maxHitPoints" : 105,
+          "currentHitPoints" : 96,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "gold" : 0,
+          "initiative" : 21,
+          "deathSaveFailures" : 0,
+          "downed" : false,
+          "dead" : false,
+          "xpRewardId" : null,
+          "killXp" : 0,
+          "sharedXp" : 0,
+          "downedByPlayerId" : null,
+          "xpRewardResolved" : false,
+          "conditions" : [ ],
+          "notes" : null,
+          "inInitiative" : true,
+          "walkSpeed" : 30,
+          "climbSpeed" : 0,
+          "swimSpeed" : 0,
+          "speedSeeded" : true,
+          "movementUsed" : 0,
+          "deathSaveSuccesses" : 0,
+          "activeEffects" : [ ],
+          "cooldowns" : { },
+          "featureUses" : { },
+          "resistances" : [ ],
+          "enduranceFeature" : null,
+          "featureSpeedBonus" : 0,
+          "castingResource" : null,
+          "spellSlots" : [ ],
+          "actingThisRound" : true
+        },
+        "instanceId" : "1ae50f0b-805d-4983-ac25-fb3ca50253cf",
+        "symbol" : "M"
+      } ]
     }, {
       "passable" : true,
       "terrain" : "DIFFICULT",
@@ -34588,23 +34530,23 @@
       "occupants" : [ {
         "kind" : "player",
         "character" : {
-          "id" : "player-cucaratcha",
-          "name" : "Zoinks - El Cucaratcha",
-          "classId" : "rogue",
+          "id" : "darius",
+          "name" : "Darius",
+          "classId" : "barbarian",
           "raceId" : "human",
           "level" : 6,
-          "xp" : 0,
+          "xp" : 110,
           "upgrades" : {
             "earned" : 5,
             "unlocks" : [ {
-              "classId" : "rogue",
+              "classId" : "barbarian",
               "sourceRequestId" : null,
               "nodeId" : "potency-1",
-              "branchName" : "Shadowblade",
-              "name" : "Cunning Action",
-              "description" : "Dash, Disengage or Hide as a bonus action.\nClass training. If already known, this feat is not granted a second time.",
+              "branchName" : "Berserker",
+              "name" : "Danger Sense",
+              "description" : "Already included in this character. No rewards are applied again.\nDanger Sense\nAlready included in this character. No rewards are applied again.\nKnown abilities: iron fist",
               "imagePath" : null,
-              "level" : 5,
+              "level" : 2,
               "historical" : true,
               "exclusiveWith" : [ ],
               "reward" : {
@@ -34622,14 +34564,14 @@
                 "features" : [ ]
               }
             }, {
-              "classId" : "rogue",
+              "classId" : "barbarian",
               "sourceRequestId" : null,
               "nodeId" : "potency-2",
-              "branchName" : "Shadowblade",
-              "name" : "Uncanny Dodge",
-              "description" : "Use your reaction to halve the damage of an attack from an attacker you can see.\nClass training. If already known, this feat is not granted a second time.",
+              "branchName" : "Berserker",
+              "name" : "Primal Path",
+              "description" : "Already included in this character. No rewards are applied again.\nPrimal Path\nAlready included in this character. No rewards are applied again.\nKnown abilities: iron fist",
               "imagePath" : null,
-              "level" : 5,
+              "level" : 3,
               "historical" : true,
               "exclusiveWith" : [ ],
               "reward" : {
@@ -34647,12 +34589,37 @@
                 "features" : [ ]
               }
             }, {
-              "classId" : "rogue",
+              "classId" : "barbarian",
               "sourceRequestId" : null,
               "nodeId" : "resilience-1",
-              "branchName" : "Escape Artist",
-              "name" : "Roguish Archetype",
-              "description" : "Choose the archetype that defines your roguish expertise.\nClass training. If already known, this feat is not granted a second time.",
+              "branchName" : "Iron Fist",
+              "name" : "Reckless Attack",
+              "description" : "Already included in this character. No rewards are applied again.\nReckless Attack\nAlready included in this character. No rewards are applied again.\nKnown abilities: iron fist",
+              "imagePath" : null,
+              "level" : 4,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "barbarian",
+              "sourceRequestId" : null,
+              "nodeId" : "resilience-2",
+              "branchName" : "Iron Fist",
+              "name" : "Extra Attack",
+              "description" : "Already included in this character. No rewards are applied again.\nExtra Attack\nAlready included in this character. No rewards are applied again.\nKnown abilities: iron fist",
               "imagePath" : null,
               "level" : 5,
               "historical" : true,
@@ -34672,37 +34639,12 @@
                 "features" : [ ]
               }
             }, {
-              "classId" : "rogue",
+              "classId" : "barbarian",
               "sourceRequestId" : null,
-              "nodeId" : "@historical-level-5",
-              "branchName" : "Existing training",
-              "name" : "Uncanny Dodge",
-              "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: anchor-round, crushing-shot, gravitic-shift, gravity-round, singularity-round",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "rogue",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-3",
-              "branchName" : "Shadowblade",
-              "name" : "Shadowblade: Momentum",
-              "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
+              "nodeId" : "resilience-5",
+              "branchName" : "Iron Fist",
+              "name" : "Iron Fist: Last Stand",
+              "description" : "Once per long rest, use your reaction when you fail a save against being knocked prone to reroll it. You must keep the new result. The GM resolves this feat; the app tracks its rest use.",
               "imagePath" : null,
               "level" : 6,
               "historical" : false,
@@ -34713,19 +34655,19 @@
                 "abilityId" : null,
                 "abilityIncrease" : 0,
                 "armorClass" : 0,
-                "attackBonus" : 1,
+                "attackBonus" : 0,
                 "basicAttackDamage" : 0,
                 "rageDamage" : 0,
-                "speed" : 0,
+                "speed" : 5,
                 "spellIds" : [ ],
                 "spellAlternatives" : [ ],
                 "features" : [ {
-                  "level" : 3,
-                  "name" : "Shadowblade: Momentum",
-                  "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
+                  "level" : 4,
+                  "name" : "Iron Fist: Last Stand",
+                  "description" : "Once per long rest, use your reaction when you fail a save against being knocked prone to reroll it. You must keep the new result. The GM resolves this feat; the app tracks its rest use.",
                   "subclass" : null,
                   "usesPerRest" : 1,
-                  "shortRestRecharge" : true
+                  "shortRestRecharge" : false
                 } ]
               }
             } ]
@@ -34740,166 +34682,99 @@
             "charisma" : 8
           },
           "items" : [ {
-            "itemId" : "sixfold-judgment",
+            "itemId" : "backpack",
             "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "monokatana",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "studded-leather",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "gravitic-anchor-node",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "thieves-tools",
-            "condition" : {
-              "durability" : 100
+              "durability" : 0
             },
             "equipped" : false,
             "quantity" : 1
-          }, {
-            "itemId" : "manacles",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "potion-of-healing",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "sixfold-cartridge",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 9
           }, {
             "itemId" : "coin",
             "condition" : {
               "durability" : 0
             },
             "equipped" : false,
-            "quantity" : 6
+            "quantity" : 7
           }, {
-            "itemId" : "item-7d80a155",
+            "itemId" : "item-rune-bracelet",
             "condition" : {
               "durability" : 100
             },
             "equipped" : false,
             "quantity" : 1
           }, {
-            "itemId" : "item-bread-crumbs",
+            "itemId" : "waterskin",
             "condition" : {
-              "durability" : 100
+              "durability" : 0
             },
             "equipped" : false,
             "quantity" : 1
           }, {
-            "itemId" : "halberd",
+            "itemId" : null,
             "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "item-umbrella",
-            "condition" : {
-              "durability" : 100
+              "durability" : 0
             },
             "equipped" : false,
             "quantity" : 1
           } ],
           "spells" : [ {
-            "spellId" : "gravity-round",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "crushing-shot",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "singularity-round",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "anchor-round",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "gravitic-shift",
+            "spellId" : "iron fist",
             "rank" : 0,
             "active" : true
           } ],
-          "personalFeatures" : [ ],
-          "passwordHash" : "582a43d1cbf7869c8f1212daae37b62240094b852fba7a308b1ac70ac6b124b6",
-          "passwordSalt" : "f9226bf80dfa0ef0e7764b8e7ccc8084",
-          "imagePath" : "images/players/player-cucaratcha.jpg",
-          "playerName" : "Zura",
-          "ownerUsername" : "Bandzuka",
-          "description" : "Bounty hunter. Always finishes the hunt.\n\nResources:\n• Mana = revolver chambers. Max 6. Every Sixfold Judgment shot costs 1. The Gravitic Anchor Node refills all six chambers during a long rest — nobody can reload it by hand.\n• Singularity Round: 1 per short rest. Anchor Round: 1 per long rest. Their cooldowns are set to 100 rounds so they cannot be used again in the same fight.\n• Shot save DC (Crushing / Anchor): 13 (8 + proficiency 3 + DEX 2).\n\nPassives:\n• Sneak Attack (rogue, level 5): +3d6 once per turn on a hit with advantage, or when an ally stands next to the target.\n• Bound artifacts — the Sixfold Judgment only works while the Gravitic Anchor Node is attached to him.",
-          "maxHitPoints" : 45,
-          "currentHitPoints" : 29,
-          "maxMana" : 7,
-          "currentMana" : 6,
-          "activeEffects" : [ {
-            "effectId" : "effect-missing-left-shoe",
-            "name" : "missing left shoe",
-            "description" : null,
-            "remainingRounds" : 999,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "GM",
-            "expired" : false
+          "personalFeatures" : [ {
+            "level" : 5,
+            "name" : "Brawler's Throw",
+            "description" : "Pit Guardian training. Nonmagical; replaces one attack, never grants an extra attack. Choose a creature Darius already grapples within 5 ft, no more than one size larger. Contest Athletics against its Athletics or Acrobatics. On success, release it, move it up to 5 ft into a clear supported space, and knock it prone. On failure it stays grappled. No damage, collision damage or forced ledge drop. The GM rolls the contest, moves the token and marks prone.",
+            "subclass" : "",
+            "usesPerRest" : 0,
+            "shortRestRecharge" : false
+          }, {
+            "level" : 5,
+            "name" : "Pit Guardian",
+            "description" : "Nonmagical reaction before an attack roll against another conscious ally within 5 ft: that ally gains +2 AC until the start of their next turn. Darius must be conscious. Once per short rest. No extra attack or damage. The GM confirms ally status and reaction availability; the app applies the AC effect and tracks the use.",
+            "subclass" : "",
+            "usesPerRest" : 0,
+            "shortRestRecharge" : false
           } ],
+          "passwordHash" : "2164f6f85dc696d3a1129f64bb74d8cd50271239086efece368e1e099f24ae12",
+          "passwordSalt" : "5f8720ae6cf06ab7b4174cdcbaa00da4",
+          "imagePath" : "images/players/darius.jpeg",
+          "playerName" : "nika",
+          "ownerUsername" : "",
+          "description" : "მაღალი, დაკუნთული ბარბაროსი მეომარი რომელიც არ ატარებს აბჯარს.\n\nRage (გაცოფება) არის ბარბარიანის მთავარი უნარი. ის იძლევა ძალას და გამძლეობას ბრძოლაში.\n\nროგორ ჩაირთვება\n\nჩართავ bonus action-ით, ანუ დარტყმასაც მოასწრებ იმავე სვლაში.\nგრძელდება 1 წუთი (10 რაუნდი).\nდარიუსს 5 დონეზე აქვს 3 გამოყენება, რომლებიც long rest-ზე ბრუნდება.\n\nრას იძლევა\n\nAdvantage Strength-ის შემოწმებებსა და Strength save-ებზე.\n+2 damage ყოველ ახლო ბრძოლის დარტყმაზე Strength-ით. მუშტის დარტყმაზეც მუშაობს.\nწინააღმდეგობა (resistance) bludgeoning, piercing და slashing damage-ის მიმართ. ეს ნიშნავს, რომ ამ ტიპის დაზიანებას ნახევარს იღებს.\n\nრა არ შეუძლია გაცოფებისას\n\nსპელების ჩამოგდება და კონცენტრაცია.\nმძიმე აბჯარში ვერ ჩაირთვება. დარიუსს აბჯარი არ აქვს, ამიტომ პრობლემა არ არის.\n\nროდის წყდება\n\n1 წუთის შემდეგ.\nთუ გონებას დაკარგავ.\nთუ შენი სვლის ბოლოს არავისთვის გიტევია და თავად არ დაგიზიანებიათ ბოლო სვლის შემდეგ. ამიტომ ბრძოლაში მაინც უნდა იყო აქტიური.\nშეგიძლია bonus action-ით თავადაც გამორთო.\n\nშეუიარაღებელი ხელით შეტევა მასზე ყოველთვის მოქმედებს როგორც 1d4\n\nშეუძლია მოქმედების გამოყენების გარეშე, ბონუს მოქმედებით გააკავოს მოწინააღმდეგე.",
+          "maxHitPoints" : 59,
+          "currentHitPoints" : 50,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "activeEffects" : [ ],
           "subclass" : "",
-          "backstory" : "A bounty hunter in a world ruled by corporations, cybernetics, and violence. He wasn't famous, nor was he trying to be. He took contracts, tracked his targets, collected his pay, and moved on to the next job. He had a reputation for always finishing the hunt, whether it took days or months.\n\nWhen he crossed into this world, his cybernetics transformed into magical relics. His combat implants became enchanted artifacts, his trusted revolver still carried only six bullets — though no one could explain how they replenished after periods of rest — and his monokatana stayed the same.\n\nThe implant along his spine changed the most. What had once been a military combat enhancement became a magical relic known as the Gravitic Anchor Node — a spine of arcane cores that lets him manipulate his own gravity. He doesn't understand how it works, only that it feels strangely familiar, as if technology and magic are simply different languages describing the same thing.\n\n\nThe Sixfold Judgment\n\nAn ancient-looking six-shot revolver forged from black steel and silver, covered in faint violet runes. It has no visible mechanism for loading ammunition.\n\nThe revolver is magically linked to the Gravitic Anchor Node implanted along Kael's spine. The Node condenses gravitational energy into six arcane rounds, one for each chamber.\n\nWhen fires, the Node expends part of its stored power to create devastating gravity-infused bullets.\n\nPossible Shot Effects (choose one when firing)\nGravity Round – A normal shot that deals force damage instead of piercing.\nCrushing Shot – The bullet erupts with gravitational force, forcing the target to make a Strength save or be knocked prone.\nSingularity Round (1/Short Rest) – On impact, a tiny gravity well forms, pulling creatures within 10 feet toward the target before collapsing.\nAnchor Round (1/Long Rest) – The target's gravity dramatically increases, reducing its movement speed to 0 until the start of your next turn if it fails a Strength save.\nReloading\n\nThe revolver can never hold more than six rounds. ",
-          "castingResource" : "MANA",
+          "backstory" : "",
+          "castingResource" : null,
           "spellSlots" : [ ],
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
             "custom" : { },
-            "acrobatics" : 3,
-            "animalHandling" : -2,
-            "arcana" : 0,
-            "athletics" : 2,
-            "deception" : 1,
+            "acrobatics" : 2,
+            "animalHandling" : -1,
+            "arcana" : -1,
+            "athletics" : 5,
+            "deception" : -1,
             "history" : -1,
-            "insight" : 1,
-            "intimidation" : 1,
-            "investigation" : 2,
+            "insight" : -1,
+            "intimidation" : 5,
+            "investigation" : -1,
             "medicine" : -1,
-            "nature" : -3,
-            "perception" : 2,
-            "performance" : 0,
-            "persuasion" : 0,
-            "religion" : -2,
-            "sleightOfHand" : 5,
-            "stealth" : 3,
-            "survival" : -1
+            "nature" : -1,
+            "perception" : -1,
+            "performance" : -1,
+            "persuasion" : 1,
+            "religion" : -1,
+            "sleightOfHand" : 0,
+            "stealth" : -2,
+            "survival" : 1
           },
           "sheet" : {
             "armorClass" : null,
@@ -34929,17 +34804,17 @@
           "featureUses" : { }
         },
         "position" : {
-          "x" : 10,
-          "y" : 11
+          "x" : 11,
+          "y" : 4
         },
         "inventory" : [ ],
         "combat" : {
-          "maxHitPoints" : 45,
-          "currentHitPoints" : 29,
-          "maxMana" : 7,
-          "currentMana" : 6,
+          "maxHitPoints" : 59,
+          "currentHitPoints" : 50,
+          "maxMana" : 0,
+          "currentMana" : 0,
           "gold" : 0,
-          "initiative" : 11,
+          "initiative" : 18,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -34951,41 +34826,27 @@
           "conditions" : [ ],
           "notes" : null,
           "inInitiative" : true,
-          "walkSpeed" : 30,
+          "walkSpeed" : 45,
           "climbSpeed" : 0,
           "swimSpeed" : 0,
           "speedSeeded" : true,
-          "movementUsed" : 0,
+          "movementUsed" : 9,
           "deathSaveSuccesses" : 0,
-          "activeEffects" : [ {
-            "effectId" : "effect-missing-left-shoe",
-            "name" : "missing left shoe",
-            "description" : null,
-            "remainingRounds" : 999,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "GM",
-            "expired" : false
-          } ],
+          "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
           "resistances" : [ ],
           "enduranceFeature" : null,
-          "featureSpeedBonus" : 0,
-          "castingResource" : "MANA",
+          "featureSpeedBonus" : 15,
+          "castingResource" : null,
           "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "instanceId" : "9ac6a03f-8f41-4374-b7d7-5206e86f4d38",
+        "instanceId" : "4350c61a-88cd-4206-9acc-493947971a5f",
         "symbol" : "P"
       } ]
     }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
+      "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
       "occupants" : [ ]
@@ -35000,7 +34861,122 @@
       "effect" : null,
       "occupants" : [ ]
     }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
       "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
       "occupants" : [ ]
@@ -35010,8 +34986,178 @@
       "effect" : null,
       "occupants" : [ ]
     }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
       "passable" : false,
       "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
       "effect" : null,
       "occupants" : [ ]
     }, {
@@ -35335,25 +35481,7 @@
           "currentHitPoints" : 36,
           "maxMana" : 0,
           "currentMana" : 0,
-          "activeEffects" : [ {
-            "effectId" : "effect-charity",
-            "name" : "charity",
-            "description" : null,
-            "remainingRounds" : 2,
-            "damagePerRound" : 0,
-            "healingPerRound" : 1,
-            "source" : "GM",
-            "expired" : false
-          }, {
-            "effectId" : "effect-missing-shoes",
-            "name" : "missing shoes",
-            "description" : null,
-            "remainingRounds" : 999,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "GM",
-            "expired" : false
-          } ],
+          "activeEffects" : [ ],
           "subclass" : "",
           "backstory" : "ორივე ტიფლინგ მშობელს მძიმე ბედი ჰქონდა და უწევდათ თავის გატანა ქურდობებით\nარსებობდა ჭორი, რომ ერთერთმა ძარცვის მსხვერპლმა ადგილობრივ ჯადოქართან\nდააწყევლინა ჩემი ოჯახი და კიდევ უფრო გააუბედურა.დედაჩემს რთული მშობიარობა\nქონდა და გავჩნდით სამი ტყუპი მე, ჩემი და და ჩემი ძმა.\n1 წელიც არ გვქონდა შესრულებული როდესაც, გარდაიცვალა ძმა გაურკვეველი\nდაავადებით, ჩემი და კი ერთ ღამეს გაქრა და მისი კვალი აღარსად გვინახავს.\nოჯახმა სულიერ და ფინანსურ წნეხს ვერ გაუძლო რამაც მამა ციხემდე მიიყვანა\nდედჩემმა კი გადაწყვიტა დავესვი ადამიანების სოფლის ისეთ ოჯახის კართან\nრომელის მიმართ ცოდვა არ ჰქონდათ ჩადენილი ეგონა, რომ მხოლოდ ამით შეეძლო\nავრიდებინე წყევლას.\nსიმართლე ვთქვა მათი სახეები აღარც მახსოვს მხოლოდ მათი რქები დედაჩემს ყურებს\nუკან ქონდა გადაწეული სპირალივით მამაჩემს კი ზემოთ ამართული თუმცა სულ\nდატეხილი ალბათ ჩემნაირი რქები ექნებოდა მისი ცხოვრების წესი, რომ არა.\nადამიანების ოჯახებისთვის აღმოვჩნდი ის ნანატრი ბავშვი, რომელსაც წლები\nთხოვდნენ ღმერს. არ ადარდებდათ არც ჩემი ფერი არც ჩემი რქები.\nჩემი ადამიანი დედა ტყავზე მუშაობს ხოლო მამაჩემი პურის მცხობელია ამიტომაც მათ\nყველა იცნობენ და პატივს სცემენ.\nმათ ხელგაშლილობა და თანაგრძნობა მასწავლეს, მამა თუ ვინმეს პურის ფული არ აქვს\nჩუქნის და გლეხებს რომლებსაც ულევი შრომისგან ფეხსაცმელები უფუჭდებათ\nდედაჩემი უფასოდ უკერავს.\nალერსში და სიკეთეში გავიზარდე, მშობლების მოპოვებული პატივის ცემით\nვსარგებლობდი და ჩემს სოფელში ყველა მეგობრულად განჭყობილი იყო ჩემს მიმართ\nთუმცა ვხვდებოდი, რომ როგორც ჩემმა მშობლებმა დაიმსახურეს სოფლის სიყვარული\nმეც რაიმე გზა უნდა მეპოვა რითიც ვიზავდი ამას. ყოველ ღამე ვლოცულობდი, რომ\nმომცემოდა ძალა რითიც შევძლებდი ხალხის დახმარებას.\nერთ ღამესაც სოფელის რამოდენიმე სახლის გაძარცვა დააპირეს ტიფლინგებმა. ღამე\nგვიანობამდე ვჩერდებოდი, რადგან ადამიანებთან შედარებით სიბნელე არ მიშლიდა\nხელს ამიტომ დავინახე, რომ სახლში შემოსული მძარცველი უკან გაიპარა ისე, რომ\nარაფერი არ წაუღია...\nამის დანახვასთან ერთად გავიგე უბნის ძაღლის კივილი გავვარდი და დავინახე, რომ\nდაშნით იყო დაჭრილი, ხელში ავიყვანე და დავიწყე ვედრება იქნებ რამით გადამერჩინა\nძაღლი ამ მომენტში ვიგრძენი, რომ რაღაც ზეციური ძალის დახმარებით, მაგიური\nენერგიით შევუხორცე ჭრილობა სასიკვდილოდ გაწირულ ცხოველს.\nამ შემთხვევამ შეცვალა ჩემი ცხოვრება. მშობლები ამის გაგებისთანავე უსიტყვოდ\nდამეხმარნენ შემესწავლა ღვთისგან ბოძებული ძალის შესახებ თუმცა სოფელის\nეკლესიაში საკმარისი ინფორმაცია არ იყო ამიტომ გადავწყვიტე ვიმოგზაურო\nქალაქებში სადაც მოვიძიებ ინფორმაციას ჩემს ხვედრზე და შევძლებ გასაჭირში მყოფ\nყველანაირი სიცოცხლის დახმარებას",
           "castingResource" : "SPELL_SLOTS",
@@ -35364,7 +35492,7 @@
           }, {
             "level" : 2,
             "max" : 3,
-            "current" : 3
+            "current" : 2
           }, {
             "level" : 3,
             "max" : 3,
@@ -35422,8 +35550,8 @@
           "featureUses" : { }
         },
         "position" : {
-          "x" : 4,
-          "y" : 12
+          "x" : 5,
+          "y" : 9
         },
         "inventory" : [ ],
         "combat" : {
@@ -35432,7 +35560,7 @@
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
-          "initiative" : 2,
+          "initiative" : 3,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -35448,27 +35576,9 @@
           "climbSpeed" : 0,
           "swimSpeed" : 0,
           "speedSeeded" : true,
-          "movementUsed" : 0,
+          "movementUsed" : 3,
           "deathSaveSuccesses" : 0,
-          "activeEffects" : [ {
-            "effectId" : "effect-charity",
-            "name" : "charity",
-            "description" : null,
-            "remainingRounds" : 2,
-            "damagePerRound" : 0,
-            "healingPerRound" : 1,
-            "source" : "GM",
-            "expired" : false
-          }, {
-            "effectId" : "effect-missing-shoes",
-            "name" : "missing shoes",
-            "description" : null,
-            "remainingRounds" : 999,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "GM",
-            "expired" : false
-          } ],
+          "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
           "resistances" : [ "fire" ],
@@ -35482,7 +35592,7 @@
           }, {
             "level" : 2,
             "max" : 3,
-            "current" : 3
+            "current" : 2
           }, {
             "level" : 3,
             "max" : 3,
@@ -35496,6 +35606,401 @@
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ {
+        "kind" : "player",
+        "character" : {
+          "id" : "player-sinne",
+          "name" : "Sinne",
+          "classId" : "warlock",
+          "raceId" : "sinne-shapeshifter",
+          "level" : 6,
+          "xp" : 110,
+          "upgrades" : {
+            "earned" : 5,
+            "unlocks" : [ {
+              "classId" : "warlock",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-1",
+              "branchName" : "Pact Weaver",
+              "name" : "Eldritch Invocations",
+              "description" : "Learn fragments of forbidden lore that grant lasting magical abilities.\nClass training. If already known, this feat is not granted a second time.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "warlock",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-3",
+              "branchName" : "Pact Weaver",
+              "name" : "Pact Weaver: Momentum",
+              "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "warlock",
+              "sourceRequestId" : null,
+              "nodeId" : "resilience-1",
+              "branchName" : "Veiled Guardian",
+              "name" : "Pact Boon",
+              "description" : "Your patron grants a gift: Pact of the Blade, the Chain or the Tome.\nClass training. If already known, this feat is not granted a second time.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "warlock",
+              "sourceRequestId" : null,
+              "nodeId" : "@historical-level-5",
+              "branchName" : "Existing training",
+              "name" : "Existing level 5 training",
+              "description" : "Already included in this character. No rewards are applied again.\nAwakened Mind, Otherworldly Patron, Pact Magic, Eldritch Invocations, Pact Boon, Ability Score Improvement\nKnown abilities: charm-person, chill-touch, mage-hand, minor-illusion",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "warlock",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-6",
+              "branchName" : "Pact Weaver",
+              "name" : "Pact Weaver: Counterplay",
+              "description" : "Once per short rest, use your reaction when a visible enemy begins casting within 60 ft to identify its visible target or area with an Arcana check set by the GM. This does not interrupt the spell. The GM resolves this feat; the app tracks its rest use.",
+              "imagePath" : null,
+              "level" : 6,
+              "historical" : false,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 5,
+                "spellIds" : [ "scorching-ray" ],
+                "spellAlternatives" : [ ],
+                "features" : [ {
+                  "level" : 4,
+                  "name" : "Pact Weaver: Counterplay",
+                  "description" : "Once per short rest, use your reaction when a visible enemy begins casting within 60 ft to identify its visible target or area with an Arcana check set by the GM. This does not interrupt the spell. The GM resolves this feat; the app tracks its rest use.",
+                  "subclass" : null,
+                  "usesPerRest" : 1,
+                  "shortRestRecharge" : true
+                } ]
+              }
+            } ]
+          },
+          "stats" : {
+            "custom" : { },
+            "strength" : 8,
+            "dexterity" : 15,
+            "constitution" : 15,
+            "intelligence" : 8,
+            "wisdom" : 8,
+            "charisma" : 15
+          },
+          "items" : [ {
+            "itemId" : "arcane-focus",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "dagger",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "item-diary-of-a-friend",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "leather-armor",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "sinne-seam-dagger",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          } ],
+          "spells" : [ {
+            "spellId" : "armor-of-agathys",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "charm-person",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "counterspell",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "eldritch-blast",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "hex",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "mage-hand",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "minor-illusion",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "misty-step",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "scorching-ray",
+            "rank" : 2,
+            "active" : true
+          }, {
+            "spellId" : "suggestion",
+            "rank" : 1,
+            "active" : true
+          } ],
+          "personalFeatures" : [ {
+            "level" : 1,
+            "name" : "Shapechanger",
+            "description" : "Action: change your appearance and voice into a humanoid you have seen, or return to your true form. You retain your statistics, size and basic arrangement of limbs; your clothes and equipment do not change. The form lasts until you change it again or die. Resolve disguises and checks with the GM.",
+            "subclass" : "",
+            "usesPerRest" : 0,
+            "shortRestRecharge" : false
+          }, {
+            "level" : 3,
+            "name" : "Pact of the Blade — the Seam Blade",
+            "description" : "Action: შექმენი pact weapon ცარიელ ხელში. მისი ჩვეული სახე ახლა Seam Dagger-ია: წვრილი ხანჯალი, თითქოს ორი ერთმანეთში ჩამჯდარი ლითონის ფენა აქვს. Dagger: finesse, light, thrown 20/60 ft; attack +6, damage 1d4+3 piercing არსებული DEX 16-ით. Pact weapon proficiency გაქვს და resistance/immunity-ის დასაძლევად magical-ად ითვლება; +1 attack/damage bonus არ აქვს. Thirsting Blade Attack action-ზე pact weapon-ით ორ შეტევას გაძლევს. სხვა melee ფორმის გამოძახება ისევ შესაძლებელია Pact of the Blade-ის წესებით; rapier ფორმის ზიანია 1d8+3, მაგრამ ინვენტარში მეორე ერთდროული pact weapon არ ჩნდება. იარაღი ქრება დათხოვნის, ახლის შექმნის ან სიკვდილისას; ასევე თუ შენგან 5 ft-ზე შორს 1 წუთზე მეტხანს რჩება. ერთსაათიანი ritual-ით შესაფერისი magical weapon-ის მიბმაც შეიძლება. გამოძახება და ფორმის შეცვლა ხელით მართე.",
+            "subclass" : "",
+            "usesPerRest" : 0,
+            "shortRestRecharge" : false
+          }, {
+            "level" : 5,
+            "name" : "Eldritch Invocations",
+            "description" : "Agonizing Blast: add CHA modifier (+3) to each Eldritch Blast beam that hits. Thirsting Blade: attack twice instead of once when taking the Attack action with your pact weapon. Devil's Sight: see normally in darkness, magical or otherwise, within 120 ft. Resolve manually.",
+            "subclass" : "",
+            "usesPerRest" : 0,
+            "shortRestRecharge" : false
+          }, {
+            "level" : 5,
+            "name" : "გარიგება \"მასთან\"",
+            "description" : "ერთხელ ხანგრძლივ დასვენებაზე, შენს სვლაზე ნებაყოფლობით მიიღე ერთი საჩუქარი, მონიშნე 1 ვალი და აირჩიე სხვა ცოცხალი, შენ მიმართ არამტრული არსება, რომელსაც ხედავ 30 ფუტში: ის იღებს 1d6 ფსიქიკურ ზიანს გადარჩენის სროლის გარეშე. წინასწარ იცი მსხვერპლი და ფასი; თუ ასეთი არსება არ არის, საჩუქარს ვერ იღებ. pact slot არ იხარჯება. 1) Eldritch Blast-ის მინიმუმ ერთი სხივის მოხვედრისას ერთ მოხვედრილ სამიზნეს დაუმატე 2d8 force ზიანი და გადაადგილე 10 ფუტამდე. 2) ბონუს მოქმედებით ერთი ხილული არსება 30 ფუტში იღებს 2d8+3 დროებით HP-ს და შეუძლია რეაქციით გადაადგილდეს სიჩქარის ნახევრამდე opportunity attack-ების გარეშე. 3) ბონუს მოქმედებით შეცვალე გარეგნობა შენი Shapechanger-ის წესებით და 1 წუთით მიიღე advantage ამ შენიღბვასთან დაკავშირებულ Deception check-ებზე. ვალის რაოდენობა იცი. მესამე ვალზე ნებისმიერი მეხსიერების წყვეტა მხოლოდ შენი თანხმობით ხდება. ვალის 1-ით შესამცირებლად ხანგრძლივ დასვენებამდე ითამაშე მტკივნეული სიმართლის გამხელის ან დაზიანებული ნდობის აღდგენის სცენა; მაქსიმუმ ერთხელ თითო ხანგრძლივ დასვენებაზე. საჩუქარი, ვალი და ზიანი ხელით აღრიცხეთ.",
+            "subclass" : "",
+            "usesPerRest" : 1,
+            "shortRestRecharge" : false
+          } ],
+          "passwordHash" : "5f8bdfac52b1fee28e295d50a0443476e9774dbeb0bc055fa8d3318dd2ad0432",
+          "passwordSalt" : "a52f86319a7b86f45d27e429a7c11bfe",
+          "imagePath" : "images/players/player-sinne.png",
+          "playerName" : "Mariami",
+          "ownerUsername" : "sinne",
+          "description" : "",
+          "maxHitPoints" : 50,
+          "currentHitPoints" : 50,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "activeEffects" : [ ],
+          "subclass" : "The Great Old One",
+          "backstory" : "ამნეზია აქვს, თუმცა ეს დიდად არ აწუხებს, სხვებს დიდად არ ენდობა. \nchaotic neutral\nსისუსტე: Can I pet the dawg? - აქვს disadvantage on perception checks, she's oblivious to dangers\nძლიერი მხარე: კარგი მატყუარაა.\nმისია:  ცდილობს გაიგოს ვინაა, აღიდგნოს დაკარგული მოგონებები",
+          "castingResource" : null,
+          "spellSlots" : [ {
+            "level" : 3,
+            "max" : 2,
+            "current" : 2
+          } ],
+          "knownBlueprints" : [ ],
+          "furnaceFuel" : 0,
+          "cooldowns" : { },
+          "skills" : {
+            "custom" : { },
+            "acrobatics" : 3,
+            "animalHandling" : -1,
+            "arcana" : 1,
+            "athletics" : 0,
+            "deception" : 3,
+            "history" : -1,
+            "insight" : 3,
+            "intimidation" : 0,
+            "investigation" : 2,
+            "medicine" : -1,
+            "nature" : -1,
+            "perception" : -1,
+            "performance" : 3,
+            "persuasion" : 3,
+            "religion" : -1,
+            "sleightOfHand" : 3,
+            "stealth" : 3,
+            "survival" : -1
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : "",
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : 0,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : "",
+            "extraFeatures" : "",
+            "notes" : ""
+          },
+          "featureUses" : { }
+        },
+        "position" : {
+          "x" : 6,
+          "y" : 9
+        },
+        "inventory" : [ ],
+        "combat" : {
+          "maxHitPoints" : 50,
+          "currentHitPoints" : 50,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "gold" : 0,
+          "initiative" : 1,
+          "deathSaveFailures" : 0,
+          "downed" : false,
+          "dead" : false,
+          "xpRewardId" : null,
+          "killXp" : 0,
+          "sharedXp" : 0,
+          "downedByPlayerId" : null,
+          "xpRewardResolved" : false,
+          "conditions" : [ ],
+          "notes" : null,
+          "inInitiative" : true,
+          "walkSpeed" : 35,
+          "climbSpeed" : 0,
+          "swimSpeed" : 0,
+          "speedSeeded" : true,
+          "movementUsed" : 3,
+          "deathSaveSuccesses" : 0,
+          "activeEffects" : [ ],
+          "cooldowns" : { },
+          "featureUses" : { },
+          "resistances" : [ ],
+          "enduranceFeature" : null,
+          "featureSpeedBonus" : 5,
+          "castingResource" : null,
+          "spellSlots" : [ {
+            "level" : 3,
+            "max" : 2,
+            "current" : 2
+          } ],
+          "actingThisRound" : true
+        },
+        "instanceId" : "c673e730-db7d-4bc7-8f86-465996c6bf20",
+        "symbol" : "P"
+      } ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
       "effect" : null,
       "occupants" : [ {
         "kind" : "player",
@@ -35774,14 +36279,7 @@
           "spellSlots" : [ ],
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
-          "cooldowns" : {
-            "strength" : 0,
-            "dexterity" : 0,
-            "constitution" : 0,
-            "intelligence" : 0,
-            "wisdom" : 0,
-            "charisma" : 0
-          },
+          "cooldowns" : { },
           "skills" : {
             "custom" : { },
             "acrobatics" : 5,
@@ -35842,8 +36340,8 @@
           }
         },
         "position" : {
-          "x" : 5,
-          "y" : 12
+          "x" : 10,
+          "y" : 9
         },
         "inventory" : [ ],
         "combat" : {
@@ -35852,7 +36350,7 @@
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 10,
-          "initiative" : 26,
+          "initiative" : 4,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -35868,17 +36366,10 @@
           "climbSpeed" : 0,
           "swimSpeed" : 0,
           "speedSeeded" : true,
-          "movementUsed" : 0,
+          "movementUsed" : 6,
           "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
-          "cooldowns" : {
-            "strength" : 0,
-            "dexterity" : 0,
-            "constitution" : 0,
-            "intelligence" : 0,
-            "wisdom" : 0,
-            "charisma" : 0
-          },
+          "cooldowns" : { },
           "featureUses" : {
             "strength" : 0,
             "dexterity" : 0,
@@ -35899,26 +36390,161 @@
       } ]
     }, {
       "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
       "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
       "effect" : null,
       "occupants" : [ {
         "kind" : "player",
         "character" : {
-          "id" : "player-sinne",
-          "name" : "Sinne",
-          "classId" : "warlock",
-          "raceId" : "sinne-shapeshifter",
+          "id" : "player-cucaratcha",
+          "name" : "Zoinks - El Cucaratcha",
+          "classId" : "rogue",
+          "raceId" : "human",
           "level" : 6,
-          "xp" : 110,
+          "xp" : 0,
           "upgrades" : {
             "earned" : 5,
             "unlocks" : [ {
-              "classId" : "warlock",
+              "classId" : "rogue",
               "sourceRequestId" : null,
               "nodeId" : "potency-1",
-              "branchName" : "Pact Weaver",
-              "name" : "Eldritch Invocations",
-              "description" : "Learn fragments of forbidden lore that grant lasting magical abilities.\nClass training. If already known, this feat is not granted a second time.",
+              "branchName" : "Shadowblade",
+              "name" : "Cunning Action",
+              "description" : "Dash, Disengage or Hide as a bonus action.\nClass training. If already known, this feat is not granted a second time.",
               "imagePath" : null,
               "level" : 5,
               "historical" : true,
@@ -35938,12 +36564,12 @@
                 "features" : [ ]
               }
             }, {
-              "classId" : "warlock",
+              "classId" : "rogue",
               "sourceRequestId" : null,
-              "nodeId" : "potency-3",
-              "branchName" : "Pact Weaver",
-              "name" : "Pact Weaver: Momentum",
-              "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
+              "nodeId" : "potency-2",
+              "branchName" : "Shadowblade",
+              "name" : "Uncanny Dodge",
+              "description" : "Use your reaction to halve the damage of an attack from an attacker you can see.\nClass training. If already known, this feat is not granted a second time.",
               "imagePath" : null,
               "level" : 5,
               "historical" : true,
@@ -35963,12 +36589,12 @@
                 "features" : [ ]
               }
             }, {
-              "classId" : "warlock",
+              "classId" : "rogue",
               "sourceRequestId" : null,
               "nodeId" : "resilience-1",
-              "branchName" : "Veiled Guardian",
-              "name" : "Pact Boon",
-              "description" : "Your patron grants a gift: Pact of the Blade, the Chain or the Tome.\nClass training. If already known, this feat is not granted a second time.",
+              "branchName" : "Escape Artist",
+              "name" : "Roguish Archetype",
+              "description" : "Choose the archetype that defines your roguish expertise.\nClass training. If already known, this feat is not granted a second time.",
               "imagePath" : null,
               "level" : 5,
               "historical" : true,
@@ -35988,12 +36614,12 @@
                 "features" : [ ]
               }
             }, {
-              "classId" : "warlock",
+              "classId" : "rogue",
               "sourceRequestId" : null,
               "nodeId" : "@historical-level-5",
               "branchName" : "Existing training",
-              "name" : "Existing level 5 training",
-              "description" : "Already included in this character. No rewards are applied again.\nAwakened Mind, Otherworldly Patron, Pact Magic, Eldritch Invocations, Pact Boon, Ability Score Improvement\nKnown abilities: charm-person, chill-touch, mage-hand, minor-illusion",
+              "name" : "Uncanny Dodge",
+              "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: anchor-round, crushing-shot, gravitic-shift, gravity-round, singularity-round",
               "imagePath" : null,
               "level" : 5,
               "historical" : true,
@@ -36013,12 +36639,12 @@
                 "features" : [ ]
               }
             }, {
-              "classId" : "warlock",
+              "classId" : "rogue",
               "sourceRequestId" : null,
-              "nodeId" : "potency-6",
-              "branchName" : "Pact Weaver",
-              "name" : "Pact Weaver: Counterplay",
-              "description" : "Once per short rest, use your reaction when a visible enemy begins casting within 60 ft to identify its visible target or area with an Arcana check set by the GM. This does not interrupt the spell. The GM resolves this feat; the app tracks its rest use.",
+              "nodeId" : "potency-3",
+              "branchName" : "Shadowblade",
+              "name" : "Shadowblade: Momentum",
+              "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
               "imagePath" : null,
               "level" : 6,
               "historical" : false,
@@ -36029,16 +36655,16 @@
                 "abilityId" : null,
                 "abilityIncrease" : 0,
                 "armorClass" : 0,
-                "attackBonus" : 0,
+                "attackBonus" : 1,
                 "basicAttackDamage" : 0,
                 "rageDamage" : 0,
-                "speed" : 5,
-                "spellIds" : [ "scorching-ray" ],
+                "speed" : 0,
+                "spellIds" : [ ],
                 "spellAlternatives" : [ ],
                 "features" : [ {
-                  "level" : 4,
-                  "name" : "Pact Weaver: Counterplay",
-                  "description" : "Once per short rest, use your reaction when a visible enemy begins casting within 60 ft to identify its visible target or area with an Arcana check set by the GM. This does not interrupt the spell. The GM resolves this feat; the app tracks its rest use.",
+                  "level" : 3,
+                  "name" : "Shadowblade: Momentum",
+                  "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
                   "subclass" : null,
                   "usesPerRest" : 1,
                   "shortRestRecharge" : true
@@ -36048,168 +36674,163 @@
           },
           "stats" : {
             "custom" : { },
-            "strength" : 8,
+            "strength" : 15,
             "dexterity" : 15,
             "constitution" : 15,
             "intelligence" : 8,
             "wisdom" : 8,
-            "charisma" : 15
+            "charisma" : 8
           },
           "items" : [ {
-            "itemId" : "arcane-focus",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "dagger",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "item-diary-of-a-friend",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "leather-armor",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "sinne-seam-dagger",
+            "itemId" : "sixfold-judgment",
             "condition" : {
               "durability" : 100
             },
             "equipped" : true,
             "quantity" : 1
+          }, {
+            "itemId" : "monokatana",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "studded-leather",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "gravitic-anchor-node",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "thieves-tools",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "manacles",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "potion-of-healing",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "sixfold-cartridge",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 9
+          }, {
+            "itemId" : "coin",
+            "condition" : {
+              "durability" : 0
+            },
+            "equipped" : false,
+            "quantity" : 6
+          }, {
+            "itemId" : "item-7d80a155",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "item-bread-crumbs",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "halberd",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "item-umbrella",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
           } ],
           "spells" : [ {
-            "spellId" : "armor-of-agathys",
-            "rank" : 1,
+            "spellId" : "gravity-round",
+            "rank" : 0,
             "active" : true
           }, {
-            "spellId" : "charm-person",
-            "rank" : 1,
+            "spellId" : "crushing-shot",
+            "rank" : 0,
             "active" : true
           }, {
-            "spellId" : "counterspell",
-            "rank" : 1,
+            "spellId" : "singularity-round",
+            "rank" : 0,
             "active" : true
           }, {
-            "spellId" : "eldritch-blast",
-            "rank" : 1,
+            "spellId" : "anchor-round",
+            "rank" : 0,
             "active" : true
           }, {
-            "spellId" : "hex",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "mage-hand",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "minor-illusion",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "misty-step",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "scorching-ray",
-            "rank" : 2,
-            "active" : true
-          }, {
-            "spellId" : "suggestion",
-            "rank" : 1,
+            "spellId" : "gravitic-shift",
+            "rank" : 0,
             "active" : true
           } ],
-          "personalFeatures" : [ {
-            "level" : 1,
-            "name" : "Shapechanger",
-            "description" : "Action: change your appearance and voice into a humanoid you have seen, or return to your true form. You retain your statistics, size and basic arrangement of limbs; your clothes and equipment do not change. The form lasts until you change it again or die. Resolve disguises and checks with the GM.",
-            "subclass" : "",
-            "usesPerRest" : 0,
-            "shortRestRecharge" : false
-          }, {
-            "level" : 3,
-            "name" : "Pact of the Blade — the Seam Blade",
-            "description" : "Action: შექმენი pact weapon ცარიელ ხელში. მისი ჩვეული სახე ახლა Seam Dagger-ია: წვრილი ხანჯალი, თითქოს ორი ერთმანეთში ჩამჯდარი ლითონის ფენა აქვს. Dagger: finesse, light, thrown 20/60 ft; attack +6, damage 1d4+3 piercing არსებული DEX 16-ით. Pact weapon proficiency გაქვს და resistance/immunity-ის დასაძლევად magical-ად ითვლება; +1 attack/damage bonus არ აქვს. Thirsting Blade Attack action-ზე pact weapon-ით ორ შეტევას გაძლევს. სხვა melee ფორმის გამოძახება ისევ შესაძლებელია Pact of the Blade-ის წესებით; rapier ფორმის ზიანია 1d8+3, მაგრამ ინვენტარში მეორე ერთდროული pact weapon არ ჩნდება. იარაღი ქრება დათხოვნის, ახლის შექმნის ან სიკვდილისას; ასევე თუ შენგან 5 ft-ზე შორს 1 წუთზე მეტხანს რჩება. ერთსაათიანი ritual-ით შესაფერისი magical weapon-ის მიბმაც შეიძლება. გამოძახება და ფორმის შეცვლა ხელით მართე.",
-            "subclass" : "",
-            "usesPerRest" : 0,
-            "shortRestRecharge" : false
-          }, {
-            "level" : 5,
-            "name" : "Eldritch Invocations",
-            "description" : "Agonizing Blast: add CHA modifier (+3) to each Eldritch Blast beam that hits. Thirsting Blade: attack twice instead of once when taking the Attack action with your pact weapon. Devil's Sight: see normally in darkness, magical or otherwise, within 120 ft. Resolve manually.",
-            "subclass" : "",
-            "usesPerRest" : 0,
-            "shortRestRecharge" : false
-          }, {
-            "level" : 5,
-            "name" : "გარიგება \"მასთან\"",
-            "description" : "ერთხელ ხანგრძლივ დასვენებაზე, შენს სვლაზე ნებაყოფლობით მიიღე ერთი საჩუქარი, მონიშნე 1 ვალი და აირჩიე სხვა ცოცხალი, შენ მიმართ არამტრული არსება, რომელსაც ხედავ 30 ფუტში: ის იღებს 1d6 ფსიქიკურ ზიანს გადარჩენის სროლის გარეშე. წინასწარ იცი მსხვერპლი და ფასი; თუ ასეთი არსება არ არის, საჩუქარს ვერ იღებ. pact slot არ იხარჯება. 1) Eldritch Blast-ის მინიმუმ ერთი სხივის მოხვედრისას ერთ მოხვედრილ სამიზნეს დაუმატე 2d8 force ზიანი და გადაადგილე 10 ფუტამდე. 2) ბონუს მოქმედებით ერთი ხილული არსება 30 ფუტში იღებს 2d8+3 დროებით HP-ს და შეუძლია რეაქციით გადაადგილდეს სიჩქარის ნახევრამდე opportunity attack-ების გარეშე. 3) ბონუს მოქმედებით შეცვალე გარეგნობა შენი Shapechanger-ის წესებით და 1 წუთით მიიღე advantage ამ შენიღბვასთან დაკავშირებულ Deception check-ებზე. ვალის რაოდენობა იცი. მესამე ვალზე ნებისმიერი მეხსიერების წყვეტა მხოლოდ შენი თანხმობით ხდება. ვალის 1-ით შესამცირებლად ხანგრძლივ დასვენებამდე ითამაშე მტკივნეული სიმართლის გამხელის ან დაზიანებული ნდობის აღდგენის სცენა; მაქსიმუმ ერთხელ თითო ხანგრძლივ დასვენებაზე. საჩუქარი, ვალი და ზიანი ხელით აღრიცხეთ.",
-            "subclass" : "",
-            "usesPerRest" : 1,
-            "shortRestRecharge" : false
-          } ],
-          "passwordHash" : "5f8bdfac52b1fee28e295d50a0443476e9774dbeb0bc055fa8d3318dd2ad0432",
-          "passwordSalt" : "a52f86319a7b86f45d27e429a7c11bfe",
-          "imagePath" : "images/players/player-sinne.png",
-          "playerName" : "Mariami",
-          "ownerUsername" : "",
-          "description" : "",
-          "maxHitPoints" : 50,
-          "currentHitPoints" : 50,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "activeEffects" : [ {
-            "effectId" : "effect-missing-right-shoe",
-            "name" : "missing right shoe",
-            "description" : "",
-            "remainingRounds" : 999,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "GM",
-            "expired" : false
-          } ],
-          "subclass" : "The Great Old One",
-          "backstory" : "ამნეზია აქვს, თუმცა ეს დიდად არ აწუხებს, სხვებს დიდად არ ენდობა. \nchaotic neutral\nსისუსტე: Can I pet the dawg? - აქვს disadvantage on perception checks, she's oblivious to dangers\nძლიერი მხარე: კარგი მატყუარაა.\nმისია:  ცდილობს გაიგოს ვინაა, აღიდგნოს დაკარგული მოგონებები",
-          "castingResource" : null,
-          "spellSlots" : [ {
-            "level" : 3,
-            "max" : 2,
-            "current" : 0
-          } ],
+          "personalFeatures" : [ ],
+          "passwordHash" : "582a43d1cbf7869c8f1212daae37b62240094b852fba7a308b1ac70ac6b124b6",
+          "passwordSalt" : "f9226bf80dfa0ef0e7764b8e7ccc8084",
+          "imagePath" : "images/players/player-cucaratcha.jpg",
+          "playerName" : "Zura",
+          "ownerUsername" : "Bandzuka",
+          "description" : "Bounty hunter. Always finishes the hunt.\n\nResources:\n• Mana = revolver chambers. Max 6. Every Sixfold Judgment shot costs 1. The Gravitic Anchor Node refills all six chambers during a long rest — nobody can reload it by hand.\n• Singularity Round: 1 per short rest. Anchor Round: 1 per long rest. Their cooldowns are set to 100 rounds so they cannot be used again in the same fight.\n• Shot save DC (Crushing / Anchor): 13 (8 + proficiency 3 + DEX 2).\n\nPassives:\n• Sneak Attack (rogue, level 5): +3d6 once per turn on a hit with advantage, or when an ally stands next to the target.\n• Bound artifacts — the Sixfold Judgment only works while the Gravitic Anchor Node is attached to him.",
+          "maxHitPoints" : 45,
+          "currentHitPoints" : 29,
+          "maxMana" : 7,
+          "currentMana" : 7,
+          "activeEffects" : [ ],
+          "subclass" : "",
+          "backstory" : "A bounty hunter in a world ruled by corporations, cybernetics, and violence. He wasn't famous, nor was he trying to be. He took contracts, tracked his targets, collected his pay, and moved on to the next job. He had a reputation for always finishing the hunt, whether it took days or months.\n\nWhen he crossed into this world, his cybernetics transformed into magical relics. His combat implants became enchanted artifacts, his trusted revolver still carried only six bullets — though no one could explain how they replenished after periods of rest — and his monokatana stayed the same.\n\nThe implant along his spine changed the most. What had once been a military combat enhancement became a magical relic known as the Gravitic Anchor Node — a spine of arcane cores that lets him manipulate his own gravity. He doesn't understand how it works, only that it feels strangely familiar, as if technology and magic are simply different languages describing the same thing.\n\n\nThe Sixfold Judgment\n\nAn ancient-looking six-shot revolver forged from black steel and silver, covered in faint violet runes. It has no visible mechanism for loading ammunition.\n\nThe revolver is magically linked to the Gravitic Anchor Node implanted along Kael's spine. The Node condenses gravitational energy into six arcane rounds, one for each chamber.\n\nWhen fires, the Node expends part of its stored power to create devastating gravity-infused bullets.\n\nPossible Shot Effects (choose one when firing)\nGravity Round – A normal shot that deals force damage instead of piercing.\nCrushing Shot – The bullet erupts with gravitational force, forcing the target to make a Strength save or be knocked prone.\nSingularity Round (1/Short Rest) – On impact, a tiny gravity well forms, pulling creatures within 10 feet toward the target before collapsing.\nAnchor Round (1/Long Rest) – The target's gravity dramatically increases, reducing its movement speed to 0 until the start of your next turn if it fails a Strength save.\nReloading\n\nThe revolver can never hold more than six rounds. ",
+          "castingResource" : "MANA",
+          "spellSlots" : [ ],
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : { },
           "skills" : {
             "custom" : { },
             "acrobatics" : 3,
-            "animalHandling" : -1,
-            "arcana" : 1,
-            "athletics" : 0,
-            "deception" : 3,
+            "animalHandling" : -2,
+            "arcana" : 0,
+            "athletics" : 2,
+            "deception" : 1,
             "history" : -1,
-            "insight" : 3,
-            "intimidation" : 0,
+            "insight" : 1,
+            "intimidation" : 1,
             "investigation" : 2,
             "medicine" : -1,
-            "nature" : -1,
-            "perception" : -1,
-            "performance" : 3,
-            "persuasion" : 3,
-            "religion" : -1,
-            "sleightOfHand" : 3,
+            "nature" : -3,
+            "perception" : 2,
+            "performance" : 0,
+            "persuasion" : 0,
+            "religion" : -2,
+            "sleightOfHand" : 5,
             "stealth" : 3,
             "survival" : -1
           },
@@ -36241,790 +36862,17 @@
           "featureUses" : { }
         },
         "position" : {
-          "x" : 6,
-          "y" : 12
+          "x" : 10,
+          "y" : 11
         },
         "inventory" : [ ],
         "combat" : {
-          "maxHitPoints" : 50,
-          "currentHitPoints" : 50,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "gold" : 0,
-          "initiative" : 22,
-          "deathSaveFailures" : 0,
-          "downed" : false,
-          "dead" : false,
-          "xpRewardId" : null,
-          "killXp" : 0,
-          "sharedXp" : 0,
-          "downedByPlayerId" : null,
-          "xpRewardResolved" : false,
-          "conditions" : [ ],
-          "notes" : null,
-          "inInitiative" : true,
-          "walkSpeed" : 35,
-          "climbSpeed" : 0,
-          "swimSpeed" : 0,
-          "speedSeeded" : true,
-          "movementUsed" : 0,
-          "deathSaveSuccesses" : 0,
-          "activeEffects" : [ {
-            "effectId" : "effect-missing-right-shoe",
-            "name" : "missing right shoe",
-            "description" : "",
-            "remainingRounds" : 999,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "GM",
-            "expired" : false
-          } ],
-          "cooldowns" : { },
-          "featureUses" : { },
-          "resistances" : [ ],
-          "enduranceFeature" : null,
-          "featureSpeedBonus" : 5,
-          "castingResource" : null,
-          "spellSlots" : [ {
-            "level" : 3,
-            "max" : 2,
-            "current" : 0
-          } ],
-          "actingThisRound" : true
-        },
-        "instanceId" : "c673e730-db7d-4bc7-8f86-465996c6bf20",
-        "symbol" : "P"
-      } ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ {
-        "kind" : "player",
-        "character" : {
-          "id" : "darius",
-          "name" : "Darius",
-          "classId" : "barbarian",
-          "raceId" : "human",
-          "level" : 6,
-          "xp" : 110,
-          "upgrades" : {
-            "earned" : 5,
-            "unlocks" : [ {
-              "classId" : "barbarian",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-1",
-              "branchName" : "Berserker",
-              "name" : "Danger Sense",
-              "description" : "Already included in this character. No rewards are applied again.\nDanger Sense\nAlready included in this character. No rewards are applied again.\nKnown abilities: iron fist",
-              "imagePath" : null,
-              "level" : 2,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "barbarian",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-2",
-              "branchName" : "Berserker",
-              "name" : "Primal Path",
-              "description" : "Already included in this character. No rewards are applied again.\nPrimal Path\nAlready included in this character. No rewards are applied again.\nKnown abilities: iron fist",
-              "imagePath" : null,
-              "level" : 3,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "barbarian",
-              "sourceRequestId" : null,
-              "nodeId" : "resilience-1",
-              "branchName" : "Iron Fist",
-              "name" : "Reckless Attack",
-              "description" : "Already included in this character. No rewards are applied again.\nReckless Attack\nAlready included in this character. No rewards are applied again.\nKnown abilities: iron fist",
-              "imagePath" : null,
-              "level" : 4,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "barbarian",
-              "sourceRequestId" : null,
-              "nodeId" : "resilience-2",
-              "branchName" : "Iron Fist",
-              "name" : "Extra Attack",
-              "description" : "Already included in this character. No rewards are applied again.\nExtra Attack\nAlready included in this character. No rewards are applied again.\nKnown abilities: iron fist",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "barbarian",
-              "sourceRequestId" : null,
-              "nodeId" : "resilience-5",
-              "branchName" : "Iron Fist",
-              "name" : "Iron Fist: Last Stand",
-              "description" : "Once per long rest, use your reaction when you fail a save against being knocked prone to reroll it. You must keep the new result. The GM resolves this feat; the app tracks its rest use.",
-              "imagePath" : null,
-              "level" : 6,
-              "historical" : false,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 5,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ {
-                  "level" : 4,
-                  "name" : "Iron Fist: Last Stand",
-                  "description" : "Once per long rest, use your reaction when you fail a save against being knocked prone to reroll it. You must keep the new result. The GM resolves this feat; the app tracks its rest use.",
-                  "subclass" : null,
-                  "usesPerRest" : 1,
-                  "shortRestRecharge" : false
-                } ]
-              }
-            } ]
-          },
-          "stats" : {
-            "custom" : { },
-            "strength" : 15,
-            "dexterity" : 15,
-            "constitution" : 15,
-            "intelligence" : 8,
-            "wisdom" : 8,
-            "charisma" : 8
-          },
-          "items" : [ {
-            "itemId" : "backpack",
-            "condition" : {
-              "durability" : 0
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "coin",
-            "condition" : {
-              "durability" : 0
-            },
-            "equipped" : false,
-            "quantity" : 7
-          }, {
-            "itemId" : "item-rune-bracelet",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "waterskin",
-            "condition" : {
-              "durability" : 0
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : null,
-            "condition" : {
-              "durability" : 0
-            },
-            "equipped" : false,
-            "quantity" : 1
-          } ],
-          "spells" : [ {
-            "spellId" : "iron fist",
-            "rank" : 0,
-            "active" : true
-          } ],
-          "personalFeatures" : [ {
-            "level" : 5,
-            "name" : "Brawler's Throw",
-            "description" : "Pit Guardian training. Nonmagical; replaces one attack, never grants an extra attack. Choose a creature Darius already grapples within 5 ft, no more than one size larger. Contest Athletics against its Athletics or Acrobatics. On success, release it, move it up to 5 ft into a clear supported space, and knock it prone. On failure it stays grappled. No damage, collision damage or forced ledge drop. The GM rolls the contest, moves the token and marks prone.",
-            "subclass" : "",
-            "usesPerRest" : 0,
-            "shortRestRecharge" : false
-          }, {
-            "level" : 5,
-            "name" : "Pit Guardian",
-            "description" : "Nonmagical reaction before an attack roll against another conscious ally within 5 ft: that ally gains +2 AC until the start of their next turn. Darius must be conscious. Once per short rest. No extra attack or damage. The GM confirms ally status and reaction availability; the app applies the AC effect and tracks the use.",
-            "subclass" : "",
-            "usesPerRest" : 0,
-            "shortRestRecharge" : false
-          } ],
-          "passwordHash" : "2164f6f85dc696d3a1129f64bb74d8cd50271239086efece368e1e099f24ae12",
-          "passwordSalt" : "5f8720ae6cf06ab7b4174cdcbaa00da4",
-          "imagePath" : "images/players/darius.jpeg",
-          "playerName" : "nika",
-          "ownerUsername" : "",
-          "description" : "მაღალი, დაკუნთული ბარბაროსი მეომარი რომელიც არ ატარებს აბჯარს.\n\nRage (გაცოფება) არის ბარბარიანის მთავარი უნარი. ის იძლევა ძალას და გამძლეობას ბრძოლაში.\n\nროგორ ჩაირთვება\n\nჩართავ bonus action-ით, ანუ დარტყმასაც მოასწრებ იმავე სვლაში.\nგრძელდება 1 წუთი (10 რაუნდი).\nდარიუსს 5 დონეზე აქვს 3 გამოყენება, რომლებიც long rest-ზე ბრუნდება.\n\nრას იძლევა\n\nAdvantage Strength-ის შემოწმებებსა და Strength save-ებზე.\n+2 damage ყოველ ახლო ბრძოლის დარტყმაზე Strength-ით. მუშტის დარტყმაზეც მუშაობს.\nწინააღმდეგობა (resistance) bludgeoning, piercing და slashing damage-ის მიმართ. ეს ნიშნავს, რომ ამ ტიპის დაზიანებას ნახევარს იღებს.\n\nრა არ შეუძლია გაცოფებისას\n\nსპელების ჩამოგდება და კონცენტრაცია.\nმძიმე აბჯარში ვერ ჩაირთვება. დარიუსს აბჯარი არ აქვს, ამიტომ პრობლემა არ არის.\n\nროდის წყდება\n\n1 წუთის შემდეგ.\nთუ გონებას დაკარგავ.\nთუ შენი სვლის ბოლოს არავისთვის გიტევია და თავად არ დაგიზიანებიათ ბოლო სვლის შემდეგ. ამიტომ ბრძოლაში მაინც უნდა იყო აქტიური.\nშეგიძლია bonus action-ით თავადაც გამორთო.\n\nშეუიარაღებელი ხელით შეტევა მასზე ყოველთვის მოქმედებს როგორც 1d4\n\nშეუძლია მოქმედების გამოყენების გარეშე, ბონუს მოქმედებით გააკავოს მოწინააღმდეგე.",
-          "maxHitPoints" : 59,
-          "currentHitPoints" : 50,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "activeEffects" : [ {
-            "effectId" : "effect-missing-right-shoe",
-            "name" : "missing right shoe",
-            "description" : "",
-            "remainingRounds" : 999,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "GM",
-            "expired" : false
-          } ],
-          "subclass" : "",
-          "backstory" : "",
-          "castingResource" : null,
-          "spellSlots" : [ ],
-          "knownBlueprints" : [ ],
-          "furnaceFuel" : 0,
-          "cooldowns" : { },
-          "skills" : {
-            "custom" : { },
-            "acrobatics" : 2,
-            "animalHandling" : -1,
-            "arcana" : -1,
-            "athletics" : 5,
-            "deception" : -1,
-            "history" : -1,
-            "insight" : -1,
-            "intimidation" : 5,
-            "investigation" : -1,
-            "medicine" : -1,
-            "nature" : -1,
-            "perception" : -1,
-            "performance" : -1,
-            "persuasion" : 1,
-            "religion" : -1,
-            "sleightOfHand" : 0,
-            "stealth" : -2,
-            "survival" : 1
-          },
-          "sheet" : {
-            "armorClass" : null,
-            "initiative" : null,
-            "speed" : null,
-            "proficiencyBonus" : null,
-            "passivePerception" : null,
-            "savingThrowProficiencies" : [ ],
-            "hitDice" : "",
-            "temporaryHitPoints" : 0,
-            "deathSaveSuccesses" : 0,
-            "deathSaveFailures" : 0,
-            "inspiration" : false,
-            "spellcastingAbility" : null,
-            "spellSaveDc" : null,
-            "spellAttackBonus" : null,
-            "copper" : 0,
-            "silver" : 0,
-            "electrum" : 0,
-            "gold" : 0,
-            "platinum" : 0,
-            "extraAttacks" : [ ],
-            "proficienciesAndLanguages" : "",
-            "extraFeatures" : "",
-            "notes" : ""
-          },
-          "featureUses" : { }
-        },
-        "position" : {
-          "x" : 7,
-          "y" : 12
-        },
-        "inventory" : [ ],
-        "combat" : {
-          "maxHitPoints" : 59,
-          "currentHitPoints" : 50,
-          "maxMana" : 0,
-          "currentMana" : 0,
+          "maxHitPoints" : 45,
+          "currentHitPoints" : 29,
+          "maxMana" : 7,
+          "currentMana" : 7,
           "gold" : 0,
           "initiative" : 6,
-          "deathSaveFailures" : 0,
-          "downed" : false,
-          "dead" : false,
-          "xpRewardId" : null,
-          "killXp" : 0,
-          "sharedXp" : 0,
-          "downedByPlayerId" : null,
-          "xpRewardResolved" : false,
-          "conditions" : [ ],
-          "notes" : null,
-          "inInitiative" : true,
-          "walkSpeed" : 45,
-          "climbSpeed" : 0,
-          "swimSpeed" : 0,
-          "speedSeeded" : true,
-          "movementUsed" : 0,
-          "deathSaveSuccesses" : 0,
-          "activeEffects" : [ {
-            "effectId" : "effect-missing-right-shoe",
-            "name" : "missing right shoe",
-            "description" : "",
-            "remainingRounds" : 999,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "GM",
-            "expired" : false
-          } ],
-          "cooldowns" : { },
-          "featureUses" : { },
-          "resistances" : [ ],
-          "enduranceFeature" : null,
-          "featureSpeedBonus" : 15,
-          "castingResource" : null,
-          "spellSlots" : [ ],
-          "actingThisRound" : true
-        },
-        "instanceId" : "4350c61a-88cd-4206-9acc-493947971a5f",
-        "symbol" : "P"
-      } ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ {
-        "kind" : "player",
-        "character" : {
-          "id" : "player-balthazar",
-          "name" : "Balthazar Boombard",
-          "classId" : "bard",
-          "raceId" : "human",
-          "level" : 6,
-          "xp" : 90,
-          "upgrades" : {
-            "earned" : 5,
-            "unlocks" : [ {
-              "classId" : "bard",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-1",
-              "branchName" : "Virtuoso",
-              "name" : "Virtuoso 1",
-              "description" : "A step along the Virtuoso path. The GM can replace these starter rewards.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "bard",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-2",
-              "branchName" : "Virtuoso",
-              "name" : "Bard College",
-              "description" : "Already included in this character. No rewards are applied again.\nBard College\nAlready included in this character. No rewards are applied again.\nKnown abilities: charm-person, dispel-magic, faerie-fire, haste, healing-word, hold-person, invisibility, light, minor-illusion, prestidigitation, thunderwave",
-              "imagePath" : null,
-              "level" : 3,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "bard",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-3",
-              "branchName" : "Virtuoso",
-              "name" : "Virtuoso: Momentum",
-              "description" : "Already included in this character. No rewards are applied again.\n\nAlready included in this character. No rewards are applied again.\nKnown abilities: charm-person, dispel-magic, faerie-fire, haste, healing-word, hold-person, invisibility, light, minor-illusion, prestidigitation, thunderwave",
-              "imagePath" : null,
-              "level" : 4,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "bard",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-6",
-              "branchName" : "Virtuoso",
-              "name" : "Virtuoso: Counterplay",
-              "description" : "Already included in this character. No rewards are applied again.\n\nAlready included in this character. No rewards are applied again.\nKnown abilities: charm-person, dispel-magic, faerie-fire, haste, healing-word, hold-person, invisibility, light, minor-illusion, prestidigitation, thunderwave",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "bard",
-              "sourceRequestId" : null,
-              "nodeId" : "resilience-1",
-              "branchName" : "Inspiring Voice",
-              "name" : "Song of Rest (d6)",
-              "description" : "Allies who spend Hit Dice during a short rest while hearing you regain an extra d6 hit points.\nClass training. If already known, this feat is not granted a second time.",
-              "imagePath" : null,
-              "level" : 6,
-              "historical" : false,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 3,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ "mage-hand" ],
-                "spellAlternatives" : [ ],
-                "features" : [ {
-                  "level" : 2,
-                  "name" : "Song of Rest (d6)",
-                  "description" : "Allies who spend Hit Dice during a short rest while hearing you regain an extra d6 hit points.\nClass training. If already known, this feat is not granted a second time.",
-                  "subclass" : null,
-                  "usesPerRest" : 0,
-                  "shortRestRecharge" : false
-                } ]
-              }
-            } ]
-          },
-          "stats" : {
-            "custom" : { },
-            "strength" : 8,
-            "dexterity" : 15,
-            "constitution" : 15,
-            "intelligence" : 8,
-            "wisdom" : 8,
-            "charisma" : 15
-          },
-          "items" : [ {
-            "itemId" : "thunderkiss",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "rapier",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "leather-armor",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "dagger",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "component-pouch",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "potion-of-healing",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "waterskin",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "coin",
-            "condition" : {
-              "durability" : 0
-            },
-            "equipped" : false,
-            "quantity" : 9
-          }, {
-            "itemId" : "item-35669c0a",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "item-zauberflute",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          } ],
-          "spells" : [ {
-            "spellId" : "minor-illusion",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "prestidigitation",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "light",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "charm-person",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "healing-word",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "thunderwave",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "faerie-fire",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "invisibility",
-            "rank" : 2,
-            "active" : true
-          }, {
-            "spellId" : "hold-person",
-            "rank" : 2,
-            "active" : true
-          }, {
-            "spellId" : "haste",
-            "rank" : 3,
-            "active" : true
-          }, {
-            "spellId" : "dispel-magic",
-            "rank" : 3,
-            "active" : false
-          }, {
-            "spellId" : "mage-hand",
-            "rank" : 0,
-            "active" : true
-          } ],
-          "personalFeatures" : [ {
-            "level" : 5,
-            "name" : "Encore",
-            "description" : "Nonmagical reaction immediately after another conscious ally within 60 ft spends Balthazar's Bardic Inspiration die and succeeds on the roll. The ally regains HP equal to Balthazar's proficiency bonus (3 at level 5). Once per short rest. The ally must hear him. Remove his Inspiration marker when resolving this; the GM confirms the successful roll and reaction. Cannot revive a downed ally. No spell slots, extra actions or Inspiration uses are refunded.",
-            "subclass" : "",
-            "usesPerRest" : 0,
-            "shortRestRecharge" : false
-          } ],
-          "passwordHash" : "06777036393a849e931d9b6b9019376fff572f6573469cd76574577cd84d17ce",
-          "passwordSalt" : "f80789435dd3c2bdbbc1932dd993d9d6",
-          "imagePath" : "images/players/player-balthazar.png",
-          "playerName" : "Lado",
-          "ownerUsername" : "Ladorman",
-          "description" : "",
-          "maxHitPoints" : 48,
-          "currentHitPoints" : 39,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "activeEffects" : [ ],
-          "subclass" : "",
-          "backstory" : "ბალთაზარი ერთ დროს უბრალო ტავერნის მუსიკოსი იყო, სანამ შემთხვევით მისი ლუთნა ალქიმიკოსის ექსპერიმენტთან ერთად არ აფეთქდა. ადამიანების უმეტესობა ასეთ მოვლენას ტრაგედიად ჩათვლიდა. ბალთაზარმა კარიერად აქცია.\n\nმას შემდეგ ის ქალაქიდან ქალაქში მოგზაურობს, სადაც მისი წარმოდგენები თანაბრად ცნობილია როგორც საოცარი მუსიკით, ისე მცირე მასშტაბის კატასტროფებით. მისი ჯადოსნური ლუთნა, “Thunderkiss”, მელოდიებს აფეთქებად ენერგიად გარდაქმნის, ხოლო მისი ხიბლი იმდენად ძლიერია, რომ მტრები ხშირად ხვდებიან, რომ მოჯადოებულები არიან მხოლოდ მაშინ, როცა უკვე გვიანაა.\n\nხალხი მას სხვადასხვა სახელით იცნობს: ოქროსხმა, ფეიერვერკების მეფე, მუსიკალური უბედურება. თავად კი მხოლოდ ერთს ამბობს:\n\n“თუ კონცერტის შემდეგ არაფერი აფეთქდა, ესე იგი საკმარისად კარგად არ დამიკრავს.” \uD83C\uDFB5\uD83D\uDCA5",
-          "castingResource" : null,
-          "spellSlots" : [ {
-            "level" : 1,
-            "max" : 4,
-            "current" : 4
-          }, {
-            "level" : 2,
-            "max" : 3,
-            "current" : 2
-          }, {
-            "level" : 3,
-            "max" : 3,
-            "current" : 3
-          } ],
-          "knownBlueprints" : [ ],
-          "furnaceFuel" : 0,
-          "cooldowns" : {
-            "strength" : 0,
-            "dexterity" : 0,
-            "constitution" : 0,
-            "intelligence" : 0,
-            "wisdom" : 0,
-            "charisma" : 0
-          },
-          "skills" : {
-            "custom" : { },
-            "acrobatics" : 2,
-            "animalHandling" : -1,
-            "arcana" : -1,
-            "athletics" : -1,
-            "deception" : 3,
-            "history" : -1,
-            "insight" : -1,
-            "intimidation" : 1,
-            "investigation" : 1,
-            "medicine" : -1,
-            "nature" : -1,
-            "perception" : 2,
-            "performance" : 5,
-            "persuasion" : 5,
-            "religion" : -1,
-            "sleightOfHand" : 1,
-            "stealth" : 0,
-            "survival" : -1
-          },
-          "sheet" : {
-            "armorClass" : null,
-            "initiative" : null,
-            "speed" : null,
-            "proficiencyBonus" : null,
-            "passivePerception" : null,
-            "savingThrowProficiencies" : [ ],
-            "hitDice" : "",
-            "temporaryHitPoints" : 0,
-            "deathSaveSuccesses" : 0,
-            "deathSaveFailures" : 0,
-            "inspiration" : false,
-            "spellcastingAbility" : null,
-            "spellSaveDc" : null,
-            "spellAttackBonus" : null,
-            "copper" : 0,
-            "silver" : 0,
-            "electrum" : 0,
-            "gold" : 0,
-            "platinum" : 0,
-            "extraAttacks" : [ ],
-            "proficienciesAndLanguages" : "",
-            "extraFeatures" : "",
-            "notes" : ""
-          },
-          "featureUses" : {
-            "strength" : 0,
-            "dexterity" : 0,
-            "constitution" : 0,
-            "intelligence" : 0,
-            "wisdom" : 0,
-            "charisma" : 0
-          }
-        },
-        "position" : {
-          "x" : 8,
-          "y" : 12
-        },
-        "inventory" : [ ],
-        "combat" : {
-          "maxHitPoints" : 48,
-          "currentHitPoints" : 39,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "gold" : 0,
-          "initiative" : 5,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -37043,44 +36891,78 @@
           "movementUsed" : 0,
           "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
-          "cooldowns" : {
-            "strength" : 0,
-            "dexterity" : 0,
-            "constitution" : 0,
-            "intelligence" : 0,
-            "wisdom" : 0,
-            "charisma" : 0
-          },
-          "featureUses" : {
-            "strength" : 0,
-            "dexterity" : 0,
-            "constitution" : 0,
-            "intelligence" : 0,
-            "wisdom" : 0,
-            "charisma" : 0
-          },
+          "cooldowns" : { },
+          "featureUses" : { },
           "resistances" : [ ],
           "enduranceFeature" : null,
           "featureSpeedBonus" : 0,
-          "castingResource" : null,
-          "spellSlots" : [ {
-            "level" : 1,
-            "max" : 4,
-            "current" : 4
-          }, {
-            "level" : 2,
-            "max" : 3,
-            "current" : 2
-          }, {
-            "level" : 3,
-            "max" : 3,
-            "current" : 3
-          } ],
+          "castingResource" : "MANA",
+          "spellSlots" : [ ],
           "actingThisRound" : true
         },
-        "instanceId" : "78adb7c8-aa2c-44fb-9c47-28bd7cce2491",
+        "instanceId" : "9ac6a03f-8f41-4374-b7d7-5206e86f4d38",
         "symbol" : "P"
       } ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -37435,16 +37317,7 @@
           "currentHitPoints" : 33,
           "maxMana" : 0,
           "currentMana" : 0,
-          "activeEffects" : [ {
-            "effectId" : "effect-sharpened-scimitar",
-            "name" : "sharpened scimitar",
-            "description" : null,
-            "remainingRounds" : 1,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "GM",
-            "expired" : false
-          } ],
+          "activeEffects" : [ ],
           "subclass" : "",
           "backstory" : "\n\nთვითმარქვია რაინდი\n\nჩემი ყველაზე ძველი მოგონება არც სახეა და არც ხმა.\n\nქვის სიცივეა.\n\nმახსოვს, როგორ გამეღვიძა ბაზრის ხის დახლების ქვეშ. წვიმის წვეთები დამპალი ფიცრებიდან მეცემოდა, ხოლო ხელში იმდენად მაგრად ვიყავი ჩაფრენილი გამხმარ პურის ნაჭერს, რომ თითებიდან სისხლი მდიოდა. არ მახსოვს, ვინ მომცა ის პური. არც ის მახსოვს, საერთოდ მყავდა თუ არა ვინმე.\n\n„ეს ქალაქი“ სამეფოს ერთ-ერთი უდიდესი და უძლიერესი ქალაქი იყო. მთელი სამეფოს მბრძანებელი მეფე გახლდათ, მაგრამ თავად „ამ ქალაქს“ გრაფი მართავდა. მის სიტყვას ამ ქალაქში მხოლოდ მეფის ნება აღემატებოდა.\n\nთუმცა „აქაურობა“ ერთი ქალაქი არ ყოფილა.\n\nის ორ სხვადასხვა სამყაროდ იყო გაყოფილი.\n\nგარე წრე ეკუთვნოდა უბრალო ხალხს — გლეხებს, ხელოსნებს, ვაჭრებს, მჭედლებს, მათხოვრებს, ქურდებსა და ჩვენნაირ მიტოვებულ ბავშვებს. აქ ცხოვრება ყოველდღიური ბრძოლა იყო. შიმშილი, სიცივე და ძალადობა ჩვეულებრივი ამბავი გახლდათ.\n\nმაღალი ქვის გალავნის მიღმა კი შიდა წრე იწყებოდა.\n\nიქ ცხოვრობდნენ დიდგვაროვნები, რაინდები, მხედართმთავრები, სწავლულები და ქალაქის ყველაზე მდიდარი ადამიანები.\n\nუბრალო ადამიანს იქ შესვლა ეკრძალებოდა.\n\nნებართვის გარეშე შესულს ზოგჯერ ხელს აჭრიდნენ.\n\nზოგჯერ ენას.\n\nხოლო ზოგჯერ... აღარავინ ხედავდა.\n\nჩვენთვის, ქუჩის ბავშვებისთვის, ის კედლები სხვა სამყაროს საზღვარს ჰგავდა.\n\nვიცოდით, რომელი მცველი აიღებდა ქრთამს და რომელი სიამოვნებით სცემდა ბავშვს მხოლოდ იმიტომ, რომ შეეძლო.\n\nარავინ ოცნებობდა.\n\nოცნება მათთვის იყო, ვისაც ხვალინდელი დღის იმედი ჰქონდა.\n\nჩვენ მხოლოდ კიდევ ერთი გათენების იმედით ვცხოვრობდით.\n\nშვიდი წლის ვიყავი, როცა ჩემი ცხოვრება სამუდამოდ შეიცვალა.\n\nპურის მოპარვის შემდეგ ქალაქის მცველები გამომეკიდნენ. ბევრი სირბილისა და ძრომიალის შემდეგ ძლივს თავი დავაღწიე მათ.\n\nშემთხვევით ნახევრად ღია კარში შევძვერი...\n\nდა როცა სირბილი შევწყვიტე, მივხვდი, სად აღმოვჩნდი.\n\nშიდა წრეში.\n\nყველაზე მაღალ ხეზე მოვკალათდი და მაშინ ფოლადის ხმაური გავიგონე.\n\nჩემ წინ უზარმაზარი საწვრთნელი ეზო გადაიშალა.\n\nათეულობით ხალხი მიდი-მოდიოდა — ოსტატები, რაინდები, ახალბედები თუ უკვე გამოცდილები. მათი წვრთნების ყურება ჩემთვის ხელოვნება იყო.\n\nიმ დღეს მზის ჩასვლამდე იქიდან ვერ მოვწყდი.\n\nიმ ღამით კი, ძილის ნაცვლად, მდინარის ნაპირზე სწორი ტოტი ვიპოვე.\n\nხელში ისე დავიჭირე, როგორც იმ რაინდებს ეჭირათ მახვილი.\n\nდა ვცადე მათი მოძრაობების გამეორება.\n\nმეორე დღეს კვლავ მივედი.\n\nმერეც.\n\nდა ამის შემდეგ თითქმის ყოველდღე.\n\nდილით გადარჩენისთვის ვიბრძოდი.\n\nსაღამოს კი საიდუმლო ადგილს ვპოულობდი, საიდანაც საწვრთნელ მოედანს ვხედავდი.\n\nღამით მარტო ვვარჯიშობდი.\n\nვაკვირდებოდი მათ და ცოდნას ვიპარავდი... თუკი ამას ქურდობა ერქვა.\n\nთვეები გადიოდა და ვერც კი მივხვდი, ისე დავიწყე მათთან ერთად სწავლა.\n\nარა მოედანზე...\n\nარამედ ჩრდილებიდან.\n\nერთ დილას კი... კარგად ვერ დავიმალე. მათი ცქერით აღფრთოვანებულს ტოტი ჩამომიტყდა და ხმაურიანად დავეცი მიწაზე.\n\nროცა გონს მოვედი, მბზინავ, მზისამრეკლავ აბჯრებში ჩაცმული ხალხი მიყურებდა.\n\nუცებ მცველები მოვარდნენ, ერთი-ორი ჭკუის სასწავლებელი მომდეს, ქეჩოში ხელი ჩამავლეს და მმართველთან მიმაბრძანეს.\n\nროცა „მმართველის“ დარბაზში შემაგდეს, სახეზე სისხლი ჩამომდიოდა.\n\nდარბაზი აღშფოთებით აივსო.\n\n„მმართველმა“ მკითხა, ვინ ვიყავი.\n\nმეც დაუმალავად ავუხსენი ყველაფერი. ისედაც ცხადი იყო, რომ გარე წრის მათხოვართან ჰქონდათ საქმე.\n\nპური რომ მექურდა, ხელს მომაჭრიდნენ, მაგრამ მე აქ მხოლოდ ცოდნას ვიძენდი.\n\nცოდნისა და ინფორმაციის ქურდობისთვის თავს მომაჭრიდნენ, ვიცოდი.\n\nდა როდესაც მმართველს ჩემი თავი ჯალათისთვის უნდა გადაეცა, მისი უფროსი ქალიშვილი წამოდგა დარბაზში.\n\nჩემს ირგვლივ ისე შემოიარა, თითქოს ცხენს ათვალიერებდა.\n\nმამამისს მიაპყრო თვალები და ბრძანებით უთხრა. პატარა საქალბატონე, რომელიც ალბათ თორმეტი წლის იქნებოდა, ამბობდა, რომ ჩემი სიკვდილი ფუჭი ხარჯი იქნებოდა. ყველა მისი თანატოლი მასზე ძლიერი იყო, ჩემთან, სუსტთან, ვარჯიში კი უფრო მეტ სიამოვნებას მოუტანდა.\n\nთავიდან მმართველმა იუარა, მაგრამ როდესაც პატარა საქალბატონემ დაჟინებით დაიწყო მოთხოვნა, სცენების დადგმა და ტირილი, რასაც მისი ათი წლის ძმაც აჰყვა, მათ სურვილს ვერც ერთი მაღალმთავარი ვერ შეეწინააღმდეგა.\n\nიმ დღიდან მმართველის ვაჟისა და ქალიშვილის პირად სავარჯიშო თოჯინად ვიქეცი. თან მათ იარაღებს ვწმენდდი, დარბაზსა და საბრძოლო მოედანს ვალაგებდი. ყველა ბინძურ საქმესაც მე მავალებდნენ.\n\nსიკვდილს გადავურჩი, მაგრამ მათი საკუთრება გავხდი და თავისუფლება დავკარგე.\n\n\nასე გადიოდა დრო.\n\nორ წელიწადში, როდესაც ათ წელს გადავაცილე, თავადიშვილმა გოგონამ მალევე დაკარგა საბრძოლო ხელოვნების მიმართ ინტერესი და ხშირად აღარ სტუმრობდა სავარჯიშო დარბაზებს. იზრდებოდა, მშვენდებოდა, უფრო ელეგანტური ხდებოდა და ნამდვილ დიდგვაროვან ქალბატონს ემსგავსებოდა.\n\nაი, მისი ძმა კი უბედურის ერთი იყო. სულ იმას მაძახებდა: „მე გიხსენი და ჩემი მონა ხარო.“ ასაკთან ერთად მწვრთნელებმა და დამკვირვებლებმა ჩემს გამეტებასაც უმატეს. ისე მიმეტებდნენ ვარჯიშის დროს, რომ ხანდახან სისხლიც მსდიოდა, მაგრამ მე, როგორც მონას, არ მქონდა უფლება დიდგვაროვანის მშვენიერი სახე შემეწითლა. მხოლოდ გაქცევის, აცილების, იარაღის დახვედრის ან არიდების უფლება მქონდა, ისიც იშვიათად.\n\nკიდევ ორ წელში, როცა მე თოთხმეტ წელს ვითვლიდი, თავადიშვილები კი უკვე თექვსმეტი-თვრამეტი წლისანი იყვნენ, მე უკვე ყველა ტაქტიკა, ყველა მოძრაობა, ყველა შეტევა, თავდასხმა თუ თავდაცვა შესწავლილი მქონდა. მაგრამ აბა ჩემს შესაძლებლობებს როგორ გავამხელდი იმ ხალხის წინაშე, ვისთვისაც არაფრის დაშავების უფლება არ მქონდა? ამიტომ, როცა დრო მქონდა, ყოველთვის მარტო ვვარჯიშობდი და დროს არ ვკარგავდი.\n\nკიდევ ორ წელიწადში უკვე ტკივილში, ფოლადსა და ოფლში გამოჭედილი ვაჟკაცი ვიყავი და არა ის ბავშვი, რომელიც პურს ქურდობდა ოდესღაც. მაგრამ მაინც, შიმშილით დაღლილს, თავისუფლად მერჩივნა ერთ დროს ხეტიალი, ვიდრე აქ მდიდრების შემხედვარე დამცირებების ატანა და გამოკეტილად ყოფნა.\n\nსახელი არ გამაჩნდა. ყველა იმას მეძახდა, რაც მოესურვებოდათ.\n\nერთხელ ახალგაზრდა ქალბატონმა მასთან ერთად ბიბლიოთეკაში მიმიწვია. ძველ ენებს სწავლობდა. ზუსტად იქ, ძველი ენის ერთ-ერთ წიგნში, ამოვიკითხე სიტყვა „ლავენოს“, რაც მოქნილებასა და თავისუფლებას ნიშნავდა და ამავდროულად განდიდებული, ჯადოქრული მიმართვით გამოირჩეოდა. არავინ იცის, ვის მიმართებაში იხმარებოდა ძველად ეს სიტყვა.\n\n„ახალგაზრდა ქალბატონმა“ ღიმილით შემომხედა და მითხრა, რომ დღეიდან ჩემი სახელი ეს სიტყვა იქნებოდა, რადგან გრძნობდა, რომ რეალურად თავისუფლება მწყუროდა.\n\nერთ დღეს, როდესაც მმართველის დარბაზები სტუმრებით აივსო და ცენტრში პატარა კოლიზეუმი მოაწყვეს მისი ქალიშვილის მეოცე დაბადების დღის აღსანიშნავად, მის უმცროს ვაჟს თავის გამოჩენა მოუნდა ყველას წინაშე. თან ახალგაზრდა ლორდი სასმელმა შეახოშიანა და მამას უთხრა, რომ სტუმრების საპატივსაცემოდ დუელი უნდა გაემართა.\n\nმეტოქედ კი მე ამომირჩია.\n\nბრძოლის დროს თავს ვიკავებდი, რომ არ მევნო მისთვის და თავი არ დამეღუპა, მაგრამ სტუმრები აშკარად უკმაყოფილოები იყვნენ.\n\nმმართველმა ბრძოლა შეგვაწყვეტინა და პირადად მომმართა, რომ მეც შესაბამისად მებრძოლა, რათა მის ვაჟს თავისი ვაჟკაცობა და ცოდნა სრულად გამოევლინა.\n\nმე იგი დავამარცხე.\n\nდა როდესაც დამარცხებულმა ჩემი თავი მოსთხოვა მამამისს ლანგარზე, მისმა უფროსმა ქალიშვილმა და ჩემმა მხსნელმა კიდევ ერთხელ გადამარჩინა. დაარწმუნა მამა, რომ მე მხოლოდ ბრძანებას ვასრულებდი და სიკვდილს არ ვიმსახურებდი.\n\nრაკი იმ დღეს მისი დაბადების დღე იყო, გამიმართლა.\n\nმაგრამ ვიცოდი, დიდი ხანი აღარ დამრჩენოდა სიცოცხლე.\n\nროცა ახალგაზრდა ლედიმ მეორედ მიხსნა სიკვდილს, სწორედ იმ დღიდან შევხედე მას სხვა თვალით. ის აღარ იყო უბრალოდ დიდგვაროვანი. ის ჩემთვის ბევრად მეტს ნიშნავდა.\n\nასე დავახლოვდით და ჩვენი უბიწო, პლატონური, წმინდა სიყვარული ძლიერდებოდა.\n\nიმ დღის შემდეგ იგი ხშირად მხვდებოდა მაშინ, როცა არავინ გვხედავდა. არასოდეს მიყურებდა, როგორც მსახურს.\n\nპირველად ცხოვრებაში ვიგრძენი, რომ ვიღაც ადამიანს მხედავდა...\n\nდა არა საკუთრებას.\n\nარასოდეს დამავიწყდება მისი სიტყვები:\n\n„შენ ხარ ჩემთვის ნამდვილი რაინდი და მებრძოლი. უბრალოდ ამ სამყაროს ამის დანახვა არ შეუძლია.“\n\nიმ დღის შემდეგ უფრო მეტხანს მეფიქრებოდა მასზე და მის სიტყვებზე.\n\nროდესაც ჩვიდმეტი წლის გავხდი, ახალგაზრდა გრაფთან შებრძოლებიდან ზუსტად ერთი წლის შემდეგ, ახალგაზრდა ლედი, რომელიც ახლახან ოცდაერთი წლის გამხდარიყო, ბოლოჯერ ვნახე, როდესაც ერთ-ერთ შუახნის თავადზე უნდა გაეთხოვებინათ, რაღა თქმა უნდა, პოლიტიკური და ქონებრივი მიზნებით.\n\nბოლოჯერ ვნახე იგი და ამ ამბით მან სიცოცხლე გამომასალმა... სიცოცხლეს, რომელიც უკვე ორჯერ შემინარჩუნა.\n\nჩვენი ბოლო შეხვედრის ღამე იყო.\n\nმან თავისი მახვილი იშიშვლა, მთვარის შუქზე მოელვარე, და ყველასგან უჩუმრად რაინდად მაკურთხა.\n\nარც დამსწრეები, არც მეფე, არც მატიანე, არც გრაფი, ლორდი თუ მსახური... ირგვლივ არავინ იყო. მხოლოდ ჩვენ და მთვარის შუქზე მოელვარე მისი მახვილი.\n\nცალ მუხლზე ჩაჩოქილს მახვილი ჯერ ერთ მხარზე შემახო, შემდეგ მეორეზე, და თან მისი ცრემლები ფოლადს ეხეთქებოდნენ.\n\nბევრი რამის ახსნა მინდოდა. მასთან ერთად გაქცევაც მინდოდა. უამრავი რამ მქონდა მისთვის ასახსნელი და გასამხელი — გრძნობები და ფიქრები.\n\nმაგრამ მან არ მომისმინა.\n\nროგორც კი რიტუალი დაასრულა, მაშინვე გაუჩინარდა.\n\n\nიმ დღის მერე ჩემს ქალბატონს უიშვიათესად ვნახულობდი. თუ გიგანტური ქალაქის ერთი ბოლოდან მეორეში თავისი გომბეშო მეუღლე მოაბრძანებდა ხოლმე მმართველთან შესახვედრად...\n\nდა ყოველ ჯერზე უფრო და უფრო სუსტი ჩანდა, უფრო და უფრო დაღლილი და განადგურებული. უემოციო, ნაცემიც კი... თვალებში სული აღარ ედგა და არც მესაუბრებოდა. თვალს ისე მარიდებდა, თითქოს არ ვარსებობდი.\n\nროდესაც თვრამეტი წლის შევიქენი, მმართველის პალატებში, როგორც იქნა, ათი წლის შრომისა და ტკივილის შემდეგ, ყველას თვალში შესაბამისი პატივისცემა მოვიპოვე და ახლა მწვრთნელად მაქციეს.\n\nმმართველს დიდად მოვწონდი, მის ვაჟს — არც ისე, მაგრამ ბავშვობის წყენები დავივიწყეთ და თითქოს ყველაფერი რიგზე იყო. გარდა იმისა, რომ ჩემს ქალბატონს ვერ ველეოდი.\n\nერთხელაც იგი აღარ დაბრუნდა. არც მამასთან, არც ძმასთან, არც ჩემთან...\n\nმხოლოდ ამბავი მოვიდა მასზე, რომ თურმე მოღალატე ცოლი გამომდგარა გომბეშო გრაფისთვის და იგი სიკვდილით დაუსჯია ქმარს.\n\nაქ კი მმართველი ვერაფერს გახდებოდა, რადგან ქალიშვილი უკვე მას აღარ ეკუთვნოდა და, თან, მოტანილი ამბების მიხედვით, ვის რაში სჭირდება მოღალატე, ანდა უნამუსო ცოლი თუ ქალიშვილი...\n\nახალგაზრდა ბატონმა თავისი დის გარდაცვალება ვერ გადაიტანა, რადგან იგი უზომოდ უყვარდა. არ სჯეროდა, რომ მისი და უბრალო მეძავად შერაცხეს და თავიდან მოიშორეს...\n\nთვითონ კი მამამისის სილაჩრე ამხეცრებდა, თან საკუთარი უსუსურობა თუ კანონით შებოჭილობა თრგუნავდა.\n\nიმ ღამეს ბედისწერა საკუთარ ხელში ავიღე.\n\nმე ხომ უბრალოდ მსახური ვარ... ლაქა, აჩრდილი, საკუთრება...\n\nმაგრამ დამატებული ამ ყველაფერს — მოულოდნელი საფრთხეც, რომელსაც ვერავინ ამოიცნობს.\n\nმივაშურე გომბეშო დიდგვაროვანის საბინადროებს ღამის ბნელში და მის პალატებს მივაგენი.\n\nარ მინდოდა მისი ძილში მოკვლა, ისე, როგორც გაიძვერებს სჩვევიათ.\n\nმინდოდა ეღიარებინა.\n\nმინდოდა ეთხოვა, რომ არ მომეკლა.\n\nიქნებ პატიებაც ეთხოვა...\n\nმაგრამ მე ჩემი გადაწყვეტილება უკვე მიღებული მქონდა.\n\nშეეღვიძა თუ არა, ყელთან ხანჯალი მივაბჯინე და საძინებლიდან მძევლად მოვიპარე.\n\nერთხანს ფხიზლად მჭირდებოდა, რომ მცველები არ გამომყოლოდნენ. შემდეგ კი კეფაში ჩარტყმით მოვთიშე და ცხენით მმართველის სასახლეში მივათრიე.\n\nშუა დარბაზში დავაგდე და მმართველს დავუძახე!\n\nმმართველი, მამა, ძმა და ყველა, ვინც ახლომახლო იმყოფებოდა, გამოცვივდნენ და გაოცებულები უყურებდნენ სეირს.\n\nლაჩარს ვაღიარებინე, რომ ცოლი ძალადობაში შემოაკვდა.\n\nგამწარებულს ისე მეჭირა ეს გაკოჭილი ნაბიჭვარი, რომ ვერც კი ინძრეოდა.\n\nვიცოდი, რომ მეფის კაცი იყო და ამ ქალაქის მმართველიც კი ვერ შემიწყალებდა ამ საქციელის შემდეგ.\n\nმაგრამ მე სიმართლე მაინტერესებდა.\n\nდა მხოლოდ სიმართლე.\n\nყელქვეშ ხანჯალი ისე ნელა გამოვუსვი, რომ ყველა ძარღვი სათითაოდ დახეთქილიყო და რაც შეიძლება ნელა მომკვდარიყო.\n\nმერე მისი ჯერ კიდევ მოფართხალე სხეული პირქვე დავანარცხე და ჩემს ბატონს მივუტრიალდი.\n\nახალგაზრდა ბატონი ჩემსკენ გამოექანა და ლახვარი მუცელში ჩამასო.\n\nიმ მომენტიდან აღარაფერი მახსოვს.\n\nროგორც გავიგე, ჩემი თავი გვამად გამოუცხადებიათ, ახალგაზრდა ბატონი კი გმირად შეურაცხავთ.\n\nმე მკვდრების ეტლით, სასახლის უკანა კარიდან, მთლიანად ქალაქის გარეთ გამომათრიეს...\n\nმან იცოდა, რომ ვსუნთქავდი, მაგრამ სიკვდილს არ მისცა ჩემი თავი.\n\nმამა-მთავარიც გააცურა, მეფეც და ყველა თავადიც.\n\nმას ძალიან უყვარდა საკუთარი და\n",
           "castingResource" : null,
@@ -37452,7 +37325,8 @@
           "knownBlueprints" : [ ],
           "furnaceFuel" : 0,
           "cooldowns" : {
-            "compelled-duel" : 5
+            "compelled-duel" : 4,
+            "commanding-point" : 5
           },
           "skills" : {
             "custom" : { },
@@ -37513,7 +37387,7 @@
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
-          "initiative" : 16,
+          "initiative" : 10,
           "deathSaveFailures" : 0,
           "downed" : false,
           "dead" : false,
@@ -37531,18 +37405,10 @@
           "speedSeeded" : true,
           "movementUsed" : 0,
           "deathSaveSuccesses" : 0,
-          "activeEffects" : [ {
-            "effectId" : "effect-sharpened-scimitar",
-            "name" : "sharpened scimitar",
-            "description" : null,
-            "remainingRounds" : 1,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "GM",
-            "expired" : false
-          } ],
+          "activeEffects" : [ ],
           "cooldowns" : {
-            "compelled-duel" : 5
+            "compelled-duel" : 4,
+            "commanding-point" : 5
           },
           "featureUses" : { },
           "resistances" : [ ],
@@ -37664,7 +37530,10 @@
     "partyPosition" : null,
     "worldMap" : false,
     "musicPlaylistId" : null,
-    "initiativePosition" : null
+    "initiativePosition" : {
+      "actorId" : "4eef1166-34a5-4038-b770-b3fc6918e8f8",
+      "round" : 2
+    }
   }, {
     "id" : "open-field-map",
     "name" : "crossroad in caramel wood",
