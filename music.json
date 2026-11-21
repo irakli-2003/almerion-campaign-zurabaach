@@ -502,7 +502,7 @@
     }
   } ],
   "combatPlaylistId" : "combat",
-  "volume" : 10,
+  "volume" : 24,
   "effectsVolume" : 80,
   "shuffle" : false,
   "loop" : true

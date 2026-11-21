@@ -5,7 +5,7 @@
     "classId" : "bard",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 90,
+    "xp" : 130,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -708,7 +708,7 @@
     "classId" : "rogue",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 0,
+    "xp" : 40,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -1039,7 +1039,7 @@
     "classId" : "fighter",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 90,
+    "xp" : 130,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -1453,7 +1453,7 @@
     "classId" : "cleric",
     "raceId" : "tiefling",
     "level" : 6,
-    "xp" : 90,
+    "xp" : 130,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -1835,7 +1835,7 @@
     "classId" : "barbarian",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 110,
+    "xp" : 150,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -2108,7 +2108,7 @@
     "classId" : "artificer",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 90,
+    "xp" : 130,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -2977,7 +2977,7 @@
     "classId" : "rogue",
     "raceId" : "lightfoot-halfling",
     "level" : 6,
-    "xp" : 80,
+    "xp" : 120,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -3404,7 +3404,7 @@
     "classId" : "warlock",
     "raceId" : "sinne-shapeshifter",
     "level" : 6,
-    "xp" : 110,
+    "xp" : 150,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -3738,7 +3738,7 @@
     "classId" : "rogue",
     "raceId" : "wood-elf",
     "level" : 6,
-    "xp" : 90,
+    "xp" : 130,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
