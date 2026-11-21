@@ -4514,7 +4514,7 @@
   }, {
     "id" : "item-mirror-shard",
     "name" : "mirror shard",
-    "type" : "gear",
+    "type" : null,
     "description" : "broken mirror shard",
     "valueGold" : 0,
     "weight" : 0.0,
@@ -4529,89 +4529,118 @@
     "pickable" : false,
     "imagePath" : null,
     "overview" : ""
-  },
-    {
-      "id": "harness-core",
-      "name": "ჯავშანფარი — კორპუსი",
-      "type": "armor",
-      "description": "თავზე, ზურგსა და მკერდზე დამაგრებული სამი ფარი ერთი სატარებელი კვანძია. ერთად იძლევა +4 AC-ს; სხვა ტანის აბჯარს არ ემატება.",
-      "armorClassBonus": 4,
-      "valueGold": 0,
-      "weight": 18,
-      "pickable": true,
-      "durability": {
-        "max": 100,
-        "current": 100
-      }
+  }, {
+    "id" : "harness-core",
+    "name" : "ჯავშანფარი — კორპუსი",
+    "type" : null,
+    "description" : "თავზე, ზურგსა და მკერდზე დამაგრებული სამი ფარი ერთი სატარებელი კვანძია. ერთად იძლევა +4 AC-ს; სხვა ტანის აბჯარს არ ემატება.",
+    "valueGold" : 0,
+    "weight" : 18.0,
+    "damage" : null,
+    "durability" : {
+      "max" : 100,
+      "current" : 100
     },
-    {
-      "id": "harness-knees",
-      "name": "ჯავშანფარი — სამუხლე წყვილი",
-      "type": "armor",
-      "description": "ორი მომრგვალებული ფირფიტა მუხლებს ფარავს. AC-ს არ მატებს. ორივე საჭიროა დაბალი გასრიალებისთვის.",
-      "armorClassBonus": 0,
-      "valueGold": 0,
-      "weight": 4,
-      "pickable": true,
-      "durability": {
-        "max": 100,
-        "current": 100
-      }
+    "pickable" : true,
+    "imagePath" : null,
+    "material" : null,
+    "armorClassBonus" : 4
+  }, {
+    "id" : "harness-knees",
+    "name" : "ჯავშანფარი — სამუხლე წყვილი",
+    "type" : null,
+    "description" : "ორი მომრგვალებული ფირფიტა მუხლებს ფარავს. AC-ს არ მატებს. ორივე საჭიროა დაბალი გასრიალებისთვის.",
+    "valueGold" : 0,
+    "weight" : 4.0,
+    "damage" : null,
+    "durability" : {
+      "max" : 100,
+      "current" : 100
     },
-    {
-      "id": "harness-shield-right",
-      "name": "ჯავშანფარი — მარჯვენა ფარი",
-      "type": "armor",
-      "description": "მომრგვალებული ხის ფარი ლითონის არშიით. ამ ხელში სხვა ნივთს ვერ დაიჭერ. ხელის ფარების +2 AC ერთმანეთს არ ემატება.",
-      "armorClassBonus": 2,
-      "valueGold": 0,
-      "weight": 5,
-      "pickable": true,
-      "durability": {
-        "max": 100,
-        "current": 100
-      }
+    "pickable" : true,
+    "imagePath" : null,
+    "material" : null,
+    "armorClassBonus" : 0
+  }, {
+    "id" : "harness-shield-right",
+    "name" : "ჯავშანფარი — მარჯვენა ფარი",
+    "type" : null,
+    "description" : "მომრგვალებული ხის ფარი ლითონის არშიით. ამ ხელში სხვა ნივთს ვერ დაიჭერ. ხელის ფარების +2 AC ერთმანეთს არ ემატება.",
+    "valueGold" : 0,
+    "weight" : 5.0,
+    "damage" : null,
+    "durability" : {
+      "max" : 100,
+      "current" : 100
     },
-    {
-      "id": "harness-shield-left",
-      "name": "ჯავშანფარი — მარცხენა ფარი",
-      "type": "armor",
-      "description": "გაპრიალებული ლითონის ფარი განიერი კიდით. ამ ხელში სხვა ნივთს ვერ დაიჭერ. ხელის ფარების +2 AC ერთმანეთს არ ემატება.",
-      "armorClassBonus": 2,
-      "valueGold": 0,
-      "weight": 5,
-      "pickable": true,
-      "durability": {
-        "max": 100,
-        "current": 100
-      }
+    "pickable" : true,
+    "imagePath" : null,
+    "material" : null,
+    "armorClassBonus" : 2
+  }, {
+    "id" : "harness-shield-left",
+    "name" : "ჯავშანფარი — მარცხენა ფარი",
+    "type" : null,
+    "description" : "გაპრიალებული ლითონის ფარი განიერი კიდით. ამ ხელში სხვა ნივთს ვერ დაიჭერ. ხელის ფარების +2 AC ერთმანეთს არ ემატება.",
+    "valueGold" : 0,
+    "weight" : 5.0,
+    "damage" : null,
+    "durability" : {
+      "max" : 100,
+      "current" : 100
     },
-    {
-      "id": "harness-wraps",
-      "name": "სახელოსნოს სახვევები",
-      "type": "armor",
-      "description": "სამუშაო ქსოვილის სახვევები. აბჯრის დაცვას არ იძლევა. ატარე ფარების გარეშეც, რათა ფარების მოხსნისას ჯავშნის მაჩვენებელი სწორად გამოჩნდეს.",
-      "armorClassBonus": 0,
-      "valueGold": 0,
-      "weight": 1,
-      "pickable": true,
-      "durability": {
-        "max": 100,
-        "current": 100
-      }
+    "pickable" : true,
+    "imagePath" : null,
+    "material" : null,
+    "armorClassBonus" : 2
+  }, {
+    "id" : "harness-wraps",
+    "name" : "სახელოსნოს სახვევები",
+    "type" : null,
+    "description" : "სამუშაო ქსოვილის სახვევები. აბჯრის დაცვას არ იძლევა. ატარე ფარების გარეშეც, რათა ფარების მოხსნისას ჯავშნის მაჩვენებელი სწორად გამოჩნდეს.",
+    "valueGold" : 0,
+    "weight" : 1.0,
+    "damage" : null,
+    "durability" : {
+      "max" : 100,
+      "current" : 100
     },
-    {
-      "id": "workshop-axe-hammer",
-      "name": "სახელოსნოს ცულ-ჩაქუჩი",
-      "type": "tool",
-      "valueGold": 6,
-      "weight": 3,
-      "pickable": true,
-      "durability": {
-        "max": 100,
-        "current": 100
-      },
-      "furnaceTier": 0,
-      "description": "ხის მოსათლელი პირი და ლითონის სამაგრების ჩასასმელი ჩაქუჩი. უკიდურეს შემთხვევაში თავისუფალი ხელით 5 ფუტში ერთი იმპროვიზებული შეტევა: ძალის მოდიფიკატორი შეტევაზე, გაწვრთნილობის ბონუსის გარეშე; მოხვედრისას 1d4 + ძალის მოდიფიკატორი დამაბლაგვებელი ზიანი. არ მუშაობს ორმაგ დარტყმასთან. ხელში დაჭერისას სიჩქარე მაქსიმუმ 30 ფუტია."
-    } ]
+    "pickable" : true,
+    "imagePath" : null,
+    "material" : null,
+    "armorClassBonus" : 0
+  }, {
+    "id" : "workshop-axe-hammer",
+    "name" : "სახელოსნოს ცულ-ჩაქუჩი",
+    "type" : "tool",
+    "description" : "ხის მოსათლელი პირი და ლითონის სამაგრების ჩასასმელი ჩაქუჩი. უკიდურეს შემთხვევაში თავისუფალი ხელით 5 ფუტში ერთი იმპროვიზებული შეტევა: ძალის მოდიფიკატორი შეტევაზე, გაწვრთნილობის ბონუსის გარეშე; მოხვედრისას 1d4 + ძალის მოდიფიკატორი დამაბლაგვებელი ზიანი. არ მუშაობს ორმაგ დარტყმასთან. ხელში დაჭერისას სიჩქარე მაქსიმუმ 30 ფუტია.",
+    "valueGold" : 6,
+    "weight" : 3.0,
+    "damage" : null,
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : true,
+    "imagePath" : null,
+    "furnaceTier" : 0
+  }, {
+    "id" : "item-rabbits-clock",
+    "name" : "rabbits clock",
+    "type" : "gear",
+    "description" : "clock that was stuck for 60 years",
+    "valueGold" : 0,
+    "weight" : 0.0,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : true,
+    "imagePath" : null,
+    "overview" : ""
+  } ]
 }
