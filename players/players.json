@@ -516,35 +516,21 @@
       "charisma" : 8
     },
     "items" : [ {
-      "itemId" : "silvan-hunting-sword",
+      "itemId" : "bedroll",
       "condition" : {
         "durability" : 100
       },
-      "equipped" : true,
+      "equipped" : false,
       "quantity" : 1
     }, {
-      "itemId" : "shortbow",
+      "itemId" : "coin",
       "condition" : {
-        "durability" : 100
+        "durability" : 0
       },
-      "equipped" : true,
-      "quantity" : 1
-    }, {
-      "itemId" : "studded-leather",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : true,
-      "quantity" : 1
+      "equipped" : false,
+      "quantity" : 11
     }, {
       "itemId" : "elven-cloak",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : true,
-      "quantity" : 1
-    }, {
-      "itemId" : "leaf-pendant",
       "condition" : {
         "durability" : 100
       },
@@ -565,45 +551,35 @@
       "equipped" : false,
       "quantity" : 1
     }, {
-      "itemId" : "bedroll",
+      "itemId" : "shortbow",
       "condition" : {
         "durability" : 100
       },
-      "equipped" : false,
+      "equipped" : true,
       "quantity" : 1
     }, {
-      "itemId" : "coin",
+      "itemId" : "silvan-hunting-sword",
       "condition" : {
-        "durability" : 0
+        "durability" : 100
       },
-      "equipped" : false,
-      "quantity" : 11
+      "equipped" : true,
+      "quantity" : 1
+    }, {
+      "itemId" : "leaf-pendant",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : true,
+      "quantity" : 1
+    }, {
+      "itemId" : "studded-leather",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : true,
+      "quantity" : 1
     } ],
     "spells" : [ {
-      "spellId" : "hunters-mark",
-      "rank" : 1,
-      "active" : true
-    }, {
-      "spellId" : "cure-wounds",
-      "rank" : 1,
-      "active" : true
-    }, {
-      "spellId" : "entangle",
-      "rank" : 1,
-      "active" : true
-    }, {
-      "spellId" : "darkness",
-      "rank" : 2,
-      "active" : true
-    }, {
-      "spellId" : "lesser-restoration",
-      "rank" : 2,
-      "active" : true
-    }, {
-      "spellId" : "leaf dart",
-      "rank" : 0,
-      "active" : true
-    }, {
       "spellId" : "animal distraction",
       "rank" : 0,
       "active" : true
@@ -612,20 +588,44 @@
       "rank" : 1,
       "active" : true
     }, {
-      "spellId" : "primal roar",
-      "rank" : 2,
-      "active" : true
-    }, {
       "spellId" : "beast-whisper",
       "rank" : 1,
       "active" : true
     }, {
-      "spellId" : "rootstride",
+      "spellId" : "cure-wounds",
+      "rank" : 1,
+      "active" : true
+    }, {
+      "spellId" : "darkness",
+      "rank" : 2,
+      "active" : true
+    }, {
+      "spellId" : "entangle",
+      "rank" : 1,
+      "active" : true
+    }, {
+      "spellId" : "hunters-mark",
+      "rank" : 1,
+      "active" : true
+    }, {
+      "spellId" : "leaf dart",
+      "rank" : 0,
+      "active" : true
+    }, {
+      "spellId" : "lesser-restoration",
       "rank" : 2,
       "active" : true
     }, {
       "spellId" : "poison-spray",
       "rank" : 0,
+      "active" : true
+    }, {
+      "spellId" : "primal roar",
+      "rank" : 2,
+      "active" : true
+    }, {
+      "spellId" : "rootstride",
+      "rank" : 2,
       "active" : true
     } ],
     "personalFeatures" : [ ],
