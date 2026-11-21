@@ -33596,7 +33596,7 @@
           "armorClass" : 17,
           "maxMana" : 0,
           "spellSlots" : [ ],
-          "imagePath" : null
+          "imagePath" : "images/monsters/clockwork-white-rabbit.jpg"
         },
         "position" : {
           "x" : 6,
@@ -34166,7 +34166,17 @@
       "effect" : null,
       "occupants" : [ ]
     } ] ],
-    "layers" : [ ],
+    "layers" : [ {
+      "id" : "dungeonland-rabbit-room",
+      "label" : "Rabbit Room background",
+      "imagePath" : "images/maps/orins-tower-map/dungeonland-rabbit-room.png",
+      "x" : 0,
+      "y" : 0,
+      "width" : 14,
+      "height" : 14,
+      "opacity" : 1,
+      "zorder" : 0
+    } ],
     "drawings" : [ ],
     "groups" : [ ],
     "mapLinks" : [ ],
