@@ -1389,8 +1389,8 @@
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
     "cooldowns" : {
-      "compelled-duel" : 3,
-      "commanding-point" : 4
+      "compelled-duel" : 2,
+      "commanding-point" : 3
     },
     "skills" : {
       "custom" : { },
@@ -2039,7 +2039,16 @@
     "currentHitPoints" : 46,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ ],
+    "activeEffects" : [ {
+      "effectId" : "reckless-attack",
+      "name" : "Reckless",
+      "description" : "Advantage on Strength melee attacks this turn; attacks against you have advantage until your next turn.",
+      "remainingRounds" : 1,
+      "damagePerRound" : 0,
+      "healingPerRound" : 0,
+      "source" : "Reckless Attack",
+      "expired" : false
+    } ],
     "subclass" : "",
     "backstory" : "",
     "castingResource" : null,
