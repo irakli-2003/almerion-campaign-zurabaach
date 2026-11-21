@@ -300,7 +300,7 @@
     }, {
       "level" : 2,
       "max" : 3,
-      "current" : 2
+      "current" : 1
     }, {
       "level" : 3,
       "max" : 3,
@@ -1769,7 +1769,7 @@
     }, {
       "level" : 3,
       "max" : 3,
-      "current" : 3
+      "current" : 2
     } ],
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
