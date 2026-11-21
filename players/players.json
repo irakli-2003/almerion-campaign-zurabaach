@@ -1390,7 +1390,8 @@
     "furnaceFuel" : 0,
     "cooldowns" : {
       "compelled-duel" : 2,
-      "commanding-point" : 3
+      "commanding-point" : 3,
+      "step-feint" : 2
     },
     "skills" : {
       "custom" : { },
