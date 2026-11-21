@@ -2275,49 +2275,21 @@
       "charisma" : 8
     },
     "items" : [ {
-      "itemId" : "valebrick-field-workshop",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : true,
-      "quantity" : 1
-    }, {
-      "itemId" : "valebrick-bolt-repeater",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : true,
-      "quantity" : 1
-    }, {
-      "itemId" : "tinkers-tools",
+      "itemId" : "alarm-bell",
       "condition" : {
         "durability" : 100
       },
       "equipped" : false,
       "quantity" : 1
     }, {
-      "itemId" : "smiths-tools",
+      "itemId" : "alchemical-salts",
       "condition" : {
         "durability" : 100
       },
       "equipped" : false,
-      "quantity" : 1
+      "quantity" : 2
     }, {
-      "itemId" : "thieves-tools",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "woodcarvers-tools",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "lamp-oil",
+      "itemId" : "black-powder",
       "condition" : {
         "durability" : 100
       },
@@ -2330,118 +2302,6 @@
       },
       "equipped" : false,
       "quantity" : 4
-    }, {
-      "itemId" : "steel-stock",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 3
-    }, {
-      "itemId" : "copper-wire",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 2
-    }, {
-      "itemId" : "clockwork-springs",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 2
-    }, {
-      "itemId" : "alchemical-salts",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 2
-    }, {
-      "itemId" : "glass-lens",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "leather-strap",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "black-powder",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "scalding-bolt",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 3
-    }, {
-      "itemId" : "simple-clothes",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "thermal-smoke-grenade",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "heavy-bolt",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 6
-    }, {
-      "itemId" : "smoke-compound",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 2
-    }, {
-      "itemId" : "vented-shell",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 2
-    }, {
-      "itemId" : "timed-valve",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "timed-trigger",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "heat-jacket",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
     }, {
       "itemId" : "ceramic-seal",
       "condition" : {
@@ -2457,19 +2317,33 @@
       "equipped" : false,
       "quantity" : 1
     }, {
-      "itemId" : "heat-vents",
+      "itemId" : "clamp-set",
       "condition" : {
         "durability" : 100
       },
       "equipped" : false,
       "quantity" : 1
     }, {
-      "itemId" : "impact-trigger",
+      "itemId" : "clockwork-springs",
       "condition" : {
         "durability" : 100
       },
       "equipped" : false,
-      "quantity" : 1
+      "quantity" : 2
+    }, {
+      "itemId" : "coin",
+      "condition" : {
+        "durability" : 0
+      },
+      "equipped" : false,
+      "quantity" : 15
+    }, {
+      "itemId" : "copper-wire",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 2
     }, {
       "itemId" : "fine-wire",
       "condition" : {
@@ -2478,42 +2352,21 @@
       "equipped" : false,
       "quantity" : 1
     }, {
-      "itemId" : "spring-trigger",
+      "itemId" : "lamp-oil",
       "condition" : {
         "durability" : 100
       },
       "equipped" : false,
       "quantity" : 1
     }, {
-      "itemId" : "alarm-bell",
+      "itemId" : "glass-lens",
       "condition" : {
         "durability" : 100
       },
       "equipped" : false,
       "quantity" : 1
     }, {
-      "itemId" : "clamp-set",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "pressure-chamber",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "treated-steam-medium",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
-      "quantity" : 1
-    }, {
-      "itemId" : "spring-valve",
+      "itemId" : "heat-jacket",
       "condition" : {
         "durability" : 100
       },
@@ -2527,14 +2380,28 @@
       "equipped" : false,
       "quantity" : 1
     }, {
-      "itemId" : "coin",
+      "itemId" : "heat-vents",
       "condition" : {
-        "durability" : 0
+        "durability" : 100
       },
       "equipped" : false,
-      "quantity" : 15
+      "quantity" : 1
     }, {
-      "itemId" : "item-shield-bracelet",
+      "itemId" : "heavy-bolt",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 6
+    }, {
+      "itemId" : "impact-trigger",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "leather-strap",
       "condition" : {
         "durability" : 100
       },
@@ -2547,16 +2414,141 @@
       },
       "equipped" : false,
       "quantity" : 1
+    }, {
+      "itemId" : "pressure-chamber",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "scalding-bolt",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 3
+    }, {
+      "itemId" : "item-shield-bracelet",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "simple-clothes",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "smiths-tools",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "smoke-compound",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 2
+    }, {
+      "itemId" : "spring-trigger",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "spring-valve",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "steel-stock",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 3
+    }, {
+      "itemId" : "thermal-smoke-grenade",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "thieves-tools",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "timed-trigger",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "timed-valve",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "tinkers-tools",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "treated-steam-medium",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "valebrick-bolt-repeater",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : true,
+      "quantity" : 1
+    }, {
+      "itemId" : "valebrick-field-workshop",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : true,
+      "quantity" : 1
+    }, {
+      "itemId" : "vented-shell",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 2
+    }, {
+      "itemId" : "woodcarvers-tools",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
     } ],
     "spells" : [ {
-      "spellId" : "mending",
-      "rank" : 0,
-      "active" : true
-    }, {
-      "spellId" : "guidance",
-      "rank" : 0,
-      "active" : true
-    }, {
       "spellId" : "cure-wounds",
       "rank" : 1,
       "active" : true
@@ -2565,12 +2557,20 @@
       "rank" : 1,
       "active" : true
     }, {
-      "spellId" : "shield-spell",
-      "rank" : 1,
+      "spellId" : "guidance",
+      "rank" : 0,
+      "active" : true
+    }, {
+      "spellId" : "mending",
+      "rank" : 0,
       "active" : true
     }, {
       "spellId" : "scorching-ray",
       "rank" : 2,
+      "active" : true
+    }, {
+      "spellId" : "shield-spell",
+      "rank" : 1,
       "active" : true
     }, {
       "spellId" : "web",
@@ -2582,7 +2582,7 @@
     "passwordSalt" : "8d627c852991983ced09d03dc1f46605",
     "imagePath" : "images/players/player-toren.jpg",
     "playerName" : "Giorgi",
-    "ownerUsername" : "Giorgi",
+    "ownerUsername" : "",
     "description" : "22 years, 185 cm. Young human noble engineer of House Valebrick - curious, suspicious, heavily sarcastic, composed and educated. Carries a 32-36 kg portable field workshop on his back with a Resonance Core and a removable stationary Bolt Repeater. \"Don't ask what humans were given. Ask what we built.\"",
     "maxHitPoints" : 45,
     "currentHitPoints" : 45,
@@ -2591,7 +2591,7 @@
     "activeEffects" : [ {
       "effectId" : "effect-missing-right-shoe",
       "name" : "missing right shoe",
-      "description" : null,
+      "description" : "",
       "remainingRounds" : 999,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
@@ -2641,7 +2641,7 @@
       "proficiencyBonus" : null,
       "passivePerception" : null,
       "savingThrowProficiencies" : [ ],
-      "hitDice" : null,
+      "hitDice" : "",
       "temporaryHitPoints" : 0,
       "deathSaveSuccesses" : 0,
       "deathSaveFailures" : 0,
@@ -2655,9 +2655,9 @@
       "gold" : 0,
       "platinum" : 0,
       "extraAttacks" : [ ],
-      "proficienciesAndLanguages" : null,
-      "extraFeatures" : null,
-      "notes" : null
+      "proficienciesAndLanguages" : "",
+      "extraFeatures" : "",
+      "notes" : ""
     },
     "featureUses" : {
       "bolt-repeater" : 1
@@ -4209,7 +4209,7 @@
       "charisma" : 8
     },
     "items" : [ {
-      "itemId" : "longsword",
+      "itemId" : "item-ancestral-sword",
       "condition" : {
         "durability" : 100
       },
@@ -4223,14 +4223,21 @@
       "equipped" : false,
       "quantity" : 1
     }, {
-      "itemId" : "shield",
+      "itemId" : "light-crossbow",
       "condition" : {
         "durability" : 100
       },
       "equipped" : false,
       "quantity" : 1
     }, {
-      "itemId" : "light-crossbow",
+      "itemId" : "longsword",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
+    }, {
+      "itemId" : "shield",
       "condition" : {
         "durability" : 100
       },
@@ -4249,13 +4256,6 @@
         "durability" : 100
       },
       "equipped" : true,
-      "quantity" : 1
-    }, {
-      "itemId" : "item-ancestral-sword",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : false,
       "quantity" : 1
     } ],
     "spells" : [ ],
@@ -4292,7 +4292,7 @@
     "passwordSalt" : "c55bfa70db72f28f617d2b5e5ec38d61",
     "imagePath" : "images/players/player-uriel.png",
     "playerName" : "საბა",
-    "ownerUsername" : "საბა",
+    "ownerUsername" : "",
     "description" : "ურიელი — ადამიანთა მოხეტიალე მებრძოლი, Champion. მუქი, კეფაზე დაგრძელებული თმა; სახეზე ძველი ნაიარევები; შავი, ვერცხლისფერი სამაგრებით გამაგრებული ტყავი და გაცვეთილი წითელი მოსასხამი. სურათი გარეგნობის მითითებაა: მძიმე ფირფიტოვანი აბჯრის ბონუსს არ იძლევა. ატარებს მამის წვრილ ხმალს. დგას ისე, რომ ყოველთვის რჩებოდეს ერთი თავისუფალი ნაბიჯი.\n\nბრძოლის სტილი: სწრაფი ფეხები, ზუსტი წვერი და მოკლე კომბინაციები. ლავენოსისგან განსხვავებით, არ მართავს superiority dice-სა და მანევრების სიას. მისი განსაკუთრებული ღირებულება არის გადაადგილება, უსაფრთხო პოზიციის შენარჩუნება და გარემოს გამოყენება.",
     "maxHitPoints" : 52,
     "currentHitPoints" : 48,
@@ -4301,7 +4301,7 @@
     "activeEffects" : [ {
       "effectId" : "effect-missing-shoes",
       "name" : "missing shoes",
-      "description" : null,
+      "description" : "",
       "remainingRounds" : 999,
       "damagePerRound" : 0,
       "healingPerRound" : 0,
