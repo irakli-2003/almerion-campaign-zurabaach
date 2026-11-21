@@ -33095,7 +33095,7 @@
           "classId" : "rogue",
           "raceId" : "wood-elf",
           "level" : 6,
-          "xp" : 90,
+          "xp" : 130,
           "upgrades" : {
             "earned" : 5,
             "unlocks" : [ {
@@ -33354,7 +33354,7 @@
           "ownerUsername" : "NiBa",
           "description" : "მამრი ტყის ელფი; სიმაღლე 1.84 მ. მუქი, არეული თმა, დაკვირვებული მზერა და გაცვეთილი ტყავის აბჯარი. ხელში დედის ორი ხანჯალი, ზურგზე მამის მოკლე მშვილდი.\n\nჩუმი დუელისტი: ჯერ აკვირდება ნაბიჯს, სუნთქვასა და წონასწორობას, შემდეგ ახლო მანძილზე ჭრის და პოზიციას იცვლის. არ იყენებს მაგიას, ცეცხლსასროლ იარაღს ან ილუზიებს. მისი მაღალი Charisma მშვიდ თავდაჯერებასა და მკაფიო ნებას აღნიშნავს, არა მხიარულებას.\n\nიშვიათად გრძნობს იმას, რასაც სხვები; ეს პიროვნული თავისებურებაა და არა ემოციების სრული არქონა ან შიშისგან იმუნიტეტი.",
           "maxHitPoints" : 37,
-          "currentHitPoints" : 32,
+          "currentHitPoints" : 37,
           "maxMana" : 0,
           "currentMana" : 0,
           "activeEffects" : [ ],
@@ -33433,7 +33433,7 @@
         "inventory" : [ ],
         "combat" : {
           "maxHitPoints" : 37,
-          "currentHitPoints" : 32,
+          "currentHitPoints" : 37,
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 10,
@@ -33549,7 +33549,7 @@
           "classId" : "bard",
           "raceId" : "human",
           "level" : 6,
-          "xp" : 90,
+          "xp" : 130,
           "upgrades" : {
             "earned" : 5,
             "unlocks" : [ {
@@ -33830,7 +33830,7 @@
           "ownerUsername" : "Ladorman",
           "description" : "",
           "maxHitPoints" : 48,
-          "currentHitPoints" : 33,
+          "currentHitPoints" : 48,
           "maxMana" : 0,
           "currentMana" : 0,
           "activeEffects" : [ ],
@@ -33915,7 +33915,7 @@
         "inventory" : [ ],
         "combat" : {
           "maxHitPoints" : 48,
-          "currentHitPoints" : 33,
+          "currentHitPoints" : 48,
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
@@ -33973,251 +33973,7 @@
       "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
-      "occupants" : [ {
-        "kind" : "monster",
-        "monster" : {
-          "id" : "clockwork-white-rabbit",
-          "name" : "The White Rabbit (Clockwork)",
-          "description" : "Small beast (clockwork), CR 6 (2300 XP). AC 17, HP 105 (14d8+42), speed 24 m, doesn't provoke opportunity attacks. Saves DEX +9, WIS +8; Perception +8, Acrobatics +9. Truesight 9 m, passive Perception 18. 1.2 m tall, a once-beautiful waistcoat, fur that was once white - torn away in patches over wet, tiny gears turning in time with his breathing - holding the pocket watch in both hands like a bird. He does not want to kill them; he wants them to be late. Talk first - fight, persuade (DC 20) or steal (DC 20 Sleight of Hand) are all valid. He never attacks a downed character: he kneels, ear to its chest, and counts its remaining seconds aloud - always a little fewer than the player expected. At 0 HP he does not die: he sits down heavily and his hands open.",
-          "type" : "beast (clockwork)",
-          "challengeRating" : "6",
-          "stats" : {
-            "custom" : { },
-            "strength" : 8,
-            "dexterity" : 20,
-            "constitution" : 16,
-            "intelligence" : 16,
-            "wisdom" : 18,
-            "charisma" : 10
-          },
-          "abilities" : [ {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "out_of_order",
-            "name" : "Out of Order",
-            "description" : "Passive. He acts first every round, on initiative 30, no matter what anyone rolled.",
-            "effects" : [ ],
-            "range" : 0.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "between_seconds",
-            "name" : "Between Seconds",
-            "description" : "Passive. At the end of every other creature's turn he moves up to 6 m for free. He is never seen moving - only somewhere else.",
-            "effects" : [ ],
-            "range" : 0.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "pin_strike",
-            "name" : "Pin Strike (Multiattack x2)",
-            "description" : "Two pin strikes: +9 to hit, 1d6+5 piercing plus 2d6 psychic each, as one second of the target's life runs out early.",
-            "effects" : [ ],
-            "range" : 5.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : {
-              "dice" : [ {
-                "diceId" : "d6",
-                "count" : 1
-              } ],
-              "typeId" : "piercing",
-              "constant" : 0
-            }
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "rabbit_delay",
-            "name" : "Delay",
-            "description" : "Recharge 4-6. One creature: WIS save DC 16. On a failure it skips its next turn entirely - he simply wasn't there for it.",
-            "effects" : [ "incapacitated" ],
-            "range" : 60.0,
-            "recharge" : 2,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "late_touch",
-            "name" : "Late",
-            "description" : "Bonus action. He touches a creature: its next turn happens at the very end of the round instead of where it should. No save.",
-            "effects" : [ ],
-            "range" : 5.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "tick_back",
-            "name" : "Tick (Click)",
-            "description" : "Reaction, 3 times per fight. When another creature ends its turn, he undoes that turn: the creature returns to where it started, and all damage and effects from that turn are undone - but spent resources and actions stay spent and it does not act again. The players remember. Read aloud: click. Fire returns to the palm. The arrow lies back on the string. The Rabbit hasn't moved. He smiles. 'Once more. Until you get it right.'",
-            "effects" : [ ],
-            "range" : 0.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "pocket_watch_rewind",
-            "name" : "Pocket Watch Rewind",
-            "description" : "Recharge 5-6, at most TWICE per fight. He winds the watch backwards: the fight returns to the start of the Rabbit's previous turn - all damage and effects since then (spent spells, conditions, movement, rolled dice) are undone. Use the battle map's ⟲ Rewind button; the app restores everything automatically. What does not rewind: the players' memories - they remember what happened and may act differently. The recharge itself stays spent. Read aloud: the ticking stops. Then - click - and everything goes backwards. His wounds zip shut in his fur. 'Again,' he says. 'Again. We will do this as many times as it takes.'",
-            "effects" : [ ],
-            "range" : 0.0,
-            "recharge" : 3,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "time_seam",
-            "name" : "Time Seam (Lair)",
-            "description" : "On initiative 20 a random 3 m square of the tower runs at a different speed: everything in it at the start of a turn makes a CON save DC 14 or loses its action. Clock-room variant: four flickering seams - roll d4 at the end of each round for which quarter is FAST (extra action) and which is SLOW (half speed, no reactions); tell the players before they act.",
-            "effects" : [ "slowed" ],
-            "range" : 60.0,
-            "recharge" : 0,
-            "radius" : 5.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          } ],
-          "languages" : [ "common" ],
-          "maxHitPoints" : 105,
-          "armorClass" : 17,
-          "maxMana" : 0,
-          "spellSlots" : [ ],
-          "imagePath" : "images/monsters/clockwork-white-rabbit.jpg"
-        },
-        "position" : {
-          "x" : 8,
-          "y" : 2
-        },
-        "inventory" : [ ],
-        "combat" : {
-          "maxHitPoints" : 105,
-          "currentHitPoints" : 64,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "gold" : 0,
-          "initiative" : 21,
-          "deathSaveFailures" : 0,
-          "downed" : false,
-          "dead" : false,
-          "xpRewardId" : null,
-          "killXp" : 0,
-          "sharedXp" : 0,
-          "downedByPlayerId" : null,
-          "xpRewardResolved" : false,
-          "conditions" : [ ],
-          "notes" : null,
-          "inInitiative" : true,
-          "walkSpeed" : 30,
-          "climbSpeed" : 0,
-          "swimSpeed" : 0,
-          "speedSeeded" : true,
-          "movementUsed" : 0,
-          "deathSaveSuccesses" : 0,
-          "activeEffects" : [ {
-            "effectId" : "blinded",
-            "name" : "Blinded",
-            "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
-            "remainingRounds" : 1,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "Toren Valebrick's Thermal Smoke Grenade",
-            "expired" : false
-          }, {
-            "effectId" : "compelled_duel",
-            "name" : "Compelled Duel",
-            "description" : "Pulled toward the challenger and has disadvantage on attacks against anyone else.",
-            "remainingRounds" : 2,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "GM",
-            "expired" : false
-          }, {
-            "effectId" : "slowed",
-            "name" : "Slowed",
-            "description" : "Every movement drags as if through deep water.",
-            "remainingRounds" : 2,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "Lavenos's Step Feint",
-            "expired" : false
-          } ],
-          "cooldowns" : { },
-          "featureUses" : { },
-          "resistances" : [ ],
-          "enduranceFeature" : null,
-          "featureSpeedBonus" : 0,
-          "castingResource" : null,
-          "spellSlots" : [ ],
-          "actingThisRound" : true
-        },
-        "instanceId" : "1ae50f0b-805d-4983-ac25-fb3ca50253cf",
-        "symbol" : "M"
-      } ]
+      "occupants" : [ ]
     }, {
       "passable" : true,
       "terrain" : "DIFFICULT",
@@ -34230,7 +33986,7 @@
           "classId" : "rogue",
           "raceId" : "human",
           "level" : 6,
-          "xp" : 0,
+          "xp" : 40,
           "upgrades" : {
             "earned" : 5,
             "unlocks" : [ {
@@ -34497,7 +34253,7 @@
           "ownerUsername" : "Bandzuka",
           "description" : "Bounty hunter. Always finishes the hunt.\n\nResources:\n• Mana = revolver chambers. Max 6. Every Sixfold Judgment shot costs 1. The Gravitic Anchor Node refills all six chambers during a long rest — nobody can reload it by hand.\n• Singularity Round: 1 per short rest. Anchor Round: 1 per long rest. Their cooldowns are set to 100 rounds so they cannot be used again in the same fight.\n• Shot save DC (Crushing / Anchor): 13 (8 + proficiency 3 + DEX 2).\n\nPassives:\n• Sneak Attack (rogue, level 5): +3d6 once per turn on a hit with advantage, or when an ally stands next to the target.\n• Bound artifacts — the Sixfold Judgment only works while the Gravitic Anchor Node is attached to him.",
           "maxHitPoints" : 45,
-          "currentHitPoints" : 29,
+          "currentHitPoints" : 45,
           "maxMana" : 7,
           "currentMana" : 7,
           "activeEffects" : [ ],
@@ -34563,7 +34319,7 @@
         "inventory" : [ ],
         "combat" : {
           "maxHitPoints" : 45,
-          "currentHitPoints" : 29,
+          "currentHitPoints" : 45,
           "maxMana" : 7,
           "currentMana" : 7,
           "gold" : 0,
@@ -34647,475 +34403,7 @@
       "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
-      "occupants" : [ {
-        "kind" : "player",
-        "character" : {
-          "id" : "player-ratboy",
-          "name" : "\"Ratboy\" Venn",
-          "classId" : "rogue",
-          "raceId" : "lightfoot-halfling",
-          "level" : 6,
-          "xp" : 30,
-          "upgrades" : {
-            "earned" : 5,
-            "unlocks" : [ {
-              "classId" : "rogue",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-1",
-              "branchName" : "Shadowblade",
-              "name" : "Cunning Action",
-              "description" : "Dash, Disengage or Hide as a bonus action.\nClass training. If already known, this feat is not granted a second time.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "rogue",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-2",
-              "branchName" : "Shadowblade",
-              "name" : "Uncanny Dodge",
-              "description" : "Use your reaction to halve the damage of an attack from an attacker you can see.\nClass training. If already known, this feat is not granted a second time.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "rogue",
-              "sourceRequestId" : null,
-              "nodeId" : "resilience-1",
-              "branchName" : "Escape Artist",
-              "name" : "Roguish Archetype",
-              "description" : "Choose the archetype that defines your roguish expertise.\nClass training. If already known, this feat is not granted a second time.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "rogue",
-              "sourceRequestId" : null,
-              "nodeId" : "@historical-level-5",
-              "branchName" : "Existing training",
-              "name" : "Uncanny Dodge",
-              "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: charm-person, disguise-self, mage-hand, minor-illusion, ray-of-frost, shield-spell, silent-image",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "rogue",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-5",
-              "branchName" : "Shadowblade",
-              "name" : "Shadowblade: Breakthrough",
-              "description" : "Once per short rest, replace one attack with a contested Athletics check against a creature within reach, at most one size larger. On success push it 5 ft to clear supported ground, never off a ledge. No damage. The GM resolves this feat; the app tracks its rest use.",
-              "imagePath" : null,
-              "level" : 6,
-              "historical" : false,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 5,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ {
-                  "level" : 4,
-                  "name" : "Shadowblade: Breakthrough",
-                  "description" : "Once per short rest, replace one attack with a contested Athletics check against a creature within reach, at most one size larger. On success push it 5 ft to clear supported ground, never off a ledge. No damage. The GM resolves this feat; the app tracks its rest use.",
-                  "subclass" : null,
-                  "usesPerRest" : 1,
-                  "shortRestRecharge" : true
-                } ]
-              }
-            } ]
-          },
-          "stats" : {
-            "custom" : { },
-            "strength" : 8,
-            "dexterity" : 15,
-            "constitution" : 8,
-            "intelligence" : 15,
-            "wisdom" : 15,
-            "charisma" : 8
-          },
-          "items" : [ {
-            "itemId" : "studded-leather",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "dagger",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 2
-          }, {
-            "itemId" : "shortbow",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "arrows",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 20
-          }, {
-            "itemId" : "quiver",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "thieves-tools",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "component-pouch",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "disguise-kit",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "forgery-kit",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "playing-cards",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "simple-clothes",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "backpack",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "bedroll",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "tinderbox",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "torch",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 5
-          }, {
-            "itemId" : "waterskin",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "rations",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 5
-          }, {
-            "itemId" : "rope-hempen",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "pouch",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "blue-bead",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "broken-key",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "lab-record",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "coin",
-            "condition" : {
-              "durability" : 0
-            },
-            "equipped" : false,
-            "quantity" : 2
-          }, {
-            "itemId" : "item-deck-of-cards",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          } ],
-          "spells" : [ {
-            "spellId" : "mage-hand",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "minor-illusion",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "ray-of-frost",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "shield-spell",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "disguise-self",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "silent-image",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "charm-person",
-            "rank" : 1,
-            "active" : true
-          } ],
-          "personalFeatures" : [ ],
-          "passwordHash" : "562179bcf2b8ca39f23c0da4ffd12ba61eccf10df04897df4ee0cd1dc4ebf980",
-          "passwordSalt" : "3d6551c94bc4b98f8eb7a663952fc5bc",
-          "imagePath" : "images/players/player-ratboy.jpg",
-          "playerName" : "ana",
-          "ownerUsername" : "",
-          "description" : "Neri \"Ratboy\" Venn (R-17) - Lightfoot halfling (rat-like), Rogue 5 (Arcane Trickster)\n\n. Passive Perception 15.\nProficiencies: light armour; simple weapons, hand crossbows, longswords, rapiers, shortswords; thieves' tools, disguise kit, forgery kit. Languages: Common, Halfling, Thieves' Cant.\n\nAttacks: Dagger +5, 1d4+2 piercing (thrown 6/18 m). Shortbow +5, 1d6+2 piercing (24/96 m).\nSpellcasting (INT): save DC 13, spell attack +5, three 1st-level slots.\n- Cantrips: Mage Hand, Minor Illusion, Frost Card (Ray of Frost - he throws a frozen playing card: +5 to hit, 2d8 cold at level 5, 18 m, target -3 m speed).\n- 1st level: Shield, Disguise Self, Silent Image (concentration), Charm Person.\n\nFeatures:\n- Sneak Attack 3d6 - once per turn, finesse or ranged weapon, with advantage or an ally next to the target.\n- Cunning Action - Dash, Disengage or Hide as a bonus action.\n- Uncanny Dodge - reaction, halve the damage of one attack he can see.\n- Mage Hand Legerdemain - invisible Mage Hand; can plant, lift and pick locks with it; bonus action to control.\n- Lucky - reroll a natural 1 on an attack, check or save.\n- Brave - advantage on saves against being frightened.\n- Halfling Nimbleness - moves through the space of anything larger than him.\n- Naturally Stealthy - can hide behind a creature at least one size larger.\n- Second Breakfast - if he eats during a short rest, he regains an extra 1d4 + 5 HP.\n\n",
-          "maxHitPoints" : 27,
-          "currentHitPoints" : 22,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "activeEffects" : [ ],
-          "subclass" : "Arcane Trickster",
-          "backstory" : "Escaped Subject. Neri does not remember a time before the laboratory - only the number R-17, the sound of the cage latch, and the doctors writing down how he laughed when they hurt him. Somewhere in there the graft took: gray fur, big ears, a thin tail he still tries to hide in his coat.\n\nHe got out through a laundry chute with a blue bead in his cheek, half of a key and a page torn from his own file. He never found the door the key belongs to. He keeps it anyway.\n\nHe jokes when he is scared, which is most of the time. He is loyal to whoever does not put him in a box. He hides his pain well enough that people forget it is there.\n\nLatch - sometimes a second, flatter voice answers for him. Neri calls it Latch. It is roleplay only: no mechanics, just the part of him that still counts the bars.\n\nContact: Moss, a courier who smuggled him his first deck of cards and asks no questions.\nHook: a shipment stamped with the laboratory seal (a closed eye inside a flask) is on its way to a riverside hospice. Neri wants to know what - or who - is inside.\n\nKeepsakes: a blue glass bead, a broken key, the lab record.",
-          "castingResource" : null,
-          "spellSlots" : [ {
-            "level" : 1,
-            "max" : 3,
-            "current" : 3
-          } ],
-          "knownBlueprints" : [ ],
-          "furnaceFuel" : 0,
-          "cooldowns" : { },
-          "skills" : {
-            "custom" : { },
-            "acrobatics" : 3,
-            "animalHandling" : 0,
-            "arcana" : 0,
-            "athletics" : 0,
-            "deception" : -2,
-            "history" : 0,
-            "insight" : 2,
-            "intimidation" : -1,
-            "investigation" : 2,
-            "medicine" : 0,
-            "nature" : 0,
-            "perception" : 1,
-            "performance" : -2,
-            "persuasion" : -1,
-            "religion" : 0,
-            "sleightOfHand" : 5,
-            "stealth" : 5,
-            "survival" : 0
-          },
-          "sheet" : {
-            "armorClass" : null,
-            "initiative" : null,
-            "speed" : null,
-            "proficiencyBonus" : null,
-            "passivePerception" : null,
-            "savingThrowProficiencies" : [ ],
-            "hitDice" : "",
-            "temporaryHitPoints" : 0,
-            "deathSaveSuccesses" : 0,
-            "deathSaveFailures" : 0,
-            "inspiration" : false,
-            "spellcastingAbility" : null,
-            "spellSaveDc" : null,
-            "spellAttackBonus" : null,
-            "copper" : 0,
-            "silver" : 0,
-            "electrum" : 0,
-            "gold" : 0,
-            "platinum" : 0,
-            "extraAttacks" : [ ],
-            "proficienciesAndLanguages" : "",
-            "extraFeatures" : "",
-            "notes" : ""
-          },
-          "featureUses" : { }
-        },
-        "position" : {
-          "x" : 5,
-          "y" : 3
-        },
-        "inventory" : [ ],
-        "combat" : {
-          "maxHitPoints" : 27,
-          "currentHitPoints" : 22,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "gold" : 0,
-          "initiative" : 16,
-          "deathSaveFailures" : 0,
-          "downed" : false,
-          "dead" : false,
-          "xpRewardId" : null,
-          "killXp" : 0,
-          "sharedXp" : 0,
-          "downedByPlayerId" : null,
-          "xpRewardResolved" : false,
-          "conditions" : [ ],
-          "notes" : null,
-          "inInitiative" : true,
-          "walkSpeed" : 30,
-          "climbSpeed" : 0,
-          "swimSpeed" : 0,
-          "speedSeeded" : true,
-          "movementUsed" : 2,
-          "deathSaveSuccesses" : 0,
-          "activeEffects" : [ ],
-          "cooldowns" : { },
-          "featureUses" : { },
-          "resistances" : [ ],
-          "enduranceFeature" : null,
-          "featureSpeedBonus" : 5,
-          "castingResource" : null,
-          "spellSlots" : [ {
-            "level" : 1,
-            "max" : 3,
-            "current" : 3
-          } ],
-          "actingThisRound" : true
-        },
-        "instanceId" : "e76590d2-bdda-4569-b100-339120b00f9c",
-        "symbol" : "P"
-      } ]
+      "occupants" : [ ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -35125,448 +34413,85 @@
       "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
-      "occupants" : [ {
-        "kind" : "player",
-        "character" : {
-          "id" : "player-tasha",
-          "name" : "Tasha",
-          "classId" : "cleric",
-          "raceId" : "tiefling",
-          "level" : 6,
-          "xp" : 90,
-          "upgrades" : {
-            "earned" : 5,
-            "unlocks" : [ {
-              "classId" : "cleric",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-1",
-              "branchName" : "Sacred Flame",
-              "name" : "Channel Divinity (1/rest)",
-              "description" : "Channel divine energy once per short or long rest to fuel special effects.\nClass training. If already known, this feat is not granted a second time.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "cleric",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-2",
-              "branchName" : "Sacred Flame",
-              "name" : "Destroy Undead (CR 1/2)",
-              "description" : "Undead of challenge rating 1/2 or lower that fail against your Turn Undead are destroyed outright.\nClass training. If already known, this feat is not granted a second time.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "cleric",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-3",
-              "branchName" : "Sacred Flame",
-              "name" : "Sacred Flame: Momentum",
-              "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "cleric",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-5",
-              "branchName" : "Sacred Flame",
-              "name" : "Sacred Flame: Breakthrough",
-              "description" : "Once per short rest, replace one attack with a contested Athletics check against a creature within reach, at most one size larger. On success push it 5 ft to clear supported ground, never off a ledge. No damage. The GM resolves this feat; the app tracks its rest use.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "cleric",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-6",
-              "branchName" : "Sacred Flame",
-              "name" : "Sacred Flame: Counterplay",
-              "description" : "Once per short rest, use your reaction when a visible enemy begins casting within 60 ft to identify its visible target or area with an Arcana check set by the GM. This does not interrupt the spell. The GM resolves this feat; the app tracks its rest use.\nNo new spell learned; no unlearned predefined alternatives: Hold Person",
-              "imagePath" : null,
-              "level" : 6,
-              "historical" : false,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 5,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ {
-                  "level" : 4,
-                  "name" : "Sacred Flame: Counterplay",
-                  "description" : "Once per short rest, use your reaction when a visible enemy begins casting within 60 ft to identify its visible target or area with an Arcana check set by the GM. This does not interrupt the spell. The GM resolves this feat; the app tracks its rest use.",
-                  "subclass" : null,
-                  "usesPerRest" : 1,
-                  "shortRestRecharge" : true
-                } ]
-              }
-            } ]
-          },
-          "stats" : {
-            "custom" : { },
-            "strength" : 8,
-            "dexterity" : 8,
-            "constitution" : 15,
-            "intelligence" : 8,
-            "wisdom" : 15,
-            "charisma" : 15
-          },
-          "items" : [ {
-            "itemId" : "morningstar",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "light-crossbow",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "shield",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "leather-armor",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "holy-symbol",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "healers-kit",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "holy-water",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "coin",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 11
-          }, {
-            "itemId" : "item-snake-ring",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "item-snake-morningstar-2",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          } ],
-          "spells" : [ {
-            "spellId" : "sacred-flame",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "guidance",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "light",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "thaumaturgy",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "cure-wounds",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "healing-word",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "bless",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "detect-magic",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "lesser-restoration",
-            "rank" : 2,
-            "active" : true
-          }, {
-            "spellId" : "spiritual-weapon",
-            "rank" : 2,
-            "active" : true
-          }, {
-            "spellId" : "hold-person",
-            "rank" : 2,
-            "active" : true
-          }, {
-            "spellId" : "revivify",
-            "rank" : 3,
-            "active" : true
-          }, {
-            "spellId" : "dispel-magic",
-            "rank" : 3,
-            "active" : false
-          }, {
-            "spellId" : "spare-the-dying",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "shield-of-faith",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "first-miracle",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "aid",
-            "rank" : 2,
-            "active" : true
-          }, {
-            "spellId" : "prayer-of-healing",
-            "rank" : 2,
-            "active" : true
-          }, {
-            "spellId" : "divine-embrace",
-            "rank" : 2,
-            "active" : true
-          }, {
-            "spellId" : "hope-never-dies",
-            "rank" : 3,
-            "active" : true
-          } ],
-          "personalFeatures" : [ ],
-          "passwordHash" : "8275bf27476f90e669476c921a36aad00a5402c558c40f2fddd9a986a486b565",
-          "passwordSalt" : "56862be59290d5b14ebb5bc3afbdc5e0",
-          "imagePath" : "images/players/player-tasha.jpg",
-          "playerName" : "Tatuli",
-          "ownerUsername" : "tatuli2002",
-          "description" : "Tiefling cleric. Casts with spell slots (level 5: 4 × 1st, 3 × 2nd, 2 × 3rd), recovered on a long rest.\n\nPassives:\n• Healing Bonus: +2 HP on every healing spell she casts (the DM adds it; the app's flat healing values already use her numbers without it).\n• Passive Perception: 14\n• Passive Insight: 16\n• Passive Investigation: 9\n\nOnce per long rest: Divine Embrace.",
-          "maxHitPoints" : 45,
-          "currentHitPoints" : 36,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "activeEffects" : [ ],
-          "subclass" : "",
-          "backstory" : "ორივე ტიფლინგ მშობელს მძიმე ბედი ჰქონდა და უწევდათ თავის გატანა ქურდობებით\nარსებობდა ჭორი, რომ ერთერთმა ძარცვის მსხვერპლმა ადგილობრივ ჯადოქართან\nდააწყევლინა ჩემი ოჯახი და კიდევ უფრო გააუბედურა.დედაჩემს რთული მშობიარობა\nქონდა და გავჩნდით სამი ტყუპი მე, ჩემი და და ჩემი ძმა.\n1 წელიც არ გვქონდა შესრულებული როდესაც, გარდაიცვალა ძმა გაურკვეველი\nდაავადებით, ჩემი და კი ერთ ღამეს გაქრა და მისი კვალი აღარსად გვინახავს.\nოჯახმა სულიერ და ფინანსურ წნეხს ვერ გაუძლო რამაც მამა ციხემდე მიიყვანა\nდედჩემმა კი გადაწყვიტა დავესვი ადამიანების სოფლის ისეთ ოჯახის კართან\nრომელის მიმართ ცოდვა არ ჰქონდათ ჩადენილი ეგონა, რომ მხოლოდ ამით შეეძლო\nავრიდებინე წყევლას.\nსიმართლე ვთქვა მათი სახეები აღარც მახსოვს მხოლოდ მათი რქები დედაჩემს ყურებს\nუკან ქონდა გადაწეული სპირალივით მამაჩემს კი ზემოთ ამართული თუმცა სულ\nდატეხილი ალბათ ჩემნაირი რქები ექნებოდა მისი ცხოვრების წესი, რომ არა.\nადამიანების ოჯახებისთვის აღმოვჩნდი ის ნანატრი ბავშვი, რომელსაც წლები\nთხოვდნენ ღმერს. არ ადარდებდათ არც ჩემი ფერი არც ჩემი რქები.\nჩემი ადამიანი დედა ტყავზე მუშაობს ხოლო მამაჩემი პურის მცხობელია ამიტომაც მათ\nყველა იცნობენ და პატივს სცემენ.\nმათ ხელგაშლილობა და თანაგრძნობა მასწავლეს, მამა თუ ვინმეს პურის ფული არ აქვს\nჩუქნის და გლეხებს რომლებსაც ულევი შრომისგან ფეხსაცმელები უფუჭდებათ\nდედაჩემი უფასოდ უკერავს.\nალერსში და სიკეთეში გავიზარდე, მშობლების მოპოვებული პატივის ცემით\nვსარგებლობდი და ჩემს სოფელში ყველა მეგობრულად განჭყობილი იყო ჩემს მიმართ\nთუმცა ვხვდებოდი, რომ როგორც ჩემმა მშობლებმა დაიმსახურეს სოფლის სიყვარული\nმეც რაიმე გზა უნდა მეპოვა რითიც ვიზავდი ამას. ყოველ ღამე ვლოცულობდი, რომ\nმომცემოდა ძალა რითიც შევძლებდი ხალხის დახმარებას.\nერთ ღამესაც სოფელის რამოდენიმე სახლის გაძარცვა დააპირეს ტიფლინგებმა. ღამე\nგვიანობამდე ვჩერდებოდი, რადგან ადამიანებთან შედარებით სიბნელე არ მიშლიდა\nხელს ამიტომ დავინახე, რომ სახლში შემოსული მძარცველი უკან გაიპარა ისე, რომ\nარაფერი არ წაუღია...\nამის დანახვასთან ერთად გავიგე უბნის ძაღლის კივილი გავვარდი და დავინახე, რომ\nდაშნით იყო დაჭრილი, ხელში ავიყვანე და დავიწყე ვედრება იქნებ რამით გადამერჩინა\nძაღლი ამ მომენტში ვიგრძენი, რომ რაღაც ზეციური ძალის დახმარებით, მაგიური\nენერგიით შევუხორცე ჭრილობა სასიკვდილოდ გაწირულ ცხოველს.\nამ შემთხვევამ შეცვალა ჩემი ცხოვრება. მშობლები ამის გაგებისთანავე უსიტყვოდ\nდამეხმარნენ შემესწავლა ღვთისგან ბოძებული ძალის შესახებ თუმცა სოფელის\nეკლესიაში საკმარისი ინფორმაცია არ იყო ამიტომ გადავწყვიტე ვიმოგზაურო\nქალაქებში სადაც მოვიძიებ ინფორმაციას ჩემს ხვედრზე და შევძლებ გასაჭირში მყოფ\nყველანაირი სიცოცხლის დახმარებას",
-          "castingResource" : "SPELL_SLOTS",
-          "spellSlots" : [ {
-            "level" : 1,
-            "max" : 4,
-            "current" : 1
-          }, {
-            "level" : 2,
-            "max" : 3,
-            "current" : 2
-          }, {
-            "level" : 3,
-            "max" : 3,
-            "current" : 2
-          } ],
-          "knownBlueprints" : [ ],
-          "furnaceFuel" : 0,
-          "cooldowns" : { },
-          "skills" : {
-            "custom" : { },
-            "acrobatics" : -1,
-            "animalHandling" : 1,
-            "arcana" : 2,
-            "athletics" : 0,
-            "deception" : -2,
-            "history" : 0,
-            "insight" : 1,
-            "intimidation" : -1,
-            "investigation" : 0,
-            "medicine" : 5,
-            "nature" : 0,
-            "perception" : 1,
-            "performance" : 1,
-            "persuasion" : 3,
-            "religion" : 5,
-            "sleightOfHand" : -1,
-            "stealth" : -1,
-            "survival" : 1
-          },
-          "sheet" : {
-            "armorClass" : null,
-            "initiative" : null,
-            "speed" : null,
-            "proficiencyBonus" : null,
-            "passivePerception" : null,
-            "savingThrowProficiencies" : [ ],
-            "hitDice" : "",
-            "temporaryHitPoints" : 0,
-            "deathSaveSuccesses" : 0,
-            "deathSaveFailures" : 0,
-            "inspiration" : false,
-            "spellcastingAbility" : null,
-            "spellSaveDc" : null,
-            "spellAttackBonus" : null,
-            "copper" : 0,
-            "silver" : 0,
-            "electrum" : 0,
-            "gold" : 0,
-            "platinum" : 0,
-            "extraAttacks" : [ ],
-            "proficienciesAndLanguages" : "",
-            "extraFeatures" : "",
-            "notes" : ""
-          },
-          "featureUses" : { }
-        },
-        "position" : {
-          "x" : 7,
-          "y" : 3
-        },
-        "inventory" : [ ],
-        "combat" : {
-          "maxHitPoints" : 45,
-          "currentHitPoints" : 36,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "gold" : 0,
-          "initiative" : 3,
-          "deathSaveFailures" : 0,
-          "downed" : false,
-          "dead" : false,
-          "xpRewardId" : null,
-          "killXp" : 0,
-          "sharedXp" : 0,
-          "downedByPlayerId" : null,
-          "xpRewardResolved" : false,
-          "conditions" : [ ],
-          "notes" : null,
-          "inInitiative" : true,
-          "walkSpeed" : 35,
-          "climbSpeed" : 0,
-          "swimSpeed" : 0,
-          "speedSeeded" : true,
-          "movementUsed" : 4,
-          "deathSaveSuccesses" : 0,
-          "activeEffects" : [ ],
-          "cooldowns" : { },
-          "featureUses" : { },
-          "resistances" : [ "fire" ],
-          "enduranceFeature" : null,
-          "featureSpeedBonus" : 5,
-          "castingResource" : "SPELL_SLOTS",
-          "spellSlots" : [ {
-            "level" : 1,
-            "max" : 4,
-            "current" : 1
-          }, {
-            "level" : 2,
-            "max" : 3,
-            "current" : 2
-          }, {
-            "level" : 3,
-            "max" : 3,
-            "current" : 2
-          } ],
-          "actingThisRound" : true
-        },
-        "instanceId" : "45d12a5f-4007-4e42-9532-4e20c25dbefb",
-        "symbol" : "P"
-      } ]
+      "occupants" : [ ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
       "effect" : null,
       "occupants" : [ {
         "kind" : "player",
@@ -35576,7 +34501,7 @@
           "classId" : "fighter",
           "raceId" : "human",
           "level" : 6,
-          "xp" : 90,
+          "xp" : 130,
           "upgrades" : {
             "earned" : 5,
             "unlocks" : [ {
@@ -35915,7 +34840,7 @@
           "ownerUsername" : "Cruel Carrot",
           "description" : "Duelist.\n\nWeapons:\n• Ladies' Blade — no bonus to hit, 1d6 piercing. On a hit: even damage roll → damage doubled, odd → damage halved (rounded up).\n• Forgotten Blade — +3 to hit, 1d8 slashing.\n• Dual (both blades equipped) — +5 to hit, 1d8 + 1d6 (use the Dual Blade Strike action). The Ladies' Blade d6 still follows the even/odd rule.\n\nTreasure & inventory: Explorer's Pack, Simple Clothes, Visage (glasses), 40 BP, Philter of Love, Dust Powder, Advantage: Wisdom, Null Monet.\n\nPassives:\n• Break Enemy Defense — 20% chance on each hit (d100 ≤ 20) to reduce the target's AC by 1 until the end of the fight.\n• Battle Awareness — automatically enters battle stance when a fight starts; predicts the enemy's first strike and gets one free Dodge against it.\n• Combat Momentum — each successful hit adds +1 damage to his following hits, stacking until the end of the battle.\n• Parry & Counter — when attacked in melee roll d100: 1–25 parry and counterattack (counter lands on 50%), 26–45 parry only, 46–65 counterattack only, 66–100 nothing.\n\nSuper attack: T.L.K.O. (the move only Maghro knows) — see the T.L.K.O. action.",
           "maxHitPoints" : 52,
-          "currentHitPoints" : 16,
+          "currentHitPoints" : 52,
           "maxMana" : 0,
           "currentMana" : 0,
           "activeEffects" : [ ],
@@ -35979,13 +34904,13 @@
           "featureUses" : { }
         },
         "position" : {
-          "x" : 8,
-          "y" : 3
+          "x" : 9,
+          "y" : 4
         },
         "inventory" : [ ],
         "combat" : {
           "maxHitPoints" : 52,
-          "currentHitPoints" : 16,
+          "currentHitPoints" : 52,
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
@@ -36005,7 +34930,7 @@
           "climbSpeed" : 0,
           "swimSpeed" : 0,
           "speedSeeded" : true,
-          "movementUsed" : 0,
+          "movementUsed" : 2,
           "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : {
@@ -36028,151 +34953,6 @@
       "passable" : true,
       "terrain" : "DIFFICULT",
       "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    } ], [ {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "DIFFICULT",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    } ], [ {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
       "occupants" : [ {
         "kind" : "player",
         "character" : {
@@ -36181,7 +34961,7 @@
           "classId" : "barbarian",
           "raceId" : "human",
           "level" : 6,
-          "xp" : 110,
+          "xp" : 150,
           "upgrades" : {
             "earned" : 5,
             "unlocks" : [ {
@@ -36390,19 +35170,10 @@
           "ownerUsername" : "",
           "description" : "მაღალი, დაკუნთული ბარბაროსი მეომარი რომელიც არ ატარებს აბჯარს.\n\nRage (გაცოფება) არის ბარბარიანის მთავარი უნარი. ის იძლევა ძალას და გამძლეობას ბრძოლაში.\n\nროგორ ჩაირთვება\n\nჩართავ bonus action-ით, ანუ დარტყმასაც მოასწრებ იმავე სვლაში.\nგრძელდება 1 წუთი (10 რაუნდი).\nდარიუსს 5 დონეზე აქვს 3 გამოყენება, რომლებიც long rest-ზე ბრუნდება.\n\nრას იძლევა\n\nAdvantage Strength-ის შემოწმებებსა და Strength save-ებზე.\n+2 damage ყოველ ახლო ბრძოლის დარტყმაზე Strength-ით. მუშტის დარტყმაზეც მუშაობს.\nწინააღმდეგობა (resistance) bludgeoning, piercing და slashing damage-ის მიმართ. ეს ნიშნავს, რომ ამ ტიპის დაზიანებას ნახევარს იღებს.\n\nრა არ შეუძლია გაცოფებისას\n\nსპელების ჩამოგდება და კონცენტრაცია.\nმძიმე აბჯარში ვერ ჩაირთვება. დარიუსს აბჯარი არ აქვს, ამიტომ პრობლემა არ არის.\n\nროდის წყდება\n\n1 წუთის შემდეგ.\nთუ გონებას დაკარგავ.\nთუ შენი სვლის ბოლოს არავისთვის გიტევია და თავად არ დაგიზიანებიათ ბოლო სვლის შემდეგ. ამიტომ ბრძოლაში მაინც უნდა იყო აქტიური.\nშეგიძლია bonus action-ით თავადაც გამორთო.\n\nშეუიარაღებელი ხელით შეტევა მასზე ყოველთვის მოქმედებს როგორც 1d4\n\nშეუძლია მოქმედების გამოყენების გარეშე, ბონუს მოქმედებით გააკავოს მოწინააღმდეგე.",
           "maxHitPoints" : 59,
-          "currentHitPoints" : 46,
+          "currentHitPoints" : 59,
           "maxMana" : 0,
           "currentMana" : 0,
-          "activeEffects" : [ {
-            "effectId" : "reckless-attack",
-            "name" : "Reckless",
-            "description" : "Advantage on Strength melee attacks this turn; attacks against you have advantage until your next turn.",
-            "remainingRounds" : 1,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "Reckless Attack",
-            "expired" : false
-          } ],
+          "activeEffects" : [ ],
           "subclass" : "",
           "backstory" : "",
           "castingResource" : null,
@@ -36460,12 +35231,12 @@
         },
         "position" : {
           "x" : 10,
-          "y" : 5
+          "y" : 4
         },
         "inventory" : [ ],
         "combat" : {
           "maxHitPoints" : 59,
-          "currentHitPoints" : 46,
+          "currentHitPoints" : 59,
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
@@ -36485,18 +35256,9 @@
           "climbSpeed" : 0,
           "swimSpeed" : 0,
           "speedSeeded" : true,
-          "movementUsed" : 1,
+          "movementUsed" : 0,
           "deathSaveSuccesses" : 0,
-          "activeEffects" : [ {
-            "effectId" : "reckless-attack",
-            "name" : "Reckless",
-            "description" : "Advantage on Strength melee attacks this turn; attacks against you have advantage until your next turn.",
-            "remainingRounds" : 1,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "Reckless Attack",
-            "expired" : false
-          } ],
+          "activeEffects" : [ ],
           "cooldowns" : { },
           "featureUses" : { },
           "resistances" : [ ],
@@ -36509,6 +35271,76 @@
         "instanceId" : "4350c61a-88cd-4206-9acc-493947971a5f",
         "symbol" : "P"
       } ]
+    }, {
+      "passable" : true,
+      "terrain" : "DIFFICULT",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -36556,7 +35388,7 @@
           "classId" : "artificer",
           "raceId" : "human",
           "level" : 6,
-          "xp" : 90,
+          "xp" : 130,
           "upgrades" : {
             "earned" : 5,
             "unlocks" : [ {
@@ -36981,7 +35813,7 @@
           "ownerUsername" : "",
           "description" : "22 years, 185 cm. Young human noble engineer of House Valebrick - curious, suspicious, heavily sarcastic, composed and educated. Carries a 32-36 kg portable field workshop on his back with a Resonance Core and a removable stationary Bolt Repeater. \"Don't ask what humans were given. Ask what we built.\"",
           "maxHitPoints" : 45,
-          "currentHitPoints" : 39,
+          "currentHitPoints" : 45,
           "maxMana" : 0,
           "currentMana" : 0,
           "activeEffects" : [ ],
@@ -37057,7 +35889,7 @@
         "inventory" : [ ],
         "combat" : {
           "maxHitPoints" : 45,
-          "currentHitPoints" : 39,
+          "currentHitPoints" : 45,
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
@@ -37126,7 +35958,242 @@
       "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
-      "occupants" : [ ]
+      "occupants" : [ {
+        "kind" : "monster",
+        "monster" : {
+          "id" : "clockwork-white-rabbit",
+          "name" : "The White Rabbit (Clockwork)",
+          "description" : "Small beast (clockwork), CR 6 (2300 XP). AC 17, HP 105 (14d8+42), speed 24 m, doesn't provoke opportunity attacks. Saves DEX +9, WIS +8; Perception +8, Acrobatics +9. Truesight 9 m, passive Perception 18. 1.2 m tall, a once-beautiful waistcoat, fur that was once white - torn away in patches over wet, tiny gears turning in time with his breathing - holding the pocket watch in both hands like a bird. He does not want to kill them; he wants them to be late. Talk first - fight, persuade (DC 20) or steal (DC 20 Sleight of Hand) are all valid. He never attacks a downed character: he kneels, ear to its chest, and counts its remaining seconds aloud - always a little fewer than the player expected. At 0 HP he does not die: he sits down heavily and his hands open.",
+          "type" : "beast (clockwork)",
+          "challengeRating" : "6",
+          "stats" : {
+            "custom" : { },
+            "strength" : 8,
+            "dexterity" : 20,
+            "constitution" : 16,
+            "intelligence" : 16,
+            "wisdom" : 18,
+            "charisma" : 10
+          },
+          "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "out_of_order",
+            "name" : "Out of Order",
+            "description" : "Passive. He acts first every round, on initiative 30, no matter what anyone rolled.",
+            "effects" : [ ],
+            "range" : 0.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "between_seconds",
+            "name" : "Between Seconds",
+            "description" : "Passive. At the end of every other creature's turn he moves up to 6 m for free. He is never seen moving - only somewhere else.",
+            "effects" : [ ],
+            "range" : 0.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "pin_strike",
+            "name" : "Pin Strike (Multiattack x2)",
+            "description" : "Two pin strikes: +9 to hit, 1d6+5 piercing plus 2d6 psychic each, as one second of the target's life runs out early.",
+            "effects" : [ ],
+            "range" : 5.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : {
+              "dice" : [ {
+                "diceId" : "d6",
+                "count" : 1
+              } ],
+              "typeId" : "piercing",
+              "constant" : 0
+            }
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "rabbit_delay",
+            "name" : "Delay",
+            "description" : "Recharge 4-6. One creature: WIS save DC 16. On a failure it skips its next turn entirely - he simply wasn't there for it.",
+            "effects" : [ "incapacitated" ],
+            "range" : 60.0,
+            "recharge" : 2,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "late_touch",
+            "name" : "Late",
+            "description" : "Bonus action. He touches a creature: its next turn happens at the very end of the round instead of where it should. No save.",
+            "effects" : [ ],
+            "range" : 5.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "tick_back",
+            "name" : "Tick (Click)",
+            "description" : "Reaction, 3 times per fight. When another creature ends its turn, he undoes that turn: the creature returns to where it started, and all damage and effects from that turn are undone - but spent resources and actions stay spent and it does not act again. The players remember. Read aloud: click. Fire returns to the palm. The arrow lies back on the string. The Rabbit hasn't moved. He smiles. 'Once more. Until you get it right.'",
+            "effects" : [ ],
+            "range" : 0.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "pocket_watch_rewind",
+            "name" : "Pocket Watch Rewind",
+            "description" : "Recharge 5-6, at most TWICE per fight. He winds the watch backwards: the fight returns to the start of the Rabbit's previous turn - all damage and effects since then (spent spells, conditions, movement, rolled dice) are undone. Use the battle map's ⟲ Rewind button; the app restores everything automatically. What does not rewind: the players' memories - they remember what happened and may act differently. The recharge itself stays spent. Read aloud: the ticking stops. Then - click - and everything goes backwards. His wounds zip shut in his fur. 'Again,' he says. 'Again. We will do this as many times as it takes.'",
+            "effects" : [ ],
+            "range" : 0.0,
+            "recharge" : 3,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "time_seam",
+            "name" : "Time Seam (Lair)",
+            "description" : "On initiative 20 a random 3 m square of the tower runs at a different speed: everything in it at the start of a turn makes a CON save DC 14 or loses its action. Clock-room variant: four flickering seams - roll d4 at the end of each round for which quarter is FAST (extra action) and which is SLOW (half speed, no reactions); tell the players before they act.",
+            "effects" : [ "slowed" ],
+            "range" : 60.0,
+            "recharge" : 0,
+            "radius" : 5.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          } ],
+          "languages" : [ "common" ],
+          "maxHitPoints" : 105,
+          "armorClass" : 17,
+          "maxMana" : 0,
+          "spellSlots" : [ ],
+          "imagePath" : "images/monsters/clockwork-white-rabbit.jpg"
+        },
+        "position" : {
+          "x" : 9,
+          "y" : 6
+        },
+        "inventory" : [ ],
+        "combat" : {
+          "maxHitPoints" : 105,
+          "currentHitPoints" : 0,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "gold" : 0,
+          "initiative" : 21,
+          "deathSaveFailures" : 3,
+          "downed" : false,
+          "dead" : true,
+          "xpRewardId" : null,
+          "killXp" : 0,
+          "sharedXp" : 0,
+          "downedByPlayerId" : null,
+          "xpRewardResolved" : false,
+          "conditions" : [ ],
+          "notes" : null,
+          "inInitiative" : true,
+          "walkSpeed" : 30,
+          "climbSpeed" : 0,
+          "swimSpeed" : 0,
+          "speedSeeded" : true,
+          "movementUsed" : 4,
+          "deathSaveSuccesses" : 0,
+          "activeEffects" : [ {
+            "effectId" : "compelled_duel",
+            "name" : "Compelled Duel",
+            "description" : "Pulled toward the challenger and has disadvantage on attacks against anyone else.",
+            "remainingRounds" : 1,
+            "damagePerRound" : 0,
+            "healingPerRound" : 0,
+            "source" : "GM",
+            "expired" : false
+          }, {
+            "effectId" : "slowed",
+            "name" : "Slowed",
+            "description" : "Every movement drags as if through deep water.",
+            "remainingRounds" : 1,
+            "damagePerRound" : 0,
+            "healingPerRound" : 0,
+            "source" : "Lavenos's Step Feint",
+            "expired" : false
+          } ],
+          "cooldowns" : { },
+          "featureUses" : { },
+          "resistances" : [ ],
+          "enduranceFeature" : null,
+          "featureSpeedBonus" : 0,
+          "castingResource" : null,
+          "spellSlots" : [ ],
+          "actingThisRound" : false
+        },
+        "instanceId" : "1ae50f0b-805d-4983-ac25-fb3ca50253cf",
+        "symbol" : "M"
+      } ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -37136,7 +36203,475 @@
       "passable" : false,
       "terrain" : "NORMAL",
       "effect" : null,
-      "occupants" : [ ]
+      "occupants" : [ {
+        "kind" : "player",
+        "character" : {
+          "id" : "player-ratboy",
+          "name" : "\"Ratboy\" Venn",
+          "classId" : "rogue",
+          "raceId" : "lightfoot-halfling",
+          "level" : 6,
+          "xp" : 120,
+          "upgrades" : {
+            "earned" : 5,
+            "unlocks" : [ {
+              "classId" : "rogue",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-1",
+              "branchName" : "Shadowblade",
+              "name" : "Cunning Action",
+              "description" : "Dash, Disengage or Hide as a bonus action.\nClass training. If already known, this feat is not granted a second time.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "rogue",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-2",
+              "branchName" : "Shadowblade",
+              "name" : "Uncanny Dodge",
+              "description" : "Use your reaction to halve the damage of an attack from an attacker you can see.\nClass training. If already known, this feat is not granted a second time.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "rogue",
+              "sourceRequestId" : null,
+              "nodeId" : "resilience-1",
+              "branchName" : "Escape Artist",
+              "name" : "Roguish Archetype",
+              "description" : "Choose the archetype that defines your roguish expertise.\nClass training. If already known, this feat is not granted a second time.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "rogue",
+              "sourceRequestId" : null,
+              "nodeId" : "@historical-level-5",
+              "branchName" : "Existing training",
+              "name" : "Uncanny Dodge",
+              "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: charm-person, disguise-self, mage-hand, minor-illusion, ray-of-frost, shield-spell, silent-image",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "rogue",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-5",
+              "branchName" : "Shadowblade",
+              "name" : "Shadowblade: Breakthrough",
+              "description" : "Once per short rest, replace one attack with a contested Athletics check against a creature within reach, at most one size larger. On success push it 5 ft to clear supported ground, never off a ledge. No damage. The GM resolves this feat; the app tracks its rest use.",
+              "imagePath" : null,
+              "level" : 6,
+              "historical" : false,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 5,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ {
+                  "level" : 4,
+                  "name" : "Shadowblade: Breakthrough",
+                  "description" : "Once per short rest, replace one attack with a contested Athletics check against a creature within reach, at most one size larger. On success push it 5 ft to clear supported ground, never off a ledge. No damage. The GM resolves this feat; the app tracks its rest use.",
+                  "subclass" : null,
+                  "usesPerRest" : 1,
+                  "shortRestRecharge" : true
+                } ]
+              }
+            } ]
+          },
+          "stats" : {
+            "custom" : { },
+            "strength" : 8,
+            "dexterity" : 15,
+            "constitution" : 8,
+            "intelligence" : 15,
+            "wisdom" : 15,
+            "charisma" : 8
+          },
+          "items" : [ {
+            "itemId" : "studded-leather",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "dagger",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 2
+          }, {
+            "itemId" : "shortbow",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "arrows",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 20
+          }, {
+            "itemId" : "quiver",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "thieves-tools",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "component-pouch",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "disguise-kit",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "forgery-kit",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "playing-cards",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "simple-clothes",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "backpack",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "bedroll",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "tinderbox",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "torch",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 5
+          }, {
+            "itemId" : "waterskin",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "rations",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 5
+          }, {
+            "itemId" : "rope-hempen",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "pouch",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "blue-bead",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "broken-key",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "lab-record",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "coin",
+            "condition" : {
+              "durability" : 0
+            },
+            "equipped" : false,
+            "quantity" : 2
+          }, {
+            "itemId" : "item-deck-of-cards",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          } ],
+          "spells" : [ {
+            "spellId" : "mage-hand",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "minor-illusion",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "ray-of-frost",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "shield-spell",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "disguise-self",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "silent-image",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "charm-person",
+            "rank" : 1,
+            "active" : true
+          } ],
+          "personalFeatures" : [ ],
+          "passwordHash" : "562179bcf2b8ca39f23c0da4ffd12ba61eccf10df04897df4ee0cd1dc4ebf980",
+          "passwordSalt" : "3d6551c94bc4b98f8eb7a663952fc5bc",
+          "imagePath" : "images/players/player-ratboy.jpg",
+          "playerName" : "ana",
+          "ownerUsername" : "",
+          "description" : "Neri \"Ratboy\" Venn (R-17) - Lightfoot halfling (rat-like), Rogue 5 (Arcane Trickster)\n\n. Passive Perception 15.\nProficiencies: light armour; simple weapons, hand crossbows, longswords, rapiers, shortswords; thieves' tools, disguise kit, forgery kit. Languages: Common, Halfling, Thieves' Cant.\n\nAttacks: Dagger +5, 1d4+2 piercing (thrown 6/18 m). Shortbow +5, 1d6+2 piercing (24/96 m).\nSpellcasting (INT): save DC 13, spell attack +5, three 1st-level slots.\n- Cantrips: Mage Hand, Minor Illusion, Frost Card (Ray of Frost - he throws a frozen playing card: +5 to hit, 2d8 cold at level 5, 18 m, target -3 m speed).\n- 1st level: Shield, Disguise Self, Silent Image (concentration), Charm Person.\n\nFeatures:\n- Sneak Attack 3d6 - once per turn, finesse or ranged weapon, with advantage or an ally next to the target.\n- Cunning Action - Dash, Disengage or Hide as a bonus action.\n- Uncanny Dodge - reaction, halve the damage of one attack he can see.\n- Mage Hand Legerdemain - invisible Mage Hand; can plant, lift and pick locks with it; bonus action to control.\n- Lucky - reroll a natural 1 on an attack, check or save.\n- Brave - advantage on saves against being frightened.\n- Halfling Nimbleness - moves through the space of anything larger than him.\n- Naturally Stealthy - can hide behind a creature at least one size larger.\n- Second Breakfast - if he eats during a short rest, he regains an extra 1d4 + 5 HP.\n\n",
+          "maxHitPoints" : 27,
+          "currentHitPoints" : 27,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "activeEffects" : [ ],
+          "subclass" : "Arcane Trickster",
+          "backstory" : "Escaped Subject. Neri does not remember a time before the laboratory - only the number R-17, the sound of the cage latch, and the doctors writing down how he laughed when they hurt him. Somewhere in there the graft took: gray fur, big ears, a thin tail he still tries to hide in his coat.\n\nHe got out through a laundry chute with a blue bead in his cheek, half of a key and a page torn from his own file. He never found the door the key belongs to. He keeps it anyway.\n\nHe jokes when he is scared, which is most of the time. He is loyal to whoever does not put him in a box. He hides his pain well enough that people forget it is there.\n\nLatch - sometimes a second, flatter voice answers for him. Neri calls it Latch. It is roleplay only: no mechanics, just the part of him that still counts the bars.\n\nContact: Moss, a courier who smuggled him his first deck of cards and asks no questions.\nHook: a shipment stamped with the laboratory seal (a closed eye inside a flask) is on its way to a riverside hospice. Neri wants to know what - or who - is inside.\n\nKeepsakes: a blue glass bead, a broken key, the lab record.",
+          "castingResource" : null,
+          "spellSlots" : [ {
+            "level" : 1,
+            "max" : 3,
+            "current" : 3
+          } ],
+          "knownBlueprints" : [ ],
+          "furnaceFuel" : 0,
+          "cooldowns" : { },
+          "skills" : {
+            "custom" : { },
+            "acrobatics" : 3,
+            "animalHandling" : 0,
+            "arcana" : 0,
+            "athletics" : 0,
+            "deception" : -2,
+            "history" : 0,
+            "insight" : 2,
+            "intimidation" : -1,
+            "investigation" : 2,
+            "medicine" : 0,
+            "nature" : 0,
+            "perception" : 1,
+            "performance" : -2,
+            "persuasion" : -1,
+            "religion" : 0,
+            "sleightOfHand" : 5,
+            "stealth" : 5,
+            "survival" : 0
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : "",
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : 0,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : "",
+            "extraFeatures" : "",
+            "notes" : ""
+          },
+          "featureUses" : { }
+        },
+        "position" : {
+          "x" : 11,
+          "y" : 6
+        },
+        "inventory" : [ ],
+        "combat" : {
+          "maxHitPoints" : 27,
+          "currentHitPoints" : 27,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "gold" : 0,
+          "initiative" : 16,
+          "deathSaveFailures" : 0,
+          "downed" : false,
+          "dead" : false,
+          "xpRewardId" : null,
+          "killXp" : 0,
+          "sharedXp" : 0,
+          "downedByPlayerId" : null,
+          "xpRewardResolved" : false,
+          "conditions" : [ ],
+          "notes" : null,
+          "inInitiative" : true,
+          "walkSpeed" : 30,
+          "climbSpeed" : 0,
+          "swimSpeed" : 0,
+          "speedSeeded" : true,
+          "movementUsed" : 3,
+          "deathSaveSuccesses" : 0,
+          "activeEffects" : [ ],
+          "cooldowns" : { },
+          "featureUses" : { },
+          "resistances" : [ ],
+          "enduranceFeature" : null,
+          "featureSpeedBonus" : 5,
+          "castingResource" : null,
+          "spellSlots" : [ {
+            "level" : 1,
+            "max" : 3,
+            "current" : 3
+          } ],
+          "actingThisRound" : true
+        },
+        "instanceId" : "e76590d2-bdda-4569-b100-339120b00f9c",
+        "symbol" : "P"
+      } ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -37164,61 +36699,6 @@
       "occupants" : [ ]
     }, {
       "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : true,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    }, {
-      "passable" : false,
-      "terrain" : "NORMAL",
-      "effect" : null,
-      "occupants" : [ ]
-    } ], [ {
-      "passable" : false,
       "terrain" : "NORMAL",
       "effect" : null,
       "occupants" : [ ]
@@ -37264,7 +36744,7 @@
           "classId" : "warlock",
           "raceId" : "sinne-shapeshifter",
           "level" : 6,
-          "xp" : 110,
+          "xp" : 150,
           "upgrades" : {
             "earned" : 5,
             "unlocks" : [ {
@@ -37587,8 +37067,8 @@
           "featureUses" : { }
         },
         "position" : {
-          "x" : 7,
-          "y" : 8
+          "x" : 10,
+          "y" : 7
         },
         "inventory" : [ ],
         "combat" : {
@@ -37613,7 +37093,7 @@
           "climbSpeed" : 0,
           "swimSpeed" : 0,
           "speedSeeded" : true,
-          "movementUsed" : 1,
+          "movementUsed" : 5,
           "deathSaveSuccesses" : 0,
           "activeEffects" : [ ],
           "cooldowns" : { },
@@ -37632,6 +37112,61 @@
         "instanceId" : "c673e730-db7d-4bc7-8f86-465996c6bf20",
         "symbol" : "P"
       } ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    } ], [ {
+      "passable" : false,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
+    }, {
+      "passable" : true,
+      "terrain" : "NORMAL",
+      "effect" : null,
+      "occupants" : [ ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -37691,7 +37226,445 @@
       "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
-      "occupants" : [ ]
+      "occupants" : [ {
+        "kind" : "player",
+        "character" : {
+          "id" : "player-tasha",
+          "name" : "Tasha",
+          "classId" : "cleric",
+          "raceId" : "tiefling",
+          "level" : 6,
+          "xp" : 130,
+          "upgrades" : {
+            "earned" : 5,
+            "unlocks" : [ {
+              "classId" : "cleric",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-1",
+              "branchName" : "Sacred Flame",
+              "name" : "Channel Divinity (1/rest)",
+              "description" : "Channel divine energy once per short or long rest to fuel special effects.\nClass training. If already known, this feat is not granted a second time.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "cleric",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-2",
+              "branchName" : "Sacred Flame",
+              "name" : "Destroy Undead (CR 1/2)",
+              "description" : "Undead of challenge rating 1/2 or lower that fail against your Turn Undead are destroyed outright.\nClass training. If already known, this feat is not granted a second time.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "cleric",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-3",
+              "branchName" : "Sacred Flame",
+              "name" : "Sacred Flame: Momentum",
+              "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "cleric",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-5",
+              "branchName" : "Sacred Flame",
+              "name" : "Sacred Flame: Breakthrough",
+              "description" : "Once per short rest, replace one attack with a contested Athletics check against a creature within reach, at most one size larger. On success push it 5 ft to clear supported ground, never off a ledge. No damage. The GM resolves this feat; the app tracks its rest use.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "cleric",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-6",
+              "branchName" : "Sacred Flame",
+              "name" : "Sacred Flame: Counterplay",
+              "description" : "Once per short rest, use your reaction when a visible enemy begins casting within 60 ft to identify its visible target or area with an Arcana check set by the GM. This does not interrupt the spell. The GM resolves this feat; the app tracks its rest use.\nNo new spell learned; no unlearned predefined alternatives: Hold Person",
+              "imagePath" : null,
+              "level" : 6,
+              "historical" : false,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 5,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ {
+                  "level" : 4,
+                  "name" : "Sacred Flame: Counterplay",
+                  "description" : "Once per short rest, use your reaction when a visible enemy begins casting within 60 ft to identify its visible target or area with an Arcana check set by the GM. This does not interrupt the spell. The GM resolves this feat; the app tracks its rest use.",
+                  "subclass" : null,
+                  "usesPerRest" : 1,
+                  "shortRestRecharge" : true
+                } ]
+              }
+            } ]
+          },
+          "stats" : {
+            "custom" : { },
+            "strength" : 8,
+            "dexterity" : 8,
+            "constitution" : 15,
+            "intelligence" : 8,
+            "wisdom" : 15,
+            "charisma" : 15
+          },
+          "items" : [ {
+            "itemId" : "morningstar",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "light-crossbow",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "shield",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "leather-armor",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "holy-symbol",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "healers-kit",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "holy-water",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "coin",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 11
+          }, {
+            "itemId" : "item-snake-ring",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "item-snake-morningstar-2",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          } ],
+          "spells" : [ {
+            "spellId" : "sacred-flame",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "guidance",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "light",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "thaumaturgy",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "cure-wounds",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "healing-word",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "bless",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "detect-magic",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "lesser-restoration",
+            "rank" : 2,
+            "active" : true
+          }, {
+            "spellId" : "spiritual-weapon",
+            "rank" : 2,
+            "active" : true
+          }, {
+            "spellId" : "hold-person",
+            "rank" : 2,
+            "active" : true
+          }, {
+            "spellId" : "revivify",
+            "rank" : 3,
+            "active" : true
+          }, {
+            "spellId" : "dispel-magic",
+            "rank" : 3,
+            "active" : false
+          }, {
+            "spellId" : "spare-the-dying",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "shield-of-faith",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "first-miracle",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "aid",
+            "rank" : 2,
+            "active" : true
+          }, {
+            "spellId" : "prayer-of-healing",
+            "rank" : 2,
+            "active" : true
+          }, {
+            "spellId" : "divine-embrace",
+            "rank" : 2,
+            "active" : true
+          }, {
+            "spellId" : "hope-never-dies",
+            "rank" : 3,
+            "active" : true
+          } ],
+          "personalFeatures" : [ ],
+          "passwordHash" : "8275bf27476f90e669476c921a36aad00a5402c558c40f2fddd9a986a486b565",
+          "passwordSalt" : "56862be59290d5b14ebb5bc3afbdc5e0",
+          "imagePath" : "images/players/player-tasha.jpg",
+          "playerName" : "Tatuli",
+          "ownerUsername" : "tatuli2002",
+          "description" : "Tiefling cleric. Casts with spell slots (level 5: 4 × 1st, 3 × 2nd, 2 × 3rd), recovered on a long rest.\n\nPassives:\n• Healing Bonus: +2 HP on every healing spell she casts (the DM adds it; the app's flat healing values already use her numbers without it).\n• Passive Perception: 14\n• Passive Insight: 16\n• Passive Investigation: 9\n\nOnce per long rest: Divine Embrace.",
+          "maxHitPoints" : 45,
+          "currentHitPoints" : 45,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "activeEffects" : [ ],
+          "subclass" : "",
+          "backstory" : "ორივე ტიფლინგ მშობელს მძიმე ბედი ჰქონდა და უწევდათ თავის გატანა ქურდობებით\nარსებობდა ჭორი, რომ ერთერთმა ძარცვის მსხვერპლმა ადგილობრივ ჯადოქართან\nდააწყევლინა ჩემი ოჯახი და კიდევ უფრო გააუბედურა.დედაჩემს რთული მშობიარობა\nქონდა და გავჩნდით სამი ტყუპი მე, ჩემი და და ჩემი ძმა.\n1 წელიც არ გვქონდა შესრულებული როდესაც, გარდაიცვალა ძმა გაურკვეველი\nდაავადებით, ჩემი და კი ერთ ღამეს გაქრა და მისი კვალი აღარსად გვინახავს.\nოჯახმა სულიერ და ფინანსურ წნეხს ვერ გაუძლო რამაც მამა ციხემდე მიიყვანა\nდედჩემმა კი გადაწყვიტა დავესვი ადამიანების სოფლის ისეთ ოჯახის კართან\nრომელის მიმართ ცოდვა არ ჰქონდათ ჩადენილი ეგონა, რომ მხოლოდ ამით შეეძლო\nავრიდებინე წყევლას.\nსიმართლე ვთქვა მათი სახეები აღარც მახსოვს მხოლოდ მათი რქები დედაჩემს ყურებს\nუკან ქონდა გადაწეული სპირალივით მამაჩემს კი ზემოთ ამართული თუმცა სულ\nდატეხილი ალბათ ჩემნაირი რქები ექნებოდა მისი ცხოვრების წესი, რომ არა.\nადამიანების ოჯახებისთვის აღმოვჩნდი ის ნანატრი ბავშვი, რომელსაც წლები\nთხოვდნენ ღმერს. არ ადარდებდათ არც ჩემი ფერი არც ჩემი რქები.\nჩემი ადამიანი დედა ტყავზე მუშაობს ხოლო მამაჩემი პურის მცხობელია ამიტომაც მათ\nყველა იცნობენ და პატივს სცემენ.\nმათ ხელგაშლილობა და თანაგრძნობა მასწავლეს, მამა თუ ვინმეს პურის ფული არ აქვს\nჩუქნის და გლეხებს რომლებსაც ულევი შრომისგან ფეხსაცმელები უფუჭდებათ\nდედაჩემი უფასოდ უკერავს.\nალერსში და სიკეთეში გავიზარდე, მშობლების მოპოვებული პატივის ცემით\nვსარგებლობდი და ჩემს სოფელში ყველა მეგობრულად განჭყობილი იყო ჩემს მიმართ\nთუმცა ვხვდებოდი, რომ როგორც ჩემმა მშობლებმა დაიმსახურეს სოფლის სიყვარული\nმეც რაიმე გზა უნდა მეპოვა რითიც ვიზავდი ამას. ყოველ ღამე ვლოცულობდი, რომ\nმომცემოდა ძალა რითიც შევძლებდი ხალხის დახმარებას.\nერთ ღამესაც სოფელის რამოდენიმე სახლის გაძარცვა დააპირეს ტიფლინგებმა. ღამე\nგვიანობამდე ვჩერდებოდი, რადგან ადამიანებთან შედარებით სიბნელე არ მიშლიდა\nხელს ამიტომ დავინახე, რომ სახლში შემოსული მძარცველი უკან გაიპარა ისე, რომ\nარაფერი არ წაუღია...\nამის დანახვასთან ერთად გავიგე უბნის ძაღლის კივილი გავვარდი და დავინახე, რომ\nდაშნით იყო დაჭრილი, ხელში ავიყვანე და დავიწყე ვედრება იქნებ რამით გადამერჩინა\nძაღლი ამ მომენტში ვიგრძენი, რომ რაღაც ზეციური ძალის დახმარებით, მაგიური\nენერგიით შევუხორცე ჭრილობა სასიკვდილოდ გაწირულ ცხოველს.\nამ შემთხვევამ შეცვალა ჩემი ცხოვრება. მშობლები ამის გაგებისთანავე უსიტყვოდ\nდამეხმარნენ შემესწავლა ღვთისგან ბოძებული ძალის შესახებ თუმცა სოფელის\nეკლესიაში საკმარისი ინფორმაცია არ იყო ამიტომ გადავწყვიტე ვიმოგზაურო\nქალაქებში სადაც მოვიძიებ ინფორმაციას ჩემს ხვედრზე და შევძლებ გასაჭირში მყოფ\nყველანაირი სიცოცხლის დახმარებას",
+          "castingResource" : "SPELL_SLOTS",
+          "spellSlots" : [ {
+            "level" : 1,
+            "max" : 4,
+            "current" : 1
+          }, {
+            "level" : 2,
+            "max" : 3,
+            "current" : 2
+          }, {
+            "level" : 3,
+            "max" : 3,
+            "current" : 2
+          } ],
+          "knownBlueprints" : [ ],
+          "furnaceFuel" : 0,
+          "cooldowns" : { },
+          "skills" : {
+            "custom" : { },
+            "acrobatics" : -1,
+            "animalHandling" : 1,
+            "arcana" : 2,
+            "athletics" : 0,
+            "deception" : -2,
+            "history" : 0,
+            "insight" : 1,
+            "intimidation" : -1,
+            "investigation" : 0,
+            "medicine" : 5,
+            "nature" : 0,
+            "perception" : 1,
+            "performance" : 1,
+            "persuasion" : 3,
+            "religion" : 5,
+            "sleightOfHand" : -1,
+            "stealth" : -1,
+            "survival" : 1
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : "",
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : 0,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : "",
+            "extraFeatures" : "",
+            "notes" : ""
+          },
+          "featureUses" : { }
+        },
+        "position" : {
+          "x" : 5,
+          "y" : 9
+        },
+        "inventory" : [ ],
+        "combat" : {
+          "maxHitPoints" : 45,
+          "currentHitPoints" : 45,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "gold" : 0,
+          "initiative" : 3,
+          "deathSaveFailures" : 0,
+          "downed" : false,
+          "dead" : false,
+          "xpRewardId" : null,
+          "killXp" : 0,
+          "sharedXp" : 0,
+          "downedByPlayerId" : null,
+          "xpRewardResolved" : false,
+          "conditions" : [ ],
+          "notes" : null,
+          "inInitiative" : true,
+          "walkSpeed" : 35,
+          "climbSpeed" : 0,
+          "swimSpeed" : 0,
+          "speedSeeded" : true,
+          "movementUsed" : 7,
+          "deathSaveSuccesses" : 0,
+          "activeEffects" : [ ],
+          "cooldowns" : { },
+          "featureUses" : { },
+          "resistances" : [ "fire" ],
+          "enduranceFeature" : null,
+          "featureSpeedBonus" : 5,
+          "castingResource" : "SPELL_SLOTS",
+          "spellSlots" : [ {
+            "level" : 1,
+            "max" : 4,
+            "current" : 1
+          }, {
+            "level" : 2,
+            "max" : 3,
+            "current" : 2
+          }, {
+            "level" : 3,
+            "max" : 3,
+            "current" : 2
+          } ],
+          "actingThisRound" : true
+        },
+        "instanceId" : "45d12a5f-4007-4e42-9532-4e20c25dbefb",
+        "symbol" : "P"
+      } ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -38032,8 +38005,8 @@
     "worldMap" : false,
     "musicPlaylistId" : null,
     "initiativePosition" : {
-      "actorId" : "45d12a5f-4007-4e42-9532-4e20c25dbefb",
-      "round" : 3
+      "actorId" : "e76590d2-bdda-4569-b100-339120b00f9c",
+      "round" : 4
     }
   }, {
     "id" : "open-field-map",
