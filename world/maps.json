@@ -33729,233 +33729,7 @@
       "passable" : true,
       "terrain" : "DIFFICULT",
       "effect" : null,
-      "occupants" : [ {
-        "kind" : "monster",
-        "monster" : {
-          "id" : "clockwork-white-rabbit",
-          "name" : "The White Rabbit (Clockwork)",
-          "description" : "Small beast (clockwork), CR 6 (2300 XP). AC 17, HP 105 (14d8+42), speed 24 m, doesn't provoke opportunity attacks. Saves DEX +9, WIS +8; Perception +8, Acrobatics +9. Truesight 9 m, passive Perception 18. 1.2 m tall, a once-beautiful waistcoat, fur that was once white - torn away in patches over wet, tiny gears turning in time with his breathing - holding the pocket watch in both hands like a bird. He does not want to kill them; he wants them to be late. Talk first - fight, persuade (DC 20) or steal (DC 20 Sleight of Hand) are all valid. He never attacks a downed character: he kneels, ear to its chest, and counts its remaining seconds aloud - always a little fewer than the player expected. At 0 HP he does not die: he sits down heavily and his hands open.",
-          "type" : "beast (clockwork)",
-          "challengeRating" : "6",
-          "stats" : {
-            "custom" : { },
-            "strength" : 8,
-            "dexterity" : 20,
-            "constitution" : 16,
-            "intelligence" : 16,
-            "wisdom" : 18,
-            "charisma" : 10
-          },
-          "abilities" : [ {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "out_of_order",
-            "name" : "Out of Order",
-            "description" : "Passive. He acts first every round, on initiative 30, no matter what anyone rolled.",
-            "effects" : [ ],
-            "range" : 0.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "between_seconds",
-            "name" : "Between Seconds",
-            "description" : "Passive. At the end of every other creature's turn he moves up to 6 m for free. He is never seen moving - only somewhere else.",
-            "effects" : [ ],
-            "range" : 0.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "pin_strike",
-            "name" : "Pin Strike (Multiattack x2)",
-            "description" : "Two pin strikes: +9 to hit, 1d6+5 piercing plus 2d6 psychic each, as one second of the target's life runs out early.",
-            "effects" : [ ],
-            "range" : 5.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : {
-              "dice" : [ {
-                "diceId" : "d6",
-                "count" : 1
-              } ],
-              "typeId" : "piercing",
-              "constant" : 0
-            }
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "rabbit_delay",
-            "name" : "Delay",
-            "description" : "Recharge 4-6. One creature: WIS save DC 16. On a failure it skips its next turn entirely - he simply wasn't there for it.",
-            "effects" : [ "incapacitated" ],
-            "range" : 60.0,
-            "recharge" : 2,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "late_touch",
-            "name" : "Late",
-            "description" : "Bonus action. He touches a creature: its next turn happens at the very end of the round instead of where it should. No save.",
-            "effects" : [ ],
-            "range" : 5.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "tick_back",
-            "name" : "Tick (Click)",
-            "description" : "Reaction, 3 times per fight. When another creature ends its turn, he undoes that turn: the creature returns to where it started, and all damage and effects from that turn are undone - but spent resources and actions stay spent and it does not act again. The players remember. Read aloud: click. Fire returns to the palm. The arrow lies back on the string. The Rabbit hasn't moved. He smiles. 'Once more. Until you get it right.'",
-            "effects" : [ ],
-            "range" : 0.0,
-            "recharge" : 0,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "pocket_watch_rewind",
-            "name" : "Pocket Watch Rewind",
-            "description" : "Recharge 5-6, at most TWICE per fight. He winds the watch backwards: the fight returns to the start of the Rabbit's previous turn - all damage and effects since then (spent spells, conditions, movement, rolled dice) are undone. Use the battle map's ⟲ Rewind button; the app restores everything automatically. What does not rewind: the players' memories - they remember what happened and may act differently. The recharge itself stays spent. Read aloud: the ticking stops. Then - click - and everything goes backwards. His wounds zip shut in his fur. 'Again,' he says. 'Again. We will do this as many times as it takes.'",
-            "effects" : [ ],
-            "range" : 0.0,
-            "recharge" : 3,
-            "radius" : 0.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          }, {
-            "checks" : {
-              "attackRoll" : false,
-              "savingThrow" : "none",
-              "successfulSaveDamage" : "HALF",
-              "attackBonus" : null,
-              "saveDc" : null
-            },
-            "id" : "time_seam",
-            "name" : "Time Seam (Lair)",
-            "description" : "On initiative 20 a random 3 m square of the tower runs at a different speed: everything in it at the start of a turn makes a CON save DC 14 or loses its action. Clock-room variant: four flickering seams - roll d4 at the end of each round for which quarter is FAST (extra action) and which is SLOW (half speed, no reactions); tell the players before they act.",
-            "effects" : [ "slowed" ],
-            "range" : 60.0,
-            "recharge" : 0,
-            "radius" : 5.0,
-            "hpCost" : 0,
-            "manaCost" : 0,
-            "damage" : null
-          } ],
-          "languages" : [ "common" ],
-          "maxHitPoints" : 105,
-          "armorClass" : 17,
-          "maxMana" : 0,
-          "spellSlots" : [ ],
-          "imagePath" : "images/monsters/clockwork-white-rabbit.jpg"
-        },
-        "position" : {
-          "x" : 9,
-          "y" : 4
-        },
-        "inventory" : [ ],
-        "combat" : {
-          "maxHitPoints" : 105,
-          "currentHitPoints" : 92,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "gold" : 0,
-          "initiative" : 21,
-          "deathSaveFailures" : 0,
-          "downed" : false,
-          "dead" : false,
-          "xpRewardId" : null,
-          "killXp" : 0,
-          "sharedXp" : 0,
-          "downedByPlayerId" : null,
-          "xpRewardResolved" : false,
-          "conditions" : [ ],
-          "notes" : null,
-          "inInitiative" : true,
-          "walkSpeed" : 30,
-          "climbSpeed" : 0,
-          "swimSpeed" : 0,
-          "speedSeeded" : true,
-          "movementUsed" : 0,
-          "deathSaveSuccesses" : 0,
-          "activeEffects" : [ {
-            "effectId" : "blinded",
-            "name" : "Blinded",
-            "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
-            "remainingRounds" : 2,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "Toren Valebrick's Thermal Smoke Grenade",
-            "expired" : false
-          } ],
-          "cooldowns" : { },
-          "featureUses" : { },
-          "resistances" : [ ],
-          "enduranceFeature" : null,
-          "featureSpeedBonus" : 0,
-          "castingResource" : null,
-          "spellSlots" : [ ],
-          "actingThisRound" : true
-        },
-        "instanceId" : "1ae50f0b-805d-4983-ac25-fb3ca50253cf",
-        "symbol" : "M"
-      } ]
+      "occupants" : [ ]
     }, {
       "passable" : true,
       "terrain" : "DIFFICULT",
@@ -34342,7 +34116,242 @@
       "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
-      "occupants" : [ ]
+      "occupants" : [ {
+        "kind" : "monster",
+        "monster" : {
+          "id" : "clockwork-white-rabbit",
+          "name" : "The White Rabbit (Clockwork)",
+          "description" : "Small beast (clockwork), CR 6 (2300 XP). AC 17, HP 105 (14d8+42), speed 24 m, doesn't provoke opportunity attacks. Saves DEX +9, WIS +8; Perception +8, Acrobatics +9. Truesight 9 m, passive Perception 18. 1.2 m tall, a once-beautiful waistcoat, fur that was once white - torn away in patches over wet, tiny gears turning in time with his breathing - holding the pocket watch in both hands like a bird. He does not want to kill them; he wants them to be late. Talk first - fight, persuade (DC 20) or steal (DC 20 Sleight of Hand) are all valid. He never attacks a downed character: he kneels, ear to its chest, and counts its remaining seconds aloud - always a little fewer than the player expected. At 0 HP he does not die: he sits down heavily and his hands open.",
+          "type" : "beast (clockwork)",
+          "challengeRating" : "6",
+          "stats" : {
+            "custom" : { },
+            "strength" : 8,
+            "dexterity" : 20,
+            "constitution" : 16,
+            "intelligence" : 16,
+            "wisdom" : 18,
+            "charisma" : 10
+          },
+          "abilities" : [ {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "out_of_order",
+            "name" : "Out of Order",
+            "description" : "Passive. He acts first every round, on initiative 30, no matter what anyone rolled.",
+            "effects" : [ ],
+            "range" : 0.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "between_seconds",
+            "name" : "Between Seconds",
+            "description" : "Passive. At the end of every other creature's turn he moves up to 6 m for free. He is never seen moving - only somewhere else.",
+            "effects" : [ ],
+            "range" : 0.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "pin_strike",
+            "name" : "Pin Strike (Multiattack x2)",
+            "description" : "Two pin strikes: +9 to hit, 1d6+5 piercing plus 2d6 psychic each, as one second of the target's life runs out early.",
+            "effects" : [ ],
+            "range" : 5.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : {
+              "dice" : [ {
+                "diceId" : "d6",
+                "count" : 1
+              } ],
+              "typeId" : "piercing",
+              "constant" : 0
+            }
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "rabbit_delay",
+            "name" : "Delay",
+            "description" : "Recharge 4-6. One creature: WIS save DC 16. On a failure it skips its next turn entirely - he simply wasn't there for it.",
+            "effects" : [ "incapacitated" ],
+            "range" : 60.0,
+            "recharge" : 2,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "late_touch",
+            "name" : "Late",
+            "description" : "Bonus action. He touches a creature: its next turn happens at the very end of the round instead of where it should. No save.",
+            "effects" : [ ],
+            "range" : 5.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "tick_back",
+            "name" : "Tick (Click)",
+            "description" : "Reaction, 3 times per fight. When another creature ends its turn, he undoes that turn: the creature returns to where it started, and all damage and effects from that turn are undone - but spent resources and actions stay spent and it does not act again. The players remember. Read aloud: click. Fire returns to the palm. The arrow lies back on the string. The Rabbit hasn't moved. He smiles. 'Once more. Until you get it right.'",
+            "effects" : [ ],
+            "range" : 0.0,
+            "recharge" : 0,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "pocket_watch_rewind",
+            "name" : "Pocket Watch Rewind",
+            "description" : "Recharge 5-6, at most TWICE per fight. He winds the watch backwards: the fight returns to the start of the Rabbit's previous turn - all damage and effects since then (spent spells, conditions, movement, rolled dice) are undone. Use the battle map's ⟲ Rewind button; the app restores everything automatically. What does not rewind: the players' memories - they remember what happened and may act differently. The recharge itself stays spent. Read aloud: the ticking stops. Then - click - and everything goes backwards. His wounds zip shut in his fur. 'Again,' he says. 'Again. We will do this as many times as it takes.'",
+            "effects" : [ ],
+            "range" : 0.0,
+            "recharge" : 3,
+            "radius" : 0.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          }, {
+            "checks" : {
+              "attackRoll" : false,
+              "savingThrow" : "none",
+              "successfulSaveDamage" : "HALF",
+              "attackBonus" : null,
+              "saveDc" : null
+            },
+            "id" : "time_seam",
+            "name" : "Time Seam (Lair)",
+            "description" : "On initiative 20 a random 3 m square of the tower runs at a different speed: everything in it at the start of a turn makes a CON save DC 14 or loses its action. Clock-room variant: four flickering seams - roll d4 at the end of each round for which quarter is FAST (extra action) and which is SLOW (half speed, no reactions); tell the players before they act.",
+            "effects" : [ "slowed" ],
+            "range" : 60.0,
+            "recharge" : 0,
+            "radius" : 5.0,
+            "hpCost" : 0,
+            "manaCost" : 0,
+            "damage" : null
+          } ],
+          "languages" : [ "common" ],
+          "maxHitPoints" : 105,
+          "armorClass" : 17,
+          "maxMana" : 0,
+          "spellSlots" : [ ],
+          "imagePath" : "images/monsters/clockwork-white-rabbit.jpg"
+        },
+        "position" : {
+          "x" : 9,
+          "y" : 5
+        },
+        "inventory" : [ ],
+        "combat" : {
+          "maxHitPoints" : 105,
+          "currentHitPoints" : 92,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "gold" : 0,
+          "initiative" : 21,
+          "deathSaveFailures" : 0,
+          "downed" : false,
+          "dead" : false,
+          "xpRewardId" : null,
+          "killXp" : 0,
+          "sharedXp" : 0,
+          "downedByPlayerId" : null,
+          "xpRewardResolved" : false,
+          "conditions" : [ ],
+          "notes" : null,
+          "inInitiative" : true,
+          "walkSpeed" : 30,
+          "climbSpeed" : 0,
+          "swimSpeed" : 0,
+          "speedSeeded" : true,
+          "movementUsed" : 4,
+          "deathSaveSuccesses" : 0,
+          "activeEffects" : [ {
+            "effectId" : "blinded",
+            "name" : "Blinded",
+            "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
+            "remainingRounds" : 2,
+            "damagePerRound" : 0,
+            "healingPerRound" : 0,
+            "source" : "Toren Valebrick's Thermal Smoke Grenade",
+            "expired" : false
+          }, {
+            "effectId" : "compelled_duel",
+            "name" : "Compelled Duel",
+            "description" : "Pulled toward the challenger and has disadvantage on attacks against anyone else.",
+            "remainingRounds" : 3,
+            "damagePerRound" : 0,
+            "healingPerRound" : 0,
+            "source" : "GM",
+            "expired" : false
+          } ],
+          "cooldowns" : { },
+          "featureUses" : { },
+          "resistances" : [ ],
+          "enduranceFeature" : null,
+          "featureSpeedBonus" : 0,
+          "castingResource" : null,
+          "spellSlots" : [ ],
+          "actingThisRound" : true
+        },
+        "instanceId" : "1ae50f0b-805d-4983-ac25-fb3ca50253cf",
+        "symbol" : "M"
+      } ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
