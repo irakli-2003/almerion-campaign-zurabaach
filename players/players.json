@@ -3723,31 +3723,13 @@
     "passwordSalt" : "a52f86319a7b86f45d27e429a7c11bfe",
     "imagePath" : "images/players/player-sinne.png",
     "playerName" : "Mariami",
-    "ownerUsername" : "",
+    "ownerUsername" : "sinne",
     "description" : "",
     "maxHitPoints" : 50,
     "currentHitPoints" : 50,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ {
-      "effectId" : "entangled",
-      "name" : "Entangled",
-      "description" : "Roots, webs, or vines hold the target fast.",
-      "remainingRounds" : 1,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Silvan's Entangle",
-      "expired" : false
-    }, {
-      "effectId" : "restrained",
-      "name" : "Restrained",
-      "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
-      "remainingRounds" : 1,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Silvan's Entangle",
-      "expired" : false
-    }, {
       "effectId" : "effect-missing-right-shoe",
       "name" : "missing right shoe",
       "description" : "",
