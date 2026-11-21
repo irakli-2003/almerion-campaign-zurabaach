@@ -1304,6 +1304,13 @@
       },
       "equipped" : false,
       "quantity" : 1
+    }, {
+      "itemId" : "item-rabbit-paw",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
     } ],
     "spells" : [ {
       "spellId" : "blade-oath",
@@ -2970,7 +2977,7 @@
     "classId" : "rogue",
     "raceId" : "lightfoot-halfling",
     "level" : 6,
-    "xp" : 30,
+    "xp" : 80,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -3284,6 +3291,13 @@
       },
       "equipped" : false,
       "quantity" : 1
+    }, {
+      "itemId" : "item-rabbit-metal-spine",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
+      "quantity" : 1
     } ],
     "spells" : [ {
       "spellId" : "mage-hand",
@@ -3570,6 +3584,13 @@
         "durability" : 100
       },
       "equipped" : true,
+      "quantity" : 1
+    }, {
+      "itemId" : "item-rabbit-ears",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : false,
       "quantity" : 1
     } ],
     "spells" : [ {

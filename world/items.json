@@ -4543,8 +4543,7 @@
     },
     "pickable" : true,
     "imagePath" : null,
-    "material" : null,
-    "armorClassBonus" : 4
+    "overview" : null
   }, {
     "id" : "harness-knees",
     "name" : "ჯავშანფარი — სამუხლე წყვილი",
@@ -4559,8 +4558,7 @@
     },
     "pickable" : true,
     "imagePath" : null,
-    "material" : null,
-    "armorClassBonus" : 0
+    "overview" : null
   }, {
     "id" : "harness-shield-right",
     "name" : "ჯავშანფარი — მარჯვენა ფარი",
@@ -4575,8 +4573,7 @@
     },
     "pickable" : true,
     "imagePath" : null,
-    "material" : null,
-    "armorClassBonus" : 2
+    "overview" : null
   }, {
     "id" : "harness-shield-left",
     "name" : "ჯავშანფარი — მარცხენა ფარი",
@@ -4591,8 +4588,7 @@
     },
     "pickable" : true,
     "imagePath" : null,
-    "material" : null,
-    "armorClassBonus" : 2
+    "overview" : null
   }, {
     "id" : "harness-wraps",
     "name" : "სახელოსნოს სახვევები",
@@ -4607,8 +4603,7 @@
     },
     "pickable" : true,
     "imagePath" : null,
-    "material" : null,
-    "armorClassBonus" : 0
+    "overview" : null
   }, {
     "id" : "workshop-axe-hammer",
     "name" : "სახელოსნოს ცულ-ჩაქუჩი",
@@ -4627,7 +4622,7 @@
   }, {
     "id" : "item-rabbits-clock",
     "name" : "rabbits clock",
-    "type" : "gear",
+    "type" : null,
     "description" : "clock that was stuck for 60 years",
     "valueGold" : 0,
     "weight" : 0.0,
@@ -4640,6 +4635,60 @@
       "current" : 100
     },
     "pickable" : true,
+    "imagePath" : null,
+    "overview" : ""
+  }, {
+    "id" : "item-rabbit-ears",
+    "name" : "Rabbit ears",
+    "type" : null,
+    "description" : "",
+    "valueGold" : 0,
+    "weight" : 0.0,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : false,
+    "imagePath" : null,
+    "overview" : ""
+  }, {
+    "id" : "item-rabbit-paw",
+    "name" : "Rabbit paw",
+    "type" : null,
+    "description" : "",
+    "valueGold" : 0,
+    "weight" : 0.0,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : false,
+    "imagePath" : null,
+    "overview" : ""
+  }, {
+    "id" : "item-rabbit-metal-spine",
+    "name" : "rabbit metal spine",
+    "type" : "gear",
+    "description" : "",
+    "valueGold" : 0,
+    "weight" : 0.0,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : false,
     "imagePath" : null,
     "overview" : ""
   } ]
