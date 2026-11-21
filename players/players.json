@@ -1752,7 +1752,7 @@
     "ownerUsername" : "tatuli2002",
     "description" : "Tiefling cleric. Casts with spell slots (level 5: 4 × 1st, 3 × 2nd, 2 × 3rd), recovered on a long rest.\n\nPassives:\n• Healing Bonus: +2 HP on every healing spell she casts (the DM adds it; the app's flat healing values already use her numbers without it).\n• Passive Perception: 14\n• Passive Insight: 16\n• Passive Investigation: 9\n\nOnce per long rest: Divine Embrace.",
     "maxHitPoints" : 45,
-    "currentHitPoints" : 25,
+    "currentHitPoints" : 15,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ ],
@@ -1828,7 +1828,7 @@
     "classId" : "barbarian",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 150,
+    "xp" : 170,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
