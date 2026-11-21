@@ -5,7 +5,7 @@
     "classId" : "bard",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 130,
+    "xp" : 230,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -369,7 +369,7 @@
     "classId" : "ranger",
     "raceId" : "wood-elf",
     "level" : 6,
-    "xp" : 90,
+    "xp" : 190,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -708,7 +708,7 @@
     "classId" : "rogue",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 40,
+    "xp" : 140,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -1039,7 +1039,7 @@
     "classId" : "fighter",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 130,
+    "xp" : 230,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -1446,7 +1446,7 @@
     "classId" : "cleric",
     "raceId" : "tiefling",
     "level" : 6,
-    "xp" : 130,
+    "xp" : 230,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -1828,7 +1828,7 @@
     "classId" : "barbarian",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 190,
+    "xp" : 290,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -2101,7 +2101,7 @@
     "classId" : "artificer",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 130,
+    "xp" : 230,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -2600,7 +2600,7 @@
     "classId" : "wizard",
     "raceId" : "elf",
     "level" : 6,
-    "xp" : 130,
+    "xp" : 230,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -2970,7 +2970,7 @@
     "classId" : "rogue",
     "raceId" : "lightfoot-halfling",
     "level" : 6,
-    "xp" : 140,
+    "xp" : 240,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -3390,7 +3390,7 @@
     "classId" : "warlock",
     "raceId" : "sinne-shapeshifter",
     "level" : 6,
-    "xp" : 150,
+    "xp" : 250,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -3717,7 +3717,7 @@
     "classId" : "rogue",
     "raceId" : "wood-elf",
     "level" : 6,
-    "xp" : 130,
+    "xp" : 230,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -4053,7 +4053,7 @@
     "classId" : "fighter",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 30,
+    "xp" : 130,
     "upgrades" : {
       "earned" : 1,
       "unlocks" : [ {
@@ -4250,7 +4250,7 @@
     "classId" : "shieldwright",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 0,
+    "xp" : 100,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
