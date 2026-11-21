@@ -33282,578 +33282,7 @@
       "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
-      "occupants" : [ {
-        "kind" : "player",
-        "character" : {
-          "id" : "player-toren",
-          "name" : "Toren Valebrick",
-          "classId" : "artificer",
-          "raceId" : "human",
-          "level" : 6,
-          "xp" : 90,
-          "upgrades" : {
-            "earned" : 5,
-            "unlocks" : [ {
-              "classId" : "artificer",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-1",
-              "branchName" : "Inventor",
-              "name" : "Infuse Item",
-              "description" : "Infuse mundane gear with a lasting enhancement (e.g. +1 weapon, enhanced defense) for a long time.\nClass training. If already known, this feat is not granted a second time.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "artificer",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-2",
-              "branchName" : "Inventor",
-              "name" : "The Right Tool for the Job",
-              "description" : "With tinker's tools, spend an hour to make any set of artisan's tools.\nClass training. If already known, this feat is not granted a second time.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "artificer",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-3",
-              "branchName" : "Inventor",
-              "name" : "Inventor: Momentum",
-              "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "artificer",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-5",
-              "branchName" : "Inventor",
-              "name" : "Inventor: Breakthrough",
-              "description" : "Once per short rest, replace one attack with a contested Athletics check against a creature within reach, at most one size larger. On success push it 5 ft to clear supported ground, never off a ledge. No damage. The GM resolves this feat; the app tracks its rest use.",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            } ]
-          },
-          "stats" : {
-            "custom" : { },
-            "strength" : 8,
-            "dexterity" : 15,
-            "constitution" : 15,
-            "intelligence" : 15,
-            "wisdom" : 8,
-            "charisma" : 8
-          },
-          "items" : [ {
-            "itemId" : "alarm-bell",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "alchemical-salts",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 2
-          }, {
-            "itemId" : "black-powder",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "brass-scrap",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 4
-          }, {
-            "itemId" : "ceramic-seal",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "ceramic-shell",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "clamp-set",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "clockwork-springs",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 2
-          }, {
-            "itemId" : "coin",
-            "condition" : {
-              "durability" : 0
-            },
-            "equipped" : false,
-            "quantity" : 15
-          }, {
-            "itemId" : "copper-wire",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 2
-          }, {
-            "itemId" : "fine-wire",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "lamp-oil",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "glass-lens",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "heat-jacket",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "heat-seal",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "heat-vents",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "heavy-bolt",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 6
-          }, {
-            "itemId" : "impact-trigger",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "leather-strap",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "item-mirror-shard",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "pressure-chamber",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "scalding-bolt",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 3
-          }, {
-            "itemId" : "item-shield-bracelet",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "simple-clothes",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "smiths-tools",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "smoke-compound",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 2
-          }, {
-            "itemId" : "spring-trigger",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "spring-valve",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "steel-stock",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 3
-          }, {
-            "itemId" : "thermal-smoke-grenade",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "thieves-tools",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "timed-trigger",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "timed-valve",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "tinkers-tools",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "treated-steam-medium",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "valebrick-bolt-repeater",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "valebrick-field-workshop",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "vented-shell",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 2
-          }, {
-            "itemId" : "woodcarvers-tools",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          } ],
-          "spells" : [ {
-            "spellId" : "cure-wounds",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "faerie-fire",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "guidance",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "mending",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "scorching-ray",
-            "rank" : 2,
-            "active" : true
-          }, {
-            "spellId" : "shield-spell",
-            "rank" : 1,
-            "active" : true
-          }, {
-            "spellId" : "web",
-            "rank" : 2,
-            "active" : true
-          } ],
-          "personalFeatures" : [ ],
-          "passwordHash" : "2a322cc7dc808e2f41da138d7733681711f53d4d6e4cafc94e56a6249b1a2298",
-          "passwordSalt" : "8d627c852991983ced09d03dc1f46605",
-          "imagePath" : "images/players/player-toren.jpg",
-          "playerName" : "Giorgi",
-          "ownerUsername" : "",
-          "description" : "22 years, 185 cm. Young human noble engineer of House Valebrick - curious, suspicious, heavily sarcastic, composed and educated. Carries a 32-36 kg portable field workshop on his back with a Resonance Core and a removable stationary Bolt Repeater. \"Don't ask what humans were given. Ask what we built.\"",
-          "maxHitPoints" : 45,
-          "currentHitPoints" : 39,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "activeEffects" : [ {
-            "effectId" : "paralyzed",
-            "name" : "Paralyzed",
-            "description" : "Incapacitated and unable to move or speak; nearby attacks land as critical hits.",
-            "remainingRounds" : 1,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "Tasha's Hold Person",
-            "expired" : false
-          } ],
-          "subclass" : "Artillerist",
-          "backstory" : "Lore\nToren was born into House Valebrick, a wealthy human noble family whose influence came from engineering, foundries, workshops, bridges and machines rather than ancient magical blood. As a child he dismantled clocks, locks and mechanisms because he needed to know why they worked. His grandfather Aldren taught him one principle: \"Open it. Understand it.\"\n\nDuring the Ash Border War, Marianne Bell - the girl Toren loved - was killed in magical warfare in an industrial district. She was not the target. Since then Toren is cold toward magical power and wary of anyone who treats inherited supernatural gifts as proof of superiority. He is fiercely proud of humanity precisely because humans were not the most gifted: they built their advantages. \"Others inherited their advantages. We built ours.\"\n\nGrand Theory of Replication\nToren rejects the word \"magic\". He calls it Arcane Resonance - a natural field that can be measured, stored, transferred and stabilised. Every repeatable magical phenomenon can eventually be reproduced technologically. His key word is \"yet\". Failure response: \"Again.\"\n\nFamily\nEvelyne Valebrick (28), his elegant and politically skilled older sister. Toren understands machines; Evelyne understands people. They exchange notes through Argus, a mechanical messenger owl.\n\nSkills & tools\nSaves CON +6, INT +7. Investigation +5 (machines, traps, mechanisms only), History +3, Insight +1. Tools: Tinker's, Smith's, Thieves' (\"precision access instruments\"), Woodcarver's.\n\nEnergy charges\nInstead of spell slots Toren spends energy capsules: Steam-pressure (L1) and Thermal (L2) for now, Electric and beyond after upgrades. He refills them at the workshop's Resonance Core furnace, which burns any fuel - some more efficiently than others. Rests do not refill them.\n\nValebrick Portable Field Workshop\n~80 x 45 x 30 cm, 32-36 kg, reinforced harness. Drivers, hammers, files, calipers, clamps, resonance testers, wire, plates, ammunition parts, sealed blueprint tubes, a compact hardened-steel anvil and a small forge chamber. Full deployment into a workbench takes 30-60 seconds outside combat. Heavy and awkward in tight spaces or water.\n\nValebrick Resonance Core\nA refined arcane-reactive crystal in a brass stabilisation cage with rotating rings, conductors and regulators. Failure signs: vibration, unstable tone, heat, misaligned rings, blue arcing. A cracked or overcharged core can discharge violently.\n\nBolt Repeater\nStationary single-barrel turret (Eldritch Cannon - Force Ballista). Deploy: action. Fire: bonus action, d20 + ammunition bonus, 30 m, 2d6 force, push 5 ft. AC 8, HP 12, Mending restores 1d6. Takes different ammunition types.\n\nCombat Fabrication (DM-approved homebrew)\n3 per long rest from prepared parts: Emergency Patch, Quick Cover, Special Charge. No permanent weapons, armor or major machines during combat.\n\nDM additions\nIn the storage world he finds a metal bracer covering his left forearm that unfolds into a 25 cm-radius light round shield: it stops projectiles and light weapons but, being so light, does not absorb blunt attacks (Valebrick Folding Bracer).",
-          "castingResource" : "ENERGY_CHARGES",
-          "spellSlots" : [ {
-            "level" : 1,
-            "max" : 4,
-            "current" : 4
-          }, {
-            "level" : 2,
-            "max" : 2,
-            "current" : 2
-          } ],
-          "knownBlueprints" : [ "bp-smoke-canister", "bp-tripwire-alarm", "bp-grapnel-launcher", "bp-sticky-foam", "bp-messenger-beetle", "bp-thermal-smoke-grenade", "bp-scalding-bolts", "bp-flash-bomb", "bp-steam-jet-gauntlet", "bp-thermal-grenade", "bp-pressure-ram", "bp-steam-capsule", "bp-thermal-capsule" ],
-          "furnaceFuel" : 2,
-          "cooldowns" : { },
-          "skills" : {
-            "custom" : { },
-            "acrobatics" : 1,
-            "animalHandling" : -1,
-            "arcana" : 2,
-            "athletics" : -1,
-            "deception" : -1,
-            "history" : 2,
-            "insight" : 2,
-            "intimidation" : -1,
-            "investigation" : 2,
-            "medicine" : 1,
-            "nature" : 1,
-            "perception" : 3,
-            "performance" : -1,
-            "persuasion" : -1,
-            "religion" : 0,
-            "sleightOfHand" : 0,
-            "stealth" : -1,
-            "survival" : -1
-          },
-          "sheet" : {
-            "armorClass" : null,
-            "initiative" : null,
-            "speed" : null,
-            "proficiencyBonus" : null,
-            "passivePerception" : null,
-            "savingThrowProficiencies" : [ ],
-            "hitDice" : "",
-            "temporaryHitPoints" : 0,
-            "deathSaveSuccesses" : 0,
-            "deathSaveFailures" : 0,
-            "inspiration" : false,
-            "spellcastingAbility" : null,
-            "spellSaveDc" : null,
-            "spellAttackBonus" : null,
-            "copper" : 0,
-            "silver" : 0,
-            "electrum" : 0,
-            "gold" : 0,
-            "platinum" : 0,
-            "extraAttacks" : [ ],
-            "proficienciesAndLanguages" : "",
-            "extraFeatures" : "",
-            "notes" : ""
-          },
-          "featureUses" : {
-            "bolt-repeater" : 1
-          }
-        },
-        "position" : {
-          "x" : 5,
-          "y" : 4
-        },
-        "inventory" : [ ],
-        "combat" : {
-          "maxHitPoints" : 45,
-          "currentHitPoints" : 39,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "gold" : 0,
-          "initiative" : 17,
-          "deathSaveFailures" : 0,
-          "downed" : false,
-          "dead" : false,
-          "xpRewardId" : null,
-          "killXp" : 0,
-          "sharedXp" : 0,
-          "downedByPlayerId" : null,
-          "xpRewardResolved" : false,
-          "conditions" : [ ],
-          "notes" : null,
-          "inInitiative" : true,
-          "walkSpeed" : 30,
-          "climbSpeed" : 0,
-          "swimSpeed" : 0,
-          "speedSeeded" : true,
-          "movementUsed" : 0,
-          "deathSaveSuccesses" : 0,
-          "activeEffects" : [ {
-            "effectId" : "paralyzed",
-            "name" : "Paralyzed",
-            "description" : "Incapacitated and unable to move or speak; nearby attacks land as critical hits.",
-            "remainingRounds" : 1,
-            "damagePerRound" : 0,
-            "healingPerRound" : 0,
-            "source" : "Tasha's Hold Person",
-            "expired" : false
-          } ],
-          "cooldowns" : { },
-          "featureUses" : {
-            "bolt-repeater" : 1
-          },
-          "resistances" : [ ],
-          "enduranceFeature" : null,
-          "featureSpeedBonus" : 0,
-          "castingResource" : "ENERGY_CHARGES",
-          "spellSlots" : [ {
-            "level" : 1,
-            "max" : 4,
-            "current" : 4
-          }, {
-            "level" : 2,
-            "max" : 2,
-            "current" : 2
-          } ],
-          "actingThisRound" : true
-        },
-        "instanceId" : "4eef1166-34a5-4038-b770-b3fc6918e8f8",
-        "symbol" : "P"
-      } ]
+      "occupants" : [ ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -34483,7 +33912,7 @@
         "inventory" : [ ],
         "combat" : {
           "maxHitPoints" : 105,
-          "currentHitPoints" : 96,
+          "currentHitPoints" : 92,
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
@@ -34505,7 +33934,16 @@
           "speedSeeded" : true,
           "movementUsed" : 0,
           "deathSaveSuccesses" : 0,
-          "activeEffects" : [ ],
+          "activeEffects" : [ {
+            "effectId" : "blinded",
+            "name" : "Blinded",
+            "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
+            "remainingRounds" : 2,
+            "damagePerRound" : 0,
+            "healingPerRound" : 0,
+            "source" : "Toren Valebrick's Thermal Smoke Grenade",
+            "expired" : false
+          } ],
           "cooldowns" : { },
           "featureUses" : { },
           "resistances" : [ ],
@@ -34744,7 +34182,7 @@
           "ownerUsername" : "",
           "description" : "მაღალი, დაკუნთული ბარბაროსი მეომარი რომელიც არ ატარებს აბჯარს.\n\nRage (გაცოფება) არის ბარბარიანის მთავარი უნარი. ის იძლევა ძალას და გამძლეობას ბრძოლაში.\n\nროგორ ჩაირთვება\n\nჩართავ bonus action-ით, ანუ დარტყმასაც მოასწრებ იმავე სვლაში.\nგრძელდება 1 წუთი (10 რაუნდი).\nდარიუსს 5 დონეზე აქვს 3 გამოყენება, რომლებიც long rest-ზე ბრუნდება.\n\nრას იძლევა\n\nAdvantage Strength-ის შემოწმებებსა და Strength save-ებზე.\n+2 damage ყოველ ახლო ბრძოლის დარტყმაზე Strength-ით. მუშტის დარტყმაზეც მუშაობს.\nწინააღმდეგობა (resistance) bludgeoning, piercing და slashing damage-ის მიმართ. ეს ნიშნავს, რომ ამ ტიპის დაზიანებას ნახევარს იღებს.\n\nრა არ შეუძლია გაცოფებისას\n\nსპელების ჩამოგდება და კონცენტრაცია.\nმძიმე აბჯარში ვერ ჩაირთვება. დარიუსს აბჯარი არ აქვს, ამიტომ პრობლემა არ არის.\n\nროდის წყდება\n\n1 წუთის შემდეგ.\nთუ გონებას დაკარგავ.\nთუ შენი სვლის ბოლოს არავისთვის გიტევია და თავად არ დაგიზიანებიათ ბოლო სვლის შემდეგ. ამიტომ ბრძოლაში მაინც უნდა იყო აქტიური.\nშეგიძლია bonus action-ით თავადაც გამორთო.\n\nშეუიარაღებელი ხელით შეტევა მასზე ყოველთვის მოქმედებს როგორც 1d4\n\nშეუძლია მოქმედების გამოყენების გარეშე, ბონუს მოქმედებით გააკავოს მოწინააღმდეგე.",
           "maxHitPoints" : 59,
-          "currentHitPoints" : 50,
+          "currentHitPoints" : 46,
           "maxMana" : 0,
           "currentMana" : 0,
           "activeEffects" : [ ],
@@ -34810,7 +34248,7 @@
         "inventory" : [ ],
         "combat" : {
           "maxHitPoints" : 59,
-          "currentHitPoints" : 50,
+          "currentHitPoints" : 46,
           "maxMana" : 0,
           "currentMana" : 0,
           "gold" : 0,
@@ -34949,7 +34387,560 @@
       "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
-      "occupants" : [ ]
+      "occupants" : [ {
+        "kind" : "player",
+        "character" : {
+          "id" : "player-toren",
+          "name" : "Toren Valebrick",
+          "classId" : "artificer",
+          "raceId" : "human",
+          "level" : 6,
+          "xp" : 90,
+          "upgrades" : {
+            "earned" : 5,
+            "unlocks" : [ {
+              "classId" : "artificer",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-1",
+              "branchName" : "Inventor",
+              "name" : "Infuse Item",
+              "description" : "Infuse mundane gear with a lasting enhancement (e.g. +1 weapon, enhanced defense) for a long time.\nClass training. If already known, this feat is not granted a second time.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "artificer",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-2",
+              "branchName" : "Inventor",
+              "name" : "The Right Tool for the Job",
+              "description" : "With tinker's tools, spend an hour to make any set of artisan's tools.\nClass training. If already known, this feat is not granted a second time.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "artificer",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-3",
+              "branchName" : "Inventor",
+              "name" : "Inventor: Momentum",
+              "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "artificer",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-5",
+              "branchName" : "Inventor",
+              "name" : "Inventor: Breakthrough",
+              "description" : "Once per short rest, replace one attack with a contested Athletics check against a creature within reach, at most one size larger. On success push it 5 ft to clear supported ground, never off a ledge. No damage. The GM resolves this feat; the app tracks its rest use.",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            } ]
+          },
+          "stats" : {
+            "custom" : { },
+            "strength" : 8,
+            "dexterity" : 15,
+            "constitution" : 15,
+            "intelligence" : 15,
+            "wisdom" : 8,
+            "charisma" : 8
+          },
+          "items" : [ {
+            "itemId" : "alarm-bell",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "alchemical-salts",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 2
+          }, {
+            "itemId" : "black-powder",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "brass-scrap",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 4
+          }, {
+            "itemId" : "ceramic-seal",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "ceramic-shell",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "clamp-set",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "clockwork-springs",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 2
+          }, {
+            "itemId" : "coin",
+            "condition" : {
+              "durability" : 0
+            },
+            "equipped" : false,
+            "quantity" : 15
+          }, {
+            "itemId" : "copper-wire",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 2
+          }, {
+            "itemId" : "fine-wire",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "lamp-oil",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "glass-lens",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "heat-jacket",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "heat-seal",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "heat-vents",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "heavy-bolt",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 6
+          }, {
+            "itemId" : "impact-trigger",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "leather-strap",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "item-mirror-shard",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "pressure-chamber",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "scalding-bolt",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 3
+          }, {
+            "itemId" : "item-shield-bracelet",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "simple-clothes",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "smiths-tools",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "smoke-compound",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 2
+          }, {
+            "itemId" : "spring-trigger",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "spring-valve",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "steel-stock",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 3
+          }, {
+            "itemId" : "thermal-smoke-grenade",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "thieves-tools",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "timed-trigger",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "timed-valve",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "tinkers-tools",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "treated-steam-medium",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "valebrick-bolt-repeater",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "valebrick-field-workshop",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "vented-shell",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 2
+          }, {
+            "itemId" : "woodcarvers-tools",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          } ],
+          "spells" : [ {
+            "spellId" : "cure-wounds",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "faerie-fire",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "guidance",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "mending",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "scorching-ray",
+            "rank" : 2,
+            "active" : true
+          }, {
+            "spellId" : "shield-spell",
+            "rank" : 1,
+            "active" : true
+          }, {
+            "spellId" : "web",
+            "rank" : 2,
+            "active" : true
+          } ],
+          "personalFeatures" : [ ],
+          "passwordHash" : "2a322cc7dc808e2f41da138d7733681711f53d4d6e4cafc94e56a6249b1a2298",
+          "passwordSalt" : "8d627c852991983ced09d03dc1f46605",
+          "imagePath" : "images/players/player-toren.jpg",
+          "playerName" : "Giorgi",
+          "ownerUsername" : "",
+          "description" : "22 years, 185 cm. Young human noble engineer of House Valebrick - curious, suspicious, heavily sarcastic, composed and educated. Carries a 32-36 kg portable field workshop on his back with a Resonance Core and a removable stationary Bolt Repeater. \"Don't ask what humans were given. Ask what we built.\"",
+          "maxHitPoints" : 45,
+          "currentHitPoints" : 39,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "activeEffects" : [ ],
+          "subclass" : "Artillerist",
+          "backstory" : "Lore\nToren was born into House Valebrick, a wealthy human noble family whose influence came from engineering, foundries, workshops, bridges and machines rather than ancient magical blood. As a child he dismantled clocks, locks and mechanisms because he needed to know why they worked. His grandfather Aldren taught him one principle: \"Open it. Understand it.\"\n\nDuring the Ash Border War, Marianne Bell - the girl Toren loved - was killed in magical warfare in an industrial district. She was not the target. Since then Toren is cold toward magical power and wary of anyone who treats inherited supernatural gifts as proof of superiority. He is fiercely proud of humanity precisely because humans were not the most gifted: they built their advantages. \"Others inherited their advantages. We built ours.\"\n\nGrand Theory of Replication\nToren rejects the word \"magic\". He calls it Arcane Resonance - a natural field that can be measured, stored, transferred and stabilised. Every repeatable magical phenomenon can eventually be reproduced technologically. His key word is \"yet\". Failure response: \"Again.\"\n\nFamily\nEvelyne Valebrick (28), his elegant and politically skilled older sister. Toren understands machines; Evelyne understands people. They exchange notes through Argus, a mechanical messenger owl.\n\nSkills & tools\nSaves CON +6, INT +7. Investigation +5 (machines, traps, mechanisms only), History +3, Insight +1. Tools: Tinker's, Smith's, Thieves' (\"precision access instruments\"), Woodcarver's.\n\nEnergy charges\nInstead of spell slots Toren spends energy capsules: Steam-pressure (L1) and Thermal (L2) for now, Electric and beyond after upgrades. He refills them at the workshop's Resonance Core furnace, which burns any fuel - some more efficiently than others. Rests do not refill them.\n\nValebrick Portable Field Workshop\n~80 x 45 x 30 cm, 32-36 kg, reinforced harness. Drivers, hammers, files, calipers, clamps, resonance testers, wire, plates, ammunition parts, sealed blueprint tubes, a compact hardened-steel anvil and a small forge chamber. Full deployment into a workbench takes 30-60 seconds outside combat. Heavy and awkward in tight spaces or water.\n\nValebrick Resonance Core\nA refined arcane-reactive crystal in a brass stabilisation cage with rotating rings, conductors and regulators. Failure signs: vibration, unstable tone, heat, misaligned rings, blue arcing. A cracked or overcharged core can discharge violently.\n\nBolt Repeater\nStationary single-barrel turret (Eldritch Cannon - Force Ballista). Deploy: action. Fire: bonus action, d20 + ammunition bonus, 30 m, 2d6 force, push 5 ft. AC 8, HP 12, Mending restores 1d6. Takes different ammunition types.\n\nCombat Fabrication (DM-approved homebrew)\n3 per long rest from prepared parts: Emergency Patch, Quick Cover, Special Charge. No permanent weapons, armor or major machines during combat.\n\nDM additions\nIn the storage world he finds a metal bracer covering his left forearm that unfolds into a 25 cm-radius light round shield: it stops projectiles and light weapons but, being so light, does not absorb blunt attacks (Valebrick Folding Bracer).",
+          "castingResource" : "ENERGY_CHARGES",
+          "spellSlots" : [ {
+            "level" : 1,
+            "max" : 4,
+            "current" : 2
+          }, {
+            "level" : 2,
+            "max" : 2,
+            "current" : 1
+          } ],
+          "knownBlueprints" : [ "bp-smoke-canister", "bp-tripwire-alarm", "bp-grapnel-launcher", "bp-sticky-foam", "bp-messenger-beetle", "bp-thermal-smoke-grenade", "bp-scalding-bolts", "bp-flash-bomb", "bp-steam-jet-gauntlet", "bp-thermal-grenade", "bp-pressure-ram", "bp-steam-capsule", "bp-thermal-capsule" ],
+          "furnaceFuel" : 2,
+          "cooldowns" : { },
+          "skills" : {
+            "custom" : { },
+            "acrobatics" : 1,
+            "animalHandling" : -1,
+            "arcana" : 2,
+            "athletics" : -1,
+            "deception" : -1,
+            "history" : 2,
+            "insight" : 2,
+            "intimidation" : -1,
+            "investigation" : 2,
+            "medicine" : 1,
+            "nature" : 1,
+            "perception" : 3,
+            "performance" : -1,
+            "persuasion" : -1,
+            "religion" : 0,
+            "sleightOfHand" : 0,
+            "stealth" : -1,
+            "survival" : -1
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : "",
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : 0,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : "",
+            "extraFeatures" : "",
+            "notes" : ""
+          },
+          "featureUses" : {
+            "bolt-repeater" : 1
+          }
+        },
+        "position" : {
+          "x" : 4,
+          "y" : 6
+        },
+        "inventory" : [ ],
+        "combat" : {
+          "maxHitPoints" : 45,
+          "currentHitPoints" : 39,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "gold" : 0,
+          "initiative" : 17,
+          "deathSaveFailures" : 0,
+          "downed" : false,
+          "dead" : false,
+          "xpRewardId" : null,
+          "killXp" : 0,
+          "sharedXp" : 0,
+          "downedByPlayerId" : null,
+          "xpRewardResolved" : false,
+          "conditions" : [ ],
+          "notes" : null,
+          "inInitiative" : true,
+          "walkSpeed" : 30,
+          "climbSpeed" : 0,
+          "swimSpeed" : 0,
+          "speedSeeded" : true,
+          "movementUsed" : 2,
+          "deathSaveSuccesses" : 0,
+          "activeEffects" : [ ],
+          "cooldowns" : { },
+          "featureUses" : {
+            "bolt-repeater" : 1
+          },
+          "resistances" : [ ],
+          "enduranceFeature" : null,
+          "featureSpeedBonus" : 0,
+          "castingResource" : "ENERGY_CHARGES",
+          "spellSlots" : [ {
+            "level" : 1,
+            "max" : 4,
+            "current" : 2
+          }, {
+            "level" : 2,
+            "max" : 2,
+            "current" : 1
+          } ],
+          "actingThisRound" : true
+        },
+        "instanceId" : "4eef1166-34a5-4038-b770-b3fc6918e8f8",
+        "symbol" : "P"
+      } ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -34974,7 +34965,460 @@
       "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
-      "occupants" : [ ]
+      "occupants" : [ {
+        "kind" : "player",
+        "character" : {
+          "id" : "player-lavenos",
+          "name" : "Lavenos",
+          "classId" : "fighter",
+          "raceId" : "human",
+          "level" : 6,
+          "xp" : 90,
+          "upgrades" : {
+            "earned" : 5,
+            "unlocks" : [ {
+              "classId" : "fighter",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-1",
+              "branchName" : "Weapon Master",
+              "name" : "Action Surge (one use)",
+              "description" : "Already included in this character. No rewards are applied again.\nAction Surge (one use)\nAlready included in this character. No rewards are applied again.\nKnown abilities: armor-thrust, blade-oath, blade-rush, combo-strike, commanding-point, compelled-duel, crushing-strike, dual-blade-strike, echo-of-the-duelist, guard-shift, quick-strike, second-wind, step-feint, three-fast-stabs, tlko-super-attack, wrathful-strike",
+              "imagePath" : null,
+              "level" : 2,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "fighter",
+              "sourceRequestId" : null,
+              "nodeId" : "potency-2",
+              "branchName" : "Weapon Master",
+              "name" : "Extra Attack",
+              "description" : "Already included in this character. No rewards are applied again.\nExtra Attack\nAlready included in this character. No rewards are applied again.\nKnown abilities: armor-thrust, blade-oath, blade-rush, combo-strike, commanding-point, compelled-duel, crushing-strike, dual-blade-strike, echo-of-the-duelist, guard-shift, quick-strike, second-wind, step-feint, three-fast-stabs, tlko-super-attack, wrathful-strike",
+              "imagePath" : null,
+              "level" : 3,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "fighter",
+              "sourceRequestId" : null,
+              "nodeId" : "resilience-1",
+              "branchName" : "Vanguard",
+              "name" : "Martial Archetype",
+              "description" : "Already included in this character. No rewards are applied again.\nMartial Archetype\nAlready included in this character. No rewards are applied again.\nKnown abilities: armor-thrust, blade-oath, blade-rush, combo-strike, commanding-point, compelled-duel, crushing-strike, dual-blade-strike, echo-of-the-duelist, guard-shift, quick-strike, second-wind, step-feint, three-fast-stabs, tlko-super-attack, wrathful-strike",
+              "imagePath" : null,
+              "level" : 4,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "fighter",
+              "sourceRequestId" : null,
+              "nodeId" : "@historical-level-5",
+              "branchName" : "Existing training",
+              "name" : "Extra Attack",
+              "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: armor-thrust, blade-oath, blade-rush, combo-strike, commanding-point, compelled-duel, crushing-strike, dual-blade-strike, echo-of-the-duelist, guard-shift, quick-strike, second-wind, step-feint, three-fast-stabs, tlko-super-attack, wrathful-strike",
+              "imagePath" : null,
+              "level" : 5,
+              "historical" : true,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 0,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ ]
+              }
+            }, {
+              "classId" : "fighter",
+              "sourceRequestId" : null,
+              "nodeId" : "resilience-3",
+              "branchName" : "Vanguard",
+              "name" : "Vanguard: Footwork",
+              "description" : "Once per short rest, spend a bonus action to ignore nonmagical difficult terrain for your next 10 ft of movement this turn. Does not add movement or permit unsafe ground. The GM resolves this feat; the app tracks its rest use.",
+              "imagePath" : null,
+              "level" : 6,
+              "historical" : false,
+              "exclusiveWith" : [ ],
+              "reward" : {
+                "hitPoints" : 0,
+                "mana" : 0,
+                "abilityId" : null,
+                "abilityIncrease" : 0,
+                "armorClass" : 1,
+                "attackBonus" : 0,
+                "basicAttackDamage" : 0,
+                "rageDamage" : 0,
+                "speed" : 0,
+                "spellIds" : [ ],
+                "spellAlternatives" : [ ],
+                "features" : [ {
+                  "level" : 3,
+                  "name" : "Vanguard: Footwork",
+                  "description" : "Once per short rest, spend a bonus action to ignore nonmagical difficult terrain for your next 10 ft of movement this turn. Does not add movement or permit unsafe ground. The GM resolves this feat; the app tracks its rest use.",
+                  "subclass" : null,
+                  "usesPerRest" : 1,
+                  "shortRestRecharge" : true
+                } ]
+              }
+            } ]
+          },
+          "stats" : {
+            "custom" : { },
+            "strength" : 15,
+            "dexterity" : 15,
+            "constitution" : 15,
+            "intelligence" : 8,
+            "wisdom" : 8,
+            "charisma" : 8
+          },
+          "items" : [ {
+            "itemId" : "breastplate",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "dagger",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "word-lavenos",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "rations",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "potion-of-healing",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "explorers-pack",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "simple-clothes",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "visage-glasses",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : true,
+            "quantity" : 1
+          }, {
+            "itemId" : "philter-of-love",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "dust-powder",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "advantage-wisdom",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "null-monet",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "coin",
+            "condition" : {
+              "durability" : 0
+            },
+            "equipped" : false,
+            "quantity" : 12
+          }, {
+            "itemId" : "scimitar",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "forgotten-blade",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "item-vaeraks-compass",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          }, {
+            "itemId" : "item-moon-necklace",
+            "condition" : {
+              "durability" : 100
+            },
+            "equipped" : false,
+            "quantity" : 1
+          } ],
+          "spells" : [ {
+            "spellId" : "blade-oath",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "echo-of-the-duelist",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "quick-strike",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "guard-shift",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "step-feint",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "dual-blade-strike",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "compelled-duel",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "wrathful-strike",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "armor-thrust",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "three-fast-stabs",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "crushing-strike",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "blade-rush",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "second-wind",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "commanding-point",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "combo-strike",
+            "rank" : 0,
+            "active" : true
+          }, {
+            "spellId" : "tlko-super-attack",
+            "rank" : 0,
+            "active" : true
+          } ],
+          "personalFeatures" : [ ],
+          "passwordHash" : "7e3e7e085e7e0ae60376862703394884d667414f48642946fa3d49a8493f9beb",
+          "passwordSalt" : "75836f61ea6233be9a824d7275b520d0",
+          "imagePath" : "images/players/player-lavenos.jpg",
+          "playerName" : "Levani",
+          "ownerUsername" : "Cruel Carrot",
+          "description" : "Duelist.\n\nWeapons:\n• Ladies' Blade — no bonus to hit, 1d6 piercing. On a hit: even damage roll → damage doubled, odd → damage halved (rounded up).\n• Forgotten Blade — +3 to hit, 1d8 slashing.\n• Dual (both blades equipped) — +5 to hit, 1d8 + 1d6 (use the Dual Blade Strike action). The Ladies' Blade d6 still follows the even/odd rule.\n\nTreasure & inventory: Explorer's Pack, Simple Clothes, Visage (glasses), 40 BP, Philter of Love, Dust Powder, Advantage: Wisdom, Null Monet.\n\nPassives:\n• Break Enemy Defense — 20% chance on each hit (d100 ≤ 20) to reduce the target's AC by 1 until the end of the fight.\n• Battle Awareness — automatically enters battle stance when a fight starts; predicts the enemy's first strike and gets one free Dodge against it.\n• Combat Momentum — each successful hit adds +1 damage to his following hits, stacking until the end of the battle.\n• Parry & Counter — when attacked in melee roll d100: 1–25 parry and counterattack (counter lands on 50%), 26–45 parry only, 46–65 counterattack only, 66–100 nothing.\n\nSuper attack: T.L.K.O. (the move only Maghro knows) — see the T.L.K.O. action.",
+          "maxHitPoints" : 52,
+          "currentHitPoints" : 34,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "activeEffects" : [ ],
+          "subclass" : "",
+          "backstory" : "\n\nთვითმარქვია რაინდი\n\nჩემი ყველაზე ძველი მოგონება არც სახეა და არც ხმა.\n\nქვის სიცივეა.\n\nმახსოვს, როგორ გამეღვიძა ბაზრის ხის დახლების ქვეშ. წვიმის წვეთები დამპალი ფიცრებიდან მეცემოდა, ხოლო ხელში იმდენად მაგრად ვიყავი ჩაფრენილი გამხმარ პურის ნაჭერს, რომ თითებიდან სისხლი მდიოდა. არ მახსოვს, ვინ მომცა ის პური. არც ის მახსოვს, საერთოდ მყავდა თუ არა ვინმე.\n\n„ეს ქალაქი“ სამეფოს ერთ-ერთი უდიდესი და უძლიერესი ქალაქი იყო. მთელი სამეფოს მბრძანებელი მეფე გახლდათ, მაგრამ თავად „ამ ქალაქს“ გრაფი მართავდა. მის სიტყვას ამ ქალაქში მხოლოდ მეფის ნება აღემატებოდა.\n\nთუმცა „აქაურობა“ ერთი ქალაქი არ ყოფილა.\n\nის ორ სხვადასხვა სამყაროდ იყო გაყოფილი.\n\nგარე წრე ეკუთვნოდა უბრალო ხალხს — გლეხებს, ხელოსნებს, ვაჭრებს, მჭედლებს, მათხოვრებს, ქურდებსა და ჩვენნაირ მიტოვებულ ბავშვებს. აქ ცხოვრება ყოველდღიური ბრძოლა იყო. შიმშილი, სიცივე და ძალადობა ჩვეულებრივი ამბავი გახლდათ.\n\nმაღალი ქვის გალავნის მიღმა კი შიდა წრე იწყებოდა.\n\nიქ ცხოვრობდნენ დიდგვაროვნები, რაინდები, მხედართმთავრები, სწავლულები და ქალაქის ყველაზე მდიდარი ადამიანები.\n\nუბრალო ადამიანს იქ შესვლა ეკრძალებოდა.\n\nნებართვის გარეშე შესულს ზოგჯერ ხელს აჭრიდნენ.\n\nზოგჯერ ენას.\n\nხოლო ზოგჯერ... აღარავინ ხედავდა.\n\nჩვენთვის, ქუჩის ბავშვებისთვის, ის კედლები სხვა სამყაროს საზღვარს ჰგავდა.\n\nვიცოდით, რომელი მცველი აიღებდა ქრთამს და რომელი სიამოვნებით სცემდა ბავშვს მხოლოდ იმიტომ, რომ შეეძლო.\n\nარავინ ოცნებობდა.\n\nოცნება მათთვის იყო, ვისაც ხვალინდელი დღის იმედი ჰქონდა.\n\nჩვენ მხოლოდ კიდევ ერთი გათენების იმედით ვცხოვრობდით.\n\nშვიდი წლის ვიყავი, როცა ჩემი ცხოვრება სამუდამოდ შეიცვალა.\n\nპურის მოპარვის შემდეგ ქალაქის მცველები გამომეკიდნენ. ბევრი სირბილისა და ძრომიალის შემდეგ ძლივს თავი დავაღწიე მათ.\n\nშემთხვევით ნახევრად ღია კარში შევძვერი...\n\nდა როცა სირბილი შევწყვიტე, მივხვდი, სად აღმოვჩნდი.\n\nშიდა წრეში.\n\nყველაზე მაღალ ხეზე მოვკალათდი და მაშინ ფოლადის ხმაური გავიგონე.\n\nჩემ წინ უზარმაზარი საწვრთნელი ეზო გადაიშალა.\n\nათეულობით ხალხი მიდი-მოდიოდა — ოსტატები, რაინდები, ახალბედები თუ უკვე გამოცდილები. მათი წვრთნების ყურება ჩემთვის ხელოვნება იყო.\n\nიმ დღეს მზის ჩასვლამდე იქიდან ვერ მოვწყდი.\n\nიმ ღამით კი, ძილის ნაცვლად, მდინარის ნაპირზე სწორი ტოტი ვიპოვე.\n\nხელში ისე დავიჭირე, როგორც იმ რაინდებს ეჭირათ მახვილი.\n\nდა ვცადე მათი მოძრაობების გამეორება.\n\nმეორე დღეს კვლავ მივედი.\n\nმერეც.\n\nდა ამის შემდეგ თითქმის ყოველდღე.\n\nდილით გადარჩენისთვის ვიბრძოდი.\n\nსაღამოს კი საიდუმლო ადგილს ვპოულობდი, საიდანაც საწვრთნელ მოედანს ვხედავდი.\n\nღამით მარტო ვვარჯიშობდი.\n\nვაკვირდებოდი მათ და ცოდნას ვიპარავდი... თუკი ამას ქურდობა ერქვა.\n\nთვეები გადიოდა და ვერც კი მივხვდი, ისე დავიწყე მათთან ერთად სწავლა.\n\nარა მოედანზე...\n\nარამედ ჩრდილებიდან.\n\nერთ დილას კი... კარგად ვერ დავიმალე. მათი ცქერით აღფრთოვანებულს ტოტი ჩამომიტყდა და ხმაურიანად დავეცი მიწაზე.\n\nროცა გონს მოვედი, მბზინავ, მზისამრეკლავ აბჯრებში ჩაცმული ხალხი მიყურებდა.\n\nუცებ მცველები მოვარდნენ, ერთი-ორი ჭკუის სასწავლებელი მომდეს, ქეჩოში ხელი ჩამავლეს და მმართველთან მიმაბრძანეს.\n\nროცა „მმართველის“ დარბაზში შემაგდეს, სახეზე სისხლი ჩამომდიოდა.\n\nდარბაზი აღშფოთებით აივსო.\n\n„მმართველმა“ მკითხა, ვინ ვიყავი.\n\nმეც დაუმალავად ავუხსენი ყველაფერი. ისედაც ცხადი იყო, რომ გარე წრის მათხოვართან ჰქონდათ საქმე.\n\nპური რომ მექურდა, ხელს მომაჭრიდნენ, მაგრამ მე აქ მხოლოდ ცოდნას ვიძენდი.\n\nცოდნისა და ინფორმაციის ქურდობისთვის თავს მომაჭრიდნენ, ვიცოდი.\n\nდა როდესაც მმართველს ჩემი თავი ჯალათისთვის უნდა გადაეცა, მისი უფროსი ქალიშვილი წამოდგა დარბაზში.\n\nჩემს ირგვლივ ისე შემოიარა, თითქოს ცხენს ათვალიერებდა.\n\nმამამისს მიაპყრო თვალები და ბრძანებით უთხრა. პატარა საქალბატონე, რომელიც ალბათ თორმეტი წლის იქნებოდა, ამბობდა, რომ ჩემი სიკვდილი ფუჭი ხარჯი იქნებოდა. ყველა მისი თანატოლი მასზე ძლიერი იყო, ჩემთან, სუსტთან, ვარჯიში კი უფრო მეტ სიამოვნებას მოუტანდა.\n\nთავიდან მმართველმა იუარა, მაგრამ როდესაც პატარა საქალბატონემ დაჟინებით დაიწყო მოთხოვნა, სცენების დადგმა და ტირილი, რასაც მისი ათი წლის ძმაც აჰყვა, მათ სურვილს ვერც ერთი მაღალმთავარი ვერ შეეწინააღმდეგა.\n\nიმ დღიდან მმართველის ვაჟისა და ქალიშვილის პირად სავარჯიშო თოჯინად ვიქეცი. თან მათ იარაღებს ვწმენდდი, დარბაზსა და საბრძოლო მოედანს ვალაგებდი. ყველა ბინძურ საქმესაც მე მავალებდნენ.\n\nსიკვდილს გადავურჩი, მაგრამ მათი საკუთრება გავხდი და თავისუფლება დავკარგე.\n\n\nასე გადიოდა დრო.\n\nორ წელიწადში, როდესაც ათ წელს გადავაცილე, თავადიშვილმა გოგონამ მალევე დაკარგა საბრძოლო ხელოვნების მიმართ ინტერესი და ხშირად აღარ სტუმრობდა სავარჯიშო დარბაზებს. იზრდებოდა, მშვენდებოდა, უფრო ელეგანტური ხდებოდა და ნამდვილ დიდგვაროვან ქალბატონს ემსგავსებოდა.\n\nაი, მისი ძმა კი უბედურის ერთი იყო. სულ იმას მაძახებდა: „მე გიხსენი და ჩემი მონა ხარო.“ ასაკთან ერთად მწვრთნელებმა და დამკვირვებლებმა ჩემს გამეტებასაც უმატეს. ისე მიმეტებდნენ ვარჯიშის დროს, რომ ხანდახან სისხლიც მსდიოდა, მაგრამ მე, როგორც მონას, არ მქონდა უფლება დიდგვაროვანის მშვენიერი სახე შემეწითლა. მხოლოდ გაქცევის, აცილების, იარაღის დახვედრის ან არიდების უფლება მქონდა, ისიც იშვიათად.\n\nკიდევ ორ წელში, როცა მე თოთხმეტ წელს ვითვლიდი, თავადიშვილები კი უკვე თექვსმეტი-თვრამეტი წლისანი იყვნენ, მე უკვე ყველა ტაქტიკა, ყველა მოძრაობა, ყველა შეტევა, თავდასხმა თუ თავდაცვა შესწავლილი მქონდა. მაგრამ აბა ჩემს შესაძლებლობებს როგორ გავამხელდი იმ ხალხის წინაშე, ვისთვისაც არაფრის დაშავების უფლება არ მქონდა? ამიტომ, როცა დრო მქონდა, ყოველთვის მარტო ვვარჯიშობდი და დროს არ ვკარგავდი.\n\nკიდევ ორ წელიწადში უკვე ტკივილში, ფოლადსა და ოფლში გამოჭედილი ვაჟკაცი ვიყავი და არა ის ბავშვი, რომელიც პურს ქურდობდა ოდესღაც. მაგრამ მაინც, შიმშილით დაღლილს, თავისუფლად მერჩივნა ერთ დროს ხეტიალი, ვიდრე აქ მდიდრების შემხედვარე დამცირებების ატანა და გამოკეტილად ყოფნა.\n\nსახელი არ გამაჩნდა. ყველა იმას მეძახდა, რაც მოესურვებოდათ.\n\nერთხელ ახალგაზრდა ქალბატონმა მასთან ერთად ბიბლიოთეკაში მიმიწვია. ძველ ენებს სწავლობდა. ზუსტად იქ, ძველი ენის ერთ-ერთ წიგნში, ამოვიკითხე სიტყვა „ლავენოს“, რაც მოქნილებასა და თავისუფლებას ნიშნავდა და ამავდროულად განდიდებული, ჯადოქრული მიმართვით გამოირჩეოდა. არავინ იცის, ვის მიმართებაში იხმარებოდა ძველად ეს სიტყვა.\n\n„ახალგაზრდა ქალბატონმა“ ღიმილით შემომხედა და მითხრა, რომ დღეიდან ჩემი სახელი ეს სიტყვა იქნებოდა, რადგან გრძნობდა, რომ რეალურად თავისუფლება მწყუროდა.\n\nერთ დღეს, როდესაც მმართველის დარბაზები სტუმრებით აივსო და ცენტრში პატარა კოლიზეუმი მოაწყვეს მისი ქალიშვილის მეოცე დაბადების დღის აღსანიშნავად, მის უმცროს ვაჟს თავის გამოჩენა მოუნდა ყველას წინაშე. თან ახალგაზრდა ლორდი სასმელმა შეახოშიანა და მამას უთხრა, რომ სტუმრების საპატივსაცემოდ დუელი უნდა გაემართა.\n\nმეტოქედ კი მე ამომირჩია.\n\nბრძოლის დროს თავს ვიკავებდი, რომ არ მევნო მისთვის და თავი არ დამეღუპა, მაგრამ სტუმრები აშკარად უკმაყოფილოები იყვნენ.\n\nმმართველმა ბრძოლა შეგვაწყვეტინა და პირადად მომმართა, რომ მეც შესაბამისად მებრძოლა, რათა მის ვაჟს თავისი ვაჟკაცობა და ცოდნა სრულად გამოევლინა.\n\nმე იგი დავამარცხე.\n\nდა როდესაც დამარცხებულმა ჩემი თავი მოსთხოვა მამამისს ლანგარზე, მისმა უფროსმა ქალიშვილმა და ჩემმა მხსნელმა კიდევ ერთხელ გადამარჩინა. დაარწმუნა მამა, რომ მე მხოლოდ ბრძანებას ვასრულებდი და სიკვდილს არ ვიმსახურებდი.\n\nრაკი იმ დღეს მისი დაბადების დღე იყო, გამიმართლა.\n\nმაგრამ ვიცოდი, დიდი ხანი აღარ დამრჩენოდა სიცოცხლე.\n\nროცა ახალგაზრდა ლედიმ მეორედ მიხსნა სიკვდილს, სწორედ იმ დღიდან შევხედე მას სხვა თვალით. ის აღარ იყო უბრალოდ დიდგვაროვანი. ის ჩემთვის ბევრად მეტს ნიშნავდა.\n\nასე დავახლოვდით და ჩვენი უბიწო, პლატონური, წმინდა სიყვარული ძლიერდებოდა.\n\nიმ დღის შემდეგ იგი ხშირად მხვდებოდა მაშინ, როცა არავინ გვხედავდა. არასოდეს მიყურებდა, როგორც მსახურს.\n\nპირველად ცხოვრებაში ვიგრძენი, რომ ვიღაც ადამიანს მხედავდა...\n\nდა არა საკუთრებას.\n\nარასოდეს დამავიწყდება მისი სიტყვები:\n\n„შენ ხარ ჩემთვის ნამდვილი რაინდი და მებრძოლი. უბრალოდ ამ სამყაროს ამის დანახვა არ შეუძლია.“\n\nიმ დღის შემდეგ უფრო მეტხანს მეფიქრებოდა მასზე და მის სიტყვებზე.\n\nროდესაც ჩვიდმეტი წლის გავხდი, ახალგაზრდა გრაფთან შებრძოლებიდან ზუსტად ერთი წლის შემდეგ, ახალგაზრდა ლედი, რომელიც ახლახან ოცდაერთი წლის გამხდარიყო, ბოლოჯერ ვნახე, როდესაც ერთ-ერთ შუახნის თავადზე უნდა გაეთხოვებინათ, რაღა თქმა უნდა, პოლიტიკური და ქონებრივი მიზნებით.\n\nბოლოჯერ ვნახე იგი და ამ ამბით მან სიცოცხლე გამომასალმა... სიცოცხლეს, რომელიც უკვე ორჯერ შემინარჩუნა.\n\nჩვენი ბოლო შეხვედრის ღამე იყო.\n\nმან თავისი მახვილი იშიშვლა, მთვარის შუქზე მოელვარე, და ყველასგან უჩუმრად რაინდად მაკურთხა.\n\nარც დამსწრეები, არც მეფე, არც მატიანე, არც გრაფი, ლორდი თუ მსახური... ირგვლივ არავინ იყო. მხოლოდ ჩვენ და მთვარის შუქზე მოელვარე მისი მახვილი.\n\nცალ მუხლზე ჩაჩოქილს მახვილი ჯერ ერთ მხარზე შემახო, შემდეგ მეორეზე, და თან მისი ცრემლები ფოლადს ეხეთქებოდნენ.\n\nბევრი რამის ახსნა მინდოდა. მასთან ერთად გაქცევაც მინდოდა. უამრავი რამ მქონდა მისთვის ასახსნელი და გასამხელი — გრძნობები და ფიქრები.\n\nმაგრამ მან არ მომისმინა.\n\nროგორც კი რიტუალი დაასრულა, მაშინვე გაუჩინარდა.\n\n\nიმ დღის მერე ჩემს ქალბატონს უიშვიათესად ვნახულობდი. თუ გიგანტური ქალაქის ერთი ბოლოდან მეორეში თავისი გომბეშო მეუღლე მოაბრძანებდა ხოლმე მმართველთან შესახვედრად...\n\nდა ყოველ ჯერზე უფრო და უფრო სუსტი ჩანდა, უფრო და უფრო დაღლილი და განადგურებული. უემოციო, ნაცემიც კი... თვალებში სული აღარ ედგა და არც მესაუბრებოდა. თვალს ისე მარიდებდა, თითქოს არ ვარსებობდი.\n\nროდესაც თვრამეტი წლის შევიქენი, მმართველის პალატებში, როგორც იქნა, ათი წლის შრომისა და ტკივილის შემდეგ, ყველას თვალში შესაბამისი პატივისცემა მოვიპოვე და ახლა მწვრთნელად მაქციეს.\n\nმმართველს დიდად მოვწონდი, მის ვაჟს — არც ისე, მაგრამ ბავშვობის წყენები დავივიწყეთ და თითქოს ყველაფერი რიგზე იყო. გარდა იმისა, რომ ჩემს ქალბატონს ვერ ველეოდი.\n\nერთხელაც იგი აღარ დაბრუნდა. არც მამასთან, არც ძმასთან, არც ჩემთან...\n\nმხოლოდ ამბავი მოვიდა მასზე, რომ თურმე მოღალატე ცოლი გამომდგარა გომბეშო გრაფისთვის და იგი სიკვდილით დაუსჯია ქმარს.\n\nაქ კი მმართველი ვერაფერს გახდებოდა, რადგან ქალიშვილი უკვე მას აღარ ეკუთვნოდა და, თან, მოტანილი ამბების მიხედვით, ვის რაში სჭირდება მოღალატე, ანდა უნამუსო ცოლი თუ ქალიშვილი...\n\nახალგაზრდა ბატონმა თავისი დის გარდაცვალება ვერ გადაიტანა, რადგან იგი უზომოდ უყვარდა. არ სჯეროდა, რომ მისი და უბრალო მეძავად შერაცხეს და თავიდან მოიშორეს...\n\nთვითონ კი მამამისის სილაჩრე ამხეცრებდა, თან საკუთარი უსუსურობა თუ კანონით შებოჭილობა თრგუნავდა.\n\nიმ ღამეს ბედისწერა საკუთარ ხელში ავიღე.\n\nმე ხომ უბრალოდ მსახური ვარ... ლაქა, აჩრდილი, საკუთრება...\n\nმაგრამ დამატებული ამ ყველაფერს — მოულოდნელი საფრთხეც, რომელსაც ვერავინ ამოიცნობს.\n\nმივაშურე გომბეშო დიდგვაროვანის საბინადროებს ღამის ბნელში და მის პალატებს მივაგენი.\n\nარ მინდოდა მისი ძილში მოკვლა, ისე, როგორც გაიძვერებს სჩვევიათ.\n\nმინდოდა ეღიარებინა.\n\nმინდოდა ეთხოვა, რომ არ მომეკლა.\n\nიქნებ პატიებაც ეთხოვა...\n\nმაგრამ მე ჩემი გადაწყვეტილება უკვე მიღებული მქონდა.\n\nშეეღვიძა თუ არა, ყელთან ხანჯალი მივაბჯინე და საძინებლიდან მძევლად მოვიპარე.\n\nერთხანს ფხიზლად მჭირდებოდა, რომ მცველები არ გამომყოლოდნენ. შემდეგ კი კეფაში ჩარტყმით მოვთიშე და ცხენით მმართველის სასახლეში მივათრიე.\n\nშუა დარბაზში დავაგდე და მმართველს დავუძახე!\n\nმმართველი, მამა, ძმა და ყველა, ვინც ახლომახლო იმყოფებოდა, გამოცვივდნენ და გაოცებულები უყურებდნენ სეირს.\n\nლაჩარს ვაღიარებინე, რომ ცოლი ძალადობაში შემოაკვდა.\n\nგამწარებულს ისე მეჭირა ეს გაკოჭილი ნაბიჭვარი, რომ ვერც კი ინძრეოდა.\n\nვიცოდი, რომ მეფის კაცი იყო და ამ ქალაქის მმართველიც კი ვერ შემიწყალებდა ამ საქციელის შემდეგ.\n\nმაგრამ მე სიმართლე მაინტერესებდა.\n\nდა მხოლოდ სიმართლე.\n\nყელქვეშ ხანჯალი ისე ნელა გამოვუსვი, რომ ყველა ძარღვი სათითაოდ დახეთქილიყო და რაც შეიძლება ნელა მომკვდარიყო.\n\nმერე მისი ჯერ კიდევ მოფართხალე სხეული პირქვე დავანარცხე და ჩემს ბატონს მივუტრიალდი.\n\nახალგაზრდა ბატონი ჩემსკენ გამოექანა და ლახვარი მუცელში ჩამასო.\n\nიმ მომენტიდან აღარაფერი მახსოვს.\n\nროგორც გავიგე, ჩემი თავი გვამად გამოუცხადებიათ, ახალგაზრდა ბატონი კი გმირად შეურაცხავთ.\n\nმე მკვდრების ეტლით, სასახლის უკანა კარიდან, მთლიანად ქალაქის გარეთ გამომათრიეს...\n\nმან იცოდა, რომ ვსუნთქავდი, მაგრამ სიკვდილს არ მისცა ჩემი თავი.\n\nმამა-მთავარიც გააცურა, მეფეც და ყველა თავადიც.\n\nმას ძალიან უყვარდა საკუთარი და\n",
+          "castingResource" : null,
+          "spellSlots" : [ ],
+          "knownBlueprints" : [ ],
+          "furnaceFuel" : 0,
+          "cooldowns" : {
+            "compelled-duel" : 3,
+            "commanding-point" : 4
+          },
+          "skills" : {
+            "custom" : { },
+            "acrobatics" : 3,
+            "animalHandling" : 1,
+            "arcana" : 0,
+            "athletics" : 3,
+            "deception" : 0,
+            "history" : 0,
+            "insight" : 0,
+            "intimidation" : 2,
+            "investigation" : 0,
+            "medicine" : 0,
+            "nature" : 0,
+            "perception" : 0,
+            "performance" : 0,
+            "persuasion" : 1,
+            "religion" : 0,
+            "sleightOfHand" : 0,
+            "stealth" : 1,
+            "survival" : 2
+          },
+          "sheet" : {
+            "armorClass" : null,
+            "initiative" : null,
+            "speed" : null,
+            "proficiencyBonus" : null,
+            "passivePerception" : null,
+            "savingThrowProficiencies" : [ ],
+            "hitDice" : "",
+            "temporaryHitPoints" : 0,
+            "deathSaveSuccesses" : 0,
+            "deathSaveFailures" : 0,
+            "inspiration" : false,
+            "spellcastingAbility" : null,
+            "spellSaveDc" : null,
+            "spellAttackBonus" : null,
+            "copper" : 0,
+            "silver" : 0,
+            "electrum" : 0,
+            "gold" : 0,
+            "platinum" : 0,
+            "extraAttacks" : [ ],
+            "proficienciesAndLanguages" : "",
+            "extraFeatures" : "",
+            "notes" : ""
+          },
+          "featureUses" : { }
+        },
+        "position" : {
+          "x" : 9,
+          "y" : 6
+        },
+        "inventory" : [ ],
+        "combat" : {
+          "maxHitPoints" : 52,
+          "currentHitPoints" : 34,
+          "maxMana" : 0,
+          "currentMana" : 0,
+          "gold" : 0,
+          "initiative" : 10,
+          "deathSaveFailures" : 0,
+          "downed" : false,
+          "dead" : false,
+          "xpRewardId" : null,
+          "killXp" : 0,
+          "sharedXp" : 0,
+          "downedByPlayerId" : null,
+          "xpRewardResolved" : false,
+          "conditions" : [ ],
+          "notes" : null,
+          "inInitiative" : true,
+          "walkSpeed" : 30,
+          "climbSpeed" : 0,
+          "swimSpeed" : 0,
+          "speedSeeded" : true,
+          "movementUsed" : 6,
+          "deathSaveSuccesses" : 0,
+          "activeEffects" : [ ],
+          "cooldowns" : {
+            "compelled-duel" : 3,
+            "commanding-point" : 4
+          },
+          "featureUses" : { },
+          "resistances" : [ ],
+          "enduranceFeature" : null,
+          "featureSpeedBonus" : 0,
+          "castingResource" : null,
+          "spellSlots" : [ ],
+          "actingThisRound" : true
+        },
+        "instanceId" : "0ce20b86-6379-4cc8-b86c-aced4b0e41aa",
+        "symbol" : "P"
+      } ]
     }, {
       "passable" : true,
       "terrain" : "NORMAL",
@@ -36967,460 +37411,7 @@
       "passable" : true,
       "terrain" : "NORMAL",
       "effect" : null,
-      "occupants" : [ {
-        "kind" : "player",
-        "character" : {
-          "id" : "player-lavenos",
-          "name" : "Lavenos",
-          "classId" : "fighter",
-          "raceId" : "human",
-          "level" : 6,
-          "xp" : 90,
-          "upgrades" : {
-            "earned" : 5,
-            "unlocks" : [ {
-              "classId" : "fighter",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-1",
-              "branchName" : "Weapon Master",
-              "name" : "Action Surge (one use)",
-              "description" : "Already included in this character. No rewards are applied again.\nAction Surge (one use)\nAlready included in this character. No rewards are applied again.\nKnown abilities: armor-thrust, blade-oath, blade-rush, combo-strike, commanding-point, compelled-duel, crushing-strike, dual-blade-strike, echo-of-the-duelist, guard-shift, quick-strike, second-wind, step-feint, three-fast-stabs, tlko-super-attack, wrathful-strike",
-              "imagePath" : null,
-              "level" : 2,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "fighter",
-              "sourceRequestId" : null,
-              "nodeId" : "potency-2",
-              "branchName" : "Weapon Master",
-              "name" : "Extra Attack",
-              "description" : "Already included in this character. No rewards are applied again.\nExtra Attack\nAlready included in this character. No rewards are applied again.\nKnown abilities: armor-thrust, blade-oath, blade-rush, combo-strike, commanding-point, compelled-duel, crushing-strike, dual-blade-strike, echo-of-the-duelist, guard-shift, quick-strike, second-wind, step-feint, three-fast-stabs, tlko-super-attack, wrathful-strike",
-              "imagePath" : null,
-              "level" : 3,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "fighter",
-              "sourceRequestId" : null,
-              "nodeId" : "resilience-1",
-              "branchName" : "Vanguard",
-              "name" : "Martial Archetype",
-              "description" : "Already included in this character. No rewards are applied again.\nMartial Archetype\nAlready included in this character. No rewards are applied again.\nKnown abilities: armor-thrust, blade-oath, blade-rush, combo-strike, commanding-point, compelled-duel, crushing-strike, dual-blade-strike, echo-of-the-duelist, guard-shift, quick-strike, second-wind, step-feint, three-fast-stabs, tlko-super-attack, wrathful-strike",
-              "imagePath" : null,
-              "level" : 4,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "fighter",
-              "sourceRequestId" : null,
-              "nodeId" : "@historical-level-5",
-              "branchName" : "Existing training",
-              "name" : "Extra Attack",
-              "description" : "Already included in this character. No rewards are applied again.\nKnown abilities: armor-thrust, blade-oath, blade-rush, combo-strike, commanding-point, compelled-duel, crushing-strike, dual-blade-strike, echo-of-the-duelist, guard-shift, quick-strike, second-wind, step-feint, three-fast-stabs, tlko-super-attack, wrathful-strike",
-              "imagePath" : null,
-              "level" : 5,
-              "historical" : true,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 0,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ ]
-              }
-            }, {
-              "classId" : "fighter",
-              "sourceRequestId" : null,
-              "nodeId" : "resilience-3",
-              "branchName" : "Vanguard",
-              "name" : "Vanguard: Footwork",
-              "description" : "Once per short rest, spend a bonus action to ignore nonmagical difficult terrain for your next 10 ft of movement this turn. Does not add movement or permit unsafe ground. The GM resolves this feat; the app tracks its rest use.",
-              "imagePath" : null,
-              "level" : 6,
-              "historical" : false,
-              "exclusiveWith" : [ ],
-              "reward" : {
-                "hitPoints" : 0,
-                "mana" : 0,
-                "abilityId" : null,
-                "abilityIncrease" : 0,
-                "armorClass" : 1,
-                "attackBonus" : 0,
-                "basicAttackDamage" : 0,
-                "rageDamage" : 0,
-                "speed" : 0,
-                "spellIds" : [ ],
-                "spellAlternatives" : [ ],
-                "features" : [ {
-                  "level" : 3,
-                  "name" : "Vanguard: Footwork",
-                  "description" : "Once per short rest, spend a bonus action to ignore nonmagical difficult terrain for your next 10 ft of movement this turn. Does not add movement or permit unsafe ground. The GM resolves this feat; the app tracks its rest use.",
-                  "subclass" : null,
-                  "usesPerRest" : 1,
-                  "shortRestRecharge" : true
-                } ]
-              }
-            } ]
-          },
-          "stats" : {
-            "custom" : { },
-            "strength" : 15,
-            "dexterity" : 15,
-            "constitution" : 15,
-            "intelligence" : 8,
-            "wisdom" : 8,
-            "charisma" : 8
-          },
-          "items" : [ {
-            "itemId" : "breastplate",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "dagger",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "word-lavenos",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "rations",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "potion-of-healing",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "explorers-pack",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "simple-clothes",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "visage-glasses",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : true,
-            "quantity" : 1
-          }, {
-            "itemId" : "philter-of-love",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "dust-powder",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "advantage-wisdom",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "null-monet",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "coin",
-            "condition" : {
-              "durability" : 0
-            },
-            "equipped" : false,
-            "quantity" : 12
-          }, {
-            "itemId" : "scimitar",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "forgotten-blade",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "item-vaeraks-compass",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          }, {
-            "itemId" : "item-moon-necklace",
-            "condition" : {
-              "durability" : 100
-            },
-            "equipped" : false,
-            "quantity" : 1
-          } ],
-          "spells" : [ {
-            "spellId" : "blade-oath",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "echo-of-the-duelist",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "quick-strike",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "guard-shift",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "step-feint",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "dual-blade-strike",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "compelled-duel",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "wrathful-strike",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "armor-thrust",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "three-fast-stabs",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "crushing-strike",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "blade-rush",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "second-wind",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "commanding-point",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "combo-strike",
-            "rank" : 0,
-            "active" : true
-          }, {
-            "spellId" : "tlko-super-attack",
-            "rank" : 0,
-            "active" : true
-          } ],
-          "personalFeatures" : [ ],
-          "passwordHash" : "7e3e7e085e7e0ae60376862703394884d667414f48642946fa3d49a8493f9beb",
-          "passwordSalt" : "75836f61ea6233be9a824d7275b520d0",
-          "imagePath" : "images/players/player-lavenos.jpg",
-          "playerName" : "Levani",
-          "ownerUsername" : "Cruel Carrot",
-          "description" : "Duelist.\n\nWeapons:\n• Ladies' Blade — no bonus to hit, 1d6 piercing. On a hit: even damage roll → damage doubled, odd → damage halved (rounded up).\n• Forgotten Blade — +3 to hit, 1d8 slashing.\n• Dual (both blades equipped) — +5 to hit, 1d8 + 1d6 (use the Dual Blade Strike action). The Ladies' Blade d6 still follows the even/odd rule.\n\nTreasure & inventory: Explorer's Pack, Simple Clothes, Visage (glasses), 40 BP, Philter of Love, Dust Powder, Advantage: Wisdom, Null Monet.\n\nPassives:\n• Break Enemy Defense — 20% chance on each hit (d100 ≤ 20) to reduce the target's AC by 1 until the end of the fight.\n• Battle Awareness — automatically enters battle stance when a fight starts; predicts the enemy's first strike and gets one free Dodge against it.\n• Combat Momentum — each successful hit adds +1 damage to his following hits, stacking until the end of the battle.\n• Parry & Counter — when attacked in melee roll d100: 1–25 parry and counterattack (counter lands on 50%), 26–45 parry only, 46–65 counterattack only, 66–100 nothing.\n\nSuper attack: T.L.K.O. (the move only Maghro knows) — see the T.L.K.O. action.",
-          "maxHitPoints" : 52,
-          "currentHitPoints" : 33,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "activeEffects" : [ ],
-          "subclass" : "",
-          "backstory" : "\n\nთვითმარქვია რაინდი\n\nჩემი ყველაზე ძველი მოგონება არც სახეა და არც ხმა.\n\nქვის სიცივეა.\n\nმახსოვს, როგორ გამეღვიძა ბაზრის ხის დახლების ქვეშ. წვიმის წვეთები დამპალი ფიცრებიდან მეცემოდა, ხოლო ხელში იმდენად მაგრად ვიყავი ჩაფრენილი გამხმარ პურის ნაჭერს, რომ თითებიდან სისხლი მდიოდა. არ მახსოვს, ვინ მომცა ის პური. არც ის მახსოვს, საერთოდ მყავდა თუ არა ვინმე.\n\n„ეს ქალაქი“ სამეფოს ერთ-ერთი უდიდესი და უძლიერესი ქალაქი იყო. მთელი სამეფოს მბრძანებელი მეფე გახლდათ, მაგრამ თავად „ამ ქალაქს“ გრაფი მართავდა. მის სიტყვას ამ ქალაქში მხოლოდ მეფის ნება აღემატებოდა.\n\nთუმცა „აქაურობა“ ერთი ქალაქი არ ყოფილა.\n\nის ორ სხვადასხვა სამყაროდ იყო გაყოფილი.\n\nგარე წრე ეკუთვნოდა უბრალო ხალხს — გლეხებს, ხელოსნებს, ვაჭრებს, მჭედლებს, მათხოვრებს, ქურდებსა და ჩვენნაირ მიტოვებულ ბავშვებს. აქ ცხოვრება ყოველდღიური ბრძოლა იყო. შიმშილი, სიცივე და ძალადობა ჩვეულებრივი ამბავი გახლდათ.\n\nმაღალი ქვის გალავნის მიღმა კი შიდა წრე იწყებოდა.\n\nიქ ცხოვრობდნენ დიდგვაროვნები, რაინდები, მხედართმთავრები, სწავლულები და ქალაქის ყველაზე მდიდარი ადამიანები.\n\nუბრალო ადამიანს იქ შესვლა ეკრძალებოდა.\n\nნებართვის გარეშე შესულს ზოგჯერ ხელს აჭრიდნენ.\n\nზოგჯერ ენას.\n\nხოლო ზოგჯერ... აღარავინ ხედავდა.\n\nჩვენთვის, ქუჩის ბავშვებისთვის, ის კედლები სხვა სამყაროს საზღვარს ჰგავდა.\n\nვიცოდით, რომელი მცველი აიღებდა ქრთამს და რომელი სიამოვნებით სცემდა ბავშვს მხოლოდ იმიტომ, რომ შეეძლო.\n\nარავინ ოცნებობდა.\n\nოცნება მათთვის იყო, ვისაც ხვალინდელი დღის იმედი ჰქონდა.\n\nჩვენ მხოლოდ კიდევ ერთი გათენების იმედით ვცხოვრობდით.\n\nშვიდი წლის ვიყავი, როცა ჩემი ცხოვრება სამუდამოდ შეიცვალა.\n\nპურის მოპარვის შემდეგ ქალაქის მცველები გამომეკიდნენ. ბევრი სირბილისა და ძრომიალის შემდეგ ძლივს თავი დავაღწიე მათ.\n\nშემთხვევით ნახევრად ღია კარში შევძვერი...\n\nდა როცა სირბილი შევწყვიტე, მივხვდი, სად აღმოვჩნდი.\n\nშიდა წრეში.\n\nყველაზე მაღალ ხეზე მოვკალათდი და მაშინ ფოლადის ხმაური გავიგონე.\n\nჩემ წინ უზარმაზარი საწვრთნელი ეზო გადაიშალა.\n\nათეულობით ხალხი მიდი-მოდიოდა — ოსტატები, რაინდები, ახალბედები თუ უკვე გამოცდილები. მათი წვრთნების ყურება ჩემთვის ხელოვნება იყო.\n\nიმ დღეს მზის ჩასვლამდე იქიდან ვერ მოვწყდი.\n\nიმ ღამით კი, ძილის ნაცვლად, მდინარის ნაპირზე სწორი ტოტი ვიპოვე.\n\nხელში ისე დავიჭირე, როგორც იმ რაინდებს ეჭირათ მახვილი.\n\nდა ვცადე მათი მოძრაობების გამეორება.\n\nმეორე დღეს კვლავ მივედი.\n\nმერეც.\n\nდა ამის შემდეგ თითქმის ყოველდღე.\n\nდილით გადარჩენისთვის ვიბრძოდი.\n\nსაღამოს კი საიდუმლო ადგილს ვპოულობდი, საიდანაც საწვრთნელ მოედანს ვხედავდი.\n\nღამით მარტო ვვარჯიშობდი.\n\nვაკვირდებოდი მათ და ცოდნას ვიპარავდი... თუკი ამას ქურდობა ერქვა.\n\nთვეები გადიოდა და ვერც კი მივხვდი, ისე დავიწყე მათთან ერთად სწავლა.\n\nარა მოედანზე...\n\nარამედ ჩრდილებიდან.\n\nერთ დილას კი... კარგად ვერ დავიმალე. მათი ცქერით აღფრთოვანებულს ტოტი ჩამომიტყდა და ხმაურიანად დავეცი მიწაზე.\n\nროცა გონს მოვედი, მბზინავ, მზისამრეკლავ აბჯრებში ჩაცმული ხალხი მიყურებდა.\n\nუცებ მცველები მოვარდნენ, ერთი-ორი ჭკუის სასწავლებელი მომდეს, ქეჩოში ხელი ჩამავლეს და მმართველთან მიმაბრძანეს.\n\nროცა „მმართველის“ დარბაზში შემაგდეს, სახეზე სისხლი ჩამომდიოდა.\n\nდარბაზი აღშფოთებით აივსო.\n\n„მმართველმა“ მკითხა, ვინ ვიყავი.\n\nმეც დაუმალავად ავუხსენი ყველაფერი. ისედაც ცხადი იყო, რომ გარე წრის მათხოვართან ჰქონდათ საქმე.\n\nპური რომ მექურდა, ხელს მომაჭრიდნენ, მაგრამ მე აქ მხოლოდ ცოდნას ვიძენდი.\n\nცოდნისა და ინფორმაციის ქურდობისთვის თავს მომაჭრიდნენ, ვიცოდი.\n\nდა როდესაც მმართველს ჩემი თავი ჯალათისთვის უნდა გადაეცა, მისი უფროსი ქალიშვილი წამოდგა დარბაზში.\n\nჩემს ირგვლივ ისე შემოიარა, თითქოს ცხენს ათვალიერებდა.\n\nმამამისს მიაპყრო თვალები და ბრძანებით უთხრა. პატარა საქალბატონე, რომელიც ალბათ თორმეტი წლის იქნებოდა, ამბობდა, რომ ჩემი სიკვდილი ფუჭი ხარჯი იქნებოდა. ყველა მისი თანატოლი მასზე ძლიერი იყო, ჩემთან, სუსტთან, ვარჯიში კი უფრო მეტ სიამოვნებას მოუტანდა.\n\nთავიდან მმართველმა იუარა, მაგრამ როდესაც პატარა საქალბატონემ დაჟინებით დაიწყო მოთხოვნა, სცენების დადგმა და ტირილი, რასაც მისი ათი წლის ძმაც აჰყვა, მათ სურვილს ვერც ერთი მაღალმთავარი ვერ შეეწინააღმდეგა.\n\nიმ დღიდან მმართველის ვაჟისა და ქალიშვილის პირად სავარჯიშო თოჯინად ვიქეცი. თან მათ იარაღებს ვწმენდდი, დარბაზსა და საბრძოლო მოედანს ვალაგებდი. ყველა ბინძურ საქმესაც მე მავალებდნენ.\n\nსიკვდილს გადავურჩი, მაგრამ მათი საკუთრება გავხდი და თავისუფლება დავკარგე.\n\n\nასე გადიოდა დრო.\n\nორ წელიწადში, როდესაც ათ წელს გადავაცილე, თავადიშვილმა გოგონამ მალევე დაკარგა საბრძოლო ხელოვნების მიმართ ინტერესი და ხშირად აღარ სტუმრობდა სავარჯიშო დარბაზებს. იზრდებოდა, მშვენდებოდა, უფრო ელეგანტური ხდებოდა და ნამდვილ დიდგვაროვან ქალბატონს ემსგავსებოდა.\n\nაი, მისი ძმა კი უბედურის ერთი იყო. სულ იმას მაძახებდა: „მე გიხსენი და ჩემი მონა ხარო.“ ასაკთან ერთად მწვრთნელებმა და დამკვირვებლებმა ჩემს გამეტებასაც უმატეს. ისე მიმეტებდნენ ვარჯიშის დროს, რომ ხანდახან სისხლიც მსდიოდა, მაგრამ მე, როგორც მონას, არ მქონდა უფლება დიდგვაროვანის მშვენიერი სახე შემეწითლა. მხოლოდ გაქცევის, აცილების, იარაღის დახვედრის ან არიდების უფლება მქონდა, ისიც იშვიათად.\n\nკიდევ ორ წელში, როცა მე თოთხმეტ წელს ვითვლიდი, თავადიშვილები კი უკვე თექვსმეტი-თვრამეტი წლისანი იყვნენ, მე უკვე ყველა ტაქტიკა, ყველა მოძრაობა, ყველა შეტევა, თავდასხმა თუ თავდაცვა შესწავლილი მქონდა. მაგრამ აბა ჩემს შესაძლებლობებს როგორ გავამხელდი იმ ხალხის წინაშე, ვისთვისაც არაფრის დაშავების უფლება არ მქონდა? ამიტომ, როცა დრო მქონდა, ყოველთვის მარტო ვვარჯიშობდი და დროს არ ვკარგავდი.\n\nკიდევ ორ წელიწადში უკვე ტკივილში, ფოლადსა და ოფლში გამოჭედილი ვაჟკაცი ვიყავი და არა ის ბავშვი, რომელიც პურს ქურდობდა ოდესღაც. მაგრამ მაინც, შიმშილით დაღლილს, თავისუფლად მერჩივნა ერთ დროს ხეტიალი, ვიდრე აქ მდიდრების შემხედვარე დამცირებების ატანა და გამოკეტილად ყოფნა.\n\nსახელი არ გამაჩნდა. ყველა იმას მეძახდა, რაც მოესურვებოდათ.\n\nერთხელ ახალგაზრდა ქალბატონმა მასთან ერთად ბიბლიოთეკაში მიმიწვია. ძველ ენებს სწავლობდა. ზუსტად იქ, ძველი ენის ერთ-ერთ წიგნში, ამოვიკითხე სიტყვა „ლავენოს“, რაც მოქნილებასა და თავისუფლებას ნიშნავდა და ამავდროულად განდიდებული, ჯადოქრული მიმართვით გამოირჩეოდა. არავინ იცის, ვის მიმართებაში იხმარებოდა ძველად ეს სიტყვა.\n\n„ახალგაზრდა ქალბატონმა“ ღიმილით შემომხედა და მითხრა, რომ დღეიდან ჩემი სახელი ეს სიტყვა იქნებოდა, რადგან გრძნობდა, რომ რეალურად თავისუფლება მწყუროდა.\n\nერთ დღეს, როდესაც მმართველის დარბაზები სტუმრებით აივსო და ცენტრში პატარა კოლიზეუმი მოაწყვეს მისი ქალიშვილის მეოცე დაბადების დღის აღსანიშნავად, მის უმცროს ვაჟს თავის გამოჩენა მოუნდა ყველას წინაშე. თან ახალგაზრდა ლორდი სასმელმა შეახოშიანა და მამას უთხრა, რომ სტუმრების საპატივსაცემოდ დუელი უნდა გაემართა.\n\nმეტოქედ კი მე ამომირჩია.\n\nბრძოლის დროს თავს ვიკავებდი, რომ არ მევნო მისთვის და თავი არ დამეღუპა, მაგრამ სტუმრები აშკარად უკმაყოფილოები იყვნენ.\n\nმმართველმა ბრძოლა შეგვაწყვეტინა და პირადად მომმართა, რომ მეც შესაბამისად მებრძოლა, რათა მის ვაჟს თავისი ვაჟკაცობა და ცოდნა სრულად გამოევლინა.\n\nმე იგი დავამარცხე.\n\nდა როდესაც დამარცხებულმა ჩემი თავი მოსთხოვა მამამისს ლანგარზე, მისმა უფროსმა ქალიშვილმა და ჩემმა მხსნელმა კიდევ ერთხელ გადამარჩინა. დაარწმუნა მამა, რომ მე მხოლოდ ბრძანებას ვასრულებდი და სიკვდილს არ ვიმსახურებდი.\n\nრაკი იმ დღეს მისი დაბადების დღე იყო, გამიმართლა.\n\nმაგრამ ვიცოდი, დიდი ხანი აღარ დამრჩენოდა სიცოცხლე.\n\nროცა ახალგაზრდა ლედიმ მეორედ მიხსნა სიკვდილს, სწორედ იმ დღიდან შევხედე მას სხვა თვალით. ის აღარ იყო უბრალოდ დიდგვაროვანი. ის ჩემთვის ბევრად მეტს ნიშნავდა.\n\nასე დავახლოვდით და ჩვენი უბიწო, პლატონური, წმინდა სიყვარული ძლიერდებოდა.\n\nიმ დღის შემდეგ იგი ხშირად მხვდებოდა მაშინ, როცა არავინ გვხედავდა. არასოდეს მიყურებდა, როგორც მსახურს.\n\nპირველად ცხოვრებაში ვიგრძენი, რომ ვიღაც ადამიანს მხედავდა...\n\nდა არა საკუთრებას.\n\nარასოდეს დამავიწყდება მისი სიტყვები:\n\n„შენ ხარ ჩემთვის ნამდვილი რაინდი და მებრძოლი. უბრალოდ ამ სამყაროს ამის დანახვა არ შეუძლია.“\n\nიმ დღის შემდეგ უფრო მეტხანს მეფიქრებოდა მასზე და მის სიტყვებზე.\n\nროდესაც ჩვიდმეტი წლის გავხდი, ახალგაზრდა გრაფთან შებრძოლებიდან ზუსტად ერთი წლის შემდეგ, ახალგაზრდა ლედი, რომელიც ახლახან ოცდაერთი წლის გამხდარიყო, ბოლოჯერ ვნახე, როდესაც ერთ-ერთ შუახნის თავადზე უნდა გაეთხოვებინათ, რაღა თქმა უნდა, პოლიტიკური და ქონებრივი მიზნებით.\n\nბოლოჯერ ვნახე იგი და ამ ამბით მან სიცოცხლე გამომასალმა... სიცოცხლეს, რომელიც უკვე ორჯერ შემინარჩუნა.\n\nჩვენი ბოლო შეხვედრის ღამე იყო.\n\nმან თავისი მახვილი იშიშვლა, მთვარის შუქზე მოელვარე, და ყველასგან უჩუმრად რაინდად მაკურთხა.\n\nარც დამსწრეები, არც მეფე, არც მატიანე, არც გრაფი, ლორდი თუ მსახური... ირგვლივ არავინ იყო. მხოლოდ ჩვენ და მთვარის შუქზე მოელვარე მისი მახვილი.\n\nცალ მუხლზე ჩაჩოქილს მახვილი ჯერ ერთ მხარზე შემახო, შემდეგ მეორეზე, და თან მისი ცრემლები ფოლადს ეხეთქებოდნენ.\n\nბევრი რამის ახსნა მინდოდა. მასთან ერთად გაქცევაც მინდოდა. უამრავი რამ მქონდა მისთვის ასახსნელი და გასამხელი — გრძნობები და ფიქრები.\n\nმაგრამ მან არ მომისმინა.\n\nროგორც კი რიტუალი დაასრულა, მაშინვე გაუჩინარდა.\n\n\nიმ დღის მერე ჩემს ქალბატონს უიშვიათესად ვნახულობდი. თუ გიგანტური ქალაქის ერთი ბოლოდან მეორეში თავისი გომბეშო მეუღლე მოაბრძანებდა ხოლმე მმართველთან შესახვედრად...\n\nდა ყოველ ჯერზე უფრო და უფრო სუსტი ჩანდა, უფრო და უფრო დაღლილი და განადგურებული. უემოციო, ნაცემიც კი... თვალებში სული აღარ ედგა და არც მესაუბრებოდა. თვალს ისე მარიდებდა, თითქოს არ ვარსებობდი.\n\nროდესაც თვრამეტი წლის შევიქენი, მმართველის პალატებში, როგორც იქნა, ათი წლის შრომისა და ტკივილის შემდეგ, ყველას თვალში შესაბამისი პატივისცემა მოვიპოვე და ახლა მწვრთნელად მაქციეს.\n\nმმართველს დიდად მოვწონდი, მის ვაჟს — არც ისე, მაგრამ ბავშვობის წყენები დავივიწყეთ და თითქოს ყველაფერი რიგზე იყო. გარდა იმისა, რომ ჩემს ქალბატონს ვერ ველეოდი.\n\nერთხელაც იგი აღარ დაბრუნდა. არც მამასთან, არც ძმასთან, არც ჩემთან...\n\nმხოლოდ ამბავი მოვიდა მასზე, რომ თურმე მოღალატე ცოლი გამომდგარა გომბეშო გრაფისთვის და იგი სიკვდილით დაუსჯია ქმარს.\n\nაქ კი მმართველი ვერაფერს გახდებოდა, რადგან ქალიშვილი უკვე მას აღარ ეკუთვნოდა და, თან, მოტანილი ამბების მიხედვით, ვის რაში სჭირდება მოღალატე, ანდა უნამუსო ცოლი თუ ქალიშვილი...\n\nახალგაზრდა ბატონმა თავისი დის გარდაცვალება ვერ გადაიტანა, რადგან იგი უზომოდ უყვარდა. არ სჯეროდა, რომ მისი და უბრალო მეძავად შერაცხეს და თავიდან მოიშორეს...\n\nთვითონ კი მამამისის სილაჩრე ამხეცრებდა, თან საკუთარი უსუსურობა თუ კანონით შებოჭილობა თრგუნავდა.\n\nიმ ღამეს ბედისწერა საკუთარ ხელში ავიღე.\n\nმე ხომ უბრალოდ მსახური ვარ... ლაქა, აჩრდილი, საკუთრება...\n\nმაგრამ დამატებული ამ ყველაფერს — მოულოდნელი საფრთხეც, რომელსაც ვერავინ ამოიცნობს.\n\nმივაშურე გომბეშო დიდგვაროვანის საბინადროებს ღამის ბნელში და მის პალატებს მივაგენი.\n\nარ მინდოდა მისი ძილში მოკვლა, ისე, როგორც გაიძვერებს სჩვევიათ.\n\nმინდოდა ეღიარებინა.\n\nმინდოდა ეთხოვა, რომ არ მომეკლა.\n\nიქნებ პატიებაც ეთხოვა...\n\nმაგრამ მე ჩემი გადაწყვეტილება უკვე მიღებული მქონდა.\n\nშეეღვიძა თუ არა, ყელთან ხანჯალი მივაბჯინე და საძინებლიდან მძევლად მოვიპარე.\n\nერთხანს ფხიზლად მჭირდებოდა, რომ მცველები არ გამომყოლოდნენ. შემდეგ კი კეფაში ჩარტყმით მოვთიშე და ცხენით მმართველის სასახლეში მივათრიე.\n\nშუა დარბაზში დავაგდე და მმართველს დავუძახე!\n\nმმართველი, მამა, ძმა და ყველა, ვინც ახლომახლო იმყოფებოდა, გამოცვივდნენ და გაოცებულები უყურებდნენ სეირს.\n\nლაჩარს ვაღიარებინე, რომ ცოლი ძალადობაში შემოაკვდა.\n\nგამწარებულს ისე მეჭირა ეს გაკოჭილი ნაბიჭვარი, რომ ვერც კი ინძრეოდა.\n\nვიცოდი, რომ მეფის კაცი იყო და ამ ქალაქის მმართველიც კი ვერ შემიწყალებდა ამ საქციელის შემდეგ.\n\nმაგრამ მე სიმართლე მაინტერესებდა.\n\nდა მხოლოდ სიმართლე.\n\nყელქვეშ ხანჯალი ისე ნელა გამოვუსვი, რომ ყველა ძარღვი სათითაოდ დახეთქილიყო და რაც შეიძლება ნელა მომკვდარიყო.\n\nმერე მისი ჯერ კიდევ მოფართხალე სხეული პირქვე დავანარცხე და ჩემს ბატონს მივუტრიალდი.\n\nახალგაზრდა ბატონი ჩემსკენ გამოექანა და ლახვარი მუცელში ჩამასო.\n\nიმ მომენტიდან აღარაფერი მახსოვს.\n\nროგორც გავიგე, ჩემი თავი გვამად გამოუცხადებიათ, ახალგაზრდა ბატონი კი გმირად შეურაცხავთ.\n\nმე მკვდრების ეტლით, სასახლის უკანა კარიდან, მთლიანად ქალაქის გარეთ გამომათრიეს...\n\nმან იცოდა, რომ ვსუნთქავდი, მაგრამ სიკვდილს არ მისცა ჩემი თავი.\n\nმამა-მთავარიც გააცურა, მეფეც და ყველა თავადიც.\n\nმას ძალიან უყვარდა საკუთარი და\n",
-          "castingResource" : null,
-          "spellSlots" : [ ],
-          "knownBlueprints" : [ ],
-          "furnaceFuel" : 0,
-          "cooldowns" : {
-            "compelled-duel" : 4,
-            "commanding-point" : 5
-          },
-          "skills" : {
-            "custom" : { },
-            "acrobatics" : 3,
-            "animalHandling" : 1,
-            "arcana" : 0,
-            "athletics" : 3,
-            "deception" : 0,
-            "history" : 0,
-            "insight" : 0,
-            "intimidation" : 2,
-            "investigation" : 0,
-            "medicine" : 0,
-            "nature" : 0,
-            "perception" : 0,
-            "performance" : 0,
-            "persuasion" : 1,
-            "religion" : 0,
-            "sleightOfHand" : 0,
-            "stealth" : 1,
-            "survival" : 2
-          },
-          "sheet" : {
-            "armorClass" : null,
-            "initiative" : null,
-            "speed" : null,
-            "proficiencyBonus" : null,
-            "passivePerception" : null,
-            "savingThrowProficiencies" : [ ],
-            "hitDice" : "",
-            "temporaryHitPoints" : 0,
-            "deathSaveSuccesses" : 0,
-            "deathSaveFailures" : 0,
-            "inspiration" : false,
-            "spellcastingAbility" : null,
-            "spellSaveDc" : null,
-            "spellAttackBonus" : null,
-            "copper" : 0,
-            "silver" : 0,
-            "electrum" : 0,
-            "gold" : 0,
-            "platinum" : 0,
-            "extraAttacks" : [ ],
-            "proficienciesAndLanguages" : "",
-            "extraFeatures" : "",
-            "notes" : ""
-          },
-          "featureUses" : { }
-        },
-        "position" : {
-          "x" : 9,
-          "y" : 12
-        },
-        "inventory" : [ ],
-        "combat" : {
-          "maxHitPoints" : 52,
-          "currentHitPoints" : 33,
-          "maxMana" : 0,
-          "currentMana" : 0,
-          "gold" : 0,
-          "initiative" : 10,
-          "deathSaveFailures" : 0,
-          "downed" : false,
-          "dead" : false,
-          "xpRewardId" : null,
-          "killXp" : 0,
-          "sharedXp" : 0,
-          "downedByPlayerId" : null,
-          "xpRewardResolved" : false,
-          "conditions" : [ ],
-          "notes" : null,
-          "inInitiative" : true,
-          "walkSpeed" : 30,
-          "climbSpeed" : 0,
-          "swimSpeed" : 0,
-          "speedSeeded" : true,
-          "movementUsed" : 0,
-          "deathSaveSuccesses" : 0,
-          "activeEffects" : [ ],
-          "cooldowns" : {
-            "compelled-duel" : 4,
-            "commanding-point" : 5
-          },
-          "featureUses" : { },
-          "resistances" : [ ],
-          "enduranceFeature" : null,
-          "featureSpeedBonus" : 0,
-          "castingResource" : null,
-          "spellSlots" : [ ],
-          "actingThisRound" : true
-        },
-        "instanceId" : "0ce20b86-6379-4cc8-b86c-aced4b0e41aa",
-        "symbol" : "P"
-      } ]
+      "occupants" : [ ]
     }, {
       "passable" : false,
       "terrain" : "NORMAL",
@@ -37531,7 +37522,7 @@
     "worldMap" : false,
     "musicPlaylistId" : null,
     "initiativePosition" : {
-      "actorId" : "4eef1166-34a5-4038-b770-b3fc6918e8f8",
+      "actorId" : "0ce20b86-6379-4cc8-b86c-aced4b0e41aa",
       "round" : 2
     }
   }, {
