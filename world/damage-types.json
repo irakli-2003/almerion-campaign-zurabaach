@@ -74,6 +74,11 @@
       "id": "bio",
       "name": "Biological",
       "description": "Disease, rot, and infection carried by a creature's attack."
+    },
+    {
+        "id": "emotional",
+        "name": "ემოციური {Emotional}",
+        "description": "ემოციური ზიანი {Emotional Damage}; არ არის ფსიქიკური ზიანი {Psychic Damage}."
     }
   ]
 }

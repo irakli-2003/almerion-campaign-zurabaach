@@ -4758,5 +4758,262 @@
       "wisdom" : 0,
       "charisma" : 0
     }
-  } ]
+  },
+    {
+      "id": "player-durin-ironstitch",
+      "name": "Durin the Ironstitch",
+      "classId": "sorcerer",
+      "raceId": "dwarf",
+      "subclass": "Biohacker",
+      "level": 6,
+      "stats": {
+        "strength": 8,
+        "dexterity": 15,
+        "constitution": 15,
+        "intelligence": 8,
+        "wisdom": 8,
+        "charisma": 15
+      },
+      "maxHitPoints": 38,
+      "currentHitPoints": 38,
+      "maxMana": 10,
+      "currentMana": 10,
+      "castingResource": "MANA",
+      "imagePath": "images/players/player-durin-ironstitch.jpg",
+      "description": "დურინი დაბალი, ფართომხრებიანი ჯუჯაა. გრძელი, მოწითალო-წაბლისფერი თმა ზურგზე ერთ ნაწნავად ჩამოუშვია, იმავე ფერის გრძელი წვერი კი ორ ნაწნავად აქვს შეკრული. სახის მარცხენა მხარეს საშინელი ძველი ჭრილობის ნაწიბური მოუჩანს. ნაწიბურის დიდ ნაწილს რკინის იმპლანტი {Iron Implant} ფარავს: რკინა ლოყასა და ყბაშია შეზრდილი და უკვე სხეულის ნაწილია, არა ნიღაბი. პირველი, რასაც დაჭრილები მასში ამჩნევენ, ხშირად მაინც მისი კეთილი ღიმილია. აცვია სადა თეთრი პერანგი და მძიმე ტყავის ქამარი, რომელზეც მისი სამუშაო იარაღები კიდია.\n\nჯიუტია და კარგი სასმელი უყვარს. კამათში ბოლო სიტყვას იშვიათად თმობს, მაგრამ დაჭრილთან მოთმინება არ ელევა. მშვიდ საღამოს კარგ ალს {Ale} სიამოვნებით სვამს და სანამ სხვას სადღეგრძელოს ეტყვის, მოსმენას ამჯობინებს.",
+      "backstory": "ყოფილი საველე მკურნალი {Field Medic}. ბრძოლის ველზე მშვიდია, სუფრასთან კი ხუმარა. ერთხელ დაჭრილი მტრის ოფიცერი გადაარჩინა. რამდენიმე კვირის შემდეგ იმ ოფიცრის ბრძანებით სამედიცინო ქარავანს თავს დაესხნენ. ქარავანს მისი შეგირდი, მირა, მიჰყვებოდა. მისი ცხედარი არ უპოვიათ.\n\nმირას სპილენძის ღილი {Mira’s Copper Button}. თავდასხმის შემდეგ დურინმა სამედიცინო ქარავნის ნამსხვრევებში შეგირდის სამოსიდან მოწყვეტილი ღილი იპოვა. ზედ სამი მრუდე ხაზი აქვს ამოკაწრული — მირა ასე ნიშნავდა საკუთარ ნივთებს, რომ კარავში სხვისაში არ არეოდა. დურინმა ღილი თეთრი პერანგის შიგნიდან მიაკერა. მირას ცხედარი ვერ იპოვეს; ღილი მხოლოდ იმას ადასტურებს, რომ ის იქ იყო.\n\nქარავნის ძველ სიაში მირას სახელთან თავდასხმის შემდეგ ვიღაცას დაუწერია: „გადაყვანილია“.\n\nდურინი ადამიანის პულსს უკეთ კითხულობს, ვიდრე მის განზრახვას. ზოგჯერ ნერვიულობას ტყუილად აღიქვამს.",
+      "items": [
+        {
+          "itemId": "durin-oathstaff",
+          "condition": {
+            "durability": 100
+          },
+          "quantity": 1,
+          "equipped": true
+        },
+        {
+          "itemId": "durin-darts",
+          "condition": {
+            "durability": 100
+          },
+          "quantity": 20,
+          "equipped": false
+        },
+        {
+          "itemId": "durin-field-pack",
+          "condition": {
+            "durability": 100
+          },
+          "quantity": 1,
+          "equipped": false
+        },
+        {
+          "itemId": "durin-tool-belt",
+          "condition": {
+            "durability": 100
+          },
+          "quantity": 1,
+          "equipped": true
+        },
+        {
+          "itemId": "durin-mira-button",
+          "condition": {
+            "durability": 100
+          },
+          "quantity": 1,
+          "equipped": false
+        },
+        {
+          "itemId": "healers-kit",
+          "condition": {
+            "durability": 100
+          },
+          "quantity": 1,
+          "equipped": false
+        },
+        {
+          "itemId": "simple-clothes",
+          "condition": {
+            "durability": 100
+          },
+          "quantity": 1,
+          "equipped": true
+        }
+      ],
+      "spells": [
+        {
+          "spellId": "biohacker-backdraft",
+          "rank": 1,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-split-allegiance",
+          "rank": 3,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-diarrhea",
+          "rank": 1,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-cataract",
+          "rank": 2,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-reflex-roulette",
+          "rank": 2,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-rogue-bloom",
+          "rank": 3,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-broken-pattern",
+          "rank": 2,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-switched-sides",
+          "rank": 3,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-auto-brewery",
+          "rank": 3,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-lost-waypoint",
+          "rank": 2,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-wrong-scale",
+          "rank": 2,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-absent-self",
+          "rank": 2,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-mutinous-hand",
+          "rank": 3,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-faceless-formation",
+          "rank": 1,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-borrowed-weight",
+          "rank": 3,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-white-flash",
+          "rank": 1,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-sudden-snap",
+          "rank": 2,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-rolling-stone",
+          "rank": 2,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-sugar-crash",
+          "rank": 2,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-cold-snap",
+          "rank": 3,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-missed-beat",
+          "rank": 4,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-surge-step",
+          "rank": 1,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-rescue-reflex",
+          "rank": 2,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-brace-reflex",
+          "rank": 2,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-knit-wound",
+          "rank": 2,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-emergency-rhythm",
+          "rank": 3,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-steady-signal",
+          "rank": 2,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-pulse-read",
+          "rank": 1,
+          "active": true
+        },
+        {
+          "spellId": "biohacker-meditate",
+          "rank": 0,
+          "active": true
+        }
+      ],
+      "skills": {
+        "medicine": 5
+      },
+      "sheet": {
+        "armorClass": 12,
+        "speed": 30,
+        "proficiencyBonus": 3,
+        "spellcastingAbility": "cha",
+        "spellSaveDc": 13,
+        "spellAttackBonus": 5,
+        "savingThrowProficiencies": [
+          "con",
+          "cha"
+        ],
+        "notes": "დურინ რკინისნაკერი {Durin the Ironstitch}\n\n„სიცოცხლეს განზრახ არ წავართმევ. ვინც იარაღს დაყრის, ჩემი პაციენტია — თუნდაც წამით ადრე მტერი ყოფილიყო.“\n\nბრძოლაში საკუთარი სვლის დასაწყისში ხელით აღიდგინე 1 მანა, მიმდინარე მაქსიმუმის გადაჭარბების გარეშე. ხანგრძლივი დასვენების შემდეგ მანა სრულად აღდგება."
+      },
+      "personalFeatures": [
+        {
+          "name": "ბიოჰაკერი {Biohacker} — მანის აღდგენა",
+          "level": 6,
+          "description": "ბრძოლაში საკუთარი სვლის დასაწყისში ხელით აღიდგინე 1 მანა, მიმდინარე მაქსიმუმის გადაჭარბების გარეშე. ხანგრძლივი დასვენების შემდეგ მანა სრულად აღდგება."
+        },
+        {
+          "name": "ექიმის ფიცი {Doctor’s Oath}",
+          "level": 6,
+          "description": "„სიცოცხლეს განზრახ არ წავართმევ. ვინც იარაღს დაყრის, ჩემი პაციენტია — თუნდაც წამით ადრე მტერი ყოფილიყო.“"
+        }
+      ]
+    } ]
 }

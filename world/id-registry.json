@@ -1706,5 +1706,149 @@
   }, {
     "id" : "what",
     "file" : "world/maps.json"
-  } ]
+  },
+    {
+        "id": "player-durin-ironstitch",
+        "file": "players/players.json"
+    },
+    {
+        "id": "biohacker-backdraft",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-split-allegiance",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-diarrhea",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-cataract",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-reflex-roulette",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-rogue-bloom",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-broken-pattern",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-switched-sides",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-auto-brewery",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-lost-waypoint",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-wrong-scale",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-absent-self",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-mutinous-hand",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-faceless-formation",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-borrowed-weight",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-white-flash",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-sudden-snap",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-rolling-stone",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-sugar-crash",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-cold-snap",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-missed-beat",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-surge-step",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-rescue-reflex",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-brace-reflex",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-knit-wound",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-emergency-rhythm",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-steady-signal",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-pulse-read",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "biohacker-meditate",
+        "file": "world/spells.json"
+    },
+    {
+        "id": "durin-oathstaff",
+        "file": "world/items.json"
+    },
+    {
+        "id": "durin-darts",
+        "file": "world/items.json"
+    },
+    {
+        "id": "durin-field-pack",
+        "file": "world/items.json"
+    },
+    {
+        "id": "durin-tool-belt",
+        "file": "world/items.json"
+    },
+    {
+        "id": "durin-mira-button",
+        "file": "world/items.json"
+    },
+    {
+        "id": "emotional",
+        "file": "world/damage-types.json"
+    } ]
 }

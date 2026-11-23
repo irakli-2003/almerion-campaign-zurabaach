@@ -6959,735 +6959,1181 @@
       } ]
     }
   }, {
-    "id" : "sorcerer",
-    "name" : "Sorcerer",
-    "description" : "A caster whose magic is innate rather than learned, bending spells into new shapes on instinct.",
-    "hitDie" : {
-      "id" : "d6",
-      "name" : "d6",
-      "sides" : 6
+    "id": "sorcerer",
+    "name": "Sorcerer",
+    "description": "A caster whose magic is innate rather than learned, bending spells into new shapes on instinct.",
+    "hitDie": {
+      "id": "d6",
+      "name": "d6",
+      "sides": 6
     },
-    "primaryAbilities" : [ "charisma", "constitution" ],
-    "savingThrowBonuses" : {
-      "strength" : 0,
-      "dexterity" : 0,
-      "constitution" : 2,
-      "intelligence" : 0,
-      "wisdom" : 0,
-      "charisma" : 2
+    "primaryAbilities": [
+      "charisma",
+      "constitution"
+    ],
+    "savingThrowBonuses": {
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 2,
+      "intelligence": 0,
+      "wisdom": 0,
+      "charisma": 2
     },
-    "spellcasting" : "FULL",
-    "subclasses" : [ "Draconic Bloodline", "Shadow Magic", "Wild Magic" ],
-    "subclassDescriptions" : {
-      "Draconic Bloodline" : "Your magic comes from a dragon ancestor. You gain extra hit points, natural armour, bonus damage with one element, and later dragon wings and a frightening presence. A tougher sorcerer and great elemental blaster.",
-      "Shadow Magic" : "Your power comes from the Shadowfell. You see in magical darkness, can summon a shadow hound to hunt a target, teleport between shadows and refuse to die once per rest. A dark, mysterious caster.",
-      "Wild Magic" : "Your magic is chaotic. Casting spells can trigger random surges (fireballs, turning blue, teleporting...), and you can control luck with Tides of Chaos. Fun and unpredictable; best for players who enjoy surprises."
+    "spellcasting": "FULL",
+    "subclasses": [
+      "Draconic Bloodline",
+      "Shadow Magic",
+      "Wild Magic",
+      "Biohacker"
+    ],
+    "subclassDescriptions": {
+      "Draconic Bloodline": "Your magic comes from a dragon ancestor. You gain extra hit points, natural armour, bonus damage with one element, and later dragon wings and a frightening presence. A tougher sorcerer and great elemental blaster.",
+      "Shadow Magic": "Your power comes from the Shadowfell. You see in magical darkness, can summon a shadow hound to hunt a target, teleport between shadows and refuse to die once per rest. A dark, mysterious caster.",
+      "Wild Magic": "Your magic is chaotic. Casting spells can trigger random surges (fireballs, turning blue, teleporting...), and you can control luck with Tides of Chaos. Fun and unpredictable; best for players who enjoy surprises.",
+      "Biohacker": "ბიოჰაკერი {Biohacker}: საველე მკურნალობის, სხეულის მაგიისა და სამაშველო გადაადგილების სპეციალისტი."
     },
-    "defaultSpells" : [ "fire-bolt", "light", "mage-hand", "prestidigitation", "magic-missile", "shield-spell" ],
-    "defaultItems" : [ "dagger", "arcane-focus" ],
-    "features" : [ {
-      "level" : 1,
-      "name" : "Draconic Resilience",
-      "description" : "Gain an extra hit point per sorcerer level and natural armor of 13 plus Dexterity.",
-      "subclass" : "Draconic Bloodline",
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 1,
-      "name" : "Dragon Ancestor",
-      "description" : "Choose a dragon type, learn Draconic and gain bonuses when dealing with dragons.",
-      "subclass" : "Draconic Bloodline",
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 1,
-      "name" : "Eyes of the Dark",
-      "description" : "Gain darkvision and later see through your own darkness spells.",
-      "subclass" : "Shadow Magic",
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 1,
-      "name" : "Sorcerous Origin",
-      "description" : "Your innate magic comes from a specific origin that grants features as you level.",
-      "subclass" : null,
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 1,
-      "name" : "Spellcasting",
-      "description" : "Cast sorcerer spells using Charisma, powered by magic in your blood.",
-      "subclass" : null,
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 1,
-      "name" : "Strength of the Grave",
-      "description" : "When reduced to 0 hit points, you may make a Charisma save to drop to 1 instead.",
-      "subclass" : "Shadow Magic",
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 1,
-      "name" : "Tides of Chaos",
-      "description" : "Gain advantage on one roll, with a chance to trigger a surge later.",
-      "subclass" : "Wild Magic",
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 1,
-      "name" : "Wild Magic Surge",
-      "description" : "Casting spells may unleash a random magical effect.",
-      "subclass" : "Wild Magic",
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 2,
-      "name" : "Font of Magic",
-      "description" : "Gain sorcery points that can be converted to and from spell slots.",
-      "subclass" : null,
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 3,
-      "name" : "Metamagic",
-      "description" : "Learn two ways to bend your spells, such as twinning, quickening or extending them.",
-      "subclass" : null,
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 4,
-      "name" : "Ability Score Improvement",
-      "description" : "Raise one ability score by 2 or two scores by 1 (to a maximum of 20), or take a feat instead.",
-      "subclass" : null,
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 6,
-      "name" : "Bend Luck",
-      "description" : "Spend sorcery points to add or subtract 1d4 from another creature's roll.",
-      "subclass" : "Wild Magic",
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 6,
-      "name" : "Elemental Affinity",
-      "description" : "Add Charisma to damage of spells matching your ancestry and spend a point to resist that element.",
-      "subclass" : "Draconic Bloodline",
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 6,
-      "name" : "Hound of Ill Omen",
-      "description" : "Spend sorcery points to summon a shadowy hound that hunts a target and weakens its saves.",
-      "subclass" : "Shadow Magic",
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 8,
-      "name" : "Ability Score Improvement",
-      "description" : "Raise one ability score by 2 or two scores by 1 (to a maximum of 20), or take a feat instead.",
-      "subclass" : null,
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 10,
-      "name" : "Metamagic (additional option)",
-      "description" : "Learn one more Metamagic option.",
-      "subclass" : null,
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 12,
-      "name" : "Ability Score Improvement",
-      "description" : "Raise one ability score by 2 or two scores by 1 (to a maximum of 20), or take a feat instead.",
-      "subclass" : null,
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 14,
-      "name" : "Controlled Chaos",
-      "description" : "Roll twice on the surge table and choose the result.",
-      "subclass" : "Wild Magic",
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 14,
-      "name" : "Dragon Wings",
-      "description" : "Sprout dragon wings as a bonus action to gain a flying speed.",
-      "subclass" : "Draconic Bloodline",
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 14,
-      "name" : "Shadow Walk",
-      "description" : "Teleport between shadows as a bonus action while in dim light or darkness.",
-      "subclass" : "Shadow Magic",
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 16,
-      "name" : "Ability Score Improvement",
-      "description" : "Raise one ability score by 2 or two scores by 1 (to a maximum of 20), or take a feat instead.",
-      "subclass" : null,
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 17,
-      "name" : "Metamagic (final option)",
-      "description" : "Learn another Metamagic option.",
-      "subclass" : null,
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 18,
-      "name" : "Draconic Presence",
-      "description" : "Spend sorcery points to project an aura of awe or fear around you.",
-      "subclass" : "Draconic Bloodline",
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 18,
-      "name" : "Spell Bombardment",
-      "description" : "When you roll maximum on a damage die, roll it again and add the result.",
-      "subclass" : "Wild Magic",
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 18,
-      "name" : "Umbral Form",
-      "description" : "Become a shadowy form that moves through objects and resists most damage.",
-      "subclass" : "Shadow Magic",
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 19,
-      "name" : "Ability Score Improvement",
-      "description" : "Raise one ability score by 2 or two scores by 1 (to a maximum of 20), or take a feat instead.",
-      "subclass" : null,
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    }, {
-      "level" : 20,
-      "name" : "Sorcerous Restoration",
-      "description" : "Regain 4 sorcery points whenever you finish a short rest.",
-      "subclass" : null,
-      "usesPerRest" : 0,
-      "shortRestRecharge" : false
-    } ],
-    "upgradeTree" : {
-      "branches" : [ {
-        "id" : "potency",
-        "name" : "Spellshaper"
-      }, {
-        "id" : "resilience",
-        "name" : "Arcane Resilience"
-      } ],
-      "nodes" : [ {
-        "id" : "potency-1",
-        "branchId" : "potency",
-        "name" : "Font of Magic",
-        "description" : "Gain sorcery points that can be converted to and from spell slots.\nClass training. If already known, this feat is not granted a second time.",
-        "imagePath" : null,
-        "minimumLevel" : 2,
-        "parentId" : "class-foundation",
-        "children" : [ "potency-2", "potency-3" ],
-        "prerequisites" : [ ],
-        "exclusiveWith" : [ ],
-        "existingTraining" : [ "Font of Magic" ],
-        "reward" : {
-          "hitPoints" : 0,
-          "mana" : 0,
-          "abilityId" : null,
-          "abilityIncrease" : 0,
-          "armorClass" : 0,
-          "attackBonus" : 0,
-          "basicAttackDamage" : 0,
-          "rageDamage" : 0,
-          "speed" : 0,
-          "spellIds" : [ "shocking-grasp" ],
-          "spellAlternatives" : [ {
-            "spellId" : "shocking-grasp",
-            "alternativeSpellIds" : [ "minor-illusion", "ray-of-frost", "acid-splash", "chill-touch", "prestidigitation", "fire-bolt", "mage-hand", "light" ]
-          } ],
-          "features" : [ {
-            "level" : 2,
-            "name" : "Font of Magic",
-            "description" : "Gain sorcery points that can be converted to and from spell slots.\nClass training. If already known, this feat is not granted a second time.",
-            "subclass" : null,
-            "usesPerRest" : 0,
-            "shortRestRecharge" : false
-          } ]
+    "defaultSpells": [
+      "fire-bolt",
+      "light",
+      "mage-hand",
+      "prestidigitation",
+      "magic-missile",
+      "shield-spell"
+    ],
+    "defaultItems": [
+      "dagger",
+      "arcane-focus"
+    ],
+    "features": [
+      {
+        "level": 1,
+        "name": "Draconic Resilience",
+        "description": "Gain an extra hit point per sorcerer level and natural armor of 13 plus Dexterity.",
+        "subclass": "Draconic Bloodline",
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 1,
+        "name": "Dragon Ancestor",
+        "description": "Choose a dragon type, learn Draconic and gain bonuses when dealing with dragons.",
+        "subclass": "Draconic Bloodline",
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 1,
+        "name": "Eyes of the Dark",
+        "description": "Gain darkvision and later see through your own darkness spells.",
+        "subclass": "Shadow Magic",
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 1,
+        "name": "Sorcerous Origin",
+        "description": "Your innate magic comes from a specific origin that grants features as you level.",
+        "subclass": null,
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 1,
+        "name": "Spellcasting",
+        "description": "Cast sorcerer spells using Charisma, powered by magic in your blood.",
+        "subclass": null,
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 1,
+        "name": "Strength of the Grave",
+        "description": "When reduced to 0 hit points, you may make a Charisma save to drop to 1 instead.",
+        "subclass": "Shadow Magic",
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 1,
+        "name": "Tides of Chaos",
+        "description": "Gain advantage on one roll, with a chance to trigger a surge later.",
+        "subclass": "Wild Magic",
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 1,
+        "name": "Wild Magic Surge",
+        "description": "Casting spells may unleash a random magical effect.",
+        "subclass": "Wild Magic",
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 2,
+        "name": "Font of Magic",
+        "description": "Gain sorcery points that can be converted to and from spell slots.",
+        "subclass": null,
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 3,
+        "name": "Metamagic",
+        "description": "Learn two ways to bend your spells, such as twinning, quickening or extending them.",
+        "subclass": null,
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 4,
+        "name": "Ability Score Improvement",
+        "description": "Raise one ability score by 2 or two scores by 1 (to a maximum of 20), or take a feat instead.",
+        "subclass": null,
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 6,
+        "name": "Bend Luck",
+        "description": "Spend sorcery points to add or subtract 1d4 from another creature's roll.",
+        "subclass": "Wild Magic",
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 6,
+        "name": "Elemental Affinity",
+        "description": "Add Charisma to damage of spells matching your ancestry and spend a point to resist that element.",
+        "subclass": "Draconic Bloodline",
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 6,
+        "name": "Hound of Ill Omen",
+        "description": "Spend sorcery points to summon a shadowy hound that hunts a target and weakens its saves.",
+        "subclass": "Shadow Magic",
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 8,
+        "name": "Ability Score Improvement",
+        "description": "Raise one ability score by 2 or two scores by 1 (to a maximum of 20), or take a feat instead.",
+        "subclass": null,
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 10,
+        "name": "Metamagic (additional option)",
+        "description": "Learn one more Metamagic option.",
+        "subclass": null,
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 12,
+        "name": "Ability Score Improvement",
+        "description": "Raise one ability score by 2 or two scores by 1 (to a maximum of 20), or take a feat instead.",
+        "subclass": null,
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 14,
+        "name": "Controlled Chaos",
+        "description": "Roll twice on the surge table and choose the result.",
+        "subclass": "Wild Magic",
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 14,
+        "name": "Dragon Wings",
+        "description": "Sprout dragon wings as a bonus action to gain a flying speed.",
+        "subclass": "Draconic Bloodline",
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 14,
+        "name": "Shadow Walk",
+        "description": "Teleport between shadows as a bonus action while in dim light or darkness.",
+        "subclass": "Shadow Magic",
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 16,
+        "name": "Ability Score Improvement",
+        "description": "Raise one ability score by 2 or two scores by 1 (to a maximum of 20), or take a feat instead.",
+        "subclass": null,
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 17,
+        "name": "Metamagic (final option)",
+        "description": "Learn another Metamagic option.",
+        "subclass": null,
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 18,
+        "name": "Draconic Presence",
+        "description": "Spend sorcery points to project an aura of awe or fear around you.",
+        "subclass": "Draconic Bloodline",
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 18,
+        "name": "Spell Bombardment",
+        "description": "When you roll maximum on a damage die, roll it again and add the result.",
+        "subclass": "Wild Magic",
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 18,
+        "name": "Umbral Form",
+        "description": "Become a shadowy form that moves through objects and resists most damage.",
+        "subclass": "Shadow Magic",
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 19,
+        "name": "Ability Score Improvement",
+        "description": "Raise one ability score by 2 or two scores by 1 (to a maximum of 20), or take a feat instead.",
+        "subclass": null,
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      },
+      {
+        "level": 20,
+        "name": "Sorcerous Restoration",
+        "description": "Regain 4 sorcery points whenever you finish a short rest.",
+        "subclass": null,
+        "usesPerRest": 0,
+        "shortRestRecharge": false
+      }
+    ],
+    "upgradeTree": {
+      "branches": [
+        {
+          "id": "potency",
+          "name": "Spellshaper"
+        },
+        {
+          "id": "resilience",
+          "name": "Arcane Resilience"
+        },
+        {
+          "id": "biohacker-clinical",
+          "name": "ბიოჰაკერი — საველე მედიცინა {Clinical Care}"
+        },
+        {
+          "id": "biohacker-precision",
+          "name": "ბიოჰაკერი — სხეულის მაგია {Somatic Precision}"
+        },
+        {
+          "id": "biohacker-rescue",
+          "name": "ბიოჰაკერი — სამაშველო ტაქტიკა {Rescue Tactics}"
         }
-      }, {
-        "id" : "potency-2",
-        "branchId" : "potency",
-        "name" : "Spellshaper: Precision",
-        "description" : "Once per short rest, create a harmless palm-sized magical signal visible to an ally within 60 ft for one minute. It cannot blind, damage or imitate a spell. The GM resolves this feat; the app tracks its rest use.",
-        "imagePath" : null,
-        "minimumLevel" : 3,
-        "parentId" : "potency-1",
-        "children" : [ "potency-4", "potency-5" ],
-        "prerequisites" : [ ],
-        "exclusiveWith" : [ ],
-        "existingTraining" : [ ],
-        "reward" : {
-          "hitPoints" : 0,
-          "mana" : 0,
-          "abilityId" : null,
-          "abilityIncrease" : 0,
-          "armorClass" : 0,
-          "attackBonus" : 1,
-          "basicAttackDamage" : 0,
-          "rageDamage" : 0,
-          "speed" : 0,
-          "spellIds" : [ "burning-hands" ],
-          "spellAlternatives" : [ {
-            "spellId" : "burning-hands",
-            "alternativeSpellIds" : [ "charm-person", "sleep", "thunderwave", "magic-missile", "shield-spell", "mage-armor", "detect-magic" ]
-          } ],
-          "features" : [ {
-            "level" : 3,
-            "name" : "Spellshaper: Precision",
-            "description" : "Once per short rest, create a harmless palm-sized magical signal visible to an ally within 60 ft for one minute. It cannot blind, damage or imitate a spell. The GM resolves this feat; the app tracks its rest use.",
-            "subclass" : null,
-            "usesPerRest" : 1,
-            "shortRestRecharge" : true
-          } ]
+      ],
+      "nodes": [
+        {
+          "id": "potency-1",
+          "branchId": "potency",
+          "name": "Font of Magic",
+          "description": "Gain sorcery points that can be converted to and from spell slots.\nClass training. If already known, this feat is not granted a second time.",
+          "imagePath": null,
+          "minimumLevel": 2,
+          "parentId": "class-foundation",
+          "children": [
+            "potency-2",
+            "potency-3"
+          ],
+          "prerequisites": [],
+          "exclusiveWith": [],
+          "existingTraining": [
+            "Font of Magic"
+          ],
+          "reward": {
+            "hitPoints": 0,
+            "mana": 0,
+            "abilityId": null,
+            "abilityIncrease": 0,
+            "armorClass": 0,
+            "attackBonus": 0,
+            "basicAttackDamage": 0,
+            "rageDamage": 0,
+            "speed": 0,
+            "spellIds": [
+              "shocking-grasp"
+            ],
+            "spellAlternatives": [
+              {
+                "spellId": "shocking-grasp",
+                "alternativeSpellIds": [
+                  "minor-illusion",
+                  "ray-of-frost",
+                  "acid-splash",
+                  "chill-touch",
+                  "prestidigitation",
+                  "fire-bolt",
+                  "mage-hand",
+                  "light"
+                ]
+              }
+            ],
+            "features": [
+              {
+                "level": 2,
+                "name": "Font of Magic",
+                "description": "Gain sorcery points that can be converted to and from spell slots.\nClass training. If already known, this feat is not granted a second time.",
+                "subclass": null,
+                "usesPerRest": 0,
+                "shortRestRecharge": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "potency-2",
+          "branchId": "potency",
+          "name": "Spellshaper: Precision",
+          "description": "Once per short rest, create a harmless palm-sized magical signal visible to an ally within 60 ft for one minute. It cannot blind, damage or imitate a spell. The GM resolves this feat; the app tracks its rest use.",
+          "imagePath": null,
+          "minimumLevel": 3,
+          "parentId": "potency-1",
+          "children": [
+            "potency-4",
+            "potency-5"
+          ],
+          "prerequisites": [],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "hitPoints": 0,
+            "mana": 0,
+            "abilityId": null,
+            "abilityIncrease": 0,
+            "armorClass": 0,
+            "attackBonus": 1,
+            "basicAttackDamage": 0,
+            "rageDamage": 0,
+            "speed": 0,
+            "spellIds": [
+              "burning-hands"
+            ],
+            "spellAlternatives": [
+              {
+                "spellId": "burning-hands",
+                "alternativeSpellIds": [
+                  "charm-person",
+                  "sleep",
+                  "thunderwave",
+                  "magic-missile",
+                  "shield-spell",
+                  "mage-armor",
+                  "detect-magic"
+                ]
+              }
+            ],
+            "features": [
+              {
+                "level": 3,
+                "name": "Spellshaper: Precision",
+                "description": "Once per short rest, create a harmless palm-sized magical signal visible to an ally within 60 ft for one minute. It cannot blind, damage or imitate a spell. The GM resolves this feat; the app tracks its rest use.",
+                "subclass": null,
+                "usesPerRest": 1,
+                "shortRestRecharge": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "potency-3",
+          "branchId": "potency",
+          "name": "Spellshaper: Momentum",
+          "description": "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
+          "imagePath": null,
+          "minimumLevel": 3,
+          "parentId": "potency-1",
+          "children": [
+            "potency-6",
+            "potency-7"
+          ],
+          "prerequisites": [],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "hitPoints": 0,
+            "mana": 0,
+            "abilityId": null,
+            "abilityIncrease": 0,
+            "armorClass": 0,
+            "attackBonus": 1,
+            "basicAttackDamage": 0,
+            "rageDamage": 0,
+            "speed": 0,
+            "spellIds": [
+              "sleep"
+            ],
+            "spellAlternatives": [
+              {
+                "spellId": "sleep",
+                "alternativeSpellIds": [
+                  "burning-hands",
+                  "charm-person",
+                  "thunderwave",
+                  "magic-missile",
+                  "shield-spell",
+                  "mage-armor",
+                  "detect-magic"
+                ]
+              }
+            ],
+            "features": [
+              {
+                "level": 3,
+                "name": "Spellshaper: Momentum",
+                "description": "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
+                "subclass": null,
+                "usesPerRest": 1,
+                "shortRestRecharge": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "potency-4",
+          "branchId": "potency",
+          "name": "Spellshaper: Masterstroke",
+          "description": "Once per long rest, after missing an attack, reveal one observed weakness to an ally who can hear you. Their next attack against that target before your next turn gains +2 to hit. No stacking. The GM resolves this feat; the app tracks its rest use.",
+          "imagePath": null,
+          "minimumLevel": 4,
+          "parentId": "potency-2",
+          "children": [],
+          "prerequisites": [
+            "resilience-2"
+          ],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "hitPoints": 0,
+            "mana": 0,
+            "abilityId": null,
+            "abilityIncrease": 0,
+            "armorClass": 0,
+            "attackBonus": 0,
+            "basicAttackDamage": 0,
+            "rageDamage": 0,
+            "speed": 5,
+            "spellIds": [
+              "scorching-ray"
+            ],
+            "spellAlternatives": [
+              {
+                "spellId": "scorching-ray",
+                "alternativeSpellIds": [
+                  "web",
+                  "misty-step",
+                  "blur",
+                  "invisibility",
+                  "hold-person",
+                  "darkness"
+                ]
+              }
+            ],
+            "features": [
+              {
+                "level": 4,
+                "name": "Spellshaper: Masterstroke",
+                "description": "Once per long rest, after missing an attack, reveal one observed weakness to an ally who can hear you. Their next attack against that target before your next turn gains +2 to hit. No stacking. The GM resolves this feat; the app tracks its rest use.",
+                "subclass": null,
+                "usesPerRest": 1,
+                "shortRestRecharge": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "potency-5",
+          "branchId": "potency",
+          "name": "Spellshaper: Breakthrough",
+          "description": "Once per short rest, replace one attack with a contested Athletics check against a creature within reach, at most one size larger. On success push it 5 ft to clear supported ground, never off a ledge. No damage. The GM resolves this feat; the app tracks its rest use.",
+          "imagePath": null,
+          "minimumLevel": 4,
+          "parentId": "potency-2",
+          "children": [],
+          "prerequisites": [],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "hitPoints": 0,
+            "mana": 0,
+            "abilityId": null,
+            "abilityIncrease": 0,
+            "armorClass": 0,
+            "attackBonus": 0,
+            "basicAttackDamage": 0,
+            "rageDamage": 0,
+            "speed": 5,
+            "spellIds": [
+              "misty-step"
+            ],
+            "spellAlternatives": [
+              {
+                "spellId": "misty-step",
+                "alternativeSpellIds": [
+                  "scorching-ray",
+                  "web",
+                  "blur",
+                  "invisibility",
+                  "hold-person",
+                  "darkness"
+                ]
+              }
+            ],
+            "features": [
+              {
+                "level": 4,
+                "name": "Spellshaper: Breakthrough",
+                "description": "Once per short rest, replace one attack with a contested Athletics check against a creature within reach, at most one size larger. On success push it 5 ft to clear supported ground, never off a ledge. No damage. The GM resolves this feat; the app tracks its rest use.",
+                "subclass": null,
+                "usesPerRest": 1,
+                "shortRestRecharge": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "potency-6",
+          "branchId": "potency",
+          "name": "Spellshaper: Counterplay",
+          "description": "Once per short rest, use your reaction when a visible enemy begins casting within 60 ft to identify its visible target or area with an Arcana check set by the GM. This does not interrupt the spell. The GM resolves this feat; the app tracks its rest use.",
+          "imagePath": null,
+          "minimumLevel": 4,
+          "parentId": "potency-3",
+          "children": [],
+          "prerequisites": [],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "hitPoints": 0,
+            "mana": 0,
+            "abilityId": null,
+            "abilityIncrease": 0,
+            "armorClass": 0,
+            "attackBonus": 0,
+            "basicAttackDamage": 0,
+            "rageDamage": 0,
+            "speed": 5,
+            "spellIds": [
+              "invisibility"
+            ],
+            "spellAlternatives": [
+              {
+                "spellId": "invisibility",
+                "alternativeSpellIds": [
+                  "scorching-ray",
+                  "web",
+                  "misty-step",
+                  "blur",
+                  "hold-person",
+                  "darkness"
+                ]
+              }
+            ],
+            "features": [
+              {
+                "level": 4,
+                "name": "Spellshaper: Counterplay",
+                "description": "Once per short rest, use your reaction when a visible enemy begins casting within 60 ft to identify its visible target or area with an Arcana check set by the GM. This does not interrupt the spell. The GM resolves this feat; the app tracks its rest use.",
+                "subclass": null,
+                "usesPerRest": 1,
+                "shortRestRecharge": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "potency-7",
+          "branchId": "potency",
+          "name": "Spellshaper: Crescendo",
+          "description": "Once per long rest, spend your action directing two allies who can hear you within 30 ft. Each may use their reaction to move 10 ft to clear ground without provoking. No attacks or extra actions. The GM resolves this feat; the app tracks its rest use.",
+          "imagePath": null,
+          "minimumLevel": 4,
+          "parentId": "potency-3",
+          "children": [],
+          "prerequisites": [
+            "resilience-3"
+          ],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "hitPoints": 0,
+            "mana": 0,
+            "abilityId": null,
+            "abilityIncrease": 0,
+            "armorClass": 0,
+            "attackBonus": 0,
+            "basicAttackDamage": 0,
+            "rageDamage": 0,
+            "speed": 5,
+            "spellIds": [
+              "darkness"
+            ],
+            "spellAlternatives": [
+              {
+                "spellId": "darkness",
+                "alternativeSpellIds": [
+                  "scorching-ray",
+                  "web",
+                  "misty-step",
+                  "blur",
+                  "invisibility",
+                  "hold-person"
+                ]
+              }
+            ],
+            "features": [
+              {
+                "level": 4,
+                "name": "Spellshaper: Crescendo",
+                "description": "Once per long rest, spend your action directing two allies who can hear you within 30 ft. Each may use their reaction to move 10 ft to clear ground without provoking. No attacks or extra actions. The GM resolves this feat; the app tracks its rest use.",
+                "subclass": null,
+                "usesPerRest": 1,
+                "shortRestRecharge": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "resilience-1",
+          "branchId": "resilience",
+          "name": "Metamagic",
+          "description": "Learn two ways to bend your spells, such as twinning, quickening or extending them.\nClass training. If already known, this feat is not granted a second time.",
+          "imagePath": null,
+          "minimumLevel": 2,
+          "parentId": "class-foundation",
+          "children": [
+            "resilience-2",
+            "resilience-3"
+          ],
+          "prerequisites": [],
+          "exclusiveWith": [],
+          "existingTraining": [
+            "Metamagic"
+          ],
+          "reward": {
+            "hitPoints": 3,
+            "mana": 0,
+            "abilityId": null,
+            "abilityIncrease": 0,
+            "armorClass": 0,
+            "attackBonus": 0,
+            "basicAttackDamage": 0,
+            "rageDamage": 0,
+            "speed": 0,
+            "spellIds": [
+              "minor-illusion"
+            ],
+            "spellAlternatives": [
+              {
+                "spellId": "minor-illusion",
+                "alternativeSpellIds": [
+                  "shocking-grasp",
+                  "ray-of-frost",
+                  "acid-splash",
+                  "chill-touch",
+                  "prestidigitation",
+                  "fire-bolt",
+                  "mage-hand",
+                  "light"
+                ]
+              }
+            ],
+            "features": [
+              {
+                "level": 2,
+                "name": "Metamagic",
+                "description": "Learn two ways to bend your spells, such as twinning, quickening or extending them.\nClass training. If already known, this feat is not granted a second time.",
+                "subclass": null,
+                "usesPerRest": 0,
+                "shortRestRecharge": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "resilience-2",
+          "branchId": "resilience",
+          "name": "Arcane Resilience: Shelter",
+          "description": "Once per short rest, use your reaction before a visible attack roll against an adjacent ally to grant +2 AC against that attack only. You must be conscious. Does not stack with other guardian training. The GM resolves this feat; the app tracks its rest use.",
+          "imagePath": null,
+          "minimumLevel": 3,
+          "parentId": "resilience-1",
+          "children": [
+            "resilience-4",
+            "resilience-5"
+          ],
+          "prerequisites": [],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "hitPoints": 0,
+            "mana": 0,
+            "abilityId": null,
+            "abilityIncrease": 0,
+            "armorClass": 1,
+            "attackBonus": 0,
+            "basicAttackDamage": 0,
+            "rageDamage": 0,
+            "speed": 0,
+            "spellIds": [
+              "charm-person"
+            ],
+            "spellAlternatives": [
+              {
+                "spellId": "charm-person",
+                "alternativeSpellIds": [
+                  "burning-hands",
+                  "sleep",
+                  "thunderwave",
+                  "magic-missile",
+                  "shield-spell",
+                  "mage-armor",
+                  "detect-magic"
+                ]
+              }
+            ],
+            "features": [
+              {
+                "level": 3,
+                "name": "Arcane Resilience: Shelter",
+                "description": "Once per short rest, use your reaction before a visible attack roll against an adjacent ally to grant +2 AC against that attack only. You must be conscious. Does not stack with other guardian training. The GM resolves this feat; the app tracks its rest use.",
+                "subclass": null,
+                "usesPerRest": 1,
+                "shortRestRecharge": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "resilience-3",
+          "branchId": "resilience",
+          "name": "Arcane Resilience: Footwork",
+          "description": "Once per short rest, spend a bonus action to ignore nonmagical difficult terrain for your next 10 ft of movement this turn. Does not add movement or permit unsafe ground. The GM resolves this feat; the app tracks its rest use.",
+          "imagePath": null,
+          "minimumLevel": 3,
+          "parentId": "resilience-1",
+          "children": [
+            "resilience-6",
+            "resilience-7"
+          ],
+          "prerequisites": [],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "hitPoints": 0,
+            "mana": 0,
+            "abilityId": null,
+            "abilityIncrease": 0,
+            "armorClass": 1,
+            "attackBonus": 0,
+            "basicAttackDamage": 0,
+            "rageDamage": 0,
+            "speed": 0,
+            "spellIds": [
+              "thunderwave"
+            ],
+            "spellAlternatives": [
+              {
+                "spellId": "thunderwave",
+                "alternativeSpellIds": [
+                  "burning-hands",
+                  "charm-person",
+                  "sleep",
+                  "magic-missile",
+                  "shield-spell",
+                  "mage-armor",
+                  "detect-magic"
+                ]
+              }
+            ],
+            "features": [
+              {
+                "level": 3,
+                "name": "Arcane Resilience: Footwork",
+                "description": "Once per short rest, spend a bonus action to ignore nonmagical difficult terrain for your next 10 ft of movement this turn. Does not add movement or permit unsafe ground. The GM resolves this feat; the app tracks its rest use.",
+                "subclass": null,
+                "usesPerRest": 1,
+                "shortRestRecharge": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "resilience-4",
+          "branchId": "resilience",
+          "name": "Arcane Resilience: Sanctuary",
+          "description": "Once per long rest, spend an action and touch a conscious ally. For one minute they have advantage on their next save against fear. Does not remove existing fear or grant immunity. The GM resolves this feat; the app tracks its rest use.",
+          "imagePath": null,
+          "minimumLevel": 4,
+          "parentId": "resilience-2",
+          "children": [],
+          "prerequisites": [
+            "potency-2"
+          ],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "hitPoints": 0,
+            "mana": 0,
+            "abilityId": null,
+            "abilityIncrease": 0,
+            "armorClass": 0,
+            "attackBonus": 0,
+            "basicAttackDamage": 0,
+            "rageDamage": 0,
+            "speed": 5,
+            "spellIds": [
+              "web"
+            ],
+            "spellAlternatives": [
+              {
+                "spellId": "web",
+                "alternativeSpellIds": [
+                  "scorching-ray",
+                  "misty-step",
+                  "blur",
+                  "invisibility",
+                  "hold-person",
+                  "darkness"
+                ]
+              }
+            ],
+            "features": [
+              {
+                "level": 4,
+                "name": "Arcane Resilience: Sanctuary",
+                "description": "Once per long rest, spend an action and touch a conscious ally. For one minute they have advantage on their next save against fear. Does not remove existing fear or grant immunity. The GM resolves this feat; the app tracks its rest use.",
+                "subclass": null,
+                "usesPerRest": 1,
+                "shortRestRecharge": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "resilience-5",
+          "branchId": "resilience",
+          "name": "Arcane Resilience: Last Stand",
+          "description": "Once per long rest, use your reaction when you fail a save against being knocked prone to reroll it. You must keep the new result. The GM resolves this feat; the app tracks its rest use.",
+          "imagePath": null,
+          "minimumLevel": 4,
+          "parentId": "resilience-2",
+          "children": [],
+          "prerequisites": [],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "hitPoints": 0,
+            "mana": 0,
+            "abilityId": null,
+            "abilityIncrease": 0,
+            "armorClass": 0,
+            "attackBonus": 0,
+            "basicAttackDamage": 0,
+            "rageDamage": 0,
+            "speed": 5,
+            "spellIds": [
+              "blur"
+            ],
+            "spellAlternatives": [
+              {
+                "spellId": "blur",
+                "alternativeSpellIds": [
+                  "scorching-ray",
+                  "web",
+                  "misty-step",
+                  "invisibility",
+                  "hold-person",
+                  "darkness"
+                ]
+              }
+            ],
+            "features": [
+              {
+                "level": 4,
+                "name": "Arcane Resilience: Last Stand",
+                "description": "Once per long rest, use your reaction when you fail a save against being knocked prone to reroll it. You must keep the new result. The GM resolves this feat; the app tracks its rest use.",
+                "subclass": null,
+                "usesPerRest": 1,
+                "shortRestRecharge": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "resilience-6",
+          "branchId": "resilience",
+          "name": "Arcane Resilience: Safe Passage",
+          "description": "Once per short rest, spend an action helping an adjacent ally cross an obstacle. They have advantage on their next Athletics or Acrobatics check to cross it before your next turn. No extra movement. The GM resolves this feat; the app tracks its rest use.",
+          "imagePath": null,
+          "minimumLevel": 4,
+          "parentId": "resilience-3",
+          "children": [],
+          "prerequisites": [],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "hitPoints": 0,
+            "mana": 0,
+            "abilityId": null,
+            "abilityIncrease": 0,
+            "armorClass": 0,
+            "attackBonus": 0,
+            "basicAttackDamage": 0,
+            "rageDamage": 0,
+            "speed": 5,
+            "spellIds": [
+              "hold-person"
+            ],
+            "spellAlternatives": [
+              {
+                "spellId": "hold-person",
+                "alternativeSpellIds": [
+                  "scorching-ray",
+                  "web",
+                  "misty-step",
+                  "blur",
+                  "invisibility",
+                  "darkness"
+                ]
+              }
+            ],
+            "features": [
+              {
+                "level": 4,
+                "name": "Arcane Resilience: Safe Passage",
+                "description": "Once per short rest, spend an action helping an adjacent ally cross an obstacle. They have advantage on their next Athletics or Acrobatics check to cross it before your next turn. No extra movement. The GM resolves this feat; the app tracks its rest use.",
+                "subclass": null,
+                "usesPerRest": 1,
+                "shortRestRecharge": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "resilience-7",
+          "branchId": "resilience",
+          "name": "Arcane Resilience: Rally",
+          "description": "Once per long rest, spend your action rallying a conscious ally within 30 ft who can hear you. They may immediately repeat one save against fear, using their reaction. No healing or extra actions. The GM resolves this feat; the app tracks its rest use.",
+          "imagePath": null,
+          "minimumLevel": 4,
+          "parentId": "resilience-3",
+          "children": [],
+          "prerequisites": [
+            "potency-3"
+          ],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "hitPoints": 0,
+            "mana": 0,
+            "abilityId": null,
+            "abilityIncrease": 0,
+            "armorClass": 0,
+            "attackBonus": 0,
+            "basicAttackDamage": 0,
+            "rageDamage": 0,
+            "speed": 5,
+            "spellIds": [
+              "scorching-ray"
+            ],
+            "spellAlternatives": [
+              {
+                "spellId": "scorching-ray",
+                "alternativeSpellIds": [
+                  "web",
+                  "misty-step",
+                  "blur",
+                  "invisibility",
+                  "hold-person",
+                  "darkness"
+                ]
+              }
+            ],
+            "features": [
+              {
+                "level": 4,
+                "name": "Arcane Resilience: Rally",
+                "description": "Once per long rest, spend your action rallying a conscious ally within 30 ft who can hear you. They may immediately repeat one save against fear, using their reaction. No healing or extra actions. The GM resolves this feat; the app tracks its rest use.",
+                "subclass": null,
+                "usesPerRest": 1,
+                "shortRestRecharge": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "biohacker-clinical-triage",
+          "branchId": "biohacker-clinical",
+          "name": "ტრიაჟი {Triage}",
+          "description": "მკურნალის საველე გამძლეობა.\nეს განშტოება ბიოჰაკერისთვისაა {Biohacker}.",
+          "minimumLevel": 2,
+          "parentId": "class-foundation",
+          "children": [
+            "biohacker-clinical-reserve",
+            "biohacker-clinical-vitality"
+          ],
+          "prerequisites": [],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "hitPoints": 3
+          }
+        },
+        {
+          "id": "biohacker-clinical-reserve",
+          "branchId": "biohacker-clinical",
+          "name": "სამკურნალო მარაგი {Care Reserve}",
+          "description": "გაზარდე მანის მარაგი სამკურნალო შელოცვებისთვის.\nეს განშტოება ბიოჰაკერისთვისაა {Biohacker}.",
+          "minimumLevel": 3,
+          "parentId": "biohacker-clinical-triage",
+          "children": [],
+          "prerequisites": [],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "mana": 1
+          }
+        },
+        {
+          "id": "biohacker-clinical-vitality",
+          "branchId": "biohacker-clinical",
+          "name": "მტკიცე პულსი {Steady Pulse}",
+          "description": "დამატებითი გამძლეობა ხანგრძლივი ბრძოლებისთვის.\nეს განშტოება ბიოჰაკერისთვისაა {Biohacker}.",
+          "minimumLevel": 3,
+          "parentId": "biohacker-clinical-triage",
+          "children": [],
+          "prerequisites": [],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "hitPoints": 4
+          }
+        },
+        {
+          "id": "biohacker-precision-focus",
+          "branchId": "biohacker-precision",
+          "name": "ზუსტი ფოკუსი {Clinical Focus}",
+          "description": "გაზარდე მანის მარაგი სხეულის მაგიისთვის.\nეს განშტოება ბიოჰაკერისთვისაა {Biohacker}.",
+          "minimumLevel": 2,
+          "parentId": "class-foundation",
+          "children": [
+            "biohacker-precision-aim",
+            "biohacker-precision-discipline"
+          ],
+          "prerequisites": [],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "mana": 1
+          }
+        },
+        {
+          "id": "biohacker-precision-aim",
+          "branchId": "biohacker-precision",
+          "name": "ზუსტი ზემოქმედება {Precise Aim}",
+          "description": "მიიღე +1 იარაღით შეტევის გაგორებაზე {Weapon Attack Roll}.\nეს განშტოება ბიოჰაკერისთვისაა {Biohacker}.",
+          "minimumLevel": 3,
+          "parentId": "biohacker-precision-focus",
+          "children": [],
+          "prerequisites": [],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "attackBonus": 1
+          }
+        },
+        {
+          "id": "biohacker-precision-discipline",
+          "branchId": "biohacker-precision",
+          "name": "ორმაგი დისციპლინა {Dual Discipline}",
+          "description": "სხეულის მაგიისა და საველე მედიცინის ერთობლივი წვრთნა.\nეს განშტოება ბიოჰაკერისთვისაა {Biohacker}.",
+          "minimumLevel": 3,
+          "parentId": "biohacker-precision-focus",
+          "children": [],
+          "prerequisites": [
+            "biohacker-clinical-triage"
+          ],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "mana": 1,
+            "hitPoints": 2
+          }
+        },
+        {
+          "id": "biohacker-rescue-footwork",
+          "branchId": "biohacker-rescue",
+          "name": "საველე ნაბიჯი {Field Footwork}",
+          "description": "ბრძოლის ველზე სწრაფად გადაადგილების წვრთნა.\nეს განშტოება ბიოჰაკერისთვისაა {Biohacker}.",
+          "minimumLevel": 2,
+          "parentId": "class-foundation",
+          "children": [
+            "biohacker-rescue-guard",
+            "biohacker-rescue-stamina"
+          ],
+          "prerequisites": [],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "speed": 5
+          }
+        },
+        {
+          "id": "biohacker-rescue-guard",
+          "branchId": "biohacker-rescue",
+          "name": "მკურნალის დაცვა {Medic’s Guard}",
+          "description": "მოძრაობისას დაუცველი ადგილების უკეთ დაფარვა.\nეს განშტოება ბიოჰაკერისთვისაა {Biohacker}.",
+          "minimumLevel": 3,
+          "parentId": "biohacker-rescue-footwork",
+          "children": [],
+          "prerequisites": [],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "armorClass": 1
+          }
+        },
+        {
+          "id": "biohacker-rescue-stamina",
+          "branchId": "biohacker-rescue",
+          "name": "ევაკუაციის გამძლეობა {Evacuation Stamina}",
+          "description": "სამაშველო და სამედიცინო წვრთნა ზრდის გამძლეობას.\nეს განშტოება ბიოჰაკერისთვისაა {Biohacker}.",
+          "minimumLevel": 3,
+          "parentId": "biohacker-rescue-footwork",
+          "children": [],
+          "prerequisites": [
+            "biohacker-clinical-triage"
+          ],
+          "exclusiveWith": [],
+          "existingTraining": [],
+          "reward": {
+            "hitPoints": 3
+          }
         }
-      }, {
-        "id" : "potency-3",
-        "branchId" : "potency",
-        "name" : "Spellshaper: Momentum",
-        "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
-        "imagePath" : null,
-        "minimumLevel" : 3,
-        "parentId" : "potency-1",
-        "children" : [ "potency-6", "potency-7" ],
-        "prerequisites" : [ ],
-        "exclusiveWith" : [ ],
-        "existingTraining" : [ ],
-        "reward" : {
-          "hitPoints" : 0,
-          "mana" : 0,
-          "abilityId" : null,
-          "abilityIncrease" : 0,
-          "armorClass" : 0,
-          "attackBonus" : 1,
-          "basicAttackDamage" : 0,
-          "rageDamage" : 0,
-          "speed" : 0,
-          "spellIds" : [ "sleep" ],
-          "spellAlternatives" : [ {
-            "spellId" : "sleep",
-            "alternativeSpellIds" : [ "burning-hands", "charm-person", "thunderwave", "magic-missile", "shield-spell", "mage-armor", "detect-magic" ]
-          } ],
-          "features" : [ {
-            "level" : 3,
-            "name" : "Spellshaper: Momentum",
-            "description" : "Once per short rest, after helping an ally succeed on a check, let that ally move 5 ft to clear supported ground without provoking from the creature you distracted. Uses your reaction. The GM resolves this feat; the app tracks its rest use.",
-            "subclass" : null,
-            "usesPerRest" : 1,
-            "shortRestRecharge" : true
-          } ]
-        }
-      }, {
-        "id" : "potency-4",
-        "branchId" : "potency",
-        "name" : "Spellshaper: Masterstroke",
-        "description" : "Once per long rest, after missing an attack, reveal one observed weakness to an ally who can hear you. Their next attack against that target before your next turn gains +2 to hit. No stacking. The GM resolves this feat; the app tracks its rest use.",
-        "imagePath" : null,
-        "minimumLevel" : 4,
-        "parentId" : "potency-2",
-        "children" : [ ],
-        "prerequisites" : [ "resilience-2" ],
-        "exclusiveWith" : [ ],
-        "existingTraining" : [ ],
-        "reward" : {
-          "hitPoints" : 0,
-          "mana" : 0,
-          "abilityId" : null,
-          "abilityIncrease" : 0,
-          "armorClass" : 0,
-          "attackBonus" : 0,
-          "basicAttackDamage" : 0,
-          "rageDamage" : 0,
-          "speed" : 5,
-          "spellIds" : [ "scorching-ray" ],
-          "spellAlternatives" : [ {
-            "spellId" : "scorching-ray",
-            "alternativeSpellIds" : [ "web", "misty-step", "blur", "invisibility", "hold-person", "darkness" ]
-          } ],
-          "features" : [ {
-            "level" : 4,
-            "name" : "Spellshaper: Masterstroke",
-            "description" : "Once per long rest, after missing an attack, reveal one observed weakness to an ally who can hear you. Their next attack against that target before your next turn gains +2 to hit. No stacking. The GM resolves this feat; the app tracks its rest use.",
-            "subclass" : null,
-            "usesPerRest" : 1,
-            "shortRestRecharge" : false
-          } ]
-        }
-      }, {
-        "id" : "potency-5",
-        "branchId" : "potency",
-        "name" : "Spellshaper: Breakthrough",
-        "description" : "Once per short rest, replace one attack with a contested Athletics check against a creature within reach, at most one size larger. On success push it 5 ft to clear supported ground, never off a ledge. No damage. The GM resolves this feat; the app tracks its rest use.",
-        "imagePath" : null,
-        "minimumLevel" : 4,
-        "parentId" : "potency-2",
-        "children" : [ ],
-        "prerequisites" : [ ],
-        "exclusiveWith" : [ ],
-        "existingTraining" : [ ],
-        "reward" : {
-          "hitPoints" : 0,
-          "mana" : 0,
-          "abilityId" : null,
-          "abilityIncrease" : 0,
-          "armorClass" : 0,
-          "attackBonus" : 0,
-          "basicAttackDamage" : 0,
-          "rageDamage" : 0,
-          "speed" : 5,
-          "spellIds" : [ "misty-step" ],
-          "spellAlternatives" : [ {
-            "spellId" : "misty-step",
-            "alternativeSpellIds" : [ "scorching-ray", "web", "blur", "invisibility", "hold-person", "darkness" ]
-          } ],
-          "features" : [ {
-            "level" : 4,
-            "name" : "Spellshaper: Breakthrough",
-            "description" : "Once per short rest, replace one attack with a contested Athletics check against a creature within reach, at most one size larger. On success push it 5 ft to clear supported ground, never off a ledge. No damage. The GM resolves this feat; the app tracks its rest use.",
-            "subclass" : null,
-            "usesPerRest" : 1,
-            "shortRestRecharge" : true
-          } ]
-        }
-      }, {
-        "id" : "potency-6",
-        "branchId" : "potency",
-        "name" : "Spellshaper: Counterplay",
-        "description" : "Once per short rest, use your reaction when a visible enemy begins casting within 60 ft to identify its visible target or area with an Arcana check set by the GM. This does not interrupt the spell. The GM resolves this feat; the app tracks its rest use.",
-        "imagePath" : null,
-        "minimumLevel" : 4,
-        "parentId" : "potency-3",
-        "children" : [ ],
-        "prerequisites" : [ ],
-        "exclusiveWith" : [ ],
-        "existingTraining" : [ ],
-        "reward" : {
-          "hitPoints" : 0,
-          "mana" : 0,
-          "abilityId" : null,
-          "abilityIncrease" : 0,
-          "armorClass" : 0,
-          "attackBonus" : 0,
-          "basicAttackDamage" : 0,
-          "rageDamage" : 0,
-          "speed" : 5,
-          "spellIds" : [ "invisibility" ],
-          "spellAlternatives" : [ {
-            "spellId" : "invisibility",
-            "alternativeSpellIds" : [ "scorching-ray", "web", "misty-step", "blur", "hold-person", "darkness" ]
-          } ],
-          "features" : [ {
-            "level" : 4,
-            "name" : "Spellshaper: Counterplay",
-            "description" : "Once per short rest, use your reaction when a visible enemy begins casting within 60 ft to identify its visible target or area with an Arcana check set by the GM. This does not interrupt the spell. The GM resolves this feat; the app tracks its rest use.",
-            "subclass" : null,
-            "usesPerRest" : 1,
-            "shortRestRecharge" : true
-          } ]
-        }
-      }, {
-        "id" : "potency-7",
-        "branchId" : "potency",
-        "name" : "Spellshaper: Crescendo",
-        "description" : "Once per long rest, spend your action directing two allies who can hear you within 30 ft. Each may use their reaction to move 10 ft to clear ground without provoking. No attacks or extra actions. The GM resolves this feat; the app tracks its rest use.",
-        "imagePath" : null,
-        "minimumLevel" : 4,
-        "parentId" : "potency-3",
-        "children" : [ ],
-        "prerequisites" : [ "resilience-3" ],
-        "exclusiveWith" : [ ],
-        "existingTraining" : [ ],
-        "reward" : {
-          "hitPoints" : 0,
-          "mana" : 0,
-          "abilityId" : null,
-          "abilityIncrease" : 0,
-          "armorClass" : 0,
-          "attackBonus" : 0,
-          "basicAttackDamage" : 0,
-          "rageDamage" : 0,
-          "speed" : 5,
-          "spellIds" : [ "darkness" ],
-          "spellAlternatives" : [ {
-            "spellId" : "darkness",
-            "alternativeSpellIds" : [ "scorching-ray", "web", "misty-step", "blur", "invisibility", "hold-person" ]
-          } ],
-          "features" : [ {
-            "level" : 4,
-            "name" : "Spellshaper: Crescendo",
-            "description" : "Once per long rest, spend your action directing two allies who can hear you within 30 ft. Each may use their reaction to move 10 ft to clear ground without provoking. No attacks or extra actions. The GM resolves this feat; the app tracks its rest use.",
-            "subclass" : null,
-            "usesPerRest" : 1,
-            "shortRestRecharge" : false
-          } ]
-        }
-      }, {
-        "id" : "resilience-1",
-        "branchId" : "resilience",
-        "name" : "Metamagic",
-        "description" : "Learn two ways to bend your spells, such as twinning, quickening or extending them.\nClass training. If already known, this feat is not granted a second time.",
-        "imagePath" : null,
-        "minimumLevel" : 2,
-        "parentId" : "class-foundation",
-        "children" : [ "resilience-2", "resilience-3" ],
-        "prerequisites" : [ ],
-        "exclusiveWith" : [ ],
-        "existingTraining" : [ "Metamagic" ],
-        "reward" : {
-          "hitPoints" : 3,
-          "mana" : 0,
-          "abilityId" : null,
-          "abilityIncrease" : 0,
-          "armorClass" : 0,
-          "attackBonus" : 0,
-          "basicAttackDamage" : 0,
-          "rageDamage" : 0,
-          "speed" : 0,
-          "spellIds" : [ "minor-illusion" ],
-          "spellAlternatives" : [ {
-            "spellId" : "minor-illusion",
-            "alternativeSpellIds" : [ "shocking-grasp", "ray-of-frost", "acid-splash", "chill-touch", "prestidigitation", "fire-bolt", "mage-hand", "light" ]
-          } ],
-          "features" : [ {
-            "level" : 2,
-            "name" : "Metamagic",
-            "description" : "Learn two ways to bend your spells, such as twinning, quickening or extending them.\nClass training. If already known, this feat is not granted a second time.",
-            "subclass" : null,
-            "usesPerRest" : 0,
-            "shortRestRecharge" : false
-          } ]
-        }
-      }, {
-        "id" : "resilience-2",
-        "branchId" : "resilience",
-        "name" : "Arcane Resilience: Shelter",
-        "description" : "Once per short rest, use your reaction before a visible attack roll against an adjacent ally to grant +2 AC against that attack only. You must be conscious. Does not stack with other guardian training. The GM resolves this feat; the app tracks its rest use.",
-        "imagePath" : null,
-        "minimumLevel" : 3,
-        "parentId" : "resilience-1",
-        "children" : [ "resilience-4", "resilience-5" ],
-        "prerequisites" : [ ],
-        "exclusiveWith" : [ ],
-        "existingTraining" : [ ],
-        "reward" : {
-          "hitPoints" : 0,
-          "mana" : 0,
-          "abilityId" : null,
-          "abilityIncrease" : 0,
-          "armorClass" : 1,
-          "attackBonus" : 0,
-          "basicAttackDamage" : 0,
-          "rageDamage" : 0,
-          "speed" : 0,
-          "spellIds" : [ "charm-person" ],
-          "spellAlternatives" : [ {
-            "spellId" : "charm-person",
-            "alternativeSpellIds" : [ "burning-hands", "sleep", "thunderwave", "magic-missile", "shield-spell", "mage-armor", "detect-magic" ]
-          } ],
-          "features" : [ {
-            "level" : 3,
-            "name" : "Arcane Resilience: Shelter",
-            "description" : "Once per short rest, use your reaction before a visible attack roll against an adjacent ally to grant +2 AC against that attack only. You must be conscious. Does not stack with other guardian training. The GM resolves this feat; the app tracks its rest use.",
-            "subclass" : null,
-            "usesPerRest" : 1,
-            "shortRestRecharge" : true
-          } ]
-        }
-      }, {
-        "id" : "resilience-3",
-        "branchId" : "resilience",
-        "name" : "Arcane Resilience: Footwork",
-        "description" : "Once per short rest, spend a bonus action to ignore nonmagical difficult terrain for your next 10 ft of movement this turn. Does not add movement or permit unsafe ground. The GM resolves this feat; the app tracks its rest use.",
-        "imagePath" : null,
-        "minimumLevel" : 3,
-        "parentId" : "resilience-1",
-        "children" : [ "resilience-6", "resilience-7" ],
-        "prerequisites" : [ ],
-        "exclusiveWith" : [ ],
-        "existingTraining" : [ ],
-        "reward" : {
-          "hitPoints" : 0,
-          "mana" : 0,
-          "abilityId" : null,
-          "abilityIncrease" : 0,
-          "armorClass" : 1,
-          "attackBonus" : 0,
-          "basicAttackDamage" : 0,
-          "rageDamage" : 0,
-          "speed" : 0,
-          "spellIds" : [ "thunderwave" ],
-          "spellAlternatives" : [ {
-            "spellId" : "thunderwave",
-            "alternativeSpellIds" : [ "burning-hands", "charm-person", "sleep", "magic-missile", "shield-spell", "mage-armor", "detect-magic" ]
-          } ],
-          "features" : [ {
-            "level" : 3,
-            "name" : "Arcane Resilience: Footwork",
-            "description" : "Once per short rest, spend a bonus action to ignore nonmagical difficult terrain for your next 10 ft of movement this turn. Does not add movement or permit unsafe ground. The GM resolves this feat; the app tracks its rest use.",
-            "subclass" : null,
-            "usesPerRest" : 1,
-            "shortRestRecharge" : true
-          } ]
-        }
-      }, {
-        "id" : "resilience-4",
-        "branchId" : "resilience",
-        "name" : "Arcane Resilience: Sanctuary",
-        "description" : "Once per long rest, spend an action and touch a conscious ally. For one minute they have advantage on their next save against fear. Does not remove existing fear or grant immunity. The GM resolves this feat; the app tracks its rest use.",
-        "imagePath" : null,
-        "minimumLevel" : 4,
-        "parentId" : "resilience-2",
-        "children" : [ ],
-        "prerequisites" : [ "potency-2" ],
-        "exclusiveWith" : [ ],
-        "existingTraining" : [ ],
-        "reward" : {
-          "hitPoints" : 0,
-          "mana" : 0,
-          "abilityId" : null,
-          "abilityIncrease" : 0,
-          "armorClass" : 0,
-          "attackBonus" : 0,
-          "basicAttackDamage" : 0,
-          "rageDamage" : 0,
-          "speed" : 5,
-          "spellIds" : [ "web" ],
-          "spellAlternatives" : [ {
-            "spellId" : "web",
-            "alternativeSpellIds" : [ "scorching-ray", "misty-step", "blur", "invisibility", "hold-person", "darkness" ]
-          } ],
-          "features" : [ {
-            "level" : 4,
-            "name" : "Arcane Resilience: Sanctuary",
-            "description" : "Once per long rest, spend an action and touch a conscious ally. For one minute they have advantage on their next save against fear. Does not remove existing fear or grant immunity. The GM resolves this feat; the app tracks its rest use.",
-            "subclass" : null,
-            "usesPerRest" : 1,
-            "shortRestRecharge" : false
-          } ]
-        }
-      }, {
-        "id" : "resilience-5",
-        "branchId" : "resilience",
-        "name" : "Arcane Resilience: Last Stand",
-        "description" : "Once per long rest, use your reaction when you fail a save against being knocked prone to reroll it. You must keep the new result. The GM resolves this feat; the app tracks its rest use.",
-        "imagePath" : null,
-        "minimumLevel" : 4,
-        "parentId" : "resilience-2",
-        "children" : [ ],
-        "prerequisites" : [ ],
-        "exclusiveWith" : [ ],
-        "existingTraining" : [ ],
-        "reward" : {
-          "hitPoints" : 0,
-          "mana" : 0,
-          "abilityId" : null,
-          "abilityIncrease" : 0,
-          "armorClass" : 0,
-          "attackBonus" : 0,
-          "basicAttackDamage" : 0,
-          "rageDamage" : 0,
-          "speed" : 5,
-          "spellIds" : [ "blur" ],
-          "spellAlternatives" : [ {
-            "spellId" : "blur",
-            "alternativeSpellIds" : [ "scorching-ray", "web", "misty-step", "invisibility", "hold-person", "darkness" ]
-          } ],
-          "features" : [ {
-            "level" : 4,
-            "name" : "Arcane Resilience: Last Stand",
-            "description" : "Once per long rest, use your reaction when you fail a save against being knocked prone to reroll it. You must keep the new result. The GM resolves this feat; the app tracks its rest use.",
-            "subclass" : null,
-            "usesPerRest" : 1,
-            "shortRestRecharge" : false
-          } ]
-        }
-      }, {
-        "id" : "resilience-6",
-        "branchId" : "resilience",
-        "name" : "Arcane Resilience: Safe Passage",
-        "description" : "Once per short rest, spend an action helping an adjacent ally cross an obstacle. They have advantage on their next Athletics or Acrobatics check to cross it before your next turn. No extra movement. The GM resolves this feat; the app tracks its rest use.",
-        "imagePath" : null,
-        "minimumLevel" : 4,
-        "parentId" : "resilience-3",
-        "children" : [ ],
-        "prerequisites" : [ ],
-        "exclusiveWith" : [ ],
-        "existingTraining" : [ ],
-        "reward" : {
-          "hitPoints" : 0,
-          "mana" : 0,
-          "abilityId" : null,
-          "abilityIncrease" : 0,
-          "armorClass" : 0,
-          "attackBonus" : 0,
-          "basicAttackDamage" : 0,
-          "rageDamage" : 0,
-          "speed" : 5,
-          "spellIds" : [ "hold-person" ],
-          "spellAlternatives" : [ {
-            "spellId" : "hold-person",
-            "alternativeSpellIds" : [ "scorching-ray", "web", "misty-step", "blur", "invisibility", "darkness" ]
-          } ],
-          "features" : [ {
-            "level" : 4,
-            "name" : "Arcane Resilience: Safe Passage",
-            "description" : "Once per short rest, spend an action helping an adjacent ally cross an obstacle. They have advantage on their next Athletics or Acrobatics check to cross it before your next turn. No extra movement. The GM resolves this feat; the app tracks its rest use.",
-            "subclass" : null,
-            "usesPerRest" : 1,
-            "shortRestRecharge" : true
-          } ]
-        }
-      }, {
-        "id" : "resilience-7",
-        "branchId" : "resilience",
-        "name" : "Arcane Resilience: Rally",
-        "description" : "Once per long rest, spend your action rallying a conscious ally within 30 ft who can hear you. They may immediately repeat one save against fear, using their reaction. No healing or extra actions. The GM resolves this feat; the app tracks its rest use.",
-        "imagePath" : null,
-        "minimumLevel" : 4,
-        "parentId" : "resilience-3",
-        "children" : [ ],
-        "prerequisites" : [ "potency-3" ],
-        "exclusiveWith" : [ ],
-        "existingTraining" : [ ],
-        "reward" : {
-          "hitPoints" : 0,
-          "mana" : 0,
-          "abilityId" : null,
-          "abilityIncrease" : 0,
-          "armorClass" : 0,
-          "attackBonus" : 0,
-          "basicAttackDamage" : 0,
-          "rageDamage" : 0,
-          "speed" : 5,
-          "spellIds" : [ "scorching-ray" ],
-          "spellAlternatives" : [ {
-            "spellId" : "scorching-ray",
-            "alternativeSpellIds" : [ "web", "misty-step", "blur", "invisibility", "hold-person", "darkness" ]
-          } ],
-          "features" : [ {
-            "level" : 4,
-            "name" : "Arcane Resilience: Rally",
-            "description" : "Once per long rest, spend your action rallying a conscious ally within 30 ft who can hear you. They may immediately repeat one save against fear, using their reaction. No healing or extra actions. The GM resolves this feat; the app tracks its rest use.",
-            "subclass" : null,
-            "usesPerRest" : 1,
-            "shortRestRecharge" : false
-          } ]
-        }
-      } ]
+      ]
     }
   }, {
     "id" : "warlock",
