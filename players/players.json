@@ -5,7 +5,7 @@
     "classId" : "bard",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 90,
+    "xp" : 230,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -286,7 +286,7 @@
     "ownerUsername" : "Ladorman",
     "description" : "",
     "maxHitPoints" : 48,
-    "currentHitPoints" : 39,
+    "currentHitPoints" : 48,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ ],
@@ -300,7 +300,7 @@
     }, {
       "level" : 2,
       "max" : 3,
-      "current" : 2
+      "current" : 1
     }, {
       "level" : 3,
       "max" : 3,
@@ -308,14 +308,7 @@
     } ],
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
-    "cooldowns" : {
-      "strength" : 0,
-      "dexterity" : 0,
-      "constitution" : 0,
-      "intelligence" : 0,
-      "wisdom" : 0,
-      "charisma" : 0
-    },
+    "cooldowns" : { },
     "skills" : {
       "custom" : { },
       "acrobatics" : 2,
@@ -376,7 +369,7 @@
     "classId" : "ranger",
     "raceId" : "wood-elf",
     "level" : 6,
-    "xp" : 90,
+    "xp" : 190,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -523,35 +516,21 @@
       "charisma" : 8
     },
     "items" : [ {
-      "itemId" : "silvan-hunting-sword",
+      "itemId" : "bedroll",
       "condition" : {
         "durability" : 100
       },
-      "equipped" : true,
+      "equipped" : false,
       "quantity" : 1
     }, {
-      "itemId" : "shortbow",
+      "itemId" : "coin",
       "condition" : {
-        "durability" : 100
+        "durability" : 0
       },
-      "equipped" : true,
-      "quantity" : 1
-    }, {
-      "itemId" : "studded-leather",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : true,
-      "quantity" : 1
+      "equipped" : false,
+      "quantity" : 11
     }, {
       "itemId" : "elven-cloak",
-      "condition" : {
-        "durability" : 100
-      },
-      "equipped" : true,
-      "quantity" : 1
-    }, {
-      "itemId" : "leaf-pendant",
       "condition" : {
         "durability" : 100
       },
@@ -572,45 +551,35 @@
       "equipped" : false,
       "quantity" : 1
     }, {
-      "itemId" : "bedroll",
+      "itemId" : "shortbow",
       "condition" : {
         "durability" : 100
       },
-      "equipped" : false,
+      "equipped" : true,
       "quantity" : 1
     }, {
-      "itemId" : "coin",
+      "itemId" : "silvan-hunting-sword",
       "condition" : {
-        "durability" : 0
+        "durability" : 100
       },
-      "equipped" : false,
-      "quantity" : 11
+      "equipped" : true,
+      "quantity" : 1
+    }, {
+      "itemId" : "leaf-pendant",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : true,
+      "quantity" : 1
+    }, {
+      "itemId" : "studded-leather",
+      "condition" : {
+        "durability" : 100
+      },
+      "equipped" : true,
+      "quantity" : 1
     } ],
     "spells" : [ {
-      "spellId" : "hunters-mark",
-      "rank" : 1,
-      "active" : true
-    }, {
-      "spellId" : "cure-wounds",
-      "rank" : 1,
-      "active" : true
-    }, {
-      "spellId" : "entangle",
-      "rank" : 1,
-      "active" : true
-    }, {
-      "spellId" : "darkness",
-      "rank" : 2,
-      "active" : true
-    }, {
-      "spellId" : "lesser-restoration",
-      "rank" : 2,
-      "active" : true
-    }, {
-      "spellId" : "leaf dart",
-      "rank" : 0,
-      "active" : true
-    }, {
       "spellId" : "animal distraction",
       "rank" : 0,
       "active" : true
@@ -619,20 +588,44 @@
       "rank" : 1,
       "active" : true
     }, {
-      "spellId" : "primal roar",
-      "rank" : 2,
-      "active" : true
-    }, {
       "spellId" : "beast-whisper",
       "rank" : 1,
       "active" : true
     }, {
-      "spellId" : "rootstride",
+      "spellId" : "cure-wounds",
+      "rank" : 1,
+      "active" : true
+    }, {
+      "spellId" : "darkness",
+      "rank" : 2,
+      "active" : true
+    }, {
+      "spellId" : "entangle",
+      "rank" : 1,
+      "active" : true
+    }, {
+      "spellId" : "hunters-mark",
+      "rank" : 1,
+      "active" : true
+    }, {
+      "spellId" : "leaf dart",
+      "rank" : 0,
+      "active" : true
+    }, {
+      "spellId" : "lesser-restoration",
       "rank" : 2,
       "active" : true
     }, {
       "spellId" : "poison-spray",
       "rank" : 0,
+      "active" : true
+    }, {
+      "spellId" : "primal roar",
+      "rank" : 2,
+      "active" : true
+    }, {
+      "spellId" : "rootstride",
+      "rank" : 2,
       "active" : true
     } ],
     "personalFeatures" : [ ],
@@ -640,29 +633,20 @@
     "passwordSalt" : "209f23306e7107cc2289f8036a03b1a7",
     "imagePath" : "images/players/player-silvan.jpg",
     "playerName" : "Elene",
-    "ownerUsername" : "",
+    "ownerUsername" : "Silvan",
     "description" : " გარეგნობა: \n სიმაღლე 1.83თმა მონაცრისფრო ქერა, რომელსაც თავისით იჭრის და არათანაბარია, ხშირად თმაში \n აქვს პატარა ფოთლები და ტოტები, თითქოს ტყისგან უნდა გარბოდეს მაგრამ ტყე არ \n შორდება. \n კანი- ღია, მზისგან ოდნავ ოქროსფრად შეფერილი \n ტანსაცმელი- პრაქტიკული თითქოს დიდად არ უფიქრია თავის გარეგნობაზე. \n გრძელი მუქი მწვანე, მოსაცმელი, რომლის ნაპირები ყავისფერში გადადის \n ხანგრძლივი ხმარებისგან, ჰუდი რომელიც თვალებსაც უფარავს თუ დასჭირდება. \n Პმაისური თხელი მოკრემისფერო,ღია ყავისფერი , ოდნავ დიდი ზომის, ზოგიერთ \n ადგილას ცუდად გაკეთებული ნაკერებით და რამდენიმე ლაქით. \n უფრო მეტად გადარჩენისთვის ვიდრე კომბატისთვის, მუქი ყავისფერი, ტყავის \n ვესტი \n პატარა ტყავისა სამაჯურები რომლებიც სხვადასხვა ზომისაა და მუდმივად ოდნავ \n ჭუჭყიან ნაფხაჭნებიან ორივე ხელზე აქვს გაკეთებული. \n მუქი ყავისფერი შარვალი რამდენიმე ნაკერით და მოუშორებელი ლაქებით \n საშუალო სიმაღლის ჩექმები, რომელიც ხშირად არათნაბრად აქვს შეკრული, თუმცა \n მოვლილია. \n ტყავის ქამარი, პატარა ჩანთებით და მამამისის სანადირო დანის ჩასადებით \n დედამისის ნაჩუქარი ყელსაბამი, რომელსაც ნერვიულობისას ეხება და აწვალებს. \n მთლიან ტანსაცმელზე ხავსი, ფოთლები ან მიწის ნაწილები აქვს მიკრული.თითქოს \n ტანსაცმელი ბუნების ნაწილია.",
     "maxHitPoints" : 55,
-    "currentHitPoints" : 45,
+    "currentHitPoints" : 55,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ {
-      "effectId" : "effect-missing-shoes",
-      "name" : "missing shoes",
-      "description" : null,
-      "remainingRounds" : 999,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "GM",
-      "expired" : false
-    } ],
+    "activeEffects" : [ ],
     "subclass" : "",
     "backstory" : "Silvan — Latin, meaning \"of the forest.\" \n ჩემი ტყის ასე ადრე დატოვება უცნაურია. \n Პპირდაპირ არავინ შემატყობინა ამ გადაწყვეტილების მიზეზი , მაგრამ უხუცესების \n გამომეტყველებაში ყველაფერი ცხადზე ცხადად ჩანდა.მე რაღაც საზღვარს \n გადავაბიჯე. \n მამაჩემს არ გაუპროტესტებია ეს გადაწყვეტილება \n ეს გასაკვირი არ იყო, მას თითქოს სიტყვების განსაზღვრული რაოდენობა ჰქონდა და \n მათ ზოგავდა. \n მან მასწავლა ტყეში უხმოდ სიარული, თვალთვალი, სცადა ესწავლებინა მოთმინების \n უნარი რომელიც ჩემთვის ასეთ უცხო კონცეფცია იყო. \n მაგრამ როდესაც ცვლილებები დაიწყო მან არ სცადა ჩემი გამოსწორება. \n ის უბრალოდ მაკვირდებოდა \n მე ვერ ვხვდებოდი, თუმცა ბუნებათან ჩემი კავშირი ბავშვობიდანვე უცნაური იყო. \n ცხოველები ჩემს მიმართ ინტერესს გამოხატავენ, თუმცა ეს არ გამოიხატებოდა \n მეგობრობით, ან მტრობით, არამედ თვალთვალით, თითქოს რაღაცას ელოდებოდნენ. \n Პანგრძლივად ტყეში სიარულისას ჩიტები ჩუმდებოდნენ, ცხოველები ჩერდებოდნენ \n და მაკვირდებოდნენ. Პვდაპირველად ასეთი დამოკიდებულება თავს \n განსაკუთრებულად მაგრძნობინებდა, ვფიქრობდი რომ ეს ჩემი განვითარების ნიშანი \n იყო, მაგრამ მალევე დავრწმუნდი, რომ ეს სიმართლეს არ შეესაბამებოდა. Silvan — \n Latin, meaning “of the forest.” \n ელფი რომელიც უხუცესებმა დროზე ადრე, ახსნა განმარტების გარეშე გამოუშვეს მის \n პირველ თავგადასავალზე. \n თავდაპირველად დედაჩემი ამაზე არ ნერვიულობდა, პირიქით როდესაც ჩემში \n იბადებოდა ეჭვები, იგი იყო მათი გაქარწყლების მიზეზი. Პისი დარიგება \n ყოველთვის მშვიდობის მომგვრელი და განმამტკიცებელი იყო. \n თუმცა, დროთა განმავლობაში ისიც დადუმდა \n ჩვენს ტყეში იყო, თითქოს განცალკევებული ხეთა ჯგუფი, რომელსაც თავს \n არიდებდნენ სხვა ელფები, და მასზე არ საუბრობდნენ ერთხელაც,ცნობისმოყვარეობამ მსძლია და სეირნობისას გადავწყვიტა ეს ადგილი \n მომენახულებინა. \n ადგილზე მისვლისას, ვიგრძენი სიმშვიდე და სიჩუმე, რომელიც ამ ადგილს \n დანარჩენი ტყისგან განაცალკევებდა. Პძიმე ჰაერი ,რომელიც თითქოს ჩემს მოსვლას \n აღნიშნავდა. Პოდესაც, უფრო ღრმად შევედი ტყის ამ ნაწილში რაღაც \n ამოუცნობელის მიერ ჩემი შემჩნევის შეგრძნება გამძაფრდა, გული დამიმძიმდა \n თითქოს რაღაც შიგნიდანაც და გარედანაც მაწვებოდა და ერთმანეთთან შეხვედრას \n ცდილობდა. \n ჩემდა საკვირველად არ გავქცეულვარ. \n წამების განმავლობაში პიროვნებასა და ტყეს შორის ბარიერი გაქრა. შევიგრძნობდი, \n ფესვების მოძრაობას, მიწისქვეშ მათ ხლართვას და ზრდისკენ მისწრაფებას. \n და უცებ ეს გაჩერდა \n ან მე მეგონა რომ გაჩერდა \n ამ დღის შემდეგ, უცნაურობისკენ დაიწყო ცვლა. \n თავიდან შევნიშნე პატარა ცვლილებები. Პიდი ხნით მარტო სეირნობისას ფოთლები \n იზრდებოდნენ მათთვის შეუსაბამო ადგილებში, სოკოები ნორმაზე სწრაფად \n ვრცელდებდნენ, ცხოველებმა კი ჩემი გზაკვალის არიდება დაიწყეს. მალევე შევნიშნე \n მამაჩემის ინტერესი იმავე გზაკვალის მიმართ. Პგი მათ იკვლევდა და ამჩნევდა იმას, \n რაც აქამდე მხოლოდ ჩემთვის იყო აშკარა. \n ის არაფერში მადანაშაულებდა \n მაგრამ მან იცოდა. \n ტყის განცალკევებულ ადგილს კიდევ ერთხელ ვესტუმრე. ის გაუარესებულიყო. \n ტოტები ერთმანეთში გადახლართულიყვნენ, ჰაერი კი ისე დამძიმებულიყო რომ \n სუნთქვა სჭირდა. მიწაზე ფეხის დადგმისას შევიგრძენი გულისცემა რომელიც \n მიწიდან მოდიოდა, თუმცა თითწოს მე მეკუთვნოდა. \n ამჯერად შემეშინდა და გავიქეცი. \n თუმცა მემგონი გაქცევა გვიანი იყო, რაღაც უცნობი ახლა მე დამყვებოდა.მხუცესებმა მალევე შენიშნეს ის რასაც მე და მამაჩემი თითქოს ერთმანეთის \n უთქმელად საიდუმლოდ ვინახავდით. მამაჩემი მათთან ერთად იდგა, როდესაც ეს \n გადაწყვეტილება გამაცნეს. დედაჩემი მოშორებიდან მიყურებდა. \n ყველამ ვიცოდით, რომ ადათ-წესების მიხედვით ჩემს პირველ თავგადასავლამდე \n დეკადები მაშორებდა. მაგრამ არავის უკამათია. \n მე ვიცნობდი მამაჩემის ბუნებას და ეს მოსალოდნელიც იყო, თუმცა იმაზე მეტად \n მატკინა მისმა მდუმარებამ ვიდრე წარმოვიდგენდი. წამოსვლამდე იგი დაშორდა \n უხუცესებს და ხელში სანადირო ხმალი გადმომცა. საშუალო ზომის, კარგად \n მოვლილი ხმალი, მუქი ხის სახელურით. მასზე ჩემთვის კარგად ნაცნობი, თუმცა \n სხვებისთვის შეუმჩნეველი ნიშნები იყო ამოფიტრული, რომლის საშუალებითაც \n მამაჩემი მის ხმარებას მასწავლიდა. \n “გადაადგილება გააგრძელე” - ბოლო სიტყვები რომელიც მამაჩემმა მითხრა \n დამშვიდობებისას რომელიც რჩევისა და გაფრთხილებასავით ჩამესმა. \n დედაჩემთან გამომშვიდობება უფრო ალერსიანი იყო. ეტყობოდა რომ არ უნდოდა \n ჩემი გაშვება, თუმცა ეს არ გაუხმოვანებია. ყელზე შემისწორა ბავშვობაში მისივე \n ხელით გაკეთებული ყელსაბამი. მარტივი ტყის ქვიგან გამოყვანილი ფოთლის \n ფორმის კულონი , რომელის დაწნულ ზაფზე ჩამოეკიდა დედაჩემს და ახლა \n გულმოდგინებით ასწორებდა. \n “ადრე თუ გვიან გაგიგებენ”- მითხრა დედაჩემმა და ამით გახდა ერთადერთი \n ადამიანი რომელმაც გაახმოვანა ჩემი ტყიდან გაგდების მიზეზი და ცოტა ხნით მაინც \n ჩემი უთავბოლო ფიქრები დაამშვიდა. \n არ ვიცოდი რა მეთქვა ამიტომ სიტყვისამოუღებლად წამოვედი. ჯერ კიდევ მქონდა \n იმედი რომ ტყე დაუბრუნდებოდა თავის პირვანდელ მდგომარეობას თუმცა, \n არა.ზოგჯერ როდესაც სადმე დიდ ხანს ვჩერდები გაუგებარი ძვრები იწყება. \n მცენარეები ძალიან სწრაფად იზრდებიან , და ცხოველები თითქოს რაღაცას \n ელოდებიან . \n Პვცდილობ, რომ ამაზე არ ვიფიქრო და მივყვები მამაჩემის ბოლო სიტყვებს \n ვაგრძელებ გადაადგილებას. \n",
     "castingResource" : "SPELL_SLOTS",
     "spellSlots" : [ {
       "level" : 1,
       "max" : 4,
-      "current" : 2
+      "current" : 4
     }, {
       "level" : 2,
       "max" : 2,
@@ -724,7 +708,7 @@
     "classId" : "rogue",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 0,
+    "xp" : 140,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -991,19 +975,10 @@
     "ownerUsername" : "Bandzuka",
     "description" : "Bounty hunter. Always finishes the hunt.\n\nResources:\n• Mana = revolver chambers. Max 6. Every Sixfold Judgment shot costs 1. The Gravitic Anchor Node refills all six chambers during a long rest — nobody can reload it by hand.\n• Singularity Round: 1 per short rest. Anchor Round: 1 per long rest. Their cooldowns are set to 100 rounds so they cannot be used again in the same fight.\n• Shot save DC (Crushing / Anchor): 13 (8 + proficiency 3 + DEX 2).\n\nPassives:\n• Sneak Attack (rogue, level 5): +3d6 once per turn on a hit with advantage, or when an ally stands next to the target.\n• Bound artifacts — the Sixfold Judgment only works while the Gravitic Anchor Node is attached to him.",
     "maxHitPoints" : 45,
-    "currentHitPoints" : 29,
+    "currentHitPoints" : 3,
     "maxMana" : 7,
-    "currentMana" : 6,
-    "activeEffects" : [ {
-      "effectId" : "effect-missing-left-shoe",
-      "name" : "missing left shoe",
-      "description" : null,
-      "remainingRounds" : 999,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "GM",
-      "expired" : false
-    } ],
+    "currentMana" : 7,
+    "activeEffects" : [ ],
     "subclass" : "",
     "backstory" : "A bounty hunter in a world ruled by corporations, cybernetics, and violence. He wasn't famous, nor was he trying to be. He took contracts, tracked his targets, collected his pay, and moved on to the next job. He had a reputation for always finishing the hunt, whether it took days or months.\n\nWhen he crossed into this world, his cybernetics transformed into magical relics. His combat implants became enchanted artifacts, his trusted revolver still carried only six bullets — though no one could explain how they replenished after periods of rest — and his monokatana stayed the same.\n\nThe implant along his spine changed the most. What had once been a military combat enhancement became a magical relic known as the Gravitic Anchor Node — a spine of arcane cores that lets him manipulate his own gravity. He doesn't understand how it works, only that it feels strangely familiar, as if technology and magic are simply different languages describing the same thing.\n\n\nThe Sixfold Judgment\n\nAn ancient-looking six-shot revolver forged from black steel and silver, covered in faint violet runes. It has no visible mechanism for loading ammunition.\n\nThe revolver is magically linked to the Gravitic Anchor Node implanted along Kael's spine. The Node condenses gravitational energy into six arcane rounds, one for each chamber.\n\nWhen fires, the Node expends part of its stored power to create devastating gravity-infused bullets.\n\nPossible Shot Effects (choose one when firing)\nGravity Round – A normal shot that deals force damage instead of piercing.\nCrushing Shot – The bullet erupts with gravitational force, forcing the target to make a Strength save or be knocked prone.\nSingularity Round (1/Short Rest) – On impact, a tiny gravity well forms, pulling creatures within 10 feet toward the target before collapsing.\nAnchor Round (1/Long Rest) – The target's gravity dramatically increases, reducing its movement speed to 0 until the start of your next turn if it fails a Strength save.\nReloading\n\nThe revolver can never hold more than six rounds. ",
     "castingResource" : "MANA",
@@ -1064,7 +1039,7 @@
     "classId" : "fighter",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 90,
+    "xp" : 230,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -1403,19 +1378,10 @@
     "ownerUsername" : "Cruel Carrot",
     "description" : "Duelist.\n\nWeapons:\n• Ladies' Blade — no bonus to hit, 1d6 piercing. On a hit: even damage roll → damage doubled, odd → damage halved (rounded up).\n• Forgotten Blade — +3 to hit, 1d8 slashing.\n• Dual (both blades equipped) — +5 to hit, 1d8 + 1d6 (use the Dual Blade Strike action). The Ladies' Blade d6 still follows the even/odd rule.\n\nTreasure & inventory: Explorer's Pack, Simple Clothes, Visage (glasses), 40 BP, Philter of Love, Dust Powder, Advantage: Wisdom, Null Monet.\n\nPassives:\n• Break Enemy Defense — 20% chance on each hit (d100 ≤ 20) to reduce the target's AC by 1 until the end of the fight.\n• Battle Awareness — automatically enters battle stance when a fight starts; predicts the enemy's first strike and gets one free Dodge against it.\n• Combat Momentum — each successful hit adds +1 damage to his following hits, stacking until the end of the battle.\n• Parry & Counter — when attacked in melee roll d100: 1–25 parry and counterattack (counter lands on 50%), 26–45 parry only, 46–65 counterattack only, 66–100 nothing.\n\nSuper attack: T.L.K.O. (the move only Maghro knows) — see the T.L.K.O. action.",
     "maxHitPoints" : 52,
-    "currentHitPoints" : 33,
+    "currentHitPoints" : 0,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ {
-      "effectId" : "effect-sharpened-scimitar",
-      "name" : "sharpened scimitar",
-      "description" : null,
-      "remainingRounds" : 1,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "GM",
-      "expired" : false
-    } ],
+    "activeEffects" : [ ],
     "subclass" : "",
     "backstory" : "\n\nთვითმარქვია რაინდი\n\nჩემი ყველაზე ძველი მოგონება არც სახეა და არც ხმა.\n\nქვის სიცივეა.\n\nმახსოვს, როგორ გამეღვიძა ბაზრის ხის დახლების ქვეშ. წვიმის წვეთები დამპალი ფიცრებიდან მეცემოდა, ხოლო ხელში იმდენად მაგრად ვიყავი ჩაფრენილი გამხმარ პურის ნაჭერს, რომ თითებიდან სისხლი მდიოდა. არ მახსოვს, ვინ მომცა ის პური. არც ის მახსოვს, საერთოდ მყავდა თუ არა ვინმე.\n\n„ეს ქალაქი“ სამეფოს ერთ-ერთი უდიდესი და უძლიერესი ქალაქი იყო. მთელი სამეფოს მბრძანებელი მეფე გახლდათ, მაგრამ თავად „ამ ქალაქს“ გრაფი მართავდა. მის სიტყვას ამ ქალაქში მხოლოდ მეფის ნება აღემატებოდა.\n\nთუმცა „აქაურობა“ ერთი ქალაქი არ ყოფილა.\n\nის ორ სხვადასხვა სამყაროდ იყო გაყოფილი.\n\nგარე წრე ეკუთვნოდა უბრალო ხალხს — გლეხებს, ხელოსნებს, ვაჭრებს, მჭედლებს, მათხოვრებს, ქურდებსა და ჩვენნაირ მიტოვებულ ბავშვებს. აქ ცხოვრება ყოველდღიური ბრძოლა იყო. შიმშილი, სიცივე და ძალადობა ჩვეულებრივი ამბავი გახლდათ.\n\nმაღალი ქვის გალავნის მიღმა კი შიდა წრე იწყებოდა.\n\nიქ ცხოვრობდნენ დიდგვაროვნები, რაინდები, მხედართმთავრები, სწავლულები და ქალაქის ყველაზე მდიდარი ადამიანები.\n\nუბრალო ადამიანს იქ შესვლა ეკრძალებოდა.\n\nნებართვის გარეშე შესულს ზოგჯერ ხელს აჭრიდნენ.\n\nზოგჯერ ენას.\n\nხოლო ზოგჯერ... აღარავინ ხედავდა.\n\nჩვენთვის, ქუჩის ბავშვებისთვის, ის კედლები სხვა სამყაროს საზღვარს ჰგავდა.\n\nვიცოდით, რომელი მცველი აიღებდა ქრთამს და რომელი სიამოვნებით სცემდა ბავშვს მხოლოდ იმიტომ, რომ შეეძლო.\n\nარავინ ოცნებობდა.\n\nოცნება მათთვის იყო, ვისაც ხვალინდელი დღის იმედი ჰქონდა.\n\nჩვენ მხოლოდ კიდევ ერთი გათენების იმედით ვცხოვრობდით.\n\nშვიდი წლის ვიყავი, როცა ჩემი ცხოვრება სამუდამოდ შეიცვალა.\n\nპურის მოპარვის შემდეგ ქალაქის მცველები გამომეკიდნენ. ბევრი სირბილისა და ძრომიალის შემდეგ ძლივს თავი დავაღწიე მათ.\n\nშემთხვევით ნახევრად ღია კარში შევძვერი...\n\nდა როცა სირბილი შევწყვიტე, მივხვდი, სად აღმოვჩნდი.\n\nშიდა წრეში.\n\nყველაზე მაღალ ხეზე მოვკალათდი და მაშინ ფოლადის ხმაური გავიგონე.\n\nჩემ წინ უზარმაზარი საწვრთნელი ეზო გადაიშალა.\n\nათეულობით ხალხი მიდი-მოდიოდა — ოსტატები, რაინდები, ახალბედები თუ უკვე გამოცდილები. მათი წვრთნების ყურება ჩემთვის ხელოვნება იყო.\n\nიმ დღეს მზის ჩასვლამდე იქიდან ვერ მოვწყდი.\n\nიმ ღამით კი, ძილის ნაცვლად, მდინარის ნაპირზე სწორი ტოტი ვიპოვე.\n\nხელში ისე დავიჭირე, როგორც იმ რაინდებს ეჭირათ მახვილი.\n\nდა ვცადე მათი მოძრაობების გამეორება.\n\nმეორე დღეს კვლავ მივედი.\n\nმერეც.\n\nდა ამის შემდეგ თითქმის ყოველდღე.\n\nდილით გადარჩენისთვის ვიბრძოდი.\n\nსაღამოს კი საიდუმლო ადგილს ვპოულობდი, საიდანაც საწვრთნელ მოედანს ვხედავდი.\n\nღამით მარტო ვვარჯიშობდი.\n\nვაკვირდებოდი მათ და ცოდნას ვიპარავდი... თუკი ამას ქურდობა ერქვა.\n\nთვეები გადიოდა და ვერც კი მივხვდი, ისე დავიწყე მათთან ერთად სწავლა.\n\nარა მოედანზე...\n\nარამედ ჩრდილებიდან.\n\nერთ დილას კი... კარგად ვერ დავიმალე. მათი ცქერით აღფრთოვანებულს ტოტი ჩამომიტყდა და ხმაურიანად დავეცი მიწაზე.\n\nროცა გონს მოვედი, მბზინავ, მზისამრეკლავ აბჯრებში ჩაცმული ხალხი მიყურებდა.\n\nუცებ მცველები მოვარდნენ, ერთი-ორი ჭკუის სასწავლებელი მომდეს, ქეჩოში ხელი ჩამავლეს და მმართველთან მიმაბრძანეს.\n\nროცა „მმართველის“ დარბაზში შემაგდეს, სახეზე სისხლი ჩამომდიოდა.\n\nდარბაზი აღშფოთებით აივსო.\n\n„მმართველმა“ მკითხა, ვინ ვიყავი.\n\nმეც დაუმალავად ავუხსენი ყველაფერი. ისედაც ცხადი იყო, რომ გარე წრის მათხოვართან ჰქონდათ საქმე.\n\nპური რომ მექურდა, ხელს მომაჭრიდნენ, მაგრამ მე აქ მხოლოდ ცოდნას ვიძენდი.\n\nცოდნისა და ინფორმაციის ქურდობისთვის თავს მომაჭრიდნენ, ვიცოდი.\n\nდა როდესაც მმართველს ჩემი თავი ჯალათისთვის უნდა გადაეცა, მისი უფროსი ქალიშვილი წამოდგა დარბაზში.\n\nჩემს ირგვლივ ისე შემოიარა, თითქოს ცხენს ათვალიერებდა.\n\nმამამისს მიაპყრო თვალები და ბრძანებით უთხრა. პატარა საქალბატონე, რომელიც ალბათ თორმეტი წლის იქნებოდა, ამბობდა, რომ ჩემი სიკვდილი ფუჭი ხარჯი იქნებოდა. ყველა მისი თანატოლი მასზე ძლიერი იყო, ჩემთან, სუსტთან, ვარჯიში კი უფრო მეტ სიამოვნებას მოუტანდა.\n\nთავიდან მმართველმა იუარა, მაგრამ როდესაც პატარა საქალბატონემ დაჟინებით დაიწყო მოთხოვნა, სცენების დადგმა და ტირილი, რასაც მისი ათი წლის ძმაც აჰყვა, მათ სურვილს ვერც ერთი მაღალმთავარი ვერ შეეწინააღმდეგა.\n\nიმ დღიდან მმართველის ვაჟისა და ქალიშვილის პირად სავარჯიშო თოჯინად ვიქეცი. თან მათ იარაღებს ვწმენდდი, დარბაზსა და საბრძოლო მოედანს ვალაგებდი. ყველა ბინძურ საქმესაც მე მავალებდნენ.\n\nსიკვდილს გადავურჩი, მაგრამ მათი საკუთრება გავხდი და თავისუფლება დავკარგე.\n\n\nასე გადიოდა დრო.\n\nორ წელიწადში, როდესაც ათ წელს გადავაცილე, თავადიშვილმა გოგონამ მალევე დაკარგა საბრძოლო ხელოვნების მიმართ ინტერესი და ხშირად აღარ სტუმრობდა სავარჯიშო დარბაზებს. იზრდებოდა, მშვენდებოდა, უფრო ელეგანტური ხდებოდა და ნამდვილ დიდგვაროვან ქალბატონს ემსგავსებოდა.\n\nაი, მისი ძმა კი უბედურის ერთი იყო. სულ იმას მაძახებდა: „მე გიხსენი და ჩემი მონა ხარო.“ ასაკთან ერთად მწვრთნელებმა და დამკვირვებლებმა ჩემს გამეტებასაც უმატეს. ისე მიმეტებდნენ ვარჯიშის დროს, რომ ხანდახან სისხლიც მსდიოდა, მაგრამ მე, როგორც მონას, არ მქონდა უფლება დიდგვაროვანის მშვენიერი სახე შემეწითლა. მხოლოდ გაქცევის, აცილების, იარაღის დახვედრის ან არიდების უფლება მქონდა, ისიც იშვიათად.\n\nკიდევ ორ წელში, როცა მე თოთხმეტ წელს ვითვლიდი, თავადიშვილები კი უკვე თექვსმეტი-თვრამეტი წლისანი იყვნენ, მე უკვე ყველა ტაქტიკა, ყველა მოძრაობა, ყველა შეტევა, თავდასხმა თუ თავდაცვა შესწავლილი მქონდა. მაგრამ აბა ჩემს შესაძლებლობებს როგორ გავამხელდი იმ ხალხის წინაშე, ვისთვისაც არაფრის დაშავების უფლება არ მქონდა? ამიტომ, როცა დრო მქონდა, ყოველთვის მარტო ვვარჯიშობდი და დროს არ ვკარგავდი.\n\nკიდევ ორ წელიწადში უკვე ტკივილში, ფოლადსა და ოფლში გამოჭედილი ვაჟკაცი ვიყავი და არა ის ბავშვი, რომელიც პურს ქურდობდა ოდესღაც. მაგრამ მაინც, შიმშილით დაღლილს, თავისუფლად მერჩივნა ერთ დროს ხეტიალი, ვიდრე აქ მდიდრების შემხედვარე დამცირებების ატანა და გამოკეტილად ყოფნა.\n\nსახელი არ გამაჩნდა. ყველა იმას მეძახდა, რაც მოესურვებოდათ.\n\nერთხელ ახალგაზრდა ქალბატონმა მასთან ერთად ბიბლიოთეკაში მიმიწვია. ძველ ენებს სწავლობდა. ზუსტად იქ, ძველი ენის ერთ-ერთ წიგნში, ამოვიკითხე სიტყვა „ლავენოს“, რაც მოქნილებასა და თავისუფლებას ნიშნავდა და ამავდროულად განდიდებული, ჯადოქრული მიმართვით გამოირჩეოდა. არავინ იცის, ვის მიმართებაში იხმარებოდა ძველად ეს სიტყვა.\n\n„ახალგაზრდა ქალბატონმა“ ღიმილით შემომხედა და მითხრა, რომ დღეიდან ჩემი სახელი ეს სიტყვა იქნებოდა, რადგან გრძნობდა, რომ რეალურად თავისუფლება მწყუროდა.\n\nერთ დღეს, როდესაც მმართველის დარბაზები სტუმრებით აივსო და ცენტრში პატარა კოლიზეუმი მოაწყვეს მისი ქალიშვილის მეოცე დაბადების დღის აღსანიშნავად, მის უმცროს ვაჟს თავის გამოჩენა მოუნდა ყველას წინაშე. თან ახალგაზრდა ლორდი სასმელმა შეახოშიანა და მამას უთხრა, რომ სტუმრების საპატივსაცემოდ დუელი უნდა გაემართა.\n\nმეტოქედ კი მე ამომირჩია.\n\nბრძოლის დროს თავს ვიკავებდი, რომ არ მევნო მისთვის და თავი არ დამეღუპა, მაგრამ სტუმრები აშკარად უკმაყოფილოები იყვნენ.\n\nმმართველმა ბრძოლა შეგვაწყვეტინა და პირადად მომმართა, რომ მეც შესაბამისად მებრძოლა, რათა მის ვაჟს თავისი ვაჟკაცობა და ცოდნა სრულად გამოევლინა.\n\nმე იგი დავამარცხე.\n\nდა როდესაც დამარცხებულმა ჩემი თავი მოსთხოვა მამამისს ლანგარზე, მისმა უფროსმა ქალიშვილმა და ჩემმა მხსნელმა კიდევ ერთხელ გადამარჩინა. დაარწმუნა მამა, რომ მე მხოლოდ ბრძანებას ვასრულებდი და სიკვდილს არ ვიმსახურებდი.\n\nრაკი იმ დღეს მისი დაბადების დღე იყო, გამიმართლა.\n\nმაგრამ ვიცოდი, დიდი ხანი აღარ დამრჩენოდა სიცოცხლე.\n\nროცა ახალგაზრდა ლედიმ მეორედ მიხსნა სიკვდილს, სწორედ იმ დღიდან შევხედე მას სხვა თვალით. ის აღარ იყო უბრალოდ დიდგვაროვანი. ის ჩემთვის ბევრად მეტს ნიშნავდა.\n\nასე დავახლოვდით და ჩვენი უბიწო, პლატონური, წმინდა სიყვარული ძლიერდებოდა.\n\nიმ დღის შემდეგ იგი ხშირად მხვდებოდა მაშინ, როცა არავინ გვხედავდა. არასოდეს მიყურებდა, როგორც მსახურს.\n\nპირველად ცხოვრებაში ვიგრძენი, რომ ვიღაც ადამიანს მხედავდა...\n\nდა არა საკუთრებას.\n\nარასოდეს დამავიწყდება მისი სიტყვები:\n\n„შენ ხარ ჩემთვის ნამდვილი რაინდი და მებრძოლი. უბრალოდ ამ სამყაროს ამის დანახვა არ შეუძლია.“\n\nიმ დღის შემდეგ უფრო მეტხანს მეფიქრებოდა მასზე და მის სიტყვებზე.\n\nროდესაც ჩვიდმეტი წლის გავხდი, ახალგაზრდა გრაფთან შებრძოლებიდან ზუსტად ერთი წლის შემდეგ, ახალგაზრდა ლედი, რომელიც ახლახან ოცდაერთი წლის გამხდარიყო, ბოლოჯერ ვნახე, როდესაც ერთ-ერთ შუახნის თავადზე უნდა გაეთხოვებინათ, რაღა თქმა უნდა, პოლიტიკური და ქონებრივი მიზნებით.\n\nბოლოჯერ ვნახე იგი და ამ ამბით მან სიცოცხლე გამომასალმა... სიცოცხლეს, რომელიც უკვე ორჯერ შემინარჩუნა.\n\nჩვენი ბოლო შეხვედრის ღამე იყო.\n\nმან თავისი მახვილი იშიშვლა, მთვარის შუქზე მოელვარე, და ყველასგან უჩუმრად რაინდად მაკურთხა.\n\nარც დამსწრეები, არც მეფე, არც მატიანე, არც გრაფი, ლორდი თუ მსახური... ირგვლივ არავინ იყო. მხოლოდ ჩვენ და მთვარის შუქზე მოელვარე მისი მახვილი.\n\nცალ მუხლზე ჩაჩოქილს მახვილი ჯერ ერთ მხარზე შემახო, შემდეგ მეორეზე, და თან მისი ცრემლები ფოლადს ეხეთქებოდნენ.\n\nბევრი რამის ახსნა მინდოდა. მასთან ერთად გაქცევაც მინდოდა. უამრავი რამ მქონდა მისთვის ასახსნელი და გასამხელი — გრძნობები და ფიქრები.\n\nმაგრამ მან არ მომისმინა.\n\nროგორც კი რიტუალი დაასრულა, მაშინვე გაუჩინარდა.\n\n\nიმ დღის მერე ჩემს ქალბატონს უიშვიათესად ვნახულობდი. თუ გიგანტური ქალაქის ერთი ბოლოდან მეორეში თავისი გომბეშო მეუღლე მოაბრძანებდა ხოლმე მმართველთან შესახვედრად...\n\nდა ყოველ ჯერზე უფრო და უფრო სუსტი ჩანდა, უფრო და უფრო დაღლილი და განადგურებული. უემოციო, ნაცემიც კი... თვალებში სული აღარ ედგა და არც მესაუბრებოდა. თვალს ისე მარიდებდა, თითქოს არ ვარსებობდი.\n\nროდესაც თვრამეტი წლის შევიქენი, მმართველის პალატებში, როგორც იქნა, ათი წლის შრომისა და ტკივილის შემდეგ, ყველას თვალში შესაბამისი პატივისცემა მოვიპოვე და ახლა მწვრთნელად მაქციეს.\n\nმმართველს დიდად მოვწონდი, მის ვაჟს — არც ისე, მაგრამ ბავშვობის წყენები დავივიწყეთ და თითქოს ყველაფერი რიგზე იყო. გარდა იმისა, რომ ჩემს ქალბატონს ვერ ველეოდი.\n\nერთხელაც იგი აღარ დაბრუნდა. არც მამასთან, არც ძმასთან, არც ჩემთან...\n\nმხოლოდ ამბავი მოვიდა მასზე, რომ თურმე მოღალატე ცოლი გამომდგარა გომბეშო გრაფისთვის და იგი სიკვდილით დაუსჯია ქმარს.\n\nაქ კი მმართველი ვერაფერს გახდებოდა, რადგან ქალიშვილი უკვე მას აღარ ეკუთვნოდა და, თან, მოტანილი ამბების მიხედვით, ვის რაში სჭირდება მოღალატე, ანდა უნამუსო ცოლი თუ ქალიშვილი...\n\nახალგაზრდა ბატონმა თავისი დის გარდაცვალება ვერ გადაიტანა, რადგან იგი უზომოდ უყვარდა. არ სჯეროდა, რომ მისი და უბრალო მეძავად შერაცხეს და თავიდან მოიშორეს...\n\nთვითონ კი მამამისის სილაჩრე ამხეცრებდა, თან საკუთარი უსუსურობა თუ კანონით შებოჭილობა თრგუნავდა.\n\nიმ ღამეს ბედისწერა საკუთარ ხელში ავიღე.\n\nმე ხომ უბრალოდ მსახური ვარ... ლაქა, აჩრდილი, საკუთრება...\n\nმაგრამ დამატებული ამ ყველაფერს — მოულოდნელი საფრთხეც, რომელსაც ვერავინ ამოიცნობს.\n\nმივაშურე გომბეშო დიდგვაროვანის საბინადროებს ღამის ბნელში და მის პალატებს მივაგენი.\n\nარ მინდოდა მისი ძილში მოკვლა, ისე, როგორც გაიძვერებს სჩვევიათ.\n\nმინდოდა ეღიარებინა.\n\nმინდოდა ეთხოვა, რომ არ მომეკლა.\n\nიქნებ პატიებაც ეთხოვა...\n\nმაგრამ მე ჩემი გადაწყვეტილება უკვე მიღებული მქონდა.\n\nშეეღვიძა თუ არა, ყელთან ხანჯალი მივაბჯინე და საძინებლიდან მძევლად მოვიპარე.\n\nერთხანს ფხიზლად მჭირდებოდა, რომ მცველები არ გამომყოლოდნენ. შემდეგ კი კეფაში ჩარტყმით მოვთიშე და ცხენით მმართველის სასახლეში მივათრიე.\n\nშუა დარბაზში დავაგდე და მმართველს დავუძახე!\n\nმმართველი, მამა, ძმა და ყველა, ვინც ახლომახლო იმყოფებოდა, გამოცვივდნენ და გაოცებულები უყურებდნენ სეირს.\n\nლაჩარს ვაღიარებინე, რომ ცოლი ძალადობაში შემოაკვდა.\n\nგამწარებულს ისე მეჭირა ეს გაკოჭილი ნაბიჭვარი, რომ ვერც კი ინძრეოდა.\n\nვიცოდი, რომ მეფის კაცი იყო და ამ ქალაქის მმართველიც კი ვერ შემიწყალებდა ამ საქციელის შემდეგ.\n\nმაგრამ მე სიმართლე მაინტერესებდა.\n\nდა მხოლოდ სიმართლე.\n\nყელქვეშ ხანჯალი ისე ნელა გამოვუსვი, რომ ყველა ძარღვი სათითაოდ დახეთქილიყო და რაც შეიძლება ნელა მომკვდარიყო.\n\nმერე მისი ჯერ კიდევ მოფართხალე სხეული პირქვე დავანარცხე და ჩემს ბატონს მივუტრიალდი.\n\nახალგაზრდა ბატონი ჩემსკენ გამოექანა და ლახვარი მუცელში ჩამასო.\n\nიმ მომენტიდან აღარაფერი მახსოვს.\n\nროგორც გავიგე, ჩემი თავი გვამად გამოუცხადებიათ, ახალგაზრდა ბატონი კი გმირად შეურაცხავთ.\n\nმე მკვდრების ეტლით, სასახლის უკანა კარიდან, მთლიანად ქალაქის გარეთ გამომათრიეს...\n\nმან იცოდა, რომ ვსუნთქავდი, მაგრამ სიკვდილს არ მისცა ჩემი თავი.\n\nმამა-მთავარიც გააცურა, მეფეც და ყველა თავადიც.\n\nმას ძალიან უყვარდა საკუთარი და\n",
     "castingResource" : null,
@@ -1423,7 +1389,9 @@
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
     "cooldowns" : {
-      "compelled-duel" : 5
+      "compelled-duel" : 2,
+      "commanding-point" : 3,
+      "step-feint" : 2
     },
     "skills" : {
       "custom" : { },
@@ -1456,7 +1424,7 @@
       "hitDice" : "",
       "temporaryHitPoints" : 0,
       "deathSaveSuccesses" : 0,
-      "deathSaveFailures" : 0,
+      "deathSaveFailures" : 3,
       "inspiration" : false,
       "spellcastingAbility" : null,
       "spellSaveDc" : null,
@@ -1478,7 +1446,7 @@
     "classId" : "cleric",
     "raceId" : "tiefling",
     "level" : 6,
-    "xp" : 90,
+    "xp" : 230,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -1784,28 +1752,10 @@
     "ownerUsername" : "tatuli2002",
     "description" : "Tiefling cleric. Casts with spell slots (level 5: 4 × 1st, 3 × 2nd, 2 × 3rd), recovered on a long rest.\n\nPassives:\n• Healing Bonus: +2 HP on every healing spell she casts (the DM adds it; the app's flat healing values already use her numbers without it).\n• Passive Perception: 14\n• Passive Insight: 16\n• Passive Investigation: 9\n\nOnce per long rest: Divine Embrace.",
     "maxHitPoints" : 45,
-    "currentHitPoints" : 36,
+    "currentHitPoints" : 1,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ {
-      "effectId" : "effect-charity",
-      "name" : "charity",
-      "description" : null,
-      "remainingRounds" : 2,
-      "damagePerRound" : 0,
-      "healingPerRound" : 1,
-      "source" : "GM",
-      "expired" : false
-    }, {
-      "effectId" : "effect-missing-shoes",
-      "name" : "missing shoes",
-      "description" : null,
-      "remainingRounds" : 999,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "GM",
-      "expired" : false
-    } ],
+    "activeEffects" : [ ],
     "subclass" : "",
     "backstory" : "ორივე ტიფლინგ მშობელს მძიმე ბედი ჰქონდა და უწევდათ თავის გატანა ქურდობებით\nარსებობდა ჭორი, რომ ერთერთმა ძარცვის მსხვერპლმა ადგილობრივ ჯადოქართან\nდააწყევლინა ჩემი ოჯახი და კიდევ უფრო გააუბედურა.დედაჩემს რთული მშობიარობა\nქონდა და გავჩნდით სამი ტყუპი მე, ჩემი და და ჩემი ძმა.\n1 წელიც არ გვქონდა შესრულებული როდესაც, გარდაიცვალა ძმა გაურკვეველი\nდაავადებით, ჩემი და კი ერთ ღამეს გაქრა და მისი კვალი აღარსად გვინახავს.\nოჯახმა სულიერ და ფინანსურ წნეხს ვერ გაუძლო რამაც მამა ციხემდე მიიყვანა\nდედჩემმა კი გადაწყვიტა დავესვი ადამიანების სოფლის ისეთ ოჯახის კართან\nრომელის მიმართ ცოდვა არ ჰქონდათ ჩადენილი ეგონა, რომ მხოლოდ ამით შეეძლო\nავრიდებინე წყევლას.\nსიმართლე ვთქვა მათი სახეები აღარც მახსოვს მხოლოდ მათი რქები დედაჩემს ყურებს\nუკან ქონდა გადაწეული სპირალივით მამაჩემს კი ზემოთ ამართული თუმცა სულ\nდატეხილი ალბათ ჩემნაირი რქები ექნებოდა მისი ცხოვრების წესი, რომ არა.\nადამიანების ოჯახებისთვის აღმოვჩნდი ის ნანატრი ბავშვი, რომელსაც წლები\nთხოვდნენ ღმერს. არ ადარდებდათ არც ჩემი ფერი არც ჩემი რქები.\nჩემი ადამიანი დედა ტყავზე მუშაობს ხოლო მამაჩემი პურის მცხობელია ამიტომაც მათ\nყველა იცნობენ და პატივს სცემენ.\nმათ ხელგაშლილობა და თანაგრძნობა მასწავლეს, მამა თუ ვინმეს პურის ფული არ აქვს\nჩუქნის და გლეხებს რომლებსაც ულევი შრომისგან ფეხსაცმელები უფუჭდებათ\nდედაჩემი უფასოდ უკერავს.\nალერსში და სიკეთეში გავიზარდე, მშობლების მოპოვებული პატივის ცემით\nვსარგებლობდი და ჩემს სოფელში ყველა მეგობრულად განჭყობილი იყო ჩემს მიმართ\nთუმცა ვხვდებოდი, რომ როგორც ჩემმა მშობლებმა დაიმსახურეს სოფლის სიყვარული\nმეც რაიმე გზა უნდა მეპოვა რითიც ვიზავდი ამას. ყოველ ღამე ვლოცულობდი, რომ\nმომცემოდა ძალა რითიც შევძლებდი ხალხის დახმარებას.\nერთ ღამესაც სოფელის რამოდენიმე სახლის გაძარცვა დააპირეს ტიფლინგებმა. ღამე\nგვიანობამდე ვჩერდებოდი, რადგან ადამიანებთან შედარებით სიბნელე არ მიშლიდა\nხელს ამიტომ დავინახე, რომ სახლში შემოსული მძარცველი უკან გაიპარა ისე, რომ\nარაფერი არ წაუღია...\nამის დანახვასთან ერთად გავიგე უბნის ძაღლის კივილი გავვარდი და დავინახე, რომ\nდაშნით იყო დაჭრილი, ხელში ავიყვანე და დავიწყე ვედრება იქნებ რამით გადამერჩინა\nძაღლი ამ მომენტში ვიგრძენი, რომ რაღაც ზეციური ძალის დახმარებით, მაგიური\nენერგიით შევუხორცე ჭრილობა სასიკვდილოდ გაწირულ ცხოველს.\nამ შემთხვევამ შეცვალა ჩემი ცხოვრება. მშობლები ამის გაგებისთანავე უსიტყვოდ\nდამეხმარნენ შემესწავლა ღვთისგან ბოძებული ძალის შესახებ თუმცა სოფელის\nეკლესიაში საკმარისი ინფორმაცია არ იყო ამიტომ გადავწყვიტე ვიმოგზაურო\nქალაქებში სადაც მოვიძიებ ინფორმაციას ჩემს ხვედრზე და შევძლებ გასაჭირში მყოფ\nყველანაირი სიცოცხლის დახმარებას",
     "castingResource" : "SPELL_SLOTS",
@@ -1816,11 +1766,11 @@
     }, {
       "level" : 2,
       "max" : 3,
-      "current" : 3
+      "current" : 2
     }, {
       "level" : 3,
       "max" : 3,
-      "current" : 3
+      "current" : 2
     } ],
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
@@ -1878,7 +1828,7 @@
     "classId" : "barbarian",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 110,
+    "xp" : 290,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -2087,19 +2037,10 @@
     "ownerUsername" : "",
     "description" : "მაღალი, დაკუნთული ბარბაროსი მეომარი რომელიც არ ატარებს აბჯარს.\n\nRage (გაცოფება) არის ბარბარიანის მთავარი უნარი. ის იძლევა ძალას და გამძლეობას ბრძოლაში.\n\nროგორ ჩაირთვება\n\nჩართავ bonus action-ით, ანუ დარტყმასაც მოასწრებ იმავე სვლაში.\nგრძელდება 1 წუთი (10 რაუნდი).\nდარიუსს 5 დონეზე აქვს 3 გამოყენება, რომლებიც long rest-ზე ბრუნდება.\n\nრას იძლევა\n\nAdvantage Strength-ის შემოწმებებსა და Strength save-ებზე.\n+2 damage ყოველ ახლო ბრძოლის დარტყმაზე Strength-ით. მუშტის დარტყმაზეც მუშაობს.\nწინააღმდეგობა (resistance) bludgeoning, piercing და slashing damage-ის მიმართ. ეს ნიშნავს, რომ ამ ტიპის დაზიანებას ნახევარს იღებს.\n\nრა არ შეუძლია გაცოფებისას\n\nსპელების ჩამოგდება და კონცენტრაცია.\nმძიმე აბჯარში ვერ ჩაირთვება. დარიუსს აბჯარი არ აქვს, ამიტომ პრობლემა არ არის.\n\nროდის წყდება\n\n1 წუთის შემდეგ.\nთუ გონებას დაკარგავ.\nთუ შენი სვლის ბოლოს არავისთვის გიტევია და თავად არ დაგიზიანებიათ ბოლო სვლის შემდეგ. ამიტომ ბრძოლაში მაინც უნდა იყო აქტიური.\nშეგიძლია bonus action-ით თავადაც გამორთო.\n\nშეუიარაღებელი ხელით შეტევა მასზე ყოველთვის მოქმედებს როგორც 1d4\n\nშეუძლია მოქმედების გამოყენების გარეშე, ბონუს მოქმედებით გააკავოს მოწინააღმდეგე.",
     "maxHitPoints" : 59,
-    "currentHitPoints" : 50,
+    "currentHitPoints" : 4,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ {
-      "effectId" : "effect-missing-right-shoe",
-      "name" : "missing right shoe",
-      "description" : "",
-      "remainingRounds" : 999,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "GM",
-      "expired" : false
-    } ],
+    "activeEffects" : [ ],
     "subclass" : "",
     "backstory" : "",
     "castingResource" : null,
@@ -2160,7 +2101,7 @@
     "classId" : "artificer",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 90,
+    "xp" : 230,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -2585,33 +2526,24 @@
     "ownerUsername" : "",
     "description" : "22 years, 185 cm. Young human noble engineer of House Valebrick - curious, suspicious, heavily sarcastic, composed and educated. Carries a 32-36 kg portable field workshop on his back with a Resonance Core and a removable stationary Bolt Repeater. \"Don't ask what humans were given. Ask what we built.\"",
     "maxHitPoints" : 45,
-    "currentHitPoints" : 45,
+    "currentHitPoints" : 5,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ {
-      "effectId" : "effect-missing-right-shoe",
-      "name" : "missing right shoe",
-      "description" : "",
-      "remainingRounds" : 999,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "GM",
-      "expired" : false
-    } ],
+    "activeEffects" : [ ],
     "subclass" : "Artillerist",
     "backstory" : "Lore\nToren was born into House Valebrick, a wealthy human noble family whose influence came from engineering, foundries, workshops, bridges and machines rather than ancient magical blood. As a child he dismantled clocks, locks and mechanisms because he needed to know why they worked. His grandfather Aldren taught him one principle: \"Open it. Understand it.\"\n\nDuring the Ash Border War, Marianne Bell - the girl Toren loved - was killed in magical warfare in an industrial district. She was not the target. Since then Toren is cold toward magical power and wary of anyone who treats inherited supernatural gifts as proof of superiority. He is fiercely proud of humanity precisely because humans were not the most gifted: they built their advantages. \"Others inherited their advantages. We built ours.\"\n\nGrand Theory of Replication\nToren rejects the word \"magic\". He calls it Arcane Resonance - a natural field that can be measured, stored, transferred and stabilised. Every repeatable magical phenomenon can eventually be reproduced technologically. His key word is \"yet\". Failure response: \"Again.\"\n\nFamily\nEvelyne Valebrick (28), his elegant and politically skilled older sister. Toren understands machines; Evelyne understands people. They exchange notes through Argus, a mechanical messenger owl.\n\nSkills & tools\nSaves CON +6, INT +7. Investigation +5 (machines, traps, mechanisms only), History +3, Insight +1. Tools: Tinker's, Smith's, Thieves' (\"precision access instruments\"), Woodcarver's.\n\nEnergy charges\nInstead of spell slots Toren spends energy capsules: Steam-pressure (L1) and Thermal (L2) for now, Electric and beyond after upgrades. He refills them at the workshop's Resonance Core furnace, which burns any fuel - some more efficiently than others. Rests do not refill them.\n\nValebrick Portable Field Workshop\n~80 x 45 x 30 cm, 32-36 kg, reinforced harness. Drivers, hammers, files, calipers, clamps, resonance testers, wire, plates, ammunition parts, sealed blueprint tubes, a compact hardened-steel anvil and a small forge chamber. Full deployment into a workbench takes 30-60 seconds outside combat. Heavy and awkward in tight spaces or water.\n\nValebrick Resonance Core\nA refined arcane-reactive crystal in a brass stabilisation cage with rotating rings, conductors and regulators. Failure signs: vibration, unstable tone, heat, misaligned rings, blue arcing. A cracked or overcharged core can discharge violently.\n\nBolt Repeater\nStationary single-barrel turret (Eldritch Cannon - Force Ballista). Deploy: action. Fire: bonus action, d20 + ammunition bonus, 30 m, 2d6 force, push 5 ft. AC 8, HP 12, Mending restores 1d6. Takes different ammunition types.\n\nCombat Fabrication (DM-approved homebrew)\n3 per long rest from prepared parts: Emergency Patch, Quick Cover, Special Charge. No permanent weapons, armor or major machines during combat.\n\nDM additions\nIn the storage world he finds a metal bracer covering his left forearm that unfolds into a 25 cm-radius light round shield: it stops projectiles and light weapons but, being so light, does not absorb blunt attacks (Valebrick Folding Bracer).",
     "castingResource" : "ENERGY_CHARGES",
     "spellSlots" : [ {
       "level" : 1,
       "max" : 4,
-      "current" : 4
+      "current" : 2
     }, {
       "level" : 2,
       "max" : 2,
-      "current" : 2
+      "current" : 1
     } ],
     "knownBlueprints" : [ "bp-smoke-canister", "bp-tripwire-alarm", "bp-grapnel-launcher", "bp-sticky-foam", "bp-messenger-beetle", "bp-thermal-smoke-grenade", "bp-scalding-bolts", "bp-flash-bomb", "bp-steam-jet-gauntlet", "bp-thermal-grenade", "bp-pressure-ram", "bp-steam-capsule", "bp-thermal-capsule" ],
-    "furnaceFuel" : 2,
+    "furnaceFuel" : 3,
     "cooldowns" : { },
     "skills" : {
       "custom" : { },
@@ -2668,7 +2600,7 @@
     "classId" : "wizard",
     "raceId" : "elf",
     "level" : 6,
-    "xp" : 130,
+    "xp" : 230,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -2962,7 +2894,7 @@
     "ownerUsername" : "",
     "description" : "**Goal:** Find his elven kin and learn where he comes from.\n\n **Weakness:** He gets absorbed in whatever he is doing and neglects rest, leaving himself exhausted and his magic unreliable.\n\n **Alignment: Neutral Good.** He generally follows the law and respects sensible rules, but helping people matters more to him than obeying every instruction. If the proper route fails, he is willing to take a shortcut—and feel slightly guilty about it afterward.",
     "maxHitPoints" : 38,
-    "currentHitPoints" : 32,
+    "currentHitPoints" : 38,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ ],
@@ -2976,7 +2908,7 @@
     }, {
       "level" : 2,
       "max" : 3,
-      "current" : 2
+      "current" : 3
     }, {
       "level" : 3,
       "max" : 3,
@@ -3038,7 +2970,7 @@
     "classId" : "rogue",
     "raceId" : "lightfoot-halfling",
     "level" : 6,
-    "xp" : 30,
+    "xp" : 240,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -3390,19 +3322,10 @@
     "ownerUsername" : "",
     "description" : "Neri \"Ratboy\" Venn (R-17) - Lightfoot halfling (rat-like), Rogue 5 (Arcane Trickster)\n\n. Passive Perception 15.\nProficiencies: light armour; simple weapons, hand crossbows, longswords, rapiers, shortswords; thieves' tools, disguise kit, forgery kit. Languages: Common, Halfling, Thieves' Cant.\n\nAttacks: Dagger +5, 1d4+2 piercing (thrown 6/18 m). Shortbow +5, 1d6+2 piercing (24/96 m).\nSpellcasting (INT): save DC 13, spell attack +5, three 1st-level slots.\n- Cantrips: Mage Hand, Minor Illusion, Frost Card (Ray of Frost - he throws a frozen playing card: +5 to hit, 2d8 cold at level 5, 18 m, target -3 m speed).\n- 1st level: Shield, Disguise Self, Silent Image (concentration), Charm Person.\n\nFeatures:\n- Sneak Attack 3d6 - once per turn, finesse or ranged weapon, with advantage or an ally next to the target.\n- Cunning Action - Dash, Disengage or Hide as a bonus action.\n- Uncanny Dodge - reaction, halve the damage of one attack he can see.\n- Mage Hand Legerdemain - invisible Mage Hand; can plant, lift and pick locks with it; bonus action to control.\n- Lucky - reroll a natural 1 on an attack, check or save.\n- Brave - advantage on saves against being frightened.\n- Halfling Nimbleness - moves through the space of anything larger than him.\n- Naturally Stealthy - can hide behind a creature at least one size larger.\n- Second Breakfast - if he eats during a short rest, he regains an extra 1d4 + 5 HP.\n\n",
     "maxHitPoints" : 27,
-    "currentHitPoints" : 22,
+    "currentHitPoints" : 2,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ {
-      "effectId" : "blinded",
-      "name" : "Blinded",
-      "description" : "Cannot see; automatically fails sight-based checks and attacks at disadvantage.",
-      "remainingRounds" : 1,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Toren Valebrick's Smoke Canister",
-      "expired" : false
-    } ],
+    "activeEffects" : [ ],
     "subclass" : "Arcane Trickster",
     "backstory" : "Escaped Subject. Neri does not remember a time before the laboratory - only the number R-17, the sound of the cage latch, and the doctors writing down how he laughed when they hurt him. Somewhere in there the graft took: gray fur, big ears, a thin tail he still tries to hide in his coat.\n\nHe got out through a laundry chute with a blue bead in his cheek, half of a key and a page torn from his own file. He never found the door the key belongs to. He keeps it anyway.\n\nHe jokes when he is scared, which is most of the time. He is loyal to whoever does not put him in a box. He hides his pain well enough that people forget it is there.\n\nLatch - sometimes a second, flatter voice answers for him. Neri calls it Latch. It is roleplay only: no mechanics, just the part of him that still counts the bars.\n\nContact: Moss, a courier who smuggled him his first deck of cards and asks no questions.\nHook: a shipment stamped with the laboratory seal (a closed eye inside a flask) is on its way to a riverside hospice. Neri wants to know what - or who - is inside.\n\nKeepsakes: a blue glass bead, a broken key, the lab record.",
     "castingResource" : null,
@@ -3467,7 +3390,7 @@
     "classId" : "warlock",
     "raceId" : "sinne-shapeshifter",
     "level" : 6,
-    "xp" : 110,
+    "xp" : 250,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -3723,47 +3646,20 @@
     "passwordSalt" : "a52f86319a7b86f45d27e429a7c11bfe",
     "imagePath" : "images/players/player-sinne.png",
     "playerName" : "Mariami",
-    "ownerUsername" : "",
+    "ownerUsername" : "sinne",
     "description" : "",
     "maxHitPoints" : 50,
-    "currentHitPoints" : 50,
+    "currentHitPoints" : 10,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ {
-      "effectId" : "entangled",
-      "name" : "Entangled",
-      "description" : "Roots, webs, or vines hold the target fast.",
-      "remainingRounds" : 1,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Silvan's Entangle",
-      "expired" : false
-    }, {
-      "effectId" : "restrained",
-      "name" : "Restrained",
-      "description" : "Speed is zero, attacks are made at disadvantage, and dexterity saves suffer.",
-      "remainingRounds" : 1,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "Silvan's Entangle",
-      "expired" : false
-    }, {
-      "effectId" : "effect-missing-right-shoe",
-      "name" : "missing right shoe",
-      "description" : "",
-      "remainingRounds" : 999,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "GM",
-      "expired" : false
-    } ],
+    "activeEffects" : [ ],
     "subclass" : "The Great Old One",
     "backstory" : "ამნეზია აქვს, თუმცა ეს დიდად არ აწუხებს, სხვებს დიდად არ ენდობა. \nchaotic neutral\nსისუსტე: Can I pet the dawg? - აქვს disadvantage on perception checks, she's oblivious to dangers\nძლიერი მხარე: კარგი მატყუარაა.\nმისია:  ცდილობს გაიგოს ვინაა, აღიდგნოს დაკარგული მოგონებები",
     "castingResource" : null,
     "spellSlots" : [ {
       "level" : 3,
       "max" : 2,
-      "current" : 0
+      "current" : 2
     } ],
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
@@ -3821,7 +3717,7 @@
     "classId" : "rogue",
     "raceId" : "wood-elf",
     "level" : 6,
-    "xp" : 90,
+    "xp" : 230,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -4080,7 +3976,7 @@
     "ownerUsername" : "NiBa",
     "description" : "მამრი ტყის ელფი; სიმაღლე 1.84 მ. მუქი, არეული თმა, დაკვირვებული მზერა და გაცვეთილი ტყავის აბჯარი. ხელში დედის ორი ხანჯალი, ზურგზე მამის მოკლე მშვილდი.\n\nჩუმი დუელისტი: ჯერ აკვირდება ნაბიჯს, სუნთქვასა და წონასწორობას, შემდეგ ახლო მანძილზე ჭრის და პოზიციას იცვლის. არ იყენებს მაგიას, ცეცხლსასროლ იარაღს ან ილუზიებს. მისი მაღალი Charisma მშვიდ თავდაჯერებასა და მკაფიო ნებას აღნიშნავს, არა მხიარულებას.\n\nიშვიათად გრძნობს იმას, რასაც სხვები; ეს პიროვნული თავისებურებაა და არა ემოციების სრული არქონა ან შიშისგან იმუნიტეტი.",
     "maxHitPoints" : 37,
-    "currentHitPoints" : 32,
+    "currentHitPoints" : 7,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ ],
@@ -4091,12 +3987,7 @@
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
     "cooldowns" : {
-      "strength" : 0,
-      "dexterity" : 0,
-      "constitution" : 0,
-      "intelligence" : 0,
-      "wisdom" : 0,
-      "charisma" : 0
+      "three-fast-stabs" : 3
     },
     "skills" : {
       "custom" : { },
@@ -4162,7 +4053,7 @@
     "classId" : "fighter",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 30,
+    "xp" : 130,
     "upgrades" : {
       "earned" : 1,
       "unlocks" : [ {
@@ -4295,19 +4186,10 @@
     "ownerUsername" : "",
     "description" : "ურიელი — ადამიანთა მოხეტიალე მებრძოლი, Champion. მუქი, კეფაზე დაგრძელებული თმა; სახეზე ძველი ნაიარევები; შავი, ვერცხლისფერი სამაგრებით გამაგრებული ტყავი და გაცვეთილი წითელი მოსასხამი. სურათი გარეგნობის მითითებაა: მძიმე ფირფიტოვანი აბჯრის ბონუსს არ იძლევა. ატარებს მამის წვრილ ხმალს. დგას ისე, რომ ყოველთვის რჩებოდეს ერთი თავისუფალი ნაბიჯი.\n\nბრძოლის სტილი: სწრაფი ფეხები, ზუსტი წვერი და მოკლე კომბინაციები. ლავენოსისგან განსხვავებით, არ მართავს superiority dice-სა და მანევრების სიას. მისი განსაკუთრებული ღირებულება არის გადაადგილება, უსაფრთხო პოზიციის შენარჩუნება და გარემოს გამოყენება.",
     "maxHitPoints" : 52,
-    "currentHitPoints" : 48,
+    "currentHitPoints" : 52,
     "maxMana" : 0,
     "currentMana" : 0,
-    "activeEffects" : [ {
-      "effectId" : "effect-missing-shoes",
-      "name" : "missing shoes",
-      "description" : "",
-      "remainingRounds" : 999,
-      "damagePerRound" : 0,
-      "healingPerRound" : 0,
-      "source" : "GM",
-      "expired" : false
-    } ],
+    "activeEffects" : [ ],
     "subclass" : "Champion",
     "backstory" : "ურიელი პატარა სამეფო სოფელში გაიზარდა. მამამისი სამეფო მცველთა რაზმის მეთაური იყო, თუმცა შინ წოდებაზე იშვიათად ლაპარაკობდა. ვარჯიშისას ვაჟს ძალაზე მეტად ფეხებს უსწორებდა: „ხმალი იქ მიგიყვანს, სადაც ფეხები უკვე დაგაგვიანდა.“ ურიელი მძიმე დარტყმებს ვერ ეჯიბრებოდა; სამაგიეროდ, წინასწარ ამჩნევდა, სად გაიხსნებოდა გასასვლელი.\n\nცხრამეტი წლისას მის სოფელს შავი რაინდების არმია დაესხა თავს. ბრძოლის ხმაურში დაიკარგა ოჯახი, სახლი და წარმოდგენა, რომ სამეფოს ნიშნიანი ფარი ყოველთვის დაცვას ნიშნავდა. ურიელი გადარჩა, მაგრამ ოჯახი დაკარგა. დამწვარი სახლის ნანგრევებში მამის ძველი ხმალი იპოვა. ჭვარტლის ქვეშ წარწერა რჩებოდა:\n\n„ყველაზე ძლიერი ის არ არის, ვინც ყველაზე ძლიერად ურტყამს, არამედ ის, ვინც არასდროს კარგავს მოძრაობის უნარს.“\n\nწლების განმავლობაში მოხეტიალედ ცხოვრობდა. ხან ქარავანს აცილებდა, ხან დანგრეული ხიდის მეორე მხარეს დარჩენილ ადამიანს ეხმარებოდა. მოძრაობა მისთვის აღარ იყო მხოლოდ თავის გადარჩენა: თუ გასასვლელი შენ იპოვე, სხვასაც უნდა აჩვენო. შავ რაინდებს ეძებდა, მაგრამ ყოველი შავი აბჯარი ერთსა და იმავე დამნაშავედ აღარ უნდა ჩაეთვალა — ეს ის გაკვეთილია, რომელსაც ჯერ კიდევ სწავლობს.\n\nინვენტარის სამყაროში ურიელი დაკარგულმა გზამ მოიყვანა. საოცრებათა ქვეყანაში მოხვედრილი, ძველ საწყობში პატარა კაცს წააწყდა, რომელიც უცხო ქუდში სხვის ნივთებს ჰყრიდა. ურიელს მამის ხმალი გამოსტაცეს და ქუდში ჩააგდეს. მან სახელურს ხელი ჩაავლო, მაგრამ იატაკი აღარ დახვდა. ხმალთან ერთად დაკარგულ ნივთებში ჩავარდა.\n\nხმალი დაიბრუნა. გასასვლელი — ვერა. აქ დრო ყველგან ერთნაირად არ გადის: რამდენი დღე გაატარა, ზუსტად აღარ იცის. ადგილობრივი ნიშნები ისწავლა, დაკარგულთა საწყობს ნივთების დალაგებაში დაეხმარა და ცარიელ თაროებს შორის ძილის უსაფრთხო ადგილი იპოვა. კოშკში მარტო შესვლა სცადა, მაგრამ მბრუნავი საათების ხმამ უკან დაახევინა. ახლა იმათ ელოდება, ვისთან ერთადაც უკანასკნელ მონაკვეთს გაივლის. კურდღლის გეგმები, ჩეშირის ბედი და ამ სამყაროს წარმოშობის საიდუმლო არ იცის.\n\nმისი პირველი სიტყვები ახალმოსულებთან: „არ გაინძრეთ. ჯერ მითხარით — მარჯვენა ფეხსაცმელი ვის გაქვთ ზედმეტი?“",
     "castingResource" : null,
@@ -4368,7 +4250,7 @@
     "classId" : "shieldwright",
     "raceId" : "human",
     "level" : 6,
-    "xp" : 0,
+    "xp" : 100,
     "upgrades" : {
       "earned" : 5,
       "unlocks" : [ {
@@ -4678,7 +4560,7 @@
     "ownerUsername" : "",
     "description" : "გარე წრის მჭედლის შეგირდი. მახვილის ნაცვლად შვიდი ხელნაკეთი ფარით იბრძვის.",
     "maxHitPoints" : 52,
-    "currentHitPoints" : 52,
+    "currentHitPoints" : 12,
     "maxMana" : 0,
     "currentMana" : 0,
     "activeEffects" : [ ],
@@ -4688,14 +4570,7 @@
     "spellSlots" : [ ],
     "knownBlueprints" : [ ],
     "furnaceFuel" : 0,
-    "cooldowns" : {
-      "strength" : 0,
-      "dexterity" : 0,
-      "constitution" : 0,
-      "intelligence" : 0,
-      "wisdom" : 0,
-      "charisma" : 0
-    },
+    "cooldowns" : { },
     "skills" : {
       "custom" : { },
       "acrobatics" : 5,
@@ -4735,7 +4610,7 @@
       "copper" : 0,
       "silver" : 0,
       "electrum" : 0,
-      "gold" : null,
+      "gold" : 0,
       "platinum" : 0,
       "extraAttacks" : [ {
         "name" : "ფარის დარტყმა (5 ft)",
@@ -4750,270 +4625,218 @@
       "extraFeatures" : "",
       "notes" : "სრული / ნაწილობრივი / უფარო სიჩქარე: 25 / 30 / 35 ფუტი. საწყისი ფარები აღჭურვილობის ნაგულისხმევი მდგომარეობაა; შემოსვლის სცენაში GM განსაზღვრავს, როდის იპოვი მათ. AC ითვლის მონიშნულ აღჭურვილობას; სახვევები დატოვე აღჭურვილად."
     },
-    "featureUses" : {
-      "strength" : 0,
-      "dexterity" : 0,
-      "constitution" : 0,
-      "intelligence" : 0,
-      "wisdom" : 0,
-      "charisma" : 0
-    }
-  },
-    {
-      "id": "player-durin-ironstitch",
-      "name": "Durin the Ironstitch",
-      "classId": "sorcerer",
-      "raceId": "dwarf",
-      "subclass": "Biohacker",
-      "level": 6,
-      "stats": {
-        "strength": 8,
-        "dexterity": 15,
-        "constitution": 15,
-        "intelligence": 8,
-        "wisdom": 8,
-        "charisma": 15
+    "featureUses" : { }
+  }, {
+    "id" : "player-durin-ironstitch",
+    "name" : "Durin the Ironstitch",
+    "classId" : "sorcerer",
+    "raceId" : "dwarf",
+    "subclass" : "Biohacker",
+    "level" : 6,
+    "stats" : {
+      "strength" : 8,
+      "dexterity" : 15,
+      "constitution" : 15,
+      "intelligence" : 8,
+      "wisdom" : 8,
+      "charisma" : 15
+    },
+    "maxHitPoints" : 38,
+    "currentHitPoints" : 38,
+    "maxMana" : 10,
+    "currentMana" : 10,
+    "castingResource" : "MANA",
+    "imagePath" : "images/players/player-durin-ironstitch.jpg",
+    "description" : "დურინი დაბალი, ფართომხრებიანი ჯუჯაა. გრძელი, მოწითალო-წაბლისფერი თმა ზურგზე ერთ ნაწნავად ჩამოუშვია, იმავე ფერის გრძელი წვერი კი ორ ნაწნავად აქვს შეკრული. სახის მარცხენა მხარეს საშინელი ძველი ჭრილობის ნაწიბური მოუჩანს. ნაწიბურის დიდ ნაწილს რკინის იმპლანტი {Iron Implant} ფარავს: რკინა ლოყასა და ყბაშია შეზრდილი და უკვე სხეულის ნაწილია, არა ნიღაბი. პირველი, რასაც დაჭრილები მასში ამჩნევენ, ხშირად მაინც მისი კეთილი ღიმილია. აცვია სადა თეთრი პერანგი და მძიმე ტყავის ქამარი, რომელზეც მისი სამუშაო იარაღები კიდია.\n\nჯიუტია და კარგი სასმელი უყვარს. კამათში ბოლო სიტყვას იშვიათად თმობს, მაგრამ დაჭრილთან მოთმინება არ ელევა. მშვიდ საღამოს კარგ ალს {Ale} სიამოვნებით სვამს და სანამ სხვას სადღეგრძელოს ეტყვის, მოსმენას ამჯობინებს.",
+    "backstory" : "ყოფილი საველე მკურნალი {Field Medic}. ბრძოლის ველზე მშვიდია, სუფრასთან კი ხუმარა. ერთხელ დაჭრილი მტრის ოფიცერი გადაარჩინა. რამდენიმე კვირის შემდეგ იმ ოფიცრის ბრძანებით სამედიცინო ქარავანს თავს დაესხნენ. ქარავანს მისი შეგირდი, მირა, მიჰყვებოდა. მისი ცხედარი არ უპოვიათ.\n\nმირას სპილენძის ღილი {Mira’s Copper Button}. თავდასხმის შემდეგ დურინმა სამედიცინო ქარავნის ნამსხვრევებში შეგირდის სამოსიდან მოწყვეტილი ღილი იპოვა. ზედ სამი მრუდე ხაზი აქვს ამოკაწრული — მირა ასე ნიშნავდა საკუთარ ნივთებს, რომ კარავში სხვისაში არ არეოდა. დურინმა ღილი თეთრი პერანგის შიგნიდან მიაკერა. მირას ცხედარი ვერ იპოვეს; ღილი მხოლოდ იმას ადასტურებს, რომ ის იქ იყო.\n\nქარავნის ძველ სიაში მირას სახელთან თავდასხმის შემდეგ ვიღაცას დაუწერია: „გადაყვანილია“.\n\nდურინი ადამიანის პულსს უკეთ კითხულობს, ვიდრე მის განზრახვას. ზოგჯერ ნერვიულობას ტყუილად აღიქვამს.",
+    "items" : [ {
+      "itemId" : "durin-oathstaff",
+      "condition" : {
+        "durability" : 100
       },
-      "maxHitPoints": 38,
-      "currentHitPoints": 38,
-      "maxMana": 10,
-      "currentMana": 10,
-      "castingResource": "MANA",
-      "imagePath": "images/players/player-durin-ironstitch.jpg",
-      "description": "დურინი დაბალი, ფართომხრებიანი ჯუჯაა. გრძელი, მოწითალო-წაბლისფერი თმა ზურგზე ერთ ნაწნავად ჩამოუშვია, იმავე ფერის გრძელი წვერი კი ორ ნაწნავად აქვს შეკრული. სახის მარცხენა მხარეს საშინელი ძველი ჭრილობის ნაწიბური მოუჩანს. ნაწიბურის დიდ ნაწილს რკინის იმპლანტი {Iron Implant} ფარავს: რკინა ლოყასა და ყბაშია შეზრდილი და უკვე სხეულის ნაწილია, არა ნიღაბი. პირველი, რასაც დაჭრილები მასში ამჩნევენ, ხშირად მაინც მისი კეთილი ღიმილია. აცვია სადა თეთრი პერანგი და მძიმე ტყავის ქამარი, რომელზეც მისი სამუშაო იარაღები კიდია.\n\nჯიუტია და კარგი სასმელი უყვარს. კამათში ბოლო სიტყვას იშვიათად თმობს, მაგრამ დაჭრილთან მოთმინება არ ელევა. მშვიდ საღამოს კარგ ალს {Ale} სიამოვნებით სვამს და სანამ სხვას სადღეგრძელოს ეტყვის, მოსმენას ამჯობინებს.",
-      "backstory": "ყოფილი საველე მკურნალი {Field Medic}. ბრძოლის ველზე მშვიდია, სუფრასთან კი ხუმარა. ერთხელ დაჭრილი მტრის ოფიცერი გადაარჩინა. რამდენიმე კვირის შემდეგ იმ ოფიცრის ბრძანებით სამედიცინო ქარავანს თავს დაესხნენ. ქარავანს მისი შეგირდი, მირა, მიჰყვებოდა. მისი ცხედარი არ უპოვიათ.\n\nმირას სპილენძის ღილი {Mira’s Copper Button}. თავდასხმის შემდეგ დურინმა სამედიცინო ქარავნის ნამსხვრევებში შეგირდის სამოსიდან მოწყვეტილი ღილი იპოვა. ზედ სამი მრუდე ხაზი აქვს ამოკაწრული — მირა ასე ნიშნავდა საკუთარ ნივთებს, რომ კარავში სხვისაში არ არეოდა. დურინმა ღილი თეთრი პერანგის შიგნიდან მიაკერა. მირას ცხედარი ვერ იპოვეს; ღილი მხოლოდ იმას ადასტურებს, რომ ის იქ იყო.\n\nქარავნის ძველ სიაში მირას სახელთან თავდასხმის შემდეგ ვიღაცას დაუწერია: „გადაყვანილია“.\n\nდურინი ადამიანის პულსს უკეთ კითხულობს, ვიდრე მის განზრახვას. ზოგჯერ ნერვიულობას ტყუილად აღიქვამს.",
-      "items": [
-        {
-          "itemId": "durin-oathstaff",
-          "condition": {
-            "durability": 100
-          },
-          "quantity": 1,
-          "equipped": true
-        },
-        {
-          "itemId": "durin-darts",
-          "condition": {
-            "durability": 100
-          },
-          "quantity": 20,
-          "equipped": false
-        },
-        {
-          "itemId": "durin-field-pack",
-          "condition": {
-            "durability": 100
-          },
-          "quantity": 1,
-          "equipped": false
-        },
-        {
-          "itemId": "durin-tool-belt",
-          "condition": {
-            "durability": 100
-          },
-          "quantity": 1,
-          "equipped": true
-        },
-        {
-          "itemId": "durin-mira-button",
-          "condition": {
-            "durability": 100
-          },
-          "quantity": 1,
-          "equipped": false
-        },
-        {
-          "itemId": "healers-kit",
-          "condition": {
-            "durability": 100
-          },
-          "quantity": 1,
-          "equipped": false
-        },
-        {
-          "itemId": "simple-clothes",
-          "condition": {
-            "durability": 100
-          },
-          "quantity": 1,
-          "equipped": true
-        }
-      ],
-      "spells": [
-        {
-          "spellId": "biohacker-backdraft",
-          "rank": 1,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-split-allegiance",
-          "rank": 3,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-diarrhea",
-          "rank": 1,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-cataract",
-          "rank": 2,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-reflex-roulette",
-          "rank": 2,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-rogue-bloom",
-          "rank": 3,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-broken-pattern",
-          "rank": 2,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-switched-sides",
-          "rank": 3,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-auto-brewery",
-          "rank": 3,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-lost-waypoint",
-          "rank": 2,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-wrong-scale",
-          "rank": 2,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-absent-self",
-          "rank": 2,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-mutinous-hand",
-          "rank": 3,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-faceless-formation",
-          "rank": 1,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-borrowed-weight",
-          "rank": 3,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-white-flash",
-          "rank": 1,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-sudden-snap",
-          "rank": 2,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-rolling-stone",
-          "rank": 2,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-sugar-crash",
-          "rank": 2,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-cold-snap",
-          "rank": 3,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-missed-beat",
-          "rank": 4,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-surge-step",
-          "rank": 1,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-rescue-reflex",
-          "rank": 2,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-brace-reflex",
-          "rank": 2,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-knit-wound",
-          "rank": 2,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-emergency-rhythm",
-          "rank": 3,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-steady-signal",
-          "rank": 2,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-pulse-read",
-          "rank": 1,
-          "active": true
-        },
-        {
-          "spellId": "biohacker-meditate",
-          "rank": 0,
-          "active": true
-        }
-      ],
-      "skills": {
-        "medicine": 5
+      "quantity" : 1,
+      "equipped" : true
+    }, {
+      "itemId" : "durin-darts",
+      "condition" : {
+        "durability" : 100
       },
-      "sheet": {
-        "armorClass": 12,
-        "speed": 30,
-        "proficiencyBonus": 3,
-        "spellcastingAbility": "cha",
-        "spellSaveDc": 13,
-        "spellAttackBonus": 5,
-        "savingThrowProficiencies": [
-          "con",
-          "cha"
-        ],
-        "notes": "დურინ რკინისნაკერი {Durin the Ironstitch}\n\n„სიცოცხლეს განზრახ არ წავართმევ. ვინც იარაღს დაყრის, ჩემი პაციენტია — თუნდაც წამით ადრე მტერი ყოფილიყო.“\n\nბრძოლაში საკუთარი სვლის დასაწყისში ხელით აღიდგინე 1 მანა, მიმდინარე მაქსიმუმის გადაჭარბების გარეშე. ხანგრძლივი დასვენების შემდეგ მანა სრულად აღდგება."
+      "quantity" : 20,
+      "equipped" : false
+    }, {
+      "itemId" : "durin-field-pack",
+      "condition" : {
+        "durability" : 100
       },
-      "personalFeatures": [
-        {
-          "name": "ბიოჰაკერი {Biohacker} — მანის აღდგენა",
-          "level": 6,
-          "description": "ბრძოლაში საკუთარი სვლის დასაწყისში ხელით აღიდგინე 1 მანა, მიმდინარე მაქსიმუმის გადაჭარბების გარეშე. ხანგრძლივი დასვენების შემდეგ მანა სრულად აღდგება."
-        },
-        {
-          "name": "ექიმის ფიცი {Doctor’s Oath}",
-          "level": 6,
-          "description": "„სიცოცხლეს განზრახ არ წავართმევ. ვინც იარაღს დაყრის, ჩემი პაციენტია — თუნდაც წამით ადრე მტერი ყოფილიყო.“"
-        }
-      ]
+      "quantity" : 1,
+      "equipped" : false
+    }, {
+      "itemId" : "durin-tool-belt",
+      "condition" : {
+        "durability" : 100
+      },
+      "quantity" : 1,
+      "equipped" : true
+    }, {
+      "itemId" : "durin-mira-button",
+      "condition" : {
+        "durability" : 100
+      },
+      "quantity" : 1,
+      "equipped" : false
+    }, {
+      "itemId" : "healers-kit",
+      "condition" : {
+        "durability" : 100
+      },
+      "quantity" : 1,
+      "equipped" : false
+    }, {
+      "itemId" : "simple-clothes",
+      "condition" : {
+        "durability" : 100
+      },
+      "quantity" : 1,
+      "equipped" : true
+    } ],
+    "spells" : [ {
+      "spellId" : "biohacker-backdraft",
+      "rank" : 1,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-split-allegiance",
+      "rank" : 3,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-diarrhea",
+      "rank" : 1,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-cataract",
+      "rank" : 2,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-reflex-roulette",
+      "rank" : 2,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-rogue-bloom",
+      "rank" : 3,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-broken-pattern",
+      "rank" : 2,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-switched-sides",
+      "rank" : 3,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-auto-brewery",
+      "rank" : 3,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-lost-waypoint",
+      "rank" : 2,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-wrong-scale",
+      "rank" : 2,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-absent-self",
+      "rank" : 2,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-mutinous-hand",
+      "rank" : 3,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-faceless-formation",
+      "rank" : 1,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-borrowed-weight",
+      "rank" : 3,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-white-flash",
+      "rank" : 1,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-sudden-snap",
+      "rank" : 2,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-rolling-stone",
+      "rank" : 2,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-sugar-crash",
+      "rank" : 2,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-cold-snap",
+      "rank" : 3,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-missed-beat",
+      "rank" : 4,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-surge-step",
+      "rank" : 1,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-rescue-reflex",
+      "rank" : 2,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-brace-reflex",
+      "rank" : 2,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-knit-wound",
+      "rank" : 2,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-emergency-rhythm",
+      "rank" : 3,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-steady-signal",
+      "rank" : 2,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-pulse-read",
+      "rank" : 1,
+      "active" : true
+    }, {
+      "spellId" : "biohacker-meditate",
+      "rank" : 0,
+      "active" : true
+    } ],
+    "skills" : {
+      "medicine" : 5
+    },
+    "sheet" : {
+      "armorClass" : 12,
+      "speed" : 30,
+      "proficiencyBonus" : 3,
+      "spellcastingAbility" : "cha",
+      "spellSaveDc" : 13,
+      "spellAttackBonus" : 5,
+      "savingThrowProficiencies" : [ "con", "cha" ],
+      "notes" : "დურინ რკინისნაკერი {Durin the Ironstitch}\n\n„სიცოცხლეს განზრახ არ წავართმევ. ვინც იარაღს დაყრის, ჩემი პაციენტია — თუნდაც წამით ადრე მტერი ყოფილიყო.“\n\nბრძოლაში საკუთარი სვლის დასაწყისში ხელით აღიდგინე 1 მანა, მიმდინარე მაქსიმუმის გადაჭარბების გარეშე. ხანგრძლივი დასვენების შემდეგ მანა სრულად აღდგება."
+    },
+    "personalFeatures" : [ {
+      "name" : "ბიოჰაკერი {Biohacker} — მანის აღდგენა",
+      "level" : 6,
+      "description" : "ბრძოლაში საკუთარი სვლის დასაწყისში ხელით აღიდგინე 1 მანა, მიმდინარე მაქსიმუმის გადაჭარბების გარეშე. ხანგრძლივი დასვენების შემდეგ მანა სრულად აღდგება."
+    }, {
+      "name" : "ექიმის ფიცი {Doctor’s Oath}",
+      "level" : 6,
+      "description" : "„სიცოცხლეს განზრახ არ წავართმევ. ვინც იარაღს დაყრის, ჩემი პაციენტია — თუნდაც წამით ადრე მტერი ყოფილიყო.“"
     } ]
+  } ]
 }

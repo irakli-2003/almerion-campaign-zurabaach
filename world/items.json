@@ -4514,7 +4514,7 @@
   }, {
     "id" : "item-mirror-shard",
     "name" : "mirror shard",
-    "type" : "gear",
+    "type" : null,
     "description" : "broken mirror shard",
     "valueGold" : 0,
     "weight" : 0.0,
@@ -4529,149 +4529,222 @@
     "pickable" : false,
     "imagePath" : null,
     "overview" : ""
-  },
-    {
-      "id": "harness-core",
-      "name": "ჯავშანფარი — კორპუსი",
-      "type": "armor",
-      "description": "თავზე, ზურგსა და მკერდზე დამაგრებული სამი ფარი ერთი სატარებელი კვანძია. ერთად იძლევა +4 AC-ს; სხვა ტანის აბჯარს არ ემატება.",
-      "armorClassBonus": 4,
-      "valueGold": 0,
-      "weight": 18,
-      "pickable": true,
-      "durability": {
-        "max": 100,
-        "current": 100
-      }
+  }, {
+    "id" : "harness-core",
+    "name" : "ჯავშანფარი — კორპუსი",
+    "type" : null,
+    "description" : "თავზე, ზურგსა და მკერდზე დამაგრებული სამი ფარი ერთი სატარებელი კვანძია. ერთად იძლევა +4 AC-ს; სხვა ტანის აბჯარს არ ემატება.",
+    "valueGold" : 0,
+    "weight" : 18.0,
+    "damage" : null,
+    "durability" : {
+      "max" : 100,
+      "current" : 100
     },
-    {
-      "id": "harness-knees",
-      "name": "ჯავშანფარი — სამუხლე წყვილი",
-      "type": "armor",
-      "description": "ორი მომრგვალებული ფირფიტა მუხლებს ფარავს. AC-ს არ მატებს. ორივე საჭიროა დაბალი გასრიალებისთვის.",
-      "armorClassBonus": 0,
-      "valueGold": 0,
-      "weight": 4,
-      "pickable": true,
-      "durability": {
-        "max": 100,
-        "current": 100
-      }
+    "pickable" : true,
+    "imagePath" : null,
+    "overview" : null
+  }, {
+    "id" : "harness-knees",
+    "name" : "ჯავშანფარი — სამუხლე წყვილი",
+    "type" : null,
+    "description" : "ორი მომრგვალებული ფირფიტა მუხლებს ფარავს. AC-ს არ მატებს. ორივე საჭიროა დაბალი გასრიალებისთვის.",
+    "valueGold" : 0,
+    "weight" : 4.0,
+    "damage" : null,
+    "durability" : {
+      "max" : 100,
+      "current" : 100
     },
-    {
-      "id": "harness-shield-right",
-      "name": "ჯავშანფარი — მარჯვენა ფარი",
-      "type": "armor",
-      "description": "მომრგვალებული ხის ფარი ლითონის არშიით. ამ ხელში სხვა ნივთს ვერ დაიჭერ. ხელის ფარების +2 AC ერთმანეთს არ ემატება.",
-      "armorClassBonus": 2,
-      "valueGold": 0,
-      "weight": 5,
-      "pickable": true,
-      "durability": {
-        "max": 100,
-        "current": 100
-      }
+    "pickable" : true,
+    "imagePath" : null,
+    "overview" : null
+  }, {
+    "id" : "harness-shield-right",
+    "name" : "ჯავშანფარი — მარჯვენა ფარი",
+    "type" : null,
+    "description" : "მომრგვალებული ხის ფარი ლითონის არშიით. ამ ხელში სხვა ნივთს ვერ დაიჭერ. ხელის ფარების +2 AC ერთმანეთს არ ემატება.",
+    "valueGold" : 0,
+    "weight" : 5.0,
+    "damage" : null,
+    "durability" : {
+      "max" : 100,
+      "current" : 100
     },
-    {
-      "id": "harness-shield-left",
-      "name": "ჯავშანფარი — მარცხენა ფარი",
-      "type": "armor",
-      "description": "გაპრიალებული ლითონის ფარი განიერი კიდით. ამ ხელში სხვა ნივთს ვერ დაიჭერ. ხელის ფარების +2 AC ერთმანეთს არ ემატება.",
-      "armorClassBonus": 2,
-      "valueGold": 0,
-      "weight": 5,
-      "pickable": true,
-      "durability": {
-        "max": 100,
-        "current": 100
-      }
+    "pickable" : true,
+    "imagePath" : null,
+    "overview" : null
+  }, {
+    "id" : "harness-shield-left",
+    "name" : "ჯავშანფარი — მარცხენა ფარი",
+    "type" : null,
+    "description" : "გაპრიალებული ლითონის ფარი განიერი კიდით. ამ ხელში სხვა ნივთს ვერ დაიჭერ. ხელის ფარების +2 AC ერთმანეთს არ ემატება.",
+    "valueGold" : 0,
+    "weight" : 5.0,
+    "damage" : null,
+    "durability" : {
+      "max" : 100,
+      "current" : 100
     },
-    {
-      "id": "harness-wraps",
-      "name": "სახელოსნოს სახვევები",
-      "type": "armor",
-      "description": "სამუშაო ქსოვილის სახვევები. აბჯრის დაცვას არ იძლევა. ატარე ფარების გარეშეც, რათა ფარების მოხსნისას ჯავშნის მაჩვენებელი სწორად გამოჩნდეს.",
-      "armorClassBonus": 0,
-      "valueGold": 0,
-      "weight": 1,
-      "pickable": true,
-      "durability": {
-        "max": 100,
-        "current": 100
-      }
+    "pickable" : true,
+    "imagePath" : null,
+    "overview" : null
+  }, {
+    "id" : "harness-wraps",
+    "name" : "სახელოსნოს სახვევები",
+    "type" : null,
+    "description" : "სამუშაო ქსოვილის სახვევები. აბჯრის დაცვას არ იძლევა. ატარე ფარების გარეშეც, რათა ფარების მოხსნისას ჯავშნის მაჩვენებელი სწორად გამოჩნდეს.",
+    "valueGold" : 0,
+    "weight" : 1.0,
+    "damage" : null,
+    "durability" : {
+      "max" : 100,
+      "current" : 100
     },
-    {
-      "id": "workshop-axe-hammer",
-      "name": "სახელოსნოს ცულ-ჩაქუჩი",
-      "type": "tool",
-      "valueGold": 6,
-      "weight": 3,
-      "pickable": true,
-      "durability": {
-        "max": 100,
-        "current": 100
-      },
-      "furnaceTier": 0,
-      "description": "ხის მოსათლელი პირი და ლითონის სამაგრების ჩასასმელი ჩაქუჩი. უკიდურეს შემთხვევაში თავისუფალი ხელით 5 ფუტში ერთი იმპროვიზებული შეტევა: ძალის მოდიფიკატორი შეტევაზე, გაწვრთნილობის ბონუსის გარეშე; მოხვედრისას 1d4 + ძალის მოდიფიკატორი დამაბლაგვებელი ზიანი. არ მუშაობს ორმაგ დარტყმასთან. ხელში დაჭერისას სიჩქარე მაქსიმუმ 30 ფუტია."
+    "pickable" : true,
+    "imagePath" : null,
+    "overview" : null
+  }, {
+    "id" : "workshop-axe-hammer",
+    "name" : "სახელოსნოს ცულ-ჩაქუჩი",
+    "type" : "tool",
+    "description" : "ხის მოსათლელი პირი და ლითონის სამაგრების ჩასასმელი ჩაქუჩი. უკიდურეს შემთხვევაში თავისუფალი ხელით 5 ფუტში ერთი იმპროვიზებული შეტევა: ძალის მოდიფიკატორი შეტევაზე, გაწვრთნილობის ბონუსის გარეშე; მოხვედრისას 1d4 + ძალის მოდიფიკატორი დამაბლაგვებელი ზიანი. არ მუშაობს ორმაგ დარტყმასთან. ხელში დაჭერისას სიჩქარე მაქსიმუმ 30 ფუტია.",
+    "valueGold" : 6,
+    "weight" : 3.0,
+    "damage" : null,
+    "durability" : {
+      "max" : 100,
+      "current" : 100
     },
-    {
-      "id": "durin-oathstaff",
-      "name": "ფიცის კვერთხი {Oathstaff}",
-      "description": "ფიცის კვერთხი {Oathstaff}. გარედან უბრალო ხის სამგზავრო ჯოხია, შიგნით კი ღრუა და საბერ მილად {Blowgun} გამოიყენება. კვერთხიდან დურინი სუნთქვით ისვრის პატარა ისრებს {Darts}, რომლებზეც გამოგონილი სააფთიაქო ნაყენის მაგიაა დატანილი. დისტანციური იარაღით შეტევა {Ranged Weapon Attack}, მაქსიმუმ 30 ფუტი. შეტევისა და ზიანისთვის გამოიყენე მოქნილობის მოდიფიკატორი {Dexterity Modifier}. მოხვედრისას გააგორე 1d6 მაგიური ძალის ზიანი {Force Damage} და დაუმატე მოქნილობის მოდიფიკატორი. გასროლა ხარჯავს ერთ ისარს, მაგრამ არა მანას. ნაყენი ცალკე ეფექტს არ ამატებს.\n\n0 სიცოცხლის ქულაზე {HP} სამიზნე ეცემა და აკეთებს სიკვდილის გადარჩენის გაგორებებს {Death Saving Throws}. დარტყმა არ კლავს და არ ასტაბილურებს სამიზნეს. ისრის ხარჯი აღრიცხე ხელით.",
-      "damage": {
-        "dice": "1d6",
-        "type": "force"
-      },
-      "durability": {
-        "max": 100,
-        "current": 100
-      },
-      "pickable": true,
-      "type": "weapon",
-      "rangedAttackFeet": 30
+    "pickable" : true,
+    "imagePath" : null,
+    "furnaceTier" : 0
+  }, {
+    "id" : "durin-oathstaff",
+    "name" : "ფიცის კვერთხი {Oathstaff}",
+    "description" : "ფიცის კვერთხი {Oathstaff}. გარედან უბრალო ხის სამგზავრო ჯოხია, შიგნით კი ღრუა და საბერ მილად {Blowgun} გამოიყენება. კვერთხიდან დურინი სუნთქვით ისვრის პატარა ისრებს {Darts}, რომლებზეც გამოგონილი სააფთიაქო ნაყენის მაგიაა დატანილი. დისტანციური იარაღით შეტევა {Ranged Weapon Attack}, მაქსიმუმ 30 ფუტი. შეტევისა და ზიანისთვის გამოიყენე მოქნილობის მოდიფიკატორი {Dexterity Modifier}. მოხვედრისას გააგორე 1d6 მაგიური ძალის ზიანი {Force Damage} და დაუმატე მოქნილობის მოდიფიკატორი. გასროლა ხარჯავს ერთ ისარს, მაგრამ არა მანას. ნაყენი ცალკე ეფექტს არ ამატებს.\n\n0 სიცოცხლის ქულაზე {HP} სამიზნე ეცემა და აკეთებს სიკვდილის გადარჩენის გაგორებებს {Death Saving Throws}. დარტყმა არ კლავს და არ ასტაბილურებს სამიზნეს. ისრის ხარჯი აღრიცხე ხელით.",
+    "damage" : {
+      "dice" : "1d6",
+      "type" : "force"
     },
-    {
-        "id": "durin-darts",
-        "name": "ფიცის კვერთხის ისრები {Oathstaff Darts}",
-        "description": "მაგიური სააფთიაქო ისრები. თითო გასროლაზე ერთი იხარჯება.",
-        "damage": null,
-        "durability": {
-            "max": 100,
-            "current": 100
-        },
-        "pickable": true
+    "durability" : {
+      "max" : 100,
+      "current" : 100
     },
-    {
-        "id": "durin-field-pack",
-        "name": "საველე ზურგჩანთა {Field Pack}",
-        "description": "საველე ზურგჩანთა {Field Pack}. ზურგჩანთაში ატარებს მკურნალის ნაკრებს {Healer’s Kit} და სამგზავრო აფთიაქს {Traveling Apothecary}: სახვევებს, სამედიცინო ხელსაწყოებს, მალამოებსა და პატარა ფლაკონებს. მძიმე ტყავის ქამარზე კიდია მაკრატელი, ქირურგიული პინცეტი და ნემსის ბუდე — ის, რაც დაჭრილთან მუხლის ჩაჩოქებისთანავე სჭირდება.",
-        "damage": null,
-        "durability": {
-            "max": 100,
-            "current": 100
-        },
-        "pickable": true
+    "pickable" : true,
+    "type" : "weapon",
+    "rangedAttackFeet" : 30
+  }, {
+    "id" : "durin-darts",
+    "name" : "ფიცის კვერთხის ისრები {Oathstaff Darts}",
+    "description" : "მაგიური სააფთიაქო ისრები. თითო გასროლაზე ერთი იხარჯება.",
+    "damage" : null,
+    "durability" : {
+      "max" : 100,
+      "current" : 100
     },
-    {
-        "id": "durin-tool-belt",
-        "name": "მძიმე სამედიცინო ქამარი {Medical Tool Belt}",
-        "description": "მძიმე ტყავის ქამარი მაკრატლით, პინცეტითა და ნემსის ბუდით.",
-        "damage": null,
-        "durability": {
-            "max": 100,
-            "current": 100
-        },
-        "pickable": true
+    "pickable" : true
+  }, {
+    "id" : "durin-field-pack",
+    "name" : "საველე ზურგჩანთა {Field Pack}",
+    "description" : "საველე ზურგჩანთა {Field Pack}. ზურგჩანთაში ატარებს მკურნალის ნაკრებს {Healer’s Kit} და სამგზავრო აფთიაქს {Traveling Apothecary}: სახვევებს, სამედიცინო ხელსაწყოებს, მალამოებსა და პატარა ფლაკონებს. მძიმე ტყავის ქამარზე კიდია მაკრატელი, ქირურგიული პინცეტი და ნემსის ბუდე — ის, რაც დაჭრილთან მუხლის ჩაჩოქებისთანავე სჭირდება.",
+    "damage" : null,
+    "durability" : {
+      "max" : 100,
+      "current" : 100
     },
-    {
-        "id": "durin-mira-button",
-        "name": "მირას სპილენძის ღილი {Mira’s Copper Button}",
-        "description": "მირას სპილენძის ღილი {Mira’s Copper Button}. თავდასხმის შემდეგ დურინმა სამედიცინო ქარავნის ნამსხვრევებში შეგირდის სამოსიდან მოწყვეტილი ღილი იპოვა. ზედ სამი მრუდე ხაზი აქვს ამოკაწრული — მირა ასე ნიშნავდა საკუთარ ნივთებს, რომ კარავში სხვისაში არ არეოდა. დურინმა ღილი თეთრი პერანგის შიგნიდან მიაკერა. მირას ცხედარი ვერ იპოვეს; ღილი მხოლოდ იმას ადასტურებს, რომ ის იქ იყო.",
-        "damage": null,
-        "durability": {
-            "max": 100,
-            "current": 100
-        },
-        "pickable": true
-    } ]
+    "pickable" : true
+  }, {
+    "id" : "durin-tool-belt",
+    "name" : "მძიმე სამედიცინო ქამარი {Medical Tool Belt}",
+    "description" : "მძიმე ტყავის ქამარი მაკრატლით, პინცეტითა და ნემსის ბუდით.",
+    "damage" : null,
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : true
+  }, {
+    "id" : "durin-mira-button",
+    "name" : "მირას სპილენძის ღილი {Mira’s Copper Button}",
+    "description" : "მირას სპილენძის ღილი {Mira’s Copper Button}. თავდასხმის შემდეგ დურინმა სამედიცინო ქარავნის ნამსხვრევებში შეგირდის სამოსიდან მოწყვეტილი ღილი იპოვა. ზედ სამი მრუდე ხაზი აქვს ამოკაწრული — მირა ასე ნიშნავდა საკუთარ ნივთებს, რომ კარავში სხვისაში არ არეოდა. დურინმა ღილი თეთრი პერანგის შიგნიდან მიაკერა. მირას ცხედარი ვერ იპოვეს; ღილი მხოლოდ იმას ადასტურებს, რომ ის იქ იყო.",
+    "damage" : null,
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : true
+  }, {
+    "id" : "item-rabbits-clock",
+    "name" : "rabbits clock",
+    "type" : null,
+    "description" : "clock that was stuck for 60 years",
+    "valueGold" : 0,
+    "weight" : 0.0,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : true,
+    "imagePath" : null,
+    "overview" : ""
+  }, {
+    "id" : "item-rabbit-ears",
+    "name" : "Rabbit ears",
+    "type" : null,
+    "description" : "",
+    "valueGold" : 0,
+    "weight" : 0.0,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : false,
+    "imagePath" : null,
+    "overview" : ""
+  }, {
+    "id" : "item-rabbit-paw",
+    "name" : "Rabbit paw",
+    "type" : null,
+    "description" : "",
+    "valueGold" : 0,
+    "weight" : 0.0,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : false,
+    "imagePath" : null,
+    "overview" : ""
+  }, {
+    "id" : "item-rabbit-metal-spine",
+    "name" : "rabbit metal spine",
+    "type" : "gear",
+    "description" : "",
+    "valueGold" : 0,
+    "weight" : 0.0,
+    "damage" : {
+      "dice" : "",
+      "type" : ""
+    },
+    "durability" : {
+      "max" : 100,
+      "current" : 100
+    },
+    "pickable" : false,
+    "imagePath" : null,
+    "overview" : ""
+  } ]
 }
